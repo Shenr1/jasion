@@ -1,0 +1,83 @@
+{%- assign fixed_aspect_ratio = false -%}
+{% unless image_size == 'natural' %}
+  {%- assign fixed_aspect_ratio = true -%}
+{% endunless %}
+
+<div class="swiper-slide {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
+  <div class="grid">
+    <div class="grid__item">
+      {%- if article.image -%}
+        <a href="{{ article.url }}" class="article__grid-image" aria-label="{{ article.title | escape }}">
+          {%- if fixed_aspect_ratio -%}
+            <div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--{{ image_size }}">
+                {%- render 'image-element',
+                  img: article.image,
+                  sizes: '33vw',
+                  widths: '360, 540, 720, 900, 1080',
+                -%}
+              </div>
+            </div>
+          {%- else -%}
+            <div class="image-wrap" style="height: 0; padding-bottom: {{ 100 | divided_by: article.image.aspect_ratio }}%;">
+              {%- render 'image-element',
+                img: article.image,
+                sizes: '33vw',
+                widths: '180, 360, 540, 720, 900, 1080',
+              -%}
+            </div>
+          {%- endif -%}
+          <div class="article__grid-meta">
+        <span>{{ blog.title }}</span>
+
+        <h3>{{ article.title }}</h3>
+        {%- if section.settings.blog_show_excerpt -%}
+          <div class="rte article__excerpt">
+            {%- if article.excerpt.size > 0 -%}
+              {{ article.excerpt }}
+            {%- else -%}
+              {{ article.content | strip_html | truncatewords: 40 }}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        <div class="article_date">
+          <span>{%- if section.settings.blog_show_date -%}
+              {{ article.published_at | time_tag: format: 'month_day_year' }}
+            {%- endif -%}
+          </span>
+          <span class="art_icon">
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="24px" height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<circle fill="#FFFFFF" stroke="#b1b1b1" stroke-width="0.5" stroke-miterlimit="10" cx="12" cy="12" r="10.875"/>
+<path fill="#FFFFFF" d="M16.475,12.347l-3.103,3.102c-0.097,0.096-0.222,0.143-0.347,0.143s-0.252-0.047-0.348-0.143
+	c-0.191-0.191-0.191-0.504,0-0.695l2.266-2.263H7.872c-0.271,0-0.49-0.219-0.49-0.491c0-0.271,0.219-0.491,0.49-0.491h7.071
+	l-2.266-2.264c-0.191-0.192-0.191-0.501,0-0.693c0.191-0.192,0.502-0.192,0.693,0l3.104,3.102c0.092,0.092,0.144,0.217,0.144,0.347
+	C16.618,12.13,16.566,12.255,16.475,12.347z"/>
+<path fill="#b1b1b1" d="M13.372,8.552c-0.19-0.192-0.502-0.192-0.692,0c-0.192,0.192-0.192,0.501,0,0.693l2.264,2.264H7.872
+	c-0.271,0-0.49,0.22-0.49,0.491s0.219,0.491,0.49,0.491h7.071l-2.266,2.263c-0.191,0.191-0.191,0.504,0,0.695
+	c0.096,0.096,0.223,0.143,0.348,0.143s0.25-0.047,0.347-0.143l3.103-3.102c0.092-0.092,0.145-0.217,0.145-0.347
+	s-0.053-0.255-0.145-0.347L13.372,8.552z"/>
+</svg>
+          </span>
+        </div>
+      </div>
+                <div class="other_info">
+                  <h3>{{ article.title }}</h3>
+                  <span class="btn">View Details</span>
+                </div>
+        </a>
+      {%- else -%}
+        <div class="article__grid-image">
+          {%- if fixed_aspect_ratio -%}
+            <div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--{{ image_size }}">
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>

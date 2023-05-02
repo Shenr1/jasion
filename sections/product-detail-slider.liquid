@@ -1,0 +1,128 @@
+<div class="page-width">
+  <div class="ds_list">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        {%- for block in section.blocks -%}
+        <div class="da_item swiper-slide text-{{ section.settings.align_text }}">
+         
+      
+          <div class="da_image">
+            <img src="{{ block.settings.image | img_url:"520x" }}">
+          </div>
+           <h2>{{ block.settings.title }}</h2>
+              {{ block.settings.content }}
+        </div>
+        {%- endfor -%}
+      </div>
+    </div>
+    <div class="nav-bottom">
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-button-prev">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.029" height="36.03" viewBox="0 0 19.029 36.03">
+  <path  d="M140.016,5576.162l.116-.118-.147-.149,17.619-17.911,1.41,1.432-16.33,16.6,16.3,16.569-1.405,1.428Z" transform="translate(-139.986 -5557.984)" fill="#1f2529" opacity="0.502"/>
+</svg>
+      </div>
+      <div class="swiper-button-next">
+        <svg xmlns="http://www.w3.org/2000/svg" width="19.092" height="35.561" viewBox="0 0 19.092 35.561">
+  <path  d="M1760.985,5592.6l16.351-16.353-16.382-16.384,1.414-1.415,17.678,17.678-.148.148.116.116-17.619,17.619Z" transform="translate(-1760.955 -5558.453)" fill="#1f2529"/>
+</svg>
+    
+      </div>
+    
+    </div>
+  </div>
+</div>
+
+<script>
+  var swiper = new Swiper(".ds_list .swiper-container", {
+        slidesPerView: 3,
+    spaceBetween : 50,
+        autoplay: false,
+        navigation: {
+            nextEl: '.ds_list .swiper-button-next',
+            prevEl: '.ds_list .swiper-button-prev',
+        },
+    scrollbar: {
+          el: ".ds_list .swiper-scrollbar",
+          draggable: true,
+        },
+    breakpoints: { 
+      300: {  //当屏幕宽度大于等于320
+        slidesPerView: 1.3,
+        spaceBetween: 20
+      },
+      768: {  //当屏幕宽度大于等于768 
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+      1024: {  //当屏幕宽度大于等于1280
+        slidesPerView: 3,
+        spaceBetween: 30
+      },
+      1280: {  //当屏幕宽度大于等于1280
+        slidesPerView: 3,
+        spaceBetween: 50
+      }
+    }
+      });
+  
+</script>
+{% schema %}
+  {
+    "name": "Detail slider",
+    "class": "pds_bg",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading",
+        "default": "Testimonials"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image-text",
+        "name": "Image text",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "label": "Text",
+            "default": "<p>Add customer reviews and review to showcase your store’s happy customers.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

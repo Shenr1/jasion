@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "2edc1ef5-12e7-49de-a450-a94ebf540025": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16675995681005__2edc1ef5-12e7-49de-a450-a94ebf540025-16823008487698151c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "How to keep chain stable"
+          }
+        },
+        "template--16675995681005__2edc1ef5-12e7-49de-a450-a94ebf540025-16823008487698151c-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>In case the chain keeps falling off, it could be due to a loose transmission. To rectify this issue, you can adjust the transmission by following the steps outlined below:<\/p><p>Shift into gear 7 and rotate the cranks forward, which should move the chain onto the smallest cog.<\/p><p>Tighten the barrel adjuster on the derailleur by turning it counterclockwise between 1\/2 to one full turn.<\/p><p>Test the alignment by shifting through all the gears while rotating the cranks forward simultaneously. Ensure that the derailleur moves the chain to each gear smoothly.<\/p><p>Repeat the adjustment by turning the barrel adjuster counterclockwise in 1\/2 to one full turn increments and testing the shifting. <\/p><p><\/p><p>Avoid turning the barrel adjuster counterclockwise all the way to prevent the adjuster from coming out of the threaded hole.<\/p><p><\/p><p>Once the issue is resolved, reinstall the battery and test the bike thoroughly.<\/p><p><br\/>If the problem persists, please contact our customer support and send us a video to help us identify the issue accurately: <strong>support@jasionbike.com<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16675995681005__2edc1ef5-12e7-49de-a450-a94ebf540025-16823008487698151c-0",
+        "template--16675995681005__2edc1ef5-12e7-49de-a450-a94ebf540025-16823008487698151c-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2edc1ef5-12e7-49de-a450-a94ebf540025"
+  ]
+}

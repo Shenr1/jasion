@@ -1,0 +1,76 @@
+<div id="">
+  <div class="page-width">
+    <div class="tab_cpanel text-{{ section.settings.align_text }}">
+      <h2>{{ section.settings.title }}</h2>
+      <div class="tab_content">
+        <picture> 
+            <source media="(max-width: 768px)" srcset="{{ section.settings.mb_image | img_url:"master" }}"> 
+            <source media="(min-width: 769px)" srcset="{{ section.settings.image | img_url:"master" }}"> 
+            <img src="{{ section.settings.image | img_url:"master" }}" alt=""> 
+        </picture>
+        <ul>
+          {%- for block in section.blocks -%}
+          <li>
+            <div class="size_info">
+              <div class="si_name">
+                <span class="num">{{ block.settings.xuhao }}</span>
+                <span>{{ block.settings.title }}</span>
+              </div>
+              <div class="si_text">{{ block.settings.text }}</div>
+            </div>
+          </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Size",
+    "class": "size_bg",
+    "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "mb_image",
+            "label": "Mobile Image"
+          },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading",
+        "default": "Testimonials"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "colum",
+        "name": "Colums",
+        "settings": [
+          {
+            "type": "text",
+            "id": "xuhao",
+            "label": "Xuhao",
+            "default": "A"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

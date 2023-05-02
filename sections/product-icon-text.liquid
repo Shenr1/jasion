@@ -1,0 +1,55 @@
+{% if section.settings.divider %}<div class="section--divider">{% endif %}
+
+<div class="page-width">
+  <div class="iw_items wow fadeInUp animated">
+    {% for block in section.blocks %}
+    <div class="iw_item">
+      <div class="iw_img">
+        <img src="{{ block.settings.image | img_url: 'master' }}">
+      </div>
+      <div class="iw_text">
+        <h4>{{ block.settings.title }}</h4>
+      </div>
+    </div>
+    <span></span>
+    {% endfor %}
+  </div>
+
+  
+</div>
+
+{% if section.settings.divider %}</div>{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Icon with text",
+    "class": "iw-list",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "text_block",
+        "name": "Column",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

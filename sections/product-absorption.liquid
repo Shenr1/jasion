@@ -1,0 +1,64 @@
+<div class="page-width">
+  {%- if section.settings.title != blank -%}
+      <div class="section-header text-{{ section.settings.align_text }}">
+        <h2>{{ section.settings.title }}</h2>
+        {{ section.settings.text }}
+      </div>
+  {%- endif -%}
+  <div class="pab-list">
+    {%- for block in section.blocks -%}
+    <div class="pab_item">
+      <h3>{{ block.settings.title }}</h3>
+      <span>{{ block.settings.text }}</span>
+    </div>
+    {%- endfor -%}
+  </div>
+  <div class="pab_img">
+    <img src="{{ section.settings.image | img_url:"master" }}">
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Absorption",
+    "class": "pab_wrapper pab_one",
+    "max_blocks": 3,
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+    ],
+    "blocks": [
+      {
+        "type": "colum",
+        "name": "Colums",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,112 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "disabled": true,
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping",
+            "link_text": "On all orders over $100",
+            "link": ""
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        },
+        "e64b2bac-529f-4146-a6f2-fc56c5b2dbd2": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-1",
+        "e64b2bac-529f-4146-a6f2-fc56c5b2dbd2"
+      ],
+      "custom_css": [
+        ".announcement-bar {background-color: #fff !important; color: #000 !important;}"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "1524770014057": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/jasion_logo.png",
+            "logo-inverted": "shopify:\/\/shop_images\/lQLPJxaDORJJb6nNAfTNAfSwDOoA1jeWMAMC2A_c_YAGAQ_500_500.png_720x720q90g.jpg",
+            "desktop_logo_width": 140,
+            "mobile_logo_width": 110
+          }
+        },
+        "1524770292306": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Free shipping",
+            "link_text": "On all orders over $100",
+            "link": "shopify:\/\/products\/universal-bicycle-combination-lock"
+          }
+        },
+        "1524770296206": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        },
+        "2c00a5d9-da5e-45ea-b4a0-cd03818dbcf0": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1524770014057",
+        "1524770292306",
+        "1524770296206",
+        "2c00a5d9-da5e-45ea-b4a0-cd03818dbcf0"
+      ],
+      "settings": {
+        "main_menu_link_list": "main-menu",
+        "mega_menu_images": true,
+        "main_menu_alignment": "left-center",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "",
+        "toolbar_social": false,
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header"
+  ]
+}

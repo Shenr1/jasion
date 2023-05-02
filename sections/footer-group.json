@@ -1,0 +1,135 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef": {
+      "type": "newsletter",
+      "blocks": {
+        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Join The Rider<\/p>"
+          }
+        },
+        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-0": {
+          "type": "title",
+          "settings": {
+            "title": "Get The Latest News & Offers.",
+            "heading_size": "h2"
+          }
+        },
+        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-2": {
+          "type": "form",
+          "settings": {
+          }
+        },
+        "05a46106-9eb8-4e27-9c1a-b5f87c0781ae": {
+          "type": "share_buttons",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-1",
+        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-0",
+        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-2",
+        "05a46106-9eb8-4e27-9c1a-b5f87c0781ae"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "align_text": "center",
+        "image_width": "33",
+        "image_mask": "none",
+        "image_position": "right",
+        "color_background": "#fbfaf7",
+        "color_text": "#1c1d1d",
+        "top_padding": true,
+        "bottom_padding": true
+      }
+    },
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false,
+        "image_size": "wide"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "c4d1b76a-b4d7-4587-8e30-26b8cac91411": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": false,
+            "title": "Custom text",
+            "image": "shopify:\/\/shop_images\/Jasion_logo_white_200x_8cce7744-ac92-4143-9cc9-446e330e0522.png",
+            "text": "<p><strong>Email: <\/strong>   <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a><\/p><p><strong>Hours:  <\/strong> 9am-5pm MST, Mon-Fri<\/p>",
+            "container_width": 28
+          }
+        },
+        "a0117bb8-6ab4-4d1a-9549-61ecc99823a9": {
+          "type": "social-media",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Follow us",
+            "code": "",
+            "container_width": 17
+          }
+        },
+        "1494301487049": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "before-you-buy",
+            "container_width": 18
+          }
+        },
+        "a76c9633-874e-436f-b7b4-5515a0b8b4c0": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "footer",
+            "container_width": 18
+          }
+        },
+        "a8c14a04-12f4-4601-b426-5c75220c4462": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "menu": "our-company",
+            "container_width": 18
+          }
+        }
+      },
+      "block_order": [
+        "c4d1b76a-b4d7-4587-8e30-26b8cac91411",
+        "a0117bb8-6ab4-4d1a-9549-61ecc99823a9",
+        "1494301487049",
+        "a76c9633-874e-436f-b7b4-5515a0b8b4c0",
+        "a8c14a04-12f4-4601-b426-5c75220c4462"
+      ],
+      "custom_css": [
+        ".image-wrap {background: transparent;}"
+      ],
+      "settings": {
+        "show_locale_selector": false,
+        "show_currency_selector": false,
+        "show_currency_flags": false,
+        "show_payment_icons": true,
+        "show_copyright": true,
+        "copyright_text": "All Right Reserved",
+        "refund_url": "shopify:\/\/policies\/refund-policy",
+        "terms_url": "shopify:\/\/policies\/terms-of-service"
+      }
+    }
+  },
+  "order": [
+    "e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef",
+    "footer-promotions",
+    "footer"
+  ]
+}

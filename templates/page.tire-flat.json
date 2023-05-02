@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "title": ""
+      }
+    },
+    "a48d32c7-610d-4625-94ee-d6eb926def0a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16676004069613__a48d32c7-610d-4625-94ee-d6eb926def0a-16823008487698151c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Tire Flat"
+          }
+        },
+        "template--16676004069613__a48d32c7-610d-4625-94ee-d6eb926def0a-16823008487698151c-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Even tires equipped with built-in, flat-preventative tire liners of Jasion bikes, can and do get flats from punctures, pinches, impact, and other causes.<\/p><p>You can try to repair and replace the tire according to the following steps. If you are not confident in your ability to successfully and safely perform all steps, we recommend having the work performed by a local, certified, and reputable bike mechanic.<\/p><ol><li>Remove both axle nuts of the rear wheel and pull the derailleur body back and remove the wheel.<\/li><li>Remove air from the inner tube. Press down on the valve with the Allen wrench to remove any remaining air.<\/li><li>Carefully lift the tire bead off of the rim. Use the tire levers to lift the tire bead off of the rim, starting anywhere but the valve and taking care to not damage the tire. Slide the tire lever down the rim to remove the tire bead from the rim. Move the tire bead off and over the rim, using tire levers.<\/li><li>Remove the tube from the rim and tire. Push the tube's valve stem out of the rim and pull the tube off the rim and out of the tire.<\/li><li>Inspect the tube, tire, and rim. Inflate the tube to identify where the leak took place. If there is a single hole in the tube, the tube was likely punctured. Inspect the tire to make sure the object that punctured the tube is gone. Inspect the rim for any damage, as well. If there are two holes close together, it is likely a pinch flat. This can occur when the wheel hits an object (like a curb or rock) and the inner tube is pinched between the tire and the rim.<\/li><li>Locate and partially inflate the replacement (or patched) tube. Inflate the tube just enough so that tube takes shape.<\/li><li>Install the tire and inner tube on the rim. Seat one side of the tire bead on the rim and work the inner tube into the tire. Then, insert the valve into the rim. Seat the second bead of the tire onto the rim.<\/li><li>Seat the bead and inspect the wheel. Starting at the valve, check the inner tube to make sure it is not being pinched between the tire and the rim. Use tire levers, if needed, to fully seat the tire bead on the rim. Use caution to not pinch the inner tube. Check that the inner tube is not sticking out from under the tire and that the tire bead is fully seated on the rim. Partially inflate the tube. Inflate the tube and perform a final inspection.<\/li><li>Reinstall the wheel, Plug in the motor connector, Flip the bike over and inflate the tire. Inflate the tire to the recommended PSI on the tire sidewall.<\/li><\/ol><p><br\/>If the problem persists, please contact our customer support and send us a video to help us identify the issue accurately: <strong>support@jasionbike.com<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16676004069613__a48d32c7-610d-4625-94ee-d6eb926def0a-16823008487698151c-0",
+        "template--16676004069613__a48d32c7-610d-4625-94ee-d6eb926def0a-16823008487698151c-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a48d32c7-610d-4625-94ee-d6eb926def0a"
+  ]
+}

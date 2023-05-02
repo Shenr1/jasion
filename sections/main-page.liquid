@@ -1,0 +1,33 @@
+<div class="top_bg" {% if section.settings.image != blank %}style="background:url({{ section.settings.image | img_url:"master" }}) center no-repeat;height:540px "{% endif %}>
+  <div class="page-width">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+{%- if page.content != blank -%}
+<div class="page-width page-width--narrow page-content">
+  
+
+  <div class="rte rte--nomargin">
+    {{ page.content }}
+  </div>
+</div>
+
+  {%- endif -%}
+{% schema %}
+{
+  "name": "Page",
+  "tag": "section",
+  "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Heading"
+      },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Background Image"
+          }
+    ]
+}
+{% endschema %}

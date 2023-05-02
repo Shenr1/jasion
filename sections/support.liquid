@@ -1,0 +1,187 @@
+<div class="page-width">
+  {%- if section.settings.title != blank -%}
+      <div class="section-header text-{{ section.settings.align_text }}">
+        <h2>{{ section.settings.title | newline_to_br }}</h2>
+      </div>
+  {%- endif -%}
+  <div class="support-list">
+    <div class="sl-left">
+      <div class="sl-content">
+        <img src="https://cdn.shopify.com/s/files/1/0729/0660/4818/files/yinhao.png?v=1679214888">
+        <div class="swiper-container swiper-no-swiping">
+          <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+            <div class="swiper-slide">
+              
+              <div class="sl_item">
+              
+                <div class="sl_text">
+                  {% if block.settings.title != blank %}
+                  <h3>{{ block.settings.title }}</h3>
+                    {% endif %}
+                  <p><span>" </span>{{ block.settings.text }}</p>
+              </div>
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div class="nav-bottom">
+      <div class="swiper-button-prev">
+        <svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="23px" height="15px">
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M22.401,7.712 L22.450,7.761 L15.539,14.719 L14.283,13.455 L19.390,8.312 L0.687,8.312 L0.687,6.500 L18.900,6.500 L14.198,1.766 L15.481,0.476 L22.535,7.578 L22.401,7.712 Z"/>
+</svg>
+      </div>
+      
+      <div class="swiper-button-next">
+        <svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="23px" height="15px">
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M22.401,7.712 L22.450,7.761 L15.539,14.719 L14.283,13.455 L19.390,8.312 L0.687,8.312 L0.687,6.500 L18.900,6.500 L14.198,1.766 L15.481,0.476 L22.535,7.578 L22.401,7.712 Z"/>
+</svg>
+      </div>
+    <div class="swiper-scrollbar"></div>
+    </div>
+    </div>
+    <div class="sl-right">
+        <div class="swiper-container swiper-no-swiping">
+          <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+            <div class="swiper-slide">
+              
+              <div class="sl_item">
+                <div class="sl_img">
+                  {%- if block.settings.image != blank -%}
+                  <img class="lazyload" src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.image.alt }}">
+                  {%- else -%}
+                   {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    {%- endif -%}
+                </div>
+              </div>
+            </div>
+            {%- endfor -%}
+          </div>
+        </div>
+    </div>
+    
+  </div>
+</div>
+
+<script>
+  var thumbsSwiper = new Swiper(".sl-right .swiper-container", {
+        slidesPerView: 1,
+        effect:'fade',
+        autoplay: 3000
+      });
+  var swiper = new Swiper(".sl-left .swiper-container", {
+        slidesPerView: 1,
+        autoplay: 3000,
+        navigation: {
+            nextEl: '.sl-left .swiper-button-next',
+            prevEl: '.sl-left .swiper-button-prev',
+        },
+    pagination: {
+      el: '.sl-left .swiper-pagination',
+      type: 'fraction'
+    },
+    thumbs: {
+          swiper: thumbsSwiper,
+        },
+    scrollbar: {
+          el: ".sl-left .swiper-scrollbar"
+        },
+    breakpoints: { 
+      320: {   
+        autoHeight: true,
+      },
+      768: {   
+        autoHeight: false,
+      }
+    }
+      });
+  
+</script>
+{% schema %}
+  {
+    "name": "Support",
+    "class": "support_bg section",
+    "max_blocks": 9,
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading",
+        "default": "Testimonials"
+      },
+      {
+        "type": "select",
+        "id": "align_text",
+        "label": "Text alignment",
+        "default": "center",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Centered"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "support",
+        "name": "Support",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "textarea",
+            "id": "text",
+            "label": "Text",
+            "default": "<p>Add customer reviews and review to showcase your store’s happy customers.</p>"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Support",
+        "blocks": [
+          {
+            "type": "support"
+          },
+          {
+            "type": "support"
+          },
+          {
+            "type": "support"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

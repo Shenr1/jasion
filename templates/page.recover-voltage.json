@@ -1,0 +1,42 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "f1a4d5d6-1851-4106-afbf-47497fa9583d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16676004102381__f1a4d5d6-1851-4106-afbf-47497fa9583d-16823008487698151c-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Why display shows full charge, but still insufficient range?"
+          }
+        },
+        "template--16676004102381__f1a4d5d6-1851-4106-afbf-47497fa9583d-16823008487698151c-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>This situation indicates that you need to recover the voltage.<br\/>Please refer to your battery voltage, the standard numbers are as follows:<br\/>36v: 31.5 - 34.5 - 35.6 - 37.4 - 39.2<br\/>48v: 40.0 - 44.5 - 46.5 - 47.5 - 49<br\/>Please refer to the video below for adjustment, if the tuned numbers are not the same, please turn off and retune.<\/p><p>If the problem persists, please contact our customer support and send us a video to help us identify the issue accurately: <strong>support@jasionbike.com<\/strong><br\/><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16676004102381__f1a4d5d6-1851-4106-afbf-47497fa9583d-16823008487698151c-0",
+        "template--16676004102381__f1a4d5d6-1851-4106-afbf-47497fa9583d-16823008487698151c-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f1a4d5d6-1851-4106-afbf-47497fa9583d"
+  ]
+}

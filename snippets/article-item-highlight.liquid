@@ -1,0 +1,86 @@
+{%- assign fixed_aspect_ratio = false -%}
+{% unless image_size == 'natural' %}
+  {%- assign fixed_aspect_ratio = true -%}
+{% endunless %}
+
+<div class="swiper-slide {{ grid_item_width }}" data-aos="row-of-{{ per_row }}">
+ 
+      {%- if article.image -%}
+        <a href="{{ article.url }}" class="article__grid-image" aria-label="{{ article.title | escape }}">
+          {%- if fixed_aspect_ratio -%}
+            <div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--{{ image_size }}">
+                {%- render 'image-element',
+                  img: article.image,
+                  sizes: '66vw',
+                  widths: '360, 540, 720, 900, 1080',
+                -%}
+              </div>
+            </div>
+          {%- else -%}
+            <div class="image-wrap" style="height: 0; opacity:1; padding-bottom: {{ 49 | divided_by: article.image.aspect_ratio }}%;">
+              {%- render 'image-element',
+                img: article.image,
+                sizes: '66vw',
+                widths: '180, 360, 540, 720, 900, 1080',
+              -%}
+            </div>
+          {%- endif -%}
+          <div class="article__grid-meta" style="opacity:0;">
+        <span>{{ blog.title }}</span>
+
+        <h3>{{ article.title }}</h3>
+        {%- if section.settings.blog_show_excerpt -%}
+          <div class="rte article__excerpt">
+            {%- if article.excerpt.size > 0 -%}
+              {{ article.excerpt }}
+            {%- else -%}
+              {{ article.content | strip_html | truncatewords: 40 }}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+        <div class="article_date">
+          <span>{%- if section.settings.blog_show_date -%}
+              {{ article.published_at | time_tag: format: 'month_day_year' }}
+            {%- endif -%}
+          </span>
+          <span class="art_icon">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+              <g id="circle" fill="rgba(255,255,255,0)" stroke="#a8a3a3" stroke-width="1">
+                <circle cx="17.5" cy="17.5" r="17.5" stroke="none"/>
+                <circle cx="17.5" cy="17.5" r="17" fill="none"/>
+              </g>
+              <image id="right" width="15" height="11" transform="translate(10 11)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAABHNCSVQICAgIfAhkiAAAAK9JREFUKFNjrKqtZyAA1IHyZ4E4BIh3IKtlJEIzJ1DDOiD2AGJHID4AM4AYzTC1y4CMSCB2AOKDIEFSNIPUzwTiNCC2B+JDMM0shDwOlP8DVbMWSAeBDABp3gN1ChH6GX4AFV0AYmuYs92BDHEidP4HqnkExJlAHA7Ek0n1swZQ03Ug7gXiElI0+wE1bATi6UCcRUpoxwMVLwDiGVBng31JjM1yQHUPgHg2EKcjhw0Aknso7exILy0AAAAASUVORK5CYII="/>
+            </svg>
+          </span>
+        </div>
+      </div>
+         <div class="other_info" style="opacity:1; bottom:0;">
+               <span class="art_icon" style="float:right;">
+            <svg id="icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+              <g id="circle" fill="rgba(255,255,255,1)" stroke="#fff" stroke-width="1">
+                <circle cx="17.5" cy="17.5" r="17.5" stroke="none"></circle>
+                <circle cx="17.5" cy="17.5" r="17" fill="none"></circle>
+              </g>
+              <image id="right" width="15" height="11" transform="translate(10 11)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAALCAYAAACgR9dcAAAABHNCSVQICAgIfAhkiAAAAK9JREFUKFNjrKqtZyAA1IHyZ4E4BIh3IKtlJEIzJ1DDOiD2AGJHID4AM4AYzTC1y4CMSCB2AOKDIEFSNIPUzwTiNCC2B+JDMM0shDwOlP8DVbMWSAeBDABp3gN1ChH6GX4AFV0AYmuYs92BDHEidP4HqnkExJlAHA7Ek0n1swZQ03Ug7gXiElI0+wE1bATi6UCcRUpoxwMVLwDiGVBng31JjM1yQHUPgHg2EKcjhw0Aknso7exILy0AAAAASUVORK5CYII="></image>
+            </svg>
+          </span>
+           <h3>{{ article.title }}</h3>
+
+           
+                </div>
+        </a>
+      {%- else -%}
+        <div class="article__grid-image">
+          {%- if fixed_aspect_ratio -%}
+            <div class="image-wrap">
+              <div
+                class="grid__image-ratio grid__image-ratio--{{ image_size }}">
+              </div>
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+ 
+</div>

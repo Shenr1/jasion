@@ -1,0 +1,908 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "7c647d1e-b8b4-4c2c-a281-ad20d3ad2a7f": {
+          "type": "discount",
+          "disabled": true,
+          "settings": {
+            "title": "Black Friday Sale Begins!",
+            "text": "Buy 2 save extra $200",
+            "code": "E200"
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "9c1b0d47-2a82-430a-8a1c-824e897fcca9": {
+          "type": "custom-text",
+          "disabled": true,
+          "settings": {
+            "text": "<ul><li>Extra $200 Off for 2 Bikes with code <strong>BUYTWO<\/strong><\/li><li>In stock items ship within <strong>2 business days.<\/strong><\/li><\/ul>"
+          }
+        },
+        "636bf6c9-5bdb-4e29-8659-7bc75557f59e": {
+          "type": "freegift",
+          "disabled": true,
+          "settings": {
+            "title": "Jasion EB7 Rear",
+            "image": "shopify:\/\/shop_images\/zj.jpg",
+            "price": "$79",
+            "link": ""
+          }
+        },
+        "df3e341a-3a08-474a-84da-a3e681a5c3aa": {
+          "type": "freegift",
+          "disabled": true,
+          "settings": {
+            "title": "Jasion EB7 Rear",
+            "image": "shopify:\/\/shop_images\/zj.jpg",
+            "price": "$79",
+            "link": ""
+          }
+        },
+        "6fedc0d2-97e5-4451-befb-caed84101eac": {
+          "type": "question",
+          "settings": {
+            "title": "Have questions?",
+            "text": "<p>Our world-class Customer Experience team is here to answer all of your questions.<\/p><ul><li>Hours:  9am - 6pm UTC-8 from Mon - Fri<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
+          }
+        },
+        "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
+          "type": "payment_icon",
+          "settings": {
+            "text": "Pay with Ease"
+          }
+        },
+        "e401c66a-9f93-4c53-9ec3-a55978b673da": {
+          "type": "shipping_icon",
+          "settings": {
+            "text": "Trusted Delivery",
+            "image": "shopify:\/\/shop_images\/pic.png"
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "7c647d1e-b8b4-4c2c-a281-ad20d3ad2a7f",
+        "variant_picker",
+        "buy_buttons",
+        "9c1b0d47-2a82-430a-8a1c-824e897fcca9",
+        "636bf6c9-5bdb-4e29-8659-7bc75557f59e",
+        "df3e341a-3a08-474a-84da-a3e681a5c3aa",
+        "6fedc0d2-97e5-4451-befb-caed84101eac",
+        "fc8669d4-8596-4ce3-abb7-9631a4848ccf",
+        "e401c66a-9f93-4c53-9ec3-a55978b673da"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "show_freegift": false,
+        "free_title": "Free Gift (Ends Soon)",
+        "show_upsell": true,
+        "upsell_title": "Most Popular Upgrades"
+      }
+    },
+    "25641c25-1728-4b22-8d51-73f27247e1be": {
+      "type": "product-icon-text",
+      "blocks": {
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/14ee4bcf0fecafc2c6d76db3f260460a.png",
+            "title": "Fast Delivery"
+          }
+        },
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/e6fcca86d29f47bbbba02d89c252cbbb.png",
+            "title": "1-Year Warranty"
+          }
+        },
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4644f593bcee0c4f92851631365e1646.png",
+            "title": "Fast Support"
+          }
+        },
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/31.png",
+            "title": "31-Day Trial"
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-0",
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-1",
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-2",
+        "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-3"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "nav": {
+      "type": "product-nav",
+      "settings": {
+      }
+    },
+    "bed87367-cbf5-436a-961a-e08e479ced98": {
+      "type": "product-image-slider",
+      "blocks": {
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3_00cb58ed-671b-4722-b1a9-313f564dedf8.jpg"
+          }
+        },
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-1": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_c7cca716-619d-4c62-b25d-67ace841ecc9.jpg"
+          }
+        },
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_226f2e87-58a1-4e54-abbe-8206d1cd56e3.jpg"
+          }
+        },
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-3": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4_71b41ce6-814b-4bc8-acba-f9b394c27840.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-0",
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-1",
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-2",
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-3"
+      ],
+      "settings": {
+        "title": "Superior Performance",
+        "text": "<p>Jasion EB5 electric mountain bike applies the classic mountain bike style. The removable battery allows you to charge it at home or office conveniently. Ranges up to 40 miles on a single charge, making it easier for you to travel between city streets.<\/p>",
+        "link": "https:\/\/youtu.be\/Uj2Or_Jb8_c"
+      }
+    },
+    "a80e6218-7420-4ebd-a621-aedb1d2e649e": {
+      "type": "product-absorption",
+      "blocks": {
+        "template--18321957847314__a80e6218-7420-4ebd-a621-aedb1d2e649e-16797961900415d37e-0": {
+          "type": "colum",
+          "settings": {
+            "title": "40 Miles",
+            "text": "Pedal-Assist Mode"
+          }
+        },
+        "template--18321957847314__a80e6218-7420-4ebd-a621-aedb1d2e649e-16797961900415d37e-1": {
+          "type": "colum",
+          "settings": {
+            "title": "Low Price Sales",
+            "text": "To Fully Charge"
+          }
+        },
+        "template--18321957847314__a80e6218-7420-4ebd-a621-aedb1d2e649e-16797961900415d37e-2": {
+          "type": "colum",
+          "settings": {
+            "title": "350 Wh",
+            "text": "Total Battery Capacity"
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__a80e6218-7420-4ebd-a621-aedb1d2e649e-16797961900415d37e-0",
+        "template--18321957847314__a80e6218-7420-4ebd-a621-aedb1d2e649e-16797961900415d37e-1",
+        "template--18321957847314__a80e6218-7420-4ebd-a621-aedb1d2e649e-16797961900415d37e-2"
+      ],
+      "settings": {
+        "title": "The Perfect City Partner E-bike",
+        "text": "<p>EB5 major city commuting, allowing consumers to change the way they ride. A new energy bike for the price of a regular bike<\/p>",
+        "image": "shopify:\/\/shop_images\/5.jpg"
+      }
+    },
+    "ef3cedf3-f144-4f00-b80b-8298530c3a0e": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--16667043201261__ef3cedf3-f144-4f00-b80b-8298530c3a0e-1681281612f9e52e4e-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/10001.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/10002.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16667043201261__ef3cedf3-f144-4f00-b80b-8298530c3a0e-1681281612f9e52e4e-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "41ed966e-380a-4daf-a3d2-1e1019a5c1c0": {
+      "type": "product-riding",
+      "blocks": {
+        "572ffc50-0782-42b1-8f18-87064cb1502b": {
+          "type": "riding",
+          "settings": {
+            "title": "High Strength Shock Absorption",
+            "text": "<p>Add customer reviews and review to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/87271036bfe172eaf14f3b4ba2c00a87.jpg"
+          }
+        },
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0": {
+          "type": "riding",
+          "settings": {
+            "title": "Shimano 7 Speed",
+            "text": "<p>The Shimano 7-speed gear shifter allows you to change the gears for adapting to different terrains on demand.<\/p>",
+            "image": "shopify:\/\/shop_images\/8442c200f6071f945bbaf13f2d33bd29.jpg"
+          }
+        },
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1": {
+          "type": "riding",
+          "settings": {
+            "title": "Integrated Headlight&Taillights",
+            "text": "<p>Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.<\/p>",
+            "image": "shopify:\/\/shop_images\/1_7fd0bf3b-3b97-4c82-aa68-f6bd0bf3bd2e.jpg"
+          }
+        },
+        "9d5b06eb-c4ea-4714-bfab-84cccd66f580": {
+          "type": "riding",
+          "settings": {
+            "title": "Dual Disc Brake System",
+            "text": "<p>The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force at a short distance whether in wet or dry conditions.<\/p>",
+            "image": "shopify:\/\/shop_images\/7a852d941a1ce499f530a970aec038c9.jpg"
+          }
+        },
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-2": {
+          "type": "riding",
+          "settings": {
+            "title": "350W Brushless Motor",
+            "text": "<p>Equipped with a 350W brushless motor, the speed of EB5 can reach upto 20Mph, bringing you a more efficient riding experience.<\/p>",
+            "image": "shopify:\/\/shop_images\/e28a42c4475362c949415a1c17dcc923.jpg"
+          }
+        },
+        "2fe9a368-0351-4a08-9fec-5074bd48fca7": {
+          "type": "riding",
+          "settings": {
+            "title": "Battery USB Charging",
+            "text": "<p>EB5 motor battery can help you charge your phone on the go and solve the problem of your phone running low on power.<\/p>",
+            "image": "shopify:\/\/shop_images\/0dfaebdb33836a7402e948ec8e1c1ad2_3e52de08-db4a-4d7f-a927-f2955418244b.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "572ffc50-0782-42b1-8f18-87064cb1502b",
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0",
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1",
+        "9d5b06eb-c4ea-4714-bfab-84cccd66f580",
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-2",
+        "2fe9a368-0351-4a08-9fec-5074bd48fca7"
+      ],
+      "settings": {
+        "title": "Unique Features of Jasion EB5",
+        "text": "<p>The main focus of EB5 is to popularize electric bicycles to a wide range of consumers, allowing users to experience the trend of new energy at a very low price.<\/p>"
+      }
+    },
+    "284f41b4-084a-4a8d-8976-b3fa9fef9ee6": {
+      "type": "product-modes",
+      "blocks": {
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-0": {
+          "type": "colum",
+          "settings": {
+            "title": "01. Pedal Assist Mode",
+            "text": "Use the display to adjust the assist level from 1-3 to meet your daily needs."
+          }
+        },
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-1": {
+          "type": "colum",
+          "settings": {
+            "title": "02. Half Twist Throttle",
+            "text": "Use the Half Twist Throttle to accelerate your bike freely."
+          }
+        },
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-2": {
+          "type": "colum",
+          "settings": {
+            "title": "03. Odometer",
+            "text": "Set the assist level to 0 and pedal like a normal bike."
+          }
+        },
+        "6c29e716-892e-4d6b-a463-9634ef79c3c1": {
+          "type": "colum",
+          "settings": {
+            "title": "04. Booster Mode",
+            "text": "The e-bike will travel at 6 km\/h (3.73miles\/h), easy to push."
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-0",
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-1",
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-2",
+        "6c29e716-892e-4d6b-a463-9634ef79c3c1"
+      ],
+      "settings": {
+        "title": "Jasion EB5 Technology Patents Four Working Modes",
+        "text": "<p>EB5 adds booster mode to the 4 basic modes. The Booster mode can help you push your EB5 effortlessly. Especially when you wheel the bike uphill, which will save you a lot of effort.<\/p>",
+        "image": "shopify:\/\/shop_images\/cbb87ce47ccf730916d65c822bf1e7fe.jpg",
+        "title_two": "Removable &  Built-in Battery",
+        "text_two": "<p>A hidden and removable lithium-ion battery makes for a clean design and makes charging more convenient while powering your ride for up to 40 miles on a single charge. <\/p>",
+        "image_two": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_c446170d-848e-477f-ba18-57148ad88e09.jpg"
+      }
+    },
+    "c52fc71f-8260-4c21-8e19-99cec97f538d": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "template--18321957847314__c52fc71f-8260-4c21-8e19-99cec97f538d-1679810620d2528418-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Efficient Brushless Motor",
+            "title_size": 47,
+            "subheading": "Sustained 350W brushless geared hub motor allows you to ride freely through the city blocks, light trails, and dirt roads just like the breeze. There're no obstacles to a steep hill and you can enjoy it on your energized outing journey.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/AshleyE7-17-1.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__c52fc71f-8260-4c21-8e19-99cec97f538d-1679810620d2528418-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "cf47bd2d-50b7-4ecb-ad4e-b576dcf5bdaa": {
+      "type": "product-detail-slider",
+      "disabled": true,
+      "blocks": {
+        "a259e0a0-6c32-4baa-b760-14449de0bd75": {
+          "type": "image-text",
+          "settings": {
+            "title": "Foldable Foot",
+            "content": "<p>The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force even in the harshest conditions.<\/p>",
+            "image": "shopify:\/\/shop_images\/Foldable_Foot.jpg"
+          }
+        },
+        "7a6f508b-ff9f-4a60-bcc7-e8d08cd75dc7": {
+          "type": "image-text",
+          "settings": {
+            "title": "Portable and Folding",
+            "content": "<p>Store lift, and fold your bike with ease, thoughtful folding features, improved mobility.<\/p>",
+            "image": "shopify:\/\/shop_images\/Portable_and_Folding.jpg"
+          }
+        },
+        "cbcf7cb4-6f38-45ed-b5d9-7d4a9cac98b4": {
+          "type": "image-text",
+          "settings": {
+            "title": "Mechanical Disc Brakes",
+            "content": "<p>The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force even in the harshest conditions.<\/p>",
+            "image": "shopify:\/\/shop_images\/Mechanical_Disc_Brakes.jpg"
+          }
+        },
+        "51894574-fa01-4f53-9669-e4eacd524623": {
+          "type": "image-text",
+          "settings": {
+            "title": "Example title",
+            "content": "<p>Add customer reviews and review to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/Mechanical_Disc_Brakes.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a259e0a0-6c32-4baa-b760-14449de0bd75",
+        "7a6f508b-ff9f-4a60-bcc7-e8d08cd75dc7",
+        "cbcf7cb4-6f38-45ed-b5d9-7d4a9cac98b4",
+        "51894574-fa01-4f53-9669-e4eacd524623"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "left"
+      }
+    },
+    "fa6c41da-f62f-4770-a576-6e42860d7e0b": {
+      "type": "product-spec",
+      "blocks": {
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-0": {
+          "type": "colum",
+          "settings": {
+            "title": "Battery",
+            "text": "36V 10Ah",
+            "dis": "Lithium Battery"
+          }
+        },
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-1": {
+          "type": "colum",
+          "settings": {
+            "title": "Charging Time",
+            "text": "4-5 hours",
+            "dis": ""
+          }
+        },
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-2": {
+          "type": "colum",
+          "settings": {
+            "title": "Charger",
+            "text": "36V\/2A",
+            "dis": ""
+          }
+        },
+        "da70ceb5-5929-45b5-996c-2f0a543b17e3": {
+          "type": "colum",
+          "settings": {
+            "title": "Hub Motor",
+            "text": "350W",
+            "dis": "Brushless Gear Motor"
+          }
+        },
+        "d269ea1a-f74e-4dbf-aca6-47703f90fed9": {
+          "type": "colum",
+          "settings": {
+            "title": "Range",
+            "text": "40 Miles",
+            "dis": "Pedal Assist"
+          }
+        },
+        "75ef3833-2923-42fd-8a27-61b79094fb7c": {
+          "type": "colum",
+          "settings": {
+            "title": "Pedal",
+            "text": "1-3 Level",
+            "dis": "Assist Intelligent 1~3 Level Pedal Assist"
+          }
+        },
+        "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd": {
+          "type": "colum",
+          "settings": {
+            "title": "Brakes",
+            "text": "160mm",
+            "dis": ""
+          }
+        },
+        "c6bfb3aa-7fef-4cee-94f7-162da628af38": {
+          "type": "colum",
+          "settings": {
+            "title": "Tires",
+            "text": "26\" x 1.95\"",
+            "dis": ""
+          }
+        },
+        "7a6d0154-da12-4922-9406-cb0ece31b6e1": {
+          "type": "colum",
+          "settings": {
+            "title": "MAX Payload Capacity",
+            "text": "264 LBS",
+            "dis": ""
+          }
+        },
+        "97b19507-6f34-4c2d-b7df-1ce217c7f17f": {
+          "type": "colum",
+          "settings": {
+            "title": "Product Dimensions",
+            "text": "68.1x25.2x42.5 (Inch)",
+            "dis": ""
+          }
+        },
+        "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
+          "type": "colum",
+          "settings": {
+            "title": "IP Level",
+            "text": "IP65",
+            "dis": ""
+          }
+        },
+        "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0": {
+          "type": "colum",
+          "settings": {
+            "title": "Bell\/Horn",
+            "text": "Electric Horn Installed",
+            "dis": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-0",
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-1",
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-2",
+        "da70ceb5-5929-45b5-996c-2f0a543b17e3",
+        "d269ea1a-f74e-4dbf-aca6-47703f90fed9",
+        "75ef3833-2923-42fd-8a27-61b79094fb7c",
+        "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd",
+        "c6bfb3aa-7fef-4cee-94f7-162da628af38",
+        "7a6d0154-da12-4922-9406-cb0ece31b6e1",
+        "97b19507-6f34-4c2d-b7df-1ce217c7f17f",
+        "6fc1d007-7fbd-4646-bdf9-e613017f5504",
+        "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0"
+      ],
+      "settings": {
+        "title": "Specifications"
+      }
+    },
+    "b77dda8e-ede6-42af-956c-a823223f7dfd": {
+      "type": "product-size",
+      "blocks": {
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-0": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Total Length",
+            "text": "68\""
+          }
+        },
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-1": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "B",
+            "title": "Handlebar Height",
+            "text": "42.5\""
+          }
+        },
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-2": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "C",
+            "title": "Wheelbase",
+            "text": "42\""
+          }
+        },
+        "7d4c68ef-5fde-4e4d-8fa6-1833282d5618": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "D",
+            "title": "Minimum Seat Height",
+            "text": "30\""
+          }
+        },
+        "602fd883-223f-4ae0-bbe7-acac4edb5b52": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "E",
+            "title": "Maximum Seat Height",
+            "text": "39\""
+          }
+        },
+        "5c6bd7e4-a84f-4673-b2b6-be53ed7dc646": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "F",
+            "title": "Chain Stay length",
+            "text": "18\""
+          }
+        },
+        "f0251f85-8ec5-42cd-9a4c-355b1616fc96": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "G",
+            "title": "Stand Height",
+            "text": "30\""
+          }
+        },
+        "5d2209a0-ca5b-427e-92aa-7a5fd31fb37d": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "H",
+            "title": "Top Tube Length",
+            "text": "23\""
+          }
+        },
+        "60e270cc-2cbb-488f-b7bc-bb69cbf16a91": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "I",
+            "title": "Wheel Diameter",
+            "text": "25\""
+          }
+        },
+        "cabc8b27-0138-49c2-b0c6-a51404c00952": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "J",
+            "title": "Head Tube Length",
+            "text": "7\""
+          }
+        },
+        "00686f5c-061f-4f77-9f9f-9d20ff395138": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "K",
+            "title": "Handlebar Length",
+            "text": "25\""
+          }
+        },
+        "ec7d9807-8bd6-48e6-bc70-5b790aa61492": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "L",
+            "title": "Minimum Seat to Floor",
+            "text": "33.5\""
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-0",
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-1",
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-2",
+        "7d4c68ef-5fde-4e4d-8fa6-1833282d5618",
+        "602fd883-223f-4ae0-bbe7-acac4edb5b52",
+        "5c6bd7e4-a84f-4673-b2b6-be53ed7dc646",
+        "f0251f85-8ec5-42cd-9a4c-355b1616fc96",
+        "5d2209a0-ca5b-427e-92aa-7a5fd31fb37d",
+        "60e270cc-2cbb-488f-b7bc-bb69cbf16a91",
+        "cabc8b27-0138-49c2-b0c6-a51404c00952",
+        "00686f5c-061f-4f77-9f9f-9d20ff395138",
+        "ec7d9807-8bd6-48e6-bc70-5b790aa61492"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/lQDPJwlALA0LgmrNAcfNBg6wZopnKxnellcELqi3EEB8AA_1550_455.jpg",
+        "mb_image": "shopify:\/\/shop_images\/mobile-sizing.jpg",
+        "title": "Sizing"
+      }
+    },
+    "42e88095-3500-4892-98dd-ff85f2c80402": {
+      "type": "product-video",
+      "settings": {
+        "title": "EB5 Assembly Instructions",
+        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU"
+      }
+    },
+    "2970933c-48cf-4d97-9043-4bd83129230b": {
+      "type": "product-faq",
+      "blocks": {
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0": {
+          "type": "question",
+          "settings": {
+            "title": "Does my height suit this bike?",
+            "text": "<p>The recommended rider height is  5'4\"-6'4\".<\/p>"
+          }
+        },
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the maximum load capacity of this bike?",
+            "text": "<p>The maximum load capacity of EB5 is 264LBS.<\/p>"
+          }
+        },
+        "6fae0f7c-5907-4728-800d-d14bb312b273": {
+          "type": "question",
+          "settings": {
+            "title": "Does the bike come with most assembly?",
+            "text": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on the product page.<\/p>"
+          }
+        },
+        "1c1bc88e-4611-4338-b9e2-dd0bd44d220b": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to fully charge the battery?",
+            "text": "<p>It will take 4-5 hours.<\/p>"
+          }
+        },
+        "824f614f-a3e7-4d79-969e-209105165519": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take for my shipment to arrive?",
+            "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0",
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-1",
+        "6fae0f7c-5907-4728-800d-d14bb312b273",
+        "1c1bc88e-4611-4338-b9e2-dd0bd44d220b",
+        "824f614f-a3e7-4d79-969e-209105165519"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "8d610dcc-2ccf-45ab-92d5-71bc0eff844c": {
+      "type": "product-box",
+      "blocks": {
+        "4796a31e-27a5-4f93-8727-9e5ca70b0ece": {
+          "type": "colum",
+          "settings": {
+            "title": "1* ELECTRIC BIKE"
+          }
+        },
+        "4d5e855d-e1d1-42e9-95c5-ca3ef87ee404": {
+          "type": "colum",
+          "settings": {
+            "title": "1*BATTERY"
+          }
+        },
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-0": {
+          "type": "colum",
+          "settings": {
+            "title": "1* User Manual"
+          }
+        },
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-1": {
+          "type": "colum",
+          "settings": {
+            "title": "2* Pedals"
+          }
+        },
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-2": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Front Wheel Screw"
+          }
+        },
+        "eefe159b-9bb8-47f4-84d1-3dab23705bcc": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Front Wheel"
+          }
+        },
+        "2b7c17be-0198-4a6a-9a64-d996807225f7": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Seat with Tail Light"
+          }
+        },
+        "c48da3a6-f384-4998-9020-4d07496ccf44": {
+          "type": "colum",
+          "settings": {
+            "title": "2* Wrenchs 3* Allen Key Wrenchs"
+          }
+        },
+        "b97ef82d-1bb3-4b05-a896-95dd6523230c": {
+          "type": "colum",
+          "settings": {
+            "title": "2* Keys"
+          }
+        },
+        "66bbefb6-b1e6-4db8-b3b9-ed430356bc92": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Charger & 1*USB Cable"
+          }
+        }
+      },
+      "block_order": [
+        "4796a31e-27a5-4f93-8727-9e5ca70b0ece",
+        "4d5e855d-e1d1-42e9-95c5-ca3ef87ee404",
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-0",
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-1",
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-2",
+        "eefe159b-9bb8-47f4-84d1-3dab23705bcc",
+        "2b7c17be-0198-4a6a-9a64-d996807225f7",
+        "c48da3a6-f384-4998-9020-4d07496ccf44",
+        "b97ef82d-1bb3-4b05-a896-95dd6523230c",
+        "66bbefb6-b1e6-4db8-b3b9-ed430356bc92"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1550x455.jpg",
+        "mb_image": "shopify:\/\/shop_images\/610x1100_-eb5.jpg",
+        "title": "What's in the Box?",
+        "align_text": "left"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 6,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "167984018422fa69c0": {
+      "type": "apps",
+      "blocks": {
+        "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "25641c25-1728-4b22-8d51-73f27247e1be",
+    "nav",
+    "bed87367-cbf5-436a-961a-e08e479ced98",
+    "a80e6218-7420-4ebd-a621-aedb1d2e649e",
+    "ef3cedf3-f144-4f00-b80b-8298530c3a0e",
+    "41ed966e-380a-4daf-a3d2-1e1019a5c1c0",
+    "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
+    "c52fc71f-8260-4c21-8e19-99cec97f538d",
+    "cf47bd2d-50b7-4ecb-ad4e-b576dcf5bdaa",
+    "fa6c41da-f62f-4770-a576-6e42860d7e0b",
+    "b77dda8e-ede6-42af-956c-a823223f7dfd",
+    "42e88095-3500-4892-98dd-ff85f2c80402",
+    "2970933c-48cf-4d97-9043-4bd83129230b",
+    "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "167984018422fa69c0"
+  ]
+}

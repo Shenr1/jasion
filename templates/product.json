@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "judgeme_preview_badge_product_page_a5be8971": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "judgeme_preview_badge_product_page_a5be8971",
+        "variant_picker",
+        "buy_buttons"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "show_freegift": false,
+        "free_title": "Free Accessories Included",
+        "show_upsell": true,
+        "upsell_title": "Most Popular Upgrades"
+      }
+    },
+    "accessories": {
+      "type": "accessories-content",
+      "settings": {
+        "text": ""
+      }
+    },
+    "judgeme_section_review_widget_96d0": {
+      "type": "apps",
+      "disabled": true,
+      "blocks": {
+        "judgeme_review_widget_dfea9d1c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_dfea9d1c"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "c6f49c3e-a590-47ba-937a-ccc5ffff2a53": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Product Recommendation",
+        "home_featured_products": "accessories",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": false,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "accessories",
+    "judgeme_section_review_widget_96d0",
+    "c6f49c3e-a590-47ba-937a-ccc5ffff2a53"
+  ]
+}
