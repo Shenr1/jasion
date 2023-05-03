@@ -4,6 +4,7 @@
   mobile_layout
 {% endcomment %}
 
+
 {%- liquid
   assign current_variant = product.selected_or_first_available_variant
 
@@ -623,3 +624,95 @@
     </div>
   </div>
 </div>
+
+
+<style>
+.variant-containers{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #dddddd;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+  overflow: hidden;
+  border-radius: 4px;
+}
+.variant-wrapper{
+  margin-bottom: 3rem;
+}
+.variant-price-wrap{
+  font-size: .75rem;
+  text-align: center;
+  background-color: #efefef;
+  font-weight: 600;
+  padding: 4px 8px;
+}
+.variant-price-wrap p,
+[data-center-text=true] .variant-input-wrap label{
+  margin: 0;
+}
+.variant-input-wrap label{
+  margin-bottom: 0!important;
+  box-shadow: none;
+  width: 120px;
+  height: 100px;
+  background-size: 90%;
+}
+
+.variant-input-wrap input[type=radio]:checked+.variant-containers{
+  border: 2px solid #000000;
+}
+.og-price{
+  text-decoration: line-through;
+  color: #9e9e9e;
+  font-weight: normal;
+}
+</style>
+
+<script>
+ $(function(){
+
+    //选择option后 根据alttext去切换轮播图
+    $("input.swatchInput").change(function(){
+        var altVal = "";
+        var i = 0;
+        var accessoryStatus = $(this).parent(".swatch-element-accessory").length;
+        if(accessoryStatus > 0){ //如果存在配件的标识
+          $(".swatch-element-accessory").removeClass("swatch-element-accessory-active");
+          $(this).parent(".swatch-element-accessory").addClass("swatch-element-accessory-active");
+        }
+        $("input.swatchInput:checked").each(function(){
+          var currentVal = $(this).val()
+          currentVal = currentVal.replace(/\s/g,"").toLowerCase()
+          if(i < 2){
+            altVal += currentVal
+            if(i < 1){
+              altVal += "_";
+            }
+          }
+          i++;
+        })
+
+
+        const optionIndex = parseInt($(this).data("index").replace(/\D/g, ''));
+        $(`[data-option-index=${optionIndex - 1}]`).text($(this).val());
+
+         if($("."+altVal).length > 0){
+           var slideIndex = $("."+altVal).parent(".slick-slide").data("slick-index");
+           console.log(slideIndex)
+           imgSlider.slick("slickGoTo",slideIndex)
+  
+           //控制radioa按钮 
+          var checkedItem = $(".variant-input.swatch-element input")[slideIndex].defaultValue
+          $(".variant__button-label.color-swatch.color-swatch--"+checkedItem).parent().parent().parent().find(".variant-input.swatch-element input").prop("checked",false)
+          $(".variant__button-label.color-swatch.color-swatch--"+checkedItem).siblings("input").prop("checked",true)
+          var colornames = $(".variant__button-label.color-swatch.color-swatch--"+checkedItem).siblings("input").data("color-name");
+          $(".variant__button-label.color-swatch.color-swatch--"+checkedItem).parent().parent().parent().find(".variant__label-info").text(colornames);
+           
+         }
+    })
+
+
+
+
+})
+</script>
