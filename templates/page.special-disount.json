@@ -10,20 +10,6 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "550979e7-c53e-47a8-8020-21f3c4df3a2d": {
-          "type": "order",
-          "settings": {
-            "title": "How can I track my order?",
-            "text": "<p>Click <a href=\"https:\/\/jasionbike.com\/apps\/17TRACK?ref=r8eji_4hqjz\">HERE<\/a> to track your order.<\/p>"
-          }
-        },
-        "8e2e9977-5ba5-488e-8fe2-b7db775b5dff": {
-          "type": "order",
-          "settings": {
-            "title": "How can I cancel my order?",
-            "text": "<p>Your order can only be canceled <strong>before it ships<\/strong>.To cancel the order, please email us: <a href=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>.Canceling order request may not available during the weekend or holiday.<\/p>"
-          }
-        },
         "bf558652-0118-4126-a76c-26b6208d0dfd": {
           "type": "order",
           "settings": {
@@ -146,8 +132,6 @@
         }
       },
       "block_order": [
-        "550979e7-c53e-47a8-8020-21f3c4df3a2d",
-        "8e2e9977-5ba5-488e-8fe2-b7db775b5dff",
         "bf558652-0118-4126-a76c-26b6208d0dfd",
         "c2e50723-82dc-425f-8065-cdb7eb2792b3",
         "64ad3201-736f-4c47-b08e-194d5b460c49",
