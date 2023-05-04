@@ -1,0 +1,178 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "title": "",
+        "image": "shopify:\/\/shop_images\/Photo_35.jpg"
+      }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "550979e7-c53e-47a8-8020-21f3c4df3a2d": {
+          "type": "order",
+          "settings": {
+            "title": "How can I track my order?",
+            "text": "<p>Click <a href=\"https:\/\/jasionbike.com\/apps\/17TRACK?ref=r8eji_4hqjz\">HERE<\/a> to track your order.<\/p>"
+          }
+        },
+        "8e2e9977-5ba5-488e-8fe2-b7db775b5dff": {
+          "type": "order",
+          "settings": {
+            "title": "How can I cancel my order?",
+            "text": "<p>Your order can only be canceled <strong>before it ships<\/strong>.To cancel the order, please email us: <a href=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>.Canceling order request may not available during the weekend or holiday.<\/p>"
+          }
+        },
+        "bf558652-0118-4126-a76c-26b6208d0dfd": {
+          "type": "order",
+          "settings": {
+            "title": "When will my order be shipped?",
+            "text": "<p>Generally speaking, your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
+          }
+        },
+        "c2e50723-82dc-425f-8065-cdb7eb2792b3": {
+          "type": "order",
+          "settings": {
+            "title": "Why my order has been canceled?",
+            "text": "<p>Because your order is detected as a high-risk account by the payment system. Therefore, we must cancel your order. You will receive your refund within 7 business days. If you would still like to purchase an E-Bike from us, please use a different email and shipping address.<\/p>"
+          }
+        },
+        "64ad3201-736f-4c47-b08e-194d5b460c49": {
+          "type": "policy",
+          "settings": {
+            "title": "Policy",
+            "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
+          }
+        },
+        "545feab4-2610-4a56-8518-bf2cd12996c1": {
+          "type": "policy",
+          "settings": {
+            "title": "Can I return my order for personal reasons?",
+            "text": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging. <\/p><p>For specific fees, please click <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">HERE<\/a><\/p>"
+          }
+        },
+        "258ade09-f735-4f9d-a745-fa85c2575746": {
+          "type": "policy",
+          "settings": {
+            "title": "How do I get invoice for my order?",
+            "text": "<p>Please contact us after you receive your order through email : <a href=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>.We will send you the invoice.<\/p>"
+          }
+        },
+        "8e94e8e8-6c0c-4f52-91f4-8575ec477247": {
+          "type": "product",
+          "settings": {
+            "title": "User manual\/Installation Video",
+            "text": "<p>For Jasion E-Bike user manual and installation video, please click <a href=\"https:\/\/jasionbike.com\/pages\/user-manual-download\">HERE<\/a>.<\/p>"
+          }
+        },
+        "16f06a5e-b91b-4e37-81ed-49c20e36dcc4": {
+          "type": "product",
+          "settings": {
+            "title": "How long is the warranty?",
+            "text": "<p>We provide 2-year warranty.<\/p>"
+          }
+        },
+        "37d7e1a1-bfdd-485d-be59-35830f10212f": {
+          "type": "product",
+          "settings": {
+            "title": "Maintenance after rain",
+            "text": "<p>Jasion E-Bike is water-resistant, which means that the bike won't let water in easily. If you drive on a wet road, your bike will be fine. But if you battery in puddles or submerge your bike into water and the electric parts get wet, damage could occur.<br\/>Rider Safety tip: It's pretty dangerous riding in rain, so take care.<br\/><br\/>If you do ride on wet surfaces, wipe off all the water on the surface of your board, especially the charging port, and do not charge your bike until it’s dry. <br\/><br\/>FYI: warranty doesn't include water damage.<\/p>"
+          }
+        },
+        "e897d2b3-17f9-4f28-8d31-e6f05c702c32": {
+          "type": "product",
+          "settings": {
+            "title": "How long does the battery last after a full charge?",
+            "text": "<p>The Jasion's excellent battery system is capable of driving around 40 miles on a single charge. (Depending on various factors such as road conditions, speed, etc.)<\/p>"
+          }
+        },
+        "43434774-efb9-42a3-ac85-c3bd067c44e6": {
+          "type": "Miscellaneous",
+          "settings": {
+            "title": "Do I need a special license to ride an E-bike?",
+            "text": "<p>This only applies to Jasion bikes and does not apply to all other types of e-bikes.<\/p>"
+          }
+        },
+        "0b288cfd-e709-4299-8c84-1db6f0dc3330": {
+          "type": "Miscellaneous",
+          "settings": {
+            "title": "Is there an age limit for using electric bikes?",
+            "text": "<p>In accordance with local US laws, Jasion recommends that only riders aged 14 and above ride on our electric bikes. Be sure to check your local state e-bike laws to guarantee the age limit for e-bike riding.<\/p>"
+          }
+        },
+        "f3ef67de-1dc5-41fc-bec6-7c8cb954bc83": {
+          "type": "order",
+          "disabled": true,
+          "settings": {
+            "title": "Can I ride my E-bike with a passenger?",
+            "text": "<p>JASION does not recommend riding with more than one adult on the bike at a time. This ensures safer riding conditions as well as increased maneuverability and control for the rider.<\/p>"
+          }
+        },
+        "94bec125-f4f3-48c6-99c2-a1285c867ae1": {
+          "type": "Miscellaneous",
+          "settings": {
+            "title": "Can I ride my E-bike off-road?",
+            "text": "<p>Yes! The JASION <a href=\"https:\/\/jasionbike.com\/products\/jasion-eb7-electric-bike\">EB7 E-Bike<\/a> is designed specifically for off-roading. The fat tires and 500-watt battery will ensure that you are in control when taking to the trails. The Jasion <a href=\"https:\/\/jasionbike.com\/products\/jasion-eb5-electric-bike\">EB5 E-Bike<\/a> is not designed for off-road use but can take on some light trails and grassy pathways.<\/p>"
+          }
+        },
+        "eb11cc56-22b7-4511-b9b5-483d06a6cbb9": {
+          "type": "order",
+          "settings": {
+            "title": "Can I change my delivery address?",
+            "text": "<p>Yes, but we only support address changes before sending. We charge $50 per item for address changes and do not guarantee that they will be made.<\/p>"
+          }
+        },
+        "ac80acc6-7ab2-4608-864d-d50faf7a98f4": {
+          "type": "policy",
+          "settings": {
+            "title": "Do you offer Financing?",
+            "text": "<p>We are offer financing.<\/p><p>You can have direct access to Klarna financing through our partnership with Klarna. Now, you can pay for your next e-bike with installment payments after being approved for financing. Be sure to select Klarna at checkout and you will be taken to their secure payment process. For more details please click <a href=\"\/pages\/financing\" title=\"Financing\">HERE<\/a><\/p>"
+          }
+        },
+        "eafa43b4-78ee-4401-9ea5-f48dee7b0ee5": {
+          "type": "policy",
+          "settings": {
+            "title": "Military discount",
+            "text": "<p>We offer a $50 discount for military personnel, but you will need to provide us with a photo of your military ID so that we can confirm and apply the discount for you.You can take a photo of your military ID and send it to us via email so that we can create a discount code for you.<\/p>"
+          }
+        },
+        "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b": {
+          "type": "Miscellaneous",
+          "settings": {
+            "title": "Can I ride my E-bike with a passenger?",
+            "text": "<p>JASION does not recommend riding with more than one adult on the bike at a time. This ensures safer riding conditions as well as increased maneuverability and control for the rider.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "550979e7-c53e-47a8-8020-21f3c4df3a2d",
+        "8e2e9977-5ba5-488e-8fe2-b7db775b5dff",
+        "bf558652-0118-4126-a76c-26b6208d0dfd",
+        "c2e50723-82dc-425f-8065-cdb7eb2792b3",
+        "64ad3201-736f-4c47-b08e-194d5b460c49",
+        "545feab4-2610-4a56-8518-bf2cd12996c1",
+        "258ade09-f735-4f9d-a745-fa85c2575746",
+        "8e94e8e8-6c0c-4f52-91f4-8575ec477247",
+        "16f06a5e-b91b-4e37-81ed-49c20e36dcc4",
+        "37d7e1a1-bfdd-485d-be59-35830f10212f",
+        "e897d2b3-17f9-4f28-8d31-e6f05c702c32",
+        "43434774-efb9-42a3-ac85-c3bd067c44e6",
+        "0b288cfd-e709-4299-8c84-1db6f0dc3330",
+        "f3ef67de-1dc5-41fc-bec6-7c8cb954bc83",
+        "94bec125-f4f3-48c6-99c2-a1285c867ae1",
+        "eb11cc56-22b7-4511-b9b5-483d06a6cbb9",
+        "ac80acc6-7ab2-4608-864d-d50faf7a98f4",
+        "eafa43b4-78ee-4401-9ea5-f48dee7b0ee5",
+        "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b"
+      ],
+      "settings": {
+        "title": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}
