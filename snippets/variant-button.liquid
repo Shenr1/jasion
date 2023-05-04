@@ -73,9 +73,9 @@
           {% for variant in product.variants %}
           {%- if variant.title contains value -%}
             {%- if variant.metafields.custom.variant_image != blank -%}
-                {%- assign variantImgSrc = variant.metafields.custom.variant_image | img_url: '90x', scale: 1, crop: 'center' -%}
+                {%- assign variantImgSrc = variant.metafields.custom.variant_image | img_url: '150x', scale: 1, crop: 'center' -%}
             {% else %}
-                {%- assign variantImgSrc = variant.image.src | img_url: '90x', scale: 1, crop: 'center' -%}
+                {%- assign variantImgSrc = variant.image.src | img_url: '150x', scale: 1, crop: 'center' -%}
             {%- endif -%}
               {% assign comparePrices = variant.metafields.custom.compare_prices %}
               {% assign ogPrice = comparePrices | split: ':' | last %}
