@@ -353,7 +353,7 @@ font-size: 18px;
 .home_custom .hc_spec .hcs_item{width:33.33333%!important; flex-direction:column; align-items:center; text-align:center; margin-bottom:20px;}
   .hcs_spec{padding-bottom:15px;} 
 
-@media (min-width:1024px) and (max-width:1200px){
+@media (min-width:769px) and (max-width:1200px){
   .pib_list h4 {
   font-size: 12px;
   }
