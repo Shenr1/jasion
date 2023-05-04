@@ -10,13 +10,6 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "545feab4-2610-4a56-8518-bf2cd12996c1": {
-          "type": "policy",
-          "settings": {
-            "title": "Can I return my order for personal reasons?",
-            "text": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging. <\/p><p>For specific fees, please click <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">HERE<\/a><\/p>"
-          }
-        },
         "258ade09-f735-4f9d-a745-fa85c2575746": {
           "type": "policy",
           "settings": {
@@ -125,7 +118,6 @@
         }
       },
       "block_order": [
-        "545feab4-2610-4a56-8518-bf2cd12996c1",
         "258ade09-f735-4f9d-a745-fa85c2575746",
         "8e94e8e8-6c0c-4f52-91f4-8575ec477247",
         "16f06a5e-b91b-4e37-81ed-49c20e36dcc4",
