@@ -115,6 +115,13 @@
             "title": "How could I get this discount?",
             "text": "<p>Please send us your photo ID and once confirmed, we will offer you a special discount.<\/p>"
           }
+        },
+        "0c0e39d8-cdfe-411f-8870-e8d5f80f325f": {
+          "type": "order",
+          "settings": {
+            "title": "How to use this discount?",
+            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -132,7 +139,8 @@
         "eafa43b4-78ee-4401-9ea5-f48dee7b0ee5",
         "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b",
         "188fb86b-a841-4e1b-b918-7cb0f697d82b",
-        "9b5f1e8f-923b-4261-8ad0-e3506078db74"
+        "9b5f1e8f-923b-4261-8ad0-e3506078db74",
+        "0c0e39d8-cdfe-411f-8870-e8d5f80f325f"
       ],
       "settings": {
         "title": ""
