@@ -354,6 +354,7 @@ font-size: 18px;
   .hcs_spec{padding-bottom:15px;} 
 
 @media (min-width:769px) and (max-width:1200px){
+  .pib_icon{flex-shrink:0}
   .pib_list h4 {
   font-size: 12px;
   }
