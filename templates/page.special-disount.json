@@ -81,13 +81,6 @@
             "text": "<p>Yes! The JASION <a href=\"https:\/\/jasionbike.com\/products\/jasion-eb7-electric-bike\">EB7 E-Bike<\/a> is designed specifically for off-roading. The fat tires and 500-watt battery will ensure that you are in control when taking to the trails. The Jasion <a href=\"https:\/\/jasionbike.com\/products\/jasion-eb5-electric-bike\">EB5 E-Bike<\/a> is not designed for off-road use but can take on some light trails and grassy pathways.<\/p>"
           }
         },
-        "eb11cc56-22b7-4511-b9b5-483d06a6cbb9": {
-          "type": "order",
-          "settings": {
-            "title": "Can I change my delivery address?",
-            "text": "<p>Yes, but we only support address changes before sending. We charge $50 per item for address changes and do not guarantee that they will be made.<\/p>"
-          }
-        },
         "ac80acc6-7ab2-4608-864d-d50faf7a98f4": {
           "type": "policy",
           "settings": {
@@ -108,6 +101,20 @@
             "title": "Can I ride my E-bike with a passenger?",
             "text": "<p>JASION does not recommend riding with more than one adult on the bike at a time. This ensures safer riding conditions as well as increased maneuverability and control for the rider.<\/p>"
           }
+        },
+        "188fb86b-a841-4e1b-b918-7cb0f697d82b": {
+          "type": "order",
+          "settings": {
+            "title": "What discount do you provide?",
+            "text": "<p>We provide $50 for military personnel, teachers,and doctors.<\/p>"
+          }
+        },
+        "9b5f1e8f-923b-4261-8ad0-e3506078db74": {
+          "type": "order",
+          "settings": {
+            "title": "How could I get this discount?",
+            "text": "<p>Please send us your photo ID and once confirmed, we will offer you a special discount.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -121,10 +128,11 @@
         "0b288cfd-e709-4299-8c84-1db6f0dc3330",
         "f3ef67de-1dc5-41fc-bec6-7c8cb954bc83",
         "94bec125-f4f3-48c6-99c2-a1285c867ae1",
-        "eb11cc56-22b7-4511-b9b5-483d06a6cbb9",
         "ac80acc6-7ab2-4608-864d-d50faf7a98f4",
         "eafa43b4-78ee-4401-9ea5-f48dee7b0ee5",
-        "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b"
+        "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b",
+        "188fb86b-a841-4e1b-b918-7cb0f697d82b",
+        "9b5f1e8f-923b-4261-8ad0-e3506078db74"
       ],
       "settings": {
         "title": ""
