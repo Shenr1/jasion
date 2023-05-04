@@ -620,6 +620,7 @@ font-size: 16px;
   .pro_icon_bottom{margin-top:30px;}
 }
 @media only screen and (max-width: 768px){
+  .pro_icon_bottom{padding-top:0;}
  .pro_short{padding-top:0;}
   #accessories #CollectionAjaxContent{padding-left:15px;}
   .collection-filter select{background:#fff;}
