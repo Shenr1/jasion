@@ -616,8 +616,8 @@ font-size: 16px;
   .pro_icon_bottom{margin-top:30px;}
 }
 @media only screen and (max-width: 768px){
- 
-    #accessories #CollectionAjaxContent{padding-left:15px;}
+ .pro_short{padding-top:0;}
+  #accessories #CollectionAjaxContent{padding-left:15px;}
   .collection-filter select{background:#fff;}
   .pro_icon_bottom {
   margin-top: 30px;
