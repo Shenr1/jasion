@@ -2051,7 +2051,7 @@ word-break:break-all;
 #HideRecoverPasswordLink{text-decoration:underline;}
 #HideRecoverPasswordLink:hover{color:#ff981c;}
 .pro_upsell{display:none;}
-.pay_icon_list img{max-height:25px; width:auto;}
+.pay_icon_list img{max-height:22px; width:auto;}
 .pds_bg h2{font-size:28px;}
 #SP_CmpHtml{padding-top:30px; padding-bottom:40px;}
 .sa_cmp_title{font-size:1.2em; font-weight:bold;}
