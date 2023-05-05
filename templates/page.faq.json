@@ -21,14 +21,14 @@
           "type": "order",
           "settings": {
             "title": "How can I cancel my order?",
-            "text": "<p>Your order can only be canceled <strong>before it ships<\/strong>.To cancel the order, please email us: <a href=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>.Canceling order request may not available during the weekend or holiday.<\/p>"
+            "text": "<p>Your order can only be canceled <strong>before it ships. <\/strong><\/p><p>To cancel the order, please email us: support@jasionbike.com.Canceling order requests may not be available during the weekend or holiday.<\/p>"
           }
         },
         "bf558652-0118-4126-a76c-26b6208d0dfd": {
           "type": "order",
           "settings": {
             "title": "When will my order be shipped?",
-            "text": "<p>Generally speaking, your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
+            "text": "<p>Generally your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
           }
         },
         "c2e50723-82dc-425f-8065-cdb7eb2792b3": {
@@ -41,7 +41,7 @@
         "64ad3201-736f-4c47-b08e-194d5b460c49": {
           "type": "policy",
           "settings": {
-            "title": "Policy",
+            "title": "Policy Summary",
             "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
           }
         },
@@ -70,13 +70,13 @@
           "type": "product",
           "settings": {
             "title": "How long is the warranty?",
-            "text": "<p>We provide 2-year warranty.<\/p>"
+            "text": "<p>We provide 1-year warranty.<\/p>"
           }
         },
         "37d7e1a1-bfdd-485d-be59-35830f10212f": {
           "type": "product",
           "settings": {
-            "title": "Maintenance after rain",
+            "title": "Maintenance after rain.",
             "text": "<p>Jasion E-Bike is water-resistant, which means that the bike won't let water in easily. If you drive on a wet road, your bike will be fine. But if you battery in puddles or submerge your bike into water and the electric parts get wet, damage could occur.<br\/>Rider Safety tip: It's pretty dangerous riding in rain, so take care.<br\/><br\/>If you do ride on wet surfaces, wipe off all the water on the surface of your board, especially the charging port, and do not charge your bike until it’s dry. <br\/><br\/>FYI: warranty doesn't include water damage.<\/p>"
           }
         },

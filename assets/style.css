@@ -788,7 +788,7 @@ transition:all 0.3s ease;
   border-radius:10px;
   overflow:hidden;
   transition: all .5s ease-out 0s;
-  min-height: 522px;
+  min-height: 532px;
 }
 .cl_add .grid-product__meta{
   margin: 0 25px;
@@ -1145,9 +1145,9 @@ background: #e8e8e8;
 }
 .spec_info .spec_slider{
   width:44%;
-  position: sticky;
   float: left;
-  top:63px
+  top:63px;
+  position: sticky;
 }
 .spec_info:after{
   content:"";
@@ -1608,7 +1608,7 @@ color: #666;
 .template-product .product-single__meta .jdgm-widget.jdgm-widget{margin-top:-15px;}
 .pacc_info{
   display:flex;
-  margin: 0 -20px;
+  margin: 0 -18px;
 }
 .pacc_info > div{
   width: 96%;
@@ -2051,7 +2051,11 @@ word-break:break-all;
 #HideRecoverPasswordLink{text-decoration:underline;}
 #HideRecoverPasswordLink:hover{color:#ff981c;}
 .pro_upsell{display:none;}
-.pay_icon_list img{max-height:25px; width:auto;}
+.pay_icon_list img{max-height:22px; width:auto;}
+.template-product .jdgm-review-widget {
+  display: block;
+  padding-top: 60px;
+}
 .pds_bg h2{font-size:28px;}
 #SP_CmpHtml{padding-top:30px; padding-bottom:40px;}
 .sa_cmp_title{font-size:1.2em; font-weight:bold;}

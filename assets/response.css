@@ -1,4 +1,6 @@
 @media(max-width:1024px){
+  .product-single__meta{padding-left:0;}
+  .pro_icon_bottom{padding-top:30px;}
  .header-sticky-wrapper{max-width:100%; overflow:hidden;} 
  }
 .page-width--tiny{padding-top:3em}
@@ -23,7 +25,7 @@ a.color-swatch.active, a.color-swatch:hover {
 }
 @media (max-width:1680px){
   .cl_add{
-   min-height: 440px;
+   min-height: 479px;
 }
   .cl_acc .grid-product__link{padding-bottom:15px;}
 
@@ -127,7 +129,7 @@ font-size: 18px;
   padding: 0 15px;
   }
   .cl_add {
-  min-height: 380px;
+  min-height: 484px;
 }
   .cl_acc .grid-product__link {
   padding-bottom: 10px;
@@ -300,6 +302,9 @@ font-size: 18px;
  
  
 @media (max-width:1366px){
+  .template-product .jdgm-review-widget {
+  padding-top: 20px;
+}
   .icon_text{width:85%;}
   .side_enable [data-aos="row-of-3"] .cl_add {
   min-height: 536px;
@@ -351,7 +356,10 @@ font-size: 18px;
 .home_custom .hc_spec .hcs_item{width:33.33333%!important; flex-direction:column; align-items:center; text-align:center; margin-bottom:20px;}
   .hcs_spec{padding-bottom:15px;} 
 
-@media (min-width:1024px) and (max-width:1200px){
+@media (min-width:769px) and (max-width:1200px){
+  .pib_item{align-items:flex-start;}
+  .pib_icon{flex-shrink:0; }
+  .pib_list .pib_icon{margin-right:8px;}}
   .pib_list h4 {
   font-size: 12px;
   }
@@ -361,11 +369,10 @@ font-size: 18px;
   .pib_icon img {
   width: 20px;
 }
-}
-@media (min-width:768px) and (max-width:1200px){
+
   .payment-buttons .add-to-cart{min-height:35px;}
   .pib_list{align-items:flex-start;}
-  .pib_list .pib_icon{width:45px; height:45px; }
+  .pib_list .pib_icon{width:40px; height:40px; }
   .footer-policy-link a{padding-right:20px!important;}
   .col_bottom a.btn{min-width:180px!important;}
 }
@@ -510,7 +517,7 @@ font-size: 16px;
   margin: 0 15px; padding-bottom:40px; min-height:150px;
   }
   .cl_add {
-  min-height: 375px;
+  min-height: 429px;
   
 }
   .grid-product__title--heading {
@@ -616,8 +623,15 @@ font-size: 16px;
   .pro_icon_bottom{margin-top:30px;}
 }
 @media only screen and (max-width: 768px){
- 
-    #accessories #CollectionAjaxContent{padding-left:15px;}
+  .payment-buttons .shopify-payment-button{
+    min-height:inherit;
+  }
+  .template-product .jdgm-review-widget {
+  padding-top: 0;
+}
+  .pro_icon_bottom{padding-top:0; padding-bottom:10px;}
+ .pro_short{padding-top:0;}
+  #accessories #CollectionAjaxContent{padding-left:15px;}
   .collection-filter select{background:#fff;}
   .pro_icon_bottom {
   margin-top: 30px;
@@ -641,6 +655,7 @@ font-size: 16px;
 
   .template-product div[data-context=featured-collection]{padding-top:0px; margin-top:-30px;}
   .featured-collection .page-width--flush-small{padding-right:0;}
+  .grid-overflow-wrapper::-webkit-scrollbar {display:none;width: 0; height: 0; color: transparent; }
   .grid-overflow-wrapper .grid__item:first-child{margin-left:0;}
   .cl_add{min-height:480px;}
   .cl_acc .jdgm-preview-badge{display:block!important;  }
@@ -668,8 +683,7 @@ bottom: 0;
 }
   .pr_info h3{font-size:18px;}
   .pib_list{flex-wrap:wrap; margin-top:15px;}
-  .pib_item{width:100%; margin-bottom:20px;}
- .pib_item:last-child {margin-bottom:0;}
+
   .pib_item br{display:none; }
   .pib_list .pib_icon {
     margin-right: 15px;
@@ -1172,6 +1186,11 @@ flex-wrap: wrap;
 }
 }
 @media only screen and (max-width: 640px){
+    .pib_list{flex-wrap:wrap; margin-top:15px;}
+ 
+    .pib_list{flex-wrap:wrap; margin-top:15px;}
+    .pib_item{width:100%; margin-bottom:20px;}
+ .pib_item:last-child {margin-bottom:0;}
   .side_enable [data-aos="row-of-3"] .cl_add {
   min-height:auto;
 }
@@ -1273,8 +1292,21 @@ flex-wrap: wrap;
   .product-single__meta .product__price-savings{font-size:16px;}
   .grid-product{margin-bottom:20px;}
   .color-swatch{width:50px; height:40px; margin-right:6px;}
+  .pay_icon_list img {
+  max-height: 18px;
+  }
 }
 @media only screen and (max-width: 480px){
+  .lb-spc-details-variants{
+    margin-right:0px !important;
+  }
+  .lb-spc-details-btm {
+  justify-content: start !important;
+  }
+  .lb-upsell-product-page-card .lb-spc-details-btm {
+  position: relative !important;
+  top: 0 !important;
+}
   .cl_add .grid-product__meta{margin:0 6px;}
   .cl_acc .payment-buttons .btn{font-size:15px; padding-top:4px; padding-bottom:6px; }
   .cl_add .grid-product__meta {

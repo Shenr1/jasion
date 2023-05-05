@@ -71,21 +71,23 @@
 
 
           {% for variant in product.variants %}
-          {%- if variant.title contains value -%}
-            {%- if variant.metafields.custom.variant_image != blank -%}
-                {%- assign variantImgSrc = variant.metafields.custom.variant_image | img_url: '90x', scale: 1, crop: 'center' -%}
-            {% else %}
-                {%- assign variantImgSrc = variant.image.src | img_url: '90x', scale: 1, crop: 'center' -%}
+          {% assign mf_variant_image = variant.metafields.custom.variant_image.value %}
+
+          {%- if mf_variant_image.alt == value -%}
+            {%- if mf_variant_image != blank -%}
+                {%- assign variantImgSrc = mf_variant_image | img_url: '150x', scale: 1, crop: 'center' -%}
             {%- endif -%}
-              {% assign comparePrices = variant.metafields.custom.compare_prices %}
-              {% assign ogPrice = comparePrices | split: ':' | last %}
-              {% assign finalPrice = comparePrices | split: ':'  | first %}
+            {% assign comparePrices = variant.metafields.custom.compare_prices %}
+            {% assign ogPrice = comparePrices | split: ':' | last %}
+            {% assign finalPrice = comparePrices | split: ':'  | first %} 
             {%- break -%}
-          {%- endif -%}
+            {% elsif variant.title contains value %}
+                {%- assign variantImgSrc = variant.image.src | img_url: '150x', scale: 1, crop: 'center' -%}
+            {%- endif -%}
           {% endfor %}
 
           
-          {% comment %} 第一个变体不展示价格 {% endcomment %}
+          {% comment %} 第一个变体不展示价格 {% endcomment %} 
           <div class="variant-containers">
             <label
               for="ProductSelect-{{ section_id }}-{{ product.id }}-option-{{ option.name | handleize }}-{{ value | url_encode }}"

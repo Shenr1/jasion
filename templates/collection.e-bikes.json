@@ -47,9 +47,6 @@
         "product_grid"
       ],
       "settings": {
-        "enable_sidebar": false,
-        "collapsed": true,
-        "filter_style": "sidebar",
         "enable_color_swatches": true,
         "enable_sort": false
       }
