@@ -183,6 +183,13 @@
             "title": "When will my order be shipped?",
             "text": "<p>Generally your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
           }
+        },
+        "4acb154c-6f48-4cbb-9813-ccbb36bdfe3a": {
+          "type": "policy",
+          "settings": {
+            "title": "How can I cancel my order?",
+            "text": "<p>Your order can only be canceled before it ships. <\/p><p>To cancel the order, please email us: support@jasionbike.com.Canceling order requests may not be available during the weekend or holiday.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -191,7 +198,8 @@
         "25aa8ef1-e301-4b57-aa2a-626bbf8944ac",
         "e1e38ccc-9427-499e-a711-34efe7850399",
         "11f02c06-962c-42ce-ac8c-f83e09c5512c",
-        "249da814-a2ab-4990-9789-11ae57782795"
+        "249da814-a2ab-4990-9789-11ae57782795",
+        "4acb154c-6f48-4cbb-9813-ccbb36bdfe3a"
       ],
       "settings": {
         "title": "FAQs"
