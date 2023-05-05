@@ -241,8 +241,11 @@
         "2e36f234-4603-4c36-848e-bebccb1210aa",
         "837d7860-1d25-4c90-9a97-eb7834a9596a"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
-        "title": "FAQs"
+        "title": ""
       }
     }
   },
