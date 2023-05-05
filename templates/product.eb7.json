@@ -577,11 +577,11 @@
     "f0063152-6002-4348-81ac-576e041802d5": {
       "type": "inspirations",
       "blocks": {
-        "c870da58-d43a-47cf-846b-851651df99f0": {
+        "4de4ff7b-5f43-4f8f-bc9e-0cc9044deb38": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_3.jpg",
-            "video": "https:\/\/youtu.be\/lyWby66UOc4"
+            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
+            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
           }
         },
         "template--16667043234029__f0063152-6002-4348-81ac-576e041802d5-1681287496a0de7e7a-0": {
@@ -605,28 +605,28 @@
             "video": "https:\/\/youtu.be\/E0JwCfcGCW8"
           }
         },
+        "c870da58-d43a-47cf-846b-851651df99f0": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maxresdefault_3.jpg",
+            "video": "https:\/\/youtu.be\/lyWby66UOc4"
+          }
+        },
         "6faf2697-fa0d-4285-8faf-d871f77d02e8": {
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/maxresdefault_2.jpg",
             "video": "https:\/\/youtu.be\/7U5iDZI3Zs4"
           }
-        },
-        "4de4ff7b-5f43-4f8f-bc9e-0cc9044deb38": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
-            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
-          }
         }
       },
       "block_order": [
-        "c870da58-d43a-47cf-846b-851651df99f0",
+        "4de4ff7b-5f43-4f8f-bc9e-0cc9044deb38",
         "template--16667043234029__f0063152-6002-4348-81ac-576e041802d5-1681287496a0de7e7a-0",
         "template--16667043234029__f0063152-6002-4348-81ac-576e041802d5-1681287496a0de7e7a-1",
         "template--16667043234029__f0063152-6002-4348-81ac-576e041802d5-1681287496a0de7e7a-2",
-        "6faf2697-fa0d-4285-8faf-d871f77d02e8",
-        "4de4ff7b-5f43-4f8f-bc9e-0cc9044deb38"
+        "c870da58-d43a-47cf-846b-851651df99f0",
+        "6faf2697-fa0d-4285-8faf-d871f77d02e8"
       ],
       "settings": {
         "title": "YouTube channel influencer collaboration video",
