@@ -41,7 +41,7 @@
         "64ad3201-736f-4c47-b08e-194d5b460c49": {
           "type": "policy",
           "settings": {
-            "title": "Policy",
+            "title": "Policy Summary.",
             "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
           }
         },

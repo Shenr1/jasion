@@ -211,6 +211,13 @@
             "title": "How long is the warranty?",
             "text": "<p>We provide 1-year warranty.<\/p>"
           }
+        },
+        "2e36f234-4603-4c36-848e-bebccb1210aa": {
+          "type": "product",
+          "settings": {
+            "title": "Maintenance after rain.",
+            "text": "<p>Jasion E-Bike is water-resistant, which means that the bike won't let water in easily. If you drive on a wet road, your bike will be fine. But if you battery in puddles or submerge your bike into water and the electric parts get wet, damage could occur.<br\/>Rider Safety tip: It's pretty dangerous riding in rain, so take care.<br\/><br\/>If you do ride on wet surfaces, wipe off all the water on the surface of your board, especially the charging port, and do not charge your bike until it’s dry. <br\/><br\/>FYI: warranty doesn't include water damage.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -223,7 +230,8 @@
         "4acb154c-6f48-4cbb-9813-ccbb36bdfe3a",
         "d4e520f7-6d55-4f06-9956-c7295076f80f",
         "f0cef9a0-066e-4e57-a824-29bd88ad2c65",
-        "113e3f9a-818d-4bc1-8f8f-574a8757e96d"
+        "113e3f9a-818d-4bc1-8f8f-574a8757e96d",
+        "2e36f234-4603-4c36-848e-bebccb1210aa"
       ],
       "settings": {
         "title": "FAQs"
