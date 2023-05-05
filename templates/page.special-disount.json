@@ -197,6 +197,13 @@
             "title": "Can I return my order for personal reasons?",
             "text": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging. For specific fees, please click HERE<\/p>"
           }
+        },
+        "f0cef9a0-066e-4e57-a824-29bd88ad2c65": {
+          "type": "product",
+          "settings": {
+            "title": "User manual\/Installation Video",
+            "text": "<p>For Jasion E-Bike user manual and installation video, please click <a href=\"https:\/\/jasionbike.com\/pages\/user-manual-download\">HERE<\/a>.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -207,7 +214,8 @@
         "11f02c06-962c-42ce-ac8c-f83e09c5512c",
         "249da814-a2ab-4990-9789-11ae57782795",
         "4acb154c-6f48-4cbb-9813-ccbb36bdfe3a",
-        "d4e520f7-6d55-4f06-9956-c7295076f80f"
+        "d4e520f7-6d55-4f06-9956-c7295076f80f",
+        "f0cef9a0-066e-4e57-a824-29bd88ad2c65"
       ],
       "settings": {
         "title": "FAQs"
