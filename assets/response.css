@@ -1287,6 +1287,9 @@ flex-wrap: wrap;
   .product-single__meta .product__price-savings{font-size:16px;}
   .grid-product{margin-bottom:20px;}
   .color-swatch{width:50px; height:40px; margin-right:6px;}
+  .pay_icon_list img {
+  max-height: 18px;
+  }
 }
 @media only screen and (max-width: 480px){
   .lb-upsell-product-page-card .lb-spc-details-btm {
