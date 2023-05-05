@@ -623,6 +623,9 @@ font-size: 16px;
   .pro_icon_bottom{margin-top:30px;}
 }
 @media only screen and (max-width: 768px){
+  .jdgm-widget.jdgm-widget {
+  padding-top: 0;
+}
   .pro_icon_bottom{padding-top:0; padding-bottom:10px;}
  .pro_short{padding-top:0;}
   #accessories #CollectionAjaxContent{padding-left:15px;}
