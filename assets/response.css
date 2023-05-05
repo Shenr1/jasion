@@ -25,7 +25,7 @@ a.color-swatch.active, a.color-swatch:hover {
 }
 @media (max-width:1680px){
   .cl_add{
-   min-height: 440px;
+   min-height: 479px;
 }
   .cl_acc .grid-product__link{padding-bottom:15px;}
 
