@@ -302,6 +302,9 @@ font-size: 18px;
  
  
 @media (max-width:1366px){
+  .jdgm-widget.jdgm-widget {
+  padding-top: 20px;
+}
   .icon_text{width:85%;}
   .side_enable [data-aos="row-of-3"] .cl_add {
   min-height: 536px;
