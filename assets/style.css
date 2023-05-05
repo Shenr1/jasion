@@ -1146,7 +1146,8 @@ background: #e8e8e8;
 .spec_info .spec_slider{
   width:44%;
   float: left;
-  top:63px
+  top:63px;
+  position: sticky;
 }
 .spec_info:after{
   content:"";
