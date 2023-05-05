@@ -204,6 +204,13 @@
             "title": "User manual\/Installation Video",
             "text": "<p>For Jasion E-Bike user manual and installation video, please click <a href=\"https:\/\/jasionbike.com\/pages\/user-manual-download\">HERE<\/a>.<\/p>"
           }
+        },
+        "113e3f9a-818d-4bc1-8f8f-574a8757e96d": {
+          "type": "product",
+          "settings": {
+            "title": "How long is the warranty?",
+            "text": "<p>We provide 1-year warranty.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -215,7 +222,8 @@
         "249da814-a2ab-4990-9789-11ae57782795",
         "4acb154c-6f48-4cbb-9813-ccbb36bdfe3a",
         "d4e520f7-6d55-4f06-9956-c7295076f80f",
-        "f0cef9a0-066e-4e57-a824-29bd88ad2c65"
+        "f0cef9a0-066e-4e57-a824-29bd88ad2c65",
+        "113e3f9a-818d-4bc1-8f8f-574a8757e96d"
       ],
       "settings": {
         "title": "FAQs"
