@@ -1148,7 +1148,6 @@ background: #e8e8e8;
 }
 .spec_info .spec_slider{
   width:44%;
-  position: sticky;
   float: left;
   top:63px
 }
