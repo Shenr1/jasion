@@ -80,6 +80,7 @@
         },
         "c42dcfb4-b44d-49db-8c51-7bdb22576629": {
           "type": "freegift",
+          "disabled": true,
           "settings": {
             "title": "Save $900",
             "image": "shopify:\/\/shop_images\/9_26049ac7-8908-4994-9c81-fe6c117d0d64.jpg",
