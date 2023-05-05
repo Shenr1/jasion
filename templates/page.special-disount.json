@@ -169,13 +169,29 @@
             "title": "I have some other questions.",
             "text": "<p>We will try our best to ensure your satisfaction with our services, please feel free to contact us: <a>support@jasionbike.com<\/a><\/p>"
           }
+        },
+        "11f02c06-962c-42ce-ac8c-f83e09c5512c": {
+          "type": "policy",
+          "settings": {
+            "title": "Policy Summary",
+            "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
+          }
+        },
+        "249da814-a2ab-4990-9789-11ae57782795": {
+          "type": "policy",
+          "settings": {
+            "title": "When will my order be shipped?",
+            "text": "<p>Generally your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
+          }
         }
       },
       "block_order": [
         "91c9db74-24d3-4e61-9cd2-3abeeed29c83",
         "242050d2-895e-4c81-abb8-7e7c03accf61",
         "25aa8ef1-e301-4b57-aa2a-626bbf8944ac",
-        "e1e38ccc-9427-499e-a711-34efe7850399"
+        "e1e38ccc-9427-499e-a711-34efe7850399",
+        "11f02c06-962c-42ce-ac8c-f83e09c5512c",
+        "249da814-a2ab-4990-9789-11ae57782795"
       ],
       "settings": {
         "title": "FAQs"

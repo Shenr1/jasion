@@ -28,7 +28,7 @@
           "type": "order",
           "settings": {
             "title": "When will my order be shipped?",
-            "text": "<p>Generally speaking, your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
+            "text": "<p>Generally your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
           }
         },
         "c2e50723-82dc-425f-8065-cdb7eb2792b3": {
