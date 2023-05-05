@@ -145,13 +145,37 @@
         "91c9db74-24d3-4e61-9cd2-3abeeed29c83": {
           "type": "order",
           "settings": {
-            "title": "Order Issues",
-            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>"
+            "title": "What discount do you provide?",
+            "text": "<p>We provide $50 for military personnel, teachers,and doctors.<\/p>"
+          }
+        },
+        "242050d2-895e-4c81-abb8-7e7c03accf61": {
+          "type": "order",
+          "settings": {
+            "title": "How could I get this discount?",
+            "text": "<p>Please send us your photo ID and once confirmed, we will offer you a special discount.<\/p>"
+          }
+        },
+        "25aa8ef1-e301-4b57-aa2a-626bbf8944ac": {
+          "type": "order",
+          "settings": {
+            "title": "How to use this discount?",
+            "text": "<p>Please apply this discount at the checkout page.<\/p>"
+          }
+        },
+        "e1e38ccc-9427-499e-a711-34efe7850399": {
+          "type": "order",
+          "settings": {
+            "title": "I have some other questions.",
+            "text": "<p>We will try our best to ensure your satisfaction with our services, please feel free to contact us: <a>support@jasionbike.com<\/a><\/p>"
           }
         }
       },
       "block_order": [
-        "91c9db74-24d3-4e61-9cd2-3abeeed29c83"
+        "91c9db74-24d3-4e61-9cd2-3abeeed29c83",
+        "242050d2-895e-4c81-abb8-7e7c03accf61",
+        "25aa8ef1-e301-4b57-aa2a-626bbf8944ac",
+        "e1e38ccc-9427-499e-a711-34efe7850399"
       ],
       "settings": {
         "title": "FAQs"
