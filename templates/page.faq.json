@@ -21,7 +21,7 @@
           "type": "order",
           "settings": {
             "title": "How can I cancel my order?",
-            "text": "<p>Your order can only be canceled <strong>before it ships<\/strong>.To cancel the order, please email us: <a href=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>.Canceling order request may not available during the weekend or holiday.<\/p>"
+            "text": "<p>Your order can only be canceled <strong>before it ships. <\/strong><\/p><p>To cancel the order, please email us: support@jasionbike.com.Canceling order requests may not be available during the weekend or holiday.<\/p>"
           }
         },
         "bf558652-0118-4126-a76c-26b6208d0dfd": {
