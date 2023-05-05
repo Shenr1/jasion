@@ -2052,7 +2052,7 @@ word-break:break-all;
 #HideRecoverPasswordLink:hover{color:#ff981c;}
 .pro_upsell{display:none;}
 .pay_icon_list img{max-height:22px; width:auto;}
-.jdgm-widget.jdgm-widget {
+.template-product .jdgm-widget.jdgm-widget {
   display: block;
   padding-top: 60px;
 }
