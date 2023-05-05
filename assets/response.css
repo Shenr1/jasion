@@ -1,5 +1,5 @@
 @media(max-width:1024px){
-  .product-single__meta{padding-left:30px;}
+  .product-single__meta{padding-left:0;}
   .pro_icon_bottom{padding-top:30px;}
  .header-sticky-wrapper{max-width:100%; overflow:hidden;} 
  }
