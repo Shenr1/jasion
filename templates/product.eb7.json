@@ -78,13 +78,6 @@
             "text": "Pay with Ease"
           }
         },
-        "9ff1e849-743a-4ece-956f-a26d314a9cf7": {
-          "type": "shipping_icon",
-          "settings": {
-            "text": "Trusted Delivery",
-            "image": "shopify:\/\/shop_images\/pic_2a6bd138-ad39-4531-bcfd-2a9842df3957.png"
-          }
-        },
         "c42dcfb4-b44d-49db-8c51-7bdb22576629": {
           "type": "freegift",
           "settings": {
@@ -92,6 +85,13 @@
             "image": "shopify:\/\/shop_images\/9_26049ac7-8908-4994-9c81-fe6c117d0d64.jpg",
             "price": "",
             "link": "shopify:\/\/products\/combo-sale-eb7-2-0-folding-fat-tire-electric-bike"
+          }
+        },
+        "9ff1e849-743a-4ece-956f-a26d314a9cf7": {
+          "type": "shipping_icon",
+          "settings": {
+            "text": "Trusted Delivery",
+            "image": "shopify:\/\/shop_images\/pic_2a6bd138-ad39-4531-bcfd-2a9842df3957.png"
           }
         }
       },
@@ -106,8 +106,8 @@
         "636bf6c9-5bdb-4e29-8659-7bc75557f59e",
         "6fedc0d2-97e5-4451-befb-caed84101eac",
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf",
-        "9ff1e849-743a-4ece-956f-a26d314a9cf7",
-        "c42dcfb4-b44d-49db-8c51-7bdb22576629"
+        "c42dcfb4-b44d-49db-8c51-7bdb22576629",
+        "9ff1e849-743a-4ece-956f-a26d314a9cf7"
       ],
       "settings": {
         "sku_enable": false,
