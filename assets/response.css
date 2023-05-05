@@ -655,6 +655,7 @@ font-size: 16px;
 
   .template-product div[data-context=featured-collection]{padding-top:0px; margin-top:-30px;}
   .featured-collection .page-width--flush-small{padding-right:0;}
+  .grid-overflow-wrapper::-webkit-scrollbar {display:none;}
   .grid-overflow-wrapper .grid__item:first-child{margin-left:0;}
   .cl_add{min-height:480px;}
   .cl_acc .jdgm-preview-badge{display:block!important;  }
