@@ -683,8 +683,7 @@ bottom: 0;
 }
   .pr_info h3{font-size:18px;}
   .pib_list{flex-wrap:wrap; margin-top:15px;}
-  .pib_item{width:100%; margin-bottom:20px;}
- .pib_item:last-child {margin-bottom:0;}
+
   .pib_item br{display:none; }
   .pib_list .pib_icon {
     margin-right: 15px;
@@ -1187,6 +1186,9 @@ flex-wrap: wrap;
 }
 }
 @media only screen and (max-width: 640px){
+    .pib_list{flex-wrap:wrap; margin-top:15px;}
+    .pib_item{width:100%; margin-bottom:20px;}
+ .pib_item:last-child {margin-bottom:0;}
   .side_enable [data-aos="row-of-3"] .cl_add {
   min-height:auto;
 }
