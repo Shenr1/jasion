@@ -9,6 +9,7 @@
     },
     "faq": {
       "type": "faq",
+      "disabled": true,
       "blocks": {
         "258ade09-f735-4f9d-a745-fa85c2575746": {
           "type": "policy",
@@ -137,10 +138,29 @@
       "settings": {
         "title": ""
       }
+    },
+    "460573df-1c2d-4682-882a-85711015d261": {
+      "type": "Special",
+      "blocks": {
+        "91c9db74-24d3-4e61-9cd2-3abeeed29c83": {
+          "type": "order",
+          "settings": {
+            "title": "Order Issues",
+            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "91c9db74-24d3-4e61-9cd2-3abeeed29c83"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
     }
   },
   "order": [
     "main",
-    "faq"
+    "faq",
+    "460573df-1c2d-4682-882a-85711015d261"
   ]
 }
