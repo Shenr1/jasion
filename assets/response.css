@@ -1292,9 +1292,9 @@ flex-wrap: wrap;
   }
 }
 @media only screen and (max-width: 480px){
-  .lb-upsell-product-page-card .lb-spc-qty-cont {
-  margin-left:10px !important;
-}
+  .lb-spc-details-variants{
+    margin-right:10px !important;
+  }
   .lb-spc-details-btm {
   justify-content: start !important;
   }
