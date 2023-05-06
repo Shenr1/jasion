@@ -1236,6 +1236,25 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "420f82f4-4436-4a5f-9687-54a9a7fcb661": {
+      "type": "product-spec",
+      "blocks": {
+        "351207e8-08cc-44d0-a248-7b9b228fc5bc": {
+          "type": "colum",
+          "settings": {
+            "title": "Example title",
+            "text": "B",
+            "dis": ""
+          }
+        }
+      },
+      "block_order": [
+        "351207e8-08cc-44d0-a248-7b9b228fc5bc"
+      ],
+      "settings": {
+        "title": "Testimonials"
+      }
     }
   },
   "order": [
@@ -1262,6 +1281,7 @@
     "product-recommendations",
     "recently-viewed",
     "collection-return",
-    "167984018422fa69c0"
+    "167984018422fa69c0",
+    "420f82f4-4436-4a5f-9687-54a9a7fcb661"
   ]
 }
