@@ -799,7 +799,7 @@
           "type": "colum",
           "settings": {
             "xuhao": "F",
-            "title": "Chain Stay length",
+            "title": "Chain Stay Length",
             "text": "18\""
           }
         },
@@ -870,6 +870,124 @@
         "image": "shopify:\/\/shop_images\/1550x455-eb7-06.jpg",
         "mb_image": "shopify:\/\/shop_images\/eb7_d003af4f-273e-40ad-b561-ba9cc45089a6.jpg",
         "title": "Sizing"
+      }
+    },
+    "8fb0922d-46ca-4bce-9bed-6f665d8804cd": {
+      "type": "product-size",
+      "blocks": {
+        "71f6bf70-41b1-4a36-b375-b5df4ea75298": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Total Length",
+            "text": "68\""
+          }
+        },
+        "ce49964a-0c8f-4e89-9dd7-203488e9f7a6": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "B",
+            "title": "Handlebar Height",
+            "text": "42.5\""
+          }
+        },
+        "81ad7125-2660-4b25-ac32-cc9bbea4d9c7": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "C",
+            "title": "Wheelbase",
+            "text": "42\""
+          }
+        },
+        "ec78e95b-1de2-4ccb-a7e0-6c782904d6ba": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "D",
+            "title": "Minimum Seat Height",
+            "text": "30\""
+          }
+        },
+        "e3373a4d-c45c-4e7f-aba1-a3d13ede0c08": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "E",
+            "title": "Maximum Seat Height",
+            "text": "39\""
+          }
+        },
+        "dd6319ff-0730-4a29-a61e-0dbcacce223c": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "F",
+            "title": "Chain Stay Length",
+            "text": "18\""
+          }
+        },
+        "cb6045df-4c77-4299-9bae-cc2f42a1c27c": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "G",
+            "title": "Stand Height",
+            "text": "30\""
+          }
+        },
+        "91354a06-924c-4e1e-b34e-7c3aa979eabb": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "H",
+            "title": "Top Tube Length",
+            "text": "23\""
+          }
+        },
+        "ca71e641-661d-46f1-ab20-0a1531940582": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "I",
+            "title": "Wheel Diameter",
+            "text": "25\""
+          }
+        },
+        "b0c3839c-d244-4eec-8c27-9174bac5d40e": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "J",
+            "title": "Head Tube Length",
+            "text": "7\""
+          }
+        },
+        "2992e15a-a3e9-4609-8d6a-6b9759195fd6": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "K",
+            "title": "Handlebar Length",
+            "text": "25\""
+          }
+        },
+        "e1d2e281-c038-496f-93f4-2f81227f5826": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "L",
+            "title": "Minimum Seat to Floor",
+            "text": "33.5\""
+          }
+        }
+      },
+      "block_order": [
+        "71f6bf70-41b1-4a36-b375-b5df4ea75298",
+        "ce49964a-0c8f-4e89-9dd7-203488e9f7a6",
+        "81ad7125-2660-4b25-ac32-cc9bbea4d9c7",
+        "ec78e95b-1de2-4ccb-a7e0-6c782904d6ba",
+        "e3373a4d-c45c-4e7f-aba1-a3d13ede0c08",
+        "dd6319ff-0730-4a29-a61e-0dbcacce223c",
+        "cb6045df-4c77-4299-9bae-cc2f42a1c27c",
+        "91354a06-924c-4e1e-b34e-7c3aa979eabb",
+        "ca71e641-661d-46f1-ab20-0a1531940582",
+        "b0c3839c-d244-4eec-8c27-9174bac5d40e",
+        "2992e15a-a3e9-4609-8d6a-6b9759195fd6",
+        "e1d2e281-c038-496f-93f4-2f81227f5826"
+      ],
+      "settings": {
+        "title": "231546"
       }
     },
     "42e88095-3500-4892-98dd-ff85f2c80402": {
@@ -1053,34 +1171,6 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "8fb0922d-46ca-4bce-9bed-6f665d8804cd": {
-      "type": "product-size",
-      "blocks": {
-        "71f6bf70-41b1-4a36-b375-b5df4ea75298": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Example title5",
-            "text": ""
-          }
-        },
-        "ce49964a-0c8f-4e89-9dd7-203488e9f7a6": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Example title",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "71f6bf70-41b1-4a36-b375-b5df4ea75298",
-        "ce49964a-0c8f-4e89-9dd7-203488e9f7a6"
-      ],
-      "settings": {
-        "title": "231546"
-      }
     }
   },
   "order": [
@@ -1099,13 +1189,13 @@
     "f0063152-6002-4348-81ac-576e041802d5",
     "fa6c41da-f62f-4770-a576-6e42860d7e0b",
     "b77dda8e-ede6-42af-956c-a823223f7dfd",
+    "8fb0922d-46ca-4bce-9bed-6f665d8804cd",
     "42e88095-3500-4892-98dd-ff85f2c80402",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
     "product-recommendations",
     "recently-viewed",
     "collection-return",
-    "167984018422fa69c0",
-    "8fb0922d-46ca-4bce-9bed-6f665d8804cd"
+    "167984018422fa69c0"
   ]
 }
