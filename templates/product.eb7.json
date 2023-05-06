@@ -874,6 +874,7 @@
     },
     "8fb0922d-46ca-4bce-9bed-6f665d8804cd": {
       "type": "product-size",
+      "disabled": true,
       "blocks": {
         "71f6bf70-41b1-4a36-b375-b5df4ea75298": {
           "type": "colum",
@@ -1136,7 +1137,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/1550x455-EB7.jpg",
         "mb_image": "shopify:\/\/shop_images\/610x1100_-eb7.jpg",
-        "title": "EB7 2.0 - What's in the Box?",
+        "title": "What's in the Box?",
         "align_text": "left"
       }
     },
