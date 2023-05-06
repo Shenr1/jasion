@@ -1053,6 +1053,34 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "8fb0922d-46ca-4bce-9bed-6f665d8804cd": {
+      "type": "product-size",
+      "blocks": {
+        "71f6bf70-41b1-4a36-b375-b5df4ea75298": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Example title5",
+            "text": ""
+          }
+        },
+        "ce49964a-0c8f-4e89-9dd7-203488e9f7a6": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Example title",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "71f6bf70-41b1-4a36-b375-b5df4ea75298",
+        "ce49964a-0c8f-4e89-9dd7-203488e9f7a6"
+      ],
+      "settings": {
+        "title": "231546"
+      }
     }
   },
   "order": [
@@ -1077,6 +1105,7 @@
     "product-recommendations",
     "recently-viewed",
     "collection-return",
-    "167984018422fa69c0"
+    "167984018422fa69c0",
+    "8fb0922d-46ca-4bce-9bed-6f665d8804cd"
   ]
 }
