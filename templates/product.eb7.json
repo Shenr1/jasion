@@ -1063,7 +1063,7 @@
         "4796a31e-27a5-4f93-8727-9e5ca70b0ece": {
           "type": "colum",
           "settings": {
-            "title": "1*ELECTRIC BATTERY"
+            "title": "1*ELECTRIC BIKE"
           }
         },
         "9d4b27dd-a14d-4ded-a706-a54c0265bfa8": {
@@ -1140,10 +1140,59 @@
         "align_text": "left"
       }
     },
-    "2c8e5a94-3848-400d-9b7c-e632969e9091": {
-      "type": "product-spec",
+    "c257a1d7-e287-45bc-aaa8-050a85c33c21": {
+      "type": "product-size",
+      "blocks": {
+        "37180015-0714-4fdd-8f6b-55dd0c1d7401": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "",
+            "title": "1*ELECTRIC BIKE",
+            "text": ""
+          }
+        },
+        "0e17f61d-dcde-410c-81ea-4bd128e00053": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Example title",
+            "text": ""
+          }
+        },
+        "a178aefc-cb3a-4dee-84a3-402414df4647": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Example title",
+            "text": ""
+          }
+        },
+        "495fdff2-e0bc-49a2-9a34-53531007f23a": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Example title",
+            "text": ""
+          }
+        },
+        "8eaa3ae2-604d-495d-9233-01814c08bd7f": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Example title",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "37180015-0714-4fdd-8f6b-55dd0c1d7401",
+        "0e17f61d-dcde-410c-81ea-4bd128e00053",
+        "a178aefc-cb3a-4dee-84a3-402414df4647",
+        "495fdff2-e0bc-49a2-9a34-53531007f23a",
+        "8eaa3ae2-604d-495d-9233-01814c08bd7f"
+      ],
       "settings": {
-        "title": "Testimonials"
+        "title": "EB7 ST - What's in the Box?"
       }
     },
     "product-recommendations": {
@@ -1209,7 +1258,7 @@
     "42e88095-3500-4892-98dd-ff85f2c80402",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
-    "2c8e5a94-3848-400d-9b7c-e632969e9091",
+    "c257a1d7-e287-45bc-aaa8-050a85c33c21",
     "product-recommendations",
     "recently-viewed",
     "collection-return",
