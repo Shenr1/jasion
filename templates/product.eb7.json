@@ -869,7 +869,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/1550x455-eb7-06.jpg",
         "mb_image": "shopify:\/\/shop_images\/eb7_d003af4f-273e-40ad-b561-ba9cc45089a6.jpg",
-        "title": "Sizing"
+        "title": "EB7 2.0-Sizing"
       }
     },
     "8fb0922d-46ca-4bce-9bed-6f665d8804cd": {
@@ -987,13 +987,15 @@
         "e1d2e281-c038-496f-93f4-2f81227f5826"
       ],
       "settings": {
-        "title": "231546"
+        "image": "shopify:\/\/shop_images\/1550x455-eb7_st.jpg",
+        "mb_image": "shopify:\/\/shop_images\/610x715_-EB7.jpg",
+        "title": "EB7 ST-Sizing"
       }
     },
     "42e88095-3500-4892-98dd-ff85f2c80402": {
       "type": "product-video",
       "settings": {
-        "title": "EB7 Assembly Instructions",
+        "title": "Assembly Instructions",
         "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU"
       }
     },
