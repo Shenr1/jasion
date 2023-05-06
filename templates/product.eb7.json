@@ -1036,6 +1036,13 @@
             "title": "How long will it take for my shipment to arrive?",
             "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
           }
+        },
+        "565d4f94-7dd4-4a3f-9e62-06ebd3e0f7df": {
+          "type": "question",
+          "settings": {
+            "title": "What is the different between EB7 2.0 and EB7 ST?",
+            "text": "<p>The EB7 ST has a new design step-through with a lower span than before, it is more suitable for older people or people with physical limitations to ride.<br\/><\/p>"
+          }
         }
       },
       "block_order": [
@@ -1043,7 +1050,8 @@
         "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-1",
         "afcb9ced-646e-4b0d-a047-ef0524d8e11e",
         "940efde1-8eb8-4e05-8e5a-d1401fafe46a",
-        "c0d86d9c-70b8-4062-8d31-79e3c0e42e94"
+        "c0d86d9c-70b8-4062-8d31-79e3c0e42e94",
+        "565d4f94-7dd4-4a3f-9e62-06ebd3e0f7df"
       ],
       "settings": {
         "title": "FAQs"
