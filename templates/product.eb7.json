@@ -1140,61 +1140,6 @@
         "align_text": "left"
       }
     },
-    "c257a1d7-e287-45bc-aaa8-050a85c33c21": {
-      "type": "product-size",
-      "blocks": {
-        "37180015-0714-4fdd-8f6b-55dd0c1d7401": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "",
-            "title": "1*ELECTRIC BIKE",
-            "text": ""
-          }
-        },
-        "0e17f61d-dcde-410c-81ea-4bd128e00053": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Example title",
-            "text": ""
-          }
-        },
-        "a178aefc-cb3a-4dee-84a3-402414df4647": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Example title",
-            "text": ""
-          }
-        },
-        "495fdff2-e0bc-49a2-9a34-53531007f23a": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Example title",
-            "text": ""
-          }
-        },
-        "8eaa3ae2-604d-495d-9233-01814c08bd7f": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Example title",
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "37180015-0714-4fdd-8f6b-55dd0c1d7401",
-        "0e17f61d-dcde-410c-81ea-4bd128e00053",
-        "a178aefc-cb3a-4dee-84a3-402414df4647",
-        "495fdff2-e0bc-49a2-9a34-53531007f23a",
-        "8eaa3ae2-604d-495d-9233-01814c08bd7f"
-      ],
-      "settings": {
-        "title": "EB7 ST - What's in the Box?"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -1236,25 +1181,6 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "420f82f4-4436-4a5f-9687-54a9a7fcb661": {
-      "type": "product-spec",
-      "blocks": {
-        "351207e8-08cc-44d0-a248-7b9b228fc5bc": {
-          "type": "colum",
-          "settings": {
-            "title": "Example title",
-            "text": "B",
-            "dis": ""
-          }
-        }
-      },
-      "block_order": [
-        "351207e8-08cc-44d0-a248-7b9b228fc5bc"
-      ],
-      "settings": {
-        "title": "Testimonials"
-      }
     }
   },
   "order": [
@@ -1277,11 +1203,9 @@
     "42e88095-3500-4892-98dd-ff85f2c80402",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
-    "c257a1d7-e287-45bc-aaa8-050a85c33c21",
     "product-recommendations",
     "recently-viewed",
     "collection-return",
-    "167984018422fa69c0",
-    "420f82f4-4436-4a5f-9687-54a9a7fcb661"
+    "167984018422fa69c0"
   ]
 }
