@@ -3,25 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "bee8806e-eb9c-4077-8a13-9db68598caed": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/products\/combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/banner05_5be04443-cfad-4a87-82d1-97fa44050e0b.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/banner05.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "slideshow-0": {
           "type": "image",
           "settings": {
@@ -40,11 +21,30 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "bee8806e-eb9c-4077-8a13-9db68598caed": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/products\/combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banner05_5be04443-cfad-4a87-82d1-97fa44050e0b.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner05.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "bee8806e-eb9c-4077-8a13-9db68598caed",
-        "slideshow-0"
+        "slideshow-0",
+        "bee8806e-eb9c-4077-8a13-9db68598caed"
       ],
       "custom_css": [
         ".btn {color: #fff !important;}"
