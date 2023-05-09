@@ -28,13 +28,20 @@
             "show_dynamic_checkout": true,
             "surface_pickup_enable": true
           }
+        },
+        "0ca1d192-ca4c-45a4-8ab7-076818649288": {
+          "type": "text",
+          "settings": {
+            "text": "Important Note: Pre-sale products will be shipped within a week."
+          }
         }
       },
       "block_order": [
         "price",
         "judgeme_preview_badge_product_page_a5be8971",
         "variant_picker",
-        "buy_buttons"
+        "buy_buttons",
+        "0ca1d192-ca4c-45a4-8ab7-076818649288"
       ],
       "settings": {
         "sku_enable": false,
