@@ -69,7 +69,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p><strong>NOTE: The EB7 2.0 Green is now on pre-sale. It will be shipped at the end of May.<\/strong><\/p><p>Our world-class Customer Experience team is here to answer all of your questions.                    <\/p><ul><li>Hours:  9am - 6pm UTC-8 from Mon - Fri<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p><strong>NOTE: The EB7 2.0 Green is now on pre-sale. It will be shipped at the end of May.<\/strong><\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Give Us a Call - +1 8882062165<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -228,7 +228,7 @@
           "type": "riding",
           "settings": {
             "title": "850W of PEAK POWER",
-            "text": "<p>The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling Or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.<\/p>",
+            "text": "<p>The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.<\/p>",
             "image": "shopify:\/\/shop_images\/e28a42c4475362c949415a1c17dcc923.jpg"
           }
         },
