@@ -3,25 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 72,
-            "subheading": "",
-            "link": "shopify:\/\/products\/eb7-st",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ff981c",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Chronograph_f172090c-f183-42a2-8e75-dacf35295b7f.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Chronograph_600_x_800_b9adf675-1970-4c56-940d-767d98a256bc.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "bee8806e-eb9c-4077-8a13-9db68598caed": {
           "type": "image",
           "settings": {
@@ -40,11 +21,30 @@
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
+        },
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 72,
+            "subheading": "",
+            "link": "shopify:\/\/products\/eb7-st",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#ff981c",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Chronograph_f172090c-f183-42a2-8e75-dacf35295b7f.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/Chronograph_600_x_800_b9adf675-1970-4c56-940d-767d98a256bc.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
         }
       },
       "block_order": [
-        "slideshow-0",
-        "bee8806e-eb9c-4077-8a13-9db68598caed"
+        "bee8806e-eb9c-4077-8a13-9db68598caed",
+        "slideshow-0"
       ],
       "custom_css": [
         ".btn {color: #fff !important;}"
