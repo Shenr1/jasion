@@ -166,6 +166,12 @@
     "bed87367-cbf5-436a-961a-e08e479ced98": {
       "type": "product-image-slider",
       "blocks": {
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-2": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_3b3f483b-e804-4121-bf9a-dcefb08425ae.jpg"
+          }
+        },
         "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-0": {
           "type": "text_block",
           "settings": {
@@ -183,19 +189,13 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1_6ef4c9f3-34bf-4402-b493-f1cf485ac23f.jpg"
           }
-        },
-        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2_3b3f483b-e804-4121-bf9a-dcefb08425ae.jpg"
-          }
         }
       },
       "block_order": [
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-2",
         "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-0",
         "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-3",
-        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-1",
-        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-2"
+        "template--18321957847314__bed87367-cbf5-436a-961a-e08e479ced98-1679760309c49019af-1"
       ],
       "settings": {
         "title": "Superior Performance",
