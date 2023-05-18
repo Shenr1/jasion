@@ -492,7 +492,7 @@ font-size: 16px;
 }
   .ce_right h2 {
   font-size: 20px;
-  margin: 10px 0 10px;
+  margin-bottom: 5px;
   line-height: 1.2 !important;
 }
   .ce_right {
@@ -1410,6 +1410,7 @@ text-align: left;
 }
   .ce_right .grid-product__title, .ce_infos p {
   font-size: 14px;
+  margin-bottom: 6px;
 }
   .ce_right .grid-product__title {
   font-size: 14px;

@@ -632,13 +632,13 @@
   display: flex;
   flex-direction: column;
   border: 1px solid #dddddd;
-  margin-right: 0.75rem;
-  margin-bottom: 0.75rem;
   overflow: hidden;
   border-radius: 4px;
 }
 .variant-wrapper{
   margin-bottom: 3rem;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 .variant-price-wrap{
   font-size: .75rem;
@@ -673,6 +673,23 @@
     width: 80px;
     height: 70px;
     margin: 0 auto!important;
+  }
+  .variant-input-wrap .variant-input{
+    width: 32%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+  .variant-input-wrap .variant-input:nth-child(3n + 1){
+    margin-right: 0
+  }
+
+  .variant-input-wrap .variant-price-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 4px;
+    height: 2.25rem;
+    line-height: 1.1;
   }
 }
 

@@ -686,8 +686,11 @@ transition: all 0.5s cubic-bezier(0, 0.64, 0.36, 1);
 }
 .ce_right h2{
   font-size:42px;
-  margin:15px 0 20px;
+  margin-bottom: 10px;
   line-height:1.2!important;
+}
+.ce_right .grid-product__title{
+  margin-bottom: 10px;
 }
 .current_price{
   font-size: 36px;
