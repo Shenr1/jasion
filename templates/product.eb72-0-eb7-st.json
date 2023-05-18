@@ -69,7 +69,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p><strong>NOTE: The EB7 2.0 Green and White are now on pre-sale. It will be shipped at the end of May.<\/strong><\/p><p><strong>Black color is in stock!<\/strong><\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Give Us a Call：+1 8882062165<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -1160,55 +1160,6 @@
       "type": "collection-return",
       "disabled": true,
       "custom_css": [
-
-      ],
-      "settings": {
-      }
-    },
-    "167984018422fa69c0": {
-      "type": "apps",
-      "blocks": {
-        "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true
-      }
-    }
-  },
-  "order": [
-    "main",
-    "25641c25-1728-4b22-8d51-73f27247e1be",
-    "nav",
-    "bed87367-cbf5-436a-961a-e08e479ced98",
-    "41ed966e-380a-4daf-a3d2-1e1019a5c1c0",
-    "a80e6218-7420-4ebd-a621-aedb1d2e649e",
-    "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
-    "ce23f688-7947-4fed-8de2-748d568bb8dd",
-    "c52fc71f-8260-4c21-8e19-99cec97f538d",
-    "ca8dae8b-d324-49fa-bd78-b8700ac4560f",
-    "185eed4b-f0d2-41ad-a59e-debffadc6599",
-    "cf47bd2d-50b7-4ecb-ad4e-b576dcf5bdaa",
-    "f0063152-6002-4348-81ac-576e041802d5",
-    "fa6c41da-f62f-4770-a576-6e42860d7e0b",
-    "b77dda8e-ede6-42af-956c-a823223f7dfd",
-    "8fb0922d-46ca-4bce-9bed-6f665d8804cd",
-    "42e88095-3500-4892-98dd-ff85f2c80402",
-    "2970933c-48cf-4d97-9043-4bd83129230b",
-    "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
-    "product-recommendations",
-    "recently-viewed",
-    "collection-return",
-    "167984018422fa69c0"
-  ]
-}
 
       ],
       "settings": {
