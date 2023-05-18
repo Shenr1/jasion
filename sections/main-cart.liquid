@@ -62,9 +62,26 @@
           {% endif %}
 
           <div class="cart__item-row cart__checkout-wrapper">
-            <button type="submit" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
+            <button type="submit" onclick="act();" name="checkout" data-terms-required="{{ settings.cart_terms_conditions_enable }}" class="btn cart__checkout">
               {{ 'cart.general.checkout' | t }}
             </button>
+
+            <script>
+              function act(){
+              twq('event', 'tw-oevkl-oeycn', {
+              value: {{cart.total_price | divided_by: 100.0 }},
+              currency: '{{ shop.currency }}',
+              contents: [
+                {% for item in cart.items %}
+                  {content_id: '{{ item.product_id }}', content_name: '{{ item.product.title }}', content_price: '{{ item.product.price | money_without_currency }}', num_items: '{{item.quantity}}'},
+                {% endfor %}         
+              ],
+              conversion_id: '{{ order_number }}',
+              email_address: '{{ customer.email }}'
+              });
+                
+              }
+            </script>
 
             {% if additional_checkout_buttons and settings.cart_additional_buttons %}
               <div class="additional-checkout-buttons">{{ content_for_additional_checkout_buttons }}</div>
