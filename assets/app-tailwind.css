@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.btn-default {@apply bg-vi !text-white hover:!text-white hover:border-vi-dark border-viGray whitespace-nowrap }  
+}
+/* 兼容处理 */
+.grid.product-single,.grid.site-foo,.grid.grid--half-gutters{ display: block; }
+
+ 

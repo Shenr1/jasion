@@ -3,25 +3,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "bee8806e-eb9c-4077-8a13-9db68598caed": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/products\/combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Chronograph_3b83a033-c383-465b-8472-01b4a8aa9d91.png",
-            "image_mobile": "shopify:\/\/shop_images\/2xe-Bikes.png",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
         "slideshow-0": {
           "type": "image",
           "settings": {
@@ -35,16 +16,35 @@
             "link_text_2": "",
             "color_accent": "#ff981c",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/Chronograph_f172090c-f183-42a2-8e75-dacf35295b7f.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/Chronograph_600_x_800_b9adf675-1970-4c56-940d-767d98a256bc.jpg",
+            "image": "shopify:\/\/shop_images\/banner04.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/banner04-2.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        },
+        "bee8806e-eb9c-4077-8a13-9db68598caed": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/products\/combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/banner01.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/b6f84f39717d52550541fe284f5d4181.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
         }
       },
       "block_order": [
-        "bee8806e-eb9c-4077-8a13-9db68598caed",
-        "slideshow-0"
+        "slideshow-0",
+        "bee8806e-eb9c-4077-8a13-9db68598caed"
       ],
       "custom_css": [
         ".btn {color: #fff !important;}"
@@ -86,9 +86,9 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/4644f593bcee0c4f92851631365e1646.png",
-            "title": "Fast Support",
-            "content": "Online service with 2-hour response time",
+            "image": "shopify:\/\/shop_images\/tax-black.png",
+            "title": "Tax-Free",
+            "content": "No need to pay 7-10% ST",
             "link": ""
           }
         },
@@ -96,8 +96,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/31.png",
-            "title": "31-Day Trial",
+            "image": "shopify:\/\/shop_images\/14.png",
+            "title": "14-Day Trial",
             "content": "Don’t love it?\nSend it back to us.",
             "link": ""
           }
@@ -271,11 +271,11 @@
     "96a59338-2ade-4345-bd4c-6f39f6cdd1b9": {
       "type": "inspirations",
       "blocks": {
-        "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1": {
+        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_3.jpg",
-            "video": "https:\/\/youtu.be\/lyWby66UOc4"
+            "image": "shopify:\/\/shop_images\/maxresdefault.jpg",
+            "video": "https:\/\/youtu.be\/E0JwCfcGCW8"
           }
         },
         "c334b0ba-92c9-47d9-ae4c-afd99b1497be": {
@@ -292,11 +292,11 @@
             "video": "https:\/\/youtu.be\/k1d2e385CYQ"
           }
         },
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0": {
+        "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault.jpg",
-            "video": "https:\/\/youtu.be\/E0JwCfcGCW8"
+            "image": "shopify:\/\/shop_images\/maxresdefault_3.jpg",
+            "video": "https:\/\/youtu.be\/lyWby66UOc4"
           }
         },
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2": {
@@ -315,10 +315,10 @@
         }
       },
       "block_order": [
-        "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1",
+        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0",
         "c334b0ba-92c9-47d9-ae4c-afd99b1497be",
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-1",
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0",
+        "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1",
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2",
         "84ae0a64-c61f-4506-ba39-4d68cefe6100"
       ],

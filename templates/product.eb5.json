@@ -64,7 +64,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p>Our world-class Customer Experience team is here to answer all of your questions.<\/p><ul><li>Hours:  9am - 6pm UTC-8 from Mon - Fri<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p>Questions? We’re happy to help!                <\/p><ul><li>Give Us a Call：+1 8882062165<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -130,15 +130,15 @@
         "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-2": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4644f593bcee0c4f92851631365e1646.png",
-            "title": "Fast Support"
+            "image": "shopify:\/\/shop_images\/tax-black.png",
+            "title": "Tax-inclusive"
           }
         },
         "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-3": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/31.png",
-            "title": "31-Day Trial"
+            "image": "shopify:\/\/shop_images\/14.png",
+            "title": "14-Day Trial"
           }
         }
       },
@@ -560,8 +560,8 @@
         "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0": {
           "type": "colum",
           "settings": {
-            "title": "Bell\/Horn",
-            "text": "Electric Horn Installed",
+            "title": "Product Weight",
+            "text": "49.6LBS(22.5KG)",
             "dis": ""
           }
         }
