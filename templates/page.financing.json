@@ -284,6 +284,27 @@
         "lazyload_images": true
       }
     },
+    "00b2a553-2ed4-4540-a6e1-36cc13221d49": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>About Klarna<\/h2><p>\n\n<b>\nWe’re on a mission to reshape shopping, by elevating the entire shopping experience from browsing to owning. We do this by giving you the benefits of convenience, perks and inspiration. Founded in Stockholm, Sweden, Klarna is one of Europe's fastest-growing companies and a leading alternative payment provider. We have 5,000 employees across 45 countries, and are leading the way for alternative payments by serving 147 million consumers and 400,000+ retailer’s payment solutions.\n\n<br><a target=\"_blank\" href=\"https:\/\/\/www.klarna.com\/international\/about-us\">https:\/\/\/www.klarna.com\/international\/about-us<\/a>\n\n<br>If there is any other question or help needed, please contact: support@jasionbike.com.<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "7e93cec1-1026-44b2-948c-d1d5c42dedd7": {
       "type": "advanced-content",
       "blocks": {
@@ -306,25 +327,16 @@
         "lazyload_images": true
       }
     },
-    "00b2a553-2ed4-4540-a6e1-36cc13221d49": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>About Klarna<\/h2><p>\n\n<b>\nWe’re on a mission to reshape shopping, by elevating the entire shopping experience from browsing to owning. We do this by giving you the benefits of convenience, perks and inspiration. Founded in Stockholm, Sweden, Klarna is one of Europe's fastest-growing companies and a leading alternative payment provider. We have 5,000 employees across 45 countries, and are leading the way for alternative payments by serving 147 million consumers and 400,000+ retailer’s payment solutions.\n\n<br><a target=\"_blank\" href=\"https:\/\/\/www.klarna.com\/international\/about-us\">https:\/\/\/www.klarna.com\/international\/about-us<\/a>\n\n<br>If there is any other question or help needed, please contact: support@jasionbike.com.<\/p>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1"
-      ],
+    "3738aac8-1e83-459c-a991-c2e7b49af28c": {
+      "type": "featured-collection",
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "title": "Shop with Klarna",
+        "home_featured_products": "electric-bike",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
       }
     },
     "form": {
@@ -338,18 +350,6 @@
         "business_time": "<p>Business time:  9:00 - 18:00, (UTC-8, PST) Mon-Fri<\/p>",
         "narrow_column": false
       }
-    },
-    "3738aac8-1e83-459c-a991-c2e7b49af28c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Shop with Klarna",
-        "home_featured_products": "electric-bike",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
     }
   },
   "order": [
@@ -360,9 +360,9 @@
     "rich-text",
     "ed470dfe-1f10-47f9-9060-559d8474825d",
     "e5b218c8-2257-4ac0-a2bd-7385f4f88690",
-    "7e93cec1-1026-44b2-948c-d1d5c42dedd7",
     "00b2a553-2ed4-4540-a6e1-36cc13221d49",
-    "form",
-    "3738aac8-1e83-459c-a991-c2e7b49af28c"
+    "7e93cec1-1026-44b2-948c-d1d5c42dedd7",
+    "3738aac8-1e83-459c-a991-c2e7b49af28c",
+    "form"
   ]
 }

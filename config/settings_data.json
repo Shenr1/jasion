@@ -50,7 +50,7 @@
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
     "product_grid_image_size": "square",
-    "product_hover_image": false,
+    "product_hover_image": true,
     "enable_swatches": false,
     "swatch_style": "square",
     "enable_product_reviews": false,
