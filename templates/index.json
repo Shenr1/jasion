@@ -271,6 +271,13 @@
     "96a59338-2ade-4345-bd4c-6f39f6cdd1b9": {
       "type": "inspirations",
       "blocks": {
+        "84ae0a64-c61f-4506-ba39-4d68cefe6100": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
+            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
+          }
+        },
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0": {
           "type": "text_block",
           "settings": {
@@ -305,22 +312,15 @@
             "image": "shopify:\/\/shop_images\/maxresdefault_2.jpg",
             "video": "https:\/\/youtu.be\/7U5iDZI3Zs4"
           }
-        },
-        "84ae0a64-c61f-4506-ba39-4d68cefe6100": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
-            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
-          }
         }
       },
       "block_order": [
+        "84ae0a64-c61f-4506-ba39-4d68cefe6100",
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0",
         "c334b0ba-92c9-47d9-ae4c-afd99b1497be",
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-1",
         "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1",
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2",
-        "84ae0a64-c61f-4506-ba39-4d68cefe6100"
+        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2"
       ],
       "settings": {
         "title": "YouTube channel influencer collaboration video",
