@@ -312,7 +312,7 @@
         "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1": {
           "type": "liquid",
           "settings": {
-            "code": "<h2>About Klarna<\/h2><p>\n\n<b>\nWe’re on a mission to reshape shopping, by elevating the entire shopping experience from browsing to owning. We do this by giving you the benefits of convenience, perks and inspiration. Founded in Stockholm, Sweden, Klarna is one of Europe's fastest-growing companies and a leading alternative payment provider. We have 5,000 employees across 45 countries, and are leading the way for alternative payments by serving 147 million consumers and 400,000+ retailer’s payment solutions.\n\n<br>https:\/\/\/www.klarna.com\/international\/about-us\/\n\n<br>If there is any other question or help needed, please contact: support@jasionbike.com.<\/p>",
+            "code": "<h2>About Klarna<\/h2><p>\n\n<b>\nWe’re on a mission to reshape shopping, by elevating the entire shopping experience from browsing to owning. We do this by giving you the benefits of convenience, perks and inspiration. Founded in Stockholm, Sweden, Klarna is one of Europe's fastest-growing companies and a leading alternative payment provider. We have 5,000 employees across 45 countries, and are leading the way for alternative payments by serving 147 million consumers and 400,000+ retailer’s payment solutions.\n\n<br><a target=\"_blank\" href=\"https:\/\/\/www.klarna.com\/international\/about-us\">https:\/\/\/www.klarna.com\/international\/about-us<\/a>\n\n<br>If there is any other question or help needed, please contact: support@jasionbike.com.<\/p>",
             "width": "100%",
             "alignment": "center"
           }
