@@ -67,6 +67,7 @@
     },
     "93d395fd-dd1a-4954-9ad9-7249098750b4": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0": {
           "type": "text_block",
@@ -154,6 +155,37 @@
         "divider": false
       }
     },
+    "f4710a45-577f-4d62-aad4-387ccd23220f": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1200.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Three Payment Plans To Help You Enjoy Riding<\/h2><p>Now, 3 payment plans are available for choosing, Pay in 4, Pay in 30 days, Monthly financing (up to 24 months).\n\n *CA resident loans made or arranged pursuant to a California Financing Law license.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-0",
+        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "rich-text": {
       "type": "rich-text",
       "disabled": true,
@@ -182,6 +214,119 @@
         "divider": false
       }
     },
+    "ed470dfe-1f10-47f9-9060-559d8474825d": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16691085869293__ed470dfe-1f10-47f9-9060-559d8474825d-1684721954d489550b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Pay in 4 Benefits:<\/h2><p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.\n<br>2. If you choose a Pay in 4 plan, it will not affect your credit score. (*CA resident loans made or arranged pursuant to a California Financing Law license.)\n<br>3. No interest and no fees when you pay on time.\n\n<br>*A $1000 purchase might cost $172.79 per month over 6 months at 12.49% APR.*<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "47855496-d97f-45e5-bcba-e76299469a34": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>How to Use Klarna<\/h2><p>1. Fill Your Cart\nAdd everything you want to purchase to your cart and begin the checkout process.\n\n<br>2. Choose How You Pay\nSelect Klarna at checkout. Choose the payment plan you would like and check out\n\n<br>3. Pay Over Time\nMake payments at klarna.com or in the Klaran app. You'll get email and text reminders.\n\n*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example:\n\n[X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        },
+        "99c9d15b-ce75-4b76-8409-86d4044e5360": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>How it works:<\/h2><p>\n1. Use your own valid debit or credit card, or other accepted payment method, to pay (no prepaid cards).\n<br>2. The first payment is charged when we confirm your order (this is usually the shipping date for online orders).\n<br>3. The next 3 payments are automatically made every 2 weeks after your Initial Payment (first Installment Payment due at least 15 days after Initial Payment for California residents).\n<br>4. Klarna charges no interest with Pay Later in 4 and no fees unless you fail to make a payment.\n<br>5. A Late Fee of up to $7 may be charged if any scheduled payment remains unpaid after 10 days (the total of late fees charged on an order will never exceed 25% of your Total Purchase Amount).\n<br>6. Depending on your payment method, your financial institution may charge you interest or fees under your agreement with them. If you have any questions about those charges contact your payment method provider.<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16691085869293__ed470dfe-1f10-47f9-9060-559d8474825d-1684721954d489550b-1",
+        "47855496-d97f-45e5-bcba-e76299469a34",
+        "99c9d15b-ce75-4b76-8409-86d4044e5360"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "e5b218c8-2257-4ac0-a2bd-7385f4f88690": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<p><b>The best way to shop.<\/b>\n<br>See all of your purchases in one place, pay any open balances and much more in the Klarna app. You can also log into your Klarna account at https:\/\/app.klarna.com\/login. If you need any help, our Customer Service is there for you.\n\n<br><b>Safe and secure.<\/b>\n<br>Klarna uses the latest safeguards and security to protect your information and prevent unauthorized purchases.\n\n<br><b>We're always here to help!<\/b>\n<br>Don't see your question here? Check out Klarna's full FAQ page. You can reach Klarna anytime at https:\/\/www.klarna.com\/us\/customer-service\/ or by downloading the Klarna app.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dingtalk_20230504114130_d432fb5b-be5f-4290-b34c-3b8a2885aa92.jpg",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-1",
+        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "7e93cec1-1026-44b2-948c-d1d5c42dedd7": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16691085869293__7e93cec1-1026-44b2-948c-d1d5c42dedd7-1684721954d489550b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dingtalk_20230504114412.jpg",
+            "link": "",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16691085869293__7e93cec1-1026-44b2-948c-d1d5c42dedd7-1684721954d489550b-0"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "00b2a553-2ed4-4540-a6e1-36cc13221d49": {
+      "type": "advanced-content",
+      "blocks": {
+        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>About Klarna<\/h2><p>\n\n<b>\nWe’re on a mission to reshape shopping, by elevating the entire shopping experience from browsing to owning. We do this by giving you the benefits of convenience, perks and inspiration. Founded in Stockholm, Sweden, Klarna is one of Europe's fastest-growing companies and a leading alternative payment provider. We have 5,000 employees across 45 countries, and are leading the way for alternative payments by serving 147 million consumers and 400,000+ retailer’s payment solutions.\n\n<br>https:\/\/\/www.klarna.com\/international\/about-us\/\n\n<br>If there is any other question or help needed, please contact: support@jasionbike.com.<\/p>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -199,7 +344,12 @@
     "main",
     "b8202217-f996-4c3a-825d-a48a2a0a73ea",
     "93d395fd-dd1a-4954-9ad9-7249098750b4",
+    "f4710a45-577f-4d62-aad4-387ccd23220f",
     "rich-text",
+    "ed470dfe-1f10-47f9-9060-559d8474825d",
+    "e5b218c8-2257-4ac0-a2bd-7385f4f88690",
+    "7e93cec1-1026-44b2-948c-d1d5c42dedd7",
+    "00b2a553-2ed4-4540-a6e1-36cc13221d49",
     "form"
   ]
 }
