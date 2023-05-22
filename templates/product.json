@@ -31,6 +31,7 @@
         },
         "0ca1d192-ca4c-45a4-8ab7-076818649288": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Important Note: Pre-sale products will be shipped within a week."
           }
