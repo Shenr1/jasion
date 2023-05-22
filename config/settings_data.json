@@ -49,7 +49,7 @@
     "vendor_enable": false,
     "quick_shop_enable": false,
     "quick_shop_text": "Quick view",
-    "product_grid_image_size": "square",
+    "product_grid_image_size": "natural",
     "product_hover_image": false,
     "enable_swatches": true,
     "swatch_style": "square",
