@@ -84,3 +84,16 @@
     {%- endfor -%}
   </select>
 {%- endform -%}
+<script>
+  function act(){
+    twq('event', 'tw-oevkl-oezit', {
+      value: {{ product.price | divided_by: 100.0 }},
+      currency: '{{ shop.currency }}',
+      contents: [
+        {content_id: '{{ product.id }}', content_name: '{{ product.title }}', content_price: '{{ product.price | divided_by: 100.0 }}', num_items: '{{item.quantity}}'},
+      ],
+      conversion_id: '{{ order_number }}',
+      email_address: '{{ customer.email }}'
+    }); 
+  }
+</script>
