@@ -185,18 +185,57 @@
     },
     "9485de70-a96b-4dad-af41-6826b4d66a32": {
       "type": "product-faq",
+      "blocks": {
+        "28bb97be-8a23-4a2e-9927-5659b275abb5": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>User Manual <\/p><p>Assembly Instructions<\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "28bb97be-8a23-4a2e-9927-5659b275abb5"
+      ],
       "settings": {
         "title": "Jasion® EB7 2.0 The Best Affordable Electric Bike"
       }
     },
     "03f00940-c2e5-44ad-8630-2a670412daa2": {
       "type": "product-faq",
+      "blocks": {
+        "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>User Manual <\/p><p>Assembly Instructions<\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902"
+      ],
       "settings": {
         "title": "Jasion® EB7 ST High Power Step-Thru Electric Bike"
       }
     },
     "3453c3bc-d949-4188-84e4-e1d47daf9eae": {
       "type": "product-faq",
+      "blocks": {
+        "8f4f31c8-18d9-4c26-bf0a-ece6347f9057": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p>User Manual <\/p><p>Assembly Instructions<\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "8f4f31c8-18d9-4c26-bf0a-ece6347f9057"
+      ],
       "settings": {
         "title": "Jasion® EB5 Light Weight Pedal Assist E-bike"
       }
