@@ -67,6 +67,7 @@
     },
     "93d395fd-dd1a-4954-9ad9-7249098750b4": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0": {
           "type": "text_block",
@@ -182,6 +183,24 @@
         "divider": false
       }
     },
+    "9485de70-a96b-4dad-af41-6826b4d66a32": {
+      "type": "product-faq",
+      "settings": {
+        "title": "Jasion® EB7 2.0 The Best Affordable Electric Bike"
+      }
+    },
+    "03f00940-c2e5-44ad-8630-2a670412daa2": {
+      "type": "product-faq",
+      "settings": {
+        "title": "Jasion® EB7 ST High Power Step-Thru Electric Bike"
+      }
+    },
+    "3453c3bc-d949-4188-84e4-e1d47daf9eae": {
+      "type": "product-faq",
+      "settings": {
+        "title": "Jasion® EB5 Light Weight Pedal Assist E-bike"
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
@@ -200,6 +219,9 @@
     "b8202217-f996-4c3a-825d-a48a2a0a73ea",
     "93d395fd-dd1a-4954-9ad9-7249098750b4",
     "rich-text",
+    "9485de70-a96b-4dad-af41-6826b4d66a32",
+    "03f00940-c2e5-44ad-8630-2a670412daa2",
+    "3453c3bc-d949-4188-84e4-e1d47daf9eae",
     "form"
   ]
 }
