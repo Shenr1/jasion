@@ -7,6 +7,26 @@
         "image": "shopify:\/\/shop_images\/Photo_35.jpg"
       }
     },
+    "1af0242f-0a12-45cb-ad1d-de4c1074fede": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Lost your manual, or maybe just interested in diving into the details before purchasing? We've got your back!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "b8202217-f996-4c3a-825d-a48a2a0a73ea": {
       "type": "icon-list",
       "disabled": true,
@@ -255,6 +275,7 @@
   },
   "order": [
     "main",
+    "1af0242f-0a12-45cb-ad1d-de4c1074fede",
     "b8202217-f996-4c3a-825d-a48a2a0a73ea",
     "93d395fd-dd1a-4954-9ad9-7249098750b4",
     "rich-text",
