@@ -190,7 +190,7 @@
           "type": "rich-text",
           "settings": {
             "title": "",
-            "text": "<p>User Manual <\/p><p>Assembly Instructions<\/p>",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion-EB7_2022.6.06.pdf\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion-EB7_2022.6.06.pdf\">User Manual <\/a><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=2s\" title=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=2s\">Assembly Instructions<\/a><\/p>",
             "align_text": "left"
           }
         }
