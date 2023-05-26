@@ -229,7 +229,7 @@
           "type": "rich-text",
           "settings": {
             "title": "",
-            "text": "<p>User Manual <\/p><p>Assembly Instructions: Same as EB7 2.0<\/p>",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7ST_user_manual.pdf?v=1685091417\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7ST_user_manual.pdf?v=1685091417\">User Manual <\/a><\/p><p>Assembly Instructions: Same as EB7 2.0<\/p>",
             "align_text": "left"
           }
         }
