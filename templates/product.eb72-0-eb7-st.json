@@ -69,7 +69,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p><strong>Note: The EB7 2.0 Green is now on pre-sale. It will be shipped in the middle of June.<\/strong><\/p><p><strong>White and Black colors are in stock!<\/strong><\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p><strong>Note: The EB7 2.0 Green is now on pre-sale. It will be shipped in the middle of June.<\/strong><\/p><p><strong>White and Black colors are in stock!<\/strong><\/p><p><strong>Note: The EB7 ST is now on pre-sale. It will be shipped in the end of June.<\/strong><\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -220,16 +220,14 @@
           "type": "riding",
           "settings": {
             "title": "Dual Suspension System",
-            "text": "<p>Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.<\/p>",
-            "image": "shopify:\/\/shop_images\/11_01852641-1ab4-4aae-9a2c-22a564a30b07.jpg"
+            "text": "<p>Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.<\/p>"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0": {
           "type": "riding",
           "settings": {
             "title": "850W of PEAK POWER",
-            "text": "<p>The stronger brushless motor helps you conquer even the most rugged terrain easily, providing you with the smoothest, most exciting, and effortless riding experience. <\/p>",
-            "image": "shopify:\/\/shop_images\/3_14045e90-92cb-4303-a28a-78f3d47d213a.jpg"
+            "text": "<p>The stronger brushless motor helps you conquer even the most rugged terrain easily, providing you with the smoothest, most exciting, and effortless riding experience. <\/p>"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1": {
