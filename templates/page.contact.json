@@ -7,6 +7,26 @@
         "image": "shopify:\/\/shop_images\/Photo_35.jpg"
       }
     },
+    "1af0242f-0a12-45cb-ad1d-de4c1074fede": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Lost your manual, or maybe just interested in diving into the details before purchasing? We've got your back!<\/p><p>Your E-bike will arrive partially assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our<a href=\"https:\/\/www.youtube.com\/channel\/UCyOjFfkIQRt5nebAe-MU1SQ\" target=\"_self\"> <strong>Youtube Channel<\/strong><\/a>.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
     "b8202217-f996-4c3a-825d-a48a2a0a73ea": {
       "type": "icon-list",
       "disabled": true,
@@ -67,6 +87,7 @@
     },
     "93d395fd-dd1a-4954-9ad9-7249098750b4": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0": {
           "type": "text_block",
@@ -182,13 +203,70 @@
         "divider": false
       }
     },
+    "9485de70-a96b-4dad-af41-6826b4d66a32": {
+      "type": "product-faq",
+      "blocks": {
+        "28bb97be-8a23-4a2e-9927-5659b275abb5": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion-EB7_2022.6.06.pdf\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion-EB7_2022.6.06.pdf\">User Manual <\/a><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=2s\" title=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=2s\">Assembly Instructions<\/a><\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "28bb97be-8a23-4a2e-9927-5659b275abb5"
+      ],
+      "settings": {
+        "title": "Jasion® EB7 2.0 The Best Affordable Electric Bike"
+      }
+    },
+    "03f00940-c2e5-44ad-8630-2a670412daa2": {
+      "type": "product-faq",
+      "blocks": {
+        "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7ST_user_manual.pdf?v=1685091417\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7ST_user_manual.pdf?v=1685091417\">User Manual <\/a><\/p><p>Assembly Instructions: Same as EB7 2.0<\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902"
+      ],
+      "settings": {
+        "title": "Jasion® EB7 ST High Power Step-Thru Electric Bike"
+      }
+    },
+    "3453c3bc-d949-4188-84e4-e1d47daf9eae": {
+      "type": "product-faq",
+      "blocks": {
+        "8f4f31c8-18d9-4c26-bf0a-ece6347f9057": {
+          "type": "rich-text",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_2022.5.4_1.pdf?v=1659088929&ref=r8eji_4hqjz\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_2022.5.4_1.pdf?v=1659088929&ref=r8eji_4hqjz\">User Manual <\/a><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=EHQwQ_54gaU\" title=\"https:\/\/www.youtube.com\/watch?v=EHQwQ_54gaU\">Assembly Instructions<\/a><\/p>",
+            "align_text": "left"
+          }
+        }
+      },
+      "block_order": [
+        "8f4f31c8-18d9-4c26-bf0a-ece6347f9057"
+      ],
+      "settings": {
+        "title": "Jasion® EB5 Light Weight Pedal Assist E-bike"
+      }
+    },
     "form": {
       "type": "contact-form",
       "settings": {
         "title": "Get in Contact With Our Sales Team.",
         "text": "<p>Our champion customer service will get back to you within hours.<\/p>",
         "show_phone": false,
-        "contact_info": "<p>Email: support@jasionbike.com<\/p><p>Call: +1 888-206-2165<\/p>",
+        "contact_info": "<p>Email: support@jasionbike.com<\/p>",
         "socail_link": "shopify:\/\/policies\/refund-policy",
         "business_time": "<p>Business time:  9:00 - 18:00, (UTC-8, PST) Mon-Fri<\/p>",
         "narrow_column": false
@@ -197,9 +275,13 @@
   },
   "order": [
     "main",
+    "1af0242f-0a12-45cb-ad1d-de4c1074fede",
     "b8202217-f996-4c3a-825d-a48a2a0a73ea",
     "93d395fd-dd1a-4954-9ad9-7249098750b4",
     "rich-text",
+    "9485de70-a96b-4dad-af41-6826b4d66a32",
+    "03f00940-c2e5-44ad-8630-2a670412daa2",
+    "3453c3bc-d949-4188-84e4-e1d47daf9eae",
     "form"
   ]
 }

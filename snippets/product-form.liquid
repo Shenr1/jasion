@@ -48,11 +48,14 @@
       name="add"
       data-add-to-cart
       class="btn btn--full add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
+      onclick="act()"
       {% unless current_variant.available %} disabled="disabled"{% endunless %}>
       <span data-add-to-cart-text data-default-text="{{ default_text }}">
         {{ button_text }}
       </span>
     </button>
+  
+    
       
 </div>
 
@@ -82,3 +85,17 @@
     {%- endfor -%}
   </select>
 {%- endform -%}
+<script>
+  function act(){
+    twq('event', 'tw-oevkl-oezit', {
+      value: {{ product.price | divided_by: 100.0 }},
+      currency: '{{ shop.currency }}',
+      contents: [
+        {content_id: '{{ product.id }}', content_name: '{{ product.title }}', content_price: '{{ product.price | divided_by: 100.0 }}', num_items: '{{item.quantity}}'},
+      ],
+      conversion_id: '{{ order_number }}',
+      email_address: '{{ customer.email }}'
+    }); 
+  
+  }
+</script>

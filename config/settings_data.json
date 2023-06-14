@@ -53,7 +53,7 @@
     "product_hover_image": false,
     "enable_swatches": true,
     "swatch_style": "square",
-    "enable_product_reviews": true,
+    "enable_product_reviews": false,
     "collection_grid_style": "overlaid-box",
     "collection_grid_shape": "square",
     "collection_grid_image": "product",
@@ -61,10 +61,11 @@
     "collection_grid_tint": "#000000",
     "collection_grid_opacity": 10,
     "collection_grid_gutter": false,
-    "cart_type": "drawer",
-    "cart_additional_buttons": false,
+    "cart_type": "page",
+    "cart_additional_buttons": true,
     "cart_notes_enable": true,
     "cart_terms_conditions_enable": false,
+    "cart_terms_conditions_page": "shopify:\/\/pages\/payment",
     "social_facebook_link": "https:\/\/www.facebook.com\/jasionebikes\/",
     "social_twitter_link": "https:\/\/twitter.com\/jasionride",
     "social_pinterest_link": "",
@@ -73,7 +74,7 @@
     "social_youtube_link": "https:\/\/www.youtube.com\/@JasionBike",
     "share_facebook": true,
     "share_twitter": true,
-    "share_pinterest": true,
+    "share_pinterest": false,
     "favicon": "shopify:\/\/shop_images\/lQLPJxaDORJJb6nNAfTNAfSwDOoA1jeWMAMC2A_c_YAGAQ_500_500.png_720x720q90g.jpg",
     "search_enable": true,
     "predictive_search_enabled": false,
@@ -235,6 +236,12 @@
       },
       "1700746595972018580": {
         "type": "shopify:\/\/apps\/equate-product-compare\/blocks\/app-embed\/5ad1f821-35bf-43a6-bd56-bd2086d56828",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "47286647ffb49c53e8": {
+        "type": "shopify:\/\/apps\/growave-loyalty-wishlist-3\/blocks\/block.embed.socialshopwave-helper\/b3d2efbe-110a-4e27-84a8-1f2ed63996a4",
         "disabled": false,
         "settings": {
         }

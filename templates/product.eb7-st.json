@@ -69,7 +69,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p>Questions? We’re happy to help!                <\/p><ul><li>Give Us a Call：+1 8882062165<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -211,15 +211,15 @@
           "settings": {
             "title": "Dual Suspension System",
             "text": "<p>Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.<\/p>",
-            "image": "shopify:\/\/shop_images\/080b8501720c0d22bb1f7956c977f953.jpg"
+            "image": "shopify:\/\/shop_images\/EB7_2.0_2listting_pictures-8.jpg"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0": {
           "type": "riding",
           "settings": {
-            "title": "1000W of PEAK POWER",
-            "text": "<p>New ST Motor provides 1000W Peak output at full power! Use 100% manual pedaling Or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.<\/p>",
-            "image": "shopify:\/\/shop_images\/7_ee79fb4c-35b5-4029-9641-b793f25d09f1.png"
+            "title": "850W of PEAK POWER",
+            "text": "<p>New ST Motor provides 850W Peak output at full power! Use 100% manual pedaling Or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.<\/p>",
+            "image": "shopify:\/\/shop_images\/EB7_2.0_2listting_pictures-7.jpg"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1": {
@@ -686,8 +686,8 @@
         "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
           "type": "colum",
           "settings": {
-            "title": "IP Level",
-            "text": "IP65",
+            "title": "Folding Dimensions",
+            "text": "36*21*29 (Inch)",
             "dis": ""
           }
         },

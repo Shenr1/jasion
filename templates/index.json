@@ -16,8 +16,8 @@
             "link_text_2": "",
             "color_accent": "#ff981c",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/banner04.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/banner04-2.jpg",
+            "image": "shopify:\/\/shop_images\/EB7_pc.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/EB7_c8a34019-1bdb-4ca4-876a-16766172982b.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -35,8 +35,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/banner01.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/b6f84f39717d52550541fe284f5d4181.jpg",
+            "image": "shopify:\/\/shop_images\/EB7_EB7ST-pc.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/EB7_EB7ST.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -66,7 +66,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/14ee4bcf0fecafc2c6d76db3f260460a.png",
+            "image": "shopify:\/\/shop_images\/Fast_delivery.png",
             "title": "Fast delivery",
             "content": "1 to 3 day delivery to all 50 states",
             "link": ""
@@ -76,7 +76,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/e6fcca86d29f47bbbba02d89c252cbbb_c01672ca-e15f-419d-8542-c728c3a7f349.png",
+            "image": "shopify:\/\/shop_images\/warranty.png",
             "title": "1-year warranty",
             "content": "One year warranty on all parts",
             "link": ""
@@ -86,7 +86,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/tax-black.png",
+            "image": "shopify:\/\/shop_images\/Tax.png",
             "title": "Tax-Free",
             "content": "No need to pay 7-10% ST",
             "link": ""
@@ -96,7 +96,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/14.png",
+            "image": "shopify:\/\/shop_images\/14-Day_Trial.png",
             "title": "14-Day Trial",
             "content": "Don’t love it?\nSend it back to us.",
             "link": ""
@@ -271,6 +271,13 @@
     "96a59338-2ade-4345-bd4c-6f39f6cdd1b9": {
       "type": "inspirations",
       "blocks": {
+        "84ae0a64-c61f-4506-ba39-4d68cefe6100": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
+            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
+          }
+        },
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0": {
           "type": "text_block",
           "settings": {
@@ -305,22 +312,15 @@
             "image": "shopify:\/\/shop_images\/maxresdefault_2.jpg",
             "video": "https:\/\/youtu.be\/7U5iDZI3Zs4"
           }
-        },
-        "84ae0a64-c61f-4506-ba39-4d68cefe6100": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
-            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
-          }
         }
       },
       "block_order": [
+        "84ae0a64-c61f-4506-ba39-4d68cefe6100",
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0",
         "c334b0ba-92c9-47d9-ae4c-afd99b1497be",
         "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-1",
         "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1",
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2",
-        "84ae0a64-c61f-4506-ba39-4d68cefe6100"
+        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2"
       ],
       "settings": {
         "title": "YouTube channel influencer collaboration video",

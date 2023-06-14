@@ -69,7 +69,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p><strong>NOTE: The EB7 2.0 Green and White are now on pre-sale. It will be shipped at the end of May.<\/strong><\/p><p><strong>Black color is in stock!<\/strong><\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Give Us a Call：+1 8882062165<\/li><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -221,7 +221,7 @@
           "settings": {
             "title": "Dual Suspension System",
             "text": "<p>Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.<\/p>",
-            "image": "shopify:\/\/shop_images\/080b8501720c0d22bb1f7956c977f953.jpg"
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-9.jpg"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0": {
@@ -229,7 +229,7 @@
           "settings": {
             "title": "850W of PEAK POWER",
             "text": "<p>The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.<\/p>",
-            "image": "shopify:\/\/shop_images\/633C42C8-8C66-4ab0-9868-E4E5868C732A.png"
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-8.jpg"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1": {
@@ -720,8 +720,8 @@
         "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
           "type": "colum",
           "settings": {
-            "title": "IP Level",
-            "text": "IPx4",
+            "title": "Folding Dimensions",
+            "text": "36*21*29 (Inch)",
             "dis": ""
           }
         },
