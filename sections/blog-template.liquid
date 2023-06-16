@@ -1,80 +1,102 @@
+
 <div class="coll_top" style="background:url({{ section.settings.image | img_url:"master" }}) no-repeat center;height:540px;">
   <div class="page-width">
     <h1>{{ blog.title }}</h1>
   </div>
 </div>
-{%- paginate blog.articles by 21 -%}
+{%- paginate blog.articles by 5 -%}
 
 <div data-section-id="{{ section.id }}" data-section-type="blog">
-  <div class="page-width page-content">
+  <div class="page-width tw-max-w-[1680px] md:tw-px-[18px] tw-px-0">
+    <br>
+    <div class="tw-mt-4 md:tw-block tw-hidden">
+      {%- render 'breadcrumbs' -%}
+    </div>
 
-    {%- render 'breadcrumbs' -%}
+    <div class="lg:tw-flex">
+      <section class='lg:tw-w-[69%]'> 
 
-    <header class="section-header{% if section.settings.blog_show_tag_filter and blog.tags.size > 0 %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
-      
-      {%- if section.settings.blog_show_tag_filter and blog.tags.size > 0 -%}
-        <select id="BlogTagFilter">
-          <option value="/blogs/{{ blog.handle }}">All</option>
-          {%- for tag in blog.all_tags -%}
-            {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
-            <option value="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}" {% if current_tags contains tag %}selected{% endif %}>{{ tag }}</option>
+        <h1 class='tw-font-semibold md:tw-text-4xl tw-text-3xl md:tw-my-12 tw-my-8 md:tw-text-left tw-text-center'>Jasion {{ current_tags | default: 'Blogs' }}</h1>
+
+        <header class="tw-flex-wrap tw-flex md:tw-justify-start tw-justify-center tw-mb-4 section-header{% if section.settings.blog_show_tag_filter and blog.tags.size > 0 %}{% unless settings.type_headers_align_text %} section-header--with-link{% endunless %}{% endif %}">
+          {% assign aClass = 'md:tw-m-0 md:tw-mr-8 md:tw-mb-6 tw-py-2 tw-m-2 md:tw-px-9 tw-px-3 tw-border-2 tw-border-stone-400 hover:tw-border-stone-500 hover:tw-text-stone-500 tw-text-stone-400 tw-border-solid' %}
+          
+          {%- if section.settings.blog_show_tag_filter and blog.tags.size > 0 -%}
+            {%- for tag in blog.all_tags -%}
+              {% if tag contains "_" %}{%- assign tag_starts_with = tag | slice: 0 -%}{% if tag_starts_with == "_" %}{% if tag_count %}{%- assign tag_count = tag_count | minus: 1 | at_least: 0 -%}{% endif %}{% continue %}{% endif %}{% endif %}
+              <a class="{{ aClass }} {% if current_tags contains tag %}tw-text-white !tw-border-stone-600 tw-bg-stone-600{% endif %}" 
+              href="/blogs/{{ blog.handle }}/tagged/{{ tag | handleize }}">{{ tag }}</a>
+            {%- endfor -%}
+          {%- endif -%}
+        </header>
+
+
+        <div class="blog-list md:tw-px-0 tw-px-[18px]">
+          {%- for article in blog.articles -%}
+            {%- render 'article-grid-item-jas', set: section.settings, article: article, index: forloop.index -%}
           {%- endfor -%}
-        </select>
-      {%- endif -%}
-    </header>
+        </div>
+      </section>
 
-    <div class="grid blog-list">
+      <section class="lg:tw-w-[69%] md:tw-hidden tw-block -tw-my-8">
+        {%- if paginate.pages > 1 -%}
+          {%- render 'pagination', paginate: paginate -%}
+        {%- endif -%}
+      </section>
 
-<div class="article-highlight-slider grid__item">
-    <div class="swiper-container">
-      <div class="swiper-wrapper">
-      {%- for article in blog.articles limit:3 -%}
-        {%- render 'article-item-highlight',
-          blog: blog,
-          article: article,
-          grid_item_width: 'one-whole',
-          per_row: '1',
-          image_size: section.settings.blog_image_size
-        -%}
-      {%- endfor -%}
-      </div>
-         <div class="swiper-button-prev"><span class="fa fa-angle-left"></span></div>
-   <div class="swiper-button-next"><span class="fa fa-angle-right"></span></div>
+
+      {% if section.settings.title_coll != blank %}
+      <section class='md:page-content lg:tw-w-[31%] xl:tw-pl-10 lg:tw-pl-6 tw-flex-col tw-flex'>
+        <h1 class='tw-font-semibold md:tw-text-4xl tw-text-3xl md:tw-my-12 tw-my-4 md:tw-text-left tw-text-center'>{{ section.settings.title_coll }}</h1>
+        {%- if section.settings.link != blank -%}
+          <a class="tw-block md:tw-hidden tw-mb-4 tw-text-center tw-font-semibold tw-text-vi" href="{{ section.settings.link }}">{{ section.settings.title_link }}</a>
+        {%- endif -%}
+        <div flickity-screen='mobile' tag-name='blog-recommend'
+          class="tw-flex-col tw-justify-between tw-flex tw-h-full 2xl:tw-mb-9 tw-mb-2 md:tw-mb-0 tw-px-8 md:tw-border md:tw-border-stone-300 md:tw-rounded-xl md:tw-p-6 md:tw-border-solid md:tw-bg-transparent tw-bg-[#FAF9F5]">
+          {%- for block in section.blocks -%}
+            {%- render 'product-grid-item-recommend', block: block.settings -%}
+          {%- endfor -%}
+
+          {%- if section.settings.link != blank -%}
+            <a class="md:tw-block tw-hidden tw-mb-4 tw-text-right md:hover:-tw-translate-x-2 tw-font-semibold tw-text-vi hover:tw-text-vi tw-transition-all" href="{{ section.settings.link }}">{{ section.settings.title_link }}</a>
+          {%- endif -%}
+        </div>
+
+
+      </section>
+      {% endif %}
+
+
     </div>
 
 
-</div>
-  
- 
-  <script>
-  var swiper = new Swiper(".article-highlight-slider .swiper-container", {
-        slidesPerView: 1,
-        autoplay: false,
-        loop: true,
-        navigation: {
-            nextEl: '.article-highlight-slider .swiper-button-next',
-            prevEl: '.article-highlight-slider .swiper-button-prev',
-        }
-      });
-  
-</script>
-      {%- for article in blog.articles -%}
-        {%- render 'article-grid-item', article: article, grid_item_width: 'medium-up--one-third', per_row: '3', image_size: section.settings.blog_image_size -%}
-      {%- endfor -%}
-    </div>
+  </div>
 
+  <section class="lg:tw-w-[69%] md:tw-block tw-hidden">
     {%- if paginate.pages > 1 -%}
       {%- render 'pagination', paginate: paginate -%}
     {%- endif -%}
-
-  </div>
+  </section>
 </div>
 
 {%- endpaginate -%}
 
+
+<script>
+  if(screen.width < 750 ){
+    $("[flickity-screen='mobile'] > a").remove();
+
+    $("[flickity-screen='mobile']").attr("data-flickity",'{"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true}')
+  }
+</script>
+
+
+
+
+
 {% schema %}
 {
-  "name": "t:sections.blog-template.name",
+  "name": "t:sections.blog-template.name(jasion)",
   "settings": [
       {
         "type": "image_picker",
@@ -88,11 +110,6 @@
     },
     {
       "type": "checkbox",
-      "id": "blog_show_rss",
-      "label": "t:sections.blog-template.settings.blog_show_rss.label"
-    },
-    {
-      "type": "checkbox",
       "id": "blog_show_tags",
       "label": "t:sections.blog-template.settings.blog_show_tags.label"
     },
@@ -103,46 +120,53 @@
       "default": true
     },
     {
-      "type": "checkbox",
-      "id": "blog_show_comments",
-      "label": "t:sections.blog-template.settings.blog_show_comments.label",
-      "default": true
+      "type": "header",
+      "content": "Recommend Products==========="
     },
     {
-      "type": "checkbox",
-      "id": "blog_show_author",
-      "label": "t:sections.blog-template.settings.blog_show_author.label"
+      "type": "text",
+      "id": "title_coll",
+      "label": "Recommend title",
+      "default": "Recommend products"
     },
     {
-      "type": "checkbox",
-      "id": "blog_show_excerpt",
-      "label": "t:sections.blog-template.settings.blog_show_excerpt.label"
+      "type": "text",
+      "id": "title_link",
+      "label": "link text",
+      "default": "View more"
     },
     {
-      "type": "select",
-      "id": "blog_image_size",
-      "label": "t:sections.blog-template.settings.blog_image_size.label",
-      "default": "wide",
-      "options": [
+      "type": "url",
+      "id": "link",
+      "label": "Link url"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "r_product",
+      "name": "Recommend products",
+      "settings": [
         {
-          "value": "natural",
-          "label": "t:sections.blog-template.settings.blog_image_size.options.natural.label"
+          "type": "product",
+          "id": "product",
+          "label": "Select product"
         },
         {
-          "value": "square",
-          "label": "t:sections.blog-template.settings.blog_image_size.options.square.label"
+          "type": "image_picker",
+          "id": "p-img",
+          "label": "Product image"
         },
         {
-          "value": "landscape",
-          "label": "t:sections.blog-template.settings.blog_image_size.options.landscape.label"
+          "type": "text",
+          "id": "p-title",
+          "label": "Priduct title",
+          "default": "Jasion® EB7 2.0"
         },
         {
-          "value": "portrait",
-          "label": "t:sections.blog-template.settings.blog_image_size.options.portrait.label"
-        },
-        {
-          "value": "wide",
-          "label": "t:sections.blog-template.settings.blog_image_size.options.wide.label"
+          "type": "text",
+          "id": "p-dec",
+          "label": "Priduct description",
+          "default": "The Best Affordable Electric Bike"
         }
       ]
     }

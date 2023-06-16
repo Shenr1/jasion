@@ -1,0 +1,34 @@
+
+{%- liquid
+  assign product = block.product
+  assign on_sale = false
+  if product.compare_at_price > product.price
+    assign on_sale = true
+  endif
+-%}
+
+<section class='md:hover:tw-scale-95 tw-transition-all'>
+  <a class="" href="{{ product.url }}">
+    <div class="md:tw-p-4 md:tw-bg-[#FAF9F5] tw-rounded-xl tw-mb-6 ">
+      {{ block.p-img | image_url: width: 1280 | image_tag: height: blkSt.bg_img_mb.height, class: 'tw-w-full tw-h-full tw-object-cover', lazyload: true }}
+    </div>
+
+    <p class="tw-text-2xl tw-font-semibold tw-mb-2">{{ block.p-title }}</p>
+    <p class="tw-text-xl tw-mb-6">{{ block.p-dec }}</p>
+    <p>
+      <span class="current_price tw-text-2xl !tw-text-vi">
+        {%- if product.price_varies -%}
+          {%- assign price = product.price_min | money -%}
+          {{ price }}
+        {%- else -%}
+          {{ product.price | money }}
+        {%- endif -%}
+      </span>
+      {%- if on_sale -%}
+        <span class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+        <span class="grid-product__price--original tw-text-stone-500">{{ product.compare_at_price | money }}</span>
+        <span class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+      {%- endif -%}
+    </p>
+  </a>
+</section>

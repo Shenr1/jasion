@@ -6372,47 +6372,21 @@ theme.recentlyViewed = {
 
 
   theme.Blog = (function() {
-
-  
-
     function Blog(container) {
-
       this.tagFilters();
-
     }
-
-  
-
     Blog.prototype = Object.assign({}, Blog.prototype, {
-
       tagFilters: function() {
-
         var filterBy = document.getElementById('BlogTagFilter');
-
-  
-
         if (!filterBy) {
-
           return;
-
         }
-
-  
-
         filterBy.addEventListener('change', function() {
-
           location.href = filterBy.value;
-
         });
-
       }
-
     });
-
-  
-
     return Blog;
-
   })();
 
   

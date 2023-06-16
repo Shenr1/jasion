@@ -1,11 +1,19 @@
+[tag-name='blog-recommend'] .flickity-button{@apply tw-w-8 tw-h-8 tw-text-stone-700 tw-top-1/4 tw-bg-transparent }
+[tag-name='blog-recommend'] .flickity-previous{@apply md:-tw-left-4 tw-left-0 }
+[tag-name='blog-recommend'] .flickity-next{@apply md:-tw-right-4 tw-right-0 }
+[tag-name='blog-recommend'] .flickity-button-icon{@apply tw-w-8 tw-h-8 tw-left-0 tw-top-0}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer components {
-.btn-default {@apply bg-vi !text-white hover:!text-white hover:border-vi-dark border-viGray whitespace-nowrap }  
+@media only screen and (max-width:769px) {
+    [flickity-screen='pc']:after {@apply tw-content-none }
+    [flickity-screen='mobile']:after {@apply tw-content-['flickity'] tw-hidden }
 }
-/* 兼容处理 */
-.grid.product-single,.grid.site-foo,.grid.grid--half-gutters{ display: block; }
 
- 
+
+@media only screen and (min-width:765px) {
+    [flickity-screen='pc']:after {@apply tw-content-['flickity'] tw-hidden}
+    [flickity-screen='mobile']:after {@apply tw-content-none}
+}

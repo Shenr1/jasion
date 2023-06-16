@@ -52,10 +52,16 @@
 
     {% elsif template.name == 'blog' %}
 
-      <span class="breadcrumb__divider" aria-hidden="true">/</span>
+      <span class="breadcrumb__divider tw-mx-1" aria-hidden="true">|</span>
+
+      {% capture blogT %}{{ 'general.breadcrumbs.blogs' | t }}{% endcapture %}
+      {% if blog.title != blogT  %}
+        <a href="javascripte:;" title="{{ 'general.breadcrumbs.blogs' | t }}">{{ 'general.breadcrumbs.blogs' | t }}</a>
+      {% endif %}
+
       {% if current_tags %}
         {{ blog.title | link_to: blog.url }}
-        <span class="breadcrumb__divider" aria-hidden="true">/</span>
+        <span class="breadcrumb__divider" aria-hidden="true">|</span>
         <span>{{ current_tags | join: " + " }}</span>
       {% endif %}
 

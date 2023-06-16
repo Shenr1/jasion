@@ -31,7 +31,8 @@
     },
     "breadcrumbs": {
       "home": "Home",
-      "home_link_title": "Back to the frontpage"
+      "home_link_title": "Back to the frontpage",
+      "blogs": "Blogs"
     },
     "social": {
       "share_on_facebook": "Share",

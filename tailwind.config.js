@@ -12,6 +12,7 @@ module.exports = {
     tableLayout: false
   },
   purge: false,
+  prefix: 'tw-',
   theme: {
     extend: {
       colors: {
