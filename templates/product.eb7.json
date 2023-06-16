@@ -216,20 +216,20 @@
     "41ed966e-380a-4daf-a3d2-1e1019a5c1c0": {
       "type": "product-riding",
       "blocks": {
-        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-2": {
-          "type": "riding",
-          "settings": {
-            "title": "Dual Suspension System",
-            "text": "<p>Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.<\/p>",
-            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-9.jpg"
-          }
-        },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0": {
           "type": "riding",
           "settings": {
             "title": "850W of PEAK POWER",
             "text": "<p>The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.<\/p>",
-            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-8.jpg"
+            "image": "shopify:\/\/shop_images\/EB7st_2_4.jpg"
+          }
+        },
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-2": {
+          "type": "riding",
+          "settings": {
+            "title": "Dual Suspension System",
+            "text": "<p>Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.<\/p>",
+            "image": "shopify:\/\/shop_images\/EB7st_2_9.jpg"
           }
         },
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1": {
@@ -258,8 +258,8 @@
         }
       },
       "block_order": [
-        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-2",
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-0",
+        "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-2",
         "template--18321957847314__41ed966e-380a-4daf-a3d2-1e1019a5c1c0-1679811475ea3b5ada-1",
         "89dd4d6c-a46a-485d-aa5a-414fc216fb20",
         "b5d4173e-0e87-4f72-8ed5-39c604a79ed0"
