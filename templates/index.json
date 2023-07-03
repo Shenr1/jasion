@@ -16,8 +16,8 @@
             "link_text_2": "",
             "color_accent": "#ff981c",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/EB7_pc.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/EB7_c8a34019-1bdb-4ca4-876a-16766172982b.jpg",
+            "image": "shopify:\/\/shop_images\/banner06.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/EB7_EB7-ST-1-_550X800_680b1ae7-07c2-4328-b9ac-e5e442081fa7.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -35,8 +35,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/EB7_EB7ST-pc.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/EB7_EB7ST.jpg",
+            "image": "shopify:\/\/shop_images\/banner07.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/EB7ST-5_550X800_4b8d525b-072f-45c1-b9d6-b17667ec9ab6.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -68,7 +68,7 @@
             "enable_image": true,
             "image": "shopify:\/\/shop_images\/Fast_delivery.png",
             "title": "Fast delivery",
-            "content": "1 to 3 day delivery to all 50 states",
+            "content": "1 to 3 day delivery to all 48 states",
             "link": ""
           }
         },
@@ -446,9 +446,9 @@
     "ce0cfb6d-3de7-4414-96f3-d43311e39b73": {
       "type": "blog-posts",
       "settings": {
-        "title": "Blog posts",
-        "content": "<p>Subscribe for all the latest news and deals in real time !<\/p>",
-        "blog": "news",
+        "title": "LATEST BLOG POST",
+        "content": "",
+        "blog": "blogs",
         "post_limit": 9,
         "blog_show_tags": false,
         "blog_show_date": true,

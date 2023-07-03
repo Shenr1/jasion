@@ -945,22 +945,48 @@ align-items: center;
     justify-content: space-between;
 }
 .pq_list .product__quantity{
-  width:30%;
+  width:25%;
 }
 .pq_list .btn{
-  width:67%; transition:all 0.3s ease;
+  width:72.5%;
+  transition:all 0.3s ease;
   background: #1f2529;
-    color: #fff;
-    border: 0;
+  color: #fff;
+  border: 0;
   border-radius: 5px;
+  font-size: 24px;
+  height: 100%;
 }
-.pq_list .btn:hover{background:#ffaf4f}
+.pq_list .btn:hover{background:#515151}
 .js-qty__wrapper {
-    max-width: 100%;
+  max-width: 100%;
+  height: 100%;
 }
 .js-qty__num {
-    padding: 12px 20px;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 24px;
+  height: 100%;
 }
+.payment-buttons .js-qty__adjust:hover{
+  background-color: #000;
+  color: #ffffff;
+}
+
+.payment-buttons .js-qty__adjust--minus{
+  border-radius: 5px 0 0 5px;
+}
+
+.payment-buttons .js-qty__adjust--plus{
+  border-radius: 0 5px 5px 0;
+}
+
+.payment-buttons .js-qty__adjust:hover .icon{
+  fill: #ffffff;;
+}
+
 .free-gifts{
 	background: #f9f8f4;
 padding: 15px 15px 5px;
@@ -1020,7 +1046,7 @@ letter-spacing: 0 !important;
 font-size: 20px !important;
   font-weight: bold;
 }
-.variant__label[for]{font-size: 16px !important;}
+.variant__label[for]{font-size: 18px !important;}
 #launchtip_upsell_select_wrapper a {
   font-size: 22px;
 }
@@ -1075,12 +1101,12 @@ text-align: center;
 }
 .que_title{
   display: inline-block;
-  padding: 7px 15px;
+  padding: 5px 18px;
   background: #1f2529;
   color: #fff;
   border-radius: 5px;
   margin-bottom: 10px;
-  font-weight: bold;
+  font-size: 18px;
 }
 .que_title i{
   margin-right:10px;
@@ -1603,7 +1629,7 @@ border-bottom: 2px solid #e8e9e9;
 color: #666;
 }
 .product-single__title {
-  font-size: 36px; margin-bottom:0px!important;
+  font-size: 26px; margin-bottom:0px!important;
 }
 .template-product .product-single__meta .jdgm-prev-badge{
   margin-bottom:18px!important; margin-top:-10px;
@@ -1699,10 +1725,10 @@ border-radius: 50%;
 bottom: 0;
 }
 .pi_title h4{
-text-transform: capitalize !important;
-letter-spacing: 0 !important;
-font-size: 18px;
-font-weight: 700;
+  text-transform: capitalize !important;
+  letter-spacing: 0 !important;
+  font-size: 20px;
+  font-weight: 700;
   width: 100%;
   margin: 0;
 }
@@ -1775,7 +1801,7 @@ align-items: center;
 .desktop--hide{display:none;}
 .template-product .newsletter-container{display:block;}
 .coll_top{background-size:cover!important; background-repeat:no-repeat; background-position:center center!important;}
-.payment-buttons .shopify-payment-button__button--unbranded{border-radius:5px!important; text-transform:capitalize; font-size:16px; letter-spacing:0.05em;}
+.payment-buttons .shopify-payment-button__button--unbranded{border-radius:5px!important; text-transform:capitalize; font-size:24px; letter-spacing:0.05em;}
 .product-single__meta{text-align:left;}
 .product-single__meta .custom_text ul li{padding-bottom:8px;  line-height:1.3;}
 .que_text{width:100%;}
@@ -1815,7 +1841,7 @@ word-break:break-all;
 }
 .home_custom h2{margin-bottom:10px;}
 .home_custom .hc_top p{margin-bottom:25px;}
-.product-single__title{font-size:42px;}
+.product-single__title{font-size:30px;}
 .hero__title{margin-bottom:34px;}
 .rl_text .author{font-weight:bold; font-size:1.1em;}
 .template-page .icon-list{

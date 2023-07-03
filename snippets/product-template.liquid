@@ -302,6 +302,32 @@
                         {%- render 'tab', id: tab_id, title: block.settings.title, content: tab_content -%}
                       </div>
                     {% endunless %}
+                  {%- when 'switch_tabs' -%}
+                  {% assign bSet = block.settings %}
+
+                  <div class="switch_tabs">
+                    <div class="tw-flex tw-justify-between tw-border-solid tw-border-0 tw-border-y tw-border-y-slate-200 tw-pt-4">
+                      {% for i in (1..3) %}
+                        {% assign imgKey = 'img_' | append: i %}
+                        {% if bSet[imgKey] != balnk %}
+                          <div class="{% if i == 1 %}active{% endif %} tw-cursor-pointer item-tab tw-w-1/3 tw-text-center tw-pb-4" data-tab="{{ i }}">
+                            <img class="tw-w-10 tw-mx-auto tw-mb-2" src="{{ bSet[imgKey] | img_url : 'master' }}" alt="">
+                            <p class="tw-font-semibold tw-mb-0">{{ bSet[imgKey].alt }}</p>
+                          </div>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                    <div class="tw-text-base tw-pt-4">
+                      {% for i in (1..3) %}
+                        {% assign conKey = 'content_' | append: i %}
+                        {% if bSet[conKey] != balnk %}
+                          <p class="item-content {% if i != 1 %}tw-hidden{% endif %}" data-tab="{{ i }}">{{ bSet[conKey] }}</p>
+                        {% endif %}
+                      {% endfor %}
+                    </div>
+                  </div>
+                    
+
                   {%- when 'contact' -%}
                     <div class="product-block product-block--tab" {{ block.shopify_attributes }}>
                       {% assign tab_id = block.id | append: product.id %}
@@ -626,7 +652,6 @@
   </div>
 </div>
 
-
 <style>
 .variant-containers{
   display: flex;
@@ -641,7 +666,7 @@
   margin-bottom: 0.75rem;
 }
 .variant-price-wrap{
-  font-size: .75rem;
+  font-size: .875rem;
   text-align: center;
   background-color: #efefef;
   font-weight: 600;

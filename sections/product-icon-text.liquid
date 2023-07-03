@@ -1,35 +1,41 @@
-{% if section.settings.divider %}<div class="section--divider">{% endif %}
-
-<div class="page-width">
-  <div class="iw_items wow fadeInUp animated">
-    {% for block in section.blocks %}
-    <div class="iw_item">
-      <div class="iw_img">
-        <img src="{{ block.settings.image | img_url: 'master' }}">
+{%- if section.settings.enable -%}
+<div class="iw-list">
+  {% if section.settings.divider %}<div class="section--divider">{% endif %}
+  <div class="page-width">
+    <div class="iw_items wow fadeInUp animated">
+      {% for block in section.blocks %}
+      <div class="iw_item">
+        <div class="iw_img">
+          <img src="{{ block.settings.image | img_url: 'master' }}">
+        </div>
+        <div class="iw_text">
+          <h4>{{ block.settings.title }}</h4>
+        </div>
       </div>
-      <div class="iw_text">
-        <h4>{{ block.settings.title }}</h4>
-      </div>
+      <span></span>
+      {% endfor %}
     </div>
-    <span></span>
-    {% endfor %}
   </div>
-
-  
 </div>
 
 {% if section.settings.divider %}</div>{% endif %}
+{%- endif -%}
 
 
 {% schema %}
   {
     "name": "Icon with text",
-    "class": "iw-list",
     "settings": [
       {
         "type": "text",
         "id": "title",
         "label": "Heading"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable",
+        "label": "Enable Icon with text?",
+        "default": true
       }
     ],
     "blocks": [

@@ -9,7 +9,6 @@
     },
     "1af0242f-0a12-45cb-ad1d-de4c1074fede": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1": {
           "type": "text",
@@ -30,6 +29,7 @@
     },
     "b8202217-f996-4c3a-825d-a48a2a0a73ea": {
       "type": "icon-list",
+      "disabled": true,
       "blocks": {
         "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0": {
           "type": "text_block",
@@ -87,6 +87,7 @@
     },
     "93d395fd-dd1a-4954-9ad9-7249098750b4": {
       "type": "text-with-icons",
+      "disabled": true,
       "blocks": {
         "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0": {
           "type": "text_block",
@@ -206,7 +207,6 @@
     },
     "9485de70-a96b-4dad-af41-6826b4d66a32": {
       "type": "product-faq",
-      "disabled": true,
       "blocks": {
         "28bb97be-8a23-4a2e-9927-5659b275abb5": {
           "type": "rich-text",
@@ -226,7 +226,6 @@
     },
     "03f00940-c2e5-44ad-8630-2a670412daa2": {
       "type": "product-faq",
-      "disabled": true,
       "blocks": {
         "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902": {
           "type": "rich-text",
@@ -246,7 +245,6 @@
     },
     "3453c3bc-d949-4188-84e4-e1d47daf9eae": {
       "type": "product-faq",
-      "disabled": true,
       "blocks": {
         "8f4f31c8-18d9-4c26-bf0a-ece6347f9057": {
           "type": "rich-text",

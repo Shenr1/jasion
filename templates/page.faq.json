@@ -12,6 +12,7 @@
       "blocks": {
         "550979e7-c53e-47a8-8020-21f3c4df3a2d": {
           "type": "order",
+          "disabled": true,
           "settings": {
             "title": "How can I track my order?",
             "text": "<p>Click <a href=\"https:\/\/jasionbike.com\/apps\/17TRACK?ref=r8eji_4hqjz\">HERE<\/a> to track your order.<\/p>"
@@ -35,21 +36,21 @@
           "type": "order",
           "settings": {
             "title": "Why my order has been canceled?",
-            "text": "<p>Because your order is detected as a high-risk account by the payment system. Therefore, we must cancel your order. You will receive your refund within 7 business days. If you would still like to purchase an E-Bike from us, please use a different email and shipping address.<\/p>"
+            "text": "<p>Because your order is detected as a high-risk account by the payment system. Therefore, we must cancel your order. You will receive your refund within 10 business days. If you would still like to purchase an E-Bike from us, please use a different email and shipping address.<\/p>"
           }
         },
         "64ad3201-736f-4c47-b08e-194d5b460c49": {
           "type": "policy",
           "settings": {
             "title": "Policy Summary",
-            "text": "<p><a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">Shipping<\/a><\/p><p><a href=\"\/policies\/refund-policy\" title=\"Refund Policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
+            "text": "<p><a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping<\/a><\/p><p><a href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
           }
         },
         "545feab4-2610-4a56-8518-bf2cd12996c1": {
           "type": "policy",
           "settings": {
             "title": "Can I return my order for personal reasons?",
-            "text": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging. <\/p><p>For specific fees, please click <a href=\"\/policies\/shipping-policy\" title=\"Shipping Policy\">HERE<\/a><\/p>"
+            "text": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging. <\/p><p>For specific fees, please click <a href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a><\/p>"
           }
         },
         "258ade09-f735-4f9d-a745-fa85c2575746": {
@@ -89,6 +90,7 @@
         },
         "43434774-efb9-42a3-ac85-c3bd067c44e6": {
           "type": "Miscellaneous",
+          "disabled": true,
           "settings": {
             "title": "Do I need a special license to ride an E-bike?",
             "text": "<p>This only applies to Jasion bikes and does not apply to all other types of e-bikes.<\/p>"
@@ -101,19 +103,11 @@
             "text": "<p>In accordance with local US laws, Jasion recommends that only riders aged 14 and above ride on our electric bikes. Be sure to check your local state e-bike laws to guarantee the age limit for e-bike riding.<\/p>"
           }
         },
-        "f3ef67de-1dc5-41fc-bec6-7c8cb954bc83": {
-          "type": "order",
-          "disabled": true,
-          "settings": {
-            "title": "Can I ride my E-bike with a passenger?",
-            "text": "<p>JASION does not recommend riding with more than one adult on the bike at a time. This ensures safer riding conditions as well as increased maneuverability and control for the rider.<\/p>"
-          }
-        },
         "94bec125-f4f3-48c6-99c2-a1285c867ae1": {
           "type": "Miscellaneous",
           "settings": {
             "title": "Can I ride my E-bike off-road?",
-            "text": "<p>Yes! The JASION <a href=\"https:\/\/jasionbike.com\/products\/jasion-eb7-electric-bike\">EB7 E-Bike<\/a> is designed specifically for off-roading. The fat tires and 500-watt battery will ensure that you are in control when taking to the trails. The Jasion <a href=\"https:\/\/jasionbike.com\/products\/jasion-eb5-electric-bike\">EB5 E-Bike<\/a> is not designed for off-road use but can take on some light trails and grassy pathways.<\/p>"
+            "text": "<p>Yes! The JASION <a href=\"https:\/\/www.jasionbike.com\/collections\/electric-bike\" title=\"https:\/\/www.jasionbike.com\/collections\/electric-bike\">E-Bike<\/a> is designed specifically for off-roading. The fat tires and 500-watt battery will ensure that you are in control when taking to the trails. <\/p>"
           }
         },
         "eb11cc56-22b7-4511-b9b5-483d06a6cbb9": {
@@ -159,7 +153,6 @@
         "e897d2b3-17f9-4f28-8d31-e6f05c702c32",
         "43434774-efb9-42a3-ac85-c3bd067c44e6",
         "0b288cfd-e709-4299-8c84-1db6f0dc3330",
-        "f3ef67de-1dc5-41fc-bec6-7c8cb954bc83",
         "94bec125-f4f3-48c6-99c2-a1285c867ae1",
         "eb11cc56-22b7-4511-b9b5-483d06a6cbb9",
         "ac80acc6-7ab2-4608-864d-d50faf7a98f4",

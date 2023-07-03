@@ -102,6 +102,7 @@ twq('config','oevkl');
   {%- endif -%}
 
   <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'custom.js' | asset_url }}" defer="defer"></script>
   
   
 
@@ -157,3 +158,6 @@ twq('config','oevkl');
   </template>
 </body>
 </html>
+
+{% comment %} 注册tailwind类名 {% endcomment %}
+<section class="tw-text-lg"></section>

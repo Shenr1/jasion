@@ -3,6 +3,14 @@
 [tag-name='blog-recommend'] .flickity-next{@apply md:-tw-right-4 tw-right-0 }
 [tag-name='blog-recommend'] .flickity-button-icon{@apply tw-w-8 tw-h-8 tw-left-0 tw-top-0}
 
+.switch_tabs .item-tab.active{@apply tw-border-solid tw-border-0 tw-border-b-2 tw-border-black}
+
+.waterfall-section .tw-flex:first-child .item .item-content b{@apply tw-text-6xl tw-mb-2}
+.waterfall-section .tw-flex:first-child .item .item-content span{@apply tw-text-3xl tw-text-stone-800}
+
+.waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply tw-text-[44px] tw-mb-0}
+.waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply tw-text-2xl tw-text-stone-800}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,8 +20,8 @@
     [flickity-screen='mobile']:after {@apply tw-content-['flickity'] tw-hidden }
 }
 
-
-@media only screen and (min-width:765px) {
+@media only screen and (min-width:770px) {
     [flickity-screen='pc']:after {@apply tw-content-['flickity'] tw-hidden}
     [flickity-screen='mobile']:after {@apply tw-content-none}
+    .product-section .page-content--product{@apply tw-pt-20}
 }
