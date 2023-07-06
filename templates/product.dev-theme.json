@@ -3,13 +3,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": {
-          "type": "price",
+        "judgeme_preview_badge_product_page_a5be8971": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
-        "judgeme_preview_badge_product_page_a5be8971": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "price": {
+          "type": "price",
           "settings": {
           }
         },
@@ -35,23 +35,31 @@
           "settings": {
             "text": "Important Note: Pre-sale products will be shipped within a week."
           }
+        },
+        "7554df4e-bc04-412a-b663-d0da10021637": {
+          "type": "question",
+          "settings": {
+            "title": "Have questions?",
+            "text": "<p>We’re happy to help!  <\/p>"
+          }
         }
       },
       "block_order": [
-        "price",
         "judgeme_preview_badge_product_page_a5be8971",
+        "price",
         "variant_picker",
         "buy_buttons",
-        "0ca1d192-ca4c-45a4-8ab7-076818649288"
+        "0ca1d192-ca4c-45a4-8ab7-076818649288",
+        "7554df4e-bc04-412a-b663-d0da10021637"
       ],
       "settings": {
         "sku_enable": false,
         "image_position": "left",
         "image_size": "medium",
         "product_zoom_enable": true,
-        "thumbnail_position": "beside",
+        "thumbnail_position": "below",
         "thumbnail_height": "flexible",
-        "thumbnail_arrows": false,
+        "thumbnail_arrows": true,
         "mobile_layout": "partial",
         "enable_video_looping": true,
         "product_video_style": "muted",
@@ -61,8 +69,24 @@
         "upsell_title": "Most Popular Upgrades"
       }
     },
+    "9bf171fe-b232-4758-8ba9-fda64393c788": {
+      "type": "images-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "full_width": true,
+        "bg_color": "",
+        "bg_img": "shopify:\/\/shop_images\/1_84595219-237c-4aa7-ad2f-d5fea8f94f64.jpg",
+        "title_fixed": true,
+        "title": "850W of PEAK POWER",
+        "title_color": "#ffffff",
+        "content": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
+        "content_color": "#c5c5c5"
+      }
+    },
     "accessories": {
       "type": "accessories-content",
+      "disabled": true,
       "settings": {
         "text": ""
       }
@@ -84,24 +108,12 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "c6f49c3e-a590-47ba-937a-ccc5ffff2a53": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Product Recommendation",
-        "home_featured_products": "accessories",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
-      }
     }
   },
   "order": [
     "main",
+    "9bf171fe-b232-4758-8ba9-fda64393c788",
     "accessories",
-    "judgeme_section_review_widget_96d0",
-    "c6f49c3e-a590-47ba-937a-ccc5ffff2a53"
+    "judgeme_section_review_widget_96d0"
   ]
 }
