@@ -1,14 +1,14 @@
 {% assign wapClass = "item tw-bg-stone-100 tw-flex tw-rounded-xl tw-p-4 tw-pr-8 tw-py-8 tw-pb-10 tw-items-center tw-justify-center" %}
-{% assign imgClass = "tw-h-32 tw-mr-4" %}
-{% assign imgClass2 = "tw-h-24 tw-mr-4" %}
-{% assign conClass = "item-content tw-flex tw-flex-col" %}
+{% assign imgClass = "tw-h-[6.5vw] tw-mr-4" %}
+{% assign imgClass2 = "tw-h-[5vw] tw-mr-4" %}
+{% assign conClass = "item-content tw-flex tw-flex-col " %}
 
 {% assign meta = product.metafields.custom %}
 
 <div class="page-width tw-mt-16">
   <div class="tw-flex">
     {% if meta.spec_icon_one != blank and meta.battery_capacity != blank %}
-      <div class="tw-p-2 tw-w-[34%]">
+      <div class="tw-p-2 2xl:tw-w-[34%]">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="tw-h-full" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.battery_capacity }} </div>
@@ -17,7 +17,7 @@
     {% endif %}
 
     {% if meta.spec_icon_four != blank and meta.per_charge != blank %}
-      <div class="tw-p-2 tw-w-[40%]">
+      <div class="tw-p-2 2xl:tw-w-[40%]">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="tw-h-full" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.per_charge }} </div>
@@ -36,7 +36,7 @@
   </div>
   <div class="tw-flex">
     {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
-      <div class="tw-p-2 tw-w-[28%]">
+      <div class="tw-p-2 2xl:tw-w-[28%]">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="tw-h-full" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
@@ -45,7 +45,7 @@
     {% endif %}
 
     {% if meta.spec_icon_two != blank and meta.pedal_assist != blank %}
-      <div class="tw-p-2 tw-w-[22%]">
+      <div class="tw-p-2 2xl:tw-w-[22%]">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="tw-h-full" src="{{ meta.spec_icon_two | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.pedal_assist }} </div>
@@ -72,25 +72,6 @@
     {% endif %}
   </div>
 </div>
-
-<style>
-
-</style>
-
-{% comment %} <img src="{{ product.metafields.custom.spec_icon_one | img_url:"master" }}">
-{{ product.metafields.custom.battery_capacity }}
-<img src="{{ product.metafields.custom.spec_icon_two | img_url:"master" }}">
-{{ product.metafields.custom.pedal_assist }}
-<img src="{{ product.metafields.custom.spec_icon_three | img_url:"master" }}">
-{{ product.metafields.custom.fully_charge }}
-<img src="{{ product.metafields.custom.spec_icon_four | img_url:"master" }}">
-{{ product.metafields.custom.per_charge }}
-<img src="{{ product.metafields.custom.spec_icon_five | img_url:"master" }}">
-{{ product.metafields.custom.max_load }}
-<img src="{{ product.metafields.custom.spec_icon_six | img_url:"master" }}">
-{{ product.metafields.custom.motor_capacity }}
-<img src="{{ product.metafields.custom.spec_icon_seven | img_url:"master" }}">
-{{ product.metafields.custom.tires }} {% endcomment %}
 
 
 {% schema %}

@@ -15,6 +15,18 @@ module.exports = {
   prefix: 'tw-',
   theme: {
     extend: {
+      screens: {
+        '3xl': {'min': '1535px'},
+        '2xl': {'min': '1440px'},
+      },
+      margin: {
+        '18': '4.5rem',
+        '13': '3.25rem'
+      },
+      padding: {
+        '18': '4.5rem',
+        '13': '3.25rem'
+      },
       colors: {
         vi: {
           light: '#fcb10f',

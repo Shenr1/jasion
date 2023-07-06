@@ -5,11 +5,11 @@
 
 .switch_tabs .item-tab.active{@apply tw-border-solid tw-border-0 tw-border-b-2 tw-border-black}
 
-.waterfall-section .tw-flex:first-child .item .item-content b{@apply tw-text-6xl tw-mb-2}
-.waterfall-section .tw-flex:first-child .item .item-content span{@apply tw-text-3xl tw-text-stone-800}
+.waterfall-section .tw-flex:first-child .item .item-content b{@apply tw-text-[3.15vw] tw-leading-tight tw-whitespace-nowrap}
+.waterfall-section .tw-flex:first-child .item .item-content span{@apply tw-text-[1.575vw] tw-text-stone-600 tw-whitespace-nowrap}
 
-.waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply tw-text-[44px] tw-mb-0}
-.waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply tw-text-2xl tw-text-stone-800}
+.waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
+.waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
 
 @tailwind base;
 @tailwind components;

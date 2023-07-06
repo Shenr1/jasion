@@ -32,17 +32,11 @@
     -%}
 
     <div class="pq_list">
-  <div class="product__quantity">
-                        {% assign qty_id = section_id | append: product.id %}
-                        {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
-                      </div>
-<!--   {% if section.settings.show_freegift %}<input type="hidden" id="FREE GIFT" name="properties[FREE GIFT]" value="
-{% for block in section.blocks %}
-  {%- case block.type -%}
-	{% when 'freegift' %}{{ block.settings.title }} {{ block.settings.price }} ($0.00)  {% if forloop.last %}{% else %}+{% endif %}
-{%- endcase -%}
-  {% endfor %}
-">{% endif %} -->
+    <div class="product__quantity">
+      {% assign qty_id = section_id | append: product.id %}
+      {%- render 'quantity-input', form_id: form_id, id: qty_id, qty: 1, min: 1 -%}
+    </div>
+
     <button
       {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
       name="add"
@@ -54,7 +48,6 @@
         {{ button_text }}
       </span>
     </button>
-  
     
       
 </div>

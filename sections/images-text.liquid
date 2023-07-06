@@ -1,0 +1,149 @@
+{%- assign secSt = section.settings -%}
+
+{% if secSt.bg_img != blank %}
+
+  <section section-name="image-list-text" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color:{{secSt.bg_color}};" >
+    <div class="tw-relative">
+      <div class="tw-text-center tw-w-full {% if secSt.title_fixed %}tw-absolute tw-top-24{% endif %}"> 
+        <div class="tw-max-w-7xl tw-mx-auto ">
+          <h1 style="color:{{secSt.title_color}};" class="tw-text-5xl tw-mb-12">{{secSt.title}}</h1>
+          <p style="color:{{secSt.content_color}};" class="tw-text-2xl">{{secSt.content}}</p>
+        </div>
+      </div>
+      <div>
+        <img class="tw-h-full" src="{{ secSt.bg_img | img_url:"master" }}">
+        <img class="tw-h-full tw-absolute" src="{{ secSt.cross_img_url | img_url:"master" }}">
+      </div>
+    </div>
+  </section>  
+{% endif %}
+
+
+{% schema %}
+  {
+    "name": "Single image text",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "full_width",
+        "label": "Is full width?",
+        "default": true
+      },
+ 		  {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color"
+      },
+ 		  {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background image"
+      },
+      {
+        "type": "image_picker",
+        "id": "cross_img_url",
+        "label": "Cross image"
+      },
+      {
+        "type": "header",
+        "content": "Title setting"
+      },
+      {
+        "type": "checkbox",
+        "id": "title_fixed",
+        "label": "Title containers is fixed?",
+        "default": true
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "850W of PEAK POWER"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#333333"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "default": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding."
+      },
+      {
+        "type": "color",
+        "id": "content_color",
+        "label": "Content color",
+        "default": "#333333"
+      }
+    ],
+    "presets": [
+        {
+          "name": "Single image text"
+        }
+      ]
+  }
+{% endschema %} 
