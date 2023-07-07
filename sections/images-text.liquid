@@ -1,7 +1,7 @@
 {%- assign secSt = section.settings -%}
 
 {% if secSt.bg_img != blank %}
-
+11111111111
   <section section-name="image-list-text" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color:{{secSt.bg_color}};" >
     <div class="tw-relative">
       <div class="tw-text-center tw-w-full tw-z-10 {% if secSt.title_fixed %}tw-absolute tw-top-24{% endif %}"> 
@@ -14,7 +14,7 @@
       <div class="tw-relative {% if secSt.cross_img_url != blank %}page-width{% endif %}">
         <img class="tw-h-full" src="{{ secSt.bg_img | img_url:"master" }}">
         {% if secSt.cross_img_url != blank %}
-          <img class="tw-absolute tw-bottom-6 tw-left-1/2 -tw-translate-x-1/2  tw-max-w-[55%] tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
+          <img class="tw-absolute tw-bottom-6 tw-left-1/2 -tw-translate-x-1/2 tw-max-w-[55%] tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
         {% endif %}
       </div>
     </div>
