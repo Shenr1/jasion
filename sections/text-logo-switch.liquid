@@ -1,0 +1,158 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="text-logo-switch" class="{% render 'section-interva-set' , secSt:secSt %}">
+  <div class="tw-flex tw-mx-auto page-width">
+    <div class="tw-relative tw-w-1/2 tw-pr-10 contents">
+      
+      {% for block in section.blocks %}
+      {%- assign blSet = block.settings -%}
+      <div class="{% unless forloop.first %}tw-hidden{% endunless %}">
+        <div class="tw-flex tw-justify-between tw-items-center tw-mb-8">
+          <svg t="1688642878168" class="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8490" width="48" height="48"><path d="M195.541333 739.029333C151.594667 692.352 128 640 128 555.136c0-149.333333 104.832-283.178667 257.28-349.354667l38.101333 58.794667c-142.293333 76.970667-170.112 176.853333-181.205333 239.829333 22.912-11.861333 52.906667-16 82.304-13.269333 76.970667 7.125333 137.642667 70.314667 137.642667 148.864a149.333333 149.333333 0 0 1-149.333334 149.333333 165.162667 165.162667 0 0 1-117.248-50.304z m426.666667 0C578.261333 692.352 554.666667 640 554.666667 555.136c0-149.333333 104.832-283.178667 257.28-349.354667l38.101333 58.794667c-142.293333 76.970667-170.112 176.853333-181.205333 239.829333 22.912-11.861333 52.906667-16 82.304-13.269333 76.970667 7.125333 137.642667 70.314667 137.642666 148.864a149.333333 149.333333 0 0 1-149.333333 149.333333 165.162667 165.162667 0 0 1-117.248-50.304z" p-id="8491" data-spm-anchor-id="a313x.7781069.0.i18" class="selected"></path></svg>
+          <a href="{{blSet.link}}" target="_blank" class="hover:tw-scale-95 tw-transition-all">
+            <svg t="1688642662557" class="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7899" width="30" height="30"><path d="M864.107583 960.119537H63.880463V159.892417h447.928278V96.011954H0v927.988046h927.988046V527.874486h-63.880463v432.245051z" p-id="7900"></path><path d="M592.137467 0v63.880463h322.462458L457.491222 521.371685l45.137093 45.137093L960.119537 109.400075v322.462458h63.880463V0H592.137467z" p-id="7901"></path></svg>
+          </a>
+        </div>
+        <div class="tw-text-[22px] tw-leading-relaxed ">
+          <p class="tw-text-stone-500 tw-mb-8 tw-h-[8em]">{{blSet.content}}</p>
+          <p class="tw-italic">-- {{blSet.author}}</p> 
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="tw-w-1/2 tw-pl-10">
+      <div class="tw-flex tw-flex-wrap tw-pl-6 tw-h-full logos">
+        {% for block in section.blocks %}
+        {%- assign blSet = block.settings -%}
+          {% if block.settings.img_url != blank %}
+            {% assign imgClass = 'tw-grayscale tw-w-full tw-object-cover tw-cursor-pointer hover:tw-scale-95 tw-transition-all' %}
+            {% if forloop.first %}
+              {% assign imgClass = 'tw-w-full tw-object-cover tw-cursor-pointer hover:tw-scale-95 tw-transition-all' %}
+            {% endif %}
+            <div class="tw-w-1/3 tw-px-4 tw-flex tw-items-center">
+              {{ blSet.img_url | image_url: width: 380 | image_tag: width: nil, class: imgClass }}
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  $(document).ready(function() {
+    $(".logos > div").click(function() {
+      $(".logos > div img").addClass("tw-grayscale");
+      var index = $(this).index();
+      var content = $(".contents > div").eq(index);
+      $(this).find("img").removeClass("tw-grayscale");
+      content.show();
+      $(".contents > div").not(content).hide();
+    });
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Text logo switch",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img_url",
+            "label": "Image"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content",
+            "default": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
+          },
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author",
+            "default": "Electric bike report"
+          },
+          {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Text logo switch"
+      }
+    ]
+  }
+{% endschema %} 
