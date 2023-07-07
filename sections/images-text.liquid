@@ -4,15 +4,18 @@
 
   <section section-name="image-list-text" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color:{{secSt.bg_color}};" >
     <div class="tw-relative">
-      <div class="tw-text-center tw-w-full {% if secSt.title_fixed %}tw-absolute tw-top-24{% endif %}"> 
-        <div class="tw-max-w-7xl tw-mx-auto ">
-          <h1 style="color:{{secSt.title_color}};" class="tw-text-5xl tw-mb-12">{{secSt.title}}</h1>
+      <div class="tw-text-center tw-w-full tw-z-10 {% if secSt.title_fixed %}tw-absolute tw-top-24{% endif %}"> 
+        <div class="tw-mx-auto page-width">
+          <h1 style="color:{{secSt.title_color}};" class="tw-text-5xl tw-mb-12">{{secSt.title | newline_to_br}}</h1>
           <p style="color:{{secSt.content_color}};" class="tw-text-2xl">{{secSt.content}}</p>
         </div>
       </div>
-      <div>
+      
+      <div class="tw-relative {% if secSt.cross_img_url != blank %}page-width{% endif %}">
         <img class="tw-h-full" src="{{ secSt.bg_img | img_url:"master" }}">
-        <img class="tw-h-full tw-absolute" src="{{ secSt.cross_img_url | img_url:"master" }}">
+        {% if secSt.cross_img_url != blank %}
+          <img class="tw-absolute tw-bottom-12 tw-left-1/2 -tw-translate-x-1/2  tw-max-w-[60%] tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
+        {% endif %}
       </div>
     </div>
   </section>  

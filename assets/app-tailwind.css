@@ -11,6 +11,7 @@
 .waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
 .waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
