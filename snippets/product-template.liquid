@@ -573,6 +573,19 @@
                     <div class="product-block" {{ block.shopify_attributes }}>
                       {{ block.settings.code }}
                     </div>
+                  {% when 'klarna_btn' %}
+                    <div class="product-block">
+                      <a href="{{ block.settings.link }}" class="-tw-mt-4 tw-w-full tw-flex tw-items-center tw-justify-center tw-py-1 tw-border-2 tw-rounded tw-border-solid">
+                        <div class="tw-w-1/5 tw-mr-3">
+                          <img class="" src="{{ block.settings.img_url | img_url:"master" }}">
+                        </div>
+                        <div>
+                          <p class="tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none">0% APR</p>
+                          <p class="tw-text-lg tw-mb-0 tw-leading-tight">12 months, $65.7/month</p>
+                          {% comment %} {{block.settings.html}} {% endcomment %}
+                        </div>
+                      </a>
+                    </div>
                 {%- endcase -%}
               {%- else -%}
                 <div data-blocks-holder

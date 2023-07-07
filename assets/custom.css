@@ -314,6 +314,18 @@
   margin-top: 1rem
 }
 
+.-tw-mt-4 {
+  margin-top: -1rem
+}
+
+.tw-mr-2 {
+  margin-right: 0.5rem
+}
+
+.tw-mr-3 {
+  margin-right: 0.75rem
+}
+
 .tw-line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -396,6 +408,10 @@
   width: 6%
 }
 
+.tw-w-1\/5 {
+  width: 20%
+}
+
 .tw-max-w-\[1680px\] {
   max-width: 1680px
 }
@@ -437,12 +453,20 @@
   justify-content: space-between
 }
 
+.tw-justify-items-center {
+  justify-items: center
+}
+
 .tw-overflow-hidden {
   overflow: hidden
 }
 
 .tw-rounded-xl {
   border-radius: 0.75rem
+}
+
+.tw-rounded {
+  border-radius: 0.25rem
 }
 
 .tw-border {
@@ -582,6 +606,11 @@
 .tw-py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem
+}
+
+.tw-py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem
 }
 
 .tw-pb-0 {
@@ -733,6 +762,10 @@
 
 .tw-leading-tight {
   line-height: 1.25
+}
+
+.tw-leading-none {
+  line-height: 1
 }
 
 .tw-tracking-normal {

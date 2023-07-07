@@ -33,6 +33,13 @@
             "surface_pickup_enable": true
           }
         },
+        "50af9483-df47-4ef7-ade4-a4946897ba75": {
+          "type": "klarna_btn",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
+            "html": "<p class=\"tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none\">0% APR<\/p>\n                          <p class=\"tw-text-lg tw-mb-0 tw-leading-tight\">12 months, $65.7\/month<\/p>"
+          }
+        },
         "9c1b0d47-2a82-430a-8a1c-824e897fcca9": {
           "type": "custom-text",
           "disabled": true,
@@ -86,6 +93,7 @@
         "7c647d1e-b8b4-4c2c-a281-ad20d3ad2a7f",
         "variant_picker",
         "buy_buttons",
+        "50af9483-df47-4ef7-ade4-a4946897ba75",
         "9c1b0d47-2a82-430a-8a1c-824e897fcca9",
         "636bf6c9-5bdb-4e29-8659-7bc75557f59e",
         "df3e341a-3a08-474a-84da-a3e681a5c3aa",
@@ -356,7 +364,7 @@
         "bg_color": "",
         "bg_img": "shopify:\/\/shop_images\/1_39c5b0b6-4db3-4385-85ca-7f7a2962f125.jpg",
         "title_fixed": true,
-        "fixed_style": "style2",
+        "fixed_style": "style1",
         "title": "Removable & Built-in Battery",
         "title_color": "#ffffff",
         "content": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
