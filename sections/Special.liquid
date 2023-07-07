@@ -9,7 +9,6 @@
       </h2>
     </header>
   {%- endif -%}
-
   {%- if section.blocks.size > 0 -%}
     <script type="application/ld+json">
       {
@@ -33,15 +32,16 @@
       }
     </script>
 <div class="tab_lists tab_lists-faq">
-  <div class="tab_nav">
-    <ul>
-      <li class="active">General Questions</li>
-      <li class="">Policies</li>       
-      <li class="">About Jasion E-bike</li>
-      
-        
-</ul>
-  </div>
+  {% unless section.settings.sp_faq %}
+    <div class="tab_nav">
+      <ul>
+        <li class="active">About My Order</li>
+        <li class="">Return &amp; Refund</li>       
+        <li class="">About Jasion E-bike</li>
+        <li class="">Miscellaneous</li>
+      </ul>
+    </div>
+  {% endunless %}
     <div class="tabspan">
       <div class="ts_item">
     {%- for block in section.blocks -%}
@@ -49,11 +49,11 @@
           {% when 'order'%}
       <div>
               <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-                <span>- {{ block.settings.title }}</span>                 {%- render 'collapsible-icons-alt', no_circle: false -%}
-
+                <span class="!tw-text-2xl">{{ block.settings.title }}</span>
+                {%- render 'collapsible-icons-alt', no_circle: false -%}
               </button>
               <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte">
+                <div class="collapsible-content__inner collapsible-content__inner--faq rte tw-text-lg">
                   {{ block.settings.text }}
                 </div>
               </div>
@@ -67,11 +67,11 @@
           {% when 'policy'%}
       <div>
               <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-                <span>- {{ block.settings.title }}</span>                {%- render 'collapsible-icons-alt', no_circle: true -%}
-
+                <span class="tw-text-2xl">- {{ block.settings.title }}</span>
+                {%- render 'collapsible-icons-alt', no_circle: true -%}
               </button>
               <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte">
+                <div class="collapsible-content__inner collapsible-content__inner--faq rte tw-text-lg">
                   {{ block.settings.text }}
                 </div>
               </div>
@@ -140,6 +140,12 @@
         "id": "title",
         "label": "Heading",
         "default": "FAQs"
+      },
+      {
+        "type": "checkbox",
+        "id": "sp_faq",
+        "label": "Is simple faqs",
+        "default": false
       }
     ],
     "blocks": [

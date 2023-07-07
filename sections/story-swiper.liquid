@@ -1,0 +1,192 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="story-swiper" class="{% render 'section-interva-set' , secSt:secSt %}">
+
+  <div class="page-width">
+    <h1 style="color:{{secSt.title_color}};" class="tw-text-center xl:tw-text-5xl tw-text-4xl tw-mb-12">{{ secSt.title }}</h1>
+
+    <div class="tw-relative">
+      <div class="flickity-box" data-flickity = '{"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true}'>
+        {% for block in section.blocks %}
+        {%- assign blkSt = block.settings -%}
+          {% if blkSt.img_url != blank or blkSt.video_key != blank %}
+          <div class="tw-w-full tw-px-2 carousel-cell">
+            <div class="tw-flex tw-bg-stone-100">
+              <div class="tw-w-3/5 tw-pr-18">
+                {% include 'aspect-ratio-img', media: blkSt.img_url ,class: 'tw-block tw-w-full'%}
+              </div>
+              <div class="tw-w-2/5 tw-pt-12 tw-pr-12">
+                <p class="tw-text-3xl tw-font-semibold tw-mb-2">{{ blkSt.title }}</p>
+                <p class="tw-italic tw-text-2xl tw-mb-8">- {{blkSt.author}}</p> 
+                <p class="tw-text-xl tw-text-stone-700">{{ blkSt.content }}</p>
+              </div>
+            </div>
+          </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="tw-absolute tw-bottom-[10%] tw-right-[31%] tw-flex tw-w-[6%] tw-justify-center">
+        <span class="pagination tw-p-0 tw-text-3xl tw-font-semibold">1/{{section.blocks.size}}</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+  #shopify-section-{{section.id}} .flickity-prev-next-button,
+  #shopify-section-{{section.id}} .flickity-prev-next-button{
+    bottom:10%;
+    transform: translateY(0%);
+    top:auto;
+    left: auto;
+    background: #ffffff;
+    color: #000;
+    box-shadow: #ebebeb 0px 0px 5px 3px;
+}
+
+  #shopify-section-{{section.id}} .flickity-next{
+    right:28%;
+  }
+  #shopify-section-{{section.id}} .flickity-previous{
+    right:37%;
+  }
+</style>
+<script>
+  $(document).ready(function() {
+    var $carousel = $('#shopify-section-{{section.id}} .flickity-box');
+    var $pagination = $('#shopify-section-{{section.id}} .pagination');
+    updatePagination();
+    $carousel.find('.carousel-cell').add('.flickity-button').on('click', function() {
+      updatePagination();
+    });
+    function updatePagination() {
+      var $selectedItem = $carousel.find('.carousel-cell.is-selected');
+      var selectedIndex = $selectedItem.index() + 1;
+      var totalSlides = $carousel.find('.carousel-cell').length;
+      $pagination.text(selectedIndex + '/' + totalSlides);
+    }
+  });
+</script>
+
+{% schema %}
+  {
+    "name": "Story swiper v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Customer Stories"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#333333"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img_url",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "video_key",
+            "label": "Youtube video key"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Headlight&Taillight"
+          },
+          {
+            "type": "textarea",
+            "id": "content",
+            "label": "Content",
+            "default": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
+          },
+          {
+            "type": "text",
+            "id": "author",
+            "label": "Author",
+            "default": "Andrew Ross"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Story swiper v1.1"
+      }
+    ]
+  }
+{% endschema %} 

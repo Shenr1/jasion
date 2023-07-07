@@ -4,7 +4,7 @@
     <div class="tw-w-1/2 odd:tw-pr-1 even:tw-pl-1">
       <a href="{{ block.settings.link }}" class="tw-bg-stone-200 tw-overflow-hidden tw-block">
         <div class="tw-overflow-hidden">
-          <img class="tw-block tw-w-full hover:tw-scale-105 tw-transition-all" src="{{ block.settings.image | img_url: 'master' }}">
+          {% include 'aspect-ratio-img', media: block.settings.image ,class: 'tw-block tw-w-full hover:tw-scale-105 tw-transition-all'%}
         </div>
         <div class="tw-px-10 tw-py-6">
           <h4 class="tw-text-3xl tw-m-0 tw-font-semibold tw-tracking-normal">{{ block.settings.title }}</h4>
@@ -19,7 +19,7 @@
 
 {% schema %}
   {
-    "name": "Images grid",
+    "name": "Images grid 1.1",
     "settings": [
     ],
     "blocks": [

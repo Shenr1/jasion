@@ -1,20 +1,32 @@
 {%- assign secSt = section.settings -%}
+{% assign rightSty = false %}
+{% if secSt.fixed_style == "style2" %}
+  {% assign rightSty = true %}
+{% endif %}
+
 
 {% if secSt.bg_img != blank %}
 
   <section section-name="image-list-text" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color:{{secSt.bg_color}};" >
     <div class="tw-relative">
-      <div class="tw-text-center tw-w-full tw-z-10 {% if secSt.title_fixed %}tw-absolute tw-top-24{% endif %}"> 
-        <div class="tw-mx-auto page-width">
-          <h1 style="color:{{secSt.title_color}};" class="xl:tw-text-5xl tw-text-4xl tw-mb-12">{{secSt.title | newline_to_br}}</h1>
-          <p style="color:{{secSt.content_color}};" class="tw-text-2xl">{{secSt.content}}</p>
+      {% if secSt.title != blank %}
+        <div class="
+          {% if rightSty %}tw-w-2/5 tw-right-0 tw-pr-[10%] tw-p-0{% else %} tw-text-center tw-w-full{% endif %} tw-z-10 
+          {% if secSt.title_fixed %}tw-absolute {% if rightSty %}tw-top-[15%]{% else %}tw-top-24{% endif %}{% endif %}"> 
+          <div class="tw-mx-auto page-width
+            {% if rightSty %}tw-p-0{% endif %}">
+            <h1 style="color:{{secSt.title_color}};" class="
+              {% if rightSty %}tw-text-[2.75vw]{% else %}xl:tw-text-5xl tw-text-4xl tw-mb-12{% endif %}
+              ">{{secSt.title | newline_to_br}}</h1>
+            <p style="color:{{secSt.content_color}};" class="
+              {% if rightSty %}tw-text-[1vw] tw-leading-snug{% else %} tw-text-2xl{% endif %}">{{secSt.content}}</p>
+          </div>
         </div>
-      </div>
-      
-      <div class="tw-relative {% if secSt.cross_img_url != blank %}page-width{% endif %}">
-        <img class="tw-h-full" src="{{ secSt.bg_img | img_url:"master" }}">
+      {% endif %}
+      <div class="tw-relative {% unless secSt.full_width %}page-width{% endunless %}">
+        {% include 'aspect-ratio-img', media: secSt.bg_img ,class: 'tw-h-full'%}
         {% if secSt.cross_img_url != blank %}
-          <img class="tw-absolute tw-bottom-6 tw-left-1/2 -tw-translate-x-1/2  tw-max-w-[55%] tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
+          <img class="tw-absolute tw-bottom-6 tw-left-1/2 -tw-translate-x-1/2 tw-max-w-[55%] tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
         {% endif %}
       </div>
     </div>
@@ -24,7 +36,7 @@
 
 {% schema %}
   {
-    "name": "Single image text",
+    "name": "Single image text v1.1",
     "tag": "section",
     "settings": [
       {
@@ -119,6 +131,22 @@
         "default": true
       },
       {
+        "type": "select",
+        "id": "fixed_style",
+        "label": "Fixed style(Title containers must fixed)",
+        "options": [
+          {
+          "value": "style1",
+          "label": "Default"
+          },
+          {
+          "value": "style2",
+          "label": "Right"
+          }
+        ],
+        "default": "style1"
+      },
+      {
         "type": "text",
         "id": "title",
         "label": "Title",
@@ -145,7 +173,7 @@
     ],
     "presets": [
         {
-          "name": "Single image text"
+          "name": "Single image text v1.1"
         }
       ]
   }
