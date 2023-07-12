@@ -37,7 +37,8 @@
           "type": "klarna_btn",
           "settings": {
             "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
-            "html": "<p class=\"tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none\">0% APR<\/p>\n                          <p class=\"tw-text-lg tw-mb-0 tw-leading-tight\">12 months, $65.7\/month<\/p>"
+            "html": "<p class=\"tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none\">0% APR<\/p>\n                          <p class=\"tw-text-lg tw-mb-0 tw-leading-tight\">12 months, $65.7\/month<\/p>",
+            "link": ""
           }
         },
         "9c1b0d47-2a82-430a-8a1c-824e897fcca9": {
@@ -86,6 +87,17 @@
             "text": "Trusted Delivery",
             "image": "shopify:\/\/shop_images\/pic.png"
           }
+        },
+        "0a8ce733-db1b-43f2-bf3c-502113e4e69a": {
+          "type": "switch_tabs",
+          "settings": {
+            "img_1": "shopify:\/\/shop_images\/ico_shipping.png",
+            "content_1": "Shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).\nNo tax is needed. SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.",
+            "img_2": "shopify:\/\/shop_images\/ico_return.png",
+            "content_2": "No tax is needed. SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.",
+            "img_3": "shopify:\/\/shop_images\/ico_warranty.png",
+            "content_3": "Your eBike will be shipped from our CA\/NJ warehouse."
+          }
         }
       },
       "block_order": [
@@ -99,7 +111,8 @@
         "df3e341a-3a08-474a-84da-a3e681a5c3aa",
         "6fedc0d2-97e5-4451-befb-caed84101eac",
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf",
-        "e401c66a-9f93-4c53-9ec3-a55978b673da"
+        "e401c66a-9f93-4c53-9ec3-a55978b673da",
+        "0a8ce733-db1b-43f2-bf3c-502113e4e69a"
       ],
       "settings": {
         "sku_enable": false,
@@ -170,7 +183,9 @@
         "title": "850W of PEAK POWER",
         "title_color": "#ffffff",
         "content": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
-        "content_color": "#eaeaea"
+        "content_color": "#eaeaea",
+        "content_size": "default",
+        "title_size": "lg"
       }
     },
     "f43ef483-181d-443d-a0f9-7959fbf36f35": {
@@ -183,10 +198,12 @@
         "bg_img": "shopify:\/\/shop_images\/1_a5720105-8446-4e77-a8d6-2cb921060548.jpg",
         "title_fixed": false,
         "fixed_style": "style1",
-        "title": "Jasion EB7 2.0 Technology Patents <br>Four Working Modes",
+        "title": "Jasion EB7 2.0 Technology Patents Four Working Modes",
         "title_color": "#333333",
         "content": "EB7 2.0 adds booster mode to the 4 basic modes, the booster mode can help you push your ebike effortlessly. Especially when you wheel the bike uphill, which will save you a lot of effort.",
-        "content_color": "#333333"
+        "content_color": "#333333",
+        "content_size": "default",
+        "title_size": "lg"
       }
     },
     "02d2466c-fc8b-4162-ae83-7c183e346acb": {
@@ -362,13 +379,16 @@
         "bottom_padding": "default",
         "full_width": true,
         "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/1_39c5b0b6-4db3-4385-85ca-7f7a2962f125.jpg",
+        "bg_img": "shopify:\/\/shop_images\/4_07806082-67db-4ee1-acec-e5618ae2a4d8.jpg",
         "title_fixed": true,
-        "fixed_style": "style1",
+        "fixed_style": "style2",
+        "img_btm": "shopify:\/\/shop_images\/3_4a3e53b0-ac9a-4289-a75e-dac170dbfc47.png",
         "title": "Removable & Built-in Battery",
         "title_color": "#ffffff",
         "content": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
-        "content_color": "#eaeaea"
+        "content_color": "#eaeaea",
+        "content_size": "sm",
+        "title_size": "lg"
       }
     },
     "308f49b5-ebe5-4c04-9eec-83a68aa72821": {
@@ -385,7 +405,9 @@
         "title": "20\"x3\"Puncture Resistant Fat Tire",
         "title_color": "#333333",
         "content": "The high-quality fat tires provide extra protection against punctures from thorns, glass, and other small materials.",
-        "content_color": "#333333"
+        "content_color": "#333333",
+        "content_size": "default",
+        "title_size": "lg"
       }
     },
     "4e4deb1c-da0d-4680-9f32-f6cb91d08a64": {
@@ -401,7 +423,9 @@
         "title": "",
         "title_color": "#333333",
         "content": "",
-        "content_color": "#333333"
+        "content_color": "#333333",
+        "content_size": "default",
+        "title_size": "default"
       }
     },
     "c63d8c13-70d3-4c19-b9f8-4e05d35645cd": {
@@ -439,6 +463,205 @@
         "title_color": "#333333"
       }
     },
+    "2766104c-3f2e-4822-8526-63352d56697a": {
+      "type": "image-list-text",
+      "blocks": {
+        "9dbc07ee-3cb4-4efa-87c5-5ebfd4146124": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/battery.png",
+            "item_title": "36V 10 Ah",
+            "item_dec": "Battery Capacity"
+          }
+        },
+        "bd9cd135-bf35-4017-8a0a-a615de65e88d": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/range.png",
+            "item_title": "5 Level",
+            "item_dec": "Pedal Assist"
+          }
+        },
+        "9a8be5dd-0d66-41e5-81db-3d85ccf5af4a": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/max_load.png",
+            "item_title": "4-5 Hours",
+            "item_dec": "To Fully Charge"
+          }
+        },
+        "bd6280a4-486b-48bb-bba3-5bbe9ca81674": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/range.png",
+            "item_title": "45 Miles",
+            "item_dec": "Per Charge"
+          }
+        },
+        "cac09a9d-98e8-4963-96dc-c42a30a31119": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/battery.png",
+            "item_title": "300 Lbs",
+            "item_dec": "Max Load"
+          }
+        },
+        "eca641e1-993b-4002-843d-5e9c83291fef": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/max_load.png",
+            "item_title": "500W",
+            "item_dec": "Motor Capacity"
+          }
+        }
+      },
+      "block_order": [
+        "9dbc07ee-3cb4-4efa-87c5-5ebfd4146124",
+        "bd9cd135-bf35-4017-8a0a-a615de65e88d",
+        "9a8be5dd-0d66-41e5-81db-3d85ccf5af4a",
+        "bd6280a4-486b-48bb-bba3-5bbe9ca81674",
+        "cac09a9d-98e8-4963-96dc-c42a30a31119",
+        "eca641e1-993b-4002-843d-5e9c83291fef"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#f8f8f8",
+        "bg_img": "shopify:\/\/shop_images\/1_648e38a4-944d-4d56-8e4f-97af0b0b0881.jpg",
+        "full_width": false,
+        "layout": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "text-center",
+        "text_main": "Superior Performance",
+        "text_sub": "EB7 ST is a super cost-effective and high-performance full-map e-bike designed by Jasion team. With double shock absorption, fat tires, and exceptional handling you can be sure of the most comfortable ride across whichever terrain your choose.",
+        "btm_img_w": 100,
+        "i_size": "large"
+      }
+    },
+    "e68eb099-7351-402f-b1bd-aca6321f95c5": {
+      "type": "image-list-text",
+      "blocks": {
+        "64febfce-98e3-4403-9737-4c9f67b672ce": {
+          "type": "item",
+          "settings": {
+            "item_title": "48V*750W",
+            "item_dec": "Brushless Gear Motor"
+          }
+        },
+        "cc2fd1df-24d5-46f4-a902-159540bfbcd5": {
+          "type": "item",
+          "settings": {
+            "item_title": "80Nm",
+            "item_dec": "Max torque"
+          }
+        },
+        "62108955-591e-4381-a76b-a6acc64c0e32": {
+          "type": "item",
+          "settings": {
+            "item_title": "7 Gears",
+            "item_dec": "Shimano"
+          }
+        },
+        "8452b7c7-e187-4df8-8e5b-b66c5169dd87": {
+          "type": "item",
+          "settings": {
+            "item_title": "Speed",
+            "item_dec": "Class 7"
+          }
+        }
+      },
+      "block_order": [
+        "64febfce-98e3-4403-9737-4c9f67b672ce",
+        "cc2fd1df-24d5-46f4-a902-159540bfbcd5",
+        "62108955-591e-4381-a76b-a6acc64c0e32",
+        "8452b7c7-e187-4df8-8e5b-b66c5169dd87"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "full_width": false,
+        "layout": "imageText",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/1_7b11fb75-cb05-4402-bda1-4276dbabcaa8.jpg",
+        "text_main": "850W of Peak Power",
+        "text_sub": "New ST Motor provides 850W Peak output at full power! Use 100% manual pedaling Or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "39dc76e4-c3b9-4122-9cc3-fd6d1ce09635": {
+      "type": "image-list-text",
+      "blocks": {
+        "70b204c1-c66b-498c-9ba1-c6bb299f7e1f": {
+          "type": "item",
+          "settings": {
+            "item_title": "48V 10 Ah",
+            "item_dec": "Battery Capacity"
+          }
+        },
+        "b12db139-846a-43e5-b093-61c22cc258cf": {
+          "type": "item",
+          "settings": {
+            "item_title": "4-5 Hours",
+            "item_dec": "To Fully Charge"
+          }
+        },
+        "cddea7fd-e97d-4517-87ac-0e8e44af70e5": {
+          "type": "item",
+          "settings": {
+            "item_title": "45 Miles",
+            "item_dec": "Per Charge"
+          }
+        },
+        "9e53caa3-3151-46cc-b5cd-6d50d5b3560b": {
+          "type": "item",
+          "settings": {
+            "item_title": "31 MPH",
+            "item_dec": "Top Speed"
+          }
+        }
+      },
+      "block_order": [
+        "70b204c1-c66b-498c-9ba1-c6bb299f7e1f",
+        "b12db139-846a-43e5-b093-61c22cc258cf",
+        "cddea7fd-e97d-4517-87ac-0e8e44af70e5",
+        "9e53caa3-3151-46cc-b5cd-6d50d5b3560b"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "full_width": false,
+        "layout": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/1_7b11fb75-cb05-4402-bda1-4276dbabcaa8.jpg",
+        "text_main": "Removable & Built-in Battery",
+        "text_sub": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 40 miles.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "4119bd86-d7cf-47cb-a7a4-df5cb52dce21": {
+      "type": "images-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "full_width": true,
+        "bg_color": "",
+        "bg_img": "shopify:\/\/shop_images\/2_21bc669c-4512-4bf1-a976-6f8f31c0fd83.jpg",
+        "title_fixed": true,
+        "fixed_style": "style2",
+        "title": "Low-step Frame Design",
+        "title_color": "#ffffff",
+        "content": "Featuring a 16.5\" stand-over height, this ebike is perfect for those needing a more approachable package without sacrificing features or functionality.",
+        "content_color": "#eaeaea",
+        "content_size": "default",
+        "title_size": "lg"
+      }
+    },
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626": {
       "type": "slideshow",
       "blocks": {
@@ -456,6 +679,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "image": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -961,6 +1185,10 @@
     "308f49b5-ebe5-4c04-9eec-83a68aa72821",
     "4e4deb1c-da0d-4680-9f32-f6cb91d08a64",
     "c63d8c13-70d3-4c19-b9f8-4e05d35645cd",
+    "2766104c-3f2e-4822-8526-63352d56697a",
+    "e68eb099-7351-402f-b1bd-aca6321f95c5",
+    "39dc76e4-c3b9-4122-9cc3-fd6d1ce09635",
+    "4119bd86-d7cf-47cb-a7a4-df5cb52dce21",
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
     "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",

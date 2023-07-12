@@ -5,12 +5,22 @@
 
 .switch_tabs .item-tab.active{@apply tw-border-solid tw-border-0 tw-border-b-2 tw-border-black}
 
-.waterfall-section .tw-flex:first-child .item .item-content b{@apply tw-text-[3.15vw] tw-leading-tight tw-whitespace-nowrap}
-.waterfall-section .tw-flex:first-child .item .item-content span{@apply tw-text-[1.575vw] tw-text-stone-600 tw-whitespace-nowrap}
+.waterfall-section .tw-flex:first-child .item .item-content b{@apply md:tw-text-[3.15vw] tw-text-[4.525vw] tw-leading-tight tw-whitespace-nowrap}
+.waterfall-section .tw-flex:first-child .item .item-content span{@apply md:tw-text-[1.575vw] tw-text-[3.25vw] tw-text-stone-600 tw-whitespace-nowrap}
 
-.waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
-.waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
+.waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply md:tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
+.waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply md:tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
 
+[section-name="story-swiper"] .flickity-prev-next-button {
+  @apply xl:tw-bottom-[10%] tw-bg-white tw-translate-y-[0%] tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px] tw-left-auto tw-top-auto tw-bottom-[6%];
+}
+[section-name="story-swiper"] .flickity-next { @apply md:tw-right-[28%] tw-right-auto md:tw-left-auto tw-left-[35%]; }
+[section-name="story-swiper"] .flickity-previous { @apply md:tw-right-[37%] tw-right-auto md:tw-left-auto tw-left-[5%]; }
+
+[section-name="text-logo-switch"] .mb-switch-wrapper .flickity-prev-next-button{ @apply tw-translate-y-[0%] tw-top-auto -tw-bottom-12 tw-bg-white tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px]}
+
+[section-name="text-logo-switch"] .mb-switch-wrapper .flickity-previous{@apply tw-right-[55%] tw-left-auto}
+[section-name="text-logo-switch"] .mb-switch-wrapper .flickity-next{@apply tw-left-[55%] tw-right-auto}
 
 @tailwind base;
 @tailwind components;

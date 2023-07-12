@@ -1,71 +1,71 @@
-{% assign wapClass = "item tw-bg-stone-100 tw-flex tw-rounded-xl tw-p-4 tw-pr-8 tw-py-8 tw-pb-10 tw-items-center tw-justify-center" %}
-{% assign imgClass = "tw-h-[6.5vw] tw-mr-4" %}
-{% assign imgClass2 = "tw-h-[5vw] tw-mr-4" %}
+{% assign wapClass = "item tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-8 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center" %}
+{% assign imgClass = "md:tw-h-[6.5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
+{% assign imgClass2 = "md:tw-h-[5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
+{% assign sizeClass = "tw-h-full tw-object-contain" %}
 {% assign conClass = "item-content tw-flex tw-flex-col " %}
 
 {% assign meta = product.metafields.custom %}
 
 <div class="page-width tw-mt-16">
-  <div class="tw-flex">
+  <div class="tw-flex tw-flex-wrap">
     {% if meta.spec_icon_one != blank and meta.battery_capacity != blank %}
-      <div class="tw-p-2 2xl:tw-w-[34%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[34%]">
         <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="tw-h-full" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
+          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.battery_capacity }} </div>
         </div>
       </div>
     {% endif %}
 
     {% if meta.spec_icon_four != blank and meta.per_charge != blank %}
-      <div class="tw-p-2 2xl:tw-w-[40%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto tw-flex-1">
         <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="tw-h-full" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
+          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.per_charge }} </div>
         </div>
       </div>
     {% endif %}
 
     {% if meta.spec_icon_six != blank and meta.motor_capacity != blank %}
-      <div class="tw-p-2 tw-flex-1">
+      <div class="md:tw-p-2 tw-p-1 tw-flex-1">
         <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="tw-h-full" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
+          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.motor_capacity }} </div>
         </div>
       </div>
     {% endif %}
-  </div>
-  <div class="tw-flex">
+
     {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
-      <div class="tw-p-2 2xl:tw-w-[28%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%]">
         <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="tw-h-full" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
+          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
         </div>
       </div>
     {% endif %}
 
     {% if meta.spec_icon_two != blank and meta.pedal_assist != blank %}
-      <div class="tw-p-2 2xl:tw-w-[22%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[22%]">
         <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="tw-h-full" src="{{ meta.spec_icon_two | img_url:"master" }}"></div>
+          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_two | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.pedal_assist }} </div>
         </div>
       </div>
     {% endif %}
 
     {% if meta.spec_icon_seven != blank and meta.tires != blank %}
-      <div class="tw-p-2">
+      <div class="md:tw-p-2 tw-p-1">
         <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="tw-h-full" src="{{ meta.spec_icon_seven | img_url:"master" }}"></div>
+          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_seven | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.tires }} </div>
         </div>
       </div>
     {% endif %}
 
     {% if meta.spec_icon_five != blank and meta.max_load != blank %}
-      <div class="tw-p-2 tw-flex-1">
+      <div class="md:tw-p-2 tw-p-1 tw-flex-1">
         <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="tw-h-full" src="{{ meta.spec_icon_five | img_url:"master" }}"></div>
+          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_five | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.max_load }} </div>
         </div>
       </div>

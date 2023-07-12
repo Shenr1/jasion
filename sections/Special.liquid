@@ -47,16 +47,16 @@
     {%- for block in section.blocks -%}
         {% case block.type %}
           {% when 'order'%}
-      <div>
-              <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-                <span class="!tw-text-2xl">{{ block.settings.title }}</span>
-                {%- render 'collapsible-icons-alt', no_circle: false -%}
-              </button>
-              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte tw-text-lg">
-                  {{ block.settings.text }}
-                </div>
-              </div>
+      <div class="md:tw-mb-5 tw-mb-3">
+        <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
+          <span class="md:!tw-text-2xl !tw-text-lg">{{ block.settings.title }}</span>
+          {%- render 'collapsible-icons-alt', no_circle: false -%}
+        </button>
+        <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
+          <div class="collapsible-content__inner collapsible-content__inner--faq rte tw-text-lg">
+            {{ block.settings.text }}
+          </div>
+        </div>
       </div>
         {% endcase %}
     {%- endfor -%}

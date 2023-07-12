@@ -9,23 +9,30 @@
   <section section-name="image-list-text" class="{% render 'section-interva-set' , secSt:secSt %}" style="background-color:{{secSt.bg_color}};" >
     <div class="tw-relative">
       {% if secSt.title != blank %}
-        <div class="
-          {% if rightSty %}tw-w-2/5 tw-right-0 tw-pr-[10%] tw-p-0{% else %} tw-text-center tw-w-full{% endif %} tw-z-10 
-          {% if secSt.title_fixed %}tw-absolute {% if rightSty %}tw-top-[15%]{% else %}tw-top-24{% endif %}{% endif %}"> 
+        <div class="tw-text-center 
+          {% if rightSty %}md:tw-w-2/5 md:tw-right-0 md:tw-pr-[10%] md:tw-p-0 md:tw-text-left {% else %} tw-w-full{% endif %} tw-z-10 
+          {% if secSt.title_fixed %}tw-absolute {% if rightSty %}tw-top-[15%]{% else %}xl:tw-top-24 md:tw-top-16{% endif %}{% endif %}"> 
           <div class="tw-mx-auto page-width
             {% if rightSty %}tw-p-0{% endif %}">
-            <h1 style="color:{{secSt.title_color}};" class="
-              {% if rightSty %}tw-text-[2.75vw]{% else %}xl:tw-text-5xl tw-text-4xl tw-mb-12{% endif %}
+            <h1 style="color:{{secSt.title_color}};" class="tw-text-2xl
+              {% if rightSty %}md:tw-text-[2.75vw]{% else %}xl:tw-text-5xl md:tw-text-4xl xl:tw-mb-12 md:tw-mb-8 tw-mb-8{% endif %}
               ">{{secSt.title | newline_to_br}}</h1>
-            <p style="color:{{secSt.content_color}};" class="
-              {% if rightSty %}tw-text-[1vw] tw-leading-snug{% else %} tw-text-2xl{% endif %}">{{secSt.content}}</p>
+            <p style="color:{{secSt.content_color}};" class="tw-text-lg
+              {% if rightSty %}md:tw-text-[1vw] tw-leading-snug{% else %} xl:tw-text-2xl{% endif %}">{{secSt.content}}</p>
           </div>
         </div>
       {% endif %}
       <div class="tw-relative {% unless secSt.full_width %}page-width{% endunless %}">
-        {% include 'aspect-ratio-img', media: secSt.bg_img ,class: 'tw-h-full'%}
+        <div class="md:tw-block {% if secSt.bg_img_mb %}tw-hidden{% endif %}">
+          {% include 'aspect-ratio-img', media: secSt.bg_img ,class: 'tw-h-full'%}
+        </div>
+        {% if secSt.bg_img_mb %}
+          <div class="md:tw-hidden tw-block">
+            {% include 'aspect-ratio-img', media: secSt.bg_img_mb ,class: 'tw-h-full'%}
+          </div>
+        {% endif %}
         {% if secSt.cross_img_url != blank %}
-          <img class="tw-absolute tw-bottom-6 tw-left-1/2 -tw-translate-x-1/2 tw-max-w-[55%] tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
+          <img class="tw-absolute tw-bottom-6 tw-left-1/2 -tw-translate-x-1/2 md:tw-max-w-[55%] tw-max-w-full tw-h-auto" src="{{ secSt.cross_img_url | img_url:"master" }}">
         {% endif %}
       </div>
     </div>
@@ -113,6 +120,11 @@
         "type": "image_picker",
         "id": "bg_img",
         "label": "Background image"
+      },
+ 		  {
+        "type": "image_picker",
+        "id": "bg_img_mb",
+        "label": "Background image (mobile)"
       },
       {
         "type": "image_picker",
