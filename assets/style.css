@@ -1618,7 +1618,7 @@ border-bottom: 2px solid #e8e9e9;
   margin-top:0 !important;
   background: #fff;
   padding: 10px 0 0px;
-  z-index: 10 !important;
+  z-index: 100!important;
 }
 .scroll-to-fixed-fixed .p_nav ul li a {
   display: block;

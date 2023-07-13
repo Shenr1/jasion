@@ -42,19 +42,31 @@
   border-color: rgb(0 0 0 / var(--tw-border-opacity))
 }
 
-.waterfall-section .tw-flex:first-child .item .item-content b {
+.waterfall-section .item:nth-child(-n+3) .item-content b {
   white-space: nowrap;
   font-size: 4.525vw;
   line-height: 1.25
 }
 
 @media (min-width: 768px) {
-  .waterfall-section .tw-flex:first-child .item .item-content b {
+  .waterfall-section .item:nth-child(-n+3) .item-content b {
     font-size: 3.15vw
   }
 }
 
-.waterfall-section .tw-flex:first-child .item .item-content span {
+.waterfall-section .item:nth-child(n+3) .item-content b {
+  white-space: nowrap;
+  font-size: 4.525vw;
+  line-height: 1.25
+}
+
+@media (min-width: 768px) {
+  .waterfall-section .item:nth-child(n+3) .item-content b {
+    font-size: 2.1vw
+  }
+}
+
+.waterfall-section .item .item-content span {
   white-space: nowrap;
   font-size: 3.25vw;
   --tw-text-opacity: 1;
@@ -62,7 +74,7 @@
 }
 
 @media (min-width: 768px) {
-  .waterfall-section .tw-flex:first-child .item .item-content span {
+  .waterfall-section .item .item-content span {
     font-size: 1.575vw
   }
 }
@@ -407,6 +419,14 @@
 
 .tw-mt-6 {
   margin-top: 1.5rem
+}
+
+.tw-mt-8 {
+  margin-top: 2rem
+}
+
+.tw-mt-12 {
+  margin-top: 3rem
 }
 
 .tw-line-clamp-2 {
@@ -1094,6 +1114,10 @@
     top: 4rem
   }
 
+  .md\:tw-top-20 {
+    top: 5rem
+  }
+
   .md\:tw-m-0 {
     margin: 0px
   }
@@ -1423,6 +1447,10 @@
 
   .xl\:tw-top-10 {
     top: 2.5rem
+  }
+
+  .xl\:tw-top-20 {
+    top: 5rem
   }
 
   .xl\:tw-top-24 {
