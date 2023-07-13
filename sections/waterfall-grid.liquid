@@ -1,4 +1,4 @@
-{% assign wapClass = "item tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-8 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center" %}
+{% assign wapClass = "tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-6 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center" %}
 {% assign imgClass = "md:tw-h-[6.5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
 {% assign imgClass2 = "md:tw-h-[5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
 {% assign sizeClass = "tw-h-full tw-object-contain" %}
@@ -9,7 +9,7 @@
 <div class="page-width tw-mt-16">
   <div class="tw-flex tw-flex-wrap">
     {% if meta.spec_icon_one != blank and meta.battery_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[34%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[34%] item">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.battery_capacity }} </div>
@@ -18,7 +18,7 @@
     {% endif %}
 
     {% if meta.spec_icon_four != blank and meta.per_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto tw-flex-1">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto tw-flex-1 item">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.per_charge }} </div>
@@ -27,7 +27,7 @@
     {% endif %}
 
     {% if meta.spec_icon_six != blank and meta.motor_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 tw-flex-1">
+      <div class="md:tw-p-2 tw-p-1 item">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.motor_capacity }} </div>
@@ -36,7 +36,7 @@
     {% endif %}
 
     {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%] item">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
@@ -45,7 +45,7 @@
     {% endif %}
 
     {% if meta.spec_icon_two != blank and meta.pedal_assist != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[22%]">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[22%] item">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_two | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.pedal_assist }} </div>
@@ -54,7 +54,7 @@
     {% endif %}
 
     {% if meta.spec_icon_seven != blank and meta.tires != blank %}
-      <div class="md:tw-p-2 tw-p-1">
+      <div class="md:tw-p-2 tw-p-1 item">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_seven | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.tires }} </div>
@@ -63,7 +63,7 @@
     {% endif %}
 
     {% if meta.spec_icon_five != blank and meta.max_load != blank %}
-      <div class="md:tw-p-2 tw-p-1 tw-flex-1">
+      <div class="md:tw-p-2 tw-p-1 tw-flex-1 item">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_five | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.max_load }} </div>

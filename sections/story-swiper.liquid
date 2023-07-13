@@ -6,7 +6,7 @@
     <h1 style="color:{{secSt.title_color}};" class="tw-text-center xl:tw-text-5xl tw-text-4xl tw-mb-12">{{ secSt.title }}</h1>
 
     <div class="tw-relative">
-      <div class="flickity-box" data-flickity = '{"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true}'>
+      <div class="flickity-box" data-flickity = '{"wrapAround": true,"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true}'>
         {% for block in section.blocks %}
         {%- assign blkSt = block.settings -%}
           {% if blkSt.img_url != blank or blkSt.video_key != blank %}
@@ -25,7 +25,7 @@
           {% endif %}
         {% endfor %}
       </div>
-      <div class="tw-absolute 2xl:tw-bottom-[10%] md:tw-bottom-[6%] tw-bottom-[6%] md:tw-right-[31%] md:tw-left-auto tw-left-[22%] tw-flex tw-w-[6%] tw-justify-center">
+      <div class="tw-absolute 2xl:tw-bottom-[10%] md:tw-bottom-[6%] tw-bottom-[6%] md:tw-right-[33%] md:tw-left-auto tw-left-[22%] tw-flex tw-w-[4%] tw-justify-center">
         <span class="pagination tw-p-0 md:tw-text-3xl tw-text-2xl tw-font-semibold">1/{{section.blocks.size}}</span>
       </div>
     </div>

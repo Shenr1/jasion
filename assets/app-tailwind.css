@@ -14,8 +14,9 @@
 [section-name="story-swiper"] .flickity-prev-next-button {
   @apply xl:tw-bottom-[10%] tw-bg-white tw-translate-y-[0%] tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px] tw-left-auto tw-top-auto tw-bottom-[6%];
 }
-[section-name="story-swiper"] .flickity-next { @apply md:tw-right-[28%] tw-right-auto md:tw-left-auto tw-left-[35%]; }
+[section-name="story-swiper"] .flickity-next { @apply md:tw-right-[30.5%] tw-right-auto md:tw-left-auto tw-left-[35%]; }
 [section-name="story-swiper"] .flickity-previous { @apply md:tw-right-[37%] tw-right-auto md:tw-left-auto tw-left-[5%]; }
+[section-name="story-swiper"] .flickity-button { @apply }
 
 [section-name="text-logo-switch"] .mb-switch-wrapper .flickity-prev-next-button{ @apply tw-translate-y-[0%] tw-top-auto -tw-bottom-12 tw-bg-white tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px]}
 

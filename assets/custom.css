@@ -119,7 +119,7 @@
 
 @media (min-width: 768px) {
   [section-name="story-swiper"] .flickity-next {
-    right: 28%;
+    right: 30.5%;
     left: auto
   }
 }
@@ -296,12 +296,12 @@
   top: 0px
 }
 
-.tw-top-1\/4 {
-  top: 25%
+.tw-top-1\/2 {
+  top: 50%
 }
 
-.tw-top-\[15\%\] {
-  top: 15%
+.tw-top-1\/4 {
+  top: 25%
 }
 
 .tw-z-10 {
@@ -409,14 +409,6 @@
   margin-top: 1.5rem
 }
 
-.tw-mt-8 {
-  margin-top: 2rem
-}
-
-.tw-mb-7 {
-  margin-bottom: 1.75rem
-}
-
 .tw-line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -487,8 +479,8 @@
   width: 4rem
 }
 
-.tw-w-\[6\%\] {
-  width: 6%
+.tw-w-\[4\%\] {
+  width: 4%
 }
 
 .tw-w-\[90\%\] {
@@ -517,6 +509,11 @@
 
 .-tw-translate-x-1\/2 {
   --tw-translate-x: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+}
+
+.-tw-translate-y-1\/2 {
+  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
@@ -771,10 +768,6 @@
   padding-right: 2.5rem
 }
 
-.tw-pr-12 {
-  padding-right: 3rem
-}
-
 .tw-pr-4 {
   padding-right: 1rem
 }
@@ -801,14 +794,6 @@
 
 .tw-pt-4 {
   padding-top: 1rem
-}
-
-.tw-pl-12 {
-  padding-left: 3rem
-}
-
-.tw-pl-18 {
-  padding-left: 4.5rem
 }
 
 .tw-text-center {
@@ -839,6 +824,16 @@
   line-height: 2.5rem
 }
 
+.tw-text-5xl {
+  font-size: 3rem;
+  line-height: 1
+}
+
+.tw-text-6xl {
+  font-size: 3.75rem;
+  line-height: 1
+}
+
 .tw-text-\[22px\] {
   font-size: 22px
 }
@@ -851,11 +846,6 @@
 .tw-text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem
-}
-
-.tw-text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem
 }
 
 .tw-text-xl {
@@ -1096,8 +1086,8 @@
     right: 0px
   }
 
-  .md\:tw-right-\[31\%\] {
-    right: 31%
+  .md\:tw-right-\[33\%\] {
+    right: 33%
   }
 
   .md\:tw-top-16 {
@@ -1133,10 +1123,6 @@
     margin-bottom: 1.5rem
   }
 
-  .md\:tw-mb-8 {
-    margin-bottom: 2rem
-  }
-
   .md\:tw-mr-2 {
     margin-right: 0.5rem
   }
@@ -1147,10 +1133,6 @@
 
   .md\:tw-mr-8 {
     margin-right: 2rem
-  }
-
-  .md\:tw-mb-12 {
-    margin-bottom: 3rem
   }
 
   .md\:tw-line-clamp-2 {
@@ -1299,6 +1281,10 @@
     padding-left: 1rem
   }
 
+  .md\:tw-pl-8 {
+    padding-left: 2rem
+  }
+
   .md\:tw-pr-12 {
     padding-right: 3rem
   }
@@ -1329,10 +1315,6 @@
 
   .md\:tw-pt-8 {
     padding-top: 2rem
-  }
-
-  .md\:tw-pl-8 {
-    padding-left: 2rem
   }
 
   .md\:tw-text-left {
@@ -1366,21 +1348,6 @@
   .md\:tw-text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem
-  }
-
-  .md\:tw-text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem
-  }
-
-  .md\:tw-text-base {
-    font-size: 1rem;
-    line-height: 1.5rem
-  }
-
-  .md\:tw-text-5xl {
-    font-size: 3rem;
-    line-height: 1
   }
 
   .md\:hover\:-tw-translate-x-2:hover {
@@ -1454,6 +1421,10 @@
     top: 33.333333%
   }
 
+  .xl\:tw-top-10 {
+    top: 2.5rem
+  }
+
   .xl\:tw-top-24 {
     top: 6rem
   }
@@ -1487,6 +1458,14 @@
     padding-left: 2.5rem
   }
 
+  .xl\:tw-pl-24 {
+    padding-left: 6rem
+  }
+
+  .xl\:tw-pr-20 {
+    padding-right: 5rem
+  }
+
   .xl\:tw-pt-18 {
     padding-top: 4.5rem
   }
@@ -1495,35 +1474,9 @@
     padding-top: 6rem
   }
 
-  .xl\:tw-pr-18 {
-    padding-right: 4.5rem
-  }
-
-  .xl\:tw-pl-18 {
-    padding-left: 4.5rem
-  }
-
-  .xl\:tw-pl-20 {
-    padding-left: 5rem
-  }
-
-  .xl\:tw-pr-20 {
-    padding-right: 5rem
-  }
-
   .xl\:tw-text-2xl {
     font-size: 1.5rem;
     line-height: 2rem
-  }
-
-  .xl\:tw-text-5xl {
-    font-size: 3rem;
-    line-height: 1
-  }
-
-  .xl\:tw-text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem
   }
 
   .xl\:tw-text-3xl {
@@ -1531,14 +1484,19 @@
     line-height: 2.25rem
   }
 
+  .xl\:tw-text-5xl {
+    font-size: 3rem;
+    line-height: 1
+  }
+
   .xl\:tw-text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem
   }
 
-  .xl\:tw-text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem
+  .xl\:tw-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
   }
 
   .xl\:tw-leading-normal {
