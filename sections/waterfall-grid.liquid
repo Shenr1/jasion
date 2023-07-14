@@ -1,12 +1,13 @@
+{% assign secSt = section.settings %}
 {% assign wapClass = "tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-6 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center" %}
-{% assign imgClass = "md:tw-h-[6.5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
+{% assign imgClass = "md:tw-h-[6.5vw] tw-h-[10vw] md:tw-mr-4 tw-mr-2" %}
 {% assign imgClass2 = "md:tw-h-[5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
 {% assign sizeClass = "tw-h-full tw-object-contain" %}
 {% assign conClass = "item-content tw-flex tw-flex-col " %}
 
 {% assign meta = product.metafields.custom %}
 
-<div class="page-width tw-mt-16">
+<div class="page-width {% render 'section-interva-set' , secSt:secSt %}">
   <div class="tw-flex tw-flex-wrap">
     {% if meta.spec_icon_one != blank and meta.battery_capacity != blank %}
       <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[34%] item">
@@ -36,7 +37,7 @@
     {% endif %}
 
     {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%] item">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%] md:tw-flex-none tw-flex-1 item">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
@@ -78,7 +79,68 @@
 {
   "name": "Waterfall grid",
   "class":"waterfall-section",
-  "settings": [],
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section interval set"
+    },
+    {
+      "type": "select",
+      "id": "top_padding",
+      "label": "top interval",
+      "default": "large",
+      "options": [
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_padding",
+      "label": "bottom interval",
+      "default": "default",
+      "options": [
+        {
+          "value": "large",
+          "label": "Large"
+        },
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "medium",
+          "label": "Medium"
+        },
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    }
+  ],
   "presets": [
     {
       "name": "Waterfall grid"

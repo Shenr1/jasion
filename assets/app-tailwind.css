@@ -12,7 +12,7 @@
 .waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply md:tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
 .waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply md:tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
 
-[section-name="story-swiper"] .flickity-prev-next-button { @apply xl:tw-bottom-[10%] tw-bg-white tw-translate-y-[0%] tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px] tw-left-auto tw-top-auto tw-bottom-[6%]; }
+[section-name="story-swiper"] .flickity-prev-next-button { @apply xl:tw-bottom-[10%] tw-bg-white tw-translate-y-[0%] tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px] tw-left-auto tw-top-auto md:tw-bottom-[6%] tw-bottom-[3%]; }
 [section-name="story-swiper"] .flickity-next { @apply md:tw-right-[30.5%] tw-right-auto md:tw-left-auto tw-left-[35%]; }
 [section-name="story-swiper"] .flickity-previous { @apply md:tw-right-[37%] tw-right-auto md:tw-left-auto tw-left-[5%]; }
 

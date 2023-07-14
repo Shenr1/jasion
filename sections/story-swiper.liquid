@@ -3,7 +3,7 @@
 <section section-name="story-swiper" class="{% render 'section-interva-set' , secSt:secSt %}">
 
   <div class="page-width">
-    <h1 style="color:{{secSt.title_color}};" class="tw-text-center xl:tw-text-5xl tw-text-4xl tw-mb-12">{{ secSt.title }}</h1>
+    <h1 style="color:{{secSt.title_color}};" class=" tw-text-center xl:tw-text-5xl tw-text-4xl xl:tw-mb-12 md:tw-mb-10 tw-mb-8">{{ secSt.title }}</h1>
 
     <div class="tw-relative">
       <div class="flickity-box" data-flickity = '{"wrapAround": true,"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true}'>
@@ -12,20 +12,20 @@
           {% if blkSt.img_url != blank or blkSt.video_key != blank %}
           <div class="tw-w-full tw-px-2 carousel-cell hfull">
             <div class="tw-flex tw-bg-stone-100 tw-flex-wrap hfull">
-              <div class="md:tw-w-3/5 tw-w-full 2xl:tw-pr-18 md:tw-pr-12">
-                {% include 'aspect-ratio-img', media: blkSt.img_url ,class: 'tw-block tw-w-full'%}
+              <div class="md:tw-w-3/5 tw-w-full 2xl:tw-pr-18 md:tw-pr-8">
+                {% include 'aspect-ratio-img', media: blkSt.img_url ,class: 'tw-block tw-w-full tw-object-cover'%}
               </div>
-              <div class="md:tw-w-2/5 2xl:tw-pt-12 md:tw-pt-8 2xl:tw-pr-12 md:tw-pr-8 tw-p-4 tw-pb-24">
+              <div class="md:tw-w-2/5 2xl:tw-pt-12 md:tw-pt-8 2xl:tw-pr-12 md:tw-pr-8 tw-p-4 xl:tw-pb-24 md:tw-pb-18">
                 <p class="md:tw-text-3xl tw-text-xl tw-font-semibold tw-mb-2">{{ blkSt.title }}</p>
-                <p class="tw-italic md:tw-text-2xl tw-text-lg 2xl:tw-mb-8 tw-mb-4">- {{blkSt.author}}</p> 
-                <p class="2xl:tw-text-xl md:tw-text-lg tw-text-stone-700">{{ blkSt.content }}</p>
+                <p class="tw-italic md:tw-text-2xl tw-text-lg 2xl:tw-mb-8 tw-mb-3">- {{blkSt.author}}</p> 
+                <p class="2xl:tw-text-xl md:tw-text-lg tw-text-stone-700 md:tw-mb-4 tw-mb-12">{{ blkSt.content }}</p>
               </div>
             </div>
           </div>
           {% endif %}
         {% endfor %}
       </div>
-      <div class="tw-absolute 2xl:tw-bottom-[10%] md:tw-bottom-[6%] tw-bottom-[6%] md:tw-right-[33%] md:tw-left-auto tw-left-[22%] tw-flex tw-w-[4%] tw-justify-center">
+      <div class="tw-absolute 2xl:tw-bottom-[10%] md:tw-bottom-[6%] tw-bottom-[3%] md:tw-right-[33%] md:tw-left-auto tw-left-[22%] tw-flex tw-w-[4%] tw-justify-center">
         <span class="pagination tw-p-0 md:tw-text-3xl tw-text-2xl tw-font-semibold">1/{{section.blocks.size}}</span>
       </div>
     </div>

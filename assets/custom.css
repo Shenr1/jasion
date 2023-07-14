@@ -106,7 +106,7 @@
 [section-name="story-swiper"] .flickity-prev-next-button {
   left: auto;
   top: auto;
-  bottom: 6%;
+  bottom: 3%;
   --tw-translate-y: 0%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   --tw-bg-opacity: 1;
@@ -116,6 +116,12 @@
   --tw-shadow: #ebebeb 0px 0px 5px 3px;
   --tw-shadow-colored: 0px 0px 5px 3px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)
+}
+
+@media (min-width: 768px) {
+  [section-name="story-swiper"] .flickity-prev-next-button {
+    bottom: 6%
+  }
 }
 
 @media (min-width: 1280px) {
@@ -284,12 +290,8 @@
   bottom: 0px
 }
 
-.tw-bottom-6 {
-  bottom: 1.5rem
-}
-
-.tw-bottom-\[6\%\] {
-  bottom: 6%
+.tw-bottom-\[3\%\] {
+  bottom: 3%
 }
 
 .tw-left-0 {
@@ -308,12 +310,20 @@
   top: 0px
 }
 
-.tw-top-1\/2 {
-  top: 50%
-}
-
 .tw-top-1\/4 {
   top: 25%
+}
+
+.tw-top-12 {
+  top: 3rem
+}
+
+.tw-top-6 {
+  top: 1.5rem
+}
+
+.tw-top-8 {
+  top: 2rem
 }
 
 .tw-z-10 {
@@ -369,10 +379,6 @@
   margin-bottom: 0px
 }
 
-.tw-mb-12 {
-  margin-bottom: 3rem
-}
-
 .tw-mb-16 {
   margin-bottom: 4rem
 }
@@ -421,12 +427,8 @@
   margin-top: 1.5rem
 }
 
-.tw-mt-8 {
-  margin-top: 2rem
-}
-
-.tw-mt-12 {
-  margin-top: 3rem
+.tw-mb-12 {
+  margin-bottom: 3rem
 }
 
 .tw-line-clamp-2 {
@@ -461,6 +463,10 @@
 
 .tw-h-12 {
   height: 3rem
+}
+
+.tw-h-\[10vw\] {
+  height: 10vw
 }
 
 .tw-h-\[8em\] {
@@ -519,8 +525,8 @@
   max-width: 1680px
 }
 
-.tw-max-w-full {
-  max-width: 100%
+.tw-max-w-\[75\%\] {
+  max-width: 75%
 }
 
 .tw-flex-1 {
@@ -529,11 +535,6 @@
 
 .-tw-translate-x-1\/2 {
   --tw-translate-x: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
-}
-
-.-tw-translate-y-1\/2 {
-  --tw-translate-y: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
 }
 
@@ -690,11 +691,6 @@
   padding-right: 0px
 }
 
-.tw-px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem
-}
-
 .tw-px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem
@@ -708,6 +704,11 @@
 .tw-px-4 {
   padding-left: 1rem;
   padding-right: 1rem
+}
+
+.tw-px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem
 }
 
 .tw-px-8 {
@@ -735,11 +736,6 @@
   padding-bottom: 1rem
 }
 
-.tw-py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem
-}
-
 .tw-pb-0 {
   padding-bottom: 0px
 }
@@ -754,10 +750,6 @@
 
 .tw-pb-2 {
   padding-bottom: 0.5rem
-}
-
-.tw-pb-24 {
-  padding-bottom: 6rem
 }
 
 .tw-pb-3 {
@@ -844,18 +836,12 @@
   line-height: 2.5rem
 }
 
-.tw-text-5xl {
-  font-size: 3rem;
-  line-height: 1
-}
-
-.tw-text-6xl {
-  font-size: 3.75rem;
-  line-height: 1
-}
-
 .tw-text-\[22px\] {
   font-size: 22px
+}
+
+.tw-text-\[2rem\] {
+  font-size: 2rem
 }
 
 .tw-text-base {
@@ -866,6 +852,11 @@
 .tw-text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem
+}
+
+.tw-text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem
 }
 
 .tw-text-xl {
@@ -1042,10 +1033,6 @@
   padding-right: 0.25rem
 }
 
-.even\:tw-pl-1:nth-child(even) {
-  padding-left: 0.25rem
-}
-
 .hover\:tw-scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1094,6 +1081,10 @@
 }
 
 @media (min-width: 768px) {
+  .md\:tw-bottom-6 {
+    bottom: 1.5rem
+  }
+
   .md\:tw-bottom-\[6\%\] {
     bottom: 6%
   }
@@ -1110,12 +1101,20 @@
     right: 33%
   }
 
+  .md\:tw-top-1\/2 {
+    top: 50%
+  }
+
   .md\:tw-top-16 {
     top: 4rem
   }
 
   .md\:tw-top-20 {
     top: 5rem
+  }
+
+  .md\:tw-top-8 {
+    top: 2rem
   }
 
   .md\:tw-m-0 {
@@ -1145,6 +1144,10 @@
 
   .md\:tw-mb-6 {
     margin-bottom: 1.5rem
+  }
+
+  .md\:tw-mb-8 {
+    margin-bottom: 2rem
   }
 
   .md\:tw-mr-2 {
@@ -1210,6 +1213,15 @@
     flex: 1 1 auto
   }
 
+  .md\:tw-flex-none {
+    flex: none
+  }
+
+  .md\:-tw-translate-y-1\/2 {
+    --tw-translate-y: -50%;
+    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
+  }
+
   .md\:tw-flex-row {
     flex-direction: row
   }
@@ -1265,6 +1277,11 @@
     padding-right: 0px
   }
 
+  .md\:tw-px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem
+  }
+
   .md\:tw-px-12 {
     padding-left: 3rem;
     padding-right: 3rem
@@ -1297,6 +1314,10 @@
     padding-bottom: 4rem
   }
 
+  .md\:tw-pb-18 {
+    padding-bottom: 4.5rem
+  }
+
   .md\:tw-pb-6 {
     padding-bottom: 1.5rem
   }
@@ -1307,10 +1328,6 @@
 
   .md\:tw-pl-8 {
     padding-left: 2rem
-  }
-
-  .md\:tw-pr-12 {
-    padding-right: 3rem
   }
 
   .md\:tw-pr-4 {
@@ -1365,6 +1382,11 @@
     line-height: 2.5rem
   }
 
+  .md\:tw-text-5xl {
+    font-size: 3rem;
+    line-height: 1
+  }
+
   .md\:tw-text-\[22px\] {
     font-size: 22px
   }
@@ -1372,6 +1394,10 @@
   .md\:tw-text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem
+  }
+
+  .md\:even\:tw-pl-1:nth-child(even) {
+    padding-left: 0.25rem
   }
 
   .md\:hover\:-tw-translate-x-2:hover {
@@ -1465,8 +1491,8 @@
     margin-bottom: 1.75rem
   }
 
-  .xl\:tw-w-1\/3 {
-    width: 33.333333%
+  .xl\:tw-mt-12 {
+    margin-top: 3rem
   }
 
   .xl\:tw-px-6 {
@@ -1512,8 +1538,18 @@
     line-height: 2.25rem
   }
 
+  .xl\:tw-text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem
+  }
+
   .xl\:tw-text-5xl {
     font-size: 3rem;
+    line-height: 1
+  }
+
+  .xl\:tw-text-6xl {
+    font-size: 3.75rem;
     line-height: 1
   }
 

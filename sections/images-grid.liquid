@@ -1,12 +1,14 @@
-<div class="tw-w-full tw-mt-16">
+{% assign secSt = section.settings %}
+
+<div class="tw-w-full {% render 'section-interva-set' , secSt:secSt %}">
   <div class="tw-flex tw-flex-wrap">
     {% for block in section.blocks %}
-    <div class="md:tw-w-1/2 tw-w-full odd:tw-pr-1 even:tw-pl-1">
+    <div class="md:tw-w-1/2 tw-w-full odd:tw-pr-1 md:even:tw-pl-1 md:tw-mb-0 tw-mb-2">
       <a href="{{ block.settings.link }}" class="tw-bg-stone-200 tw-overflow-hidden tw-block">
         <div class="tw-overflow-hidden">
           {% include 'aspect-ratio-img', media: block.settings.image ,class: 'tw-block tw-w-full hover:tw-scale-105 tw-transition-all'%}
         </div>
-        <div class="tw-px-10 tw-py-6">
+        <div class="md:tw-px-10 md:tw-py-6 tw-px-6 tw-py-4">
           <h4 class="md:tw-text-3xl tw-text-2xl tw-m-0 tw-font-semibold tw-tracking-normal">{{ block.settings.title }}</h4>
           <p class="tw-m-0">{{ block.settings.content }}</p>
         </div>
@@ -21,6 +23,66 @@
   {
     "name": "Images grid 1.1",
     "settings": [
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
     ],
     "blocks": [
       {

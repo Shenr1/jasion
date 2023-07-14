@@ -40,7 +40,7 @@
     </div>
   </div>
   <div class="tw-block md:tw-hidden mb-switch-wrapper tw-mb-8">
-    <div class="" data-flickity = '{"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true}'>
+    <div class="" data-flickity = '{"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true, "wrapAround": true}'>
       {% for block in section.blocks %}
       {%- assign blSet = block.settings -%}      
       <div class="tw-w-[90%] tw-pr-4 hfull {% if forloop.last %} tw-pr-0 {% endif %}">
