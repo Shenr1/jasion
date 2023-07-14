@@ -125,6 +125,8 @@
         "5f246eb7-f419-41d2-8174-bdddeeb561f5"
       ],
       "settings": {
+        "top_padding": "default",
+        "bottom_padding": "default"
       }
     },
     "nav": {
@@ -135,6 +137,8 @@
     "6e3a81a9-cf26-447f-b56d-0269a20b5d6f": {
       "type": "waterfall-grid",
       "settings": {
+        "top_padding": "medium",
+        "bottom_padding": "small"
       }
     },
     "88ba6988-6d22-4ff8-bc12-061daafb0e26": {
@@ -145,6 +149,7 @@
         "full_width": true,
         "bg_color": "",
         "bg_img": "shopify:\/\/shop_images\/1_84595219-237c-4aa7-ad2f-d5fea8f94f64.jpg",
+        "bg_img_mb": "shopify:\/\/shop_images\/1_29af37f4-aac0-4a0e-a563-48acdde4dcbc.jpg",
         "title_fixed": true,
         "fixed_style": "style1",
         "title": "850W of PEAK POWER",
@@ -164,13 +169,14 @@
         "full_width": true,
         "bg_color": "",
         "bg_img": "shopify:\/\/shop_images\/1_a5720105-8446-4e77-a8d6-2cb921060548.jpg",
+        "bg_img_mb": "shopify:\/\/shop_images\/2_37c0ec41-6e79-473a-bae8-574ce12ba85d.jpg",
         "title_fixed": false,
         "fixed_style": "style1",
         "title": "Jasion EB7 2.0 Technology Patents Four Working Modes",
         "title_color": "#333333",
         "content": "EB7 2.0 adds booster mode to the 4 basic modes, the booster mode can help you push your ebike effortlessly. Especially when you wheel the bike uphill, which will save you a lot of effort.",
         "content_color": "#333333",
-        "title_size": "default",
+        "title_size": "small",
         "content_size": "default",
         "wap_pad": "default"
       }
@@ -343,12 +349,16 @@
     },
     "74a4ad65-58b4-42cb-99fe-c773076074aa": {
       "type": "images-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
         "full_width": true,
         "bg_color": "",
         "bg_img": "shopify:\/\/shop_images\/4_07806082-67db-4ee1-acec-e5618ae2a4d8.jpg",
+        "bg_img_mb": "shopify:\/\/shop_images\/1_4fd27554-8b3b-4bce-9b05-dd1cedb74e8b.jpg",
         "title_fixed": true,
         "fixed_style": "style2",
         "img_btm": "shopify:\/\/shop_images\/3_4a3e53b0-ac9a-4289-a75e-dac170dbfc47.png",
@@ -356,7 +366,7 @@
         "title_color": "#ffffff",
         "content": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
         "content_color": "#eaeaea",
-        "title_size": "default",
+        "title_size": "small",
         "content_size": "small",
         "wap_pad": "center"
       }
@@ -364,7 +374,7 @@
     "308f49b5-ebe5-4c04-9eec-83a68aa72821": {
       "type": "images-text",
       "settings": {
-        "top_padding": "large",
+        "top_padding": "default",
         "bottom_padding": "default",
         "full_width": false,
         "bg_color": "",
@@ -384,10 +394,10 @@
     "4e4deb1c-da0d-4680-9f32-f6cb91d08a64": {
       "type": "images-text",
       "settings": {
-        "top_padding": "large",
+        "top_padding": "default",
         "bottom_padding": "default",
         "full_width": false,
-        "bg_color": "",
+        "bg_color": "#fafafa",
         "bg_img": "shopify:\/\/shop_images\/2_00f6d8d9-d5c8-49db-a517-96feed1935f7.jpg",
         "title_fixed": false,
         "fixed_style": "style1",
