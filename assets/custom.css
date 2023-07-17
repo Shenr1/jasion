@@ -1193,6 +1193,10 @@
     width: 55px
   }
 
+  .md\:tw-w-auto {
+    width: auto
+  }
+
   .md\:tw-max-w-\[55\%\] {
     max-width: 55%
   }
@@ -1528,6 +1532,14 @@
     margin-top: 3rem
   }
 
+  .xl\:tw-w-\[34\%\] {
+    width: 34%
+  }
+
+  .xl\:tw-w-\[40\%\] {
+    width: 40%
+  }
+
   .xl\:tw-px-6 {
     padding-left: 1.5rem;
     padding-right: 1.5rem
@@ -1631,6 +1643,14 @@
 
   .\32xl\:tw-w-\[40\%\] {
     width: 40%
+  }
+
+  .\32xl\:tw-flex-none {
+    flex: none
+  }
+
+  .\32xl\:tw-flex-1 {
+    flex: 1 1 0%
   }
 
   .\32xl\:tw-px-14 {

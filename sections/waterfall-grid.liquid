@@ -19,7 +19,7 @@
     {% endif %}
 
     {% if meta.spec_icon_four != blank and meta.per_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto tw-flex-1 item">
+      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto 2xl:tw-flex-none tw-flex-1 item">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.per_charge }} </div>
@@ -28,7 +28,7 @@
     {% endif %}
 
     {% if meta.spec_icon_six != blank and meta.motor_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 item">
+      <div class="md:tw-p-2 tw-p-1 item md:tw-w-auto tw-w-full 2xl:tw-flex-1">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.motor_capacity }} </div>
