@@ -25,7 +25,7 @@
   {%- when "small" -%}
     {%- assign wapPad = 'xl:tw-top-10 md:tw-top-8 tw-top-6' -%}
   {%- when "default" -%}
-    {%- assign wapPad = 'xl:tw-top-20 md:tw-top-16 tw-top-8' -%}
+    {%- assign wapPad = 'xl:tw-top-20 md:tw-top-12 tw-top-8' -%}
   {%- when "large" -%}
     {%- assign wapPad = 'xl:tw-top-24 md:tw-top-20 tw-top-12' -%}
   {%- else -%}
@@ -44,7 +44,7 @@
             <h1 style="color:{{secSt.title_color}};" 
               class="{{titleSize}} md:tw-mb-8 tw-mb-6">{{secSt.title | newline_to_br}}
             </h1>
-            <p style="color:{{secSt.content_color}};" class="{{contentSize}} {% if rightSty %}tw-leading-snug{% endif %}">
+            <p style="color:{{secSt.content_color}};" class="{{contentSize}} {% if rightSty %}lg:tw-leading-snug md:tw-leading-tight tw-leading-snug{% endif %}">
               {{secSt.content | newline_to_br}}
             </p>
           </div>
@@ -58,11 +58,11 @@
       {% endif %}
       <div class="tw-relative {% unless secSt.full_width %}page-width{% endunless %}">
         <div class="md:tw-block {% if secSt.bg_img_mb %}tw-hidden{% endif %}">
-          {% include 'aspect-ratio-img', media: secSt.bg_img ,class: 'tw-h-full'%}
+          {% include 'aspect-ratio-img', media: secSt.bg_img ,class: ''%}
         </div>
         {% if secSt.bg_img_mb %}
           <div class="md:tw-hidden tw-block">
-            {% include 'aspect-ratio-img', media: secSt.bg_img_mb ,class: 'tw-h-full'%}
+            {% include 'aspect-ratio-img', media: secSt.bg_img_mb ,class: ''%}
           </div>
         {% endif %}
         {% if secSt.cross_img_url != blank %}

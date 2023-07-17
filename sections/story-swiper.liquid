@@ -12,12 +12,12 @@
           {% if blkSt.img_url != blank or blkSt.video_key != blank %}
           <div class="tw-w-full tw-px-2 carousel-cell hfull">
             <div class="tw-flex tw-bg-stone-100 tw-flex-wrap hfull">
-              <div class="md:tw-w-3/5 tw-w-full 2xl:tw-pr-18 md:tw-pr-8">
+              <div class="lg:tw-w-3/5 md:tw-w-1/2 tw-w-full 2xl:tw-pr-18 md:tw-pr-8">
                 {% include 'aspect-ratio-img', media: blkSt.img_url ,class: 'tw-block tw-w-full tw-object-cover'%}
               </div>
-              <div class="md:tw-w-2/5 2xl:tw-pt-12 md:tw-pt-8 2xl:tw-pr-12 md:tw-pr-8 tw-p-4 xl:tw-pb-24 md:tw-pb-18">
-                <p class="md:tw-text-3xl tw-text-xl tw-font-semibold tw-mb-2">{{ blkSt.title }}</p>
-                <p class="tw-italic md:tw-text-2xl tw-text-lg 2xl:tw-mb-8 tw-mb-3">- {{blkSt.author}}</p> 
+              <div class="lg:tw-w-2/5 md:tw-w-1/2 2xl:tw-pt-16 md:tw-pt-8 2xl:tw-pr-12 md:tw-pr-8 tw-p-4 xl:tw-pb-24 md:tw-pb-18">
+                <p class="xl:tw-text-3xl md:tw-text-2xl tw-text-xl tw-font-semibold tw-mb-2">{{ blkSt.title }}</p>
+                <p class="tw-italic xl:tw-text-2xl md:tw-text-xl tw-text-lg 2xl:tw-mb-8 tw-mb-3">- {{blkSt.author}}</p> 
                 <p class="2xl:tw-text-xl md:tw-text-lg tw-text-stone-700 md:tw-mb-4 tw-mb-12">{{ blkSt.content }}</p>
               </div>
             </div>
@@ -25,7 +25,7 @@
           {% endif %}
         {% endfor %}
       </div>
-      <div class="tw-absolute 2xl:tw-bottom-[10%] md:tw-bottom-[6%] tw-bottom-[3%] md:tw-right-[33%] md:tw-left-auto tw-left-[22%] tw-flex tw-w-[4%] tw-justify-center">
+      <div class="tw-absolute xl:tw-bottom-[10%] md:tw-bottom-[6%] tw-bottom-[3%] md:tw-right-[calc(30%_+_40px)] md:tw-left-auto tw-left-[calc(33px_+_5%)] tw-flex md:tw-w-[55px] tw-w-[40px] tw-justify-center">
         <span class="pagination tw-p-0 md:tw-text-3xl tw-text-2xl tw-font-semibold">1/{{section.blocks.size}}</span>
       </div>
     </div>

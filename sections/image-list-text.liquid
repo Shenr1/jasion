@@ -14,11 +14,10 @@
     <div class="tw-h-full {% if secSt.full_width %}tw-w-full{% endif %} tw-mx-auto md:tw-flex tw-items-center {% if secSt.bottom_line %}tw-border-solid tw-border-0 tw-border-b tw-border-black-300 tw-pb-8 {% endif %}">
 
       <div class='md:tw-w-1/2 tw-flex tw-justify-center tw-items-center {% if secSt.layout == "textImage" %}tw-order-3{%else%}tw-order-1{% endif %}' >
-        <div>
-          {% if secSt.img != blank %}
-          {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:'tw-block' }}
-          {% endif %}
-        </div>
+        {% if secSt.img != blank %}
+          {% include 'aspect-ratio-img', media: secSt.img ,class: 'tw-block'%}
+          {% comment %} {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:'tw-block' }} {% endcomment %}
+        {% endif %}
       </div>
 
       

@@ -3,7 +3,7 @@
 <section section-name="text-logo-switch" class="{% render 'section-interva-set' , secSt:secSt %}">
   <div class="md:tw-block tw-hidden">
     <div class="tw-flex tw-mx-auto page-width">
-      <div class="tw-relative tw-w-1/2 tw-pr-10 contents">
+      <div class="tw-relative tw-w-1/2 lg:tw-pr-10 md:tw-pr-5 contents">
         
         {% for block in section.blocks %}
         {%- assign blSet = block.settings -%}
@@ -21,7 +21,7 @@
         </div>
         {% endfor %}
       </div>
-      <div class="tw-w-1/2 tw-pl-10">
+      <div class="tw-w-1/2 lg:tw-pl-10 md:tw-pl-5">
         <div class="tw-flex tw-flex-wrap tw-pl-6 tw-h-full logos">
           {% for block in section.blocks %}
           {%- assign blSet = block.settings -%}

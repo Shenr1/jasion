@@ -68,7 +68,7 @@
 
 .waterfall-section .item .item-content span {
   white-space: nowrap;
-  font-size: 3.25vw;
+  font-size: 3vw;
   --tw-text-opacity: 1;
   color: rgb(87 83 78 / var(--tw-text-opacity))
 }
@@ -132,12 +132,12 @@
 
 [section-name="story-swiper"] .flickity-next {
   right: auto;
-  left: 35%
+  left: calc(73px + 5%)
 }
 
 @media (min-width: 768px) {
   [section-name="story-swiper"] .flickity-next {
-    right: 30.5%;
+    right: 30%;
     left: auto
   }
 }
@@ -149,7 +149,7 @@
 
 @media (min-width: 768px) {
   [section-name="story-swiper"] .flickity-previous {
-    right: 37%;
+    right: calc(95px + 30%);
     left: auto
   }
 }
@@ -302,8 +302,8 @@
   left: 50%
 }
 
-.tw-left-\[22\%\] {
-  left: 22%
+.tw-left-\[calc\(33px_\+_5\%\)\] {
+  left: calc(33px + 5%)
 }
 
 .tw-top-0 {
@@ -379,6 +379,10 @@
   margin-bottom: 0px
 }
 
+.tw-mb-12 {
+  margin-bottom: 3rem
+}
+
 .tw-mb-16 {
   margin-bottom: 4rem
 }
@@ -411,10 +415,6 @@
   margin-right: 0.75rem
 }
 
-.tw-mt-16 {
-  margin-top: 4rem
-}
-
 .tw-mt-2 {
   margin-top: 0.5rem
 }
@@ -425,10 +425,6 @@
 
 .tw-mt-6 {
   margin-top: 1.5rem
-}
-
-.tw-mb-12 {
-  margin-bottom: 3rem
 }
 
 .tw-line-clamp-2 {
@@ -505,8 +501,8 @@
   width: 4rem
 }
 
-.tw-w-\[4\%\] {
-  width: 4%
+.tw-w-\[40px\] {
+  width: 40px
 }
 
 .tw-w-\[90\%\] {
@@ -764,20 +760,12 @@
   padding-bottom: 2rem
 }
 
-.tw-pl-10 {
-  padding-left: 2.5rem
-}
-
 .tw-pl-6 {
   padding-left: 1.5rem
 }
 
 .tw-pr-0 {
   padding-right: 0px
-}
-
-.tw-pr-10 {
-  padding-right: 2.5rem
 }
 
 .tw-pr-4 {
@@ -1029,10 +1017,6 @@
   content: var(--tw-content)
 }
 
-.odd\:tw-pr-1:nth-child(odd) {
-  padding-right: 0.25rem
-}
-
 .hover\:tw-scale-105:hover {
   --tw-scale-x: 1.05;
   --tw-scale-y: 1.05;
@@ -1097,16 +1081,16 @@
     right: 0px
   }
 
-  .md\:tw-right-\[33\%\] {
-    right: 33%
+  .md\:tw-right-\[calc\(30\%_\+_40px\)\] {
+    right: calc(30% + 40px)
   }
 
   .md\:tw-top-1\/2 {
     top: 50%
   }
 
-  .md\:tw-top-16 {
-    top: 4rem
+  .md\:tw-top-12 {
+    top: 3rem
   }
 
   .md\:tw-top-20 {
@@ -1115,6 +1099,10 @@
 
   .md\:tw-top-8 {
     top: 2rem
+  }
+
+  .md\:tw-top-\[15\%\] {
+    top: 15%
   }
 
   .md\:tw-m-0 {
@@ -1201,8 +1189,8 @@
     width: 40%
   }
 
-  .md\:tw-w-3\/5 {
-    width: 60%
+  .md\:tw-w-\[55px\] {
+    width: 55px
   }
 
   .md\:tw-max-w-\[55\%\] {
@@ -1282,11 +1270,6 @@
     padding-right: 2.5rem
   }
 
-  .md\:tw-px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem
-  }
-
   .md\:tw-px-9 {
     padding-left: 2.25rem;
     padding-right: 2.25rem
@@ -1326,12 +1309,20 @@
     padding-left: 1rem
   }
 
+  .md\:tw-pl-5 {
+    padding-left: 1.25rem
+  }
+
   .md\:tw-pl-8 {
     padding-left: 2rem
   }
 
   .md\:tw-pr-4 {
     padding-right: 1rem
+  }
+
+  .md\:tw-pr-5 {
+    padding-right: 1.25rem
   }
 
   .md\:tw-pr-8 {
@@ -1396,6 +1387,19 @@
     line-height: 1.75rem
   }
 
+  .md\:tw-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem
+  }
+
+  .md\:tw-leading-tight {
+    line-height: 1.25
+  }
+
+  .md\:odd\:tw-pr-1:nth-child(odd) {
+    padding-right: 0.25rem
+  }
+
   .md\:even\:tw-pl-1:nth-child(even) {
     padding-left: 0.25rem
   }
@@ -1421,6 +1425,14 @@
     display: flex
   }
 
+  .lg\:tw-w-2\/5 {
+    width: 40%
+  }
+
+  .lg\:tw-w-3\/5 {
+    width: 60%
+  }
+
   .lg\:tw-w-\[31\%\] {
     width: 31%
   }
@@ -1431,6 +1443,11 @@
 
   .lg\:tw-p-0 {
     padding: 0px
+  }
+
+  .lg\:tw-px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem
   }
 
   .lg\:tw-pb-14 {
@@ -1445,8 +1462,16 @@
     padding-bottom: 2.25rem
   }
 
+  .lg\:tw-pl-10 {
+    padding-left: 2.5rem
+  }
+
   .lg\:tw-pl-6 {
     padding-left: 1.5rem
+  }
+
+  .lg\:tw-pr-10 {
+    padding-right: 2.5rem
   }
 
   .lg\:tw-pt-14 {
@@ -1460,11 +1485,19 @@
   .lg\:tw-pt-9 {
     padding-top: 2.25rem
   }
+
+  .lg\:tw-leading-snug {
+    line-height: 1.375
+  }
 }
 
 @media (min-width: 1280px) {
   .xl\:tw-bottom-6 {
     bottom: 1.5rem
+  }
+
+  .xl\:tw-bottom-\[10\%\] {
+    bottom: 10%
   }
 
   .xl\:tw-top-1\/3 {
@@ -1569,10 +1602,6 @@
 }
 
 @media (min-width: 1440px) {
-  .\32xl\:tw-bottom-\[10\%\] {
-    bottom: 10%
-  }
-
   .\32xl\:tw-mb-8 {
     margin-bottom: 2rem
   }
@@ -1621,8 +1650,8 @@
     padding-right: 2.25rem
   }
 
-  .\32xl\:tw-pt-12 {
-    padding-top: 3rem
+  .\32xl\:tw-pt-16 {
+    padding-top: 4rem
   }
 
   .\32xl\:tw-text-xl {
