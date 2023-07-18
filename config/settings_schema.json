@@ -1088,6 +1088,11 @@
         "type": "checkbox",
         "id": "disable_animations",
         "label": "t:settings_schema.extras.settings.disable_animations.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "disable_back_top",
+        "label": "Disable back to top"
       }
     ]
   }

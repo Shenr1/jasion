@@ -156,6 +156,12 @@ twq('config','oevkl');
   <template id="articleImageMarkup">
     <img width height src loading="lazy">
   </template>
+
+  {% if settings.disable_back_top %}
+    {% render 'back-to-top' %}
+  {% endif %}
+
+
 </body>
 </html>
 

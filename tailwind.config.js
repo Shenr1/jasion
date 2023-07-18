@@ -30,7 +30,7 @@ module.exports = {
       colors: {
         vi: {
           light: '#fcb10f',
-          DEFAULT: '#fcb10f',
+          DEFAULT: '#ff9600',
           dark: '#de9a07',
         },
         viGray: {

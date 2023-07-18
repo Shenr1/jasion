@@ -6,6 +6,11 @@ const autoReponsive = () => {
         const content = 'width=1023, initial-scale=' + scale + ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', viewport-fit=cover';
         $('meta[name="viewport"]').attr("content",content);
     }
+    if (width < 460) {
+        const scale = width / 460;
+        const content = 'width=460, initial-scale=' + scale + ', minimum-scale=' + scale + ', maximum-scale=' + scale + ', viewport-fit=cover';
+        $('meta[name="viewport"]').attr("content",content);
+    }
 }
 autoReponsive()
 

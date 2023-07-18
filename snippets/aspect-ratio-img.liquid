@@ -1,7 +1,9 @@
 {%- capture productTabs -%}
 {% assign aspectRatio = media.height | times: 100 | divided_by: media.width | divided_by: 1.0 %}
 {% assign imgClass = "tw-absolute tw-left-0 tw-top-0 tw-w-full tw-h-full " | append: class %}
-<div class="{% if placeholder %}imgPlaceholder{% endif %} tw-relative tw-h-full tw-w-full" style="padding-bottom:{{aspectRatio}}%">
+
+<div style="padding-bottom:{{aspectRatio}}%" 
+  class="{% if placeholder %}imgPlaceholder{% endif %}{% if min-h-class != blank  %} {{min-h-class}}{% endif %} tw-relative tw-h-full tw-w-full">
   {{ media | image_url: width: media.width | image_tag: class: imgClass }}
 </div>
 {%- endcapture -%}

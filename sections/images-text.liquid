@@ -58,7 +58,7 @@
       {% endif %}
       <div class="tw-relative {% unless secSt.full_width %}page-width{% endunless %}">
         <div class="md:tw-block {% if secSt.bg_img_mb %}tw-hidden{% endif %}">
-          {% include 'aspect-ratio-img', media: secSt.bg_img ,class: ''%}
+          {% include 'aspect-ratio-img', media: secSt.bg_img , min-h-class:'tw-min-h-[530px]', class: 'tw-min-h-[530px] tw-object-cover'%}
         </div>
         {% if secSt.bg_img_mb %}
           <div class="md:tw-hidden tw-block">
