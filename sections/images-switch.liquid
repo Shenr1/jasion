@@ -1,0 +1,163 @@
+{%- assign secSt = section.settings -%}
+<section section-name="image-video-grid" 
+  style="background-color:{{secSt.bg_color}};" 
+  class="{% render 'section-interva-set' , secSt:secSt %}">
+  <div>
+    <div class="container tw-flex tw-overflow-hidden tw-relative">{{blkSt.title}}
+      {% for block in section.blocks %}
+      {% assign blkSt = block.settings %}
+      {% if blkSt.image != blank %}
+        {%- if forloop.first -%}
+        <h1 class="tw-absolute tw-top-12 tw-left-12 tw-text-4xl tw-z-50">{{blkSt.title}}</h1>
+        <div class="left-pane tw-py-6 tw-flex-[1_1_50%] tw-overflow-hidden tw-z-40" style="background-color:{{blkSt.bg_color}};">
+          <img class=" tw-w-[60vw] tw-ml-[20vw] tw-max-w-none tw-pointer-events-none" src="{{ blkSt.image | img_url : "master" }}" alt="">
+        </div>
+        {%- endif -%}
+        {%- if forloop.last -%}
+          <h1 class="tw-absolute tw-top-12 tw-right-12 tw-text-4xl">{{blkSt.title}}</h1>
+          <div class="right-pane tw-py-6 tw-flex-[1_1_50%] tw-overflow-hidden" style="background-color:{{blkSt.bg_color}};">
+            <img class="tw-w-[60vw] tw-ml-[20vw] tw-object-contain tw-absolute tw-z-20 tw-left-0 tw-pointer-events-none" src="{{ blkSt.image | img_url : "master" }}" alt="">
+          </div>
+        {%- endif -%}
+      {% endif %}
+      {% endfor %}
+      <div class="divider tw-w-1 tw-bg-white tw-cursor-col-resize tw-absolute tw-top-0 tw-bottom-0 tw-left-1/2 -tw-translate-x-1/2 tw-z-40">
+        <div class="tw-absolute hover:tw-scale-95 tw-transition-all tw-shadow-md tw-top-1/2 -tw-translate-x-1/2 tw-translate-y-1/2 tw-w-8 tw-h-16 tw-rounded-full tw-bg-white tw-flex tw-justify-center tw-items-center">
+          <svg t="1689843365567" class="icon tw-rotate-90" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2313" width="32" height="32"><path d="M170.666667 213.333333h682.666666v85.333334H170.666667V213.333333z m0 512h682.666666v85.333334H170.666667v-85.333334z m0-256h682.666666v85.333334H170.666667v-85.333334z" fill="#444444" p-id="2314"></path></svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  $(document).ready(function() {
+    let isDragging = false;
+    const container = $('.container');
+    const dividers = $('.divider');
+    const leftPane = $('.left-pane');
+    const rightPane = $('.right-pane');
+
+    dividers.on('mousedown', function(e) {
+      isDragging = true;
+    });
+
+    $(document).on('mousemove', function(e) {
+      if (!isDragging) return;
+
+      const containerWidth = container.width();
+      const xPos = e.clientX - container.offset().left;
+      const dividerPosition = xPos / containerWidth * 100;
+
+      leftPane.css('flex', `1 1 ${dividerPosition}%`);
+      rightPane.css('flex', `1 1 ${100 - dividerPosition}%`);
+
+      dividers.css('left', `${dividerPosition}%`);
+    });
+
+    $(document).on('mouseup', function() {
+      isDragging = false;
+    });
+  });
+</script>
+
+
+{% schema %}
+  {
+    "name": "images switch v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "limit": 2,
+        "settings": [
+          {
+           "type": "color",
+           "id": "bg_color",
+           "label": "Background color",
+           "default":"#E8EBF0"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Background image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "EB7 ST"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "images switch v1.1"
+      }
+    ] 
+  }
+{% endschema %} 

@@ -59,388 +59,385 @@
         "lazyload_images": true
       }
     },
-    "7096ca35-8512-4ef4-9c53-b70826c94b21": {
-      "type": "icon-list",
+    "14230743-49f7-45a6-9ff2-a4165f77cd08": {
+      "type": "feature-grid",
       "blocks": {
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0": {
-          "type": "text_block",
+        "a6acff80-3c6c-429e-b374-c93e9c9d9aa8": {
+          "type": "statistic",
           "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Fast_delivery.png",
-            "title": "Fast delivery",
-            "content": "1 to 3 day delivery to all 48 states",
+            "text": "60 Mile",
+            "text_sub": "Maximum Mileage"
+          }
+        },
+        "cedb5fc4-2b38-4d34-acfa-9f08dcdd5451": {
+          "type": "statistic",
+          "settings": {
+            "text": "80,000 +",
+            "text_sub": "Himi Riders"
+          }
+        },
+        "2c42d416-5a2d-4d19-9f37-37ad9b3d1121": {
+          "type": "statistic",
+          "settings": {
+            "text": "13,000 +",
+            "text_sub": "5-Star Reviews"
+          }
+        },
+        "59def2e9-80db-4572-bfc7-f727f6cbb3d4": {
+          "type": "statistic",
+          "settings": {
+            "text": "2-year",
+            "text_sub": "Longest warranty in ebike"
+          }
+        },
+        "8c853a2a-ff7c-4264-9a87-068f5db08b25": {
+          "type": "icon",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Fast_delivery.png",
+            "text": "Fast Delivery",
+            "text_sub": "1 to 3 day delivery to all 48 states"
+          }
+        },
+        "b5f1d3f9-46ab-46b9-aa71-a20d33b7b674": {
+          "type": "icon",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/warranty.png",
+            "text": "1-Year Warranty",
+            "text_sub": "One year warranty on all parts"
+          }
+        },
+        "f4434038-8fcd-49f4-8997-1f432e45ea1d": {
+          "type": "icon",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Tax.png",
+            "text": "Tax-Free",
+            "text_sub": "No need to pay 7-10% ST"
+          }
+        },
+        "33396831-3afc-4542-8514-184615ad43f8": {
+          "type": "icon",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/14-Day_Trial.png",
+            "text": "14-Day Trial",
+            "text_sub": "Don’t love it? Send it back to us."
+          }
+        }
+      },
+      "block_order": [
+        "a6acff80-3c6c-429e-b374-c93e9c9d9aa8",
+        "cedb5fc4-2b38-4d34-acfa-9f08dcdd5451",
+        "2c42d416-5a2d-4d19-9f37-37ad9b3d1121",
+        "59def2e9-80db-4572-bfc7-f727f6cbb3d4",
+        "8c853a2a-ff7c-4264-9a87-068f5db08b25",
+        "b5f1d3f9-46ab-46b9-aa71-a20d33b7b674",
+        "f4434038-8fcd-49f4-8997-1f432e45ea1d",
+        "33396831-3afc-4542-8514-184615ad43f8"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "large",
+        "bg_color": "#fdfdfd",
+        "title": "Long Range Ebike Expert"
+      }
+    },
+    "2ce57bdf-b8a3-4e57-a2cc-5a15a933dc7e": {
+      "type": "priducts-tab-slider",
+      "blocks": {
+        "6574ae6f-a2e0-4519-995b-ad7e308da513": {
+          "type": "collection",
+          "settings": {
+            "title": "EB7 2.0",
+            "collection": "all-products"
+          }
+        },
+        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05": {
+          "type": "collection",
+          "settings": {
+            "title": "EB7 ST",
+            "collection": "electric-bike"
+          }
+        },
+        "13442b15-13cc-4dae-b5d9-33002afe0825": {
+          "type": "collection",
+          "settings": {
+            "title": "Combo Sale-EB7 2.0",
+            "collection": "accessories"
+          }
+        }
+      },
+      "block_order": [
+        "6574ae6f-a2e0-4519-995b-ad7e308da513",
+        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05",
+        "13442b15-13cc-4dae-b5d9-33002afe0825"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "title": "Shop E-bikes",
+        "content": "We provide the best quality products at the best possible price because we are a direct-to-customer business. So, no matter what your age or what your job is, no matter who you are or where you come from, we strive to offer cost-efficient electric bikes for you."
+      }
+    },
+    "60c2e16b-a120-4f88-83ae-93a6554da664": {
+      "type": "image-video-grid",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "large",
+        "bg_color": "#e8ebf0",
+        "bg_img": "shopify:\/\/shop_images\/1_d9884d62-c5df-4730-9678-f303149d1e7c.jpg",
+        "title": "The Full Force of Mokwheel",
+        "content": "Jasion is the first company to innovate and bring forth a new feature in the e-bike industry by launching a new product with features never seen - \nThe World's First Power Station E-Bike",
+        "color": "#ffffff",
+        "video": "https:\/\/youtu.be\/lyWby66UOc4",
+        "image_video": "shopify:\/\/shop_images\/1_8a41e2b3-6530-463a-8a4f-a58e4815862c.jpg",
+        "img": "shopify:\/\/shop_images\/2_aadac64b-82a9-4c91-ae1f-bdde5ce37854.jpg"
+      }
+    },
+    "7d70e5e0-c724-451c-b058-a5d251b8ba4b": {
+      "type": "images-switch",
+      "blocks": {
+        "b167fa1d-39b7-4ad4-83e7-41b6380326f2": {
+          "type": "item",
+          "settings": {
+            "bg_color": "#edf1e6",
+            "image": "shopify:\/\/shop_images\/CBSblack_f08db17d-cdb9-4b13-bdea-29c8d6662599.png",
+            "title": "EB7 ST"
+          }
+        },
+        "74bbbfd1-ac68-4c95-bc5e-08510f6ecb67": {
+          "type": "item",
+          "settings": {
+            "bg_color": "#dce3cd",
+            "image": "shopify:\/\/shop_images\/CB7white_b2b8cfb9-b2ea-4fb1-8784-94de1b7ad53c.png",
+            "title": "EB7 2.0"
+          }
+        }
+      },
+      "block_order": [
+        "b167fa1d-39b7-4ad4-83e7-41b6380326f2",
+        "74bbbfd1-ac68-4c95-bc5e-08510f6ecb67"
+      ],
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "default"
+      }
+    },
+    "bb52703e-a3eb-410a-95e4-b04c2c35332c": {
+      "type": "text-logo-switch",
+      "blocks": {
+        "d0ce4f54-d412-4040-96de-d933e90d8a21": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "author": "Electric bike report",
             "link": ""
           }
         },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-1": {
-          "type": "text_block",
+        "b368d53a-4f77-45aa-a199-c24a3685179c": {
+          "type": "item",
           "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/warranty.png",
-            "title": "1-year warranty",
-            "content": "One year warranty on all parts",
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "author": "Electric bike report",
             "link": ""
           }
         },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-2": {
-          "type": "text_block",
+        "c8f0b654-3608-4212-ab58-51ee57092e2c": {
+          "type": "item",
           "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Tax.png",
-            "title": "Tax-Free",
-            "content": "No need to pay 7-10% ST",
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "author": "Electric bike report",
             "link": ""
           }
         },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-3": {
-          "type": "text_block",
+        "83e26c95-7989-4db4-a8f3-da4d1130768b": {
+          "type": "item",
           "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/14-Day_Trial.png",
-            "title": "14-Day Trial",
-            "content": "Don’t love it?\nSend it back to us.",
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "author": "Electric bike report",
+            "link": ""
+          }
+        },
+        "6616d500-1551-455e-b8ee-7cceb47fd5e0": {
+          "type": "item",
+          "settings": {
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "author": "Electric bike report",
             "link": ""
           }
         }
       },
       "block_order": [
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-1",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-2",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-3"
-      ],
-      "custom_css": [
-
+        "d0ce4f54-d412-4040-96de-d933e90d8a21",
+        "b368d53a-4f77-45aa-a199-c24a3685179c",
+        "c8f0b654-3608-4212-ab58-51ee57092e2c",
+        "83e26c95-7989-4db4-a8f3-da4d1130768b",
+        "6616d500-1551-455e-b8ee-7cceb47fd5e0"
       ],
       "settings": {
-        "title": ""
+        "top_padding": "default",
+        "bottom_padding": "default",
+        "title": "Read About Us"
       }
     },
-    "478079cd-4c85-43b2-8776-90c1cc236096": {
-      "type": "countdown",
-      "disabled": true,
+    "5023bdc0-c326-42d8-adfd-a07f6f7d606f": {
+      "type": "reviews-accordion",
       "blocks": {
-        "template--16663365452013__478079cd-4c85-43b2-8776-90c1cc236096-1680849011265edb31-0": {
-          "type": "content",
+        "af6ab996-0c9b-47a5-9c70-f245bd7076d5": {
+          "type": "question",
           "settings": {
-            "heading": "Countdown",
-            "heading_size": "h2",
-            "text": "",
-            "content_alignment": "left"
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         },
-        "template--16663365452013__478079cd-4c85-43b2-8776-90c1cc236096-1680849011265edb31-1": {
-          "type": "timer",
+        "534e3a69-7472-41d5-b49e-a812cdcc51e4": {
+          "type": "question",
           "settings": {
-            "year": "2023",
-            "month": "04",
-            "day": "15",
-            "hour": "03",
-            "minute": "00",
-            "hide_timer": false,
-            "text": ""
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         },
-        "template--16663365452013__478079cd-4c85-43b2-8776-90c1cc236096-1680849011265edb31-2": {
-          "type": "button",
+        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae": {
+          "type": "question",
           "settings": {
-            "button_link": "",
-            "button": "Shop Collection",
-            "button_style": "solid"
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "61d460d7-d97f-430b-bf86-53a604c0dd5d": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "8317d44c-3cbe-4735-945b-0ba3524f1e00": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+          }
+        },
+        "24a559d2-0432-47fe-ba88-d4d776a6acc9": {
+          "type": "review",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+          }
+        },
+        "48acd128-786d-46e1-b3cc-0bafa731d534": {
+          "type": "review",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+          }
+        },
+        "59d0281e-55d8-4a1b-967e-0930cb7d5750": {
+          "type": "review",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+          }
+        },
+        "63c0a62d-c81b-4d90-9409-78c25c8cba40": {
+          "type": "review",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
           }
         }
       },
       "block_order": [
-        "template--16663365452013__478079cd-4c85-43b2-8776-90c1cc236096-1680849011265edb31-0",
-        "template--16663365452013__478079cd-4c85-43b2-8776-90c1cc236096-1680849011265edb31-1",
-        "template--16663365452013__478079cd-4c85-43b2-8776-90c1cc236096-1680849011265edb31-2"
+        "af6ab996-0c9b-47a5-9c70-f245bd7076d5",
+        "534e3a69-7472-41d5-b49e-a812cdcc51e4",
+        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae",
+        "61d460d7-d97f-430b-bf86-53a604c0dd5d",
+        "8317d44c-3cbe-4735-945b-0ba3524f1e00",
+        "24a559d2-0432-47fe-ba88-d4d776a6acc9",
+        "48acd128-786d-46e1-b3cc-0bafa731d534",
+        "59d0281e-55d8-4a1b-967e-0930cb7d5750",
+        "63c0a62d-c81b-4d90-9409-78c25c8cba40"
       ],
       "settings": {
-        "layout": "banner",
-        "full_width": false,
-        "text_color": "#000000",
-        "background_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "lazyload_images": true
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#fafafa",
+        "title": "300k+ bikes sold.\n40k+ 5-star reviews.",
+        "title_sub": "Undenibale Qualty",
+        "img_main": "shopify:\/\/shop_images\/72BD6114-9597-40d3-947F-7CD2ACF0B259.jpg",
+        "btn_text": "Read More Reviews",
+        "link": ""
       }
     },
-    "d16e667d-77bb-4d57-80c5-6d66891c39e0": {
-      "type": "custom-collection",
-      "settings": {
-        "home_featured_products": "electric-bike",
-        "per_row": 1,
-        "rows": 2
-      }
-    },
-    "2943ab69-1ba9-4ebe-b0fa-34bae4f325f9": {
-      "type": "hero-video",
-      "settings": {
-        "title": "Jasion Bike",
-        "title_size": 80,
-        "subheading": "",
-        "link_text": "Check it out",
-        "link": "shopify:\/\/collections\/electric-bike",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/75432c3966c84639860bb5ded49bb4f8.mp4",
-        "overlay_opacity": 0,
-        "section_height": "100vh",
-        "mobile_height": "500px"
-      }
-    },
-    "66ada6ba-76aa-43a4-a799-67de04162cde": {
-      "type": "hero-video",
-      "disabled": true,
-      "settings": {
-        "title": "Jasion Bike",
-        "title_size": 80,
-        "subheading": "",
-        "link_text": "Check it out",
-        "link": "shopify:\/\/collections\/electric-bike",
-        "color_accent": "rgba(0,0,0,0)",
-        "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5a19f91955a04476aee88e9036a87070.mp4",
-        "overlay_opacity": 0,
-        "section_height": "750px",
-        "mobile_height": "500px"
-      }
-    },
-    "b4fef242-5be8-42ed-abbe-ebce35e3c319": {
-      "type": "reviews",
+    "67accc71-b565-4e0c-b65a-34f4f643ae09": {
+      "type": "images-grid",
       "blocks": {
-        "template--18193808458002__b4fef242-5be8-42ed-abbe-ebce35e3c319-167903619899b9c379-1": {
-          "type": "review",
+        "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
+          "type": "text_block",
           "settings": {
-            "title": "\"EB7 : The Perfect Solution for Daily Commutes.\"",
-            "review": "\"The Jasion eb7 is the best e-bike out there - absolutely love mine- even bought a second bike for my wife, highly recommend\nFor anyone on the fence about the Jasion ebike you will not regret your purchase. This is an amazing ebike definitely the best ebike at this price range!\"",
-            "image": "shopify:\/\/shop_images\/JASION_BIKE_2.jpg",
-            "author": "- Jane D"
+            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
+            "icon": "shopify:\/\/shop_images\/facebook.png",
+            "link": "shopify:\/\/products\/universal-bicycle-combination-lock",
+            "title": "",
+            "content": ""
           }
         },
-        "template--18193808458002__b4fef242-5be8-42ed-abbe-ebce35e3c319-167903619899b9c379-0": {
-          "type": "review",
+        "6dc739f2-6f74-46e1-ac60-c7321cbea6aa": {
+          "type": "text_block",
           "settings": {
-            "title": "\"From Skeptic to Believer: How EB7 Exceeded My Expectations.\"",
-            "review": "\"After several months of researching e-bikes we decided on Jaison. I have to say it has exceeded my what I was expecting for a bike below $1000. We live in a very hilly rural area and it has no trouble dealing with the steep hills. \"",
-            "image": "shopify:\/\/shop_images\/JASION_BIKE_1.jpg",
-            "author": "- Mark S"
+            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
+            "link": "",
+            "title": "",
+            "content": ""
           }
         },
-        "template--18193808458002__b4fef242-5be8-42ed-abbe-ebce35e3c319-167903619899b9c379-2": {
-          "type": "review",
+        "9ef63c0e-e943-4ff7-876b-976f3a442791": {
+          "type": "text_block",
           "settings": {
-            "title": "\"EB7 Electric Bike: The Ultimate Adventure Companion.\"",
-            "review": "\"I have had my EB7 since July of 2022 and I have over 700 miles on it. This bike has been great for my day to day commute. I live in upstate NY and I even road it all winter. It handles well in the snow and the rain. The battery has always been sufficient to get me around town. Now my range is doubled! I look forward to advent this summer!\"",
-            "image": "shopify:\/\/shop_images\/3_c4dddf1d-a9e5-4f1b-aa26-5c7aabdcffe3.jpg",
-            "author": "- Alex W"
+            "image": "shopify:\/\/shop_images\/EB7st_2_7_3ffa8c67-63af-487b-9f86-0ac3d92f67b4.jpg",
+            "link": "",
+            "title": "",
+            "content": ""
           }
         },
-        "df428ba1-b9e4-4d2c-aab5-eb3cc76d9d29": {
-          "type": "review",
+        "daebd159-13ed-41c7-af79-c23a2c256ef3": {
+          "type": "text_block",
           "settings": {
-            "title": "\"Upgrade Your Commute with the EB7 Electric Bike.\"",
-            "review": "\"I never write reviews but Jasion has exceeded my expectations. I've had my Jasion Ebike for 4 months now, I've traveled a little under 700 miles, mainly for my commute to work. It has cut down my commute time from 1 hour to 8 minutes. The bike is very well made, very adjustable, I'm 6'2 200 pounds and the bike can definitely carry me with no problem. \"",
-            "image": "shopify:\/\/shop_images\/1_de490bd6-91bb-4ddb-802b-096ae3e1d904.jpg",
-            "author": "- Sarah K"
+            "image": "shopify:\/\/shop_images\/EB7st_2_7_3ffa8c67-63af-487b-9f86-0ac3d92f67b4.jpg",
+            "link": "",
+            "title": "",
+            "content": ""
           }
         },
-        "c079d44e-6841-405e-8cce-8aa6710e0dd7": {
-          "type": "review",
+        "6c81165c-25d6-4069-bed7-e7181ddf744b": {
+          "type": "text_block",
           "settings": {
-            "title": "\"A Lifesaver for Those with Mobility Challenges.\"",
-            "review": "\"Enjoying my new bike from Jasionbike. It took about 45 minutes to put it together, very easy. My 1st ride I loved it I'm not much of a person to peddle because of issues with my legs but I love this style because it's all electric. I finally get to go bike riding with family and friends and not feel left out. Looking forward to many miles on this bike. Would buy another bike in the future!\"",
-            "image": "shopify:\/\/shop_images\/1_cb9cea16-4ab4-4240-b495-707db4c0fe04.jpg",
-            "author": "- David H"
+            "image": "shopify:\/\/shop_images\/EB7st_2_6_1799ccbf-53ff-4806-8331-4e9551005d46.jpg",
+            "link": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "358a16bf-9024-4f56-b08b-31f23289dc95": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
+            "link": "",
+            "title": "",
+            "content": ""
           }
         }
       },
       "block_order": [
-        "template--18193808458002__b4fef242-5be8-42ed-abbe-ebce35e3c319-167903619899b9c379-1",
-        "template--18193808458002__b4fef242-5be8-42ed-abbe-ebce35e3c319-167903619899b9c379-0",
-        "template--18193808458002__b4fef242-5be8-42ed-abbe-ebce35e3c319-167903619899b9c379-2",
-        "df428ba1-b9e4-4d2c-aab5-eb3cc76d9d29",
-        "c079d44e-6841-405e-8cce-8aa6710e0dd7"
+        "87bea44e-9866-4ebd-bf6f-240a7c9d778b",
+        "6dc739f2-6f74-46e1-ac60-c7321cbea6aa",
+        "9ef63c0e-e943-4ff7-876b-976f3a442791",
+        "daebd159-13ed-41c7-af79-c23a2c256ef3",
+        "6c81165c-25d6-4069-bed7-e7181ddf744b",
+        "358a16bf-9024-4f56-b08b-31f23289dc95"
       ],
       "settings": {
-        "title": "Over 1,000+ riders have reviewed JasionBike®",
-        "align_text": "center",
-        "link": "shopify:\/\/pages\/reviews"
-      }
-    },
-    "96a59338-2ade-4345-bd4c-6f39f6cdd1b9": {
-      "type": "inspirations",
-      "blocks": {
-        "84ae0a64-c61f-4506-ba39-4d68cefe6100": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_6.jpg",
-            "video": "https:\/\/youtu.be\/MP_q93MD_eo"
-          }
-        },
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault.jpg",
-            "video": "https:\/\/youtu.be\/E0JwCfcGCW8"
-          }
-        },
-        "c334b0ba-92c9-47d9-ae4c-afd99b1497be": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_4.jpg",
-            "video": "https:\/\/youtu.be\/R998ZxaZ3Ro"
-          }
-        },
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_5.jpg",
-            "video": "https:\/\/youtu.be\/k1d2e385CYQ"
-          }
-        },
-        "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_3.jpg",
-            "video": "https:\/\/youtu.be\/lyWby66UOc4"
-          }
-        },
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/maxresdefault_2.jpg",
-            "video": "https:\/\/youtu.be\/7U5iDZI3Zs4"
-          }
-        }
-      },
-      "block_order": [
-        "84ae0a64-c61f-4506-ba39-4d68cefe6100",
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-0",
-        "c334b0ba-92c9-47d9-ae4c-afd99b1497be",
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-1",
-        "a5a4b749-5d4f-46d1-ad60-fb15f076a2a1",
-        "template--18193808458002__96a59338-2ade-4345-bd4c-6f39f6cdd1b9-1679038515f6fa1c85-2"
-      ],
-      "settings": {
-        "title": "YouTube channel influencer collaboration video",
-        "content": "<p>@jasionebikes  #jasion<\/p>",
-        "align_text": "center"
-      }
-    },
-    "c9ae7133-e19b-41a0-a2f0-293f21694ac7": {
-      "type": "media",
-      "blocks": {
-        "template--18193808458002__c9ae7133-e19b-41a0-a2f0-293f21694ac7-1678978070863d6b70-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
-            "text": "<p>“ With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”<\/p>"
-          }
-        },
-        "template--18193808458002__c9ae7133-e19b-41a0-a2f0-293f21694ac7-1678978070863d6b70-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/1_e0f0454e-2779-4b2a-a4ec-5bd865c9503f.png",
-            "text": "<p>\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”<\/p>"
-          }
-        },
-        "template--18193808458002__c9ae7133-e19b-41a0-a2f0-293f21694ac7-1678978070863d6b70-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/3_13637426-1cdf-4bb3-a069-b2c35f88f483.png",
-            "text": "<p>\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point.  It offers Solid Performance and Range Without Breaking the Bank.\"<\/p>"
-          }
-        },
-        "a9642fa1-43d4-4f1d-8b17-bdc74cd33fee": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": false,
-            "image": "shopify:\/\/shop_images\/2_bc0297c3-b738-4f2b-a31a-0e1a4939b5ba.png",
-            "text": "<p>\"Jasionbike Offers Impressive Features and Durability at an Affordable Price.\"<\/p>"
-          }
-        },
-        "9267299c-bfce-4010-a2f5-2aec6f869d39": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/6.png",
-            "text": "<p>\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"<\/p>"
-          }
-        },
-        "9a4cb42b-bf31-4015-80fb-e2f0b0b4fda8": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/9.png",
-            "text": "<p>\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18193808458002__c9ae7133-e19b-41a0-a2f0-293f21694ac7-1678978070863d6b70-0",
-        "template--18193808458002__c9ae7133-e19b-41a0-a2f0-293f21694ac7-1678978070863d6b70-1",
-        "template--18193808458002__c9ae7133-e19b-41a0-a2f0-293f21694ac7-1678978070863d6b70-2",
-        "a9642fa1-43d4-4f1d-8b17-bdc74cd33fee",
-        "9267299c-bfce-4010-a2f5-2aec6f869d39",
-        "9a4cb42b-bf31-4015-80fb-e2f0b0b4fda8"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center"
-      }
-    },
-    "89486e87-ccf5-4b65-8d66-8b5163dfba23": {
-      "type": "support",
-      "disabled": true,
-      "blocks": {
-        "template--18193808458002__89486e87-ccf5-4b65-8d66-8b5163dfba23-167920723575ea1486-0": {
-          "type": "support",
-          "settings": {
-            "title": "Phone Support",
-            "text": "You can directly call XX or email XX to communicate with our product experts, no matter what time, whether to buy or not. They exist to serve you and are  to communicate with our prcate with our product experts, no matter what time, whether to buy or not. They exist to serve you and are the best in the business.You can directly call XX or email XX",
-            "image": "shopify:\/\/shop_images\/Performance_slider_1.jpg"
-          }
-        },
-        "template--18193808458002__89486e87-ccf5-4b65-8d66-8b5163dfba23-167920723575ea1486-1": {
-          "type": "support",
-          "disabled": true,
-          "settings": {
-            "title": "Phone Support",
-            "text": "You can directly call XX or email XX to communicate with our product experts, no matter what time, whether to buy or not. They exist to serve you and are the best in the business.You can directly call XX or email XX to communicate with our product experts, no matter what time, whether to buy or not. They exist to serve you and are the best in the business.You can directly call XX or email XX to communicate",
-            "image": "shopify:\/\/shop_images\/2.jpg"
-          }
-        },
-        "template--18193808458002__89486e87-ccf5-4b65-8d66-8b5163dfba23-167920723575ea1486-2": {
-          "type": "support",
-          "disabled": true,
-          "settings": {
-            "title": "Phone Support",
-            "text": "You can directly call XX or email XX to communicate with our product experts, no matter what time, whether to buy or not. They exist to serve you and are the best in the business.",
-            "image": "shopify:\/\/shop_images\/Performance_slider_1.jpg"
-          }
-        },
-        "3fb45b2a-e414-465e-95c8-a8360e590779": {
-          "type": "support",
-          "disabled": true,
-          "settings": {
-            "title": "Example title",
-            "text": "Add customer reviews and review to showcase your store’s happy customers."
-          }
-        }
-      },
-      "block_order": [
-        "template--18193808458002__89486e87-ccf5-4b65-8d66-8b5163dfba23-167920723575ea1486-0",
-        "template--18193808458002__89486e87-ccf5-4b65-8d66-8b5163dfba23-167920723575ea1486-1",
-        "template--18193808458002__89486e87-ccf5-4b65-8d66-8b5163dfba23-167920723575ea1486-2",
-        "3fb45b2a-e414-465e-95c8-a8360e590779"
-      ],
-      "settings": {
-        "title": "",
-        "align_text": "center"
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "image": "shopify:\/\/shop_images\/EB7st_2_3_19f546c8-a935-406f-a8b4-8c6e016d4887.jpg",
+        "icon": "shopify:\/\/shop_images\/facebook.png",
+        "link": "shopify:\/\/collections"
       }
     },
     "ce0cfb6d-3de7-4414-96f3-d43311e39b73": {
@@ -459,27 +456,17 @@
         "blog_image_size": "square",
         "divider": false
       }
-    },
-    "28b367df-b48d-4aee-bce0-6d750e0c1c73": {
-      "type": "judgeme_carousel_section",
-      "disabled": true,
-      "settings": {
-        "maxwidth": 1240
-      }
     }
   },
   "order": [
     "slideshow",
-    "7096ca35-8512-4ef4-9c53-b70826c94b21",
-    "478079cd-4c85-43b2-8776-90c1cc236096",
-    "d16e667d-77bb-4d57-80c5-6d66891c39e0",
-    "2943ab69-1ba9-4ebe-b0fa-34bae4f325f9",
-    "66ada6ba-76aa-43a4-a799-67de04162cde",
-    "b4fef242-5be8-42ed-abbe-ebce35e3c319",
-    "96a59338-2ade-4345-bd4c-6f39f6cdd1b9",
-    "c9ae7133-e19b-41a0-a2f0-293f21694ac7",
-    "89486e87-ccf5-4b65-8d66-8b5163dfba23",
-    "ce0cfb6d-3de7-4414-96f3-d43311e39b73",
-    "28b367df-b48d-4aee-bce0-6d750e0c1c73"
+    "14230743-49f7-45a6-9ff2-a4165f77cd08",
+    "2ce57bdf-b8a3-4e57-a2cc-5a15a933dc7e",
+    "60c2e16b-a120-4f88-83ae-93a6554da664",
+    "7d70e5e0-c724-451c-b058-a5d251b8ba4b",
+    "bb52703e-a3eb-410a-95e4-b04c2c35332c",
+    "5023bdc0-c326-42d8-adfd-a07f6f7d606f",
+    "67accc71-b565-4e0c-b65a-34f4f643ae09",
+    "ce0cfb6d-3de7-4414-96f3-d43311e39b73"
   ]
 }

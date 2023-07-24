@@ -1,0 +1,178 @@
+{%- assign secSt = section.settings -%}
+<section section-name="image-video-grid" 
+  style="background-color:{{secSt.bg_color}}; background-image:url('{{secSt.bg_img | img_url: "master" }}'); color:{{secSt.color}}"; 
+  class="{% render 'section-interva-set' , secSt:secSt %} tw-bg-no-repeat tw-bg-cover">
+  <div class="">
+    <div class="page-width tw-mb-14">
+      <h1 class="tw-text-5xl tw-mb-6">{{secSt.title}}</h1>
+      <p class="tw-text-lg tw-mb-0 tw-opacity-90">{{secSt.content | newline_to_br}}</p>
+    </div>
+
+    <div>
+      <div class="item-slider">
+        <div class="flickity-div page-width tw-pr-0">
+          <div class="tw-w-1/2 tw-h-full">
+            <div class="in_image tw-h-full">
+                <img class="!tw-rounded-none tw-object-contain tw-h-full" src="{{ secSt.image_video | img_url : 'master' }}" alt="">
+                <div class="play_icon">
+                  <a class="tw-block tw-mx-auto" href="{{ secSt.video }}">
+                    <div class="icon_play">
+                      <i class="fa fa-play"></i>
+                    </div>
+                  </a>
+                </div>
+            </div>
+          </div>
+          
+          <div class="tw-w-4/5"> {% include 'aspect-ratio-img', media: secSt.img ,class: 'tw-block'%} </div>
+        </div>
+
+        <div class="tw-flex tw-items-center tw-justify-end tw-mt-8 page-width">
+          <span class="slider-prev tw-cursor-pointer">
+            <svg t="1689736660004" class="icon tw-w-12 tw-h-12" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2512" width="32" height="32"><path d="M213.333333 507.733333h725.333334v42.666667H204.8l145.066667 145.066667-29.866667 29.866666L128 533.333333 320 341.333333l29.866667 29.866667L213.333333 507.733333z" fill="#444444" p-id="2513"></path></svg>
+          </span>
+          <span class="tw-text-2xl tw-mx-4">Explore</span>
+          <span class="slider-next tw-cursor-pointer">
+            <svg t="1689736648452" class="icon tw-w-12 tw-h-12" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2273" width="32" height="32"><path d="M853.333333 507.733333H128v42.666667h733.866667l-145.066667 145.066667 29.866667 29.866666 192-192L746.666667 341.333333l-29.866667 29.866667 136.533333 136.533333z" fill="#444444" p-id="2274"></path></svg>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<script>
+  setTimeout(()=>{
+      let flkty = new Flickity( '#shopify-section-{{section.id}} .flickity-div', {
+          pageDots: false,
+          prevNextButtons: false,
+          imagesLoaded: true,
+          freeScroll: true,
+          contain: true
+      });
+      var $next = $('#shopify-section-{{section.id}} .slider-next');
+      var $prev = $('#shopify-section-{{section.id}} .slider-prev');
+      $next.on('click', function() { flkty.next(); });
+      $prev.on('click', function() { flkty.previous(); });
+  }, 300);
+</script>
+
+
+{% schema %}
+  {
+    "name": "Image video grid v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+       "type": "color",
+       "id": "bg_color",
+       "label": "Background color",
+       "default":"#E8EBF0"
+      },
+        {
+        "type": "image_picker",
+        "id": "bg_img",
+        "label": "Background image"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Shop E-bikes"
+      },
+      {
+        "type": "textarea",
+        "id": "content",
+        "label": "Content",
+        "default": "We provide the best quality products at the best possible price because we are a direct-to-customer business. So, no matter what your age or what your job is, no matter who you are or where you come from, we strive to offer cost-efficient electric bikes for you."
+      },
+      {
+        "type": "color",
+        "id": "color",
+        "label": "Text color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "url",
+        "id": "video",
+        "label": "Video"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_video",
+        "label": "Video image "
+      },
+      {
+        "type": "image_picker",
+        "id": "img",
+        "label": "Image"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Image video grid v1.1"
+      }
+    ] 
+  }
+{% endschema %} 

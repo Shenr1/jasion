@@ -21,6 +21,7 @@
 [section-name="text-logo-switch"] .mb-switch-wrapper .flickity-previous{@apply tw-right-[55%] tw-left-auto}
 [section-name="text-logo-switch"] .mb-switch-wrapper .flickity-next{@apply tw-left-[55%] tw-right-auto}
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

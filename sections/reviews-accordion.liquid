@@ -1,0 +1,233 @@
+{%- assign secSt = section.settings -%}
+<section section-name="reviews-accordion" style="background-color:{{secSt.bg_color}}"
+  class="{% render 'section-interva-set' , secSt:secSt %}">
+  <div class="tw-flex page-width">
+
+    <div class="tw-w-[37%] tw-mr-[10%]">
+      <div>
+        <p class="tw-text-2xl">{{ secSt.title_sub | newline_to_br}}</p>
+        <h1 class="tw-text-5xl tw-mb-8">{{ secSt.title | newline_to_br}}</h1>
+      </div>
+      <div>
+        <h2 class="tw-text-2xl tw-pb-4 tw-border-solid tw-border-0 tw-border-b-2 tw-border-black">Questions</h2>
+        {%- if section.blocks.size > 0 -%}
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {% for block in section.blocks %}
+                {% case block.type %}
+                  {% when 'question' %}
+                    {
+                      "@type": "Question",
+                      "name": {{ block.settings.title | json }},
+                      "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": {{ block.settings.text | json }}
+                      }
+                    }{% unless forloop.last %},{% endunless %}
+                {% endcase %}
+              {% endfor %}
+            ]
+          }
+        </script>
+
+        {%- for block in section.blocks -%}
+        {% if block.type == "question" %}
+          <div {{ block.shopify_attributes }}>
+            <div>
+              <button type="button" class="tw-py-4  collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
+                {%- render 'collapsible-icons-alt', no_circle: true -%}
+                <span>{{ block.settings.title }}</span>
+              </button>
+              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
+                <div class="collapsible-content__inner collapsible-content__inner--faq rte tw-text-xl">
+                  {{ block.settings.text }}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+        {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </div>
+
+    <div class="tw-w-1/2 tw-relative tw-py-8">
+      <div class="tw-w-4/5 tw-h-full">
+        {% if secSt.img_main !=blank %}
+        <div class="tw-h-full tw-rounded-2xl">
+          {% include 'aspect-ratio-img', media: secSt.img_main ,class: 'tw-block'%}
+        </div>
+        {% endif %}
+      </div>
+      <div class="tw-absolute tw-right-0 tw-top-0 tw-h-full tw-w-1/2">
+        <div class="">
+          <div class="flickity-div">
+            {%- for block in section.blocks -%}
+              {% if block.type == "review" %}
+                <div class="tw-mb-4 tw-overflow-hidden tw-rounded-xl">
+                  {% include 'aspect-ratio-img', media: block.settings.img ,class: 'tw-block'%}
+                </div>
+              {% endif %}
+            {%- endfor -%}
+          </div>
+        </div>
+        <div>
+          <a class="tw-block tw-w-full tw-bg-vi tw-rounded-full !tw-text-white tw-py-2 hover:tw-scale-95 tw-text-sm tw-text-center" href="{{ secSt.link }}">
+            {{ secSt.btn_text }}
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<script>
+
+</script>
+
+{% schema %}
+  {
+    "name": "Reviews accordion v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "top interval",
+        "default": "large",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "bottom interval",
+        "default": "default",
+        "options": [
+          {
+            "value": "large",
+            "label": "Large"
+          },
+          {
+            "value": "default",
+            "label": "Default"
+          },
+          {
+            "value": "medium",
+            "label": "Medium"
+          },
+          {
+            "value": "small",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "color",
+        "id": "bg_color",
+        "label": "Background color",
+        "default":"#E8EBF0"
+      },
+      {
+        "type": "header",
+        "content": "Section content"
+      },
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Title",
+        "default": "300k+ bikes sold.40k+ 5-star reviews."
+      },
+      {
+        "type": "text",
+        "id": "title_sub",
+        "label": "Title",
+        "default": "Undenibale Qualty"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_main",
+        "label": "Main image"
+      },
+      {
+        "type": "text",
+        "id": "btn_text",
+        "label": "Button title",
+        "default": "Read More Reviews"
+      },
+      {
+        "type": "url",
+        "id": "link",
+        "label": "Read more link"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "question",
+        "name": "t:sections.faq.blocks.question.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "t:sections.faq.blocks.question.settings.title.label",
+            "default": "Frequently asked question"
+          },
+          {
+            "type": "richtext",
+            "id": "text",
+            "label": "t:sections.faq.blocks.question.settings.text.label",
+            "default": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        ]
+      },
+      {
+        "type": "review",
+        "name": "Review",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Review image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Reviews accordion v1.1"
+      }
+    ]
+  }
+{% endschema %} 
