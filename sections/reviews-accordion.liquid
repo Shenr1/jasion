@@ -1,15 +1,15 @@
 {%- assign secSt = section.settings -%}
 <section section-name="reviews-accordion" style="background-color:{{secSt.bg_color}}"
   class="{% render 'section-interva-set' , secSt:secSt %}">
-  <div class="tw-flex page-width">
+  <div class="tw-flex page-width tw-my-8 tw-items-center">
 
     <div class="tw-w-[37%] tw-mr-[10%]">
       <div>
         <p class="tw-text-2xl">{{ secSt.title_sub | newline_to_br}}</p>
-        <h1 class="tw-text-5xl tw-mb-8">{{ secSt.title | newline_to_br}}</h1>
+        <h1 class="tw-text-5xl tw-mb-12">{{ secSt.title | newline_to_br}}</h1>
       </div>
       <div>
-        <h2 class="tw-text-2xl tw-pb-4 tw-border-solid tw-border-0 tw-border-b-2 tw-border-black">Questions</h2>
+        <h2 class="tw-text-2xl tw-pb-4 tw-border-solid tw-border-0 tw-border-b-2 tw-border-black tw-font-normal">Questions</h2>
         {%- if section.blocks.size > 0 -%}
         <script type="application/ld+json">
           {
@@ -37,7 +37,7 @@
         {% if block.type == "question" %}
           <div {{ block.shopify_attributes }}>
             <div>
-              <button type="button" class="tw-py-4  collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
+              <button type="button" class="tw-py-5 collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
                 {%- render 'collapsible-icons-alt', no_circle: true -%}
                 <span>{{ block.settings.title }}</span>
               </button>
@@ -55,7 +55,7 @@
       </div>
     </div>
 
-    <div class="tw-w-1/2 tw-relative tw-py-8">
+    <div class="tw-w-[52%] tw-flex-shrink-0 tw-relative">
       <div class="tw-w-4/5 tw-h-full">
         {% if secSt.img_main !=blank %}
         <div class="tw-h-full tw-rounded-2xl">
@@ -63,30 +63,97 @@
         </div>
         {% endif %}
       </div>
-      <div class="tw-absolute tw-right-0 tw-top-0 tw-h-full tw-w-1/2">
-        <div class="">
-          <div class="flickity-div">
-            {%- for block in section.blocks -%}
-              {% if block.type == "review" %}
-                <div class="tw-mb-4 tw-overflow-hidden tw-rounded-xl">
-                  {% include 'aspect-ratio-img', media: block.settings.img ,class: 'tw-block'%}
-                </div>
-              {% endif %}
-            {%- endfor -%}
+        <div class="tw-absolute tw-right-0 -tw-top-8 tw-h-full tw-w-1/2">
+          <div class="carousel-container tw-overflow-hidden tw-h-full">
+            <div class="carousel-items tw-transition-all tw-ease-out tw-cursor-grab">
+              {%- for block in section.blocks -%}
+                {% if block.type == "review" %}
+                  <div class="tw-mb-4 tw-overflow-hidden tw-rounded-xl carousel-item tw-flex-shrink-0 tw-shadow-lg">
+                    {% include 'aspect-ratio-img', media: block.settings.img ,class: 'tw-block'%}
+                  </div>
+                {% endif %}
+              {%- endfor -%}
+            </div>
           </div>
-        </div>
-        <div>
-          <a class="tw-block tw-w-full tw-bg-vi tw-rounded-full !tw-text-white tw-py-2 hover:tw-scale-95 tw-text-sm tw-text-center" href="{{ secSt.link }}">
+          <a class="tw-block tw-w-full tw-bg-vi tw-rounded-full !tw-text-white tw-py-4 hover:tw-scale-95 tw-text-sm tw-text-center tw-mt-4" href="{{ secSt.link }}">
             {{ secSt.btn_text }}
           </a>
         </div>
-      </div>
     </div>
 
   </div>
 </section>
 <script>
+  $(document).ready(function() {
+      let containerHeight = $(".carousel-container").height();
+      let contentHeight = $(".carousel-items").height();
+      let minY = containerHeight - contentHeight;
+      let maxY = 0;
+      let startY;
+      let currentTranslate = 0;
+      let isDragging = false;
+      let duration = 300; // Milliseconds for animation duration
 
+      $(".carousel-container").on("mousedown touchstart", function(event) {
+          event.preventDefault(); // Prevent default dragging behavior
+          isDragging = true;
+          startY = event.pageY || event.originalEvent.touches[0].pageY;
+          currentTranslate = getTranslateY();
+      });
+
+      $(document).on("mouseup touchend", function() {
+          isDragging = false;
+      });
+
+      $(document).on("mousemove touchmove", function(event) {
+          if (!isDragging) return;
+          let currentY = event.pageY || event.originalEvent.touches[0].pageY;
+          let diffY = currentY - startY;
+          let newTranslate = currentTranslate + diffY;
+          if (newTranslate > maxY) {
+              newTranslate = maxY;
+          } else if (newTranslate < minY) {
+              newTranslate = minY;
+          }
+          setTranslateY(newTranslate);
+      });
+
+      function setTranslateY(translateY) {
+          $(".carousel-items").css("transform", `translateY(${translateY}px)`);
+      }
+
+      function getTranslateY() {
+          let transformValue = $(".carousel-items").css("transform");
+          let translateY = 0;
+          if (transformValue !== "none") {
+              let matrix = transformValue.match(/matrix.*\((.+)\)/)[1].split(", ");
+              translateY = parseInt(matrix[5]);
+          }
+          return translateY;
+      }
+
+      function animateScroll(targetTranslate, startTime) {
+          let currentTime = Date.now();
+          let timeElapsed = currentTime - startTime;
+
+          if (timeElapsed >= duration) {
+              setTranslateY(targetTranslate);
+              return;
+          }
+
+          let easeValue = easeInOutQuad(timeElapsed / duration);
+          let newTranslate = currentTranslate + (targetTranslate - currentTranslate) * easeValue;
+
+          setTranslateY(newTranslate);
+          requestAnimationFrame(function() {
+              animateScroll(targetTranslate, startTime);
+          });
+      }
+
+      function easeInOutQuad(t) {
+          return t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t;
+      }
+  });
 </script>
 
 {% schema %}

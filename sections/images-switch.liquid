@@ -39,6 +39,7 @@
     const rightPane = $('.right-pane');
 
     dividers.on('mousedown', function(e) {
+      event.preventDefault(); // Prevent default dragging behavior
       isDragging = true;
     });
 
