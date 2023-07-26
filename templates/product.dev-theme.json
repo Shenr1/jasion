@@ -35,7 +35,7 @@
         "c7359848-a057-41c5-922a-f2797f1be859": {
           "type": "custom",
           "settings": {
-            "code": "<b class=\"tw-text-xl\">Email:  support@jasionbike.com<\/b> \n&emsp;&emsp;\n<b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>"
+            "code": "<div class=\"tw-flex tw-flex-wrap\">\n  <b class=\"tw-text-xl tw-mr-4\">Email:  support@jasionbike.com<\/b> \n  <b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>\n<\/div>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
