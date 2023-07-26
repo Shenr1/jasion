@@ -73,7 +73,7 @@
           "type": "statistic",
           "settings": {
             "text": "80,000 +",
-            "text_sub": "Himi Riders"
+            "text_sub": "Jasion Riders"
           }
         },
         "2c42d416-5a2d-4d19-9f37-37ad9b3d1121": {
@@ -204,7 +204,6 @@
           "type": "item",
           "settings": {
             "bg_color": "#edf1e6",
-            "image": "shopify:\/\/shop_images\/CBSblack_f08db17d-cdb9-4b13-bdea-29c8d6662599.png",
             "title": "EB7 ST"
           }
         },
@@ -212,7 +211,6 @@
           "type": "item",
           "settings": {
             "bg_color": "#dce3cd",
-            "image": "shopify:\/\/shop_images\/CB7white_b2b8cfb9-b2ea-4fb1-8784-94de1b7ad53c.png",
             "title": "EB7 2.0"
           }
         }
@@ -406,7 +404,6 @@
         "6dc739f2-6f74-46e1-ac60-c7321cbea6aa": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -415,7 +412,6 @@
         "9ef63c0e-e943-4ff7-876b-976f3a442791": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_7_3ffa8c67-63af-487b-9f86-0ac3d92f67b4.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -424,7 +420,6 @@
         "daebd159-13ed-41c7-af79-c23a2c256ef3": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_7_3ffa8c67-63af-487b-9f86-0ac3d92f67b4.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -433,7 +428,6 @@
         "6c81165c-25d6-4069-bed7-e7181ddf744b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_6_1799ccbf-53ff-4806-8331-4e9551005d46.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -442,7 +436,6 @@
         "358a16bf-9024-4f56-b08b-31f23289dc95": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -460,7 +453,6 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "default",
-        "image": "shopify:\/\/shop_images\/EB7st_2_3_19f546c8-a935-406f-a8b4-8c6e016d4887.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",
         "link": "shopify:\/\/collections"
       }
