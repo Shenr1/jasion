@@ -65,7 +65,7 @@
         "a6acff80-3c6c-429e-b374-c93e9c9d9aa8": {
           "type": "statistic",
           "settings": {
-            "text": "60 Mile",
+            "text": "45 Miles",
             "text_sub": "Maximum Mileage"
           }
         },
@@ -86,8 +86,8 @@
         "59def2e9-80db-4572-bfc7-f727f6cbb3d4": {
           "type": "statistic",
           "settings": {
-            "text": "2-year",
-            "text_sub": "Longest warranty in ebike"
+            "text": "1-year",
+            "text_sub": "Guarding your ride"
           }
         },
         "8c853a2a-ff7c-4264-9a87-068f5db08b25": {
@@ -103,7 +103,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/warranty.png",
             "text": "1-Year Warranty",
-            "text_sub": "One year warranty on all parts"
+            "text_sub": "One year warranty on your bike"
           }
         },
         "f4434038-8fcd-49f4-8997-1f432e45ea1d": {
