@@ -147,7 +147,7 @@
           "type": "collection",
           "settings": {
             "title": "EB7 2.0",
-            "collection": "all-products",
+            "collection": "eb7-2-0",
             "show_color": true
           }
         },
@@ -155,14 +155,23 @@
           "type": "collection",
           "settings": {
             "title": "EB7 ST",
-            "collection": "electric-bike",
+            "collection": "eb7-st首页展示",
+            "show_color": false
+          }
+        },
+        "bca2ce32-9de1-4101-8d69-7baba514e989": {
+          "type": "collection",
+          "settings": {
+            "title": "Combo Sale",
+            "collection": "combo-sale首页展示",
             "show_color": false
           }
         }
       },
       "block_order": [
         "6574ae6f-a2e0-4519-995b-ad7e308da513",
-        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05"
+        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05",
+        "bca2ce32-9de1-4101-8d69-7baba514e989"
       ],
       "settings": {
         "top_padding": "large",
@@ -224,7 +233,7 @@
           "type": "item",
           "settings": {
             "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "content": "\"With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
             "author": "Electric bike report",
             "link": ""
           }
@@ -232,7 +241,7 @@
         "b368d53a-4f77-45aa-a199-c24a3685179c": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
             "author": "Electric bike report",
             "link": ""
           }
@@ -240,7 +249,7 @@
         "c8f0b654-3608-4212-ab58-51ee57092e2c": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point.  It offers Solid Performance and Range Without Breaking the Bank.\"",
             "author": "Electric bike report",
             "link": ""
           }
@@ -248,7 +257,7 @@
         "83e26c95-7989-4db4-a8f3-da4d1130768b": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "content": "\"Jasionbike Offers Impressive Features and Durability at an Affordable Price.\"",
             "author": "Electric bike report",
             "link": ""
           }
@@ -256,7 +265,15 @@
         "6616d500-1551-455e-b8ee-7cceb47fd5e0": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
+            "author": "Electric bike report",
+            "link": ""
+          }
+        },
+        "ab7422e3-4342-44a2-b357-1a1fc2c70c3b": {
+          "type": "item",
+          "settings": {
+            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
             "author": "Electric bike report",
             "link": ""
           }
@@ -267,7 +284,8 @@
         "b368d53a-4f77-45aa-a199-c24a3685179c",
         "c8f0b654-3608-4212-ab58-51ee57092e2c",
         "83e26c95-7989-4db4-a8f3-da4d1130768b",
-        "6616d500-1551-455e-b8ee-7cceb47fd5e0"
+        "6616d500-1551-455e-b8ee-7cceb47fd5e0",
+        "ab7422e3-4342-44a2-b357-1a1fc2c70c3b"
       ],
       "settings": {
         "top_padding": "default",
