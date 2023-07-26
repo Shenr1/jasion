@@ -125,11 +125,58 @@
         "refund_url": "shopify:\/\/policies\/refund-policy",
         "terms_url": "shopify:\/\/policies\/terms-of-service"
       }
+    },
+    "custom-colors": {
+      "type": "custom-colors",
+      "blocks": {
+        "1888fda2-fecc-4309-8739-4092a6f9dedf": {
+          "type": "Color",
+          "settings": {
+            "title1": "EB7 Black",
+            "color1": "#000000",
+            "title2": "EB7 White",
+            "color2": "#f9f9f9",
+            "title3": "EB7 Green",
+            "color3": "#7a9050",
+            "title4": "",
+            "color4": "#8da29a",
+            "title5": "",
+            "color5": "#bab86c",
+            "title6": "",
+            "color6": "#72b1c4",
+            "title7": "",
+            "color7": "#979f71",
+            "title8": "",
+            "color8": "#df974d",
+            "title9": "",
+            "color9": "#b07c8b",
+            "title10": "",
+            "color10": "#ba55d3",
+            "title11": "Blue\/Red",
+            "color11": "",
+            "title12": "",
+            "color12": "",
+            "title13": "",
+            "color13": "",
+            "title14": "",
+            "color14": "",
+            "title15": "",
+            "color15": ""
+          }
+        }
+      },
+      "block_order": [
+        "1888fda2-fecc-4309-8739-4092a6f9dedf"
+      ],
+      "settings": {
+        "custom_colors": true
+      }
     }
   },
   "order": [
     "e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef",
     "footer-promotions",
-    "footer"
+    "footer",
+    "custom-colors"
   ]
 }

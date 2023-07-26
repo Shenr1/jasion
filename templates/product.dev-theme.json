@@ -105,6 +105,7 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/EB7-3.jpg",
+            "image_mb": "shopify:\/\/shop_images\/EB7-3-_550X800_27d7e28d-f34a-4fd6-9a46-865c5069a0c8.jpg",
             "link": "",
             "title": "Save $900",
             "content": "Combo Sale-EB7 2.0 Folding Electric Bike x2"
@@ -114,6 +115,7 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/banner06.jpg",
+            "image_mb": "shopify:\/\/shop_images\/EB7_EB7-ST-1-_550X800_680b1ae7-07c2-4328-b9ac-e5e442081fa7.jpg",
             "link": "",
             "title": "Save $900",
             "content": "Combo Sale-EB7 2.0 Folding Electric Bike x2"
@@ -126,7 +128,8 @@
       ],
       "settings": {
         "top_padding": "default",
-        "bottom_padding": "default"
+        "bottom_padding": "default",
+        "link": ""
       }
     },
     "nav": {
@@ -344,7 +347,9 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default"
+        "bottom_padding": "default",
+        "title": "Read About Us",
+        "show_mobile": false
       }
     },
     "74a4ad65-58b4-42cb-99fe-c773076074aa": {

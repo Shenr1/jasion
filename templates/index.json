@@ -147,35 +147,29 @@
           "type": "collection",
           "settings": {
             "title": "EB7 2.0",
-            "collection": "all-products"
+            "collection": "all-products",
+            "show_color": true
           }
         },
         "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05": {
           "type": "collection",
           "settings": {
             "title": "EB7 ST",
-            "collection": "electric-bike"
-          }
-        },
-        "13442b15-13cc-4dae-b5d9-33002afe0825": {
-          "type": "collection",
-          "settings": {
-            "title": "Combo Sale-EB7 2.0",
-            "collection": "accessories"
+            "collection": "electric-bike",
+            "show_color": false
           }
         }
       },
       "block_order": [
         "6574ae6f-a2e0-4519-995b-ad7e308da513",
-        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05",
-        "13442b15-13cc-4dae-b5d9-33002afe0825"
+        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05"
       ],
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
         "bg_color": "rgba(0,0,0,0)",
         "title": "Shop E-bikes",
-        "content": "We provide the best quality products at the best possible price because we are a direct-to-customer business. So, no matter what your age or what your job is, no matter who you are or where you come from, we strive to offer cost-efficient electric bikes for you."
+        "content": "We provide the best quality products at the best possible price because we are a direct-to-customer business. \nSo, no matter what your age or what your job is, no matter who you are or where you come from, we strive to offer cost-efficient electric bikes for you."
       }
     },
     "60c2e16b-a120-4f88-83ae-93a6554da664": {
@@ -190,7 +184,8 @@
         "color": "#ffffff",
         "video": "https:\/\/youtu.be\/lyWby66UOc4",
         "image_video": "shopify:\/\/shop_images\/1_8a41e2b3-6530-463a-8a4f-a58e4815862c.jpg",
-        "img": "shopify:\/\/shop_images\/2_aadac64b-82a9-4c91-ae1f-bdde5ce37854.jpg"
+        "img": "shopify:\/\/shop_images\/2_aadac64b-82a9-4c91-ae1f-bdde5ce37854.jpg",
+        "img_mb": "shopify:\/\/shop_images\/1_2e6045e0-a76a-4710-94db-f5169b40684a.jpg"
       }
     },
     "7d70e5e0-c724-451c-b058-a5d251b8ba4b": {
@@ -276,8 +271,9 @@
       ],
       "settings": {
         "top_padding": "default",
-        "bottom_padding": "default",
-        "title": "Read About Us"
+        "bottom_padding": "large",
+        "title": "Read About Us",
+        "show_mobile": true
       }
     },
     "5023bdc0-c326-42d8-adfd-a07f6f7d606f": {
@@ -311,35 +307,40 @@
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         },
-        "8317d44c-3cbe-4735-945b-0ba3524f1e00": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
         "24a559d2-0432-47fe-ba88-d4d776a6acc9": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
           }
         },
-        "48acd128-786d-46e1-b3cc-0bafa731d534": {
+        "66747990-5f06-46c7-9694-100aca623fb2": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
           }
         },
-        "59d0281e-55d8-4a1b-967e-0930cb7d5750": {
+        "a4105e18-bf39-4be3-90ad-53603cb21fbd": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
           }
         },
-        "63c0a62d-c81b-4d90-9409-78c25c8cba40": {
+        "da8d2211-dc06-450e-9fae-433494b7e3df": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2_3b0ecd2f-8716-47b1-bbad-a2a3f7f7c11f.jpg"
+            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+          }
+        },
+        "cf10d993-35b7-4bca-b8ff-d3fb9e5a6b79": {
+          "type": "review",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+          }
+        },
+        "274f786a-7565-403f-911b-55439bb86ab6": {
+          "type": "review",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
           }
         }
       },
@@ -348,19 +349,20 @@
         "534e3a69-7472-41d5-b49e-a812cdcc51e4",
         "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae",
         "61d460d7-d97f-430b-bf86-53a604c0dd5d",
-        "8317d44c-3cbe-4735-945b-0ba3524f1e00",
         "24a559d2-0432-47fe-ba88-d4d776a6acc9",
-        "48acd128-786d-46e1-b3cc-0bafa731d534",
-        "59d0281e-55d8-4a1b-967e-0930cb7d5750",
-        "63c0a62d-c81b-4d90-9409-78c25c8cba40"
+        "66747990-5f06-46c7-9694-100aca623fb2",
+        "a4105e18-bf39-4be3-90ad-53603cb21fbd",
+        "da8d2211-dc06-450e-9fae-433494b7e3df",
+        "cf10d993-35b7-4bca-b8ff-d3fb9e5a6b79",
+        "274f786a-7565-403f-911b-55439bb86ab6"
       ],
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
+        "top_padding": "default",
+        "bottom_padding": "large",
         "bg_color": "#fafafa",
         "title": "300k+ bikes sold.\n40k+ 5-star reviews.",
         "title_sub": "Undenibale Qualty",
-        "img_main": "shopify:\/\/shop_images\/72BD6114-9597-40d3-947F-7CD2ACF0B259.jpg",
+        "img_main": "shopify:\/\/shop_images\/2_e4d25b99-64ce-4ac7-b385-3eef2a20c90f.jpg",
         "btn_text": "Read More Reviews",
         "link": ""
       }
@@ -433,7 +435,7 @@
         "358a16bf-9024-4f56-b08b-31f23289dc95"
       ],
       "settings": {
-        "top_padding": "large",
+        "top_padding": "none",
         "bottom_padding": "default",
         "image": "shopify:\/\/shop_images\/EB7st_2_3_19f546c8-a935-406f-a8b4-8c6e016d4887.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",

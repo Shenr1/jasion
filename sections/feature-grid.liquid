@@ -2,30 +2,30 @@
 
 <section section-name="feature-grid" style="background-color:{{secSt.bg_color}}""
    class="{% render 'section-interva-set' , secSt:secSt %} page-width">
-  <div class="tw-flex">
-    <div class="tw-w-1/2 tw-py-6">
-      <div class="tw-bg-vi tw-text-white tw-h-full tw-p-12 tw-pl-16 tw-rounded-l-2xl tw-rounded-bl-2xl">
-        <h1 class="tw-text-6xl tw-mb-[10%]">{{ secSt.title }}</h1>
+  <div class="tw-flex md:tw-flex-row tw-flex-col">
+    <div class="md:tw-w-1/2 md:tw-py-6">
+      <div class="tw-bg-vi tw-text-white tw-h-full xl:tw-p-12 md:tw-p-8 tw-p-6 tw-pt-10 xl:tw-pl-16 md:tw-pl-10 md:tw-rounded-l-2xl md:tw-rounded-tr-none tw-rounded-t-xl">
+        <h1 class="xl:tw-text-6xl md:tw-text-5xl tw-text-3xl tw-mb-[10%]">{{ secSt.title }}</h1>
         <div class="tw-flex tw-flex-wrap">
           {% for block in section.blocks %}
             {%- assign blkSt = block.settings -%}
             {% if block.type == 'statistic' %}
               <div class="tw-w-1/2 [&:nth-child(-n+2)]:tw-mb-[5%]">
-                <h2 class="tw-text-6xl tw-mb-2">{{blkSt.text}}</h2>
-                <p class="tw-text-2xl">{{blkSt.text_sub}}</p>
+                <h2 class="xl:tw-text-6xl tw-text-4xl tw-mb-2">{{blkSt.text}}</h2>
+                <p class="xl:tw-text-2xl md:tw-text-xl">{{blkSt.text_sub}}</p>
               </div>
             {% endif %}
           {% endfor %}
         </div>
       </div>
     </div>
-    <div class="tw-w-1/2 tw-bg-white tw-shadow-lg">
+    <div class="md:tw-w-1/2 tw-bg-white tw-shadow-lg md:tw-rounded-none tw-rounded-b-2xl">
       <div class="tw-flex tw-flex-wrap tw-h-full right-wrap">
         {% for block in section.blocks %}
           {%- assign blkSt = block.settings -%}
           {% if block.type == 'icon' and blkSt.img != blank %}
             <div class="tw-w-1/2">
-              <div class="tw-text-center tw-flex tw-items-center tw-flex-col tw-h-full tw-justify-center tw-border-solid tw-border-stone-200 tw-border-0">
+              <div class="tw-text-center tw-flex tw-items-center tw-flex-col tw-h-full tw-justify-center tw-border-solid tw-border-stone-200 tw-border-0 md:tw-p-0 tw-p-4">
                 <div class="tw-w-20 tw-mx-auto tw-mb-2"> {% include 'aspect-ratio-img', media: blkSt.img ,class: 'tw-block'%} </div>
                 <h3 class="tw-text-2xl tw-mb-1">{{blkSt.text}}</h3>
                 <p class="tw-text-base">{{blkSt.text_sub}}</p>

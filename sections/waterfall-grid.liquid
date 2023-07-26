@@ -1,7 +1,7 @@
 {% assign secSt = section.settings %}
-{% assign wapClass = "tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-6 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center" %}
+{% assign wapClass = "tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-6 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center tw-h-full" %}
 {% assign imgClass = "md:tw-h-[6.5vw] tw-h-[10vw] md:tw-mr-4 tw-mr-2" %}
-{% assign imgClass2 = "md:tw-h-[5vw] tw-h-[8vw] md:tw-mr-4 tw-mr-2" %}
+{% assign imgClass2 = "md:tw-h-[5vw] tw-h-[6vw] md:tw-mr-4 tw-mr-2" %}
 {% assign sizeClass = "tw-h-full tw-object-contain" %}
 {% assign conClass = "item-content tw-flex tw-flex-col " %}
 
@@ -28,7 +28,7 @@
     {% endif %}
 
     {% if meta.spec_icon_six != blank and meta.motor_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 item md:tw-w-auto tw-w-full 2xl:tw-flex-1">
+      <div class="md:tw-p-2 tw-p-1 item tw-w-auto 2xl:tw-flex-1">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.motor_capacity }} </div>
@@ -39,7 +39,7 @@
     {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
       <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%] md:tw-flex-none tw-flex-1 item">
         <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
+          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
         </div>
       </div>

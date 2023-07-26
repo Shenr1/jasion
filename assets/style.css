@@ -1737,8 +1737,8 @@ bottom: 0;
 }
 .payment_icon{
   display: flex;
-align-items: flex-start;
-justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 .payment_icon .pay_icon_list{
   width: 73%;

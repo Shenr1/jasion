@@ -82,7 +82,7 @@
           </button>
         {%- endif -%}
 
-        <div class="product__thumbs--scroller">
+        <div class="product__thumbs--scroller tw-mx-auto tw-w-[90%]">
           {%- if product.media.size > 1 -%}
             {%- for media in product.media -%}
               {%- liquid
@@ -128,7 +128,7 @@
                       img: media.preview_image,
                       alt: media.alt | escape | split: '#' | first,
                       widths: '120, 360, 540, 720',
-                      sizeVariable: '80px',
+                      sizeVariable: '100px',
                       loading: loading,
                     -%}
                   </div>

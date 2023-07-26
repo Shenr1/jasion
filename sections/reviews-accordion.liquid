@@ -1,15 +1,15 @@
 {%- assign secSt = section.settings -%}
 <section section-name="reviews-accordion" style="background-color:{{secSt.bg_color}}"
   class="{% render 'section-interva-set' , secSt:secSt %}">
-  <div class="tw-flex page-width tw-my-8 tw-items-center">
+  <div class="tw-flex page-width md:tw-my-8 tw-my-4 tw-items-center md:tw-flex-row tw-flex-col-reverse">
 
-    <div class="tw-w-[37%] tw-mr-[10%]">
-      <div>
+    <div class="md:tw-w-[37%] xl:tw-mr-[9%] md:tw-mr-[5%]">
+      <div class="tw-text-left md:tw-block tw-hidden">
         <p class="tw-text-2xl">{{ secSt.title_sub | newline_to_br}}</p>
-        <h1 class="tw-text-5xl tw-mb-12">{{ secSt.title | newline_to_br}}</h1>
+        <h1 class="xl:tw-text-5xl md:tw-text-4xl tw-mb-12 !tw-leading-snug">{{ secSt.title | newline_to_br}}</h1>
       </div>
       <div>
-        <h2 class="tw-text-2xl tw-pb-4 tw-border-solid tw-border-0 tw-border-b-2 tw-border-black tw-font-normal">Questions</h2>
+        <h2 class="tw-text-2xl tw-pb-4 tw-border-solid tw-border-0 tw-border-b-2 tw-border-black tw-font-normal md:tw-text-left tw-text-center">Questions</h2>
         {%- if section.blocks.size > 0 -%}
         <script type="application/ld+json">
           {
@@ -39,7 +39,7 @@
             <div>
               <button type="button" class="tw-py-5 collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
                 {%- render 'collapsible-icons-alt', no_circle: true -%}
-                <span>{{ block.settings.title }}</span>
+                <span class="md:!tw-text-lg !tw-text-xl">{{ block.settings.title }}</span>
               </button>
               <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
                 <div class="collapsible-content__inner collapsible-content__inner--faq rte tw-text-xl">
@@ -55,15 +55,22 @@
       </div>
     </div>
 
-    <div class="tw-w-[52%] tw-flex-shrink-0 tw-relative">
-      <div class="tw-w-4/5 tw-h-full">
+    <div class="xl:tw-w-[52%] md:tw-w-[57%] tw-w-full tw-flex-shrink-0 tw-relative md:tw-mb-0 tw-mb-10">
+
+      <div class="tw-text-center tw-block md:tw-hidden">
+        <p class="tw-text-2xl">{{ secSt.title_sub | newline_to_br}}</p>
+        <h1 class="xl:tw-text-5xl md:tw-text-4xl tw-mb-6 tw-leading-normal">{{ secSt.title | newline_to_br}}</h1>
+      </div>
+
+
+      <div class="md:tw-w-[77%] tw-h-full">
         {% if secSt.img_main !=blank %}
         <div class="tw-h-full tw-rounded-2xl">
           {% include 'aspect-ratio-img', media: secSt.img_main ,class: 'tw-block'%}
         </div>
         {% endif %}
       </div>
-        <div class="tw-absolute tw-right-0 -tw-top-8 tw-h-full tw-w-1/2">
+        <div class="md:tw-absolute tw-relative tw-right-0 md:-tw-top-8 md:tw-mt-0 -tw-mt-20 tw-h-full md:tw-w-1/2 tw-w-[90%] md:tw-ml-[10%] tw-mx-[5%]">
           <div class="carousel-container tw-overflow-hidden tw-h-full">
             <div class="carousel-items tw-transition-all tw-ease-out tw-cursor-grab">
               {%- for block in section.blocks -%}
@@ -85,8 +92,9 @@
 </section>
 <script>
   $(document).ready(function() {
-      let containerHeight = $(".carousel-container").height();
-      let contentHeight = $(".carousel-items").height();
+      let containerHeight = $("#shopify-section-{{section.id}} .carousel-container").height();
+      let contentHeight = $("#shopify-section-{{section.id}} .carousel-items").height();
+      let itemHeight = $("#shopify-section-{{section.id}} .carousel-item").outerHeight(true);
       let minY = containerHeight - contentHeight;
       let maxY = 0;
       let startY;
@@ -94,36 +102,44 @@
       let isDragging = false;
       let duration = 300; // Milliseconds for animation duration
 
-      $(".carousel-container").on("mousedown touchstart", function(event) {
-          event.preventDefault(); // Prevent default dragging behavior
-          isDragging = true;
-          startY = event.pageY || event.originalEvent.touches[0].pageY;
-          currentTranslate = getTranslateY();
-      });
+      $("#shopify-section-{{section.id}} .carousel-container").css("height",itemHeight * 3)
 
-      $(document).on("mouseup touchend", function() {
-          isDragging = false;
-      });
+      if( $(window).width() > 769 ){
+        $("#shopify-section-{{section.id}} .carousel-container").on("mousedown touchstart", function(event) {
+          
+            event.preventDefault(); // Prevent default dragging behavior
+            isDragging = true;
+            startY = event.pageY || event.originalEvent.touches[0].pageY;
+            currentTranslate = getTranslateY();
+        });
 
-      $(document).on("mousemove touchmove", function(event) {
-          if (!isDragging) return;
-          let currentY = event.pageY || event.originalEvent.touches[0].pageY;
-          let diffY = currentY - startY;
-          let newTranslate = currentTranslate + diffY;
-          if (newTranslate > maxY) {
-              newTranslate = maxY;
-          } else if (newTranslate < minY) {
-              newTranslate = minY;
-          }
-          setTranslateY(newTranslate);
-      });
+        $(document).on("mouseup touchend", function() {
+
+            isDragging = false;
+        });
+
+        $(document).on("mousemove touchmove", function(event) {
+
+            if (!isDragging) return;
+            let currentY = event.pageY || event.originalEvent.touches[0].pageY;
+            let diffY = currentY - startY;
+            let newTranslate = currentTranslate + diffY;
+            if (newTranslate > maxY) {
+                newTranslate = maxY;
+            } else if (newTranslate < minY) {
+                newTranslate = minY;
+            }
+            setTranslateY(newTranslate);
+        });
+      }
+
 
       function setTranslateY(translateY) {
-          $(".carousel-items").css("transform", `translateY(${translateY}px)`);
+          $("#shopify-section-{{section.id}} .carousel-items").css("transform", `translateY(${translateY}px)`);
       }
 
       function getTranslateY() {
-          let transformValue = $(".carousel-items").css("transform");
+          let transformValue = $("#shopify-section-{{section.id}} .carousel-items").css("transform");
           let translateY = 0;
           if (transformValue !== "none") {
               let matrix = transformValue.match(/matrix.*\((.+)\)/)[1].split(", ");

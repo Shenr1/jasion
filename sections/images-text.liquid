@@ -42,7 +42,7 @@
           {% if secSt.title_fixed %}tw-absolute{% endif %}"> 
           <div class="tw-mx-auto page-width {% if rightSty %}md:tw-p-0{% endif %}">
             <h1 style="color:{{secSt.title_color}};" 
-              class="{{titleSize}} md:tw-mb-8 tw-mb-6">{{secSt.title | newline_to_br}}
+              class="{{titleSize}} xl:tw-mb-8 tw-mb-6">{{secSt.title | newline_to_br}}
             </h1>
             <p style="color:{{secSt.content_color}};" class="{{contentSize}} {% if rightSty %}lg:tw-leading-snug md:tw-leading-tight tw-leading-snug{% endif %}">
               {{secSt.content | newline_to_br}}
@@ -58,7 +58,7 @@
       {% endif %}
       <div class="tw-relative {% unless secSt.full_width %}page-width{% endunless %}">
         <div class="md:tw-block {% if secSt.bg_img_mb %}tw-hidden{% endif %}">
-          {% include 'aspect-ratio-img', media: secSt.bg_img , min-h-class:'tw-min-h-[530px]', class: 'tw-min-h-[530px] tw-object-cover'%}
+          {% include 'aspect-ratio-img', media: secSt.bg_img , min-h-class:'', class: 'tw-object-cover'%}
         </div>
         {% if secSt.bg_img_mb %}
           <div class="md:tw-hidden tw-block">

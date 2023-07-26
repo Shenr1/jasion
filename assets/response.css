@@ -411,7 +411,7 @@ font-size: 18px;
  .payment-buttons .add-to-cart{
     min-height: 40px;
   }
-  .icon--payment svg{width:30px; height:auto;}
+  .icon--payment svg{width:auto; height:auto;}
 .page-width{padding-left:30px; padding-right:30px;}
 .color-swatch--small{width:75px; height:60px;}
 .icon-list_item>div{flex-direction:column; }
@@ -738,7 +738,7 @@ bottom: 0;
   height: 39px !important;
     font-size: 16px;
   }
- .page-width{  padding-left:18px; padding-right:18px;  }
+ .page-width{  padding-left:20px; padding-right:20px;  }
   .col_acc-nav{padding:15px 0;}
   .home_custom  .page-width{  padding:0 10px;  }
 .page-width--tiny{padding-top:40px; padding-bottom:40px;}
