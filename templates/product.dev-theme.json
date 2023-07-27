@@ -35,7 +35,7 @@
         "c7359848-a057-41c5-922a-f2797f1be859": {
           "type": "custom",
           "settings": {
-            "code": "<b class=\"tw-text-xl\">Email:  support@jasionbike.com<\/b> \n&emsp;&emsp;\n<b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>"
+            "code": "<div class=\"tw-flex tw-flex-wrap\">\n  <b class=\"tw-text-xl tw-mr-4\">Email:  support@jasionbike.com<\/b> \n  <b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>\n<\/div>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -384,7 +384,7 @@
         "full_width": false,
         "bg_color": "",
         "bg_img": "shopify:\/\/shop_images\/2_32dcc263-fef7-4ef6-97e3-360d051fb29e.jpg",
-        "cross_img_url": "shopify:\/\/shop_images\/CB7green_196bf0c1-f1e4-4a44-935f-0219129b67a6.png",
+        "cross_img_url": "shopify:\/\/shop_images\/6_3c86ad65-5db5-464a-a998-569bc19b8f23.png",
         "title_fixed": false,
         "fixed_style": "style1",
         "title": "20\"x3\"Puncture Resistant Fat Tire",
@@ -421,7 +421,7 @@
         "c953542f-7a28-44ab-b683-49f324d4e9ab": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/Dingtalk_20230504114310_57a043e2-1cb2-4f07-bb8d-517833e59e2c.jpg",
+            "img_url": "shopify:\/\/shop_images\/2_21bc669c-4512-4bf1-a976-6f8f31c0fd83.jpg",
             "video_key": "",
             "title": "Expand the Possibilities of Adventure",
             "content": "“ In this episode, we interviewed Andrew Ross in Temecula, CA. As a cargo pilot, he flies his Bush plane all over the United States. After getting his Heybike, Mars, he starts to expand the possibilities of the adventures that he can do and it’s made a huge difference. ”",
@@ -431,7 +431,7 @@
         "a72fce02-a8a6-414e-8d84-dd30a57194b6": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/72BD6114-9597-40d3-947F-7CD2ACF0B259.jpg",
+            "img_url": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
             "video_key": "",
             "title": "Headlight&Taillight",
             "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",

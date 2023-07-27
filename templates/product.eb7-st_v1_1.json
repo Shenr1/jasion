@@ -35,7 +35,7 @@
         "8f066494-8178-4a73-a4af-ba653a7633a6": {
           "type": "custom",
           "settings": {
-            "code": "<b class=\"tw-text-xl\">Email:  support@jasionbike.com<\/b> \n&emsp;&emsp;\n<b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>"
+            "code": "<div class=\"tw-flex tw-flex-wrap\">\n  <b class=\"tw-text-xl tw-mr-4\">Email:  support@jasionbike.com<\/b> \n  <b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>\n<\/div>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -170,6 +170,7 @@
         "bg_img": "shopify:\/\/shop_images\/1_648e38a4-944d-4d56-8e4f-97af0b0b0881.jpg",
         "full_width": false,
         "layout": "textImage",
+        "layout_mb": "textImage",
         "text_layout": "horizontal",
         "text_align": "text-center",
         "text_main": "Superior Performance",
@@ -222,6 +223,7 @@
         "bg_color": "rgba(0,0,0,0)",
         "full_width": false,
         "layout": "imageText",
+        "layout_mb": "textImage",
         "text_layout": "horizontal",
         "text_align": "",
         "img": "shopify:\/\/shop_images\/1_7b11fb75-cb05-4402-bda1-4276dbabcaa8.jpg",
@@ -275,6 +277,7 @@
         "bg_color": "rgba(0,0,0,0)",
         "full_width": false,
         "layout": "textImage",
+        "layout_mb": "textImage",
         "text_layout": "horizontal",
         "text_align": "",
         "img": "shopify:\/\/shop_images\/1_7b11fb75-cb05-4402-bda1-4276dbabcaa8.jpg",
@@ -466,7 +469,9 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default"
+        "bottom_padding": "default",
+        "title": "Read About Us",
+        "show_mobile": false
       }
     },
     "88ba6988-6d22-4ff8-bc12-061daafb0e26": {

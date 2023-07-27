@@ -65,7 +65,7 @@
         "a6acff80-3c6c-429e-b374-c93e9c9d9aa8": {
           "type": "statistic",
           "settings": {
-            "text": "60 Mile",
+            "text": "45 Miles",
             "text_sub": "Maximum Mileage"
           }
         },
@@ -73,7 +73,7 @@
           "type": "statistic",
           "settings": {
             "text": "80,000 +",
-            "text_sub": "Himi Riders"
+            "text_sub": "Jasion Riders"
           }
         },
         "2c42d416-5a2d-4d19-9f37-37ad9b3d1121": {
@@ -86,8 +86,8 @@
         "59def2e9-80db-4572-bfc7-f727f6cbb3d4": {
           "type": "statistic",
           "settings": {
-            "text": "2-year",
-            "text_sub": "Longest warranty in ebike"
+            "text": "1-year",
+            "text_sub": "Guarding your ride"
           }
         },
         "8c853a2a-ff7c-4264-9a87-068f5db08b25": {
@@ -103,7 +103,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/warranty.png",
             "text": "1-Year Warranty",
-            "text_sub": "One year warranty on all parts"
+            "text_sub": "One year warranty on your bike"
           }
         },
         "f4434038-8fcd-49f4-8997-1f432e45ea1d": {
@@ -147,7 +147,7 @@
           "type": "collection",
           "settings": {
             "title": "EB7 2.0",
-            "collection": "all-products",
+            "collection": "eb7-2-0",
             "show_color": true
           }
         },
@@ -155,14 +155,23 @@
           "type": "collection",
           "settings": {
             "title": "EB7 ST",
-            "collection": "electric-bike",
+            "collection": "eb7-st首页展示",
+            "show_color": false
+          }
+        },
+        "bca2ce32-9de1-4101-8d69-7baba514e989": {
+          "type": "collection",
+          "settings": {
+            "title": "Combo Sale",
+            "collection": "combo-sale首页展示",
             "show_color": false
           }
         }
       },
       "block_order": [
         "6574ae6f-a2e0-4519-995b-ad7e308da513",
-        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05"
+        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05",
+        "bca2ce32-9de1-4101-8d69-7baba514e989"
       ],
       "settings": {
         "top_padding": "large",
@@ -195,7 +204,6 @@
           "type": "item",
           "settings": {
             "bg_color": "#edf1e6",
-            "image": "shopify:\/\/shop_images\/CBSblack_f08db17d-cdb9-4b13-bdea-29c8d6662599.png",
             "title": "EB7 ST"
           }
         },
@@ -203,7 +211,6 @@
           "type": "item",
           "settings": {
             "bg_color": "#dce3cd",
-            "image": "shopify:\/\/shop_images\/CB7white_b2b8cfb9-b2ea-4fb1-8784-94de1b7ad53c.png",
             "title": "EB7 2.0"
           }
         }
@@ -223,16 +230,17 @@
         "d0ce4f54-d412-4040-96de-d933e90d8a21": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
+            "content": "\"With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
+            "author": "",
             "link": ""
           }
         },
         "b368d53a-4f77-45aa-a199-c24a3685179c": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "img_url": "shopify:\/\/shop_images\/6.png",
+            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
             "author": "Electric bike report",
             "link": ""
           }
@@ -240,7 +248,8 @@
         "c8f0b654-3608-4212-ab58-51ee57092e2c": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "img_url": "shopify:\/\/shop_images\/8.png",
+            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point.  It offers Solid Performance and Range Without Breaking the Bank.\"",
             "author": "Electric bike report",
             "link": ""
           }
@@ -248,7 +257,8 @@
         "83e26c95-7989-4db4-a8f3-da4d1130768b": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "img_url": "shopify:\/\/shop_images\/5.png",
+            "content": "\"Jasionbike Offers Impressive Features and Durability at an Affordable Price.\"",
             "author": "Electric bike report",
             "link": ""
           }
@@ -256,7 +266,17 @@
         "6616d500-1551-455e-b8ee-7cceb47fd5e0": {
           "type": "item",
           "settings": {
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "img_url": "shopify:\/\/shop_images\/9.png",
+            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
+            "author": "Electric bike report",
+            "link": ""
+          }
+        },
+        "ab7422e3-4342-44a2-b357-1a1fc2c70c3b": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/7.png",
+            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
             "author": "Electric bike report",
             "link": ""
           }
@@ -267,7 +287,8 @@
         "b368d53a-4f77-45aa-a199-c24a3685179c",
         "c8f0b654-3608-4212-ab58-51ee57092e2c",
         "83e26c95-7989-4db4-a8f3-da4d1130768b",
-        "6616d500-1551-455e-b8ee-7cceb47fd5e0"
+        "6616d500-1551-455e-b8ee-7cceb47fd5e0",
+        "ab7422e3-4342-44a2-b357-1a1fc2c70c3b"
       ],
       "settings": {
         "top_padding": "default",
@@ -282,7 +303,7 @@
         "af6ab996-0c9b-47a5-9c70-f245bd7076d5": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "Why Jasion?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         },
@@ -373,9 +394,9 @@
         "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
-            "icon": "shopify:\/\/shop_images\/facebook.png",
-            "link": "shopify:\/\/products\/universal-bicycle-combination-lock",
+            "image": "shopify:\/\/shop_images\/EB7ST-2.jpg",
+            "icon": "shopify:\/\/shop_images\/Youtube.png",
+            "link": "https:\/\/www.youtube.com\/watch?v=ZL24gxOfLlk",
             "title": "",
             "content": ""
           }
@@ -383,7 +404,6 @@
         "6dc739f2-6f74-46e1-ac60-c7321cbea6aa": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -392,7 +412,6 @@
         "9ef63c0e-e943-4ff7-876b-976f3a442791": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_7_3ffa8c67-63af-487b-9f86-0ac3d92f67b4.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -401,7 +420,6 @@
         "daebd159-13ed-41c7-af79-c23a2c256ef3": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_7_3ffa8c67-63af-487b-9f86-0ac3d92f67b4.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -410,7 +428,6 @@
         "6c81165c-25d6-4069-bed7-e7181ddf744b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_6_1799ccbf-53ff-4806-8331-4e9551005d46.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -419,7 +436,6 @@
         "358a16bf-9024-4f56-b08b-31f23289dc95": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7st_2_8_8e999317-d0a6-43bd-95be-3fae544e38a6.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -437,7 +453,6 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "default",
-        "image": "shopify:\/\/shop_images\/EB7st_2_3_19f546c8-a935-406f-a8b4-8c6e016d4887.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",
         "link": "shopify:\/\/collections"
       }
