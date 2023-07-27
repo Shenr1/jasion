@@ -204,6 +204,7 @@
           "type": "item",
           "settings": {
             "bg_color": "#edf1e6",
+            "image": "shopify:\/\/shop_images\/ST.png",
             "title": "EB7 ST"
           }
         },
@@ -211,6 +212,7 @@
           "type": "item",
           "settings": {
             "bg_color": "#dce3cd",
+            "image": "shopify:\/\/shop_images\/2.0.png",
             "title": "EB7 2.0"
           }
         }
@@ -220,8 +222,8 @@
         "74bbbfd1-ac68-4c95-bc5e-08510f6ecb67"
       ],
       "settings": {
-        "top_padding": "none",
-        "bottom_padding": "default"
+        "top_padding": "large",
+        "bottom_padding": "large"
       }
     },
     "bb52703e-a3eb-410a-95e4-b04c2c35332c": {
