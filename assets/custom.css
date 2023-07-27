@@ -1360,6 +1360,13 @@
   opacity: 0.6
 }
 
+.before\:tw-transition-all::before {
+  content: var(--tw-content);
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms
+}
+
 .before\:tw-duration-\[0\.3s\]::before {
   content: var(--tw-content);
   transition-duration: 0.3s
@@ -1423,6 +1430,10 @@
 
 .tw-group:hover .group-hover\:\!tw-opacity-100 {
   opacity: 1 !important
+}
+
+.tw-group:hover .group-hover\:tw-opacity-100 {
+  opacity: 1
 }
 
 @media (min-width: 768px) {
@@ -1680,6 +1691,10 @@
     flex: none
   }
 
+  .md\:tw-flex-\[0_0_80\%\] {
+    flex: 0 0 80%
+  }
+
   .md\:-tw-translate-y-1\/2 {
     --tw-translate-y: -50%;
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))
@@ -1872,6 +1887,10 @@
 
   .md\:tw-pt-8 {
     padding-top: 2rem
+  }
+
+  .md\:tw-pl-\[18px\] {
+    padding-left: 18px
   }
 
   .md\:tw-text-left {
@@ -2139,6 +2158,11 @@
   .xl\:tw-px-8 {
     padding-left: 2rem;
     padding-right: 2rem
+  }
+
+  .xl\:tw-px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem
   }
 
   .xl\:tw-pb-18 {
