@@ -18,9 +18,10 @@
     <div>
       {%- for block in section.blocks -%}
       <div class="item-slider">
-        <div class="flickity-div">
+        <div class="flickity-div tw-mb-8">
           {%- assign blkSt = block.settings -%}
           {% for product in blkSt.collection.products %}
+            {% assign productLength = forloop.length %}
             <div class="md:tw-w-[48.5%] md:tw-mr-[3%] md:tw-mb-0 tw-mb-6  
               {% if forloop.index > 2 %} md:tw-block tw-hidden{% endif %}">
               <div class="tw-bg-[#f3f5f9] tw-rounded-xl tw-px-8 tw-py-6 md:tw-pt-6 tw-pb-12 item-wrap">
@@ -45,7 +46,7 @@
                     </p>
                   </div>
                   {% if blkSt.show_color %}
-                    <div>
+                    <div class="md:tw-w-auto tw-w-full md:tw-mt-0 tw-mt-4">
 
                       {%- liquid
                         assign swatch_trigger = 'products.general.color_swatch_trigger' | t | downcase
@@ -126,7 +127,8 @@
           </div>
         </div>
 
-        <div class="tw-items-center tw-justify-end tw-mt-8 md:tw-flex tw-hidden">
+        {% if productLength > 2 %}
+        <div class="tw-items-center tw-justify-end md:tw-flex tw-hidden">
           <span class="slider-prev tw-cursor-pointer">
             <svg t="1689736660004" class="icon tw-w-12 tw-h-12" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2512" width="32" height="32"><path d="M213.333333 507.733333h725.333334v42.666667H204.8l145.066667 145.066667-29.866667 29.866666L128 533.333333 320 341.333333l29.866667 29.866667L213.333333 507.733333z" fill="#444444" p-id="2513"></path></svg>
           </span>
@@ -135,6 +137,8 @@
             <svg t="1689736648452" class="icon tw-w-12 tw-h-12" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2273" width="32" height="32"><path d="M853.333333 507.733333H128v42.666667h733.866667l-145.066667 145.066667 29.866667 29.866666 192-192L746.666667 341.333333l-29.866667 29.866667 136.533333 136.533333z" fill="#444444" p-id="2274"></path></svg>
           </span>
         </div>
+      {% endif %}
+
       </div>
       {%- endfor -%}
     </div>
