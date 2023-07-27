@@ -598,10 +598,6 @@
   margin-top: 2rem
 }
 
-.tw-ml-\[5\%\] {
-  margin-left: 5%
-}
-
 .tw-line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -670,10 +666,6 @@
 
 .tw-h-full {
   height: 100%
-}
-
-.tw-h-\[900px\] {
-  height: 900px
 }
 
 .tw-w-1 {
@@ -841,6 +833,10 @@
 
 .tw-overflow-x-auto {
   overflow-x: auto
+}
+
+.tw-overflow-x-scroll {
+  overflow-x: scroll
 }
 
 .tw-whitespace-nowrap {
@@ -1649,10 +1645,6 @@
     margin-top: 0px
   }
 
-  .md\:tw-ml-\[5\%\] {
-    margin-left: 5%
-  }
-
   .md\:tw-line-clamp-2 {
     overflow: hidden;
     display: -webkit-box;
@@ -1728,16 +1720,12 @@
     width: 77%
   }
 
-  .md\:tw-w-auto {
-    width: auto
-  }
-
   .md\:tw-w-\[90\%\] {
     width: 90%
   }
 
-  .md\:tw-w-\[80\%\] {
-    width: 80%
+  .md\:tw-w-auto {
+    width: auto
   }
 
   .md\:tw-max-w-\[55\%\] {
@@ -1944,6 +1932,14 @@
 
   .md\:tw-pt-8 {
     padding-top: 2rem
+  }
+
+  .md\:tw-pb-10 {
+    padding-bottom: 2.5rem
+  }
+
+  .md\:tw-pr-\[10\%\] {
+    padding-right: 10%
   }
 
   .md\:tw-text-left {
@@ -2191,10 +2187,6 @@
     margin-top: 3rem
   }
 
-  .xl\:tw-mt-14 {
-    margin-top: 3.5rem
-  }
-
   .xl\:tw-w-16 {
     width: 4rem
   }
@@ -2281,6 +2273,10 @@
   .xl\:tw-text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem
+  }
+
+  .xl\:tw-leading-normal {
+    line-height: 1.5
   }
 }
 
