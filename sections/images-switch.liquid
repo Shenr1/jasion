@@ -1,22 +1,31 @@
 {%- assign secSt = section.settings -%}
-<section section-name="image-video-grid" 
+<section section-name="image-switch" 
   style="background-color:{{secSt.bg_color}};" 
   class="{% render 'section-interva-set' , secSt:secSt %}">
-  <div>
+  <div class="page-width">
     <div class="container tw-flex tw-overflow-hidden tw-relative">{{blkSt.title}}
       {% for block in section.blocks %}
       {% assign blkSt = block.settings %}
+      {% assign class1 = "md:tw-w-4/5 md:tw-ml-[10%] tw-w-full tw-py-6 tw-absolute tw-pointer-events-none tw-top-0" %}
       {% if blkSt.image != blank %}
         {%- if forloop.first -%}
         <h1 class="tw-absolute md:tw-top-12 md:tw-left-12 md:tw-text-4xl tw-top-6 tw-left-6 tw-text-2xl tw-z-[5]">{{blkSt.title}}</h1>
-        <div class="left-pane tw-py-6 tw-flex-[1_1_50%] tw-overflow-hidden tw-z-[4]" style="background-color:{{blkSt.bg_color}};">
-          <img class="md:tw-w-[60vw] md:tw-ml-[20vw] tw-w-[90vw] tw-ml-[5vw] tw-max-w-none tw-pointer-events-none" src="{{ blkSt.image | img_url : "master" }}" alt="">
+        <div class="img-warp left-pane tw-top-0 tw-flex-[1_1_50%] tw-overflow-hidden tw-z-[4]" style="background-color:{{blkSt.bg_color}}; clip-path: inset(0px 0% 0px 0px);">
+
+
+          <div class="{{ class1 }} tw-max-w-none">
+            {% include 'aspect-ratio-img', media: blkSt.image ,class: 'tw-block'%}
+          </div>
+          {% comment %} <img class="md:tw-w-[90%] tw-absolute md:tw-ml-[20vw] tw-w-[90vw] tw-ml-[5vw] tw-max-w-none tw-pointer-events-none" src="{{ blkSt.image | img_url : "master" }}" alt=""> {% endcomment %}
         </div>
         {%- endif -%}
         {%- if forloop.last -%}
           <h1 class="tw-absolute md:tw-text-4xl md:tw-top-12 tw-top-6 md:tw-right-12 tw-right-6 tw-text-2xl tw-z-[4]">{{blkSt.title}}</h1>
-          <div class="right-pane tw-py-6 tw-flex-[1_1_50%] tw-overflow-hidden tw-z-[3]" style="background-color:{{blkSt.bg_color}};">
-            <img class="md:tw-w-[60vw] md:tw-ml-[20vw] tw-w-[90vw] tw-ml-[5vw] tw-object-contain tw-absolute tw-z-20 tw-left-0 tw-pointer-events-none" src="{{ blkSt.image | img_url : "master" }}" alt="">
+          <div class="right-pane tw-flex-[1_1_50%] tw-overflow-hidden tw-z-[3]" style="background-color:{{blkSt.bg_color}}; clip-path: inset(0px 0% 0px 0px);">
+            <div class="{{ class1 }} tw-object-contain tw-z-20 tw-left-0">
+              {% include 'aspect-ratio-img', media: blkSt.image ,class: 'tw-block'%}
+            </div>
+            {% comment %} <img class="md:tw-w-[60vw] md:tw-ml-[20vw] tw-w-[90vw] tw-ml-[5vw] tw-object-contain tw-absolute tw-z-20 tw-left-0 tw-pointer-events-none" src="{{ blkSt.image | img_url : "master" }}" alt=""> {% endcomment %}
           </div>
         {%- endif -%}
       {% endif %}
@@ -38,6 +47,7 @@
     const dividers = $('#shopify-section-{{section.id}} .divider');
     const leftPane = $('#shopify-section-{{section.id}} .left-pane');
     const rightPane = $('#shopify-section-{{section.id}} .right-pane');
+    const paneWrap = $('#shopify-section-{{section.id}} .right-pane > div');
 
     dividers.on('mousedown touchstart', function(e) {
       event.preventDefault(); // Prevent default dragging behavior
@@ -53,17 +63,23 @@
 
       const dividerPosition = xPos / containerWidth * 100;
 
-      
-      leftPane.css('flex', `1 1 ${dividerPosition}%`);
-      rightPane.css('flex', `1 1 ${100 - dividerPosition}%`);
-
-      dividers.css('left', `${dividerPosition}%`);
+      const minPosition = 2;
+      const maxPosition = 98;
+      const limitedPosition = Math.min(Math.max(minPosition, dividerPosition), maxPosition);
+    
+      leftPane.css('flex', `1 1 ${limitedPosition}%`);
+      rightPane.css('flex', `1 1 ${100 - limitedPosition}%`);
+      dividers.css('left', `${limitedPosition}%`);
     });
 
     $(document).on('mouseup touchend', function() {
       isDragging = false;
     });
+
+    container.css('height', `${paneWrap.innerHeight()}px`);
   });
+
+  
 </script>
 
 

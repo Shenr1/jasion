@@ -12,14 +12,18 @@
         {%- assign blSet = block.settings -%}
         <div class="{% unless forloop.first %}tw-hidden{% endunless %}">
           <div class="tw-flex tw-justify-between tw-items-center tw-mb-8">
-            <svg t="1688642878168" class="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8490" width="48" height="48"><path d="M195.541333 739.029333C151.594667 692.352 128 640 128 555.136c0-149.333333 104.832-283.178667 257.28-349.354667l38.101333 58.794667c-142.293333 76.970667-170.112 176.853333-181.205333 239.829333 22.912-11.861333 52.906667-16 82.304-13.269333 76.970667 7.125333 137.642667 70.314667 137.642667 148.864a149.333333 149.333333 0 0 1-149.333334 149.333333 165.162667 165.162667 0 0 1-117.248-50.304z m426.666667 0C578.261333 692.352 554.666667 640 554.666667 555.136c0-149.333333 104.832-283.178667 257.28-349.354667l38.101333 58.794667c-142.293333 76.970667-170.112 176.853333-181.205333 239.829333 22.912-11.861333 52.906667-16 82.304-13.269333 76.970667 7.125333 137.642667 70.314667 137.642666 148.864a149.333333 149.333333 0 0 1-149.333333 149.333333 165.162667 165.162667 0 0 1-117.248-50.304z" p-id="8491" data-spm-anchor-id="a313x.7781069.0.i18" class="selected"></path></svg>
-            <a href="{{blSet.link}}" target="_blank" class="hover:tw-scale-95 tw-transition-all tw-mr-4">
-              <svg t="1688642662557" class="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7899" width="28" height="28"><path d="M864.107583 960.119537H63.880463V159.892417h447.928278V96.011954H0v927.988046h927.988046V527.874486h-63.880463v432.245051z" p-id="7900"></path><path d="M592.137467 0v63.880463h322.462458L457.491222 521.371685l45.137093 45.137093L960.119537 109.400075v322.462458h63.880463V0H592.137467z" p-id="7901"></path></svg>
-            </a>
+            <img src="https://cdn.shopify.com/s/files/1/0605/0044/3373/files/2_2c55d9e0-4a0f-49fb-80ac-72b40ab2b018.png?v=1690445158" width="43" alt="">
+            {% if blSet.link != blank %}
+              <a href="{{blSet.link}}" target="_blank" class="hover:tw-scale-95 tw-transition-all tw-mr-4">
+                <svg t="1688642662557" class="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7899" width="28" height="28"><path d="M864.107583 960.119537H63.880463V159.892417h447.928278V96.011954H0v927.988046h927.988046V527.874486h-63.880463v432.245051z" p-id="7900"></path><path d="M592.137467 0v63.880463h322.462458L457.491222 521.371685l45.137093 45.137093L960.119537 109.400075v322.462458h63.880463V0H592.137467z" p-id="7901"></path></svg>
+              </a>
+            {% endif %}
           </div>
           <div class="tw-text-[22px] tw-leading-relaxed ">
             <p class="tw-text-stone-500 tw-mb-8 tw-h-[8em]">{{blSet.content}}</p>
-            <p class="tw-italic">-- {{blSet.author}}</p> 
+            {% if blSet.author != blank %}
+            <p class="tw-italic tw-text-right">-- {{blSet.author}}</p> 
+            {% endif %}
           </div>
         </div>
         {% endfor %}
@@ -51,18 +55,23 @@
       {%- assign blSet = block.settings -%}      
       <div class="tw-w-[90%] tw-pr-4 hfull {% if forloop.last %} tw-pr-0 {% endif %}">
         <div class="tw-bg-stone-100 tw-rounded-lg tw-p-6 hfull">
-          <a href="{{blSet.link}}" target="_blank" class="hover:tw-scale-95 tw-transition-all tw-block tw-text-right tw-mb-6">
+          {% if blSet.link != blank %}
+          <a href="{{blSet.link}}" target="_blank" class="hover:tw-scale-95 tw-transition-all tw-block tw-text-right">
             <svg t="1688642662557" class="" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="7899" width="28" height="28"><path d="M864.107583 960.119537H63.880463V159.892417h447.928278V96.011954H0v927.988046h927.988046V527.874486h-63.880463v432.245051z" p-id="7900"></path><path d="M592.137467 0v63.880463h322.462458L457.491222 521.371685l45.137093 45.137093L960.119537 109.400075v322.462458h63.880463V0H592.137467z" p-id="7901"></path></svg>
           </a>
-          <div class="tw-w-[90%] tw-mb-4 tw-mx-auto tw-h-12">
+          {% endif %}
+          <div class="tw-w-[90%] tw-mb-4 tw-mx-auto tw-h-12 tw-mt-6">
             {% if blSet.img_url != blank %}
               {{ blSet.img_url | image_url: width: 380 | image_tag: width: nil, class: "tw-w-auto tw-mx-auto tw-h-full tw-object-contain" }}
             {% endif %}
           </div>
-          <svg t="1688642878168" class="tw-mx-auto tw-block tw-mb-4" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8490" width="48" height="48"><path d="M195.541333 739.029333C151.594667 692.352 128 640 128 555.136c0-149.333333 104.832-283.178667 257.28-349.354667l38.101333 58.794667c-142.293333 76.970667-170.112 176.853333-181.205333 239.829333 22.912-11.861333 52.906667-16 82.304-13.269333 76.970667 7.125333 137.642667 70.314667 137.642667 148.864a149.333333 149.333333 0 0 1-149.333334 149.333333 165.162667 165.162667 0 0 1-117.248-50.304z m426.666667 0C578.261333 692.352 554.666667 640 554.666667 555.136c0-149.333333 104.832-283.178667 257.28-349.354667l38.101333 58.794667c-142.293333 76.970667-170.112 176.853333-181.205333 239.829333 22.912-11.861333 52.906667-16 82.304-13.269333 76.970667 7.125333 137.642667 70.314667 137.642666 148.864a149.333333 149.333333 0 0 1-149.333333 149.333333 165.162667 165.162667 0 0 1-117.248-50.304z" p-id="8491" data-spm-anchor-id="a313x.7781069.0.i18" class="selected"></path></svg>
+          <img class="tw-my-4" src="https://cdn.shopify.com/s/files/1/0605/0044/3373/files/2_2c55d9e0-4a0f-49fb-80ac-72b40ab2b018.png?v=1690445158" width="36" alt="">
           <div class="tw-text-[22px] tw-leading-relaxed">
             <p class="tw-text-stone-600 tw-mb-4 tw-text-xl">{{blSet.content}}</p>
           </div>
+          {% if blSet.author != blank %}
+            <p class="tw-italic tw-text-right">-- {{blSet.author}}</p> 
+          {% endif %}
         </div>
       </div>
       {% endfor %}

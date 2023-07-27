@@ -11,8 +11,10 @@
     <div>
       <div class="item-slider">
         <div class="flickity-div page-width md:tw-pr-0 tw-mb-8 ">
-          <div class="md:tw-w-1/2 tw-w-full tw-h-full">
-            <div class="in_image tw-h-full tw-relative">
+          <div class="md:tw-w-1/2 tw-w-full            <            
+
+            {% if secSt.video contains "youtu" %}
+              <div class="in_image tw-h-full tw-relative">
                 <img class="!tw-rounded-none tw-object-contain tw-h-full" src="{{ secSt.image_video | img_url : 'master' }}" alt="">
                 <div class="play_icon">
                   <a class="tw-block tw-mx-auto" href="{{ secSt.video }}">
@@ -21,7 +23,31 @@
                     </div>
                   </a>
                 </div>
-            </div>
+              </div> 
+              {% else %}
+
+              <div class="tw-relative tw-h-full">
+                <div class="product-video-trigger tw-static tw-transform-none product-video-trigger--mp4 tw-w-full tw-h-full">
+                  <video class="tw-object-cover tw-w-full tw-h-full tw-block" loop="" autoplay="" muted="" preload="metadata" playsinline="">
+                    <source src="{{ secSt.video }}" type="video/mp4">
+                  </video>
+                </div>
+                <video
+                  playsinline
+                  controls
+                  controlsList="nodownload"
+                  poster="{{ media.preview_image | img_url: product_image_size }}"
+                  class="hide product-video-mp4-sound">
+                  <source src="{{ secSt.video }}" type="{{ source.mime_type }}">
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            {% endif %}
+            
+
+     {% endif %}
+            
+
           </div>
           <div class="md:tw-w-4/5 md:tw-block tw-hidden"> {% include 'aspect-ratio-img', media: secSt.img ,class: 'tw-block'%} </div>
           {% if secSt.img_mb %}

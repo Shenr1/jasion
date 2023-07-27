@@ -4,20 +4,17 @@
 [tag-name='blog-recommend'] .flickity-button-icon{@apply tw-w-8 tw-h-8 tw-left-0 tw-top-0}
 
 .switch_tabs .item-tab.active{@apply tw-border-solid tw-border-0 tw-border-b-2 tw-border-black}
-.nav_fixed{@apply xl:tw-mt-14 tw-mt-8}
-.payment-buttons .shopify-payment-button__button--unbranded{@apply md:tw-text-2xl tw-text-xl}
-.shopify-payment-button .shopify-payment-button__button--unbrand{@apply md:!tw-py-[11px] !tw-py-[15px]}
 
 .waterfall-section .item:nth-child(-n+3) .item-content b{@apply md:tw-text-[3.15vw] tw-text-[4.525vw] tw-leading-tight tw-whitespace-nowrap}
-.waterfall-section .item:nth-child(n+4) .item-content b{@apply 2xl:tw-text-[2.1vw] md:tw-text-[2.5vw] tw-text-[4vw] tw-leading-tight tw-whitespace-nowrap}
+.waterfall-section .item:nth-child(n+3) .item-content b{@apply md:tw-text-[2.1vw] tw-text-[4vw] tw-leading-tight tw-whitespace-nowrap}
 .waterfall-section .item .item-content span{@apply md:tw-text-[1.575vw] tw-text-[3vw] tw-text-stone-600 tw-whitespace-nowrap}
 
 .waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply md:tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
 .waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply md:tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
 
 [section-name="story-swiper"] .flickity-prev-next-button { @apply xl:tw-bottom-[10%] tw-bg-white tw-translate-y-[0%] tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px] tw-left-auto tw-top-auto md:tw-bottom-[6%] tw-bottom-[3%]; }
-[section-name="story-swiper"] .flickity-next { @apply xl:tw-right-[calc(30%_-_5px)] lg:tw-right-[calc(27%_-_5px)] md:tw-right-[calc(30%_-_5px)] tw-right-auto md:tw-left-auto tw-left-[calc(93px_+_5%)]; }
-[section-name="story-swiper"] .flickity-previous { @apply xl:tw-right-[calc(100px_+_30%)] lg:tw-right-[calc(100px_+_27%)] md:tw-right-[calc(100px_+_30%)] tw-right-auto md:tw-left-auto tw-left-[5%]; }
+[section-name="story-swiper"] .flickity-next { @apply md:tw-right-[calc(30%_-_5px)] tw-right-auto md:tw-left-auto tw-left-[calc(93px_+_5%)]; }
+[section-name="story-swiper"] .flickity-previous { @apply md:tw-right-[calc(100px_+_30%)] tw-right-auto md:tw-left-auto tw-left-[5%]; }
 
 [section-name="text-logo-switch"] .mb-switch-wrapper .flickity-prev-next-button{ @apply tw-translate-y-[0%] tw-top-auto -tw-bottom-12 tw-bg-white tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px]}
 

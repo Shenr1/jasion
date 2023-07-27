@@ -3111,12 +3111,13 @@ button[disabled],html input[disabled]{
 }
 
 @media only screen and (max-width:768px){
-  .btn,.rte .btn,.shopify-payment-button .shopify-payment-button__button--unbranded,.spr-container .spr-button,.spr-container .spr-summary-actions a{
-      padding:15px 17px;
-      font-size:calc(var(--typeBaseSize) - 5px);
-      font-size:max(calc(var(--typeBaseSize) - 5px), 11px)
-  }
+
+.btn,.rte .btn,.shopify-payment-button .shopify-payment-button__button--unbranded,.spr-container .spr-button,.spr-container .spr-summary-actions a{
+    padding:9px 17px;
+    font-size:calc(var(--typeBaseSize) - 5px);
+    font-size:max(calc(var(--typeBaseSize) - 5px), 11px)
 }
+  }
 
 .btn:hover,.rte .btn:hover,.shopify-payment-button .shopify-payment-button__button--unbranded:hover,.spr-container .spr-button:hover,.spr-container .spr-summary-actions a:hover{
     color:{{ settings.color_button_text | default: "#fff" }};

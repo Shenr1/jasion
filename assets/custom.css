@@ -42,40 +42,6 @@
   border-color: rgb(0 0 0 / var(--tw-border-opacity))
 }
 
-.nav_fixed {
-  margin-top: 2rem
-}
-
-@media (min-width: 1280px) {
-  .nav_fixed {
-    margin-top: 3.5rem
-  }
-}
-
-.payment-buttons .shopify-payment-button__button--unbranded {
-  font-size: 1.25rem;
-  line-height: 1.75rem
-}
-
-@media (min-width: 768px) {
-  .payment-buttons .shopify-payment-button__button--unbranded {
-    font-size: 1.5rem;
-    line-height: 2rem
-  }
-}
-
-.shopify-payment-button .shopify-payment-button__button--unbrand {
-  padding-top: 15px !important;
-  padding-bottom: 15px !important
-}
-
-@media (min-width: 768px) {
-  .shopify-payment-button .shopify-payment-button__button--unbrand {
-    padding-top: 11px !important;
-    padding-bottom: 11px !important
-  }
-}
-
 .waterfall-section .item:nth-child(-n+3) .item-content b {
   white-space: nowrap;
   font-size: 4.525vw;
@@ -88,20 +54,14 @@
   }
 }
 
-.waterfall-section .item:nth-child(n+4) .item-content b {
+.waterfall-section .item:nth-child(n+3) .item-content b {
   white-space: nowrap;
   font-size: 4vw;
   line-height: 1.25
 }
 
 @media (min-width: 768px) {
-  .waterfall-section .item:nth-child(n+4) .item-content b {
-    font-size: 2.5vw
-  }
-}
-
-@media (min-width: 1440px) {
-  .waterfall-section .item:nth-child(n+4) .item-content b {
+  .waterfall-section .item:nth-child(n+3) .item-content b {
     font-size: 2.1vw
   }
 }
@@ -182,18 +142,6 @@
   }
 }
 
-@media (min-width: 1024px) {
-  [section-name="story-swiper"] .flickity-next {
-    right: calc(27% - 5px)
-  }
-}
-
-@media (min-width: 1280px) {
-  [section-name="story-swiper"] .flickity-next {
-    right: calc(30% - 5px)
-  }
-}
-
 [section-name="story-swiper"] .flickity-previous {
   right: auto;
   left: 5%
@@ -203,18 +151,6 @@
   [section-name="story-swiper"] .flickity-previous {
     right: calc(100px + 30%);
     left: auto
-  }
-}
-
-@media (min-width: 1024px) {
-  [section-name="story-swiper"] .flickity-previous {
-    right: calc(100px + 27%)
-  }
-}
-
-@media (min-width: 1280px) {
-  [section-name="story-swiper"] .flickity-previous {
-    right: calc(100px + 30%)
   }
 }
 

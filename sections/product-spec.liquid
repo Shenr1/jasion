@@ -1,6 +1,6 @@
 <div id="specifications">
   <div class="page-width">
-    <div class="tab_cpanel text-{{ section.settings.align_text }} active">
+    <div class="tab_cpanel text-{{ section.settings.align_text }} {% if section.settings.is_open %}active{% endif %}">
       <h2>{{ section.settings.title }}</h2>
       <div class="tab_content">
         <ul>
@@ -28,6 +28,12 @@
         "id": "title",
         "label": "Heading",
         "default": "Testimonials"
+      },
+      {
+        "type": "checkbox",
+        "id": "is_open",
+        "label": "Default expanded",
+        "default": false
       }
     ],
    "presets": [

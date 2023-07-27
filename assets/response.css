@@ -176,6 +176,9 @@ font-size: 18px;
   .spec-list {
   padding: 80px 0;
 }
+  .nav_fixed {
+  margin-top: 60px;
+}
   .spec_content .hc_spec {
   max-width: 95%;
 
@@ -1086,7 +1089,7 @@ flex-wrap: wrap;
 .footer__collapsible{text-align:left;}
  
 .payment-icons{width:100%; order:1; margin-bottom:10px;}
-  .payment-icons li{margin-right:2px; width: 12.5%;}
+  .payment-icons li{margin-right:2px;}
 .footer-copyright{width:100%; order:2;}
 .footer-policy-link{width:100%; order:3;}
 .footer-policy-link a{margin:0; padding:0;}
