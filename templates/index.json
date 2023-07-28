@@ -93,7 +93,7 @@
         "8c853a2a-ff7c-4264-9a87-068f5db08b25": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Fast_delivery.png",
+            "img": "shopify:\/\/shop_images\/icon01.png",
             "text": "Fast Delivery",
             "text_sub": "1 to 3 day delivery to all 48 states"
           }
@@ -101,7 +101,7 @@
         "b5f1d3f9-46ab-46b9-aa71-a20d33b7b674": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/warranty.png",
+            "img": "shopify:\/\/shop_images\/icon02.png",
             "text": "1-Year Warranty",
             "text_sub": "One year warranty on your bike"
           }
@@ -109,7 +109,7 @@
         "f4434038-8fcd-49f4-8997-1f432e45ea1d": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Tax.png",
+            "img": "shopify:\/\/shop_images\/icon03.png",
             "text": "Tax-Free",
             "text_sub": "No need to pay 7-10% ST"
           }
@@ -117,7 +117,7 @@
         "33396831-3afc-4542-8514-184615ad43f8": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/14-Day_Trial.png",
+            "img": "shopify:\/\/shop_images\/icon04.png",
             "text": "14-Day Trial",
             "text_sub": "Don’t love it? Send it back to us."
           }
@@ -164,7 +164,7 @@
           "settings": {
             "title": "Combo Sale",
             "collection": "combo-sale首页展示",
-            "show_color": false
+            "show_color": true
           }
         }
       },
