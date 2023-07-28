@@ -579,6 +579,7 @@
     },
     "42e88095-3500-4892-98dd-ff85f2c80402": {
       "type": "product-video",
+      "disabled": true,
       "settings": {
         "title": "EB7 Assembly Instructions",
         "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
@@ -826,6 +827,7 @@
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
       "type": "product-faq",
+      "disabled": true,
       "blocks": {
         "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0": {
           "type": "question",
