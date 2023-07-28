@@ -452,7 +452,7 @@
         "358a16bf-9024-4f56-b08b-31f23289dc95"
       ],
       "settings": {
-        "top_padding": "none",
+        "top_padding": "large",
         "bottom_padding": "default",
         "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-8_0ff739cb-b30e-4c84-92aa-47b14106cb6b.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",
