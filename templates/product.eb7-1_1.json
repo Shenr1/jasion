@@ -173,7 +173,7 @@
         "bottom_padding": "default",
         "full_width": true,
         "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/1_a5720105-8446-4e77-a8d6-2cb921060548.jpg",
+        "bg_img": "shopify:\/\/shop_images\/LED.jpg",
         "bg_img_mb": "shopify:\/\/shop_images\/2_37c0ec41-6e79-473a-bae8-574ce12ba85d.jpg",
         "title_fixed": false,
         "fixed_style": "style1",
@@ -258,81 +258,54 @@
         "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
+            "content": "\"With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
+            "author": "",
             "link": ""
           }
         },
         "07c3f505-7b36-4273-8d4e-2a0c59d27d0c": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_fe1dcdb6-6661-438d-9013-89028021b183.png",
-            "content": "The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "3d66d05d-4281-4058-8969-daf3e906cb0a": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "174b7348-f354-4208-9202-412ed6825b2b": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_fe1dcdb6-6661-438d-9013-89028021b183.png",
-            "content": "The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/6.png",
+            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
+            "author": "",
             "link": ""
           }
         },
         "266228f3-1071-47eb-9c87-e8a8b43e8cea": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/8.png",
+            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point. It offers Solid Performance and Range Without Breaking the Bank.\"",
+            "author": "",
+            "link": ""
+          }
+        },
+        "3d66d05d-4281-4058-8969-daf3e906cb0a": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/5.png",
+            "content": "\"Jasion bike Offers Impressive Features and Durability at an Affordable Price.\"",
+            "author": "",
             "link": ""
           }
         },
         "50efc65d-9121-4d55-84ce-7f6a64a691a2": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/9.png",
+            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
+            "author": "",
             "link": ""
           }
         },
         "3088266e-b2bc-4dc0-ab86-f1c93c37a229": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "115f59ae-03a2-4b13-bdb7-05998ce58798": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_fe1dcdb6-6661-438d-9013-89028021b183.png",
-            "content": "The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "0a455be4-1008-473f-b60a-27c0a2123c0f": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/7.png",
+            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
+            "author": "",
             "link": ""
           }
         }
@@ -340,13 +313,10 @@
       "block_order": [
         "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e",
         "07c3f505-7b36-4273-8d4e-2a0c59d27d0c",
-        "3d66d05d-4281-4058-8969-daf3e906cb0a",
-        "174b7348-f354-4208-9202-412ed6825b2b",
         "266228f3-1071-47eb-9c87-e8a8b43e8cea",
+        "3d66d05d-4281-4058-8969-daf3e906cb0a",
         "50efc65d-9121-4d55-84ce-7f6a64a691a2",
-        "3088266e-b2bc-4dc0-ab86-f1c93c37a229",
-        "115f59ae-03a2-4b13-bdb7-05998ce58798",
-        "0a455be4-1008-473f-b60a-27c0a2123c0f"
+        "3088266e-b2bc-4dc0-ab86-f1c93c37a229"
       ],
       "settings": {
         "top_padding": "large",
@@ -369,7 +339,7 @@
         "bg_img_mb": "shopify:\/\/shop_images\/1_4fd27554-8b3b-4bce-9b05-dd1cedb74e8b.jpg",
         "title_fixed": true,
         "fixed_style": "style2",
-        "img_btm": "shopify:\/\/shop_images\/3_4a3e53b0-ac9a-4289-a75e-dac170dbfc47.png",
+        "img_btm": "shopify:\/\/shop_images\/570x124.png",
         "title": "Removable & Built-in Battery",
         "title_color": "#ffffff",
         "content": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
@@ -386,8 +356,8 @@
         "bottom_padding": "default",
         "full_width": false,
         "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/2_32dcc263-fef7-4ef6-97e3-360d051fb29e.jpg",
-        "cross_img_url": "shopify:\/\/shop_images\/6_3c86ad65-5db5-464a-a998-569bc19b8f23.png",
+        "bg_img": "shopify:\/\/shop_images\/4_7eec4030-e2df-418e-bc3d-fd16028fc1aa.jpg",
+        "cross_img_url": "shopify:\/\/shop_images\/1170x760.png",
         "title_fixed": false,
         "fixed_style": "style1",
         "title": "20\"x3\"Puncture Resistant Fat Tire",
@@ -406,7 +376,7 @@
         "bottom_padding": "default",
         "full_width": false,
         "bg_color": "#fafafa",
-        "bg_img": "shopify:\/\/shop_images\/2_00f6d8d9-d5c8-49db-a517-96feed1935f7.jpg",
+        "bg_img": "shopify:\/\/shop_images\/1640x615.jpg",
         "title_fixed": false,
         "fixed_style": "style1",
         "title": "",
