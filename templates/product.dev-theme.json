@@ -246,7 +246,8 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default"
+        "bottom_padding": "default",
+        "mb_style": "scroll"
       }
     },
     "1c692903-fb84-4c15-9118-167091dfb357": {
@@ -679,7 +680,8 @@
         "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0"
       ],
       "settings": {
-        "title": "Specifications"
+        "title": "Specifications",
+        "is_open": false
       }
     },
     "b77dda8e-ede6-42af-956c-a823223f7dfd": {
@@ -806,7 +808,8 @@
       "type": "product-video",
       "settings": {
         "title": "EB5 Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU"
+        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
+        "is_open": false
       }
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
@@ -939,7 +942,8 @@
         "image": "shopify:\/\/shop_images\/1550x455.jpg",
         "mb_image": "shopify:\/\/shop_images\/610x1100_-eb5.jpg",
         "title": "What's in the Box?",
-        "align_text": "left"
+        "align_text": "left",
+        "is_open": false
       }
     },
     "167984018422fa69c0": {
