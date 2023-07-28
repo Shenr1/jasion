@@ -62,12 +62,12 @@
         "0a8ce733-db1b-43f2-bf3c-502113e4e69a": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/ico_shipping.png",
+            "img_1": "shopify:\/\/shop_images\/1_cd88a3a9-a671-4a5e-b381-c58c0f04cbf3.png",
             "content_1": "Shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).\n<br>The SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.\n<br>For in-stock orders, please allow 1-2 business days to process your order after being placed online. Tracking information will be sent to your email address once an order is shipped.\n<br>We DO NOT ship to PO BOXES.",
-            "img_2": "shopify:\/\/shop_images\/ico_return.png",
-            "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).\n\n<br>*Click <a style=\"text-decoration: underline;\" target=\"_blank\" href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a>\nto get more information.",
-            "img_3": "shopify:\/\/shop_images\/ico_warranty.png",
-            "content_3": "For non-quality issues, customer may ask for product replacement or return within 14 days after receiving it. The customer is responsible for the return shipping cost of $180. Jasion will provide a return shipping label, and the designated carrier will collect the return package."
+            "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
+            "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
+            "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
+            "content_3": "For non-quality issues, customer may ask for product replacement or return within 14 days after receiving it. The customer is responsible for the return shipping cost of $180. Jasion will provide a return shipping label, and the designated carrier will collect the return package.\n\n<br>*Click <a style=\"text-decoration: underline;\" target=\"_blank\" href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a>\nto get more information."
           }
         }
       },
@@ -111,14 +111,14 @@
           "type": "item",
           "settings": {
             "icon": "shopify:\/\/shop_images\/battery.png",
-            "item_title": "36V 10 Ah",
+            "item_title": "48V 10Ah",
             "item_dec": "Battery Capacity"
           }
         },
         "bd9cd135-bf35-4017-8a0a-a615de65e88d": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/range.png",
+            "icon": "shopify:\/\/shop_images\/pedal.png",
             "item_title": "5 Level",
             "item_dec": "Pedal Assist"
           }
@@ -126,7 +126,7 @@
         "9a8be5dd-0d66-41e5-81db-3d85ccf5af4a": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/max_load.png",
+            "icon": "shopify:\/\/shop_images\/charge.png",
             "item_title": "4-5 Hours",
             "item_dec": "To Fully Charge"
           }
@@ -142,7 +142,7 @@
         "cac09a9d-98e8-4963-96dc-c42a30a31119": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/battery.png",
+            "icon": "shopify:\/\/shop_images\/max_load.png",
             "item_title": "300 Lbs",
             "item_dec": "Max Load"
           }
@@ -150,7 +150,7 @@
         "eca641e1-993b-4002-843d-5e9c83291fef": {
           "type": "item",
           "settings": {
-            "icon": "shopify:\/\/shop_images\/max_load.png",
+            "icon": "shopify:\/\/shop_images\/motor.png",
             "item_title": "500W",
             "item_dec": "Motor Capacity"
           }
@@ -168,7 +168,8 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "bg_color": "#f8f8f8",
-        "bg_img": "shopify:\/\/shop_images\/1_648e38a4-944d-4d56-8e4f-97af0b0b0881.jpg",
+        "bg_img": "shopify:\/\/shop_images\/1920x852.jpg",
+        "bg_img_mb": "shopify:\/\/shop_images\/750x952.jpg",
         "full_width": false,
         "layout": "textImage",
         "layout_mb": "textImage",
@@ -503,7 +504,7 @@
           "settings": {
             "img_url": "shopify:\/\/shop_images\/Dingtalk_20230504114310_57a043e2-1cb2-4f07-bb8d-517833e59e2c.jpg",
             "video_key": "",
-            "title": "EB7 : The Perfect Solution for Daily Commutes.",
+            "title": "Expand the Possibilities of Adventure",
             "content": "“ In this episode, we interviewed Andrew Ross in Temecula, CA. As a cargo pilot, he flies his Bush plane all over the United States. After getting his Heybike, Mars, he starts to expand the possibilities of the adventures that he can do and it’s made a huge difference. ”",
             "author": "Andrew Ross"
           }
