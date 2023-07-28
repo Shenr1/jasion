@@ -538,7 +538,7 @@
           "type": "image",
           "settings": {
             "top_subheading": "",
-            "title": "EB7 2.0 FAQs",
+            "title": "EB7 ST FAQs",
             "title_size": 49,
             "subheading": "",
             "link": "",
@@ -547,8 +547,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
+            "image": "shopify:\/\/shop_images\/FAQ_1920x300_53b7f16e-8e51-4e4a-b9f1-7f6982d6aa65.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/FAQ_1920x300_53b7f16e-8e51-4e4a-b9f1-7f6982d6aa65.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -581,13 +581,37 @@
           "type": "order",
           "settings": {
             "title": "What is the top speed of this bike？",
-            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>"
+            "text": "<p>The top speed of EB7 ST is 33km\/h(20.5MPH).<\/p>"
+          }
+        },
+        "24351709-2ab1-4bde-8fa2-a005d0d67ec6": {
+          "type": "order",
+          "settings": {
+            "title": "Does the bike come with most assembly?",
+            "text": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on the product page.<\/p>"
+          }
+        },
+        "fcf4cf5d-89d9-4629-9e33-3315ead6e993": {
+          "type": "order",
+          "settings": {
+            "title": "How long does it take to fully charge the battery?",
+            "text": "<p>It will take 4-5 hours.<\/p>"
+          }
+        },
+        "b7035c35-1603-4e7d-94d4-62031da17bd6": {
+          "type": "order",
+          "settings": {
+            "title": "How long will it take for my shipment to arrive?",
+            "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
           }
         }
       },
       "block_order": [
         "11c85a85-47c7-4b17-a3a5-a59b27f97800",
-        "1a9c374d-f57a-4144-83ca-d2c71711bec1"
+        "1a9c374d-f57a-4144-83ca-d2c71711bec1",
+        "24351709-2ab1-4bde-8fa2-a005d0d67ec6",
+        "fcf4cf5d-89d9-4629-9e33-3315ead6e993",
+        "b7035c35-1603-4e7d-94d4-62031da17bd6"
       ],
       "custom_css": [
         ".index-section {margin-top: 2rem;}"
@@ -887,26 +911,27 @@
         "ec7d9807-8bd6-48e6-bc70-5b790aa61492"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/lQDPJwlALA0LgmrNAcfNBg6wZopnKxnellcELqi3EEB8AA_1550_455.jpg",
-        "mb_image": "shopify:\/\/shop_images\/mobile-sizing.jpg",
+        "image": "shopify:\/\/shop_images\/1550x455-eb7_st.jpg",
+        "mb_image": "shopify:\/\/shop_images\/610x715_-EB7.jpg",
         "title": "Sizing"
       }
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
       "type": "product-faq",
+      "disabled": true,
       "blocks": {
         "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0": {
           "type": "question",
           "settings": {
             "title": "Does my height suit this bike?",
-            "text": "<p>The recommended rider height is  5'4\"-6'4\".<\/p>"
+            "text": "<p>The recommended rider height is  5'1\"-6'2\".<\/p>"
           }
         },
         "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-1": {
           "type": "question",
           "settings": {
-            "title": "What is the maximum load capacity of this bike?",
-            "text": "<p>The maximum load capacity of EB5 is 264LBS.<\/p>"
+            "title": "What is the top speed of this bike?",
+            "text": "<p>The top speed of EB7 ST is 33km\/h(20.5MPH).<\/p>"
           }
         },
         "6fae0f7c-5907-4728-800d-d14bb312b273": {
@@ -1019,8 +1044,8 @@
         "66bbefb6-b1e6-4db8-b3b9-ed430356bc92"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1550x455.jpg",
-        "mb_image": "shopify:\/\/shop_images\/610x1100_-eb5.jpg",
+        "image": "shopify:\/\/shop_images\/1550x455-eb7st.jpg",
+        "mb_image": "shopify:\/\/shop_images\/eb7st.jpg",
         "title": "What's in the Box?",
         "align_text": "left",
         "is_open": false
