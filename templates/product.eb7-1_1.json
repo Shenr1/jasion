@@ -616,8 +616,8 @@
           "type": "colum",
           "settings": {
             "title": "Pedal",
-            "text": "1-3 Level",
-            "dis": "Assist Intelligent 1~3 Level Pedal Assist"
+            "text": "1-5 Level",
+            "dis": "Assist Intelligent 1~5 Level Pedal Assist"
           }
         },
         "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd": {
@@ -632,7 +632,7 @@
           "type": "colum",
           "settings": {
             "title": "Tires",
-            "text": "26\" x 1.95\"",
+            "text": "20\" x 3\"",
             "dis": ""
           }
         },
