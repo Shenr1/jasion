@@ -385,6 +385,7 @@
     },
     "67accc71-b565-4e0c-b65a-34f4f643ae09": {
       "type": "images-grid",
+      "disabled": true,
       "blocks": {
         "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
           "type": "text_block",
