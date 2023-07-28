@@ -645,6 +645,14 @@
         "image_two": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_c446170d-848e-477f-ba18-57148ad88e09.jpg"
       }
     },
+    "42e88095-3500-4892-98dd-ff85f2c80402": {
+      "type": "product-video",
+      "settings": {
+        "title": "Assembly Instructions",
+        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
+        "is_open": true
+      }
+    },
     "fa6c41da-f62f-4770-a576-6e42860d7e0b": {
       "type": "product-spec",
       "blocks": {
@@ -652,7 +660,7 @@
           "type": "colum",
           "settings": {
             "title": "Battery",
-            "text": "36V 10Ah",
+            "text": "48V 10Ah",
             "dis": "Lithium Battery"
           }
         },
@@ -668,7 +676,7 @@
           "type": "colum",
           "settings": {
             "title": "Charger",
-            "text": "36V\/2A",
+            "text": "48V\/2A",
             "dis": ""
           }
         },
@@ -676,7 +684,7 @@
           "type": "colum",
           "settings": {
             "title": "Hub Motor",
-            "text": "350W",
+            "text": "500W",
             "dis": "Brushless Gear Motor"
           }
         },
@@ -684,7 +692,7 @@
           "type": "colum",
           "settings": {
             "title": "Range",
-            "text": "40 Miles",
+            "text": "45 Miles",
             "dis": "Pedal Assist"
           }
         },
@@ -692,8 +700,8 @@
           "type": "colum",
           "settings": {
             "title": "Pedal",
-            "text": "1-3 Level",
-            "dis": "Assist Intelligent 1~3 Level Pedal Assist"
+            "text": "1-5 Level",
+            "dis": "Assist Intelligent 1-5 Level Pedal Assist"
           }
         },
         "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd": {
@@ -708,7 +716,7 @@
           "type": "colum",
           "settings": {
             "title": "Tires",
-            "text": "26\" x 1.95\"",
+            "text": "20\" x 3\"",
             "dis": ""
           }
         },
@@ -716,7 +724,7 @@
           "type": "colum",
           "settings": {
             "title": "MAX Payload Capacity",
-            "text": "264 LBS",
+            "text": "300 LBS",
             "dis": ""
           }
         },
@@ -724,15 +732,15 @@
           "type": "colum",
           "settings": {
             "title": "Product Dimensions",
-            "text": "68.1x25.2x42.5 (Inch)",
+            "text": "68.9x24.8x49.6 (Inch)",
             "dis": ""
           }
         },
         "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
           "type": "colum",
           "settings": {
-            "title": "IP Level",
-            "text": "IP65",
+            "title": "Folding Dimensions",
+            "text": "36*21*29(Inch)",
             "dis": ""
           }
         },
@@ -740,7 +748,7 @@
           "type": "colum",
           "settings": {
             "title": "Product Weight",
-            "text": "49.6LBS(22.5KG)",
+            "text": "62.8LBS(28.5KG)",
             "dis": ""
           }
         }
@@ -882,14 +890,6 @@
         "image": "shopify:\/\/shop_images\/lQDPJwlALA0LgmrNAcfNBg6wZopnKxnellcELqi3EEB8AA_1550_455.jpg",
         "mb_image": "shopify:\/\/shop_images\/mobile-sizing.jpg",
         "title": "Sizing"
-      }
-    },
-    "42e88095-3500-4892-98dd-ff85f2c80402": {
-      "type": "product-video",
-      "settings": {
-        "title": "EB5 Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
-        "is_open": false
       }
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
@@ -1058,9 +1058,9 @@
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
     "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
+    "42e88095-3500-4892-98dd-ff85f2c80402",
     "fa6c41da-f62f-4770-a576-6e42860d7e0b",
     "b77dda8e-ede6-42af-956c-a823223f7dfd",
-    "42e88095-3500-4892-98dd-ff85f2c80402",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
     "167984018422fa69c0"
