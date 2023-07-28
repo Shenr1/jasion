@@ -569,6 +569,14 @@
         "image_two": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_c446170d-848e-477f-ba18-57148ad88e09.jpg"
       }
     },
+    "42e88095-3500-4892-98dd-ff85f2c80402": {
+      "type": "product-video",
+      "settings": {
+        "title": "EB7 Assembly Instructions",
+        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
+        "is_open": false
+      }
+    },
     "fa6c41da-f62f-4770-a576-6e42860d7e0b": {
       "type": "product-spec",
       "blocks": {
@@ -808,14 +816,6 @@
         "title": "Sizing"
       }
     },
-    "42e88095-3500-4892-98dd-ff85f2c80402": {
-      "type": "product-video",
-      "settings": {
-        "title": "EB5 Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
-        "is_open": false
-      }
-    },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
       "type": "product-faq",
       "blocks": {
@@ -943,8 +943,8 @@
         "66bbefb6-b1e6-4db8-b3b9-ed430356bc92"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1550x455.jpg",
-        "mb_image": "shopify:\/\/shop_images\/610x1100_-eb5.jpg",
+        "image": "shopify:\/\/shop_images\/1550x455-EB7.jpg",
+        "mb_image": "shopify:\/\/shop_images\/610x1100_-eb7.jpg",
         "title": "What's in the Box?",
         "align_text": "left",
         "is_open": false
@@ -984,9 +984,9 @@
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
     "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
+    "42e88095-3500-4892-98dd-ff85f2c80402",
     "fa6c41da-f62f-4770-a576-6e42860d7e0b",
     "b77dda8e-ede6-42af-956c-a823223f7dfd",
-    "42e88095-3500-4892-98dd-ff85f2c80402",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
     "167984018422fa69c0"
