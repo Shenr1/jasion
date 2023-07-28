@@ -439,8 +439,8 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
+            "image": "shopify:\/\/shop_images\/FAQ_1920x300_8fc74838-b292-48b8-8a41-e7773a38a7dd.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/FAQ_1920x300_7bdf4c16-a266-4b37-af2f-8c407bb248c4.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -473,13 +473,45 @@
           "type": "order",
           "settings": {
             "title": "What is the top speed of this bike？",
-            "text": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.<\/p>"
+            "text": "<p>The top speed of EB7 2.0 IS 33km\/h(20.5MPH).<\/p>"
+          }
+        },
+        "9fef8a31-d164-41fe-8c0a-5e19d82ccbea": {
+          "type": "order",
+          "settings": {
+            "title": "Does the bike come with most assembly?",
+            "text": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on the product page.<\/p>"
+          }
+        },
+        "d05b6125-4e1e-4a50-883f-74d36e30fedb": {
+          "type": "order",
+          "settings": {
+            "title": "How long does it take to fully charge the battery?",
+            "text": "<p>It will take 4-5 hours.<\/p>"
+          }
+        },
+        "3b897f3f-e8ff-44f5-941f-4df1071cfe26": {
+          "type": "order",
+          "settings": {
+            "title": "How long will it take for my shipment to arrive?",
+            "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
+          }
+        },
+        "97746aae-a102-44c3-8c09-fe7721cb7b55": {
+          "type": "order",
+          "settings": {
+            "title": "What is the difference between EB7 2.0 and EB7 ST?",
+            "text": "<p>The EB7 ST has a new design step-through with a lower span than before, it is more suitable for older people or people with physical limitations to ride.<\/p>"
           }
         }
       },
       "block_order": [
         "11c85a85-47c7-4b17-a3a5-a59b27f97800",
-        "1a9c374d-f57a-4144-83ca-d2c71711bec1"
+        "1a9c374d-f57a-4144-83ca-d2c71711bec1",
+        "9fef8a31-d164-41fe-8c0a-5e19d82ccbea",
+        "d05b6125-4e1e-4a50-883f-74d36e30fedb",
+        "3b897f3f-e8ff-44f5-941f-4df1071cfe26",
+        "97746aae-a102-44c3-8c09-fe7721cb7b55"
       ],
       "custom_css": [
         ".index-section {margin-top: 2rem;}"
