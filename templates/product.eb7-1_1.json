@@ -423,14 +423,6 @@
         "title_color": "#333333"
       }
     },
-    "7172f21a-183c-424f-a760-89a450ed0128": {
-      "type": "featured-video",
-      "settings": {
-        "title": "Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
-        "divider": false
-      }
-    },
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626": {
       "type": "slideshow",
       "blocks": {
@@ -579,11 +571,10 @@
     },
     "42e88095-3500-4892-98dd-ff85f2c80402": {
       "type": "product-video",
-      "disabled": true,
       "settings": {
         "title": "EB7 Assembly Instructions",
         "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
-        "is_open": false
+        "is_open": true
       }
     },
     "fa6c41da-f62f-4770-a576-6e42860d7e0b": {
@@ -991,7 +982,6 @@
     "308f49b5-ebe5-4c04-9eec-83a68aa72821",
     "4e4deb1c-da0d-4680-9f32-f6cb91d08a64",
     "c63d8c13-70d3-4c19-b9f8-4e05d35645cd",
-    "7172f21a-183c-424f-a760-89a450ed0128",
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
     "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
