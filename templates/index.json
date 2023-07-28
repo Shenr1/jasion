@@ -156,7 +156,7 @@
           "settings": {
             "title": "EB7 ST",
             "collection": "eb7-st首页展示",
-            "show_color": false
+            "show_color": true
           }
         },
         "bca2ce32-9de1-4101-8d69-7baba514e989": {
