@@ -576,7 +576,7 @@
           "type": "colum",
           "settings": {
             "title": "Battery",
-            "text": "36V 10Ah",
+            "text": "48V 10Ah",
             "dis": "Lithium Battery"
           }
         },
@@ -592,7 +592,7 @@
           "type": "colum",
           "settings": {
             "title": "Charger",
-            "text": "36V\/2A",
+            "text": "48V\/2A",
             "dis": ""
           }
         },
