@@ -26,6 +26,7 @@
         },
         "50af9483-df47-4ef7-ade4-a4946897ba75": {
           "type": "klarna_btn",
+          "disabled": true,
           "settings": {
             "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
             "html": "<p class=\"tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none\">0% APR<\/p>\n                          <p class=\"tw-text-lg tw-mb-0 tw-leading-tight\">12 months, $65.7\/month<\/p>",
@@ -40,6 +41,7 @@
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
           "type": "payment_icon",
+          "disabled": true,
           "settings": {
             "text": "Pay with Ease"
           }
