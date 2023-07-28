@@ -69,7 +69,7 @@
           "type": "question",
           "settings": {
             "title": "Have questions?",
-            "text": "<p>Note: The EB7 2.0 White is now on pre-sale (Pre-sale starts from UTC\/GMT-08:00 June 28th to July 17th) . It will be shipped on July 18th.<\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
+            "text": "<p>Note: The EB7 2.0 White and Green are now on pre-sale. They will be shipped out as soon as they arrive.<\/p><p>Questions? We’re happy to help!                <\/p><ul><li>Email:  support@jasionbike.com<\/li><\/ul>"
           }
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
@@ -165,7 +165,8 @@
         "template--18321957847314__25641c25-1728-4b22-8d51-73f27247e1be-1679758546738b11e3-3"
       ],
       "settings": {
-        "title": ""
+        "title": "",
+        "enable": true
       }
     },
     "nav": {
@@ -749,7 +750,8 @@
         "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0"
       ],
       "settings": {
-        "title": "Specifications"
+        "title": "Specifications",
+        "is_open": false
       }
     },
     "b77dda8e-ede6-42af-956c-a823223f7dfd": {
@@ -997,7 +999,8 @@
       "type": "product-video",
       "settings": {
         "title": "Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU"
+        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
+        "is_open": false
       }
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
@@ -1138,7 +1141,8 @@
         "image": "shopify:\/\/shop_images\/1550x455-EB7.jpg",
         "mb_image": "shopify:\/\/shop_images\/610x1100_-eb7.jpg",
         "title": "What's in the Box?",
-        "align_text": "left"
+        "align_text": "left",
+        "is_open": false
       }
     },
     "product-recommendations": {

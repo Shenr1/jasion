@@ -26,6 +26,7 @@
         },
         "50af9483-df47-4ef7-ade4-a4946897ba75": {
           "type": "klarna_btn",
+          "disabled": true,
           "settings": {
             "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
             "html": "<p class=\"tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none\">0% APR<\/p>\n                          <p class=\"tw-text-lg tw-mb-0 tw-leading-tight\">12 months, $65.7\/month<\/p>",
@@ -62,9 +63,9 @@
           "type": "switch_tabs",
           "settings": {
             "img_1": "shopify:\/\/shop_images\/ico_shipping.png",
-            "content_1": "Shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).\nNo tax is needed. SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.",
+            "content_1": "Shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).\n<br>No tax is needed. \n<br>The SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.\n<br>For in-stock order, please allow 1-2 business days to process your order after being placed online. Tracking information will be sent to your email address once an order is shipped.\n<br>We DO NOT ship to PO BOXES.",
             "img_2": "shopify:\/\/shop_images\/ico_return.png",
-            "content_2": "No tax is needed. SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.",
+            "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/ico_warranty.png",
             "content_3": "Your eBike will be shipped from our CA\/NJ warehouse."
           }
@@ -368,7 +369,8 @@
       ],
       "settings": {
         "top_padding": "large",
-        "bottom_padding": "default"
+        "bottom_padding": "default",
+        "mb_style": "scroll"
       }
     },
     "1c692903-fb84-4c15-9118-167091dfb357": {
@@ -757,7 +759,8 @@
         "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0"
       ],
       "settings": {
-        "title": "Specifications"
+        "title": "Specifications",
+        "is_open": false
       }
     },
     "b77dda8e-ede6-42af-956c-a823223f7dfd": {
@@ -884,7 +887,8 @@
       "type": "product-video",
       "settings": {
         "title": "EB5 Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU"
+        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
+        "is_open": false
       }
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
@@ -1017,7 +1021,8 @@
         "image": "shopify:\/\/shop_images\/1550x455.jpg",
         "mb_image": "shopify:\/\/shop_images\/610x1100_-eb5.jpg",
         "title": "What's in the Box?",
-        "align_text": "left"
+        "align_text": "left",
+        "is_open": false
       }
     },
     "167984018422fa69c0": {
