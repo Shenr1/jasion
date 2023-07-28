@@ -640,7 +640,7 @@
           "type": "colum",
           "settings": {
             "title": "MAX Payload Capacity",
-            "text": "264 LBS",
+            "text": "300 LBS",
             "dis": ""
           }
         },
@@ -648,15 +648,15 @@
           "type": "colum",
           "settings": {
             "title": "Product Dimensions",
-            "text": "68.1x25.2x42.5 (Inch)",
+            "text": "68.9*24.8*49.6 (Inch)",
             "dis": ""
           }
         },
         "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
           "type": "colum",
           "settings": {
-            "title": "IP Level",
-            "text": "IP65",
+            "title": "Folding Dimensions",
+            "text": "36*21*29(Inch)",
             "dis": ""
           }
         },
@@ -664,7 +664,7 @@
           "type": "colum",
           "settings": {
             "title": "Product Weight",
-            "text": "49.6LBS(22.5KG)",
+            "text": "62.8LBS(28.5KG)",
             "dis": ""
           }
         }
