@@ -159,7 +159,7 @@
         "fixed_style": "style1",
         "title": "850W of PEAK POWER",
         "title_color": "#ffffff",
-        "content": "The 500W steady motor has a maximum power output of up to 850W at full power! \nUse 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
+        "content": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
         "content_color": "#eaeaea",
         "title_size": "default",
         "content_size": "default",
@@ -192,23 +192,7 @@
         "faaccef3-d8cc-4bce-ab3b-c49361b72a78": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/3E929401-3913-494f-A57E-C09DFD0D02C0.jpg",
-            "title": "Headlight&Taillight",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
-          }
-        },
-        "534c34c8-2904-4ea0-bd4b-11604dc84306": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/4F71D734-A15B-4cfb-962A-1EBF3F6C43D9.jpg",
-            "title": "Headlight&Taillight",
-            "content": "Brighter LED headlights, make riding more convenient and safer."
-          }
-        },
-        "bf1ba2b5-17b7-4103-b925-00f197f00c82": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/3E929401-3913-494f-A57E-C09DFD0D02C0.jpg",
+            "img_url": "shopify:\/\/shop_images\/1_c8b2c934-e4e8-42a2-937a-cbed46ea6aa8.jpg",
             "title": "Headlight&Taillight",
             "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
           }
@@ -216,35 +200,51 @@
         "6295756f-475e-46a1-b7a0-036c3c8d492b": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/00EAC9AF-A152-44f5-BA28-19D97CE61FE7.jpg",
-            "title": "Headlight&Taillight",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
-          }
-        },
-        "6975db6f-523a-462d-9d11-34bc2a782e86": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/4F71D734-A15B-4cfb-962A-1EBF3F6C43D9.jpg",
-            "title": "Headlight&Taillight",
-            "content": "flash when brake, making it a warning light at night."
+            "img_url": "shopify:\/\/shop_images\/2_26e6c31a-5db8-482b-bf30-ad1eafa2eca5.jpg",
+            "title": "Dual Suspension System",
+            "content": "Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience."
           }
         },
         "0fca5180-c7db-4417-bf15-3919a6b1b0e9": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/00EAC9AF-A152-44f5-BA28-19D97CE61FE7.jpg",
-            "title": "Headlight&Taillight",
-            "content": "make riding more convenient and safer. The integrated taillight will flash when brake,"
+            "img_url": "shopify:\/\/shop_images\/3_a7a96bce-4cde-485d-91f7-fef0b3432e1d.jpg",
+            "title": "Dual Disc Brake System",
+            "content": "The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force at a short distance whether in wet or dry conditions."
+          }
+        },
+        "bf1ba2b5-17b7-4103-b925-00f197f00c82": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/4_2c706047-e388-47c0-849b-735dbaf10dd3.jpg",
+            "title": "Shimano 7 Speed",
+            "content": "The Shimano 7-speed gear shifter allows you to change the gears for adapting to different terrains on demand."
+          }
+        },
+        "6975db6f-523a-462d-9d11-34bc2a782e86": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/5_ba405279-dafd-40e1-bd22-e5676a10cacd.jpg",
+            "title": "Foldable Footrests",
+            "content": "EB7 2.0 in order to make it more convenient for users to fold and place the back of the car, so the pedals made an innovative breakthrough, the pedals folded to make the electric bike more stable and less prone to bumps."
+          }
+        },
+        "534c34c8-2904-4ea0-bd4b-11604dc84306": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/6_73a3ec49-e305-4ac0-9605-4090e2ea9d37.jpg",
+            "title": "Foldable Electric Bike",
+            "content": "The foldable and portable design makes the EB7 e-bike easy to carry and fits stock into any compact space, such as an apartment, subway, or car trunk."
           }
         }
       },
       "block_order": [
         "faaccef3-d8cc-4bce-ab3b-c49361b72a78",
-        "534c34c8-2904-4ea0-bd4b-11604dc84306",
-        "bf1ba2b5-17b7-4103-b925-00f197f00c82",
         "6295756f-475e-46a1-b7a0-036c3c8d492b",
+        "0fca5180-c7db-4417-bf15-3919a6b1b0e9",
+        "bf1ba2b5-17b7-4103-b925-00f197f00c82",
         "6975db6f-523a-462d-9d11-34bc2a782e86",
-        "0fca5180-c7db-4417-bf15-3919a6b1b0e9"
+        "534c34c8-2904-4ea0-bd4b-11604dc84306"
       ],
       "settings": {
         "top_padding": "large",
@@ -394,7 +394,7 @@
         "c953542f-7a28-44ab-b683-49f324d4e9ab": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/2_21bc669c-4512-4bf1-a976-6f8f31c0fd83.jpg",
+            "img_url": "shopify:\/\/shop_images\/20230629105457.jpg",
             "video_key": "",
             "title": "EB7 : The Perfect Solution for Daily Commutes.",
             "content": "\"The Jasion eb7 is the best e-bike out there - absolutely love mine- even bought a second bike for my wife, highly recommend\nFor anyone on the fence about the Jasion ebike you will not regret your purchase. This is an amazing ebike definitely the best ebike at this price range!\"",
@@ -404,7 +404,7 @@
         "a72fce02-a8a6-414e-8d84-dd30a57194b6": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/2_888f93ca-13e7-4e66-9310-301ce62e8613.jpg",
+            "img_url": "shopify:\/\/shop_images\/8A9639A1-DF0F-4154-8BAE-6A0DD8699744.jpg",
             "video_key": "",
             "title": "\"Upgrade Your Commute with the EB7 Electric Bike.\"",
             "content": "\"I never write reviews but Jasion has exceeded my expectations. I've had my Jasion Ebike for 4 months now, I've traveled a little under 700 miles, mainly for my commute to work. It has cut down my commute time from 1 hour to 8 minutes. The bike is very well made, very adjustable, I'm 6'2 200 pounds and the bike can definitely carry me with no problem. \"",
