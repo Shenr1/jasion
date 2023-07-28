@@ -385,7 +385,6 @@
     },
     "67accc71-b565-4e0c-b65a-34f4f643ae09": {
       "type": "images-grid",
-      "disabled": true,
       "blocks": {
         "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
           "type": "text_block",
@@ -455,6 +454,7 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "default",
+        "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-8_0ff739cb-b30e-4c84-92aa-47b14106cb6b.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",
         "link": "shopify:\/\/collections"
       }
