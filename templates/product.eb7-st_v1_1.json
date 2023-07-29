@@ -284,7 +284,7 @@
         "text_align": "",
         "img": "shopify:\/\/shop_images\/02_c510073f-b056-4ef9-8fd8-425bd9b88ed9.jpg",
         "text_main": "Removable & Built-in Battery",
-        "text_sub": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 40 miles.",
+        "text_sub": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
         "btm_img_w": 100,
         "i_size": "default"
       }
@@ -333,7 +333,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "bg_color": "#E8EBF0",
+        "bg_color": "#e8ebf0",
         "full_width": false,
         "layout": "imageText",
         "layout_mb": "textImage",
