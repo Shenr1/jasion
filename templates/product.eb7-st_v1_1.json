@@ -187,7 +187,7 @@
         "64febfce-98e3-4403-9737-4c9f67b672ce": {
           "type": "item",
           "settings": {
-            "item_title": "48V*750W",
+            "item_title": "48V*500W",
             "item_dec": "Brushless Gear Motor"
           }
         },
@@ -208,8 +208,8 @@
         "8452b7c7-e187-4df8-8e5b-b66c5169dd87": {
           "type": "item",
           "settings": {
-            "item_title": "Speed",
-            "item_dec": "Class 7"
+            "item_title": "20.5MPH",
+            "item_dec": "Top Speed"
           }
         }
       },
@@ -241,7 +241,7 @@
         "70b204c1-c66b-498c-9ba1-c6bb299f7e1f": {
           "type": "item",
           "settings": {
-            "item_title": "48V 10 Ah",
+            "item_title": "48V 10Ah",
             "item_dec": "Battery Capacity"
           }
         },
@@ -262,7 +262,7 @@
         "9e53caa3-3151-46cc-b5cd-6d50d5b3560b": {
           "type": "item",
           "settings": {
-            "item_title": "31 MPH",
+            "item_title": "20.5 MPH",
             "item_dec": "Top Speed"
           }
         }
