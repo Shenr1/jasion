@@ -176,7 +176,7 @@
         "text_layout": "horizontal",
         "text_align": "text-center",
         "text_main": "Superior Performance",
-        "text_sub": "EB7 ST is a super cost-effective and high-performance full-map e-bike designed by Jasion team. With double shock absorption, fat tires, and exceptional handling you can be sure of the most comfortable ride across whichever terrain your choose.",
+        "text_sub": "EB7 ST is a super cost-effective and high-performance full-map e-bike designed by Jasion team. EB7 ST is a super cost-effective and high-performance full-map e-bike designed by Jasion team. With double shock absorption, fat tires, and exceptional handling you can be sure of the most comfortable ride across whichever terrain your choose.",
         "btm_img_w": 100,
         "i_size": "default"
       }
@@ -228,7 +228,7 @@
         "layout_mb": "textImage",
         "text_layout": "horizontal",
         "text_align": "",
-        "img": "shopify:\/\/shop_images\/1_7b11fb75-cb05-4402-bda1-4276dbabcaa8.jpg",
+        "img": "shopify:\/\/shop_images\/01_091e43d8-261c-40d3-8880-dde2587257aa.jpg",
         "text_main": "850W of Peak Power",
         "text_sub": "New ST Motor provides 850W Peak output at full power! Use 100% manual pedaling Or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
         "btm_img_w": 100,
@@ -282,7 +282,7 @@
         "layout_mb": "textImage",
         "text_layout": "horizontal",
         "text_align": "",
-        "img": "shopify:\/\/shop_images\/1_7b11fb75-cb05-4402-bda1-4276dbabcaa8.jpg",
+        "img": "shopify:\/\/shop_images\/02_c510073f-b056-4ef9-8fd8-425bd9b88ed9.jpg",
         "text_main": "Removable & Built-in Battery",
         "text_sub": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 40 miles.",
         "btm_img_w": 100,
@@ -296,7 +296,7 @@
         "bottom_padding": "default",
         "full_width": true,
         "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/2_21bc669c-4512-4bf1-a976-6f8f31c0fd83.jpg",
+        "bg_img": "shopify:\/\/shop_images\/e8337edba82d951a4f5b66e2743c05da.jpg",
         "title_fixed": true,
         "fixed_style": "style2",
         "title": "Low-step Frame Design",
@@ -314,7 +314,7 @@
         "faaccef3-d8cc-4bce-ab3b-c49361b72a78": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/3E929401-3913-494f-A57E-C09DFD0D02C0.jpg",
+            "img_url": "shopify:\/\/shop_images\/1_e82c4a13-3ce2-4f51-a722-1a75487432b3.jpg",
             "title": "Headlight&Taillight",
             "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
           }
@@ -322,7 +322,7 @@
         "534c34c8-2904-4ea0-bd4b-11604dc84306": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/4F71D734-A15B-4cfb-962A-1EBF3F6C43D9.jpg",
+            "img_url": "shopify:\/\/shop_images\/03_0cfc8edf-9f6d-445f-85f8-91b8ec668fc6.jpg",
             "title": "Headlight&Taillight",
             "content": "Brighter LED headlights, make riding more convenient and safer."
           }
@@ -1067,6 +1067,52 @@
         "full_width": false,
         "space_around": true
       }
+    },
+    "27a0ad21-1126-4064-bdb4-ed1256fe3b98": {
+      "type": "image-list-text",
+      "blocks": {
+        "9f4f0016-6df3-495b-bc5a-f032f458e63d": {
+          "type": "item",
+          "settings": {
+            "item_title": "Density Increased",
+            "item_dec": "21%"
+          }
+        }
+      },
+      "block_order": [
+        "9f4f0016-6df3-495b-bc5a-f032f458e63d"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#E8EBF0",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "text_main": "Dual 48V 15Ah Lithium Batteries",
+        "text_sub": "If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge. And worried about long charging times? It takes only 5 hours to get fully charged with 2 chargers.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "8efbf6e3-4247-42aa-8863-aa7417c05093": {
+      "type": "image-list-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#E8EBF0",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "text_main": "Dual 48V 15Ah Lithium Batteries",
+        "text_sub": "If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge. And worried about long charging times? It takes only 5 hours to get fully charged with 2 chargers.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
     }
   },
   "order": [
@@ -1088,6 +1134,8 @@
     "b77dda8e-ede6-42af-956c-a823223f7dfd",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
-    "167984018422fa69c0"
+    "167984018422fa69c0",
+    "27a0ad21-1126-4064-bdb4-ed1256fe3b98",
+    "8efbf6e3-4247-42aa-8863-aa7417c05093"
   ]
 }
