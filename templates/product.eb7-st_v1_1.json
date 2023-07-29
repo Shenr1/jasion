@@ -308,6 +308,62 @@
         "wap_pad": "center"
       }
     },
+    "4c3cf7d5-d7e1-40d3-b3bb-90f05859f867": {
+      "type": "image-list-text",
+      "blocks": {
+        "bdbc2eef-02aa-451f-a1dd-af39be666b93": {
+          "type": "item",
+          "settings": {
+            "item_title": "20\"x3\"",
+            "item_dec": "Puncture Resistant Fat Tire"
+          }
+        },
+        "a8cab5b0-673f-4c45-952e-b14f7618bee0": {
+          "type": "item",
+          "settings": {
+            "item_title": "80Nm",
+            "item_dec": "Max Torque"
+          }
+        }
+      },
+      "block_order": [
+        "bdbc2eef-02aa-451f-a1dd-af39be666b93",
+        "a8cab5b0-673f-4c45-952e-b14f7618bee0"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#E8EBF0",
+        "full_width": false,
+        "layout": "imageText",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/04_1a383c1f-e6a6-4283-92d2-74f391761425.jpg",
+        "text_main": "20\"x3\"Puncture Resistant Fat Tire",
+        "text_sub": "The high-quality fat tires provide extra protection against punctures from thorns, glass, and other small materials.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "8efbf6e3-4247-42aa-8863-aa7417c05093": {
+      "type": "image-list-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#e8ebf0",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/03_78c8d8ec-0409-468d-92bd-4565a22526c1.jpg",
+        "text_main": "Dual Suspension System",
+        "text_sub": "Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
     "02d2466c-fc8b-4162-ae83-7c183e346acb": {
       "type": "image-text-switch",
       "blocks": {
@@ -322,41 +378,41 @@
         "534c34c8-2904-4ea0-bd4b-11604dc84306": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/03_0cfc8edf-9f6d-445f-85f8-91b8ec668fc6.jpg",
-            "title": "Headlight&Taillight",
-            "content": "Brighter LED headlights, make riding more convenient and safer."
+            "img_url": "shopify:\/\/shop_images\/2_afc5cb2e-0111-43a1-b20a-9ce19bc7528b.jpg",
+            "title": "USB Charging Port",
+            "content": "Realize the scenario of helping to charge your phone while riding, no need to worry about the lack of power for your phone when riding with Jasion EB7."
           }
         },
         "bf1ba2b5-17b7-4103-b925-00f197f00c82": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/3E929401-3913-494f-A57E-C09DFD0D02C0.jpg",
-            "title": "Headlight&Taillight",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
+            "img_url": "shopify:\/\/shop_images\/3_19d483ab-812b-457d-babd-c844b5b65b85.jpg",
+            "title": "Foldable Footrests",
+            "content": "EB7 2.0 in order to make it more convenient for users to fold and place the back of the car, so the pedals made an innovative breakthrough, the pedals folded to make the electric bike more stable and less prone to bumps."
           }
         },
         "6295756f-475e-46a1-b7a0-036c3c8d492b": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/00EAC9AF-A152-44f5-BA28-19D97CE61FE7.jpg",
-            "title": "Headlight&Taillight",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
+            "img_url": "shopify:\/\/shop_images\/4_6857f62e-ae25-4b41-bf32-13d17f0c6445.jpg",
+            "title": "Shimano 7 Speed",
+            "content": "The Shimano 7-speed gear shifter allows you to change the gears for adapting to different terrains on demand."
           }
         },
         "6975db6f-523a-462d-9d11-34bc2a782e86": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/4F71D734-A15B-4cfb-962A-1EBF3F6C43D9.jpg",
-            "title": "Headlight&Taillight",
-            "content": "flash when brake, making it a warning light at night."
+            "img_url": "shopify:\/\/shop_images\/5_7ce671aa-cef9-4139-8cbc-caf94aa55fa7.jpg",
+            "title": "Foldable Electric Bike",
+            "content": "The foldable and portable design makes the EB7 e-bike easy to carry and fits stock into any compact space, such as an apartment, subway, or car trunk."
           }
         },
         "0fca5180-c7db-4417-bf15-3919a6b1b0e9": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/00EAC9AF-A152-44f5-BA28-19D97CE61FE7.jpg",
-            "title": "Headlight&Taillight",
-            "content": "make riding more convenient and safer. The integrated taillight will flash when brake,"
+            "img_url": "shopify:\/\/shop_images\/6_5b07132b-eba1-450b-809b-4f54e6d2f0ee.jpg",
+            "title": "Dual Disc Brake System",
+            "content": "The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force at a short distance whether in wet or dry conditions."
           }
         }
       },
@@ -380,95 +436,65 @@
         "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_fe1dcdb6-6661-438d-9013-89028021b183.png",
-            "content": "The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
+            "content": "“ With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
+            "author": "",
             "link": ""
           }
         },
         "3d66d05d-4281-4058-8969-daf3e906cb0a": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "174b7348-f354-4208-9202-412ed6825b2b": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_fe1dcdb6-6661-438d-9013-89028021b183.png",
-            "content": "The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/1_e0f0454e-2779-4b2a-a4ec-5bd865c9503f.png",
+            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
+            "author": "",
             "link": ""
           }
         },
         "266228f3-1071-47eb-9c87-e8a8b43e8cea": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/3_13637426-1cdf-4bb3-a069-b2c35f88f483.png",
+            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point.  It offers Solid Performance and Range Without Breaking the Bank.\"",
+            "author": "",
             "link": ""
           }
         },
         "50efc65d-9121-4d55-84ce-7f6a64a691a2": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/2_bc0297c3-b738-4f2b-a31a-0e1a4939b5ba.png",
+            "content": "\"Jasionbike Offers Impressive Features and Durability at an Affordable Price.\"",
+            "author": "",
             "link": ""
           }
         },
-        "3088266e-b2bc-4dc0-ab86-f1c93c37a229": {
+        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/6.png",
+            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
+            "author": "",
             "link": ""
           }
         },
-        "115f59ae-03a2-4b13-bdb7-05998ce58798": {
+        "174b7348-f354-4208-9202-412ed6825b2b": {
           "type": "item",
           "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_fe1dcdb6-6661-438d-9013-89028021b183.png",
-            "content": "The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
-            "link": ""
-          }
-        },
-        "0a455be4-1008-473f-b60a-27c0a2123c0f": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/logo_7bab5344-f630-4bd4-ade7-1294f7ede1ee.png",
-            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
-            "author": "Electric bike report",
+            "img_url": "shopify:\/\/shop_images\/9.png",
+            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
+            "author": "",
             "link": ""
           }
         }
       },
       "block_order": [
         "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e",
-        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c",
         "3d66d05d-4281-4058-8969-daf3e906cb0a",
-        "174b7348-f354-4208-9202-412ed6825b2b",
         "266228f3-1071-47eb-9c87-e8a8b43e8cea",
         "50efc65d-9121-4d55-84ce-7f6a64a691a2",
-        "3088266e-b2bc-4dc0-ab86-f1c93c37a229",
-        "115f59ae-03a2-4b13-bdb7-05998ce58798",
-        "0a455be4-1008-473f-b60a-27c0a2123c0f"
+        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c",
+        "174b7348-f354-4208-9202-412ed6825b2b"
       ],
       "settings": {
         "top_padding": "large",
@@ -1085,24 +1111,7 @@
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
-        "bg_color": "#E8EBF0",
-        "full_width": false,
-        "layout": "textImage",
-        "layout_mb": "textImage",
-        "text_layout": "horizontal",
-        "text_align": "",
-        "text_main": "Dual 48V 15Ah Lithium Batteries",
-        "text_sub": "If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge. And worried about long charging times? It takes only 5 hours to get fully charged with 2 chargers.",
-        "btm_img_w": 100,
-        "i_size": "default"
-      }
-    },
-    "8efbf6e3-4247-42aa-8863-aa7417c05093": {
-      "type": "image-list-text",
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "bg_color": "#E8EBF0",
+        "bg_color": "#e8ebf0",
         "full_width": false,
         "layout": "textImage",
         "layout_mb": "textImage",
@@ -1122,6 +1131,8 @@
     "e68eb099-7351-402f-b1bd-aca6321f95c5",
     "39dc76e4-c3b9-4122-9cc3-fd6d1ce09635",
     "4119bd86-d7cf-47cb-a7a4-df5cb52dce21",
+    "4c3cf7d5-d7e1-40d3-b3bb-90f05859f867",
+    "8efbf6e3-4247-42aa-8863-aa7417c05093",
     "02d2466c-fc8b-4162-ae83-7c183e346acb",
     "1c692903-fb84-4c15-9118-167091dfb357",
     "88ba6988-6d22-4ff8-bc12-061daafb0e26",
@@ -1135,7 +1146,6 @@
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
     "167984018422fa69c0",
-    "27a0ad21-1126-4064-bdb4-ed1256fe3b98",
-    "8efbf6e3-4247-42aa-8863-aa7417c05093"
+    "27a0ad21-1126-4064-bdb4-ed1256fe3b98"
   ]
 }
