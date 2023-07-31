@@ -9,7 +9,7 @@
       {% assign class1 = "md:tw-w-4/5 md:tw-ml-[10%] tw-w-full tw-py-6 tw-absolute tw-pointer-events-none tw-top-0" %}
       {% if blkSt.image != blank %}
         {%- if forloop.first -%}
-        <h1 class="tw-absolute md:tw-top-12 md:tw-left-12 md:tw-text-4xl tw-top-6 tw-left-6 tw-text-2xl tw-z-[5]">{{blkSt.title}}</h1>
+        <h1 class="tw-absolute md:tw-top-12 md:tw-left-12 md:tw-text-4xl tw-top-6 tw-left-6 tw-text-2xl tw-z-[5] model_1">{{blkSt.title}}</h1>
         <div class="img-warp left-pane tw-top-0 tw-flex-[1_1_50%] tw-overflow-hidden tw-z-[4]" style="background-color:{{blkSt.bg_color}}; clip-path: inset(0px 0% 0px 0px);">
 
 
@@ -20,7 +20,7 @@
         </div>
         {%- endif -%}
         {%- if forloop.last -%}
-          <h1 class="tw-absolute md:tw-text-4xl md:tw-top-12 tw-top-6 md:tw-right-12 tw-right-6 tw-text-2xl tw-z-[4]">{{blkSt.title}}</h1>
+          <h1 class="tw-absolute md:tw-text-4xl md:tw-top-12 tw-top-6 md:tw-right-12 tw-right-6 tw-text-2xl tw-z-[4] model_2">{{blkSt.title}}</h1>
           <div class="right-pane tw-flex-[1_1_50%] tw-overflow-hidden tw-z-[3]" style="background-color:{{blkSt.bg_color}}; clip-path: inset(0px 0% 0px 0px);">
             <div class="{{ class1 }} tw-object-contain tw-z-20 tw-left-0">
               {% include 'aspect-ratio-img', media: blkSt.image ,class: 'tw-block'%}
@@ -67,6 +67,15 @@
       const maxPosition = 98;
       const limitedPosition = Math.min(Math.max(minPosition, dividerPosition), maxPosition);
     
+      if(limitedPosition > 80){
+        $(".model_1").show()
+        $(".model_2").hidden()
+      }elseif(limitedPosition < 80){
+        $(".model_1").show()
+        $(".model_2").hidden()
+      }
+
+
       leftPane.css('flex', `1 1 ${limitedPosition}%`);
       rightPane.css('flex', `1 1 ${100 - limitedPosition}%`);
       dividers.css('left', `${limitedPosition}%`);
@@ -78,8 +87,6 @@
 
     container.css('height', `${paneWrap.innerHeight()}px`);
   });
-
-  
 </script>
 
 

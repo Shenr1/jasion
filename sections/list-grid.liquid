@@ -9,27 +9,25 @@
    assign displayClass = "tw-block md:tw-hidden" 
    else 
  endcase 
- assign wapClass = "tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-6 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center tw-h-full" 
- assign imgClass = "md:tw-h-[6.5vw] tw-h-[10vw] md:tw-mr-4 tw-mr-2" 
- assign imgClass2 = "md:tw-h-[5vw] tw-h-[6vw] md:tw-mr-4 tw-mr-2" 
- assign sizeClass = "tw-h-full tw-object-contain" 
- assign conClass = "item-content tw-flex tw-flex-col " 
+ assign wapClass = "md:tw-mb-0 tw-mb-6 md:tw-px-0 tw-px-4" 
+ assign imgClass = "" 
+ assign imgClass2 = "" 
+ assign sizeClass = "tw-h-16 tw-mx-auto tw-mb-2" 
+ assign conClass = "[&>b]:xl:tw-text-3xl [&>b]:tw-text-2xl [&>span]:tw-text-stone-500 tw-text-center tw-flex tw-flex-col" 
  assign meta = product.metafields.custom 
 %}
 
-<div section-name="waterfall-grid" class="page-width {% render 'section-interva-set' , secSt:secSt %} {{displayClass}}">
-  <div class="tw-flex tw-flex-wrap">
+<div section-name="list-grid" class="page-width {% render 'section-interva-set' , secSt:secSt %} {{displayClass}}">
+  <div class="tw-flex tw-flex-wrap tw-justify-between">
     {% if meta.spec_icon_one != blank and meta.battery_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[34%] item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.battery_capacity }} </div>
-        </div>
+      <div class="{{wapClass}}">
+        <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
+        <div class="{{conClass}}"> {{ meta.battery_capacity }} </div>
       </div>
     {% endif %}
 
     {% if meta.spec_icon_four != blank and meta.per_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto 2xl:tw-flex-none tw-flex-1 item">
+      <div class="">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.per_charge }} </div>
@@ -38,7 +36,7 @@
     {% endif %}
 
     {% if meta.spec_icon_six != blank and meta.motor_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 item tw-w-auto 2xl:tw-flex-1">
+      <div class="">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.motor_capacity }} </div>
@@ -47,7 +45,7 @@
     {% endif %}
 
     {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%] md:tw-flex-none tw-flex-1 item">
+      <div class="">
         <div class="{{wapClass}}">
           <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
@@ -56,7 +54,7 @@
     {% endif %}
 
     {% if meta.spec_icon_two != blank and meta.pedal_assist != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[22%] item">
+      <div class="">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_two | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.pedal_assist }} </div>
@@ -65,7 +63,7 @@
     {% endif %}
 
     {% if meta.spec_icon_seven != blank and meta.tires != blank %}
-      <div class="md:tw-p-2 tw-p-1 item">
+      <div class="">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_seven | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.tires }} </div>
@@ -74,7 +72,7 @@
     {% endif %}
 
     {% if meta.spec_icon_five != blank and meta.max_load != blank %}
-      <div class="md:tw-p-2 tw-p-1 tw-flex-1 item">
+      <div class="">
         <div class="{{wapClass}}">
           <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_five | img_url:"master" }}"></div>
           <div class="{{conClass}}"> {{ meta.max_load }} </div>
@@ -87,7 +85,7 @@
 
 {% schema %}
 {
-  "name": "Waterfall grid v1.1",
+  "name": "List grid v1.1",
   "class":"waterfall-section",
   "settings": [
     {
@@ -173,7 +171,7 @@
   ],
   "presets": [
     {
-      "name": "Waterfall grid v1.1"
+      "name": "List grid v1.1"
     }
   ]
 }

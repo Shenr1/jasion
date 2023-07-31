@@ -197,7 +197,7 @@
     });
 
 
-    const itemColorElements = $('.item-color');
+    const itemColorElements = $('#shopify-section-{{section.id}} .item-color');
     const preloadImages = () => {
       itemColorElements.each(function() {
         const variantImage = $(this).data('variant-image');
@@ -209,8 +209,8 @@
 
     itemColorElements.on('mouseenter', function () {
       const variantImage = $(this).data('variant-image');
-      $(this).parents(".item-wrap").find('img').attr('src', variantImage);
-      $(this).parents(".item-wrap").find('img').attr('srcset', variantImage);
+      $(this).parents("#shopify-section-{{section.id}} .item-wrap").find('img').attr('src', variantImage);
+      $(this).parents("#shopify-section-{{section.id}} .item-wrap").find('img').attr('srcset', variantImage);
     });
 
 

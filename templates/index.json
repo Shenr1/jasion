@@ -93,7 +93,7 @@
         "8c853a2a-ff7c-4264-9a87-068f5db08b25": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Fast_delivery.png",
+            "img": "shopify:\/\/shop_images\/icon01.png",
             "text": "Fast Delivery",
             "text_sub": "1 to 3 day delivery to all 48 states"
           }
@@ -101,7 +101,7 @@
         "b5f1d3f9-46ab-46b9-aa71-a20d33b7b674": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/warranty.png",
+            "img": "shopify:\/\/shop_images\/icon02.png",
             "text": "1-Year Warranty",
             "text_sub": "One year warranty on your bike"
           }
@@ -109,7 +109,7 @@
         "f4434038-8fcd-49f4-8997-1f432e45ea1d": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Tax.png",
+            "img": "shopify:\/\/shop_images\/icon03.png",
             "text": "Tax-Free",
             "text_sub": "No need to pay 7-10% ST"
           }
@@ -117,7 +117,7 @@
         "33396831-3afc-4542-8514-184615ad43f8": {
           "type": "icon",
           "settings": {
-            "img": "shopify:\/\/shop_images\/14-Day_Trial.png",
+            "img": "shopify:\/\/shop_images\/icon04.png",
             "text": "14-Day Trial",
             "text_sub": "Don’t love it? Send it back to us."
           }
@@ -156,7 +156,7 @@
           "settings": {
             "title": "EB7 ST",
             "collection": "eb7-st首页展示",
-            "show_color": false
+            "show_color": true
           }
         },
         "bca2ce32-9de1-4101-8d69-7baba514e989": {
@@ -164,7 +164,7 @@
           "settings": {
             "title": "Combo Sale",
             "collection": "combo-sale首页展示",
-            "show_color": false
+            "show_color": true
           }
         }
       },
@@ -193,8 +193,8 @@
         "color": "#ffffff",
         "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5a19f91955a04476aee88e9036a87070.mp4",
         "image_video": "shopify:\/\/shop_images\/1_8a41e2b3-6530-463a-8a4f-a58e4815862c.jpg",
-        "img": "shopify:\/\/shop_images\/2_aadac64b-82a9-4c91-ae1f-bdde5ce37854.jpg",
-        "img_mb": "shopify:\/\/shop_images\/1_2e6045e0-a76a-4710-94db-f5169b40684a.jpg"
+        "img": "shopify:\/\/shop_images\/1332x510.jpg",
+        "img_mb": "shopify:\/\/shop_images\/670x1040.jpg"
       }
     },
     "7d70e5e0-c724-451c-b058-a5d251b8ba4b": {
@@ -333,37 +333,31 @@
         "24a559d2-0432-47fe-ba88-d4d776a6acc9": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
-          }
-        },
-        "66747990-5f06-46c7-9694-100aca623fb2": {
-          "type": "review",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+            "img": "shopify:\/\/shop_images\/01.jpg"
           }
         },
         "a4105e18-bf39-4be3-90ad-53603cb21fbd": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+            "img": "shopify:\/\/shop_images\/03_ff777e44-d1ff-4ba2-9e47-6426fd93c42b.jpg"
           }
         },
         "da8d2211-dc06-450e-9fae-433494b7e3df": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+            "img": "shopify:\/\/shop_images\/02_6b5daef9-347d-4716-bf4b-1bcc6f27a68b.jpg"
           }
         },
         "cf10d993-35b7-4bca-b8ff-d3fb9e5a6b79": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+            "img": "shopify:\/\/shop_images\/04.jpg"
           }
         },
         "274f786a-7565-403f-911b-55439bb86ab6": {
           "type": "review",
           "settings": {
-            "img": "shopify:\/\/shop_images\/1_57e05033-42a6-4c44-acac-828827316bc9.jpg"
+            "img": "shopify:\/\/shop_images\/05.jpg"
           }
         }
       },
@@ -373,7 +367,6 @@
         "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae",
         "61d460d7-d97f-430b-bf86-53a604c0dd5d",
         "24a559d2-0432-47fe-ba88-d4d776a6acc9",
-        "66747990-5f06-46c7-9694-100aca623fb2",
         "a4105e18-bf39-4be3-90ad-53603cb21fbd",
         "da8d2211-dc06-450e-9fae-433494b7e3df",
         "cf10d993-35b7-4bca-b8ff-d3fb9e5a6b79",
@@ -406,6 +399,8 @@
         "6dc739f2-6f74-46e1-ac60-c7321cbea6aa": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-4_d4474b52-4953-4662-af92-0fc9b5ffe294.jpg",
+            "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
             "link": "",
             "title": "",
             "content": ""
@@ -414,6 +409,7 @@
         "9ef63c0e-e943-4ff7-876b-976f3a442791": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-7_faec77e8-ca83-4163-96c2-02fdc7a84b50.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -422,6 +418,7 @@
         "daebd159-13ed-41c7-af79-c23a2c256ef3": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-5_1e9c4626-24f6-43ed-9638-78a0bd74d2e6.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -430,6 +427,7 @@
         "6c81165c-25d6-4069-bed7-e7181ddf744b": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-2_9a3669f0-b669-42f0-889f-1df078780454.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -438,6 +436,7 @@
         "358a16bf-9024-4f56-b08b-31f23289dc95": {
           "type": "text_block",
           "settings": {
+            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-2_9a3669f0-b669-42f0-889f-1df078780454.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -455,6 +454,7 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "default",
+        "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-8_0ff739cb-b30e-4c84-92aa-47b14106cb6b.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",
         "link": "shopify:\/\/collections"
       }
