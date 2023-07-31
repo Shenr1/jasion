@@ -1,0 +1,1152 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": true
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "50af9483-df47-4ef7-ade4-a4946897ba75": {
+          "type": "klarna_btn",
+          "disabled": true,
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/Klarna-Logo.png",
+            "html": "<p class=\"tw-text-2xl tw-mb-0 tw-font-semibold tw-leading-none\">0% APR<\/p>\n                          <p class=\"tw-text-lg tw-mb-0 tw-leading-tight\">12 months, $65.7\/month<\/p>",
+            "link": ""
+          }
+        },
+        "8f066494-8178-4a73-a4af-ba653a7633a6": {
+          "type": "custom",
+          "settings": {
+            "code": "<div class=\"tw-flex tw-flex-wrap\">\n  <b class=\"tw-text-xl tw-mr-4\">Email:  support@jasionbike.com<\/b> \n  <b class=\"tw-text-xl\">Call:  +1 888-559-3099<\/b>\n<\/div>"
+          }
+        },
+        "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
+          "type": "payment_icon",
+          "settings": {
+            "text": "Pay with Ease"
+          }
+        },
+        "e401c66a-9f93-4c53-9ec3-a55978b673da": {
+          "type": "shipping_icon",
+          "settings": {
+            "text": "Trusted Delivery",
+            "image": "shopify:\/\/shop_images\/pic.png"
+          }
+        },
+        "6fedc0d2-97e5-4451-befb-caed84101eac": {
+          "type": "question",
+          "settings": {
+            "title": "Have questions?",
+            "text": "<p>Questions? We’re happy to help！   <\/p>"
+          }
+        },
+        "0a8ce733-db1b-43f2-bf3c-502113e4e69a": {
+          "type": "switch_tabs",
+          "settings": {
+            "img_1": "shopify:\/\/shop_images\/1_cd88a3a9-a671-4a5e-b381-c58c0f04cbf3.png",
+            "content_1": "Shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).\n<br>The SHIPPING fee will be calculated at the checkout page. Your eBike will be shipped from our CA\/NJ warehouse.\n<br>For in-stock orders, please allow 1-2 business days to process your order after being placed online. Tracking information will be sent to your email address once an order is shipped.\n<br>We DO NOT ship to PO BOXES.",
+            "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
+            "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
+            "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
+            "content_3": "For non-quality issues, customer may ask for product replacement or return within 14 days after receiving it. The customer is responsible for the return shipping cost of $180. Jasion will provide a return shipping label, and the designated carrier will collect the return package.\n\n<br>*Click <a style=\"text-decoration: underline;\" target=\"_blank\" href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a>\nto get more information."
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "50af9483-df47-4ef7-ade4-a4946897ba75",
+        "8f066494-8178-4a73-a4af-ba653a7633a6",
+        "fc8669d4-8596-4ce3-abb7-9631a4848ccf",
+        "e401c66a-9f93-4c53-9ec3-a55978b673da",
+        "6fedc0d2-97e5-4451-befb-caed84101eac",
+        "0a8ce733-db1b-43f2-bf3c-502113e4e69a"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "partial",
+        "enable_video_looping": true,
+        "product_video_style": "muted",
+        "show_freegift": false,
+        "free_title": "Free Gift (Ends Soon)",
+        "show_upsell": true,
+        "upsell_title": "Most Popular Upgrades"
+      }
+    },
+    "nav": {
+      "type": "product-nav",
+      "settings": {
+      }
+    },
+    "2766104c-3f2e-4822-8526-63352d56697a": {
+      "type": "image-list-text",
+      "blocks": {
+        "9dbc07ee-3cb4-4efa-87c5-5ebfd4146124": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/battery.png",
+            "item_title": "48V 10Ah",
+            "item_dec": "Battery Capacity"
+          }
+        },
+        "bd9cd135-bf35-4017-8a0a-a615de65e88d": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/pedal.png",
+            "item_title": "5 Level",
+            "item_dec": "Pedal Assist"
+          }
+        },
+        "9a8be5dd-0d66-41e5-81db-3d85ccf5af4a": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/charge.png",
+            "item_title": "4-5 Hours",
+            "item_dec": "To Fully Charge"
+          }
+        },
+        "bd6280a4-486b-48bb-bba3-5bbe9ca81674": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/range.png",
+            "item_title": "45 Miles",
+            "item_dec": "Per Charge"
+          }
+        },
+        "cac09a9d-98e8-4963-96dc-c42a30a31119": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/max_load.png",
+            "item_title": "300 Lbs",
+            "item_dec": "Max Load"
+          }
+        },
+        "eca641e1-993b-4002-843d-5e9c83291fef": {
+          "type": "item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/motor.png",
+            "item_title": "500W",
+            "item_dec": "Motor Capacity"
+          }
+        }
+      },
+      "block_order": [
+        "9dbc07ee-3cb4-4efa-87c5-5ebfd4146124",
+        "bd9cd135-bf35-4017-8a0a-a615de65e88d",
+        "9a8be5dd-0d66-41e5-81db-3d85ccf5af4a",
+        "bd6280a4-486b-48bb-bba3-5bbe9ca81674",
+        "cac09a9d-98e8-4963-96dc-c42a30a31119",
+        "eca641e1-993b-4002-843d-5e9c83291fef"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#f8f8f8",
+        "bg_img": "shopify:\/\/shop_images\/1920x852.jpg",
+        "bg_img_mb": "shopify:\/\/shop_images\/750x952.jpg",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "text-center",
+        "text_main": "Superior Performance",
+        "text_sub": "EB7 ST is a super cost-effective and high-performance full-map e-bike designed by Jasion team. EB7 ST is a super cost-effective and high-performance full-map e-bike designed by Jasion team. With double shock absorption, fat tires, and exceptional handling you can be sure of the most comfortable ride across whichever terrain your choose.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "e68eb099-7351-402f-b1bd-aca6321f95c5": {
+      "type": "image-list-text",
+      "blocks": {
+        "64febfce-98e3-4403-9737-4c9f67b672ce": {
+          "type": "item",
+          "settings": {
+            "item_title": "48V*500W",
+            "item_dec": "Brushless Gear Motor"
+          }
+        },
+        "cc2fd1df-24d5-46f4-a902-159540bfbcd5": {
+          "type": "item",
+          "settings": {
+            "item_title": "80Nm",
+            "item_dec": "Max torque"
+          }
+        },
+        "62108955-591e-4381-a76b-a6acc64c0e32": {
+          "type": "item",
+          "settings": {
+            "item_title": "7 Gears",
+            "item_dec": "Shimano"
+          }
+        },
+        "8452b7c7-e187-4df8-8e5b-b66c5169dd87": {
+          "type": "item",
+          "settings": {
+            "item_title": "20.5MPH",
+            "item_dec": "Top Speed"
+          }
+        }
+      },
+      "block_order": [
+        "64febfce-98e3-4403-9737-4c9f67b672ce",
+        "cc2fd1df-24d5-46f4-a902-159540bfbcd5",
+        "62108955-591e-4381-a76b-a6acc64c0e32",
+        "8452b7c7-e187-4df8-8e5b-b66c5169dd87"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "full_width": false,
+        "layout": "imageText",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/01_091e43d8-261c-40d3-8880-dde2587257aa.jpg",
+        "text_main": "850W of Peak Power",
+        "text_sub": "New ST Motor provides 850W Peak output at full power! Use 100% manual pedaling Or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "39dc76e4-c3b9-4122-9cc3-fd6d1ce09635": {
+      "type": "image-list-text",
+      "blocks": {
+        "70b204c1-c66b-498c-9ba1-c6bb299f7e1f": {
+          "type": "item",
+          "settings": {
+            "item_title": "48V 10Ah",
+            "item_dec": "Battery Capacity"
+          }
+        },
+        "b12db139-846a-43e5-b093-61c22cc258cf": {
+          "type": "item",
+          "settings": {
+            "item_title": "4-5 Hours",
+            "item_dec": "To Fully Charge"
+          }
+        },
+        "cddea7fd-e97d-4517-87ac-0e8e44af70e5": {
+          "type": "item",
+          "settings": {
+            "item_title": "45 Miles",
+            "item_dec": "Per Charge"
+          }
+        },
+        "9e53caa3-3151-46cc-b5cd-6d50d5b3560b": {
+          "type": "item",
+          "settings": {
+            "item_title": "20.5 MPH",
+            "item_dec": "Top Speed"
+          }
+        }
+      },
+      "block_order": [
+        "70b204c1-c66b-498c-9ba1-c6bb299f7e1f",
+        "b12db139-846a-43e5-b093-61c22cc258cf",
+        "cddea7fd-e97d-4517-87ac-0e8e44af70e5",
+        "9e53caa3-3151-46cc-b5cd-6d50d5b3560b"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "rgba(0,0,0,0)",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/02_c510073f-b056-4ef9-8fd8-425bd9b88ed9.jpg",
+        "text_main": "Removable & Built-in Battery",
+        "text_sub": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "4119bd86-d7cf-47cb-a7a4-df5cb52dce21": {
+      "type": "images-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "full_width": true,
+        "bg_color": "",
+        "bg_img": "shopify:\/\/shop_images\/e8337edba82d951a4f5b66e2743c05da.jpg",
+        "title_fixed": true,
+        "fixed_style": "style2",
+        "title": "Low-step Frame Design",
+        "title_color": "#ffffff",
+        "content": "Featuring a 16.5\" stand-over height, this ebike is perfect for those needing a more approachable package without sacrificing features or functionality",
+        "content_color": "#eaeaea",
+        "title_size": "default",
+        "content_size": "default",
+        "wap_pad": "center"
+      }
+    },
+    "4c3cf7d5-d7e1-40d3-b3bb-90f05859f867": {
+      "type": "image-list-text",
+      "blocks": {
+        "bdbc2eef-02aa-451f-a1dd-af39be666b93": {
+          "type": "item",
+          "settings": {
+            "item_title": "20\"x3\"",
+            "item_dec": "Puncture Resistant Fat Tire"
+          }
+        },
+        "a8cab5b0-673f-4c45-952e-b14f7618bee0": {
+          "type": "item",
+          "settings": {
+            "item_title": "80Nm",
+            "item_dec": "Max Torque"
+          }
+        }
+      },
+      "block_order": [
+        "bdbc2eef-02aa-451f-a1dd-af39be666b93",
+        "a8cab5b0-673f-4c45-952e-b14f7618bee0"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#e8ebf0",
+        "full_width": false,
+        "layout": "imageText",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/04_1a383c1f-e6a6-4283-92d2-74f391761425.jpg",
+        "text_main": "20\"x3\"Puncture Resistant Fat Tire",
+        "text_sub": "The high-quality fat tires provide extra protection against punctures from thorns, glass, and other small materials.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "8efbf6e3-4247-42aa-8863-aa7417c05093": {
+      "type": "image-list-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#e8ebf0",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "img": "shopify:\/\/shop_images\/03_78c8d8ec-0409-468d-92bd-4565a22526c1.jpg",
+        "text_main": "Dual Suspension System",
+        "text_sub": "Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    },
+    "02d2466c-fc8b-4162-ae83-7c183e346acb": {
+      "type": "image-text-switch",
+      "blocks": {
+        "faaccef3-d8cc-4bce-ab3b-c49361b72a78": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/1_e82c4a13-3ce2-4f51-a722-1a75487432b3.jpg",
+            "title": "Headlight&Taillight",
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
+          }
+        },
+        "534c34c8-2904-4ea0-bd4b-11604dc84306": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/2_afc5cb2e-0111-43a1-b20a-9ce19bc7528b.jpg",
+            "title": "USB Charging Port",
+            "content": "Realize the scenario of helping to charge your phone while riding, no need to worry about the lack of power for your phone when riding with Jasion EB7."
+          }
+        },
+        "bf1ba2b5-17b7-4103-b925-00f197f00c82": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/3_19d483ab-812b-457d-babd-c844b5b65b85.jpg",
+            "title": "Foldable Footrests",
+            "content": "EB7 2.0 in order to make it more convenient for users to fold and place the back of the car, so the pedals made an innovative breakthrough, the pedals folded to make the electric bike more stable and less prone to bumps."
+          }
+        },
+        "6295756f-475e-46a1-b7a0-036c3c8d492b": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/4_6857f62e-ae25-4b41-bf32-13d17f0c6445.jpg",
+            "title": "Shimano 7 Speed",
+            "content": "The Shimano 7-speed gear shifter allows you to change the gears for adapting to different terrains on demand."
+          }
+        },
+        "6975db6f-523a-462d-9d11-34bc2a782e86": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/5_7ce671aa-cef9-4139-8cbc-caf94aa55fa7.jpg",
+            "title": "Foldable Electric Bike",
+            "content": "The foldable and portable design makes the EB7 e-bike easy to carry and fits stock into any compact space, such as an apartment, subway, or car trunk."
+          }
+        },
+        "0fca5180-c7db-4417-bf15-3919a6b1b0e9": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/6_5b07132b-eba1-450b-809b-4f54e6d2f0ee.jpg",
+            "title": "Dual Disc Brake System",
+            "content": "The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force at a short distance whether in wet or dry conditions."
+          }
+        }
+      },
+      "block_order": [
+        "faaccef3-d8cc-4bce-ab3b-c49361b72a78",
+        "534c34c8-2904-4ea0-bd4b-11604dc84306",
+        "bf1ba2b5-17b7-4103-b925-00f197f00c82",
+        "6295756f-475e-46a1-b7a0-036c3c8d492b",
+        "6975db6f-523a-462d-9d11-34bc2a782e86",
+        "0fca5180-c7db-4417-bf15-3919a6b1b0e9"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "mb_style": "scroll"
+      }
+    },
+    "1c692903-fb84-4c15-9118-167091dfb357": {
+      "type": "text-logo-switch",
+      "blocks": {
+        "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
+            "content": "“ With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
+            "author": "",
+            "link": ""
+          }
+        },
+        "3d66d05d-4281-4058-8969-daf3e906cb0a": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/1_e0f0454e-2779-4b2a-a4ec-5bd865c9503f.png",
+            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
+            "author": "",
+            "link": ""
+          }
+        },
+        "266228f3-1071-47eb-9c87-e8a8b43e8cea": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/3_13637426-1cdf-4bb3-a069-b2c35f88f483.png",
+            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point.  It offers Solid Performance and Range Without Breaking the Bank.\"",
+            "author": "",
+            "link": ""
+          }
+        },
+        "50efc65d-9121-4d55-84ce-7f6a64a691a2": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/2_bc0297c3-b738-4f2b-a31a-0e1a4939b5ba.png",
+            "content": "\"Jasionbike Offers Impressive Features and Durability at an Affordable Price.\"",
+            "author": "",
+            "link": ""
+          }
+        },
+        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/6.png",
+            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
+            "author": "",
+            "link": ""
+          }
+        },
+        "174b7348-f354-4208-9202-412ed6825b2b": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/9.png",
+            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
+            "author": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e",
+        "3d66d05d-4281-4058-8969-daf3e906cb0a",
+        "266228f3-1071-47eb-9c87-e8a8b43e8cea",
+        "50efc65d-9121-4d55-84ce-7f6a64a691a2",
+        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c",
+        "174b7348-f354-4208-9202-412ed6825b2b"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "Read About Us",
+        "show_mobile": false
+      }
+    },
+    "88ba6988-6d22-4ff8-bc12-061daafb0e26": {
+      "type": "images-text",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "full_width": true,
+        "bg_color": "",
+        "bg_img": "shopify:\/\/shop_images\/gif.gif",
+        "bg_img_mb": "shopify:\/\/shop_images\/gif_d7ba2060-cd17-4abb-879a-a5564ca2170b.gif",
+        "title_fixed": true,
+        "fixed_style": "style1",
+        "title": "Leading Adventure Design",
+        "title_color": "#ffffff",
+        "content": "Jasion e-bike fish-inspired evolution Flying streamlinedesign & speedboost technology.",
+        "content_color": "#eaeaea",
+        "title_size": "default",
+        "content_size": "default",
+        "wap_pad": "small"
+      }
+    },
+    "c63d8c13-70d3-4c19-b9f8-4e05d35645cd": {
+      "type": "story-swiper",
+      "blocks": {
+        "c953542f-7a28-44ab-b683-49f324d4e9ab": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/Dingtalk_20230504114310_57a043e2-1cb2-4f07-bb8d-517833e59e2c.jpg",
+            "video_key": "",
+            "title": "Expand the Possibilities of Adventure",
+            "content": "“ In this episode, we interviewed Andrew Ross in Temecula, CA. As a cargo pilot, he flies his Bush plane all over the United States. After getting his Heybike, Mars, he starts to expand the possibilities of the adventures that he can do and it’s made a huge difference. ”",
+            "author": "Andrew Ross"
+          }
+        },
+        "a72fce02-a8a6-414e-8d84-dd30a57194b6": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify:\/\/shop_images\/72BD6114-9597-40d3-947F-7CD2ACF0B259.jpg",
+            "video_key": "",
+            "title": "Headlight&Taillight",
+            "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night.",
+            "author": "Andrew Ross"
+          }
+        }
+      },
+      "block_order": [
+        "c953542f-7a28-44ab-b683-49f324d4e9ab",
+        "a72fce02-a8a6-414e-8d84-dd30a57194b6"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "large",
+        "title": "Customer Stories",
+        "title_color": "#333333"
+      }
+    },
+    "d6bf6b57-de5e-49ce-8dce-f69a60afd626": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16713788391661__d6bf6b57-de5e-49ce-8dce-f69a60afd626-1688713541fe941190-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "EB7 ST FAQs",
+            "title_size": 49,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/FAQ_1920x300_53b7f16e-8e51-4e4a-b9f1-7f6982d6aa65.jpg",
+            "image_mobile": "shopify:\/\/shop_images\/FAQ_1920x300_53b7f16e-8e51-4e4a-b9f1-7f6982d6aa65.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16713788391661__d6bf6b57-de5e-49ce-8dce-f69a60afd626-1688713541fe941190-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd": {
+      "type": "Special",
+      "blocks": {
+        "11c85a85-47c7-4b17-a3a5-a59b27f97800": {
+          "type": "order",
+          "settings": {
+            "title": "Does my height suit this bike?",
+            "text": "<p>The recommended rider height is 5'1\"-6'2\".<\/p>"
+          }
+        },
+        "1a9c374d-f57a-4144-83ca-d2c71711bec1": {
+          "type": "order",
+          "settings": {
+            "title": "What is the top speed of this bike？",
+            "text": "<p>The top speed of EB7 ST is 33km\/h(20.5MPH).<\/p>"
+          }
+        },
+        "24351709-2ab1-4bde-8fa2-a005d0d67ec6": {
+          "type": "order",
+          "settings": {
+            "title": "Does the bike come with most assembly?",
+            "text": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on the product page.<\/p>"
+          }
+        },
+        "fcf4cf5d-89d9-4629-9e33-3315ead6e993": {
+          "type": "order",
+          "settings": {
+            "title": "How long does it take to fully charge the battery?",
+            "text": "<p>It will take 4-5 hours.<\/p>"
+          }
+        },
+        "b7035c35-1603-4e7d-94d4-62031da17bd6": {
+          "type": "order",
+          "settings": {
+            "title": "How long will it take for my shipment to arrive?",
+            "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "11c85a85-47c7-4b17-a3a5-a59b27f97800",
+        "1a9c374d-f57a-4144-83ca-d2c71711bec1",
+        "24351709-2ab1-4bde-8fa2-a005d0d67ec6",
+        "fcf4cf5d-89d9-4629-9e33-3315ead6e993",
+        "b7035c35-1603-4e7d-94d4-62031da17bd6"
+      ],
+      "custom_css": [
+        ".index-section {margin-top: 2rem;}"
+      ],
+      "settings": {
+        "title": "",
+        "sp_faq": true
+      }
+    },
+    "284f41b4-084a-4a8d-8976-b3fa9fef9ee6": {
+      "type": "product-modes",
+      "disabled": true,
+      "blocks": {
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-0": {
+          "type": "colum",
+          "settings": {
+            "title": "01. Pedal Assist Mode",
+            "text": "Use the display to adjust the assist level from 1-3 to meet your daily needs."
+          }
+        },
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-1": {
+          "type": "colum",
+          "settings": {
+            "title": "02. Half Twist Throttle",
+            "text": "Use the Half Twist Throttle to accelerate your bike freely."
+          }
+        },
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-2": {
+          "type": "colum",
+          "settings": {
+            "title": "03. Odometer",
+            "text": "Set the assist level to 0 and pedal like a normal bike."
+          }
+        },
+        "6c29e716-892e-4d6b-a463-9634ef79c3c1": {
+          "type": "colum",
+          "settings": {
+            "title": "04. Booster Mode",
+            "text": "The e-bike will travel at 6 km\/h (3.73miles\/h), easy to push."
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-0",
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-1",
+        "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-2",
+        "6c29e716-892e-4d6b-a463-9634ef79c3c1"
+      ],
+      "settings": {
+        "title": "Jasion EB5 Technology Patents Four Working Modes",
+        "text": "<p>EB5 adds booster mode to the 4 basic modes. The Booster mode can help you push your EB5 effortlessly. Especially when you wheel the bike uphill, which will save you a lot of effort.<\/p>",
+        "image": "shopify:\/\/shop_images\/cbb87ce47ccf730916d65c822bf1e7fe.jpg",
+        "title_two": "Removable &  Built-in Battery",
+        "text_two": "<p>A hidden and removable lithium-ion battery makes for a clean design and makes charging more convenient while powering your ride for up to 40 miles on a single charge. <\/p>",
+        "image_two": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_c446170d-848e-477f-ba18-57148ad88e09.jpg"
+      }
+    },
+    "42e88095-3500-4892-98dd-ff85f2c80402": {
+      "type": "product-video",
+      "settings": {
+        "title": "Assembly Instructions",
+        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
+        "is_open": true
+      }
+    },
+    "fa6c41da-f62f-4770-a576-6e42860d7e0b": {
+      "type": "product-spec",
+      "blocks": {
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-0": {
+          "type": "colum",
+          "settings": {
+            "title": "Battery",
+            "text": "48V 10Ah",
+            "dis": "Lithium Battery"
+          }
+        },
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-1": {
+          "type": "colum",
+          "settings": {
+            "title": "Charging Time",
+            "text": "4-5 hours",
+            "dis": ""
+          }
+        },
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-2": {
+          "type": "colum",
+          "settings": {
+            "title": "Charger",
+            "text": "48V\/2A",
+            "dis": ""
+          }
+        },
+        "da70ceb5-5929-45b5-996c-2f0a543b17e3": {
+          "type": "colum",
+          "settings": {
+            "title": "Hub Motor",
+            "text": "500W",
+            "dis": "Brushless Gear Motor"
+          }
+        },
+        "d269ea1a-f74e-4dbf-aca6-47703f90fed9": {
+          "type": "colum",
+          "settings": {
+            "title": "Range",
+            "text": "45 Miles",
+            "dis": "Pedal Assist"
+          }
+        },
+        "75ef3833-2923-42fd-8a27-61b79094fb7c": {
+          "type": "colum",
+          "settings": {
+            "title": "Pedal",
+            "text": "1-5 Level",
+            "dis": "Assist Intelligent 1-5 Level Pedal Assist"
+          }
+        },
+        "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd": {
+          "type": "colum",
+          "settings": {
+            "title": "Brakes",
+            "text": "160mm",
+            "dis": ""
+          }
+        },
+        "c6bfb3aa-7fef-4cee-94f7-162da628af38": {
+          "type": "colum",
+          "settings": {
+            "title": "Tires",
+            "text": "20\" x 3\"",
+            "dis": ""
+          }
+        },
+        "7a6d0154-da12-4922-9406-cb0ece31b6e1": {
+          "type": "colum",
+          "settings": {
+            "title": "MAX Payload Capacity",
+            "text": "300 LBS",
+            "dis": ""
+          }
+        },
+        "97b19507-6f34-4c2d-b7df-1ce217c7f17f": {
+          "type": "colum",
+          "settings": {
+            "title": "Product Dimensions",
+            "text": "68.9x24.8x49.6 (Inch)",
+            "dis": ""
+          }
+        },
+        "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
+          "type": "colum",
+          "settings": {
+            "title": "Folding Dimensions",
+            "text": "36*21*29(Inch)",
+            "dis": ""
+          }
+        },
+        "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0": {
+          "type": "colum",
+          "settings": {
+            "title": "Product Weight",
+            "text": "62.8LBS(28.5KG)",
+            "dis": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-0",
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-1",
+        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-2",
+        "da70ceb5-5929-45b5-996c-2f0a543b17e3",
+        "d269ea1a-f74e-4dbf-aca6-47703f90fed9",
+        "75ef3833-2923-42fd-8a27-61b79094fb7c",
+        "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd",
+        "c6bfb3aa-7fef-4cee-94f7-162da628af38",
+        "7a6d0154-da12-4922-9406-cb0ece31b6e1",
+        "97b19507-6f34-4c2d-b7df-1ce217c7f17f",
+        "6fc1d007-7fbd-4646-bdf9-e613017f5504",
+        "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0"
+      ],
+      "settings": {
+        "title": "Specifications",
+        "is_open": false
+      }
+    },
+    "b77dda8e-ede6-42af-956c-a823223f7dfd": {
+      "type": "product-size",
+      "blocks": {
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-0": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "A",
+            "title": "Total Length",
+            "text": "68\""
+          }
+        },
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-1": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "B",
+            "title": "Handlebar Height",
+            "text": "42.5\""
+          }
+        },
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-2": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "C",
+            "title": "Wheelbase",
+            "text": "42\""
+          }
+        },
+        "7d4c68ef-5fde-4e4d-8fa6-1833282d5618": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "D",
+            "title": "Minimum Seat Height",
+            "text": "30\""
+          }
+        },
+        "602fd883-223f-4ae0-bbe7-acac4edb5b52": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "E",
+            "title": "Maximum Seat Height",
+            "text": "39\""
+          }
+        },
+        "5c6bd7e4-a84f-4673-b2b6-be53ed7dc646": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "F",
+            "title": "Chain Stay length",
+            "text": "18\""
+          }
+        },
+        "f0251f85-8ec5-42cd-9a4c-355b1616fc96": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "G",
+            "title": "Stand Height",
+            "text": "30\""
+          }
+        },
+        "5d2209a0-ca5b-427e-92aa-7a5fd31fb37d": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "H",
+            "title": "Top Tube Length",
+            "text": "23\""
+          }
+        },
+        "60e270cc-2cbb-488f-b7bc-bb69cbf16a91": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "I",
+            "title": "Wheel Diameter",
+            "text": "25\""
+          }
+        },
+        "cabc8b27-0138-49c2-b0c6-a51404c00952": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "J",
+            "title": "Head Tube Length",
+            "text": "7\""
+          }
+        },
+        "00686f5c-061f-4f77-9f9f-9d20ff395138": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "K",
+            "title": "Handlebar Length",
+            "text": "25\""
+          }
+        },
+        "ec7d9807-8bd6-48e6-bc70-5b790aa61492": {
+          "type": "colum",
+          "settings": {
+            "xuhao": "L",
+            "title": "Minimum Seat to Floor",
+            "text": "33.5\""
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-0",
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-1",
+        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-2",
+        "7d4c68ef-5fde-4e4d-8fa6-1833282d5618",
+        "602fd883-223f-4ae0-bbe7-acac4edb5b52",
+        "5c6bd7e4-a84f-4673-b2b6-be53ed7dc646",
+        "f0251f85-8ec5-42cd-9a4c-355b1616fc96",
+        "5d2209a0-ca5b-427e-92aa-7a5fd31fb37d",
+        "60e270cc-2cbb-488f-b7bc-bb69cbf16a91",
+        "cabc8b27-0138-49c2-b0c6-a51404c00952",
+        "00686f5c-061f-4f77-9f9f-9d20ff395138",
+        "ec7d9807-8bd6-48e6-bc70-5b790aa61492"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1550x455-eb7_st.jpg",
+        "mb_image": "shopify:\/\/shop_images\/610x715_-EB7.jpg",
+        "title": "Sizing"
+      }
+    },
+    "2970933c-48cf-4d97-9043-4bd83129230b": {
+      "type": "product-faq",
+      "disabled": true,
+      "blocks": {
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0": {
+          "type": "question",
+          "settings": {
+            "title": "Does my height suit this bike?",
+            "text": "<p>The recommended rider height is  5'1\"-6'2\".<\/p>"
+          }
+        },
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-1": {
+          "type": "question",
+          "settings": {
+            "title": "What is the top speed of this bike?",
+            "text": "<p>The top speed of EB7 ST is 33km\/h(20.5MPH).<\/p>"
+          }
+        },
+        "6fae0f7c-5907-4728-800d-d14bb312b273": {
+          "type": "question",
+          "settings": {
+            "title": "Does the bike come with most assembly?",
+            "text": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on the product page.<\/p>"
+          }
+        },
+        "1c1bc88e-4611-4338-b9e2-dd0bd44d220b": {
+          "type": "question",
+          "settings": {
+            "title": "How long does it take to fully charge the battery?",
+            "text": "<p>It will take 4-5 hours.<\/p>"
+          }
+        },
+        "824f614f-a3e7-4d79-969e-209105165519": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take for my shipment to arrive?",
+            "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0",
+        "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-1",
+        "6fae0f7c-5907-4728-800d-d14bb312b273",
+        "1c1bc88e-4611-4338-b9e2-dd0bd44d220b",
+        "824f614f-a3e7-4d79-969e-209105165519"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "8d610dcc-2ccf-45ab-92d5-71bc0eff844c": {
+      "type": "product-box",
+      "blocks": {
+        "4796a31e-27a5-4f93-8727-9e5ca70b0ece": {
+          "type": "colum",
+          "settings": {
+            "title": "1* ELECTRIC BIKE"
+          }
+        },
+        "4d5e855d-e1d1-42e9-95c5-ca3ef87ee404": {
+          "type": "colum",
+          "settings": {
+            "title": "1*BATTERY"
+          }
+        },
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-0": {
+          "type": "colum",
+          "settings": {
+            "title": "1* User Manual"
+          }
+        },
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-1": {
+          "type": "colum",
+          "settings": {
+            "title": "2* Pedals"
+          }
+        },
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-2": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Front Wheel Screw"
+          }
+        },
+        "eefe159b-9bb8-47f4-84d1-3dab23705bcc": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Front Wheel"
+          }
+        },
+        "2b7c17be-0198-4a6a-9a64-d996807225f7": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Seat with Tail Light"
+          }
+        },
+        "c48da3a6-f384-4998-9020-4d07496ccf44": {
+          "type": "colum",
+          "settings": {
+            "title": "2* Wrenchs 3* Allen Key Wrenchs"
+          }
+        },
+        "b97ef82d-1bb3-4b05-a896-95dd6523230c": {
+          "type": "colum",
+          "settings": {
+            "title": "2* Keys"
+          }
+        },
+        "66bbefb6-b1e6-4db8-b3b9-ed430356bc92": {
+          "type": "colum",
+          "settings": {
+            "title": "1* Charger & 1*USB Cable"
+          }
+        }
+      },
+      "block_order": [
+        "4796a31e-27a5-4f93-8727-9e5ca70b0ece",
+        "4d5e855d-e1d1-42e9-95c5-ca3ef87ee404",
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-0",
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-1",
+        "template--18321957847314__8d610dcc-2ccf-45ab-92d5-71bc0eff844c-167983531973396a73-2",
+        "eefe159b-9bb8-47f4-84d1-3dab23705bcc",
+        "2b7c17be-0198-4a6a-9a64-d996807225f7",
+        "c48da3a6-f384-4998-9020-4d07496ccf44",
+        "b97ef82d-1bb3-4b05-a896-95dd6523230c",
+        "66bbefb6-b1e6-4db8-b3b9-ed430356bc92"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1550x455-eb7st.jpg",
+        "mb_image": "shopify:\/\/shop_images\/eb7st.jpg",
+        "title": "What's in the Box?",
+        "align_text": "left",
+        "is_open": false
+      }
+    },
+    "167984018422fa69c0": {
+      "type": "apps",
+      "blocks": {
+        "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "27a0ad21-1126-4064-bdb4-ed1256fe3b98": {
+      "type": "image-list-text",
+      "blocks": {
+        "9f4f0016-6df3-495b-bc5a-f032f458e63d": {
+          "type": "item",
+          "settings": {
+            "item_title": "Density Increased",
+            "item_dec": "21%"
+          }
+        }
+      },
+      "block_order": [
+        "9f4f0016-6df3-495b-bc5a-f032f458e63d"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "bg_color": "#e8ebf0",
+        "full_width": false,
+        "layout": "textImage",
+        "layout_mb": "textImage",
+        "text_layout": "horizontal",
+        "text_align": "",
+        "text_main": "Dual 48V 15Ah Lithium Batteries",
+        "text_sub": "If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge. And worried about long charging times? It takes only 5 hours to get fully charged with 2 chargers.",
+        "btm_img_w": 100,
+        "i_size": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "nav",
+    "2766104c-3f2e-4822-8526-63352d56697a",
+    "e68eb099-7351-402f-b1bd-aca6321f95c5",
+    "39dc76e4-c3b9-4122-9cc3-fd6d1ce09635",
+    "4119bd86-d7cf-47cb-a7a4-df5cb52dce21",
+    "4c3cf7d5-d7e1-40d3-b3bb-90f05859f867",
+    "8efbf6e3-4247-42aa-8863-aa7417c05093",
+    "02d2466c-fc8b-4162-ae83-7c183e346acb",
+    "1c692903-fb84-4c15-9118-167091dfb357",
+    "88ba6988-6d22-4ff8-bc12-061daafb0e26",
+    "c63d8c13-70d3-4c19-b9f8-4e05d35645cd",
+    "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
+    "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
+    "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
+    "42e88095-3500-4892-98dd-ff85f2c80402",
+    "fa6c41da-f62f-4770-a576-6e42860d7e0b",
+    "b77dda8e-ede6-42af-956c-a823223f7dfd",
+    "2970933c-48cf-4d97-9043-4bd83129230b",
+    "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
+    "167984018422fa69c0",
+    "27a0ad21-1126-4064-bdb4-ed1256fe3b98"
+  ]
+}
