@@ -104,8 +104,25 @@
       "settings": {
       }
     },
+    "2beae217-60fb-4deb-b335-1264d9fbeb67": {
+      "type": "list-grid",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "display_size": "pc"
+      }
+    },
+    "68edf5f2-9b11-4a83-a6d0-dac1faa70ec2": {
+      "type": "waterfall-grid",
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "display_size": "mobile"
+      }
+    },
     "2766104c-3f2e-4822-8526-63352d56697a": {
       "type": "image-list-text",
+      "disabled": true,
       "blocks": {
         "9dbc07ee-3cb4-4efa-87c5-5ebfd4146124": {
           "type": "item",
@@ -1197,6 +1214,8 @@
   "order": [
     "main",
     "nav",
+    "2beae217-60fb-4deb-b335-1264d9fbeb67",
+    "68edf5f2-9b11-4a83-a6d0-dac1faa70ec2",
     "2766104c-3f2e-4822-8526-63352d56697a",
     "e68eb099-7351-402f-b1bd-aca6321f95c5",
     "39dc76e4-c3b9-4122-9cc3-fd6d1ce09635",
