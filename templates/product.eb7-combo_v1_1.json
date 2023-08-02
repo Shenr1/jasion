@@ -505,6 +505,7 @@
     },
     "88ba6988-6d22-4ff8-bc12-061daafb0e26": {
       "type": "images-text",
+      "disabled": true,
       "settings": {
         "top_padding": "large",
         "bottom_padding": "default",
@@ -521,6 +522,74 @@
         "title_size": "default",
         "content_size": "default",
         "wap_pad": "small"
+      }
+    },
+    "4f6b0f1d-890f-4129-a1c7-b6c21b5d03a8": {
+      "type": "combo-color-switch",
+      "blocks": {
+        "63d833c8-1dea-47c0-9bbb-75ee3f9cdcbc": {
+          "type": "slide",
+          "settings": {
+            "name": "1",
+            "color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/1_cfa1cdc9-e95c-4ced-9906-35506e614917.png"
+          }
+        },
+        "011a607e-0ed4-44b3-a83e-fd33e6f87e0c": {
+          "type": "slide",
+          "settings": {
+            "name": "1",
+            "color": "#000000",
+            "image": "shopify:\/\/shop_images\/1_28f37b91-ad50-434c-bfdf-95eceaf1b771.jpg"
+          }
+        },
+        "ea178777-079b-429b-941b-a22a17b5284a": {
+          "type": "slide",
+          "settings": {
+            "name": "1",
+            "color": "#126827",
+            "image": "shopify:\/\/shop_images\/7_118.png"
+          }
+        },
+        "ad1fa1ab-ca84-499d-a5e7-02e97a51eaca": {
+          "type": "slide",
+          "settings": {
+            "name": "2",
+            "color": "#000000",
+            "image": "shopify:\/\/shop_images\/1_28f37b91-ad50-434c-bfdf-95eceaf1b771.jpg"
+          }
+        },
+        "f06a2bee-986c-467d-9cbc-3a558d34a7c6": {
+          "type": "slide",
+          "settings": {
+            "name": "2",
+            "color": "#ffffff",
+            "image": "shopify:\/\/shop_images\/1_cfa1cdc9-e95c-4ced-9906-35506e614917.png"
+          }
+        },
+        "46a8a92c-6384-4591-85a1-f89de98d2d21": {
+          "type": "slide",
+          "settings": {
+            "name": "2",
+            "color": "#126827",
+            "image": "shopify:\/\/shop_images\/7_118.png"
+          }
+        }
+      },
+      "block_order": [
+        "63d833c8-1dea-47c0-9bbb-75ee3f9cdcbc",
+        "011a607e-0ed4-44b3-a83e-fd33e6f87e0c",
+        "ea178777-079b-429b-941b-a22a17b5284a",
+        "ad1fa1ab-ca84-499d-a5e7-02e97a51eaca",
+        "f06a2bee-986c-467d-9cbc-3a558d34a7c6",
+        "46a8a92c-6384-4591-85a1-f89de98d2d21"
+      ],
+      "settings": {
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "title": "Bring an Ideal Urban Life",
+        "sub_title": "Made of aluminum alloy",
+        "bg_color": "#f5f5f5"
       }
     },
     "c63d8c13-70d3-4c19-b9f8-4e05d35645cd": {
@@ -1137,6 +1206,7 @@
     "02d2466c-fc8b-4162-ae83-7c183e346acb",
     "1c692903-fb84-4c15-9118-167091dfb357",
     "88ba6988-6d22-4ff8-bc12-061daafb0e26",
+    "4f6b0f1d-890f-4129-a1c7-b6c21b5d03a8",
     "c63d8c13-70d3-4c19-b9f8-4e05d35645cd",
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
     "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
