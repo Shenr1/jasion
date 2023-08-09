@@ -306,27 +306,28 @@
           "type": "question",
           "settings": {
             "title": "Why Jasion?",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "534e3a69-7472-41d5-b49e-a812cdcc51e4": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
-          }
-        },
-        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "text": "<p>If you are in the market for an electric bike, Jasion is the company you should be looking at. With our commitment to quality, affordability, variety, customer service, and sustainability, we believe we can provide one of the best e-bike experiences on the market. So why not give us a try and see the Jasion difference for yourself?<\/p>"
           }
         },
         "61d460d7-d97f-430b-bf86-53a604c0dd5d": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
+            "title": "What are the benefits of an e-bike?",
+            "text": "<p>Riding an e-bike can be a fun and adventurous experience. With Jasion, you can explore new trails and paths that may be inaccessible on a traditional bicycle. Plus, the pedal assist feature lets you enjoy the ride without worrying about getting tired.<br\/>E-bikes offer many advantages, including environmental friendliness, improved health, money savings, convenience, accessibility, time savings, and fun and adventure. Whether you're commuting to work or exploring new routes, e-bikes are a great choice for transportation and leisure activities.<\/p>"
+          }
+        },
+        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae": {
+          "type": "question",
+          "settings": {
+            "title": "What Makes Jasion E-Bike a Game-Changer?",
+            "text": "<p>Jasion electric bikes seamlessly blend rugged functionality, superior comfort, and affordable cost. Featuring 20-inch wide tires and a powerful 500W motor, it's perfect for off-road adventures, weekend city loops, and travel commutes.<br\/>The full-suspension design helps smooth out the road and gives you better control over rough terrain.<br\/><\/p>"
+          }
+        },
+        "534e3a69-7472-41d5-b49e-a812cdcc51e4": {
+          "type": "question",
+          "disabled": true,
+          "settings": {
+            "title": "How Can Electric Power Transform Your Ride?",
             "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
           }
         },
@@ -363,9 +364,9 @@
       },
       "block_order": [
         "af6ab996-0c9b-47a5-9c70-f245bd7076d5",
-        "534e3a69-7472-41d5-b49e-a812cdcc51e4",
-        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae",
         "61d460d7-d97f-430b-bf86-53a604c0dd5d",
+        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae",
+        "534e3a69-7472-41d5-b49e-a812cdcc51e4",
         "24a559d2-0432-47fe-ba88-d4d776a6acc9",
         "a4105e18-bf39-4be3-90ad-53603cb21fbd",
         "da8d2211-dc06-450e-9fae-433494b7e3df",
