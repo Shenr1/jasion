@@ -390,7 +390,7 @@
         "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7ST-2.jpg",
+            "image": "shopify:\/\/shop_images\/362636675_10210567350496432_2121587894419631700_n.jpg",
             "icon": "shopify:\/\/shop_images\/Youtube.png",
             "link": "https:\/\/www.youtube.com\/watch?v=ZL24gxOfLlk",
             "title": "",
@@ -402,6 +402,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/352055537_583015027296467_481875390743506143_n.jpg",
             "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
+            "link": "",
+            "title": "",
+            "content": ""
+          }
+        },
+        "6c81165c-25d6-4069-bed7-e7181ddf744b": {
+          "type": "text_block",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/364172245_964155421469415_5509811400741388581_n.jpg",
             "link": "",
             "title": "",
             "content": ""
@@ -425,15 +434,6 @@
             "content": ""
           }
         },
-        "6c81165c-25d6-4069-bed7-e7181ddf744b": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EB7_2.0listting_pictures-2_9a3669f0-b669-42f0-889f-1df078780454.jpg",
-            "link": "",
-            "title": "",
-            "content": ""
-          }
-        },
         "358a16bf-9024-4f56-b08b-31f23289dc95": {
           "type": "text_block",
           "settings": {
@@ -447,9 +447,9 @@
       "block_order": [
         "87bea44e-9866-4ebd-bf6f-240a7c9d778b",
         "6dc739f2-6f74-46e1-ac60-c7321cbea6aa",
+        "6c81165c-25d6-4069-bed7-e7181ddf744b",
         "9ef63c0e-e943-4ff7-876b-976f3a442791",
         "daebd159-13ed-41c7-af79-c23a2c256ef3",
-        "6c81165c-25d6-4069-bed7-e7181ddf744b",
         "358a16bf-9024-4f56-b08b-31f23289dc95"
       ],
       "settings": {
