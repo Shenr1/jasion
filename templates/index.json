@@ -199,6 +199,7 @@
     },
     "a1ddaf23-b152-4beb-89ca-cc63d0e1310d": {
       "type": "image-compare",
+      "disabled": true,
       "blocks": {
         "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-1": {
           "type": "image",
@@ -219,12 +220,12 @@
       ],
       "settings": {
         "heading": "",
-        "heading_size": "h3",
+        "heading_size": "h1",
         "heading_position": "left",
         "fullwidth": true,
         "slider_style": "classic",
         "height": 600,
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "lazyload_images": true
       }
     },
