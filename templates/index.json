@@ -392,7 +392,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/362636675_10210567350496432_2121587894419631700_n.jpg",
             "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
-            "link": "https:\/\/www.youtube.com\/watch?v=ZL24gxOfLlk",
+            "link": "https:\/\/www.facebook.com\/jasionebikes",
             "title": "",
             "content": ""
           }
@@ -402,7 +402,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/352055537_583015027296467_481875390743506143_n.jpg",
             "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
-            "link": "",
+            "link": "https:\/\/www.facebook.com\/jasionebikes",
             "title": "",
             "content": ""
           }
@@ -411,7 +411,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/364172245_964155421469415_5509811400741388581_n.jpg",
-            "link": "",
+            "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
+            "link": "https:\/\/www.facebook.com\/jasionebikes",
             "title": "",
             "content": ""
           }
@@ -420,7 +421,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/354230308_10223355726696899_2878329398683860362_n.jpg",
-            "link": "",
+            "icon": "shopify:\/\/shop_images\/instagram.png",
+            "link": "https:\/\/www.instagram.com\/jasionbikes\/",
             "title": "",
             "content": ""
           }
@@ -429,7 +431,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/301597371_5805332339498240_8094240940123302023_n.jpg",
-            "link": "",
+            "icon": "shopify:\/\/shop_images\/instagram.png",
+            "link": "https:\/\/www.instagram.com\/jasionbikes\/",
             "title": "",
             "content": ""
           }
@@ -438,7 +441,8 @@
           "type": "text_block",
           "settings": {
             "image": "shopify:\/\/shop_images\/358733973_9591551304252879_3670422133933939786_n.jpg",
-            "link": "",
+            "icon": "shopify:\/\/shop_images\/instagram.png",
+            "link": "https:\/\/www.instagram.com\/jasionbikes\/",
             "title": "",
             "content": ""
           }
