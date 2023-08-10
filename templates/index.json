@@ -148,7 +148,7 @@
           "settings": {
             "title": "EB7 2.0",
             "collection": "eb7-2-0",
-            "show_color": false
+            "show_color": true
           }
         },
         "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05": {
@@ -156,7 +156,7 @@
           "settings": {
             "title": "EB7 ST",
             "collection": "eb7-st首页展示",
-            "show_color": false
+            "show_color": true
           }
         },
         "bca2ce32-9de1-4101-8d69-7baba514e989": {

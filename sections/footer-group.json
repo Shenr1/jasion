@@ -128,11 +128,9 @@
     },
     "custom-colors": {
       "type": "custom-colors",
-      "disabled": true,
       "blocks": {
         "1888fda2-fecc-4309-8739-4092a6f9dedf": {
           "type": "Color",
-          "disabled": true,
           "settings": {
             "title1": "EB7 Black",
             "color1": "#000000",
