@@ -609,7 +609,7 @@
           "type": "colum",
           "settings": {
             "title": "Hub Motor",
-            "text": "350W",
+            "text": "500W",
             "dis": "Brushless Gear Motor"
           }
         },
@@ -617,7 +617,7 @@
           "type": "colum",
           "settings": {
             "title": "Range",
-            "text": "40 Miles",
+            "text": "45 Miles",
             "dis": "Pedal Assist"
           }
         },
