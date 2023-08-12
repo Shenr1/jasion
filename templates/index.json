@@ -199,7 +199,6 @@
     },
     "a1ddaf23-b152-4beb-89ca-cc63d0e1310d": {
       "type": "image-compare",
-      "disabled": true,
       "blocks": {
         "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-1": {
           "type": "image",
@@ -218,6 +217,7 @@
         "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-1",
         "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-2"
       ],
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -231,7 +231,6 @@
     },
     "7d70e5e0-c724-451c-b058-a5d251b8ba4b": {
       "type": "images-switch",
-      "disabled": true,
       "blocks": {
         "b167fa1d-39b7-4ad4-83e7-41b6380326f2": {
           "type": "item",
@@ -254,6 +253,7 @@
         "b167fa1d-39b7-4ad4-83e7-41b6380326f2",
         "74bbbfd1-ac68-4c95-bc5e-08510f6ecb67"
       ],
+      "disabled": true,
       "custom_css": [
 
       ],
@@ -426,7 +426,7 @@
         "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_c5f19bf8-c412-4128-a21b-9e6ec29f9254.jpg",
+            "image": "shopify:\/\/shop_images\/02_a4807aaf-8adb-49b5-bacf-60cdec8615e8.jpg",
             "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
             "link": "https:\/\/www.facebook.com\/jasionebikes",
             "title": "",
@@ -436,7 +436,7 @@
         "6dc739f2-6f74-46e1-ac60-c7321cbea6aa": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2_6d920346-4384-41f1-89da-e9dd5608179c.jpg",
+            "image": "shopify:\/\/shop_images\/04_698fc3d2-d9be-461a-b93f-9a83484e04f0.jpg",
             "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
             "link": "https:\/\/www.facebook.com\/jasionebikes",
             "title": "",
@@ -446,7 +446,7 @@
         "6c81165c-25d6-4069-bed7-e7181ddf744b": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/61.jpg",
+            "image": "shopify:\/\/shop_images\/06_81b113dd-03e6-40e0-9faf-9d7661e7f8bd.jpg",
             "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
             "link": "https:\/\/www.facebook.com\/jasionebikes",
             "title": "",
@@ -456,7 +456,7 @@
         "9ef63c0e-e943-4ff7-876b-976f3a442791": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/64.jpg",
+            "image": "shopify:\/\/shop_images\/03_c6734ee5-37c7-48bf-9e71-745777543fce.jpg",
             "icon": "shopify:\/\/shop_images\/instagram.png",
             "link": "https:\/\/www.instagram.com\/jasionbikes\/",
             "title": "",
@@ -466,7 +466,7 @@
         "daebd159-13ed-41c7-af79-c23a2c256ef3": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_310dab73-01b8-40a0-a8d9-eabf4b5914f5.jpg",
+            "image": "shopify:\/\/shop_images\/07.jpg",
             "icon": "shopify:\/\/shop_images\/instagram.png",
             "link": "https:\/\/www.instagram.com\/jasionbikes\/",
             "title": "",
@@ -476,7 +476,7 @@
         "358a16bf-9024-4f56-b08b-31f23289dc95": {
           "type": "text_block",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_5d49eab5-8b63-4d1b-8d31-43f0a6fe43ac.jpg",
+            "image": "shopify:\/\/shop_images\/05_2a50bfeb-7ea3-403d-9131-427179d1465c.jpg",
             "icon": "shopify:\/\/shop_images\/instagram.png",
             "link": "https:\/\/www.instagram.com\/jasionbikes\/",
             "title": "",
@@ -495,7 +495,7 @@
       "settings": {
         "top_padding": "none",
         "bottom_padding": "default",
-        "image": "shopify:\/\/shop_images\/3_1_1.jpg",
+        "image": "shopify:\/\/shop_images\/01_7a1527f6-de53-4496-91b5-c64ffda4133e.jpg",
         "icon": "shopify:\/\/shop_images\/facebook.png",
         "link": "shopify:\/\/collections"
       }
