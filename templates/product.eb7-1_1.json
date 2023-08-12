@@ -524,7 +524,6 @@
     },
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6": {
       "type": "product-modes",
-      "disabled": true,
       "blocks": {
         "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-0": {
           "type": "colum",
@@ -561,6 +560,7 @@
         "template--18321957847314__284f41b4-084a-4a8d-8976-b3fa9fef9ee6-16798008482be15754-2",
         "6c29e716-892e-4d6b-a463-9634ef79c3c1"
       ],
+      "disabled": true,
       "settings": {
         "title": "Jasion EB5 Technology Patents Four Working Modes",
         "text": "<p>EB5 adds booster mode to the 4 basic modes. The Booster mode can help you push your EB5 effortlessly. Especially when you wheel the bike uphill, which will save you a lot of effort.<\/p>",
@@ -574,7 +574,7 @@
       "type": "product-video",
       "settings": {
         "title": "EB7 Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/EHQwQ_54gaU",
+        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
         "is_open": true
       }
     },
@@ -819,7 +819,6 @@
     },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
       "type": "product-faq",
-      "disabled": true,
       "blocks": {
         "template--18321957847314__2970933c-48cf-4d97-9043-4bd83129230b-1680016645bc64950d-0": {
           "type": "question",
@@ -864,6 +863,7 @@
         "1c1bc88e-4611-4338-b9e2-dd0bd44d220b",
         "824f614f-a3e7-4d79-969e-209105165519"
       ],
+      "disabled": true,
       "settings": {
         "title": "FAQs"
       }
