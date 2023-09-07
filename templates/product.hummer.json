@@ -99,40 +99,6 @@
         "upsell_title": "Most Popular Upgrades"
       }
     },
-    "ae644c2d-5a2c-4559-921b-f4fca099c7e9": {
-      "type": "images-grid",
-      "blocks": {
-        "32b56b00-4274-4616-adaa-d95e266a264d": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EB7-3.jpg",
-            "image_mb": "shopify:\/\/shop_images\/EB7-3-_550X800_27d7e28d-f34a-4fd6-9a46-865c5069a0c8.jpg",
-            "link": "",
-            "title": "Save $900",
-            "content": "Combo Sale-EB7 2.0 Folding Electric Bike x2"
-          }
-        },
-        "5f246eb7-f419-41d2-8174-bdddeeb561f5": {
-          "type": "text_block",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/aszxdcfvgbh.jpg",
-            "image_mb": "shopify:\/\/shop_images\/EB7_EB7-ST-4-_550X800_a9adc0a6-bcc6-43e5-a41d-6fe651e7689d.jpg",
-            "link": "",
-            "title": "Save $1010",
-            "content": "Combo Sale-EB7 2.0 + EB7 ST"
-          }
-        }
-      },
-      "block_order": [
-        "32b56b00-4274-4616-adaa-d95e266a264d",
-        "5f246eb7-f419-41d2-8174-bdddeeb561f5"
-      ],
-      "settings": {
-        "top_padding": "default",
-        "bottom_padding": "default",
-        "link": ""
-      }
-    },
     "nav": {
       "type": "product-nav",
       "settings": {
@@ -157,33 +123,27 @@
         "bg_img_mb": "shopify:\/\/shop_images\/d2beb739136a90c9579a223cb5bac0e1.jpg",
         "title_fixed": true,
         "fixed_style": "style1",
-        "title": "850W of PEAK POWER",
+        "title": "Powered Paths,Limitless Journeys",
         "title_color": "#ffffff",
-        "content": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
+        "content": "Unleash Adventure with Electric Excellence.",
         "content_color": "#eaeaea",
         "title_size": "default",
         "content_size": "default",
         "wap_pad": "default"
       }
     },
-    "f43ef483-181d-443d-a0f9-7959fbf36f35": {
-      "type": "images-text",
+    "916e660d-8b1e-448f-9c37-84069df43122": {
+      "type": "background-video-text",
       "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "full_width": true,
-        "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/LED.jpg",
-        "bg_img_mb": "shopify:\/\/shop_images\/2_37c0ec41-6e79-473a-bae8-574ce12ba85d.jpg",
-        "title_fixed": false,
-        "fixed_style": "style1",
-        "title": "Jasion EB7 2.0 Technology Patents Four Working Modes",
-        "title_color": "#333333",
-        "content": "EB7 2.0 adds booster mode to the 4 basic modes, the booster mode can help you push your ebike effortlessly. Especially when you wheel the bike uphill, which will save you a lot of effort.",
-        "content_color": "#333333",
-        "title_size": "small",
-        "content_size": "default",
-        "wap_pad": "default"
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "color_border": "#f4f4f4",
+        "layout": "left",
+        "height": 550
       }
     },
     "02d2466c-fc8b-4162-ae83-7c183e346acb": {
@@ -252,177 +212,6 @@
         "mb_style": "scroll"
       }
     },
-    "1c692903-fb84-4c15-9118-167091dfb357": {
-      "type": "text-logo-switch",
-      "blocks": {
-        "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
-            "content": "\"With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
-            "author": "",
-            "link": ""
-          }
-        },
-        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/6.png",
-            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
-            "author": "",
-            "link": ""
-          }
-        },
-        "266228f3-1071-47eb-9c87-e8a8b43e8cea": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/8.png",
-            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point. It offers Solid Performance and Range Without Breaking the Bank.\"",
-            "author": "",
-            "link": ""
-          }
-        },
-        "3d66d05d-4281-4058-8969-daf3e906cb0a": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/5.png",
-            "content": "\"Jasion bike Offers Impressive Features and Durability at an Affordable Price.\"",
-            "author": "",
-            "link": ""
-          }
-        },
-        "50efc65d-9121-4d55-84ce-7f6a64a691a2": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/9.png",
-            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
-            "author": "",
-            "link": ""
-          }
-        },
-        "3088266e-b2bc-4dc0-ab86-f1c93c37a229": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/7.png",
-            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
-            "author": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "259dd8c2-91ce-47c4-8b0c-d3ccf84e7b5e",
-        "07c3f505-7b36-4273-8d4e-2a0c59d27d0c",
-        "266228f3-1071-47eb-9c87-e8a8b43e8cea",
-        "3d66d05d-4281-4058-8969-daf3e906cb0a",
-        "50efc65d-9121-4d55-84ce-7f6a64a691a2",
-        "3088266e-b2bc-4dc0-ab86-f1c93c37a229"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "title": "Read About Us",
-        "show_mobile": false
-      }
-    },
-    "74a4ad65-58b4-42cb-99fe-c773076074aa": {
-      "type": "images-text",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "full_width": true,
-        "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/bbf95e969549277a6fbce762b14ec639.jpg",
-        "bg_img_mb": "shopify:\/\/shop_images\/4ca2ec8f97a3a1df9521fb07cd973823.jpg",
-        "title_fixed": true,
-        "fixed_style": "style2",
-        "img_btm": "shopify:\/\/shop_images\/570x124.png",
-        "title": "Removable & Built-in Battery",
-        "title_color": "#ffffff",
-        "content": "A hidden removable lithium-ion battery makes for a clean design. With a built-in battery design and IPX4 waterproof rate, the e-bike can be used on unexpected rainy days. A 48V 10Ah battery to power your ride for up to 45 miles.",
-        "content_color": "#eaeaea",
-        "title_size": "small",
-        "content_size": "small",
-        "wap_pad": "center"
-      }
-    },
-    "308f49b5-ebe5-4c04-9eec-83a68aa72821": {
-      "type": "images-text",
-      "settings": {
-        "top_padding": "default",
-        "bottom_padding": "default",
-        "full_width": false,
-        "bg_color": "",
-        "bg_img": "shopify:\/\/shop_images\/4_7eec4030-e2df-418e-bc3d-fd16028fc1aa.jpg",
-        "cross_img_url": "shopify:\/\/shop_images\/1170x760.png",
-        "title_fixed": false,
-        "fixed_style": "style1",
-        "title": "20\"x3\"Puncture Resistant Fat Tire",
-        "title_color": "#333333",
-        "content": "The high-quality fat tires provide extra protection against punctures from thorns, glass, and other small materials.",
-        "content_color": "#333333",
-        "title_size": "default",
-        "content_size": "default",
-        "wap_pad": "default"
-      }
-    },
-    "4e4deb1c-da0d-4680-9f32-f6cb91d08a64": {
-      "type": "images-text",
-      "settings": {
-        "top_padding": "default",
-        "bottom_padding": "default",
-        "full_width": false,
-        "bg_color": "#fafafa",
-        "bg_img": "shopify:\/\/shop_images\/1640x615.jpg",
-        "title_fixed": false,
-        "fixed_style": "style1",
-        "title": "",
-        "title_color": "#333333",
-        "content": "",
-        "content_color": "#333333",
-        "title_size": "default",
-        "content_size": "default",
-        "wap_pad": "default"
-      }
-    },
-    "c63d8c13-70d3-4c19-b9f8-4e05d35645cd": {
-      "type": "story-swiper",
-      "blocks": {
-        "c953542f-7a28-44ab-b683-49f324d4e9ab": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/20230629105457.jpg",
-            "video_key": "",
-            "title": "\"EB7: The Perfect Solution for Daily Commutes.\"",
-            "content": "\"The Jasion eb7 is the best e-bike out there - absolutely love mine- even bought a second bike for my wife, highly recommend\nFor anyone on the fence about the Jasion ebike you will not regret your purchase. This is an amazing ebike definitely the best ebike at this price range!\"",
-            "author": "- Jane D"
-          }
-        },
-        "a72fce02-a8a6-414e-8d84-dd30a57194b6": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/8A9639A1-DF0F-4154-8BAE-6A0DD8699744.jpg",
-            "video_key": "",
-            "title": "\"Upgrade Your Commute with the EB7 Electric Bike.\"",
-            "content": "\"I never write reviews but Jasion has exceeded my expectations. I've had my Jasion Ebike for 4 months now, I've traveled a little under 700 miles, mainly for my commute to work. It has cut down my commute time from 1 hour to 8 minutes. The bike is very well made, very adjustable, I'm 6'2 200 pounds and the bike can definitely carry me with no problem. \"",
-            "author": "- Sarah K"
-          }
-        }
-      },
-      "block_order": [
-        "c953542f-7a28-44ab-b683-49f324d4e9ab",
-        "a72fce02-a8a6-414e-8d84-dd30a57194b6"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large",
-        "title": "Customer Stories",
-        "title_color": "#333333"
-      }
-    },
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626": {
       "type": "slideshow",
       "blocks": {
@@ -457,68 +246,6 @@
         "autoplay": true,
         "autoplay_speed": 5,
         "lazyload_images": true
-      }
-    },
-    "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd": {
-      "type": "Special",
-      "blocks": {
-        "11c85a85-47c7-4b17-a3a5-a59b27f97800": {
-          "type": "order",
-          "settings": {
-            "title": "Does my height suit this bike?",
-            "text": "<p>The recommended rider height is 5'1\"-6'2\".<\/p>"
-          }
-        },
-        "1a9c374d-f57a-4144-83ca-d2c71711bec1": {
-          "type": "order",
-          "settings": {
-            "title": "What is the top speed of this bike？",
-            "text": "<p>The top speed of EB7 2.0 IS 33km\/h(20.5MPH).<\/p>"
-          }
-        },
-        "9fef8a31-d164-41fe-8c0a-5e19d82ccbea": {
-          "type": "order",
-          "settings": {
-            "title": "Does the bike come with most assembly?",
-            "text": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on the product page.<\/p>"
-          }
-        },
-        "d05b6125-4e1e-4a50-883f-74d36e30fedb": {
-          "type": "order",
-          "settings": {
-            "title": "How long does it take to fully charge the battery?",
-            "text": "<p>It will take 4-5 hours.<\/p>"
-          }
-        },
-        "3b897f3f-e8ff-44f5-941f-4df1071cfe26": {
-          "type": "order",
-          "settings": {
-            "title": "How long will it take for my shipment to arrive?",
-            "text": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
-          }
-        },
-        "97746aae-a102-44c3-8c09-fe7721cb7b55": {
-          "type": "order",
-          "settings": {
-            "title": "What is the difference between EB7 2.0 and EB7 ST?",
-            "text": "<p>The EB7 ST has a new design step-through with a lower span than before, it is more suitable for older people or people with physical limitations to ride.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "11c85a85-47c7-4b17-a3a5-a59b27f97800",
-        "1a9c374d-f57a-4144-83ca-d2c71711bec1",
-        "9fef8a31-d164-41fe-8c0a-5e19d82ccbea",
-        "d05b6125-4e1e-4a50-883f-74d36e30fedb",
-        "3b897f3f-e8ff-44f5-941f-4df1071cfe26",
-        "97746aae-a102-44c3-8c09-fe7721cb7b55"
-      ],
-      "custom_css": [
-        ".index-section {margin-top: 2rem;}"
-      ],
-      "settings": {
-        "title": "",
-        "sp_faq": true
       }
     },
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6": {
@@ -569,253 +296,6 @@
         "image_two": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_c446170d-848e-477f-ba18-57148ad88e09.jpg"
       }
     },
-    "42e88095-3500-4892-98dd-ff85f2c80402": {
-      "type": "product-video",
-      "settings": {
-        "title": "EB7 Assembly Instructions",
-        "video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
-        "is_open": true
-      }
-    },
-    "fa6c41da-f62f-4770-a576-6e42860d7e0b": {
-      "type": "product-spec",
-      "blocks": {
-        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-0": {
-          "type": "colum",
-          "settings": {
-            "title": "Battery",
-            "text": "48V 10Ah",
-            "dis": "Lithium Battery"
-          }
-        },
-        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-1": {
-          "type": "colum",
-          "settings": {
-            "title": "Charging Time",
-            "text": "4-5 hours",
-            "dis": ""
-          }
-        },
-        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-2": {
-          "type": "colum",
-          "settings": {
-            "title": "Charger",
-            "text": "48V\/2A",
-            "dis": ""
-          }
-        },
-        "da70ceb5-5929-45b5-996c-2f0a543b17e3": {
-          "type": "colum",
-          "settings": {
-            "title": "Hub Motor",
-            "text": "500W",
-            "dis": "Brushless Gear Motor"
-          }
-        },
-        "d269ea1a-f74e-4dbf-aca6-47703f90fed9": {
-          "type": "colum",
-          "settings": {
-            "title": "Range",
-            "text": "45 Miles",
-            "dis": "Pedal Assist"
-          }
-        },
-        "75ef3833-2923-42fd-8a27-61b79094fb7c": {
-          "type": "colum",
-          "settings": {
-            "title": "Pedal",
-            "text": "1-5 Level",
-            "dis": "Assist Intelligent 1~5 Level Pedal Assist"
-          }
-        },
-        "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd": {
-          "type": "colum",
-          "settings": {
-            "title": "Brakes",
-            "text": "160mm",
-            "dis": ""
-          }
-        },
-        "c6bfb3aa-7fef-4cee-94f7-162da628af38": {
-          "type": "colum",
-          "settings": {
-            "title": "Tires",
-            "text": "20\" x 3\"",
-            "dis": ""
-          }
-        },
-        "7a6d0154-da12-4922-9406-cb0ece31b6e1": {
-          "type": "colum",
-          "settings": {
-            "title": "MAX Payload Capacity",
-            "text": "300 LBS",
-            "dis": ""
-          }
-        },
-        "97b19507-6f34-4c2d-b7df-1ce217c7f17f": {
-          "type": "colum",
-          "settings": {
-            "title": "Product Dimensions",
-            "text": "68.9*24.8*49.6 (Inch)",
-            "dis": ""
-          }
-        },
-        "6fc1d007-7fbd-4646-bdf9-e613017f5504": {
-          "type": "colum",
-          "settings": {
-            "title": "Folding Dimensions",
-            "text": "36*21*29(Inch)",
-            "dis": ""
-          }
-        },
-        "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0": {
-          "type": "colum",
-          "settings": {
-            "title": "Product Weight",
-            "text": "62.8LBS(28.5KG)",
-            "dis": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-0",
-        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-1",
-        "template--18321957847314__fa6c41da-f62f-4770-a576-6e42860d7e0b-1679831970eeb492c8-2",
-        "da70ceb5-5929-45b5-996c-2f0a543b17e3",
-        "d269ea1a-f74e-4dbf-aca6-47703f90fed9",
-        "75ef3833-2923-42fd-8a27-61b79094fb7c",
-        "df86f9da-b6ab-4a5e-b3ad-dfed630f3dfd",
-        "c6bfb3aa-7fef-4cee-94f7-162da628af38",
-        "7a6d0154-da12-4922-9406-cb0ece31b6e1",
-        "97b19507-6f34-4c2d-b7df-1ce217c7f17f",
-        "6fc1d007-7fbd-4646-bdf9-e613017f5504",
-        "cbc6d318-ba86-4a16-bae9-4d4c0ed68da0"
-      ],
-      "settings": {
-        "title": "Specifications",
-        "is_open": false
-      }
-    },
-    "b77dda8e-ede6-42af-956c-a823223f7dfd": {
-      "type": "product-size",
-      "blocks": {
-        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-0": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "A",
-            "title": "Total Length",
-            "text": "68\""
-          }
-        },
-        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-1": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "B",
-            "title": "Handlebar Height",
-            "text": "42.5\""
-          }
-        },
-        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-2": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "C",
-            "title": "Wheelbase",
-            "text": "42\""
-          }
-        },
-        "7d4c68ef-5fde-4e4d-8fa6-1833282d5618": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "D",
-            "title": "Minimum Seat Height",
-            "text": "30\""
-          }
-        },
-        "602fd883-223f-4ae0-bbe7-acac4edb5b52": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "E",
-            "title": "Maximum Seat Height",
-            "text": "39\""
-          }
-        },
-        "5c6bd7e4-a84f-4673-b2b6-be53ed7dc646": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "F",
-            "title": "Chain Stay length",
-            "text": "18\""
-          }
-        },
-        "f0251f85-8ec5-42cd-9a4c-355b1616fc96": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "G",
-            "title": "Stand Height",
-            "text": "30\""
-          }
-        },
-        "5d2209a0-ca5b-427e-92aa-7a5fd31fb37d": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "H",
-            "title": "Top Tube Length",
-            "text": "23\""
-          }
-        },
-        "60e270cc-2cbb-488f-b7bc-bb69cbf16a91": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "I",
-            "title": "Wheel Diameter",
-            "text": "25\""
-          }
-        },
-        "cabc8b27-0138-49c2-b0c6-a51404c00952": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "J",
-            "title": "Head Tube Length",
-            "text": "7\""
-          }
-        },
-        "00686f5c-061f-4f77-9f9f-9d20ff395138": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "K",
-            "title": "Handlebar Length",
-            "text": "25\""
-          }
-        },
-        "ec7d9807-8bd6-48e6-bc70-5b790aa61492": {
-          "type": "colum",
-          "settings": {
-            "xuhao": "L",
-            "title": "Minimum Seat to Floor",
-            "text": "33.5\""
-          }
-        }
-      },
-      "block_order": [
-        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-0",
-        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-1",
-        "template--18321957847314__b77dda8e-ede6-42af-956c-a823223f7dfd-1679834400f4165ba0-2",
-        "7d4c68ef-5fde-4e4d-8fa6-1833282d5618",
-        "602fd883-223f-4ae0-bbe7-acac4edb5b52",
-        "5c6bd7e4-a84f-4673-b2b6-be53ed7dc646",
-        "f0251f85-8ec5-42cd-9a4c-355b1616fc96",
-        "5d2209a0-ca5b-427e-92aa-7a5fd31fb37d",
-        "60e270cc-2cbb-488f-b7bc-bb69cbf16a91",
-        "cabc8b27-0138-49c2-b0c6-a51404c00952",
-        "00686f5c-061f-4f77-9f9f-9d20ff395138",
-        "ec7d9807-8bd6-48e6-bc70-5b790aa61492"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1550x455-eb7-06.jpg",
-        "mb_image": "shopify:\/\/shop_images\/eb7_d003af4f-273e-40ad-b561-ba9cc45089a6.jpg",
-        "title": "Sizing"
-      }
-    },
     "2970933c-48cf-4d97-9043-4bd83129230b": {
       "type": "product-faq",
       "blocks": {
@@ -862,7 +342,6 @@
         "1c1bc88e-4611-4338-b9e2-dd0bd44d220b",
         "824f614f-a3e7-4d79-969e-209105165519"
       ],
-      "disabled": true,
       "settings": {
         "title": "FAQs"
       }
@@ -967,87 +446,19 @@
         "full_width": false,
         "space_around": true
       }
-    },
-    "680b522c-0c8a-4d58-943d-8acf033d9f5b": {
-      "type": "list-grid",
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "display_size": "all"
-      }
-    },
-    "dcf54219-62f9-4b23-93a0-daa9b9b05431": {
-      "type": "combo-color-switch",
-      "blocks": {
-        "f48e889d-6166-45ed-9029-2bb569fb5707": {
-          "type": "slide",
-          "settings": {
-            "name": "2",
-            "color": "#562020",
-            "image": "shopify:\/\/shop_images\/1_cfa1cdc9-e95c-4ced-9906-35506e614917.png"
-          }
-        },
-        "d11e6602-3bc3-4096-a7ff-89a5b1a5788f": {
-          "type": "slide",
-          "settings": {
-            "name": "1",
-            "color": "#000000",
-            "image": "shopify:\/\/shop_images\/1_cfa1cdc9-e95c-4ced-9906-35506e614917.png"
-          }
-        },
-        "db9f98bc-1264-4e16-a2f7-9b308533aa8b": {
-          "type": "slide",
-          "settings": {
-            "name": "1",
-            "color": "#000000"
-          }
-        },
-        "d3754dfe-2452-4706-9a0b-3b87782f482b": {
-          "type": "slide",
-          "settings": {
-            "name": "1",
-            "color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "f48e889d-6166-45ed-9029-2bb569fb5707",
-        "d11e6602-3bc3-4096-a7ff-89a5b1a5788f",
-        "db9f98bc-1264-4e16-a2f7-9b308533aa8b",
-        "d3754dfe-2452-4706-9a0b-3b87782f482b"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "title": "Bring an Ideal Urban Life",
-        "sub_title": "Made of aluminum alloy",
-        "bg_color": "#f5f5f5"
-      }
     }
   },
   "order": [
     "main",
-    "ae644c2d-5a2c-4559-921b-f4fca099c7e9",
     "nav",
     "6e3a81a9-cf26-447f-b56d-0269a20b5d6f",
     "88ba6988-6d22-4ff8-bc12-061daafb0e26",
-    "f43ef483-181d-443d-a0f9-7959fbf36f35",
+    "916e660d-8b1e-448f-9c37-84069df43122",
     "02d2466c-fc8b-4162-ae83-7c183e346acb",
-    "1c692903-fb84-4c15-9118-167091dfb357",
-    "74a4ad65-58b4-42cb-99fe-c773076074aa",
-    "308f49b5-ebe5-4c04-9eec-83a68aa72821",
-    "4e4deb1c-da0d-4680-9f32-f6cb91d08a64",
-    "c63d8c13-70d3-4c19-b9f8-4e05d35645cd",
     "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
-    "a3d5f316-a5ff-49ff-9e33-fd2bf8a39bcd",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
-    "42e88095-3500-4892-98dd-ff85f2c80402",
-    "fa6c41da-f62f-4770-a576-6e42860d7e0b",
-    "b77dda8e-ede6-42af-956c-a823223f7dfd",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
-    "167984018422fa69c0",
-    "680b522c-0c8a-4d58-943d-8acf033d9f5b",
-    "dcf54219-62f9-4b23-93a0-daa9b9b05431"
+    "167984018422fa69c0"
   ]
 }
