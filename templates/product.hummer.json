@@ -212,40 +212,23 @@
         "mb_style": "scroll"
       }
     },
-    "d6bf6b57-de5e-49ce-8dce-f69a60afd626": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16713788391661__d6bf6b57-de5e-49ce-8dce-f69a60afd626-1688713541fe941190-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "EB7 2.0 FAQs",
-            "title_size": 49,
-            "subheading": "",
-            "link": "",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/FAQ_1920x300_8fc74838-b292-48b8-8a41-e7773a38a7dd.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/FAQ_1920x300_7bdf4c16-a266-4b37-af2f-8c407bb248c4.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16713788391661__d6bf6b57-de5e-49ce-8dce-f69a60afd626-1688713541fe941190-0"
-      ],
+    "1dc425f6-3d7b-4328-ab30-db5540bd9c4b": {
+      "type": "images-text",
       "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 5,
-        "lazyload_images": true
+        "top_padding": "large",
+        "bottom_padding": "default",
+        "full_width": true,
+        "bg_color": "",
+        "title_fixed": true,
+        "fixed_style": "style1",
+        "img_btm": "shopify:\/\/shop_images\/1_fb5b083b-65cd-4785-a01a-cdab09a3cc2b.png",
+        "title": "850W of PEAK POWER",
+        "title_color": "#333333",
+        "content": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
+        "content_color": "#333333",
+        "title_size": "default",
+        "content_size": "default",
+        "wap_pad": "default"
       }
     },
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6": {
@@ -455,7 +438,7 @@
     "88ba6988-6d22-4ff8-bc12-061daafb0e26",
     "916e660d-8b1e-448f-9c37-84069df43122",
     "02d2466c-fc8b-4162-ae83-7c183e346acb",
-    "d6bf6b57-de5e-49ce-8dce-f69a60afd626",
+    "1dc425f6-3d7b-4328-ab30-db5540bd9c4b",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
