@@ -140,7 +140,7 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/62fdcc0e871042c48c1dbedbdc80b5b6.mp4",
         "color_border": "#f4f4f4",
         "layout": "left",
         "height": 550
@@ -210,25 +210,6 @@
         "top_padding": "large",
         "bottom_padding": "default",
         "mb_style": "scroll"
-      }
-    },
-    "1dc425f6-3d7b-4328-ab30-db5540bd9c4b": {
-      "type": "images-text",
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "full_width": true,
-        "bg_color": "",
-        "title_fixed": true,
-        "fixed_style": "style1",
-        "img_btm": "shopify:\/\/shop_images\/1_fb5b083b-65cd-4785-a01a-cdab09a3cc2b.png",
-        "title": "850W of PEAK POWER",
-        "title_color": "#333333",
-        "content": "The 500W steady motor has a maximum power output of up to 850W at full power! Use 100% manual pedaling or 5 levels of Pedal Assist to experience the smoothest, most exciting, and effortless riding.",
-        "content_color": "#333333",
-        "title_size": "default",
-        "content_size": "default",
-        "wap_pad": "default"
       }
     },
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6": {
@@ -425,6 +406,7 @@
       "block_order": [
         "a8a7ac28-37d4-43f0-a3ea-fd5cb84b0358"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "space_around": true
@@ -438,7 +420,6 @@
     "88ba6988-6d22-4ff8-bc12-061daafb0e26",
     "916e660d-8b1e-448f-9c37-84069df43122",
     "02d2466c-fc8b-4162-ae83-7c183e346acb",
-    "1dc425f6-3d7b-4328-ab30-db5540bd9c4b",
     "284f41b4-084a-4a8d-8976-b3fa9fef9ee6",
     "2970933c-48cf-4d97-9043-4bd83129230b",
     "8d610dcc-2ccf-45ab-92d5-71bc0eff844c",
