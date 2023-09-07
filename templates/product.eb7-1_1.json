@@ -41,7 +41,6 @@
         },
         "fc8669d4-8596-4ce3-abb7-9631a4848ccf": {
           "type": "payment_icon",
-          "disabled": true,
           "settings": {
             "text": "Pay with Ease"
           }
