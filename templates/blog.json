@@ -1,49 +1,25 @@
 {
   "sections": {
     "main": {
-      "type": "blog-template",
-      "blocks": {
-        "69aca84d-01b5-4841-b918-6e984c5d3fa9": {
-          "type": "r_product",
-          "settings": {
-            "product": "jasion-combo-sale-eb7-st-2-best-ebikes-for-family",
-            "p-img": "shopify:\/\/shop_images\/3_3222d835-3443-44d6-be6e-7e823e84d6db.png",
-            "p-title": "Jasion® Combo Sale EB7 ST*2",
-            "p-dec": "Top Youth Combo Sale"
-          }
-        },
-        "d806cf02-df01-401d-b9ad-f86992f6d594": {
-          "type": "r_product",
-          "settings": {
-            "product": "combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
-            "p-img": "shopify:\/\/shop_images\/3_89e0bd6c-d533-4980-b589-c02a510e2d54.png",
-            "p-title": "Jasion® Combo Sale Set EB7 2.0*2",
-            "p-dec": "2023 Top-Selling Portfolio"
-          }
-        },
-        "885a5acc-8d26-41c7-a34b-c011b851f16c": {
-          "type": "r_product",
-          "settings": {
-            "product": "jasion-eb7-electric-bike",
-            "p-img": "shopify:\/\/shop_images\/CB7black.png",
-            "p-title": "Jasion® EB7 2.0",
-            "p-dec": "Multifunction Folding Fat Tire"
-          }
-        }
-      },
-      "block_order": [
-        "69aca84d-01b5-4841-b918-6e984c5d3fa9",
-        "d806cf02-df01-401d-b9ad-f86992f6d594",
-        "885a5acc-8d26-41c7-a34b-c011b851f16c"
-      ],
+      "type": "main-blog",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Jasion-24.jpg",
-        "blog_show_tag_filter": true,
-        "blog_show_tags": true,
-        "blog_show_date": true,
-        "title_coll": "Recommend products",
-        "title_link": "View more",
-        "link": "shopify:\/\/collections\/electric-bike"
+        "allow_transparent_header": false,
+        "content": "",
+        "show_newsletter_form": false,
+        "show_tags": true,
+        "banner_background": "",
+        "banner_text_color": "",
+        "button_background": "",
+        "button_text_color": "",
+        "articles_per_page": 6,
+        "feature_first_article": true,
+        "feature_article_background": "",
+        "feature_article_text_color": "",
+        "show_excerpt": false,
+        "show_date": true,
+        "show_author": true,
+        "show_comments_count": true,
+        "show_category": true
       }
     }
   },

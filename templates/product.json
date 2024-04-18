@@ -3,105 +3,240 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "price": {
-          "type": "price",
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
           "settings": {
           }
         },
-        "judgeme_preview_badge_product_page_a5be8971": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "f5737115-a19e-4594-82a1-f7f77467b158": {
+          "type": "inventory",
+          "settings": {
+            "low_inventory_threshold": 78
+          }
+        },
+        "badges": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "beead425-c9b4-42aa-b019-63c29006c41d": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "payment_terms": {
+          "type": "payment_terms",
           "settings": {
           }
         },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "variant_labels": true,
-            "picker_type": "button",
-            "product_dynamic_variants_enable": true,
-            "color_swatches": true
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "variant",
+            "size_chart_page": ""
+          }
+        },
+        "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
+          "type": "quantity_selector",
+          "settings": {
           }
         },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "surface_pickup_enable": true
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
           }
         },
-        "0ca1d192-ca4c-45a4-8ab7-076818649288": {
-          "type": "text",
+        "bd56b862-0bde-40cb-bf3f-998d012a3882": {
+          "type": "associated_products",
+          "settings": {
+            "title": "Buy it with",
+            "stack_products": true,
+            "products_count": 10,
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
+          "type": "gifts",
           "disabled": true,
           "settings": {
-            "text": "Important Note: Pre-sale products will be shipped within a week."
+            "title": "Free delivery",
+            "free": "Free",
+            "tag_color": "#e03b3b",
+            "pd_1": "aipas-battery-charger",
+            "pd_2": "ebike-mirrors",
+            "pd_3": "",
+            "pd_4": ""
           }
-        }
-      },
-      "block_order": [
-        "price",
-        "judgeme_preview_badge_product_page_a5be8971",
-        "variant_picker",
-        "buy_buttons",
-        "0ca1d192-ca4c-45a4-8ab7-076818649288"
-      ],
-      "settings": {
-        "sku_enable": false,
-        "image_position": "left",
-        "image_size": "medium",
-        "product_zoom_enable": true,
-        "thumbnail_position": "beside",
-        "thumbnail_height": "flexible",
-        "thumbnail_arrows": false,
-        "mobile_layout": "partial",
-        "enable_video_looping": true,
-        "product_video_style": "muted",
-        "show_freegift": false,
-        "free_title": "Free Accessories Included",
-        "show_upsell": true,
-        "upsell_title": "Most Popular Upgrades"
-      }
-    },
-    "accessories": {
-      "type": "accessories-content",
-      "settings": {
-        "text": ""
-      }
-    },
-    "judgeme_section_review_widget_96d0": {
-      "type": "apps",
-      "disabled": true,
-      "blocks": {
-        "judgeme_review_widget_dfea9d1c": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        },
+        "ac0a8a83-72b2-4644-9f06-f3864406f533": {
+          "type": "pickup_availability",
+          "disabled": true,
           "settings": {
           }
+        },
+        "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li><strong>Contact Email：</strong>support@jasionbike.com</li><li><strong>Contact Phone Number：</strong>(+1) 888-825-6366</li></ul>"
+          }
+        },
+        "b1d920ab-ae91-47ef-9830-d74b10fa82cc": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "2bb01b16-2f46-4214-867b-18f9766638c0": {
+          "type": "collapsible_text",
+          "disabled": true,
+          "settings": {
+            "title": "Title",
+            "content": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "6069ce13-620c-4f70-954e-a9fbd8d993a0": {
+          "type": "icons",
+          "settings": {
+            "title": "<b>Trusted Delivery<b></b></b>",
+            "img": "shopify://shop_images/pic.png",
+            "is_payment": false
+          }
+        },
+        "34adddd9-ce7e-4863-a0aa-06fe5feb5bf4": {
+          "type": "icons",
+          "settings": {
+            "title": "<b>Pay With Ease</b>",
+            "img": "shopify://shop_images/zhifu.png",
+            "is_payment": false
+          }
+        },
+        "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
+          "type": "switch_tabs",
+          "disabled": true,
+          "settings": {
+            "content_1": "You can opt for local pickup in the United States (address: 820 S Wanamaker Ave, Ontario CA 91761, US). Just select the local pickup option when making the payment. After the purchase, our staff will contact you with the necessary documents for you to pick up your order locally.",
+            "img_2": "shopify://shop_images/9d532e540733029cca77b87687efd2d.png",
+            "content_2": "We provide a 1-year warranty service. For non-human-caused vehicle issues, there are two solutions. The first is to contact TST staff to have replacement parts shipped to you. The second is to have the vehicle repaired at a local repair shop and provide proof of payment, after which TST will reimburse the cost.",
+            "content_3": "Your order will be delivered to your provided address within 3-5 days. For the security of your vehicle purchase, a signature will be required upon delivery. We use major shipping carriers such as FedEx Ground, UPS, and DHL for our deliveries."
+          }
+        },
+        "34957dd4-27e4-40b7-b72e-e503f9ddc395": {
+          "type": "share_buttons",
+          "settings": {
+            "alignment": "end"
+          }
+        },
+        "e18f53be-3909-48bc-92fe-6297e5d963d0": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
         }
       },
       "block_order": [
-        "judgeme_review_widget_dfea9d1c"
+        "vendor",
+        "title",
+        "f5737115-a19e-4594-82a1-f7f77467b158",
+        "badges",
+        "price",
+        "rating",
+        "beead425-c9b4-42aa-b019-63c29006c41d",
+        "payment_terms",
+        "variant_picker",
+        "92b6eeef-a142-4961-bdba-1cc3b110eb09",
+        "buy_buttons",
+        "bd56b862-0bde-40cb-bf3f-998d012a3882",
+        "010d487e-6f61-4e08-b5ed-3d26f7ea915d",
+        "ac0a8a83-72b2-4644-9f06-f3864406f533",
+        "7da62006-1982-4e86-ac5f-daa94e18ccd4",
+        "b1d920ab-ae91-47ef-9830-d74b10fa82cc",
+        "2bb01b16-2f46-4214-867b-18f9766638c0",
+        "6069ce13-620c-4f70-954e-a9fbd8d993a0",
+        "34adddd9-ce7e-4863-a0aa-06fe5feb5bf4",
+        "3b2fa040-7f57-42cd-9275-57586d5b67ad",
+        "34957dd4-27e4-40b7-b72e-e503f9ddc395",
+        "e18f53be-3909-48bc-92fe-6297e5d963d0"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true
+        "full_width": true,
+        "show_fixed_add_to_cart": true,
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "mobile_media_size": "expanded",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
       }
     },
-    "c6f49c3e-a590-47ba-937a-ccc5ffff2a53": {
+    "0e33e56f-7bd9-412b-af98-9aef12dfa281": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
-        "title": "Product Recommendation",
-        "home_featured_products": "accessories",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": false,
-        "divider": false
+        "collection": "ebike",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 18,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "accessories",
-    "judgeme_section_review_widget_96d0",
-    "c6f49c3e-a590-47ba-937a-ccc5ffff2a53"
+    "0e33e56f-7bd9-412b-af98-9aef12dfa281"
   ]
 }

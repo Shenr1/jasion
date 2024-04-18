@@ -1,38 +1,73 @@
-[tag-name='blog-recommend'] .flickity-button{@apply tw-w-8 tw-h-8 tw-text-stone-700 tw-top-1/4 tw-bg-transparent }
-[tag-name='blog-recommend'] .flickity-previous{@apply md:-tw-left-4 tw-left-0 }
-[tag-name='blog-recommend'] .flickity-next{@apply md:-tw-right-4 tw-right-0 }
-[tag-name='blog-recommend'] .flickity-button-icon{@apply tw-w-8 tw-h-8 tw-left-0 tw-top-0}
-
-.switch_tabs .item-tab.active{@apply tw-border-solid tw-border-0 tw-border-b-2 tw-border-black}
-
-.waterfall-section .item:nth-child(-n+3) .item-content b{@apply md:tw-text-[3.15vw] tw-text-[4.525vw] tw-leading-tight tw-whitespace-nowrap}
-.waterfall-section .item:nth-child(n+3) .item-content b{@apply md:tw-text-[2.1vw] tw-text-[4vw] tw-leading-tight tw-whitespace-nowrap}
-.waterfall-section .item .item-content span{@apply md:tw-text-[1.575vw] tw-text-[3vw] tw-text-stone-600 tw-whitespace-nowrap}
-
-.waterfall-section .tw-flex:nth-child(2) .item .item-content b{@apply md:tw-text-[2.35vw] tw-leading-tight tw-mb-0 tw-whitespace-nowrap}
-.waterfall-section .tw-flex:nth-child(2) .item .item-content span{@apply md:tw-text-[1.25vw] tw-text-stone-600 tw-whitespace-nowrap}
-
-[section-name="story-swiper"] .flickity-prev-next-button { @apply xl:tw-bottom-[10%] tw-bg-white tw-translate-y-[0%] tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px] tw-left-auto tw-top-auto md:tw-bottom-[6%] tw-bottom-[3%]; }
-[section-name="story-swiper"] .flickity-next { @apply md:tw-right-[calc(30%_-_5px)] tw-right-auto md:tw-left-auto tw-left-[calc(93px_+_5%)]; }
-[section-name="story-swiper"] .flickity-previous { @apply md:tw-right-[calc(100px_+_30%)] tw-right-auto md:tw-left-auto tw-left-[5%]; }
-
-[section-name="text-logo-switch"] .mb-switch-wrapper .flickity-prev-next-button{ @apply tw-translate-y-[0%] tw-top-auto -tw-bottom-12 tw-bg-white tw-text-black tw-shadow-[#ebebeb_0px_0px_5px_3px]}
-
-[section-name="text-logo-switch"] .mb-switch-wrapper .flickity-previous{@apply tw-right-[55%] tw-left-auto}
-[section-name="text-logo-switch"] .mb-switch-wrapper .flickity-next{@apply tw-left-[55%] tw-right-auto}
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@media only screen and (max-width:769px) {
-    [flickity-screen='pc']:after {@apply tw-content-none }
-    [flickity-screen='mobile']:after {@apply tw-content-['flickity'] tw-hidden }
+.bg-vi{
+    --button-background: var(--button-background-primary) / var(--button-background-opacity, 1);
+    background-color: rgb(var(--button-background));
 }
 
-@media only screen and (min-width:770px) {
-    [flickity-screen='pc']:after {@apply tw-content-['flickity'] tw-hidden}
-    [flickity-screen='mobile']:after {@apply tw-content-none}
-    .product-section .page-content--product{@apply tw-pt-20}
+.ebike-price-wrap .text-on-sale{@apply xl:tw-text-3xl tw-text-2xl tw-font-bold}
+.ebike-price-wrap .text-subdued{@apply xl:tw-text-xl tw-text-lg}
+.button--2xl{@apply xl:tw-text-2xl tw-text-xl 2xl:tw-px-28 xl:tw-px-24 tw-px-20 tw-py-4}
+.page-width{
+    --context-section-spacing-inline: var(--container-gutter);
+    --calculated-section-spacing-inline: var(--section-spacing-inline, var(--context-section-spacing-inline));
+    padding-inline-start: max(var(--calculated-section-spacing-inline),50% - var(--container-max-width) / 2);
+    padding-inline-end: max(var(--calculated-section-spacing-inline),50% - var(--container-max-width) / 2);
 }
+.mb-carousel > *{grid-area: 1 / -1;}
+.mb-carousel{@apply tw-grid}
+.button.focus{
+    background-color: transparent !important;
+    color: rgb(var(--button-outline-color) / var(--button-background-opacity, 1)) !important;
+    box-shadow: inset 0 0 0 2px currentColor !important;
+}
+
+.accordion.accordion--lg {@apply tw-bg-stone-50 tw-border-0}
+.accordion.accordion--lg .accordion__content{@apply tw-p-0}
+.accordion.accordion--lg > summary{@apply tw-px-8 tw-bg-stone-50 tw-border tw-transition-all tw-rounded-lg}
+.accordion.accordion--lg[aria-expanded="true"] > summary{@apply tw-text-white tw-bg-black tw-rounded-b-none}
+[section-name="accordion"] .style1{@apply md:tw-mb-10 tw-mb-6 tw-pb-4 tw-pl-6}
+[section-name="accordion"] .style1 > span{@apply tw-mb-2}
+[section-name="accordion"] .style1 > h3{@apply tw-text-xl tw-font-semibold}
+[section-name="accordion"] .style1 > p{@apply tw-text-stone-500 tw-h-6}
+
+[section-name="accordion"] .style2{@apply md:tw-pl-6 tw-pl-3 tw-flex tw-items-center tw-py-3 tw-mb-4 tw-h-full}
+[section-name="accordion"] .style2 > span{@apply tw-flex-shrink-0 tw-text-base tw-flex tw-items-center tw-justify-center tw-w-8 tw-h-8 tw-mr-2 tw-rounded-full bg-vi tw-text-white tw-leading-4}
+[section-name="accordion"] .style2 > h3{@apply tw-text-base }
+[section-name="accordion"] .style2 > p{@apply tw-float-right tw-ml-auto}
+
+[section-name="accordion"] .style3{@apply md:tw-pl-6 tw-pl-3 tw-flex tw-items-center tw-py-3 tw-mb-4 tw-h-full}
+[section-name="accordion"] .style3 > span{@apply tw-flex-shrink-0 tw-text-base tw-flex tw-items-center tw-justify-center tw-w-2 tw-h-2 tw-mr-2 tw-rounded-full tw-bg-stone-400 tw-text-white tw-leading-4}
+[section-name="accordion"] .style3 > h3{@apply tw-text-base }
+[section-name="accordion"] .style3 > p{@apply tw-float-right tw-ml-auto}
+
+.tabs-content-section .tab-item.active span{@apply tw-text-black tw-font-semibold tw-border-black}
+
+[section-name="tab-product-content"] .carousel-cell-product:nth-child(n+4){@apply md:tw-block tw-hidden}
+[section-name="tab-product-content"] .carousel-cell-product .product-card__figure{@apply xl:tw-w-3/5 md:tw-w-4/5 tw-w-10/12 tw-mx-auto}
+[section-name="tab-product-content"] .carousel-cell-product .product-card__info {@apply xl:tw-flex xl:tw-px-10 xl:tw-pb-8 md:tw-p-6 tw-p-4 }
+[section-name="tab-product-content"] .carousel-cell-product .product-card__info .v-stack{@apply tw-flex tw-items-center}
+[section-name="tab-product-content"] .carousel-cell-product .product-card__info .product-card__aside{@apply tw-flex tw-shrink-0}
+[section-name="tab-product-content"] .carousel-cell-product .product-card__title{@apply tw-text-lg tw-mr-6 tw-relative}
+[section-name="tab-product-content"] .carousel-cell-product .product-card__title::before{@apply tw-content-[''] tw-bg-black tw-w-[3px] tw-top-1/2 -tw-translate-y-1/2 tw-h-1/2 tw-absolute -tw-right-3}
+[section-name="tab-product-content"] .flickity-button:disabled{@apply tw-hidden}
+[section-name="tab-product-content"] .flickity-button{@apply tw-bg-black tw-text-white tw-shadow}
+
+.pr-color-option li.active{@apply !tw-border-stone-900}
+.eb2-info .product-info__text{@apply tw-text-base}
+.eb2-info .product-info__button .button{@apply tw-rounded-none}
+.eb2-info .product-info__title{@apply tw-font-semibold tw-tracking-wide}
+.eb2-info .rating-with-text sale-price{@apply tw-text-4xl}
+[section-name="featured-product-ebike"] {@apply md:tw-p-0 tw-px-4 md:tw-rounded-none tw-overflow-hidden}
+
+
+.item-tab.active{@apply tw-opacity-100 tw-scale-100}
+
+.tw-mask{@apply tw-absolute tw-bottom-0 tw-left-0 tw-right-0 tw-top-0 tw-h-full tw-w-full tw-overflow-hidden tw-bg-black tw-bg-fixed}
+
+[section-name="tabs-image-text-list"] .product-card__info .v-stack.w-full {@apply tw-hidden}
+[section-name="tabs-image-text-list"] .product-card__info .product-card__aside {@apply tw-mx-auto}
+[section-name="tabs-image-text-list"] .product-card__figure img {@apply tw-object-cover tw-h-full}
+[section-name="tabs-image-text-list"] .product-card {@apply tw-inline}

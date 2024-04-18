@@ -1,226 +1,195 @@
 {
   "type": "footer",
-  "name": "t:sections.footer-group.name",
+  "name": "Footer group",
   "sections": {
-    "e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef": {
-      "type": "newsletter",
+    "text-with-icons": {
+      "type": "text-with-icons",
       "blocks": {
-        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-1": {
-          "type": "text",
+        "free-shipping": {
+          "type": "item",
           "settings": {
-            "text": "<p>Join The Rider<\/p>"
+            "icon": "picto-phone",
+            "custom_icon": "shopify://shop_images/fastdelivery.png",
+            "mobile_icon_width": 68,
+            "icon_width": 68,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Fast Delivery",
+            "content": "<p>On your doorstep in just 2-4 days across 49 states</p>"
           }
         },
-        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-0": {
-          "type": "title",
+        "customer-support": {
+          "type": "item",
           "settings": {
-            "title": "Get The Latest News & Offers.",
-            "heading_size": "h2"
+            "icon": "picto-envelope",
+            "custom_icon": "shopify://shop_images/warranty_40a79d35-97c3-4e65-9fcd-f1ad051451fb.png",
+            "mobile_icon_width": 68,
+            "icon_width": 68,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "1 Year Warranty",
+            "content": "<p>All Ebikes backed by Jasion Limited Warranty</p>"
           }
         },
-        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-2": {
-          "type": "form",
+        "discount": {
+          "type": "item",
           "settings": {
+            "icon": "picto-building",
+            "custom_icon": "shopify://shop_images/taxfree.png",
+            "mobile_icon_width": 68,
+            "icon_width": 68,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Tax-Free",
+            "content": "<p>No need to pay 7-10% ST</p>"
           }
         },
-        "05a46106-9eb8-4e27-9c1a-b5f87c0781ae": {
-          "type": "share_buttons",
-          "disabled": true,
+        "payment": {
+          "type": "item",
           "settings": {
+            "icon": "picto-secure-profile",
+            "custom_icon": "shopify://shop_images/Jasion_ICON_14.png",
+            "mobile_icon_width": 68,
+            "icon_width": 68,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "14-Day Trial",
+            "content": "<p>Don't love it, send it back to us.</p>"
+          }
+        },
+        "e04a013b-33a5-4ea5-8030-b4d99e7d6b3f": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-like",
+            "custom_icon": "shopify://shop_images/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
+            "mobile_icon_width": 68,
+            "icon_width": 68,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": "",
+            "title": "Contact Phone:",
+            "content": "<p>Call Us：(+1) 888-825-6366</p>"
           }
         }
       },
       "block_order": [
-        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-1",
-        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-0",
-        "sections--18193809015058__e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef-1678977182e26b3d9e-2",
-        "05a46106-9eb8-4e27-9c1a-b5f87c0781ae"
+        "free-shipping",
+        "customer-support",
+        "discount",
+        "payment",
+        "e04a013b-33a5-4ea5-8030-b4d99e7d6b3f"
       ],
-      "custom_css": [
-
-      ],
-      "settings": {
-        "align_text": "center",
-        "image_width": "33",
-        "image_mask": "none",
-        "image_position": "right",
-        "color_background": "#fbfaf7",
-        "color_text": "#1c1d1d",
-        "top_padding": true,
-        "bottom_padding": true
-      }
-    },
-    "footer-promotions": {
-      "type": "footer-promotions",
       "disabled": true,
       "settings": {
-        "hide_homepage": false,
-        "image_size": "wide"
+        "full_width": true,
+        "stack_on_mobile": false,
+        "title": "",
+        "heading_tag": "h6",
+        "text_alignment": "center",
+        "icon_spacing": "medium",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "footer": {
       "type": "footer",
       "blocks": {
-        "c4d1b76a-b4d7-4587-8e30-26b8cac91411": {
-          "type": "custom",
+        "newsletter": {
+          "type": "newsletter",
           "settings": {
-            "show_footer_title": false,
-            "title": "Custom text",
-            "image": "shopify:\/\/shop_images\/Jasion_logo_white_200x_8cce7744-ac92-4143-9cc9-446e330e0522.png",
-            "text": "<p><strong>Email <\/strong><\/p><p><a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a><\/p><p><strong>Hours<\/strong><\/p><p> 9am-5pm MST, Mon-Fri<\/p>",
-            "container_width": 28
+            "image": "shopify://shop_images/logo_6a36478d-e307-409f-b8ab-8a6760c55f1a.png",
+            "image_width": 250,
+            "heading_size": "h6",
+            "title": "We Are Here To Help",
+            "content": "<ul><li>Support: support@jasionbike.com</li><li>Representative: 1 (888) 825 6366 </li><li>Hours: 9AM - 6PM (Mon-Fri EST)</li><li>Due to a recent surge in traffic, we apologize for any delayed response. </li></ul>",
+            "link_1": "shopify://policies/privacy-policy",
+            "link_title1": "Privacy Policy",
+            "link_2": "shopify://policies/refund-policy",
+            "link_title2": "Refund Policy",
+            "link_3": "shopify://policies/shipping-policy",
+            "link_title3": "Shipping Policy",
+            "link_4": "shopify://policies/terms-of-service",
+            "link_title4": "Terms of Service"
           }
         },
-        "a0117bb8-6ab4-4d1a-9549-61ecc99823a9": {
-          "type": "social-media",
-          "settings": {
-            "show_footer_title": true,
-            "title": "Follow us",
-            "code": "",
-            "container_width": 17
-          }
-        },
-        "1494301487049": {
-          "type": "menu",
-          "settings": {
-            "show_footer_title": true,
-            "menu": "before-you-buy",
-            "container_width": 18
-          }
-        },
-        "a76c9633-874e-436f-b7b4-5515a0b8b4c0": {
-          "type": "menu",
-          "settings": {
-            "show_footer_title": true,
-            "menu": "footer",
-            "container_width": 18
-          }
-        },
-        "a8c14a04-12f4-4601-b426-5c75220c4462": {
-          "type": "menu",
-          "settings": {
-            "show_footer_title": true,
-            "menu": "our-company",
-            "container_width": 18
-          }
-        }
-      },
-      "block_order": [
-        "c4d1b76a-b4d7-4587-8e30-26b8cac91411",
-        "a0117bb8-6ab4-4d1a-9549-61ecc99823a9",
-        "1494301487049",
-        "a76c9633-874e-436f-b7b4-5515a0b8b4c0",
-        "a8c14a04-12f4-4601-b426-5c75220c4462"
-      ],
-      "custom_css": [
-        ".image-wrap {background: transparent;}"
-      ],
-      "settings": {
-        "show_locale_selector": false,
-        "show_currency_selector": false,
-        "show_currency_flags": false,
-        "show_payment_icons": true,
-        "show_copyright": true,
-        "copyright_text": "All Right Reserved",
-        "refund_url": "shopify:\/\/policies\/refund-policy",
-        "terms_url": "shopify:\/\/policies\/terms-of-service"
-      }
-    },
-    "custom-colors": {
-      "type": "custom-colors",
-      "blocks": {
-        "1888fda2-fecc-4309-8739-4092a6f9dedf": {
-          "type": "Color",
-          "settings": {
-            "title1": "EB7 Black",
-            "color1": "#000000",
-            "title2": "EB7 White",
-            "color2": "#f9f9f9",
-            "title3": "EB7 Green",
-            "color3": "#7a9050",
-            "title4": "EB7ST Black",
-            "color4": "#000000",
-            "title5": "EB7ST White",
-            "color5": "#ffffff",
-            "title6": "",
-            "color6": "#7a9050",
-            "title7": "",
-            "color7": "#979f71",
-            "image7": "shopify:\/\/shop_images\/9a94df55bc7cb5f235917e429885854e.jpg",
-            "title8": "",
-            "color8": "#df974d",
-            "image8": "shopify:\/\/shop_images\/1818491f5da8a348ab60caa1ccb42af6.jpg",
-            "title9": "",
-            "color9": "#b07c8b",
-            "image9": "shopify:\/\/shop_images\/b91f0de6164ffdbb197c500a78641767.jpg",
-            "title10": "",
-            "color10": "#000000",
-            "title11": "",
-            "color11": "#ffffff",
-            "title12": "",
-            "color12": "",
-            "image12": "shopify:\/\/shop_images\/b91f0de6164ffdbb197c500a78641767_41c9cdb0-a98d-49d2-bdaf-956715a251f9.jpg",
-            "title13": "",
-            "color13": "",
-            "image13": "shopify:\/\/shop_images\/b91f0de6164ffdbb197c500a78641767_41c9cdb0-a98d-49d2-bdaf-956715a251f9.jpg",
-            "title14": "",
-            "color14": "",
-            "image14": "shopify:\/\/shop_images\/1818491f5da8a348ab60caa1ccb42af6_ca642f28-5d8c-4176-8554-ea37ba001e37.jpg",
-            "title15": "",
-            "color15": ""
-          }
-        },
-        "ab4b459c-0bf7-4d4c-b2e3-cd15bf4fdf77": {
-          "type": "Color",
+        "text": {
+          "type": "text",
           "disabled": true,
           "settings": {
-            "title1": "Black+Black",
-            "color1": "#000000",
-            "title2": "White+Black",
-            "color2": "",
-            "image2": "shopify:\/\/shop_images\/9a94df55bc7cb5f235917e429885854e_43346ba6-9bbf-4c46-9000-ac668d035c2e.jpg",
-            "title3": "White+White",
-            "color3": "#ffffff",
-            "title4": "EB7ST Black",
-            "color4": "#000000",
-            "title5": "",
-            "color5": "#ffffff",
-            "title6": "",
-            "color6": "",
-            "title7": "",
-            "color7": "",
-            "title8": "",
-            "color8": "",
-            "title9": "",
-            "color9": "",
-            "title10": "",
-            "color10": "",
-            "title11": "",
-            "color11": "",
-            "title12": "",
-            "color12": "",
-            "title13": "",
-            "color13": "",
-            "title14": "",
-            "color14": "",
-            "title15": "",
-            "color15": ""
+            "title": "Contact Us",
+            "content": "<ul><li>Contact Email：support@jasionbike.com</li><li>Contact Phone: (+1) 888-825-6366</li><li>Hours: 9：00 am-18：00 pm. (Mon-Fri EST)</li></ul>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "0e82fb7a-8da4-4169-b159-164aa3fe3e81": {
+          "type": "links",
+          "settings": {
+            "menu": "footer-products",
+            "show_menu_title": true
+          }
+        },
+        "b2253eca-d970-4499-a14d-4e3dc4ab217b": {
+          "type": "links",
+          "settings": {
+            "menu": "our-company",
+            "show_menu_title": true
+          }
+        },
+        "9debe75f-53b4-4dce-b370-218577c44315": {
+          "type": "links",
+          "settings": {
+            "menu": "before-you-buy",
+            "show_menu_title": true
+          }
+        },
+        "links_NihtdU": {
+          "type": "links",
+          "settings": {
+            "menu": "explore",
+            "show_menu_title": true
+          }
+        },
+        "links_piiGUj": {
+          "type": "links",
+          "disabled": true,
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true
           }
         }
       },
       "block_order": [
-        "1888fda2-fecc-4309-8739-4092a6f9dedf",
-        "ab4b459c-0bf7-4d4c-b2e3-cd15bf4fdf77"
+        "newsletter",
+        "text",
+        "0e82fb7a-8da4-4169-b159-164aa3fe3e81",
+        "b2253eca-d970-4499-a14d-4e3dc4ab217b",
+        "9debe75f-53b4-4dce-b370-218577c44315",
+        "links_NihtdU",
+        "links_piiGUj"
       ],
       "settings": {
-        "custom_colors": false
+        "show_social_media": false,
+        "padding_width": 6,
+        "padding_width_ipad": 6,
+        "padding_width_mobile": 2,
+        "show_payment_icons": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": true,
+        "show_locale_selector": false,
+        "background": "#272727",
+        "text_color": "#ffffff",
+        "media_color": "#f2f2f2"
       }
     }
   },
   "order": [
-    "e89bcdb3-d8e0-4aa8-aa5c-e8319ad4b6ef",
-    "footer-promotions",
-    "footer",
-    "custom-colors"
+    "text-with-icons",
+    "footer"
   ]
 }

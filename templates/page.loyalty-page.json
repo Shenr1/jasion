@@ -1,0 +1,252 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "a2cd2e9b-3208-40fc-8701-76fdba7342b4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16905169436909__a2cd2e9b-3208-40fc-8701-76fdba7342b4-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Reliable Service & Support"
+          }
+        },
+        "template--16905169436909__a2cd2e9b-3208-40fc-8701-76fdba7342b4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Contact us!",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16905169436909__a2cd2e9b-3208-40fc-8701-76fdba7342b4-richtext-1": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16905169436909__a2cd2e9b-3208-40fc-8701-76fdba7342b4-subheading-1",
+        "template--16905169436909__a2cd2e9b-3208-40fc-8701-76fdba7342b4-heading-1",
+        "template--16905169436909__a2cd2e9b-3208-40fc-8701-76fdba7342b4-richtext-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "1698828082b720d9b3": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1257a294-1f39-4ee0-a1eb-6df02913146f": {
+      "type": "contact",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "Our champion customer service will get back to you within hours.",
+        "title": "",
+        "content": "<h3>Contact</h3><p>Email: support@jasionbike.com</p><p>Phone Number: (+1) 888-825-6366</p><h3>We're Open</h3><p>Business time: 10:00 - 19:00, (UTC-8, PST) Mon-Fri</p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "e4e84ea8-1fed-408b-8a56-4399e12651b4": {
+      "type": "icon-list",
+      "blocks": {
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/facebook_facebook52.png",
+            "title": "Example title",
+            "content": "",
+            "link": ""
+          }
+        },
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Example title",
+            "content": "",
+            "link": ""
+          }
+        },
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Example title",
+            "content": "",
+            "link": ""
+          }
+        },
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-4": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Example title",
+            "content": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-1",
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-2",
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-3",
+        "template--16905169436909__e4e84ea8-1fed-408b-8a56-4399e12651b4-text_block-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": ""
+      }
+    },
+    "d948ea3d-e495-485d-a279-2501e6ab6261": {
+      "type": "faq",
+      "blocks": {
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-1": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "EB7 2.0&EB7 ST",
+            "content": "<p>AO_CA_US<br/>1001 South Doubleday ave, DOCK#19, Ontario, CA 91761<br/>Contact: Jason Wang <br/>Phone Number：909-966-9669</p>"
+          }
+        },
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-2": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter-Black",
+            "content": "<p>MNR1<br/>Address: 24 Engelhard Dr. Suite D, Monroe Township, NJ, US 08831 （back side of building, loading dock 15 ）<br/>Contact: Lisa<br/>Phone Number: 516-808-6095</p>"
+          }
+        },
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter-Grey, Blue, White",
+            "content": "<p>RIA<br/>Address:2380 W Baseline Road Dock Door #3, Rialto, CA 92376 <br/>Contact: Frank <br/>Phone Number：626-731-1880 <br/>Hours: 7:00-15:00</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-1",
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-2",
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text_size": 100,
+        "subheading": "",
+        "title": "We support local pickup!",
+        "content": "<p>Below is the address of our pick-up point (by ebike model)<br/>Please contact our customer service<strong> support@jasionbike.com</strong> in advance.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "17005592562d3c7e17": {
+      "type": "apps",
+      "blocks": {
+        "63a08e86-4133-46e2-8679-db894f1250f9": {
+          "type": "shopify://apps/bon-loyalty/blocks/loyalty-page-block/63496a04-c097-48d1-8c11-475aec24b12e",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "63a08e86-4133-46e2-8679-db894f1250f9"
+      ],
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a2cd2e9b-3208-40fc-8701-76fdba7342b4",
+    "1698828082b720d9b3",
+    "1257a294-1f39-4ee0-a1eb-6df02913146f",
+    "e4e84ea8-1fed-408b-8a56-4399e12651b4",
+    "d948ea3d-e495-485d-a279-2501e6ab6261",
+    "17005592562d3c7e17"
+  ]
+}

@@ -1,222 +1,632 @@
-{%- if section.settings.divider -%}<div class="section--divider">{%- endif -%}
+{%- render 'section-spacing-collapsing' -%}
 
-<div class="page-width page-width--narrow">
+{%- assign text_position = section.settings.text_position -%}
 
-  {%- if section.settings.title != blank -%}
-    <header class="section-header">
-      <h2 class="section-header__title">
-        {{ section.settings.title | escape }}
-      </h2>
-    </header>
-  {%- endif -%}
+<style>
+  #shopify-section-{{ section.id }} {
+    {% if section.settings.full_width %}
+    --section-stack-intro: 100%;
+    --section-stack-main: 100%;
+    {% else %}
+    --section-stack-intro: {% if text_position == 'center' %}60%{% else %}50%{% endif %};
+    --section-stack-main: {% if text_position == 'center' %}60%{% else %}50%{% endif %};
+    {% endif %}
+  }
+</style>
 
-  {%- if section.blocks.size > 0 -%}
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {% for block in section.blocks %}
-            {% case block.type %}
-              {% when 'question' %}
-                {
-                  "@type": "Question",
-                  "name": {{ block.settings.title | json }},
-                  "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": {{ block.settings.text | json }}
-                  }
-                }{% unless forloop.last %},{% endunless %}
-            {% endcase %}
-          {% endfor %}
-        ]
-      }
-    </script>
-<div class="tab_lists tab_lists-faq">
-  <div class="tab_nav">
-    <ul>
-      <li class="active">About My Order</li>
-      <li class="">Return &amp; Refund</li>       
-      <li class="">About Jasion E-bike</li>
-      <li class="">Miscellaneous</li>
-        
-</ul>
+<div class="page-width {% render 'section-interva-set' , secSt:section.settings %}">
+  <div class="section-stack {% if text_position != 'center' %}section-stack--horizontal{% else %}section-stack--center{% endif %} {% if text_position == 'end' %}section-stack--reverse{% endif %}"
+  style="font-size:{{section.settings.text_size}}%">
+    {%- capture content -%}
+      {%- if section.settings.subheading != blank -%}
+        <p class="bold">{{ section.settings.subheading | escape }}</p>
+      {%- endif -%}
+
+      {%- if section.settings.title != blank -%}
+        <h2 class="h2">
+          {%- render 'styled-text', content: section.settings.title, text_color: section.settings.heading_color, gradient: section.settings.heading_gradient -%}
+        </h2>
+      {%- endif -%}
+
+      {{- section.settings.content -}}
+    {%- endcapture -%}
+
+    {%- capture subcontent -%}
+      <div class="faq-availability">
+        {%- if section.settings.team_avatar != blank or section.settings.support_hours != blank or section.settings.answer_time != blank -%}
+          <div class="v-stack gap-4">
+            {%- if section.settings.team_avatar != blank -%}
+              {%- capture sizes -%}{{ section.settings.team_avatar_width }}px{%- endcapture -%}
+              {%- capture widths -%}{{ section.settings.team_avatar_width }}, {{ section.settings.team_avatar_width | times: 2 | at_most: section.settings.team_avatar.width }}{%- endcapture -%}
+              {%- capture style -%}max-width: {{ section.settings.team_avatar_width }}px{%- endcapture -%}
+              {{- section.settings.team_avatar | image_url: width: section.settings.team_avatar.width | image_tag: loading: 'lazy', style: style, sizes: sizes, widths: widths -}}
+            {%- endif -%}
+
+            {%- if section.settings.support_hours != blank or section.settings.answer_time != blank -%}
+              <div class="v-stack">
+                {{- section.settings.support_hours -}}
+
+                {%- if section.settings.answer_time != blank -%}
+                  <span class="text-subdued">{{ section.settings.answer_time }}</span>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.button_text != blank -%}
+          {% render 'button', content: section.settings.button_text, href: section.settings.button_url, size: 'xl', background: section.settings.button_background, text_color: section.settings.button_text_color %}
+        {%- endif -%}
+      </div>
+    {%- endcapture -%}
+
+    {%- if content != blank or subcontent != blank -%}
+      {% assign tabArr = "" %}
+      {%- for block in section.blocks -%}
+        {% assign blkSet = block.settings %}
+        {% assign tabArr = tabArr | append: blkSet.order | append: "," %}
+      {%- endfor -%}
+      {% assign tabs = tabArr | split: "," | uniq %}
+      <div class="section-stack__intro {% if tabs == blank %}xl:tw-mr-12 md:tw-mr-8 tw-mr-0{%- endif -%}">
+        <div class="v-stack gap-10">
+          {%- if content != blank -%}
+            <div class="prose {% if text_position == 'center' %}text-center{% endif %}">
+              {{- content -}}
+            </div>
+          {%- endif -%}
+
+          {%- if text_position != 'center' and subcontent != blank -%}
+            <div class="hidden lg:block">
+              {{- subcontent -}}
+            </div>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if section.blocks.size > 0 -%}
+
+      {% assign tabArr = "" %}
+      {%- for block in section.blocks -%}
+        {% assign blkSet = block.settings %}
+        {% assign tabArr = tabArr | append: blkSet.order | append: "," %}
+      {%- endfor -%}
+
+      {% assign tabs = tabArr | split: "," | uniq %}
+      {% if tabs != blank %}
+      <div class="tw-flex xl:tw-w-2/3 tw-w-full tw-mx-auto tw-justify-center tab-list tw-flex-wrap">
+        {%- for tab in tabs -%}
+            <div tab-title="{{ tab | downcase | handleize }}" class="tab-item button md:tw-px-5 tw-px-2 tw-mb-5 md:tw-mx-4 tw-mx-1 tw-cursor-pointer {% if forloop.first %}focus{% endif %}">{{tab}}</div>
+        {%- endfor -%}
+      </div>
+      {% endif %}
+      
+      {% if tabs == blank %}
+        <div class="section-stack__main">
+          <div {% render 'surface', class: 'accordion-box rounded tw-bg-stone-50', background: section.settings.accordion_background, text_color: section.settings.accordion_text_color, background_fallback: '' %}>
+            {%- for block in section.blocks -%}
+              {%- if block.settings.title != blank and block.settings.content != blank -%}
+                {%- capture accordion_content -%}
+                  <div class="prose">{{ block.settings.content }}</div>
+                {%- endcapture -%}
+  
+                {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      {% else %}
+        {%- for tab in tabs -%}
+          <div tab-target="{{ tab | downcase | handleize }}" class="section-stack__main {% unless forloop.first %}tw-hidden{% endunless %}" >
+            <div {% render 'surface', class: 'tw-bg-white accordion-box rounded tw-px-0', background: section.settings.accordion_background, text_color: section.settings.accordion_text_color, background_fallback: '' %}>
+              {%- for block in section.blocks -%}
+                {% if tab == block.settings.order %}
+                  {%- if block.settings.title != blank and block.settings.content != blank -%}
+                    {%- capture accordion_content -%}
+                      <div class="prose">{{ block.settings.content }}</div>
+                    {%- endcapture -%}
+      
+                    {%- render 'accordion', title: block.settings.title, content: accordion_content, block: block -%}
+                  {%- endif -%}
+                {% endif %}
+              {%- endfor -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      {% endif %}
+
+
+
+    {%- endif -%}
+
+    <div {% if text_position != 'center' %}class="lg:hidden"{% endif %}>
+      {{- subcontent -}}
+    </div>
   </div>
-    <div class="tabspan">
-      <div class="ts_item">
-    {%- for block in section.blocks -%}
-        {% case block.type %}
-          {% when 'order'%}
-      <div>
-              <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-                <span>- {{ block.settings.title }}</span>                 {%- render 'collapsible-icons-alt', no_circle: false -%}
-
-              </button>
-              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte">
-                  {{ block.settings.text }}
-                </div>
-              </div>
-      </div>
-        {% endcase %}
-    {%- endfor -%}
-      </div>
-      <div class="ts_item" style="display:none;">
-    {%- for block in section.blocks -%}
-        {% case block.type %}
-          {% when 'policy'%}
-      <div>
-              <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-                <span>- {{ block.settings.title }}</span>                {%- render 'collapsible-icons-alt', no_circle: true -%}
-
-              </button>
-              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte">
-                  {{ block.settings.text }}
-                </div>
-              </div>
-      </div>
-        {% endcase %}
-    {%- endfor -%}
-      </div>
-
-     
-      <div class="ts_item" style="display:none;">
-    {%- for block in section.blocks -%}
-        {% case block.type %}
-          {% when 'product'%}
-      <div>
-              <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-             
-                <span>- {{ block.settings.title }}</span>   {%- render 'collapsible-icons-alt', no_circle: true -%}
-              </button>
-              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte">
-                  {{ block.settings.text }}
-                </div>
-              </div>
-      </div>
-        {% endcase %}
-    {%- endfor -%}
-      </div>
-    <div class="ts_item" style="display:none;">
-    {%- for block in section.blocks -%}
-        {% case block.type %}
-          {% when 'Miscellaneous'%}
-      <div>
-              <button type="button" class="collapsible-trigger collapsible-trigger--inline collapsible--auto-height text-left" aria-controls="FAQ-content-{{ block.id }}">
-              
-                <span>- {{ block.settings.title }}</span>   {%- render 'collapsible-icons-alt', no_circle: true -%}
-              </button>
-              <div id="FAQ-content-{{ block.id }}" class="collapsible-content collapsible-content--all">
-                <div class="collapsible-content__inner collapsible-content__inner--faq rte">
-                  {{ block.settings.text }}
-                </div>
-              </div>
-      </div>
-        {% endcase %}
-    {%- endfor -%}
-      </div>
-    </div>
-
-</div>
-  {%- endif -%}
-  {%- if section.blocks.size == 0 -%}
-    <div class="placeholder-noblocks">
-      {{ 'home_page.onboarding.no_content' | t }}
-    </div>
-  {%- endif -%}
 </div>
 
-{%- if section.settings.divider -%}</div>{%- endif -%}
+<script>
+  const tabs = document.querySelectorAll('#shopify-section-{{section.id}} .tab-list > .tab-item');
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+    tab.classList.add('focus');
+    tabs.forEach(otherTab => {
+      if (otherTab !== tab) {
+      otherTab.classList.remove('focus');
+      }
+    });
+    const tabTitle = tab.getAttribute('tab-title');
+    const tabTargets = document.querySelectorAll(`#shopify-section-{{section.id}} [tab-target="${tabTitle}"]`);
+    tabTargets.forEach(target => {
+      target.classList.remove('tw-hidden');
+    });
+    const otherTabTargets = document.querySelectorAll(`#shopify-section-{{section.id}} [tab-target]:not([tab-target="${tabTitle}"])`);
+    otherTabTargets.forEach(target => {
+      target.classList.add('tw-hidden');
+    });
+    });
+  });
+</script>
 
-{% schema %}
+
+
+
+{%- comment -%}On the FAQ page, we also output the content with JSON microdata for SEO{%- endcomment -%}
+
+<script type="application/ld+json">
   {
-    "name": "FAQ",
-    "class": "index-section",
-    "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading",
-        "default": "FAQs"
-      }
-    ],
-    "blocks": [
-      {
-        "type": "order",
-        "name": "Order",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Order Issues",
-            "default": "Order Issues"
-          },
-          {
-            "type": "richtext",
-            "id": "text",
-            "label": "Text",
-            "default": "<p>Use this section for any descriptive text you need to fill out your pages or to add introductory headings between other blocks.</p>"
-          }
-        ]
-      },
-      {
-        "type": "policy",
-        "name": "policy",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Policy",
-            "default": "Policy"
-          },
-          {
-            "type": "richtext",
-            "id": "text",
-            "label": "Text",
-            "default": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
-          }
-        ]
-      },
-
-      {
-        "type": "product",
-        "name": "Product",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Product",
-            "default": "Product"
-          },
-          {
-            "type": "richtext",
-            "id": "text",
-            "label": "Text",
-            "default": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
-          }
-        ]
-      },
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {%- for block in section.blocks -%}
         {
-        "type": "Miscellaneous",
-        "name": "Miscellaneous",
-        "settings": [
-          {
-            "type": "text",
-            "id": "title",
-            "label": "Miscellaneous",
-            "default": "Miscellaneous"
-          },
-          {
-            "type": "richtext",
-            "id": "text",
-            "label": "Text",
-            "default": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          "@type": "Question",
+          "name": {{ block.settings.title | json }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ block.settings.content | json }}
           }
-        ]
-      }
-     
+        }{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
     ]
   }
+</script>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "class": "shopify-section--faq",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "custom.overlay"]
+  },
+  "blocks": [
+    {
+      "name": "Item",
+      "type": "item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "order",
+          "label": "Order name"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "Question"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Answer",
+          "default": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Structured data is automatically created on FAQ page to improve SEO. [Learn more](https://developers.google.com/search/docs/advanced/structured-data/faqpage)"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "text_size",
+      "min": 80,
+      "max": 150,
+      "step": 5,
+      "unit": "%",
+      "label": "Font size",
+      "default": 100
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "label": "Subheading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "FAQ"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Use this text to share information about your product or shipping policies.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "team_avatar",
+      "label": "Team avatar",
+      "info": "700 x 160px .jpg recommended"
+    },
+    {
+      "type": "range",
+      "id": "team_avatar_width",
+      "min": 50,
+      "max": 350,
+      "step": 10,
+      "unit": "px",
+      "label": "Team avatar width",
+      "default": 160
+    },
+    {
+      "type": "text",
+      "id": "support_hours",
+      "label": "Support operating hours",
+      "default": "Our customer support is available Monday to Friday: 8am-8:30pm."
+    },
+    {
+      "type": "text",
+      "id": "answer_time",
+      "label": "Average answer time",
+      "default": "Average answer time: 24h"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text position",
+      "options": [
+        {
+          "value": "start",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "end",
+          "label": "Right"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text"
+    },
+    {
+      "type": "color",
+      "id": "accordion_background",
+      "label": "Accordion background"
+    },
+    {
+      "type": "color",
+      "id": "accordion_text_color",
+      "label": "Accordion text"
+    },
+    {
+    "type": "header",
+    "content": "Section interval set"
+    },
+    {
+      "type": "select",
+      "id": "top_padding",
+      "label": "Top padding (PC)",
+      "default": "md", 
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Default"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_padding",
+      "label": "Bottom padding (PC)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Large"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "top_margin",
+      "label": "Top margin (PC)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Default"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_margin",
+      "label": "Bottom margin (PC)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Large"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "top_padding_mb",
+      "label": "Top padding (Mobile)",
+      "default": "md", 
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Default"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_padding_mb",
+      "label": "Bottom padding (Mobile)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Large"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "top_margin_mb",
+      "label": "Top margin (Mobile)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Default"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_margin_mb",
+      "label": "Bottom margin (Mobile)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "Extra large"
+        },
+        {
+          "value": "lg",
+          "label": "Large"
+        },
+        {
+          "value": "md",
+          "label": "Medium"
+        },
+        {
+          "value": "sm",
+          "label": "Small"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "How long will it take to get my orders?",
+            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Any question?",
+            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
 {% endschema %}

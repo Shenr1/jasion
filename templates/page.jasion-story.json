@@ -1,0 +1,689 @@
+{
+  "sections": {
+    "image_with_text_overlay_YWatWh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_U4Nhih": {
+          "type": "heading",
+          "settings": {
+            "text": "300,000+ Ebikes Sold",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_Yr9qCj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Jasion, trusted by 120,000 riders and integrated into their lives, is at the forefront of promoting a healthy, positive lifestyle and fostering convenience and efficiency.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U4Nhih",
+        "richtext_Yr9qCj"
+      ],
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/PC_d7c89f95-fb7b-43fc-a452-0801ab397c9c.jpg",
+        "mobile_image": "shopify://shop_images/MC_2c4df2fa-76fa-4241-86fc-fd5f579e38a0.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "43e1d71b-d987-48f5-af6e-752abbb568b1": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20402948178213__43e1d71b-d987-48f5-af6e-752abbb568b1-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Collage_Maker-25-Oct-2023-11-50-AM-3077.jpg",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-start-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/Jasion-icon.png",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Jasion Brand Story",
+            "content": "<p>Jasion is a premier online destination for cutting-edge electric bicycles, dedicated to transforming the way individuals experience and embrace eco-friendly commuting. With a passion for innovation and sustainability, we have emerged as a trusted name in the electric bicycle industry.</p><p>Embrace a healthier lifestyle with the exhilarating workout experience of Jasion E-Bikes! Effortlessly blend fitness into your daily routine as you pedal your way to vitality. Jasion offers a dynamic and enjoyable exercise, making each ride a fitness adventure. Elevate your well-being with the joy of powered pedaling!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20402948178213__43e1d71b-d987-48f5-af6e-752abbb568b1-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "47fc48e6-e77b-4507-92e0-31f60e15fd79": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-2": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_fc35019a-ba25-4ee1-b2c4-8823f2eb3178.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "All-Terrain Commuting",
+            "content": "<p>Explore our diverse range of electric bicycles, meticulously designed to cater to various lifestyles and preferences. From sleek urban commuters to robust off-road adventurers, each model reflects our commitment to quality, performance, and customer satisfaction.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "e8d3d4e8-d0e5-4ec3-8949-2e0dbc33c6cf": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-2",
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-1",
+        "e8d3d4e8-d0e5-4ec3-8949-2e0dbc33c6cf"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "hot_spots_XRE8cf": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_JRfEYp": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 53,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 61,
+            "icon_width": 32,
+            "title": "Design",
+            "content": "<p>EB7 2.0 is crafted for style and versatility, seamlessly transitioning from urban commuting to off-road exploration. Its stylish design and robust construction reflect our pursuit of excellence and durability. Equipped with ergonomic handlebars, adjustable seats, and integrated LED display screens, every detail is meticulously designed to enhance aesthetics and performance. EB7 2.0 demonstrates our unwavering commitment to quality and innovation.</p>"
+          }
+        },
+        "item_rPiDkN": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 59,
+            "vertical_position_mobile": 55,
+            "icon_width": 32,
+            "title": "Craftsmanship",
+            "content": "<p>Each EB7 2.0 embodies our dedication to craftsmanship and engineering excellence. From precise frame welding to assembly of motor components, meticulous attention to detail ensures 100% safety certification for the bicycle in both structure and function. Constructed with premium materials and steady technology, EB7 2.0 maintains durability and reliability, safeguarding every consumer's journey.</p>"
+          }
+        },
+        "item_gyk7nG": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Finished Product",
+            "content": "<p>EB7 2.0 represents our craftsmanship in seamlessly integrating folding commuting and adventurous off-road attributes into one bicycle. It disrupts traditional modes of bicycle travel, serving as a gateway to new experiences and limitless possibilities. Get ready to ride into the future with EB7 2.0 and experience unparalleled joy with electric bicycles. Join the thousands of riders embracing EB7 2.0, exploring the freedom and excitement that awaits in every journey.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_JRfEYp",
+        "item_rPiDkN",
+        "item_gyk7nG"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/2.0story.jpg",
+        "mobile_image": "shopify://shop_images/2.0-MC.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "hot_spots_qNgc78": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_CbjqRd": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Design",
+            "content": "<p>A co-creation between Jasion and consumers, the ST's design is more about listening to consumers' voices and suggestions. The initial intention of the ST is to better serve consumers. With its lower frame and seat height, children, elderly, and individuals with leg injuries can all enjoy the joy of riding. ST is not just a mode of transportation but also a companion, accompanying you to feel the wind and freedom.</p>"
+          }
+        },
+        "item_weBbkU": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Craftsmanship",
+            "content": "<p>In the structural design and load-bearing tests of the low-frame chassis, Jasion conducted over 3000 collision tests to find a balance point. Every curve and component of EB7 ST reflects precise engineering and meticulous craftsmanship. To ensure the peace of mind of more users, we use 7075-T6 aluminum alloy material, making it a vehicle that promises perfect durability and reliability.</p>"
+          }
+        },
+        "item_CiHRP3": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Finished Product",
+            "content": "<p>EB7 ST is not just an electric bicycle but also a partner that can give you freedom. It is a choice of lifestyle, leading you into unknown adventures and redefining new freedom for you. Confident and stylish riding, let EB7 ST redefine the way you explore urban landscapes, one journey at a time.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_CbjqRd",
+        "item_weBbkU",
+        "item_CiHRP3"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/STstory.jpg",
+        "mobile_image": "shopify://shop_images/ST-MC.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "hot_spots_Ca3bEz": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_NhFarX": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Design",
+            "content": "<p>To make X-Hunter adaptable to any scene, bold four-link structure is adopted, driving the overall ebike movement through the central four-link structure, coupled with a 180mm adjustable front fork suspension, achieving a full suspension system for the whole ebike. Its full suspension design uses Horst link pivot, providing endless comfort for off-road adventures.</p>"
+          }
+        },
+        "item_R4qwwk": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Craftsmanship",
+            "content": "<p>X-Hunter embodies our unwavering commitment to innovation and precision craftsmanship. From Horst link pivot to the 7075-T6 aluminum alloy frame, powerful 1400W motor hub, and 20\"x4\" wide tires, every component is meticulously crafted to ensure stable traction and stability on any terrain.</p>"
+          }
+        },
+        "item_LmQH3k": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Finished Product",
+            "content": "<p>With X-Hunter, we redefine the essence of off-road adventure. It transcends mere transportation; it embodies bravery and exploration. Whether conquering rugged mountains or traversing dense forests, X-Hunter allows you to embrace the infinite possibilities of off-road exploration and redefine your adventure at every turn.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_NhFarX",
+        "item_R4qwwk",
+        "item_LmQH3k"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/X-Hunterstory.jpg",
+        "mobile_image": "shopify://shop_images/X-Hunter-MC.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "hot_spots_KRKymr": {
+      "type": "hot-spots",
+      "blocks": {
+        "item_iQaFj9": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 24,
+            "vertical_position": 70,
+            "horizontal_position_mobile": 24,
+            "vertical_position_mobile": 70,
+            "icon_width": 32,
+            "title": "Design",
+            "content": "<p>The EB5 Roamer series is innovative in both style and function, seamlessly integrating aesthetics and utility through its unique lighting setup (including turn signals, brake lights, rear tail lights, and front headlights). Its lighting system is designed for high performance, enhancing visibility and safety during night rides, ensuring seamless navigation in urban environments.</p>"
+          }
+        },
+        "item_3XBA3n": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 62,
+            "vertical_position": 14,
+            "horizontal_position_mobile": 62,
+            "vertical_position_mobile": 14,
+            "icon_width": 32,
+            "title": "Craftsmanship",
+            "content": "<p>The EB5 Roamer series is meticulously crafted, with attention to detail and precision, reflecting our unwavering commitment to quality and innovation. Every component is rigorously designed to deliver a bicycle that not only meets but exceeds the expectations of urban commuters.</p>"
+          }
+        },
+        "item_tNyLyc": {
+          "type": "item",
+          "settings": {
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
+            "icon_width": 32,
+            "title": "Finished Product",
+            "content": "<p>The EB5 Roamer series represents the pinnacle of excellent urban commuting. With its cutting-edge features and stylish design, it seamlessly integrates safety, convenience, and performance. Ride confidently and elegantly with the EB5 Roamer series, rediscovering the essence of urban commuting in an unparalleled way.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_iQaFj9",
+        "item_3XBA3n",
+        "item_tNyLyc"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify://shop_images/EB5_Roamer_Seriesstory.jpg",
+        "mobile_image": "shopify://shop_images/EB5_Roamer_Series.jpg",
+        "title": "",
+        "content": "",
+        "button_text": "",
+        "button_url": "",
+        "desktop_text_position": "place-self-start text-start",
+        "image_background": "",
+        "image_background_gradient": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "overlay_text_color": "#ffffff",
+        "overlay_button_background": "",
+        "overlay_button_text_color": "",
+        "hot_spot_dot_background": "#ffffff",
+        "hot_spot_dot_text_color": "#000000",
+        "hot_spot_content_background": "#ffffff",
+        "hot_spot_content_text_color": "#000000",
+        "hot_spot_content_opacity": 90,
+        "hot_spot_content_blur_radius": 3
+      }
+    },
+    "timeline_ifAm6U": {
+      "type": "timeline",
+      "blocks": {
+        "slide_NURanX": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_6e0373a7-07cf-4f7c-98eb-e2b5f5415cb3.png",
+            "navigation_label": "2011",
+            "subheading": "Symbol of the Beginning of Adventure",
+            "title": "Jasion EB7 2.0",
+            "content": "<p>Jasion EB7 2.0 heralds the birth of our brand, as pioneers in the cycling realm, embodying a yearning for unknown adventures. From this moment forward, we present to you an array of thrilling innovations, top-notch quality, and redefined riding experiences. Let us embark together on a new era of electric bicycles, exploring uncharted territories and pushing boundaries further.</p>"
+          }
+        },
+        "slide_98ebGm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_2afb6b85-86bc-443d-840a-8bc2c2c8001b.png",
+            "navigation_label": "2022",
+            "subheading": "Embodying the Essence of Urban Mobility.",
+            "title": "Jasion EB7 ST",
+            "content": "<p>To cater to a wider audience, we introduce the all-new EB7 ST, boasting a lower frame for a unique style and outstanding performance. With its lower frame and seat height, individuals of all ages, including children, seniors, and those with mobility challenges, can enjoy the pleasures of riding. The ST isn't just a mode of transportation but also a companion.</p>"
+          }
+        },
+        "slide_64t4U7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_89025dda-57f5-454f-9002-ab77b9c76824.png",
+            "navigation_label": "2023",
+            "subheading": "Ignite Your Spirit of Adventure",
+            "title": "Jasion X-Hunter",
+            "content": "<p>X-Hunter marks our entry into the realm of off-road adventures—the epitome of a rugged and durable exploration companion. It embodies the spirit of bravery and exploration. Whether conquering rugged mountains or traversing dense forests, the X-Hunter seamlessly integrates raw power with exceptional suspension performance, unleashing your adventurous spirit and redefining your off-road journey.</p>"
+          }
+        },
+        "slide_UaryfV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_62a5b34d-7665-40d7-ba12-815b4b00bd8e.png",
+            "navigation_label": "2024",
+            "subheading": "Revolutionizing the Way you Commute.",
+            "title": "Jasion EB5 Roamer Series",
+            "content": "<p>The EB5 Roamer Series returns to our roots, celebrating our expertise in urban commuting. With its advanced lighting setup and groundbreaking features, it heralds a new era of safe and convenient urban travel. It's the perfect blend of rider, art, and craftsmanship.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NURanX",
+        "slide_98ebGm",
+        "slide_64t4U7",
+        "slide_UaryfV"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16905169109229__3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "Explore Jasion",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16905169109229__3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "media_grid_8AQYEk": {
+      "type": "media-grid",
+      "blocks": {
+        "image_fQEFTC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_2b593446-88e1-4d43-84be-8d198bf82d9c.png",
+            "title": "EB7 2.0",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
+            "link_text": "Shop Now",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#272727",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3zf88i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_c3c564c6-2adc-43ed-a3f8-9bb3cc235dc1.png",
+            "title": "EB7 ST",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/jasion-combo-sale-eb7-st-2-best-ebikes-for-family",
+            "link_text": "Shop Now",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#272727",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LxcUcH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_5a7d25ac-0ace-467a-ac5d-18f2df4bd340.png",
+            "title": "X-Hunter",
+            "heading_tag": "h4",
+            "link_url": "https://www.jasionbike.com/products/jasion%C2%AE-combo-sale-x-hunter-2",
+            "link_text": "Shop Now",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#272727",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QtWcp4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_2523f9b9-a08b-4f8e-84e4-fbad2703878d.png",
+            "title": "EB5 Roamer Series",
+            "heading_tag": "h4",
+            "link_url": "shopify://products/jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st",
+            "link_text": "Shop Now",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_column_span": 2,
+            "desktop_row_span": 1,
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "background": "#000000",
+            "background_gradient": "",
+            "text_color": "#ffffff",
+            "text_gradient": "",
+            "button_background": "#ffffff",
+            "button_text_color": "#272727",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_fQEFTC",
+        "image_3zf88i",
+        "image_LxcUcH",
+        "image_QtWcp4"
+      ],
+      "settings": {
+        "full_width": true,
+        "reduce_width": false,
+        "desktop_row_height": 290,
+        "mobile_row_height": 150,
+        "background": "",
+        "background_gradient": ""
+      }
+    },
+    "multi_column_AiXFfp": {
+      "type": "multi-column",
+      "blocks": {
+        "item_whW3z6": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/buy_now_da399122-585c-40fb-a1fa-9c853c1dcd9e.png",
+            "column_size": "2",
+            "title": "Jasion Affiliate Program",
+            "heading_tag": "h4",
+            "content": "<p>Want to explore the endless possibilities of e-bikes with Jasion? It's time to become part of our affiliate program! As a Jasion affiliate you will earn significant commissions by promoting our e-bikes, we offer commission rates up to 10%<br/>Click <a href=\"https://jasionride.goaffpro.com/\" title=\"https://jasionride.goaffpro.com/\">HERE </a>to fill out a simple form to start your journey with Jasion today! If you have any questions, please contact our affiliate team at <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com.</a></p>",
+            "link_url": "https://jasionride.goaffpro.com/",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_MPBXJt": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/buy_now.png",
+            "column_size": "2",
+            "title": "Jasion Photography Call-Out is Here!",
+            "heading_tag": "h4",
+            "content": "<p>Jasion Bikes invites you to join our photography team! Become one of our photographers and you'll have a chance to earn money and win a brand new bike!<br/>If you are interested in this opportunity, please submit your work to <a href=\"mailto:support@jasionbike.com\" target=\"_blank\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com</a>. We look forward to working with you to explore the beauty of cycling and create your own visual story!</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "item_whW3z6",
+        "item_MPBXJt"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "gap": "medium",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "What's New",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "newsletter_ATHyzC": {
+      "type": "newsletter",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_icon": false,
+        "title": "Join Us",
+        "content": "<p>Subscribe Jasionbike to unlock exclusive offers, product updates, and insider information!</p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_YWatWh",
+    "main",
+    "43e1d71b-d987-48f5-af6e-752abbb568b1",
+    "47fc48e6-e77b-4507-92e0-31f60e15fd79",
+    "hot_spots_XRE8cf",
+    "hot_spots_qNgc78",
+    "hot_spots_Ca3bEz",
+    "hot_spots_KRKymr",
+    "timeline_ifAm6U",
+    "3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73",
+    "media_grid_8AQYEk",
+    "multi_column_AiXFfp",
+    "newsletter_ATHyzC"
+  ]
+}

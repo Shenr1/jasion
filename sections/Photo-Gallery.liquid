@@ -1,0 +1,200 @@
+<section class="Photo-Gallery-{{section.id}}">
+    <div class="Halloween page-width">
+        <div class="gallery-title">{{ section.settings.title }}</div>
+        <div class="gallery-info">{{ section.settings.subheading }}</div>
+        <div class="Picture-Distribution swiper-container">
+            {% for block in section.blocks %}
+            <div class="Distribution-image swiper-wrapper">
+                {%- if block.settings.image != blank -%}
+                <div class="pamphlets-image swiper-slide">
+                    <a href="{{ block.settings.link }}"> <img src="{{ block.settings.image | img_url: 'master' }}" alt=""></a>
+                   
+                </div>
+                {% endif %}  
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+<script>
+    // 使用JavaScript来初始化Swiper轮播
+    var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+    
+    if (screenWidth < 768) {
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+            loop: true,
+            // 添加其他Swiper选项根据需要
+        });
+    }
+    </script>
+<style>
+  .Picture-Distribution {
+    display: flex;
+    justify-content: space-between;
+}
+.Distribution-image {
+ 
+    width: 32%;
+}
+.Halloween.page-width {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+    .gallery-title{
+        font-size: 48px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .gallery-info{
+        font-size: 24px;
+        margin-top: 5px;
+    text-align: center;
+    padding-bottom: 50px;
+    }
+
+.Picture-Distribution {
+    padding-top: 100px 0;
+}
+@media screen and (min-width:1281px) and (max-width: 1500px) {
+    .Picture-Distribution {
+    padding: 70px 0;
+}
+.gallery-title{
+        font-size: 36px;
+        font-weight: 700;
+    }
+    .gallery-info{
+        font-size: 20px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+    }
+    .Distribution-image {
+    display: flex;
+    gap: 30px;
+}
+}
+@media screen and (min-width:1000px) and (max-width: 1280px) {
+    .Picture-Distribution {
+    padding: 30px 0;
+}
+.gallery-title{
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .gallery-info{
+        font-size: 18px;
+        margin-top: 10px;
+        padding-bottom: 0px;
+    }
+    .Distribution-image {
+    display: flex;
+    gap: 20px;
+}
+.Halloween.page-width {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+}
+@media screen and (min-width:769px) and (max-width: 999px) {
+    .Picture-Distribution {
+    padding: 30px 0;
+}
+.Halloween.page-width {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.gallery-title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .gallery-info{
+        font-size: 18px;
+        padding-bottom: 0px;
+        margin-top: 10px;
+    }
+    .Distribution-image {
+    display: flex;
+    gap: 20px;
+}
+}
+@media only screen and (max-width: 768px) {
+    .Distribution-image {
+
+    gap: 0px;
+}
+.Halloween.page-width {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Distribution-image {
+ 
+ width: 100%;
+}
+.gallery-title{
+    font-size: 25px;
+    width: 70%;
+    padding-top: 25px;
+    line-height: 30px;
+    margin: 0 auto;
+}
+.gallery-info {
+    font-size: 18px;
+    margin-top: 7px;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.Picture-Distribution {
+    padding: 100px 0;
+    padding: 0;
+    padding-top: 30px;
+    display: flex;
+}
+}
+</style>
+{% schema %}
+{
+    "name": "Event Marketing Images",
+    "tag": "section",
+    "settings": [
+    {
+        "type":"text",
+        "id":"title",
+        "label":"Title",
+        "default":"title"
+       },
+       {
+        "type":"text",
+        "id":"subheading",
+        "label":"subheading",
+        "default":"title"
+       }
+    ],
+    "blocks":[
+    {
+        "type": "image",
+        "name": "Image",
+        "settings":[
+        {
+            "type": "image_picker",
+            "id":"image",
+            "label":"Image"
+        },
+        {
+            "type": "url",
+            "id": "link",
+            "label": "Link"
+          }
+        ]
+    }
+    ],
+    "presets": [
+    {
+      "name": "Event Marketing Images"
+    }
+  ]
+
+}
+
+{% endschema %} 

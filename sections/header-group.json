@@ -1,112 +1,154 @@
 {
   "type": "header",
-  "name": "t:sections.header-group.name",
+  "name": "Header group",
   "sections": {
-    "announcement": {
-      "type": "announcement",
-      "disabled": true,
+    "announcement-bar": {
+      "type": "announcement-bar",
       "blocks": {
-        "announcement-0": {
-          "type": "announcement",
+        "message_gCy7hw": {
+          "type": "message",
           "settings": {
-            "text": "Free shipping",
-            "link_text": "On all orders over $100",
-            "link": ""
+            "text": "Tax-Free No 7%-10% sales tax on all products",
+            "url": "shopify://collections/electric-bike"
           }
         },
-        "announcement-1": {
-          "type": "announcement",
+        "90970645-3f2b-4c4f-9e21-63e99d904847": {
+          "type": "message",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
+            "text": "Delivered in 3-5 business days.",
+            "url": "shopify://collections/electric-bike"
           }
         },
-        "e64b2bac-529f-4146-a6f2-fc56c5b2dbd2": {
-          "type": "announcement",
-          "disabled": true,
+        "cfb84315-a78a-4b43-ab45-016164026160": {
+          "type": "message",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
+            "text": "1-Year Warranty on All Ebikes",
+            "url": "shopify://collections/electric-bike"
           }
         }
       },
       "block_order": [
-        "announcement-0",
-        "announcement-1",
-        "e64b2bac-529f-4146-a6f2-fc56c5b2dbd2"
-      ],
-      "custom_css": [
-        ".announcement-bar {background-color: #fff !important; color: #000 !important;}"
+        "message_gCy7hw",
+        "90970645-3f2b-4c4f-9e21-63e99d904847",
+        "cfb84315-a78a-4b43-ab45-016164026160"
       ],
       "settings": {
-        "announcement_compact": true
+        "enable_sticky": true,
+        "text_size": "text-xs",
+        "navigation_mode": "arrows",
+        "scrolling_speed": 30,
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "#272727"
       }
     },
     "header": {
       "type": "header",
       "blocks": {
-        "1524770014057": {
-          "type": "logo",
+        "6054a92a-2abb-49e7-a0dc-bf0e1dd49cf7": {
+          "type": "mega_menu",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/jasion_logo.png",
-            "logo-inverted": "shopify:\/\/shop_images\/lQLPJxaDORJJb6nNAfTNAfSwDOoA1jeWMAMC2A_c_YAGAQ_500_500.png_720x720q90g.jpg",
-            "desktop_logo_width": 140,
-            "mobile_logo_width": 110
+            "menu_item": "E-BIKES",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/Surprise_Your_Mom_with_a_Unique_Gift_Discount_up_to_1620.png",
+            "image_heading_1": "",
+            "image_link_1": "https://www.jasionbike.com/products/jasion-ebike%C2%AE-combo-sale-x-hunter-eb7-st",
+            "image_text_color_1": "#272727",
+            "image_2": "shopify://shop_images/Surprise_Your_Mom_with_a_Unique_Gift_Discount_up_to_1620_1a9f9464-3233-481e-ba80-6b69809e95bc.png",
+            "image_heading_2": "",
+            "image_link_2": "https://www.jasionbike.com/products/jasion-ebike%C2%AEcombo-sale-eb5-roamer-eb5-roamer-st",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "shopify://collections/electric-bike",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "show"
           }
         },
-        "1524770292306": {
-          "type": "announcement",
-          "disabled": true,
+        "28172f49-87de-4147-9735-486441aa38fb": {
+          "type": "mega_menu",
           "settings": {
-            "text": "Free shipping",
-            "link_text": "On all orders over $100",
-            "link": "shopify:\/\/products\/universal-bicycle-combination-lock"
+            "menu_item": "Jasionbike Combo Sale",
+            "layout": "horizontal_center",
+            "submenu_style": "bold_heading",
+            "image_1": "shopify://shop_images/NEW_IN.png",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#708a5c",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
           }
         },
-        "1524770296206": {
-          "type": "announcement",
-          "disabled": true,
+        "mega_menu_XbVxHV": {
+          "type": "mega_menu",
           "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
-          }
-        },
-        "2c00a5d9-da5e-45ea-b4a0-cd03818dbcf0": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Hassle-free returns",
-            "link_text": "30-day postage paid returns",
-            "link": ""
+            "menu_item": "Support",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
           }
         }
       },
       "block_order": [
-        "1524770014057",
-        "1524770292306",
-        "1524770296206",
-        "2c00a5d9-da5e-45ea-b4a0-cd03818dbcf0"
+        "6054a92a-2abb-49e7-a0dc-bf0e1dd49cf7",
+        "28172f49-87de-4147-9735-486441aa38fb",
+        "mega_menu_XbVxHV"
       ],
       "settings": {
-        "main_menu_link_list": "main-menu",
-        "mega_menu_images": true,
-        "main_menu_alignment": "left-center",
-        "header_style": "sticky",
-        "sticky_index": false,
-        "sticky_collection": false,
-        "toolbar_menu": "",
-        "toolbar_social": false,
-        "show_locale_selector": false,
-        "show_currency_selector": false,
-        "show_currency_flags": false
+        "enable_sticky": true,
+        "hide_on_scroll": true,
+        "logo": "shopify://shop_images/logo_1.png",
+        "logo_max_width": 170,
+        "logo_mobile_max_width": 120,
+        "menu": "main-menu",
+        "sidebar_menu": "footer",
+        "secondary_menu": "compare",
+        "menu_open_trigger": "hover",
+        "opening_from": "bottom",
+        "layout": "logo_left_navigation_center",
+        "show_social_media": true,
+        "show_locale_selector": true,
+        "show_country_selector": true,
+        "show_country_flag": true,
+        "show_country_name": false,
+        "transparent_header_text_color": "#000000",
+        "reduce_padding": true,
+        "background_opacity": 100,
+        "background_blur_radius": 0
       }
     }
   },
   "order": [
-    "announcement",
+    "announcement-bar",
     "header"
   ]
 }

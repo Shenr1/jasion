@@ -1,120 +1,69 @@
 {% liquid
  assign secSt = section.settings 
- case secSt.display_size 
-   when "all" 
-   assign displayClass = "" 
-   when "pc" 
-   assign displayClass = "md:tw-block tw-hidden" 
-   when "mobile" 
-   assign displayClass = "tw-block md:tw-hidden" 
-   else 
- endcase 
- assign wapClass = "tw-bg-stone-100 tw-flex md:tw-rounded-xl tw-rounded-md roun md:tw-pl-4 md:tw-pr-8 md:tw-pt-6 md:tw-pb-10 tw-p-2 tw-items-center tw-justify-center tw-h-full" 
- assign imgClass = "md:tw-h-[6.5vw] tw-h-[10vw] md:tw-mr-4 tw-mr-2" 
- assign imgClass2 = "md:tw-h-[5vw] tw-h-[6vw] md:tw-mr-4 tw-mr-2" 
- assign sizeClass = "tw-h-full tw-object-contain" 
- assign conClass = "item-content tw-flex tw-flex-col " 
- assign meta = product.metafields.custom 
+ assign class3 = "item-content tw-flex tw-flex-col"
 %}
 
-<div section-name="waterfall-grid" class="page-width {% render 'section-interva-set' , secSt:secSt %} {{displayClass}}">
-  <div class="tw-flex tw-flex-wrap">
-    {% if meta.spec_icon_one != blank and meta.battery_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[34%] item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_one | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.battery_capacity }} </div>
-        </div>
-      </div>
-    {% endif %}
+<div section-name="waterfall-grid" class="page-width">
+  <div class="{% render 'section-interva-set' , secSt:secSt %}">
+    <div class="tw-flex 2xl:tw-flex-nowrap tw-flex-wrap md:tw-mb-4 tw-justify-start">
+      {%- assign specs = product.metafields.custom.specifications.value -%}
+      {% for i in (0..7) %}
+        
+        {% if specs.title_list.value[i] != blank and specs.content_list.value[i] != blank %}
+          <div forloop="{{i}}" class="item 2xl:tw-w-auto lg:tw-w-1/4 md:tw-w-1/3 tw-w-1/2 md:tw-p-0 tw-p-1 2xl:tw-flex-1 {% if forloop.last %}tw-block md:tw-hidden {% endif %}">
+            <div class="tw-p-2 tw-h-full tw-text-center">
+              <div class="md:tw-w-1/4 tw-w-1/5 tw-shrink-0 tw-text-center tw-mx-auto">
+                {% for url in specs.icon_list.value %}
+                  {% assign i2 = forloop.index | minus: 1 %}
+                  {% if i2 == i %}
+                    {{- url | image_url: width: url.width | image_tag: loading: 'lazy', class: 'image-icon' -}} 
+                  {% endif %}
+                {% endfor %}
+              </div>
+              <div class="{{class3}}"> 
+                <p class="2xl:tw-text-2xl md:tw-text-xl tw-text-lg tw-font-semibold tw-mb-0">{{ specs.title_list.value[i] }} </p>
+                <p class="tw-text-stone-700 tw-whitespace-nowrap">{{ specs.content_list.value[i] }} </p>
+              </div>
+            </div>
+          </div>
+        {% endif %}
 
-    {% if meta.spec_icon_four != blank and meta.per_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[40%] md:tw-flex-auto 2xl:tw-flex-none tw-flex-1 item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_four | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.per_charge }} </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if meta.spec_icon_six != blank and meta.motor_capacity != blank %}
-      <div class="md:tw-p-2 tw-p-1 item tw-w-auto 2xl:tw-flex-1">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_six | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.motor_capacity }} </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if meta.spec_icon_three != blank and meta.fully_charge != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[28%] md:tw-flex-none tw-flex-1 item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_three | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.fully_charge }} </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if meta.spec_icon_two != blank and meta.pedal_assist != blank %}
-      <div class="md:tw-p-2 tw-p-1 2xl:tw-w-[22%] item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_two | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.pedal_assist }} </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if meta.spec_icon_seven != blank and meta.tires != blank %}
-      <div class="md:tw-p-2 tw-p-1 item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_seven | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.tires }} </div>
-        </div>
-      </div>
-    {% endif %}
-
-    {% if meta.spec_icon_five != blank and meta.max_load != blank %}
-      <div class="md:tw-p-2 tw-p-1 tw-flex-1 item">
-        <div class="{{wapClass}}">
-          <div class="{{imgClass2}}"><img class="{{sizeClass}}" src="{{ meta.spec_icon_five | img_url:"master" }}"></div>
-          <div class="{{conClass}}"> {{ meta.max_load }} </div>
-        </div>
-      </div>
-    {% endif %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 
 
 {% schema %}
 {
-  "name": "Waterfall grid v1.1",
+  "name": "Waterfall grid v1.2",
   "class":"waterfall-section",
   "settings": [
     {
-      "type": "header",
-      "content": "Section interval set"
+    "type": "header",
+    "content": "Section interval set"
     },
     {
       "type": "select",
       "id": "top_padding",
-      "label": "top interval",
-      "default": "large",
+      "label": "Top padding (PC)",
+      "default": "md", 
       "options": [
         {
-          "value": "large",
-          "label": "Large"
+          "value": "xl",
+          "label": "xl"
         },
         {
-          "value": "default",
+          "value": "lg",
           "label": "Default"
         },
         {
-          "value": "medium",
-          "label": "Medium"
+          "value": "md",
+          "label": "md"
         },
         {
-          "value": "small",
-          "label": "Small"
+          "value": "sm",
+          "label": "sm"
         },
         {
           "value": "none",
@@ -125,24 +74,24 @@
     {
       "type": "select",
       "id": "bottom_padding",
-      "label": "bottom interval",
-      "default": "default",
+      "label": "Bottom padding (PC)",
+      "default": "md",
       "options": [
         {
-          "value": "large",
-          "label": "Large"
+          "value": "xl",
+          "label": "xl"
         },
         {
-          "value": "default",
-          "label": "Default"
+          "value": "lg",
+          "label": "lg"
         },
         {
-          "value": "medium",
-          "label": "Medium"
+          "value": "md",
+          "label": "md"
         },
         {
-          "value": "small",
-          "label": "Small"
+          "value": "sm",
+          "label": "sm"
         },
         {
           "value": "none",
@@ -152,28 +101,176 @@
     },
     {
       "type": "select",
-      "id": "display_size",
-      "label": "What screen will it be display?",
+      "id": "top_margin",
+      "label": "Top margin (PC)",
+      "default": "md",
       "options": [
         {
-        "value": "all",
-        "label": "PC and Mobile"
+          "value": "xl",
+          "label": "xl"
         },
         {
-        "value": "mobile",
-        "label": "Mobile"
+          "value": "lg",
+          "label": "Default"
         },
         {
-        "value": "pc",
-        "label": "PC"
+          "value": "md",
+          "label": "md"
+        },
+        {
+          "value": "sm",
+          "label": "sm"
+        },
+        {
+          "value": "none",
+          "label": "None"
         }
-      ],
-      "default": "all"
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_margin",
+      "label": "Bottom margin (PC)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "xl"
+        },
+        {
+          "value": "lg",
+          "label": "lg"
+        },
+        {
+          "value": "md",
+          "label": "md"
+        },
+        {
+          "value": "sm",
+          "label": "sm"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "top_padding_mb",
+      "label": "Top padding (Mobile)",
+      "default": "md", 
+      "options": [
+        {
+          "value": "xl",
+          "label": "xl"
+        },
+        {
+          "value": "lg",
+          "label": "lg"
+        },
+        {
+          "value": "md",
+          "label": "md"
+        },
+        {
+          "value": "sm",
+          "label": "sm"
+        },
+        {
+          "value": "none",
+          "label": "none"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_padding_mb",
+      "label": "Bottom padding (Mobile)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "xl"
+        },
+        {
+          "value": "lg",
+          "label": "lg"
+        },
+        {
+          "value": "md",
+          "label": "md"
+        },
+        {
+          "value": "sm",
+          "label": "sm"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "top_margin_mb",
+      "label": "Top margin (Mobile)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "xl"
+        },
+        {
+          "value": "lg",
+          "label": "lg"
+        },
+        {
+          "value": "md",
+          "label": "md"
+        },
+        {
+          "value": "sm",
+          "label": "sm"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "bottom_margin_mb",
+      "label": "Bottom margin (Mobile)",
+      "default": "md",
+      "options": [
+        {
+          "value": "xl",
+          "label": "xl"
+        },
+        {
+          "value": "lg",
+          "label": "lg"
+        },
+        {
+          "value": "md",
+          "label": "md"
+        },
+        {
+          "value": "sm",
+          "label": "sm"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
     }
   ],
   "presets": [
     {
-      "name": "Waterfall grid v1.1"
+      "name": "Waterfall grid v1.2"
     }
   ]
 }

@@ -1,54 +1,46 @@
 {
   "sections": {
-    "collection-header": {
-      "type": "collection-header",
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
       "settings": {
-        "enable": true,
-        "collection_image_enable": true,
-        "parallax": false,
-        "parallax_direction": "left"
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": true,
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "collection_title_size": "h3",
+        "image_size": "sm",
+        "image": "shopify://shop_images/1_afc3d844-e8c8-457f-ad75-e4aa12ce75ab.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "tst-defender-26-fat-tire-ebike",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
       }
     },
-    "main-collection": {
+    "main": {
       "type": "main-collection",
-      "blocks": {
-        "collection_description": {
-          "type": "collection_description",
-          "settings": {
-          }
-        },
-        "subcollections": {
-          "type": "subcollections",
-          "settings": {
-            "subcollections_per_row": 5
-          }
-        },
-        "product_grid": {
-          "type": "product_grid",
-          "settings": {
-            "enable_collection_count": true,
-            "per_row": 3,
-            "rows_per_page": 7,
-            "mobile_flush_grid": false
-          }
-        }
-      },
-      "block_order": [
-        "collection_description",
-        "subcollections",
-        "product_grid"
-      ],
       "settings": {
-        "enable_sidebar": true,
-        "collapsed": false,
-        "filter_style": "sidebar",
-        "enable_color_swatches": false,
-        "enable_sort": true
+        "products_per_page": 24,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": true,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
       }
     }
   },
   "order": [
-    "collection-header",
-    "main-collection"
+    "banner",
+    "main"
   ]
 }

@@ -1,0 +1,1144 @@
+
+<style>
+       #textContainer {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .long_desc {
+    text-align: center;
+}
+.vi-video-items {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.shorten br{
+  display: none;
+}
+    .vi-video-item-{{  section.id }}s {
+      display: flex;
+      width: 100%;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  }
+  .video-box-{{section.id}} {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px;
+    padding: 32px 57px;
+  }
+  .vi-video-item-{{  section.id }} {
+      width: calc(50% - 25px);
+      margin-bottom: 25px;
+  }
+  .line-button {
+      height: 2px;
+      background: {{ section.settings.dividing_line }};
+      opacity: 0.05;
+  }
+  
+  button.video-play-install {
+      position: absolute;
+      left: 44%;
+      transform: translateY(-50%);
+      bottom: 30%;
+  }
+  .vi-content.sm\:justify-items-center {
+      padding-bottom: 29px;
+  }
+  video-media:not([autoplay])~* {
+    pointer-events: unset;
+}
+  /* .video-box-{{section.id}}::before {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.02;
+    border-radius: inherit;
+    z-index: 1; 
+  }
+  
+  .video-box-{{section.id}} p {
+    position: relative;
+    z-index: 2;
+  
+  } */
+  .vi-title {
+      padding: 0 50px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 500;
+  }
+  
+  .video-box-{{section.id}} {
+      padding: 32px 0;
+      background: {{ section.settings.button_bfoo }};
+    border-radius: 0px 0px 10px 10px;
+
+  }
+  video-media {
+      border-radius: 10px 10px 0px 0px;
+      position: relative;
+  }
+  .vi-button-{{ section.id }} {
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  
+      padding: 0 40px;
+      font-size: 16px;
+      padding-top: 27px;
+  }
+  
+  .vi-info-{{ section.id }} {
+      font-size: 16px;
+     padding:0 30px;
+      margin-top: 0.7rem;
+      font-weight: 300;
+      color: #999999; 
+  }
+  
+  button.watch-button-{{ section.id }} {
+      width: 48%;
+      height: 50px;
+     
+      border-radius: 25px;
+     
+  }
+  
+  button.shop-button-{{ section.id }} {
+      width: 48%;
+ 
+   
+      border-radius: 50px;
+      height: 50px;
+  }
+  h1.installation_code {
+      font-size: 36px;
+      width: 50%;
+      margin: 0 auto;
+      font-weight: bold;
+      color: #000000;
+      line-height: 44px;
+  
+  }
+  
+  .tefsdf-sub {
+      text-align: center;
+      font-size: 22px;
+      font-weight: 400;
+      color: #666666;
+      line-height: 44px;
+  }
+  
+  .page-width.tw-text-center.tw-mb-24 {
+      margin-bottom: 1.2rem;
+  }
+  
+  .sdge-button {
+      text-align: center;
+  
+      width: 13%;
+      font-size: 18px;
+      color: #fff;
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 2rem 0px;
+  }
+  
+  .sdge-button a {
+      height: 55px;
+      background: #FF981D;
+      border-radius: 28px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .installion-snowflake {
+      font-size: 36px;
+      font-weight: bold;
+      color: #000000;
+  
+      margin-bottom: 20px;
+  }
+  span.xiant {
+      width: 10px;
+      height: 26px;
+      background: #FF981D;
+      display: inline-block;
+  }
+  
+  @media screen and (max-width: 1460px) {
+    button.video-play-install img {
+      width: 60px;
+  }
+  .vi-button-{{ section.id }} {
+    padding: 0 25px;
+    padding-top: 24px;
+  }
+  .vi-title {
+      padding: 0px 30px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 500;
+  }
+  }
+    
+  
+  
+  
+  @media screen and (max-width: 1500px) {
+    button.video-play-install img {
+      width: 60px;
+  }
+    .vi-title {
+      padding: 0 50px;
+      text-align: center;
+      font-size: 22px;
+      font-weight: 500;
+  }
+    span.xiant {
+      width: 6px;
+      height: 22px;
+      display: inline-block;
+  }
+  .sdge-button{
+    width: 18%; 
+  }
+  .sdge-button{
+    padding: 1.5rem 0px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  @media screen and (max-width: 1300px) {
+    button.video-play-install img {
+      width: 50px;
+  }
+    .video-box-{{section.id}} {
+      padding: 28px 0;
+  }
+  h1.installation_code {
+    font-size: 30px;
+      width: 60%;
+      margin: 0 auto;
+      font-weight: bold;
+    
+      line-height: 36px;
+  }
+  .tefsdf-sub {
+      text-align: center;
+      font-size: 20px;
+     
+   
+      line-height: 34px;
+  }
+  .vi-button-{{ section.id }} {
+      display: flex;
+      width: 100%;
+      gap: 6px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 16px;
+      font-size: 14px;
+      padding-top: 24px;
+  }
+  .vi-content.sm\:justify-items-center {
+      padding-bottom: 24px;
+  }
+  .vi-title {
+      padding: 0 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 22px;
+  }
+  .installion-snowflake {
+      font-size: 30px;
+      font-weight: bold;
+      color: #000000;
+      margin-bottom: 20px;
+  }
+  }
+  
+  
+  @media screen and (max-width: 1200px) {
+    h1.installation_code {
+      font-size: 20px;
+      width: 100%;
+   
+      line-height: 24px;}
+  
+      .tefsdf-sub {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #666666;
+      line-height: 20px;
+  }.page-width.tw-text-center.tw-mb-24 {
+      margin-bottom: 0.7rem;
+  }
+  .sdge-button {
+      text-align: center;
+      width: 15%;
+      font-size: 14px;
+  
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 1rem 0px;
+  }
+  
+  .sdge-button a {
+      height: 40px;
+  }
+  span.xiant {
+      width: 6px;
+      height: 15px;
+    
+      display: inline-block;
+  }
+  .installion-snowflake {
+      font-size: 22px;
+      margin-bottom: 20px;
+  }
+  .vi-video-item-{{  section.id }} {
+      width: calc(50% - 16px);
+      margin-bottom: 16px;
+  }
+  .vi-title {
+      padding: 0 20px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 22px;
+  }
+  .vi-button-{{ section.id }} {
+      display: flex;
+      width: 100%;
+      gap: 12px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 14px;
+      font-size: 14px;
+      padding-top: 20px;
+  }
+  .vi-info-{{ section.id }} {
+      font-size: 16px;
+      text-align: center;
+      margin-top: 0.5rem;
+  
+  }
+  
+  
+  }
+  @media screen and (max-width: 1025px) {
+      .vi-video-item-{{  section.id }} {
+      width: calc(50% - 20px);
+      margin-bottom: 20px;
+  }
+    }
+  
+  
+  @media screen and (max-width: 999px) {
+  
+  h1.installation_code {
+  font-size: 20px;
+  width: 100%;
+  
+  line-height: 24px;}
+  
+  .tefsdf-sub {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #666666;
+  line-height: 20px;
+  }.page-width.tw-text-center.tw-mb-24 {
+  margin-bottom: 0.7rem;
+  }
+  .sdge-button {
+  text-align: center;
+  width: 46%;
+  font-size: 14px;
+  
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 1rem 0px;
+  }
+  
+  .sdge-button a {
+  height: 40px;
+  }
+  span.xiant {
+  width: 6px;
+  height: 15px;
+  
+  display: inline-block;
+  }
+  .installion-snowflake {
+  font-size: 22px;
+  margin-bottom: 20px;
+  }
+  .vi-video-item-{{  section.id }} {
+  width: calc(50% - 20px);
+  margin-bottom: 20px;
+  }
+  .vi-title {
+  padding: 0 20px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  }
+  .vi-info-{{ section.id }} {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0.5rem;
+  
+  }
+  
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    button.video-play-install img {
+      width: 50px;
+  }
+    h1.installation_code {
+      font-size: 20px;
+      width: 100%;
+   
+      line-height: 24px;}
+      .video-box-{{section.id}} {
+      padding: 22px 0;
+  }
+      .vi-button-{{ section.id }} {
+      display: flex;
+      width: 100%;
+      gap: 20px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0px 30px;
+      font-size: 16px;
+      padding-top: 27px;
+  }
+  .vi-content.sm\:justify-items-center {
+      padding-bottom: 20px;
+  }
+      .tefsdf-sub {
+      text-align: center;
+      font-size: 16px;
+      font-weight: 400;
+      color: #666666;
+      line-height: 20px;
+  }.page-width.tw-text-center.tw-mb-24 {
+      margin-bottom: 0.7rem;
+  }
+  .sdge-button {
+      text-align: center;
+      width: 46%;
+      font-size: 14px;
+  
+      font-weight: bold;
+      margin: 0 auto;
+      padding: 1rem 0px;
+  }
+  
+  .sdge-button a {
+      height: 40px;
+  }
+  span.xiant {
+      width: 6px;
+      height: 15px;
+    
+      display: inline-block;
+  }
+  .installion-snowflake {
+      font-size: 20px;
+      margin-bottom: 20px;
+  }
+  .vi-video-item-{{  section.id }} {
+      width: 100%;
+      margin-bottom: 25px;
+  }
+  .vi-title {
+      padding: 0 20px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 20px;
+  }
+  .vi-info-{{ section.id }} {
+      font-size: 14px;
+      text-align: center;
+      margin-top: 0.5rem;
+  
+  }
+  
+  
+  
+    }
+  
+    @media screen and (max-width: 375px) {
+    .video-box-{{section.id}} {
+      padding: 22px 0;
+  }
+  }
+  @media screen and (max-width: 350px) {
+  button.shop-button a {
+    font-size: 14px !important;
+    line-height: 16px;
+}
+}
+
+  .long_desc.shorten{
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    word-break: break-all; 
+    -webkit-box-orient: vertical;
+
+  }
+</style>
+{%- assign secSt = section.settings -%}
+
+<section section-name="vi-video-list page-width" class="{% render 'section-interva-set' , secSt:secSt %}">
+<div class="section-installin page-width">
+    {% if secSt.title != blank %}
+      <div class="page-width tw-text-center tw-mb-24"> 
+        <h1 class=" installation_code tw-text-center h2 xl:tw-mb-12 md:tw-mb-10 tw-mb-8">{{ secSt.title }}</h1>
+      </div>
+      {%- if block.settings.sub != blank -%}
+      <div class="tefsdf-sub">{{ section.settings.sub }}</div>
+      {%- endif -%}
+    {% endif %}
+
+    {%- if block.settings.link_sdf != blank -%}
+    <div class="sdge-button">
+      <a href="{{ section.settings.link_sdf }}">{{ section.settings.button_zong }}</a>
+    </div>
+    {%- endif -%}
+    
+  </div>
+ 
+  
+    <div class="installion-snowflake page-width">
+      <span class="xiant"></span>
+      {{ section.settings.article_title }}</div>
+   <div class="Installation tw-flex page-width">
+     <div class="vi-video-items">
+      {%- for block in section.blocks -%}
+      {%- assign blkSt = block.settings -%}
+       <div id="vi-video-item-{{  section.id }}" class="vi-video-item-{{  section.id }}">
+        {%- capture class -%}content-over-media {% if block.settings.video_size != 'auto' %}content-over-media--{{ block.settings.video_size }}{% endif %}
+        {%- endcapture -%}
+  
+  
+        {%- capture poster -%}
+        {%- assign poster_image = block.settings.poster | default: block.settings.video.preview_image -%}
+  
+        {%- if block.settings.autoplay == false and poster_image != blank -%}
+        
+          {{- poster_image | image_url: width: poster_image.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}
+        {%- endif -%}
+      {%- endcapture -%}
+  
+        {%- if block.settings.video -%}
+        <video-media {% if block.settings.autoplay %}autoplay{% endif %}>
+          {%- if block.settings.autoplay -%}
+            {%- assign show_controls = false -%}
+          {%- else -%}
+            {%- assign show_controls = true -%}
+          {%- endif -%}
+  
+          {{- block.settings.video | video_tag: playsinline: true, preload: 'metadata', muted: block.settings.autoplay, loop: block.settings.autoplay, controls: show_controls, image_size: '800x' -}}
+          {{- poster -}}
+          <button id="video-play-install-btn" class="video-play-install" type="button">
+            <img src="https://cdn.shopify.com/s/files/1/0605/0044/3373/files/bf-icon.png?v=1706173414" alt="">
+          </button>
+        </video-media>
+    
+      {%- else -%}
+      <video-media loaded  class="" host="{{ blkSt.external_video_url.type }}" 
+    {% if blkSt.autoplay %}autoplay class="pointer-events-none"{% endif %} >
+      {% comment %} {{- poster -}} {% endcomment %}
+      {%- if blkSt.external_video_url.type == 'youtube' -%}
+        <iframe src="https://www.youtube.com/embed/{{ blkSt.external_video_url.id }}?playsinline=1&{% if blkSt.autoplay %}autoplay=1&controls=0&mute=1&loop=1&{% endif %}playlist={{ blkSt.external_video_url.id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen" ></iframe>
+      {%- elsif blkSt.external_video_url.type == 'vimeo' -%}
+        <iframe src="https://player.vimeo.com/video/{{ blkSt.external_video_url.id }}?autopause=1&{% if blkSt.autoplay %}background=1&autoplay=1&loop=1&muted=1&{% endif %}transparent=0&responsive=1&portrait=0&title=0&byline=0&color={{ settings.text_color | remove_first: '#' }}" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+      {%- endif -%}
+    </video-media>
+   
+      {%- endif -%}
+  
+       <div class="video-box-{{section.id}}">
+      <div class="vi-content sm:justify-items-center">
+        <div class="vi-title">{{ block.settings.title_video }}</div>
+
+        {% assign custom_index = "custom_id_" | append: forloop.index %}
+       
+
+        {% assign info_video_length = block.settings.info_video | size %}
+        {% assign max_length = 1000 %}
+        <div class="vi-info-{{ section.id }} custom-info" id="vi-info-{{ section.id }}" style="position: relative;">
+            <div id="truncateTexts_{{ custom_index }}">
+                {% if info_video_length > 150 %}
+                    <div class="shorten">
+                        {{ block.settings.info_video | slice: 0, 150  }}
+                        <button style="cursor:pointer; color:#FF981D" id="toggleButtons_{{ custom_index }}" onclick="toggleContents('{{ custom_index }}')">...See More ></button>
+                    </div>
+                    <div class="full" style="display: none;">
+                        {{ block.settings.info_video }}
+                        <button style="cursor:pointer; color:#FF981D;" id="toggleButtonsMore_{{ custom_index }}" onclick="toggleContents('{{ custom_index }}')">Rack up ></button>
+                    </div>
+                {% else %}
+                    <div class="full">{{ block.settings.info_video }}</div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <script>
+        function toggleContents(index) {
+            const truncateTexts = document.getElementById('truncateTexts_' + index);
+            const shortenTexts = truncateTexts.querySelector('.shorten');
+            const fullTexts = truncateTexts.querySelector('.full');
+            const toggleButtons = document.getElementById('toggleButtons_' + index);
+            const toggleButtonsMore = document.getElementById('toggleButtonsMore_' + index);
+        
+            if (shortenTexts.style.display === 'none' || shortenTexts.offsetHeight === 0) {
+                shortenTexts.style.display = 'block';
+                fullTexts.style.display = 'none';
+                toggleButtons.innerHTML = '...See More >';
+                toggleButtonsMore.style.display = 'none'; // Hide 'Rack up >' button when showing shortened text
+            } else {
+                shortenTexts.style.display = 'none';
+                fullTexts.style.display = 'block';
+                toggleButtons.innerHTML = ''; // Set innerHTML to empty string to remove text from 'See More' button
+                toggleButtonsMore.style.display = 'inline-block'; // Show 'Rack up >' button when full text is displayed
+            }
+        
+            // Find the position of the content and insert the button after it
+            const contentContainers = document.getElementById('vi-info_' + index);
+            const buttonContainers = contentContainers.querySelector('.full');
+            contentContainers.insertBefore(toggleButtonsMore, buttonContainers.nextSibling);
+        }
+        </script>
+        
+        
+
+      </div>
+      <div class="line-button"></div>
+      <div class="vi-button-{{ section.id }}">
+
+        {%- if block.settings.watch_button != blank -%}
+        <button class="watch-button-{{ section.id }}" 
+        style="color:{{ block.settings.button_text_color_1 }};
+        background:{{ block.settings.button_text_background_1 }};
+        border:2px solid{{ block.settings.button_text_border_1}}
+        ">
+          <a href="{{ block.settings.link_watch }}">
+          {{ block.settings.watch_button }}
+        </a>
+      </button>
+      {%- endif -%}
+
+      {%- if block.settings.shop_button != blank -%}
+      <button class="shop-button-{{ section.id }}"
+      style="color:{{ block.settings.button_text_color_2 }};
+      background:{{ block.settings.button_text_background_2 }};
+      border:2px solid{{ block.settings.button_text_border_2}}
+      ">
+      
+        <a href="{{ block.settings.link_shop }}">
+        {{ block.settings.shop_button }}
+      </a>
+    </button>
+
+    {%- endif -%}
+    </div>
+      </div>
+    </div>
+    {%- endfor -%}
+     </div>
+
+  
+    </section>
+
+<script>
+const buttons = document.querySelectorAll(".video-play-install");
+buttons.forEach(function(button) {
+  button.addEventListener("click", function() {
+    button.style.display = "none";
+  });
+});
+</script>
+
+
+  {% schema %}
+    {
+      "name": "视频-2",
+      "tag": "section",
+      "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Read About Us"
+      },
+      {
+        "type": "text",
+        "id": "sub",
+        "label": "Subheading",
+        "default": "Read About Us"
+      },
+      {
+        "type": "url",
+        "id": "link_sdf",
+        "label": "Link"
+      },
+      {
+        "type": "text",
+        "id": "button_zong",
+        "label": "Button",
+        "default": "Read About Us"
+      },
+        {
+          "type": "text",
+          "id": "article_title",
+          "label": "Article title",
+          "default": "Read About Us"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mobile",
+          "label": "Title display on mobile?",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Section interval set"
+          },
+          {
+            "type": "select",
+            "id": "top_padding",
+            "label": "Top padding (PC)",
+            "default": "md", 
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "Default"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "bottom_padding",
+            "label": "Bottom padding (PC)",
+            "default": "md",
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "lg"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "top_margin",
+            "label": "Top margin (PC)",
+            "default": "md",
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "Default"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "bottom_margin",
+            "label": "Bottom margin (PC)",
+            "default": "md",
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "lg"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "top_padding_mb",
+            "label": "Top padding (Mobile)",
+            "default": "md", 
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "lg"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "none"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "bottom_padding_mb",
+            "label": "Bottom padding (Mobile)",
+            "default": "md",
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "lg"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "type": "select",
+            "id": "top_margin_mb",
+            "label": "Top margin (Mobile)",
+            "default": "md",
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "lg"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+            
+          },
+          {
+            "type": "select",
+            "id": "bottom_margin_mb",
+            "label": "Bottom margin (Mobile)",
+            "default": "md",
+            "options": [
+              {
+                "value": "xl",
+                "label": "xl"
+              },
+              {
+                "value": "lg",
+                "label": "lg"
+              },
+              {
+                "value": "md",
+                "label": "md"
+              },
+              {
+                "value": "sm",
+                "label": "sm"
+              },
+              {
+                "value": "none",
+                "label": "None"
+              }
+            ]
+          },
+          {
+            "type": "header",
+            "content": "Colors",
+            "info": "Gradient replaces solid colors when set."
+          },
+          
+          {
+            "type": "color",
+            "id": "button_background",
+            "label": "Button background"
+          },
+          {
+            "type": "color",
+            "id": "button_text_color",
+            "label": "Button text color"
+          },
+          {
+            "type": "header",
+            "content": "Section----"
+    
+          },
+      
+      
+          {
+            "type": "header",
+            "content": "dividing line"
+    
+          },
+          {
+            "type": "color",
+            "id": "dividing_line",
+            "label": "Dividing line"
+          }
+      
+      ],
+      "blocks": [
+        {
+          "type": "item",
+          "name": "Item",
+          "settings": [
+          {
+            "type": "checkbox",
+            "id": "allow_transparent_header",
+            "label": "Allow transparent header",
+            "info": "This setting only applies when this section is the first one.",
+            "default": false
+          },
+          {
+            "type": "checkbox",
+            "id": "autoplay",
+            "label": "Autoplay",
+            "info": "Video are muted to allow autoplay. For best results, do not add any content on top of the video when autoplay is enabled.",
+            "default": false
+          },
+          {
+            "type": "select",
+            "id": "video_size",
+            "label": "Video size",
+            "options": [
+              {
+                "value": "auto",
+                "label": "16/9 (recommended)"
+              },
+              {
+                "value": "sm",
+                "label": "Small"
+              },
+              {
+                "value": "md",
+                "label": "Medium"
+              },
+              {
+                "value": "lg",
+                "label": "Large"
+              },
+              {
+                "value": "fill",
+                "label": "Fill screen"
+              }
+            ],
+            "default": "auto"
+          },
+          {
+            "type": "video",
+            "id": "video",
+            "label": "Video",
+            "info": "Replaces external video if both are set."
+          },
+          {
+            "type": "video_url",
+            "id": "external_video_url",
+            "accept": ["vimeo", "youtube"],
+            "label": "Video URL",
+            "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc"
+          },
+          {
+            "type": "image_picker",
+            "id": "poster",
+            "label": "Poster image",
+            "info": "3200 x 1600px .jpg recommended. Poster is not visible when autoplay is enabled."
+          },
+          {
+            "type": "header",
+            "content": "Colors"
+          },
+          
+          
+          {
+            "type": "text",
+            "id": "title_video",
+            "label": "Heading",
+            "default": "Video list"
+          },
+          {
+            "type": "richtext",
+            "id": "info_video",
+            "label": "Content"
+          },
+          {
+            "type": "url",
+            "id": "link_watch",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "watch_button",
+            "label": "Button",
+            "default": "Video list"
+          },
+          {
+            "type": "color",
+            "id": "button_text_color_1",
+            "label": "Button text color"
+          },
+          {
+            "type": "color",
+            "id": "button_text_background_1",
+            "label": "Button backgroun"
+          },
+          {
+            "type": "color",
+            "id": "button_text_border_1",
+            "label": "Button border"
+          },
+          {
+            "type": "url",
+            "id": "link_shop",
+            "label": "Link"
+          },
+          {
+            "type": "text",
+            "id": "shop_button",
+            "label": "Button",
+            "default": "Video list"
+          },
+          {
+            "type": "color",
+            "id": "button_text_color_2",
+            "label": "Button text color"
+          },
+          {
+            "type": "color",
+            "id": "button_text_background_2",
+            "label": "Button backgroun"
+          },
+          {
+            "type": "color",
+            "id": "button_text_border_2",
+            "label": "Button border"
+          }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "视频-2"
+        }
+      ]
+    }
+  {% endschema %} 

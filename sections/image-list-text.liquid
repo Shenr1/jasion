@@ -1,170 +1,72 @@
 {%- assign secSt = section.settings -%}
+
 {% if secSt.img != blank or secSt.bg_img != blank %}
+  <section section-name="image-list-text" 
+    class="{% render 'section-interva-set' , secSt:secSt %} page-width {% if secSt.bg_img != blank %}tw-bg-no-repeat tw-bg-cover{% endif %}"
+    {% if secSt.bg_img != blank %}
+      style="background-image:url('{{secSt.bg_img | img_url:"master"}}')"
+    {% endif %}
+   >
+    <div class="tw-px-2 tw-mx-auto md:tw-flex tw-items-center " style="background-color:{{secSt.bg_color}};">
 
-  <section section-name="image-list-text"
-     style="background-color:{{secSt.bg_color}}; {% if secSt.bg_img != blank %} min-height:560px {% endif %}"
-     class="{% unless secSt.full_width %}page-width{% endunless %} tw-bg-no-repeat tw-bg-cover {% render 'section-interva-set' , secSt:secSt %}" >
-     
+      <div class='img-wrap md:tw-w-1/2 tw-flex tw-justify-center tw-items-center 
+        {% if secSt.layout == "textImage" %}tw-order-3{%else%}tw-order-1{% endif %}' >
 
-    <div class="tw-h-full tw-mx-auto tw-flex md:tw-flex-wrap md:tw-flex-row tw-flex-col
-      {% if secSt.full_width %}tw-w-full{% endif %}
-      {% if secSt.bottom_line %}tw-border-solid tw-border-0 tw-border-b tw-border-black-300 tw-pb-8 {% endif %}">
-
-      <div class='md:tw-w-1/2 tw-w-full 
-        {% if secSt.layout_mb == "textImage" %}tw-order-3{%else%}tw-order-1{% endif %}
-        {% if secSt.layout == "textImage" %}md:tw-order-3{%else%}md:tw-order-1{% endif %}' >
-        <div class="tw-flex tw-justify-center tw-items-center">
-          {% if secSt.img != blank %}
-            {% include 'aspect-ratio-img', media: secSt.img ,class: 'tw-block'%}
-          {% endif %}
-        </div>
-      </div>
-
-      {% if secSt.bg_img_mb != blank  %}
-        <div class="md:tw-hidden tw-block">
-          {% include 'aspect-ratio-img', media: secSt.bg_img_mb ,class: 'tw-block'%}
-        </div>
-      {% endif %}
-      
-      <div class="md:tw-w-1/2 tw-order-2 content-wrap">
-        <div class="tw-flex tw-flex-col {% if secSt.layout == "textImage" %}2xl:tw-pr-20 md:tw-pr-8 {%else%}xl:tw-pl-24 md:tw-pl-8 {% endif %}{% if secSt.full_width %}lg:tw-p-0 tw-p-4{% endif %}">
-          <div class="md:tw-mr-2 md:tw-text-left tw-text-center md:tw-px-0 tw-px-4">
-            <h1 class="xl:tw-text-5xl tw-text-3xl xl:tw-mb-7 tw-mb-4 md:tw-mt-0 tw-mt-8">{{ secSt.text_main  }}</h1>
-            <p class="xl:tw-text-xl tw-text-base xl:tw-mb-12 md:tw-mb-4 tw-mb-6 tw-text-stone-600 xl:tw-leading-normal tw-leading-snug">{{ secSt.text_sub }}</p>
+        {% if secSt.img != blank %}
+          <div>
+          {{ secSt.img | image_url: width: 1000 | image_tag: width: nil, loading: 'lazy', class:'tw-block' }}
           </div>
+        {% endif %}
 
-          {% if secSt.text_layout == 'horizontal' %}
-              {% assign flexClass = 'tw-flex-wrap' %}
+      </div>
+      <div class="content-wrap md:tw-w-1/2 tw-order-2 tw-flex tw-flex-col md:tw-p-4">
+        <div class="{{ secSt.title_align }}"> 
+          {%- assign titleSize = section.settings.title_size -%}
+          {%- assign textSize = section.settings.text_size -%}
+          <h1 class="" style="font-size:{{titleSize}}%">{{ secSt.text_main  }}</h1>
+          <p class="md:tw-mb-6 xl:tw-mb-12 tw-mb-4" style="font-size:{{textSize}}%">{{ secSt.text_sub }}</p>
+        </div>
+
+        <div class="list-wrap tw-flex tw-flex-wrap ">
+          {%- assign titleSize = section.settings.i_title_size -%}
+          {%- assign textSize = section.settings.i_text_size -%}
+          {% for block in section.blocks %}
+          {%- assign length = forloop.length -%}
+          {%- assign blkSt = block.settings -%}
+          {% if length == 2 or length == 4 %}
+            {%- assign wClass = 'tw-w-1/2' -%}
             {% else %}
-              {% assign flexClass = 'tw-flex-col' %}
+            {%- assign wClass = 'md:tw-w-1/3 tw-w-1/2' -%}
           {% endif %}
-        
-          <div class="tw-flex {{flexClass}} {{ secSt.text_align }}">
-            {%- case section.settings.i_size -%}
-              {%- when "default" -%}
-                {%- assign titleSize = 'lg:tw-text-2xl tw-text-xl' -%}
-                {%- assign textSize = 'md:tw-text-base tw-text-sm' -%}
-              {%- else -%}
-                {%- assign titleSize = 'xl:tw-text-3xl tw-text-2xl' -%}
-                {%- assign textSize = 'xl:tw-text-lg tw-text-base' -%}
-            {%- endcase -%}
-
-            {% for block in section.blocks %}
-            {%- assign length = forloop.length -%}
-            {%- assign blkSt = block.settings -%}
-            {% if length == 2 or length == 4 or secSt.text_layout == 'vertical' %}
-              {%- assign wClass = 'tw-w-1/2' -%}
-              {% else %}
-              {%- assign wClass = 'tw-w-1/3' -%}
-            {% endif %}
-              <div class="{{wClass}} xl:tw-mb-8 md:tw-mb-4 tw-mb-8 {% if blkSt.icon == blank %}md:tw-text-left {% endif %}tw-text-center">
+              <div class="{{wClass}} tw-mb-6 xl:tw-text-base md:tw-text-sm {{ secSt.text_align }}">
                 {% if blkSt.icon != blank %}
-                <div class="xl:tw-w-16 md:tw-w-10 tw-w-12 tw-mx-auto">
-                  {% include 'aspect-ratio-img', media: blkSt.icon ,class: ''%}
-                </div>
+                {{ blkSt.icon | image_url: width: 300 | image_tag: width: nil, loading: 'lazy', class: 'xl:tw-max-h-12 md:tw-max-h-[5vw] tw-max-h-10 tw-inline-block' }}
                 {% endif %}
-                <p class="tw-m-0 tw-mt-2 tw-font-semibold tw-leading-tight {{titleSize}}">{{blkSt.item_title}}</p>
-                <p class="tw-m-0 {{textSize}} tw-text-stone-500">{{blkSt.item_dec}}</p>
+                <p class="tw-m-0 tw-mt-2 tw-font-semibold tw-leading-tight" 
+                  style="font-size:{{titleSize}}%">{{blkSt.item_title}}</p>
+                <p class="tw-m-0 tw-text-base" style="font-size:{{textSize}}%">{{blkSt.item_dec}}</p>
               </div>
-            {% endfor %}
+          {% endfor %}
             {% if secSt.btm_img != blank %}
             <div tag-name="bottom-image" class="tw-mt-6" style="width:{{secSt.btm_img_w}}%">
               {{ secSt.btm_img | image_url: width: 800 | image_tag: width: nil, loading: 'lazy' }}
             </div>
             {% endif %}
 
-          </div>
+
         </div>
       </div>
-
     </div>
   </section>  
-
-  {% comment %} todo封装 {% endcomment %}
-  <style>
-    @media only screen and (min-width: 769px) {
-      {% if secSt.bg_img != blank  %}
-      #shopify-section-{{section.id}} [section-name="image-list-text"]{
-        background-image:url('{{ secSt.bg_img | img_url: "master" }}');
-        height:{{secSt.bg_img.height | times: 100 | divided_by: secSt.bg_img.width | divided_by: 1.0}}vw;
-      }
-      {% endif %}
-    }
-
-
-
-  </style>
 {% endif %}
-
-
 
 
 
 {% schema %}
   {
-    "name": "Image list text v1.1",
+    "name": "Image list text v1.2",
     "tag": "section",
     "settings": [
-      {
-        "type": "header",
-        "content": "Section interval set"
-      },
-      {
-        "type": "select",
-        "id": "top_padding",
-        "label": "top interval",
-        "default": "large",
-        "options": [
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "bottom_padding",
-        "label": "bottom interval",
-        "default": "default",
-        "options": [
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
  		  {
         "type": "color",
         "id": "bg_color",
@@ -174,18 +76,7 @@
       {
         "type": "image_picker",
         "id": "bg_img",
-        "label": "Background img"
-      },
-      {
-        "type": "image_picker",
-        "id": "bg_img_mb",
-        "label": "Background img (mobile)"
-      },
-      {
-        "type": "checkbox",
-        "id": "full_width",
-        "label": "Is full width?",
-        "default": false
+        "label": "Background image"
       },
       {
         "type": "select",
@@ -205,38 +96,6 @@
       },
       {
         "type": "select",
-        "id": "layout_mb",
-        "label": "Layout style(monile)",
-        "default": "textImage",
-        "options": [
-          {
-            "value": "imageText",
-            "label": "Image on the top"
-          },
-          {
-            "value": "textImage",
-            "label": "Image on the bottom"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "text_layout",
-        "label": "Item layout style",
-        "default": "horizontal",
-        "options": [
-          {
-            "value": "horizontal",
-            "label": "Horizontal"
-          },
-          {
-            "value": "vertical",
-            "label": "Vertical"
-          }
-        ]
-      },
-      {
-        "type": "select",
         "id": "text_align",
         "label": "Item text align",
         "default": "",
@@ -246,7 +105,23 @@
             "label": "Left"
           },
           {
-            "value": "text-center",
+            "value": "tw-text-center",
+            "label": "Center"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "title_align",
+        "label": "Title text align",
+        "default": "",
+        "options": [
+          {
+            "value": "",
+            "label": "Left"
+          },
+          {
+            "value": "tw-text-center",
             "label": "Center"
           }
         ]
@@ -254,16 +129,16 @@
  		  {
         "type": "image_picker",
         "id": "img",
-        "label": "main image"
+        "label": "Main image"
       },
  		  {
-        "type": "text",
+        "type": "html",
         "id": "text_main",
         "label": "Title",
         "default":"Dual 48V 15Ah Lithium Batteries"
       },
  		  {
-        "type": "text",
+        "type": "html",
         "id": "text_sub",
         "label": "Sub title",
         "default":"If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge. And worried about long charging times? It takes only 5 hours to get fully charged with 2 chargers."
@@ -288,20 +163,272 @@
         "content": "Items setting"
       },
       {
+        "type": "range",
+        "id": "title_size",
+        "min": 50,
+        "max": 250,
+        "step": 10,
+        "unit": "%",
+        "label": "Main title font size",
+        "default": 140
+      },
+      {
+        "type": "range",
+        "id": "text_size",
+        "min": 50,
+        "max": 250,
+        "unit": "%",
+        "step": 10,
+        "label": "Main content font size",
+        "default": 100
+      },
+      {
+        "type": "range",
+        "id": "i_title_size",
+        "min": 50,
+        "max": 250,
+        "step": 10,
+        "unit": "%",
+        "label": "Items title font size",
+        "default": 140
+      },
+      {
+        "type": "range",
+        "id": "i_text_size",
+        "min": 50,
+        "max": 250,
+        "unit": "%",
+        "step": 10,
+        "label": "Items content font size",
+        "default": 100
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
         "type": "select",
-        "id": "i_size",
-        "label": "Item font size",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
         "options": [
           {
-          "value": "default",
-          "label": "Default"
+            "value": "xl",
+            "label": "Extra large"
           },
           {
-          "value": "large",
-          "label": "Large"
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
           }
-        ],
-        "default": "default"
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
       }
     ],
     "blocks": [
@@ -331,7 +458,7 @@
     ],
     "presets": [
         {
-          "name": "Image list text v1.1"
+          "name": "Image list text v1.2"
         }
       ]
   }

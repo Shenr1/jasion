@@ -1,0 +1,351 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "737fd307-9687-4e0a-9e47-aebfd37ba6f5": {
+      "type": "feature-chart",
+      "blocks": {
+        "template--20430187036965__737fd307-9687-4e0a-9e47-aebfd37ba6f5-headings-1": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Hub Motor",
+            "heading_2": "Torque",
+            "heading_3": "Sensor",
+            "heading_4": "Battery Capacity",
+            "heading_5": "Charger",
+            "heading_6": "Max Range",
+            "heading_7": "Brakes",
+            "heading_8": "Tire",
+            "heading_9": "Max Speed",
+            "heading_10": "Throttle",
+            "heading_11": "Gears",
+            "heading_12": "Suspension",
+            "heading_13": "Display",
+            "heading_14": "Total Length",
+            "heading_15": "Handlebar Height",
+            "heading_16": "Weight",
+            "heading_17": "Max Load",
+            "heading_18": "Suggested Rider Height",
+            "heading_19": "Pedal Assist Level",
+            "heading_20": "Best For"
+          }
+        },
+        "29693c8d-ede6-4d03-8328-4bf42a47c060": {
+          "type": "values",
+          "settings": {
+            "product": "jasion®eb5-roamer-ebike",
+            "value_1": "<p>1100W</p>",
+            "value_2": "<p>60N.m</p>",
+            "value_3": "<p>Cadence Sensor</p>",
+            "value_4": "<p>48V 11Ah</p>",
+            "value_5": "<p>48V 2A</p>",
+            "value_6": "<p>Up to 62 Miles</p>",
+            "value_7": "<p>Mechanical Brakes</p>",
+            "value_8": "<p>26\" x 2.25\" Tire</p>",
+            "value_9": "<p>28mph</p>",
+            "value_10": "<p>Thumb Throttle</p>",
+            "value_11": "<p>7-Speed Shimano</p>",
+            "value_12": "<p>Front</p>",
+            "value_13": "<p>LCD</p>",
+            "value_14": "<p>66.9\"</p>",
+            "value_15": "<p>44\"</p>",
+            "value_16": "<p>65 lbs</p>",
+            "value_17": "<p>400 lbs</p>",
+            "value_18": "<p>5'2\"-6'6\"</p>",
+            "value_19": "<p>0~5 Level Pedal Assist</p>",
+            "value_20": "<p>City, Commuting</p>",
+            "view_button_background": "rgba(0,0,0,0)",
+            "view_button_text_color": ""
+          }
+        },
+        "a6ca66dc-67b1-46c5-850a-6f340accd353": {
+          "type": "values",
+          "settings": {
+            "product": "jasion®eb5-st-roamer-ebike",
+            "value_1": "<p>1100W</p>",
+            "value_2": "<p>60N.m</p>",
+            "value_3": "<p>Cadence Sensor</p>",
+            "value_4": "<p>48V 11Ah</p>",
+            "value_5": "<p>48V 2A</p>",
+            "value_6": "<p>Up to 62 Miles</p>",
+            "value_7": "<p>Mechanical Brakes</p>",
+            "value_8": "<p>26\" x 2.25\" Tire</p>",
+            "value_9": "<p>28mph</p>",
+            "value_10": "<p>Thumb Throttle</p>",
+            "value_11": "<p>7-Speed Shimano</p>",
+            "value_12": "<p>Front</p>",
+            "value_13": "<p>LCD</p>",
+            "value_14": "<p>66.9\"</p>",
+            "value_15": "<p>44\"</p>",
+            "value_16": "<p>65 lbs</p>",
+            "value_17": "<p>400 lbs</p>",
+            "value_18": "<p>4'9\"-6'6\"</p>",
+            "value_19": "<p>0~5 Level Pedal Assist</p>",
+            "value_20": "<p>City, Commuting</p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "template--20430187036965__737fd307-9687-4e0a-9e47-aebfd37ba6f5-values-1": {
+          "type": "values",
+          "settings": {
+            "product": "jasion-x-hunter",
+            "value_1": "<p>1400W </p>",
+            "value_2": "<p>90N.m</p>",
+            "value_3": "<p>Cadence Sensor</p>",
+            "value_4": "<p>48V/13Ah</p>",
+            "value_5": "<p>48V/2A</p>",
+            "value_6": "<p>Up to 71Miles</p>",
+            "value_7": "<p>Mechanical Brakes</p>",
+            "value_8": "<p>20\" x 4“ Tire</p>",
+            "value_9": "<p>30+mph</p>",
+            "value_10": "<p>Twist Throttle</p>",
+            "value_11": "<p>7-Speed Shimano</p>",
+            "value_12": "<p>Full Suspension</p>",
+            "value_13": "<p>LCD</p>",
+            "value_14": "<p>67.3\"</p>",
+            "value_15": "<p>46-51.2\"</p>",
+            "value_16": "<p>71 lbs</p>",
+            "value_17": "<p>480 lbs</p>",
+            "value_18": "<p>5'3\" to 6'4\"</p>",
+            "value_19": "<p>0~5 Level Pedal Assist</p>",
+            "value_20": "<p>All Terrain</p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "19f1460c-6970-41a8-aef8-52f2ca29683c": {
+          "type": "values",
+          "settings": {
+            "product": "jasion-eb7-electric-bike",
+            "value_1": "<p>850W</p>",
+            "value_2": "<p>48N.m</p>",
+            "value_3": "<p>Cadence Sensor</p>",
+            "value_4": "<p>48V 10Ah</p>",
+            "value_5": "<p>48V/2A</p>",
+            "value_6": "<p>Up to 55Miles</p>",
+            "value_7": "<p>Mechanical Brakes</p>",
+            "value_8": "<p>20\" x 3“ Tire</p>",
+            "value_9": "<p>28mph</p>",
+            "value_10": "<p>Twist Throttle</p>",
+            "value_11": "<p>7-Speed Shimano</p>",
+            "value_12": "<p>Dual Suspension</p>",
+            "value_13": "<p>LCD</p>",
+            "value_14": "<p>68\"</p>",
+            "value_15": "<p>42.5\"</p>",
+            "value_16": "<p>62.8lbs</p>",
+            "value_17": "<p>350lbs</p>",
+            "value_18": "<p>5'1\" to 6'2\"</p>",
+            "value_19": "<p>0~5 Level Pedal Assist</p>",
+            "value_20": "<p>All Terrain</p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "template--20430187036965__737fd307-9687-4e0a-9e47-aebfd37ba6f5-values-2": {
+          "type": "values",
+          "settings": {
+            "product": "eb7-st",
+            "value_1": "<p>850W</p>",
+            "value_2": "<p>48N.m</p>",
+            "value_3": "<p>Cadence Sensor</p>",
+            "value_4": "<p>48V 10Ah</p>",
+            "value_5": "<p>48V/2A</p>",
+            "value_6": "<p>Up to 55Miles</p>",
+            "value_7": "<p>Mechanical Brakes</p>",
+            "value_8": "<p>20\" x 3\" Tire</p>",
+            "value_9": "<p>28mph</p>",
+            "value_10": "<p>Twist Throttle</p>",
+            "value_11": "<p>7-Speed Shimano</p>",
+            "value_12": "<p>Dual Suspension</p>",
+            "value_13": "<p>LCD</p>",
+            "value_14": "<p>68\"</p>",
+            "value_15": "<p>42.5\"</p>",
+            "value_16": "<p>62.8lbs</p>",
+            "value_17": "<p>350lbs</p>",
+            "value_18": "<p>4'5\" to 6'2\"</p>",
+            "value_19": "<p>0~5 Level Pedal Assist</p>",
+            "value_20": "<p>All Terrain</p>",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20430187036965__737fd307-9687-4e0a-9e47-aebfd37ba6f5-headings-1",
+        "29693c8d-ede6-4d03-8328-4bf42a47c060",
+        "a6ca66dc-67b1-46c5-850a-6f340accd353",
+        "template--20430187036965__737fd307-9687-4e0a-9e47-aebfd37ba6f5-values-1",
+        "19f1460c-6970-41a8-aef8-52f2ca29683c",
+        "template--20430187036965__737fd307-9687-4e0a-9e47-aebfd37ba6f5-values-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "subheading": "Compare",
+        "title": "Product Specification",
+        "content": "<p>If you’re looking for a bit more detailed information, scroll down on this page and you’ll find the dimensions for that particular bike.<br/>If you have anymore more questions or need assistance, please contact a product specialist at 1 (888) 825 6366 or support@jasionbike.com. We're open on Monday to Friday from 9 AM to 6 PM EST. </p>",
+        "button_text": "Shop Now",
+        "button_url": "shopify://collections/electric-bike",
+        "text_position": "center",
+        "max_rows": 15,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "rich_text_YrhgpA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_P9rUdL": {
+          "type": "heading",
+          "settings": {
+            "text": "FAQs",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_98Ek8J": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>If you can't find you question answer on FAQs,<strong> contact us, we will get back to you within 24 hours.</strong></p><p>Email: <a href=\"mailto:support@jasionbike.com\"><span style=\"text-decoration:underline\">support@jasionbike.com</span></a><br/>Phone: (+1) 888-825-6366<br/>Hours: 9：00 am-18：00 pm. (Mon-Fri EST)</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_P9rUdL",
+        "richtext_98Ek8J"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "e20634a3-8aea-4141-8f93-f5b5c17ef64b": {
+      "type": "faq",
+      "blocks": {
+        "ffea788a-bacb-4d03-a841-55732c78aa14": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "User manual/Installation Video",
+            "content": "<p>For Jasion E-Bike user manual and installation video, please click <a href=\"https://jasionbike.com/pages/user-manual-download\">HERE</a>.</p>"
+          }
+        },
+        "1d0d5dc8-416c-40a1-97b5-01a771c77410": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Do you support US local pickup?",
+            "content": "<p>Certainly! Please check the warehouse information here.(Address: ①RIA 2380 W Baseline Road Dock Door #3, Rialto, CA 92376Time: Mon-Fri 7:00-15:00 ②DAO_CA_US 1001 South Doubleday Ave, DOCK#19, Ontario, CA 91761).</p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.\t</p>"
+          }
+        },
+        "34a13356-4cc6-45c5-98df-78ca45e0c63c": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "How long should it take for my Jasion ebike to arrive?",
+            "content": "<p>In-stock orders typically ship within 3 business days, unless otherwise noted on the product page. Please allow 2~8 business days for your shipment to arrive at your address. For pre-orders, please refer to the shipping date on the product page. A shipping confirmation email will be sent to your email once the order has shipped.</p>"
+          }
+        },
+        "template--20430187036965__e20634a3-8aea-4141-8f93-f5b5c17ef64b-item-2": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Can the removable battery be secured and locked on the bike?",
+            "content": "<p>Yes. With a lock and key, that is possible. Unlock the battery and take it on the go. Charge it in the office or at home.</p>"
+          }
+        },
+        "template--20430187036965__e20634a3-8aea-4141-8f93-f5b5c17ef64b-item-3": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Does my Jasion eBike come pre-assembled?",
+            "content": "<p>Your e-bike will arrive partially assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our <a href=\"https://www.youtube.com/@JasionBike\" target=\"_blank\" title=\"https://www.youtube.com/@JasionBike\">YouTube Channel</a>.</p>"
+          }
+        },
+        "01b0f095-b858-4509-b3bc-467978b7c8c8": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "What if the package is broken/the item scratches when arrived?",
+            "content": "<p>Due to FedEx's failure to deliver the bike as required during transportation, parts of the wear and scratch may cause by the parts crashing together, although we have packed all the parts to prevent these situations as much as we can. Please send us the related pictures, we will solve it for you.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "ffea788a-bacb-4d03-a841-55732c78aa14",
+        "1d0d5dc8-416c-40a1-97b5-01a771c77410",
+        "34a13356-4cc6-45c5-98df-78ca45e0c63c",
+        "template--20430187036965__e20634a3-8aea-4141-8f93-f5b5c17ef64b-item-2",
+        "template--20430187036965__e20634a3-8aea-4141-8f93-f5b5c17ef64b-item-3",
+        "01b0f095-b858-4509-b3bc-467978b7c8c8"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_size": 100,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "top_padding": "sm",
+        "bottom_padding": "sm",
+        "top_margin": "sm",
+        "bottom_margin": "sm",
+        "top_padding_mb": "sm",
+        "bottom_padding_mb": "sm",
+        "top_margin_mb": "sm",
+        "bottom_margin_mb": "sm"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "737fd307-9687-4e0a-9e47-aebfd37ba6f5",
+    "rich_text_YrhgpA",
+    "e20634a3-8aea-4141-8f93-f5b5c17ef64b"
+  ]
+}

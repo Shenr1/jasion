@@ -1,533 +1,1185 @@
 {
   "sections": {
-    "slideshow": {
+    "fe5550b8-c626-46b7-80b9-b882de823592": {
       "type": "slideshow",
       "blocks": {
-        "bee8806e-eb9c-4077-8a13-9db68598caed": {
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
           "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 80,
-            "subheading": "",
-            "link": "shopify:\/\/products\/combo-sale-eb7-eb7st",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "rgba(0,0,0,0)",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/aszxdcfvgbh.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/EB7_EB7-ST-4-_550X800_a9adc0a6-bcc6-43e5-a41d-6fe651e7689d.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        },
-        "slideshow-0": {
-          "type": "image",
-          "settings": {
-            "top_subheading": "",
-            "title": "",
-            "title_size": 72,
-            "subheading": "",
-            "link": "shopify:\/\/products\/eb7-st",
-            "link_text": "",
-            "link_2": "",
-            "link_text_2": "",
-            "color_accent": "#ff981c",
-            "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/EB7ST-2.jpg",
-            "image_mobile": "shopify:\/\/shop_images\/EB7ST-2-_550X800_aed449f3-0369-4358-946f-aa82362149dd.jpg",
-            "parallax_direction": "top",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "bee8806e-eb9c-4077-8a13-9db68598caed",
-        "slideshow-0"
-      ],
-      "custom_css": [
-        ".btn {color: #fff !important;}"
-      ],
-      "settings": {
-        "section_height": "natural",
-        "mobile_height": "auto",
-        "parallax": false,
-        "style": "minimal",
-        "autoplay": true,
-        "autoplay_speed": 6,
-        "lazyload_images": true
-      }
-    },
-    "14230743-49f7-45a6-9ff2-a4165f77cd08": {
-      "type": "feature-grid",
-      "blocks": {
-        "a6acff80-3c6c-429e-b374-c93e9c9d9aa8": {
-          "type": "statistic",
-          "settings": {
-            "text": "45 Miles",
-            "text_sub": "Maximum Mileage"
-          }
-        },
-        "cedb5fc4-2b38-4d34-acfa-9f08dcdd5451": {
-          "type": "statistic",
-          "settings": {
-            "text": "80,000 +",
-            "text_sub": "Jasion Riders"
-          }
-        },
-        "2c42d416-5a2d-4d19-9f37-37ad9b3d1121": {
-          "type": "statistic",
-          "settings": {
-            "text": "13,000 +",
-            "text_sub": "5-Star Reviews"
-          }
-        },
-        "59def2e9-80db-4572-bfc7-f727f6cbb3d4": {
-          "type": "statistic",
-          "settings": {
-            "text": "1-year",
-            "text_sub": "Guarding your ride"
-          }
-        },
-        "8c853a2a-ff7c-4264-9a87-068f5db08b25": {
-          "type": "icon",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/icon01.png",
-            "text": "Fast Delivery",
-            "text_sub": "1 to 3 day delivery to all 48 states"
-          }
-        },
-        "b5f1d3f9-46ab-46b9-aa71-a20d33b7b674": {
-          "type": "icon",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/icon02.png",
-            "text": "1-Year Warranty",
-            "text_sub": "One year warranty on your bike"
-          }
-        },
-        "f4434038-8fcd-49f4-8997-1f432e45ea1d": {
-          "type": "icon",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/icon03.png",
-            "text": "Tax-Free",
-            "text_sub": "No need to pay 7-10% ST"
-          }
-        },
-        "33396831-3afc-4542-8514-184615ad43f8": {
-          "type": "icon",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/icon04.png",
-            "text": "14-Day Trial",
-            "text_sub": "Don’t love it? Send it back to us."
-          }
-        }
-      },
-      "block_order": [
-        "a6acff80-3c6c-429e-b374-c93e9c9d9aa8",
-        "cedb5fc4-2b38-4d34-acfa-9f08dcdd5451",
-        "2c42d416-5a2d-4d19-9f37-37ad9b3d1121",
-        "59def2e9-80db-4572-bfc7-f727f6cbb3d4",
-        "8c853a2a-ff7c-4264-9a87-068f5db08b25",
-        "b5f1d3f9-46ab-46b9-aa71-a20d33b7b674",
-        "f4434038-8fcd-49f4-8997-1f432e45ea1d",
-        "33396831-3afc-4542-8514-184615ad43f8"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large",
-        "bg_color": "#fdfdfd",
-        "title": "Long Range Ebike Expert"
-      }
-    },
-    "2ce57bdf-b8a3-4e57-a2cc-5a15a933dc7e": {
-      "type": "priducts-tab-slider",
-      "blocks": {
-        "6574ae6f-a2e0-4519-995b-ad7e308da513": {
-          "type": "collection",
-          "settings": {
-            "title": "EB7 2.0",
-            "collection": "eb7-2-0",
-            "show_color": false
-          }
-        },
-        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05": {
-          "type": "collection",
-          "settings": {
-            "title": "EB7 ST",
-            "collection": "eb7-st首页展示",
-            "show_color": false
-          }
-        },
-        "bca2ce32-9de1-4101-8d69-7baba514e989": {
-          "type": "collection",
-          "settings": {
-            "title": "Combo Sale",
-            "collection": "combo-sale首页展示",
-            "show_color": false
-          }
-        }
-      },
-      "block_order": [
-        "6574ae6f-a2e0-4519-995b-ad7e308da513",
-        "cffd14e3-b041-4adf-a3c1-ca5bd9cdaa05",
-        "bca2ce32-9de1-4101-8d69-7baba514e989"
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "default",
-        "bg_color": "rgba(0,0,0,0)",
-        "title": "Shop E-bikes",
-        "content": "We provide the best quality products at the best possible price because we are a direct-to-customer business. \nSo, no matter what your age or what your job is, no matter who you are or where you come from, we strive to offer cost-efficient electric bikes for you."
-      }
-    },
-    "60c2e16b-a120-4f88-83ae-93a6554da664": {
-      "type": "image-video-grid",
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large",
-        "bg_color": "#e8ebf0",
-        "bg_img": "shopify:\/\/shop_images\/1_d9884d62-c5df-4730-9678-f303149d1e7c.jpg",
-        "title": "Power Up with Jasion",
-        "content": "Blossom in the e-bike world - the perfect combination of power and pedaling to ignite your adventures. Enhance your riding experience by incorporating unrivaled power, elegance and environmental responsibility into every journey.",
-        "color": "#ffffff",
-        "video": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5a19f91955a04476aee88e9036a87070.mp4",
-        "image_video": "shopify:\/\/shop_images\/1_8a41e2b3-6530-463a-8a4f-a58e4815862c.jpg",
-        "img": "shopify:\/\/shop_images\/1332x510.jpg",
-        "img_mb": "shopify:\/\/shop_images\/670x1040.jpg"
-      }
-    },
-    "a1ddaf23-b152-4beb-89ca-cc63d0e1310d": {
-      "type": "image-compare",
-      "blocks": {
-        "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ST.png"
-          }
-        },
-        "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-2": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/2.0.png"
-          }
-        }
-      },
-      "block_order": [
-        "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-1",
-        "template--16712115781869__a1ddaf23-b152-4beb-89ca-cc63d0e1310d-image-2"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "heading_position": "left",
-        "fullwidth": true,
-        "slider_style": "classic",
-        "height": 600,
-        "color": "#ffffff",
-        "lazyload_images": true
-      }
-    },
-    "7d70e5e0-c724-451c-b058-a5d251b8ba4b": {
-      "type": "images-switch",
-      "blocks": {
-        "b167fa1d-39b7-4ad4-83e7-41b6380326f2": {
-          "type": "item",
-          "settings": {
-            "bg_color": "#edf1e6",
-            "image": "shopify:\/\/shop_images\/ST.png",
-            "title": "EB7 ST"
-          }
-        },
-        "74bbbfd1-ac68-4c95-bc5e-08510f6ecb67": {
-          "type": "item",
-          "settings": {
-            "bg_color": "#dce3cd",
-            "image": "shopify:\/\/shop_images\/2.0.png",
-            "title": "EB7 2.0"
-          }
-        }
-      },
-      "block_order": [
-        "b167fa1d-39b7-4ad4-83e7-41b6380326f2",
-        "74bbbfd1-ac68-4c95-bc5e-08510f6ecb67"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "top_padding": "large",
-        "bottom_padding": "large"
-      }
-    },
-    "bb52703e-a3eb-410a-95e4-b04c2c35332c": {
-      "type": "text-logo-switch",
-      "blocks": {
-        "d0ce4f54-d412-4040-96de-d933e90d8a21": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/4_0e2a56fe-6645-4332-bda7-44ba922370d9.png",
-            "content": "\"With its premium build quality and reasonable price point, the Jasionbike is a reliable option for riders looking for a high-quality e-bike without a hefty price tag. ”",
-            "author": "",
-            "link": ""
-          }
-        },
-        "b368d53a-4f77-45aa-a199-c24a3685179c": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/6.png",
-            "content": "\"Jasionbike is an accessible option for riders seeking an efficient mode of transportation. Its affordable price point and sturdy design make it a practical choice for both everyday commuting and weekend adventures.”",
-            "author": "",
-            "link": ""
-          }
-        },
-        "c8f0b654-3608-4212-ab58-51ee57092e2c": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/8.png",
-            "content": "\"The Jasionbike is a versatile and durable option, providing an impressive 45-mile range at an affordable price point.  It offers Solid Performance and Range Without Breaking the Bank.\"",
-            "author": "",
-            "link": ""
-          }
-        },
-        "83e26c95-7989-4db4-a8f3-da4d1130768b": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/5.png",
-            "content": "\"Jasionbike Offers Impressive Features and Durability at an Affordable Price.\"",
-            "author": "",
-            "link": ""
-          }
-        },
-        "6616d500-1551-455e-b8ee-7cceb47fd5e0": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/9.png",
-            "content": "\"Jasionbike is a Durable and Efficient Choice for Those Seeking an Easy-to-Use and Eco-Friendly Transportation Solution.\"",
-            "author": "",
-            "link": ""
-          }
-        },
-        "ab7422e3-4342-44a2-b357-1a1fc2c70c3b": {
-          "type": "item",
-          "settings": {
-            "img_url": "shopify:\/\/shop_images\/7.png",
-            "content": "\"Jasionbike is a Foldable and Versatile Option for Urban Commuters and Weekend Adventurers.\"",
-            "author": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "d0ce4f54-d412-4040-96de-d933e90d8a21",
-        "b368d53a-4f77-45aa-a199-c24a3685179c",
-        "c8f0b654-3608-4212-ab58-51ee57092e2c",
-        "83e26c95-7989-4db4-a8f3-da4d1130768b",
-        "6616d500-1551-455e-b8ee-7cceb47fd5e0",
-        "ab7422e3-4342-44a2-b357-1a1fc2c70c3b"
-      ],
-      "settings": {
-        "top_padding": "default",
-        "bottom_padding": "large",
-        "title": "Read About Us",
-        "show_mobile": true
-      }
-    },
-    "5023bdc0-c326-42d8-adfd-a07f6f7d606f": {
-      "type": "reviews-accordion",
-      "blocks": {
-        "af6ab996-0c9b-47a5-9c70-f245bd7076d5": {
-          "type": "question",
-          "settings": {
-            "title": "Why Jasion?",
-            "text": "<p>If you are in the market for an electric bike, Jasion is the company you should be looking at. With our commitment to quality, affordability, variety, customer service, and sustainability, we believe we can provide one of the best e-bike experiences on the market. So why not give us a try and see the Jasion difference for yourself?<\/p>"
-          }
-        },
-        "61d460d7-d97f-430b-bf86-53a604c0dd5d": {
-          "type": "question",
-          "settings": {
-            "title": "What are the benefits of an e-bike?",
-            "text": "<p>Riding an e-bike can be a fun and adventurous experience. With Jasion, you can explore new trails and paths that may be inaccessible on a traditional bicycle. Plus, the pedal assist feature lets you enjoy the ride without worrying about getting tired.<br\/>E-bikes offer many advantages, including environmental friendliness, improved health, money savings, convenience, accessibility, time savings, and fun and adventure. Whether you're commuting to work or exploring new routes, e-bikes are a great choice for transportation and leisure activities.<\/p>"
-          }
-        },
-        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae": {
-          "type": "question",
-          "settings": {
-            "title": "What Makes Jasion E-Bike a Game-Changer?",
-            "text": "<p>Jasion electric bikes seamlessly blend rugged functionality, superior comfort, and affordable cost. Featuring 20-inch wide tires and a powerful 500W motor, it's perfect for off-road adventures, weekend city loops, and travel commutes.<br\/>The full-suspension design helps smooth out the road and gives you better control over rough terrain.<br\/><\/p>"
-          }
-        },
-        "534e3a69-7472-41d5-b49e-a812cdcc51e4": {
-          "type": "question",
           "disabled": true,
           "settings": {
-            "title": "How Can Electric Power Transform Your Ride?",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.<\/p>"
+            "image": "shopify://shop_images/Jasion_-PC_01.jpg",
+            "mobile_image": "shopify://shop_images/8_3bd9a2ab-6fed-4b1f-aca2-dcfff3766977.jpg",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "shopify://products/combo-sale-eb7-eb7st",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         },
-        "24a559d2-0432-47fe-ba88-d4d776a6acc9": {
-          "type": "review",
+        "image_Jt4caq": {
+          "type": "image",
+          "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/01.jpg"
+            "image": "shopify://shop_images/Jasion_-PC.jpg",
+            "mobile_image": "shopify://shop_images/9_a9f02b8a-0686-4b1e-a9cb-e3be15b3ec7e.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify://products/jasion-x-hunter",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         },
-        "a4105e18-bf39-4be3-90ad-53603cb21fbd": {
-          "type": "review",
+        "92a1ff38-5983-404c-a476-80bd94da188e": {
+          "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/03_ff777e44-d1ff-4ba2-9e47-6426fd93c42b.jpg"
+            "image": "shopify://shop_images/EB5_R_logo-_Mother_s_Day_-_Bring_a_Special_Gift_to_Your_Mom_Jasion_Mother_s_Day_Special_Offer_Save_up_to_1800.png",
+            "mobile_image": "shopify://shop_images/Surprise_Your_Mom_with_a_Unique_Gift_Discount_up_to_1620.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "https://www.jasionbike.com/products/jasion-ebike%C2%AE-combo-sale-x-hunter-eb7-st",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         },
-        "da8d2211-dc06-450e-9fae-433494b7e3df": {
-          "type": "review",
+        "27f921d4-28ab-4aa5-94e4-1f9e81a565e1": {
+          "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/02_6b5daef9-347d-4716-bf4b-1bcc6f27a68b.jpg"
-          }
-        },
-        "cf10d993-35b7-4bca-b8ff-d3fb9e5a6b79": {
-          "type": "review",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/04.jpg"
-          }
-        },
-        "274f786a-7565-403f-911b-55439bb86ab6": {
-          "type": "review",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/05.jpg"
+            "image": "shopify://shop_images/EB5_R_logo-_Mother_s_Day_-_Bring_a_Special_Gift_to_Your_Mom_Jasion_Mother_s_Day_Special_Offer_Save_up_to_1800_cc8fb39d-40e5-4346-949b-97661f965d0c.png",
+            "mobile_image": "shopify://shop_images/Surprise_Your_Mom_with_a_Unique_Gift_Discount_up_to_1620_1a9f9464-3233-481e-ba80-6b69809e95bc.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "https://www.jasionbike.com/products/jasion-ebike%C2%AEcombo-sale-eb5-roamer-eb5-roamer-st",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
           }
         }
       },
       "block_order": [
-        "af6ab996-0c9b-47a5-9c70-f245bd7076d5",
-        "61d460d7-d97f-430b-bf86-53a604c0dd5d",
-        "c4c85e1d-244d-4498-bd1a-32ae95e5c5ae",
-        "534e3a69-7472-41d5-b49e-a812cdcc51e4",
-        "24a559d2-0432-47fe-ba88-d4d776a6acc9",
-        "a4105e18-bf39-4be3-90ad-53603cb21fbd",
-        "da8d2211-dc06-450e-9fae-433494b7e3df",
-        "cf10d993-35b7-4bca-b8ff-d3fb9e5a6b79",
-        "274f786a-7565-403f-911b-55439bb86ab6"
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1",
+        "image_Jt4caq",
+        "92a1ff38-5983-404c-a476-80bd94da188e",
+        "27f921d4-28ab-4aa5-94e4-1f9e81a565e1"
       ],
       "settings": {
-        "top_padding": "default",
-        "bottom_padding": "large",
-        "bg_color": "#fafafa",
-        "title": "300k+ bikes sold.\n40k+ 5-star reviews.",
-        "title_sub": "Undenibale Qualty",
-        "img_main": "shopify:\/\/shop_images\/2_e4d25b99-64ce-4ac7-b385-3eef2a20c90f.jpg",
-        "btn_text": "Read More Reviews",
-        "link": "https:\/\/www.jasionbike.com\/pages\/reviews"
+        "full_width": true,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "background_gradient": ""
       }
     },
-    "67accc71-b565-4e0c-b65a-34f4f643ae09": {
-      "type": "images-grid",
+    "663e8003-97f7-4544-a126-a2ce7adb9921": {
+      "type": "tab-product-content",
       "blocks": {
-        "87bea44e-9866-4ebd-bf6f-240a7c9d778b": {
-          "type": "text_block",
+        "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/02_a4807aaf-8adb-49b5-bacf-60cdec8615e8.jpg",
-            "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
-            "link": "https:\/\/www.facebook.com\/jasionebikes",
-            "title": "",
-            "content": ""
+            "order": "EB7 2.0",
+            "product": "jasion-eb7-electric-bike"
           }
         },
-        "6dc739f2-6f74-46e1-ac60-c7321cbea6aa": {
-          "type": "text_block",
+        "f2c87b37-55b8-4829-a7ed-7f0646a10a3e": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/04_698fc3d2-d9be-461a-b93f-9a83484e04f0.jpg",
-            "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
-            "link": "https:\/\/www.facebook.com\/jasionebikes",
-            "title": "",
-            "content": ""
+            "order": "EB7 2.0",
+            "product": "combo-sale-eb7-2-0-folding-fat-tire-electric-bike"
           }
         },
-        "6c81165c-25d6-4069-bed7-e7181ddf744b": {
-          "type": "text_block",
+        "db461650-09f1-4cf2-9673-0f2280aa9d09": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/06_81b113dd-03e6-40e0-9faf-9d7661e7f8bd.jpg",
-            "icon": "shopify:\/\/shop_images\/facebook_c07d653f-1f64-40ba-a1d3-480566ceea4c.png",
-            "link": "https:\/\/www.facebook.com\/jasionebikes",
-            "title": "",
-            "content": ""
+            "order": "EB7 ST",
+            "product": "eb7-st"
           }
         },
-        "9ef63c0e-e943-4ff7-876b-976f3a442791": {
-          "type": "text_block",
+        "45d7fb8b-ff96-42bf-9b95-b852e3f1b97f": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/03_c6734ee5-37c7-48bf-9e71-745777543fce.jpg",
-            "icon": "shopify:\/\/shop_images\/instagram.png",
-            "link": "https:\/\/www.instagram.com\/jasionbikes\/",
-            "title": "",
-            "content": ""
+            "order": "EB7 ST",
+            "product": "jasion-combo-sale-eb7-st-2-best-ebikes-for-family"
           }
         },
-        "daebd159-13ed-41c7-af79-c23a2c256ef3": {
-          "type": "text_block",
+        "214b23e0-6f3d-4831-b4db-79e04f649a6d": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/07.jpg",
-            "icon": "shopify:\/\/shop_images\/instagram.png",
-            "link": "https:\/\/www.instagram.com\/jasionbikes\/",
-            "title": "",
-            "content": ""
+            "order": "X-Hunter",
+            "product": "jasion-x-hunter"
           }
         },
-        "358a16bf-9024-4f56-b08b-31f23289dc95": {
-          "type": "text_block",
+        "product_TdGnQF": {
+          "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/05_2a50bfeb-7ea3-403d-9131-427179d1465c.jpg",
-            "icon": "shopify:\/\/shop_images\/instagram.png",
-            "link": "https:\/\/www.instagram.com\/jasionbikes\/",
-            "title": "",
-            "content": ""
+            "order": "EB5 Roamer",
+            "product": "jasion®eb5-roamer-ebike"
+          }
+        },
+        "product_QCDbNE": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer ST",
+            "product": "jasion®eb5-st-roamer-ebike"
+          }
+        },
+        "product_anTHA7": {
+          "type": "product",
+          "settings": {
+            "order": "New Combo",
+            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
+          }
+        },
+        "6347c830-2d17-4cf9-82d0-714e8a8e65e5": {
+          "type": "product",
+          "settings": {
+            "order": "X-Hunter",
+            "product": "jasion®-combo-sale-x-hunter-2"
+          }
+        },
+        "product_zezHqd": {
+          "type": "product",
+          "settings": {
+            "order": "New Combo",
+            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-st"
+          }
+        },
+        "product_LXQ8cT": {
+          "type": "product",
+          "settings": {
+            "order": "New Combo",
+            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-2-0"
+          }
+        },
+        "fc39b58f-9005-4be3-b080-c9112e09c064": {
+          "type": "product",
+          "settings": {
+            "order": "New Combo",
+            "product": "combo-sale-eb7-eb7st"
+          }
+        },
+        "product_rdQVaF": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer",
+            "product": "jasion-ebike®combo-sale-eb5-roamer"
+          }
+        },
+        "product_LMxRAt": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer ST",
+            "product": "jasion-ebike®combo-sale-eb5-roamer-st"
           }
         }
       },
       "block_order": [
-        "87bea44e-9866-4ebd-bf6f-240a7c9d778b",
-        "6dc739f2-6f74-46e1-ac60-c7321cbea6aa",
-        "6c81165c-25d6-4069-bed7-e7181ddf744b",
-        "9ef63c0e-e943-4ff7-876b-976f3a442791",
-        "daebd159-13ed-41c7-af79-c23a2c256ef3",
-        "358a16bf-9024-4f56-b08b-31f23289dc95"
+        "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3",
+        "f2c87b37-55b8-4829-a7ed-7f0646a10a3e",
+        "db461650-09f1-4cf2-9673-0f2280aa9d09",
+        "45d7fb8b-ff96-42bf-9b95-b852e3f1b97f",
+        "214b23e0-6f3d-4831-b4db-79e04f649a6d",
+        "product_TdGnQF",
+        "product_QCDbNE",
+        "product_anTHA7",
+        "6347c830-2d17-4cf9-82d0-714e8a8e65e5",
+        "product_zezHqd",
+        "product_LXQ8cT",
+        "fc39b58f-9005-4be3-b080-c9112e09c064",
+        "product_rdQVaF",
+        "product_LMxRAt"
       ],
       "settings": {
-        "top_padding": "none",
-        "bottom_padding": "default",
-        "image": "shopify:\/\/shop_images\/01_7a1527f6-de53-4496-91b5-c64ffda4133e.jpg",
-        "icon": "shopify:\/\/shop_images\/facebook.png",
-        "link": "https:\/\/www.facebook.com\/jasionebikes"
+        "bg_color": "rgba(0,0,0,0)",
+        "title": "Premium Quality at Affordable Prices-<br> Explore Unrivaled Possibility in Electric Mobility",
+        "title_sz": "sm",
+        "content": "Electric bicycle commuting is not just a mode of transportation; it's a transformation in lifestyle. We are committed to providing people with more convenient and healthy travel options. <br>Jasion®Bike is dedicated to developing high-quality and cost-effective electric bicycles.",
+        "title_color": "#333333",
+        "top_padding": "md",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "none",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "none"
       }
     },
-    "ce0cfb6d-3de7-4414-96f3-d43311e39b73": {
-      "type": "blog-posts",
+    "section_gallery_FXpzLF": {
+      "type": "Section-gallery",
+      "blocks": {
+        "slide_GWqUtM": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "column_size": "50%",
+            "image": "shopify://shop_images/2200x580.png",
+            "background_image": "#f1f9fc",
+            "background_gradient": "",
+            "header_text_align": "center",
+            "title": "X-Hunter",
+            "subheading": "1400W",
+            "link": "shopify://products/jasion-x-hunter",
+            "text": "SHOP NOW"
+          }
+        },
+        "slide_EH74DM": {
+          "type": "slide",
+          "settings": {
+            "column_size": "25%",
+            "image": "shopify://shop_images/2.0_0f74d663-0bb9-4d57-a622-fd071a6a677b.png",
+            "background_image": "#bfeafd",
+            "background_gradient": "",
+            "header_text_align": "right",
+            "title": "EB7 2.0",
+            "subheading": "850W",
+            "link": "shopify://products/jasion-eb7-electric-bike",
+            "text": "SHOP NOW"
+          }
+        },
+        "slide_RyAJ9j": {
+          "type": "slide",
+          "settings": {
+            "column_size": "25%",
+            "image": "shopify://shop_images/ST_faab7f5c-77b5-4c82-bcd3-266a9bc8966f.png",
+            "background_image": "#fdebde",
+            "background_gradient": "",
+            "header_text_align": "right",
+            "title": "EB7 ST",
+            "subheading": "850W",
+            "link": "shopify://products/eb7-st",
+            "text": "SHOP NOW"
+          }
+        },
+        "slide_yUfgcA": {
+          "type": "slide",
+          "settings": {
+            "column_size": "25%",
+            "image": "shopify://shop_images/EB5-R-ST_e383fb53-5431-4a26-a64b-f8f8c8ad87a5.png",
+            "background_image": "#f4dee3",
+            "background_gradient": "",
+            "header_text_align": "right",
+            "title": "EB5 Roamer",
+            "subheading": "1100W",
+            "link": "shopify://products/jasion®eb5-roamer-ebike",
+            "text": "SHOP NOW"
+          }
+        },
+        "slide_YJaWVN": {
+          "type": "slide",
+          "settings": {
+            "column_size": "25%",
+            "image": "shopify://shop_images/EB5-R_bd15117e-8d9b-487a-910f-0110960cbeaa.png",
+            "background_image": "#d5ffe0",
+            "background_gradient": "",
+            "header_text_align": "right",
+            "title": "EB5 Roamer ST",
+            "subheading": "1100W",
+            "link": "shopify://products/jasion®eb5-st-roamer-ebike",
+            "text": "SHOP NOW"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GWqUtM",
+        "slide_EH74DM",
+        "slide_RyAJ9j",
+        "slide_yUfgcA",
+        "slide_YJaWVN"
+      ],
+      "disabled": true,
       "settings": {
-        "title": "LATEST BLOG POST",
+        "full_width": true,
+        "top_padding": "sm",
+        "bottom_padding": "sm",
+        "top_margin": "sm",
+        "bottom_margin": "sm",
+        "top_padding_mb": "sm",
+        "bottom_padding_mb": "sm",
+        "top_margin_mb": "sm",
+        "bottom_margin_mb": "sm",
+        "text": "Promotion text",
+        "text_size": "large",
+        "background_image": "",
+        "background_gradient": "",
+        "text_gradient": ""
+      }
+    },
+    "75cb31b0-4a7e-4ac9-bd65-b90da6161ce7": {
+      "type": "accordion-text-image",
+      "blocks": {
+        "1dff393e-3215-4d72-8fe1-01f95b227ab2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_e127f25b-1cc8-4dc4-a0c0-2b963f1c6294.png",
+            "image_mb": "shopify://shop_images/1_e127f25b-1cc8-4dc4-a0c0-2b963f1c6294.png",
+            "title": "Leisure Travel",
+            "content": "> Discover",
+            "url": "shopify://products/eb7-st"
+          }
+        },
+        "item_Pk4KDC": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/003.jpg",
+            "image_mb": "shopify://shop_images/003.jpg",
+            "title": "Fat Tire",
+            "content": "> Discover",
+            "url": ""
+          }
+        },
+        "c0c4d4ec-20b9-4bfa-b288-37cd36496719": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/2_566bd72b-cc97-41f6-8e4e-c4ffc2f036fa.png",
+            "image_mb": "shopify://shop_images/2_566bd72b-cc97-41f6-8e4e-c4ffc2f036fa.png",
+            "title": "Off-Road Sports",
+            "content": "> Discover",
+            "url": "shopify://products/jasion-x-hunter"
+          }
+        },
+        "6727baf6-5929-45fd-9676-a889b82f8525": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_d19bcc6a-aaad-4d01-ae48-2f5b06be5505.png",
+            "image_mb": "shopify://shop_images/3_d19bcc6a-aaad-4d01-ae48-2f5b06be5505.png",
+            "title": "Portable Travel",
+            "content": "> Discover",
+            "url": ""
+          }
+        },
+        "item_Cw4NGh": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/001.jpg",
+            "image_mb": "shopify://shop_images/001.jpg",
+            "title": "Fat Tire",
+            "content": "> Discover",
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "1dff393e-3215-4d72-8fe1-01f95b227ab2",
+        "item_Pk4KDC",
+        "c0c4d4ec-20b9-4bfa-b288-37cd36496719",
+        "6727baf6-5929-45fd-9676-a889b82f8525",
+        "item_Cw4NGh"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "title_color": "rgba(0,0,0,0)",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "none",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "none"
+      }
+    },
+    "c26ccc90-318d-4123-9b9f-1ee18e70a2af": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16905168912621__c26ccc90-318d-4123-9b9f-1ee18e70a2af-item-1": {
+          "type": "item",
+          "settings": {
+            "video": "shopify://files/videos/悍马视频.mp4",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--16905168912621__c26ccc90-318d-4123-9b9f-1ee18e70a2af-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_437b505c-0419-46cc-b014-84fe49d22e7a.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "template--16905168912621__c26ccc90-318d-4123-9b9f-1ee18e70a2af-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/6_309384df-0900-416c-b343-3453a04af98a.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "661865cf-6386-436a-899c-32e818e8c204": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/1_0fbd526c-eb24-49cd-80da-e7217ef3c97a.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "3535e00a-94c8-4756-98e2-5c336b64ae76": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_0e32a411-4473-4e94-b6cf-0033daa6d513.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "b76c8149-724c-434f-b186-0bbf91a1b16b": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_fc35019a-ba25-4ee1-b2c4-8823f2eb3178.jpg",
+            "column_size": "4",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "template--16905168912621__c26ccc90-318d-4123-9b9f-1ee18e70a2af-item-1",
+        "template--16905168912621__c26ccc90-318d-4123-9b9f-1ee18e70a2af-item-2",
+        "template--16905168912621__c26ccc90-318d-4123-9b9f-1ee18e70a2af-item-3",
+        "661865cf-6386-436a-899c-32e818e8c204",
+        "3535e00a-94c8-4756-98e2-5c336b64ae76",
+        "b76c8149-724c-434f-b186-0bbf91a1b16b"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "Flagship Model",
+        "title": "Jasion® X-Hunter",
+        "content": "<p>The X-Hunter is more than just an electric bike; it's your adventure companion. Seamlessly blending ultimate performance and durability, it opens the door to a world of off-road adventure.</p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "5f814ef6-6efe-4594-907d-5dd79b0cf64a": {
+      "type": "text-logo-switch",
+      "blocks": {
+        "af149927-59db-4aa6-a0df-e82375855fb9": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/eletrek.png",
+            "content": "Experience a new level of commuting and cargo-carrying with Jasion's e-bike. It's the ideal blend of power, style, and efficiency, making every ride an adventure.",
+            "author": "Electrek",
+            "link": ""
+          }
+        },
+        "7689870b-7c02-4a18-a5d4-5c36e79553bf": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/electricbikereport.png",
+            "content": "Redefines urban mobility with EB7 2.0 Plus sleek design and impressive performance, it's the perfect choice for commuters and adventure seekers alike.",
+            "author": "Ebike Bike Report",
+            "link": ""
+          }
+        },
+        "240ce4c0-ebbf-4c67-9826-a98ffe30eef1": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/cyclingnews_logo.png",
+            "content": "Jasion's X-Hunter Plus is a game-changer for your daily rides. Whether you're commuting or exploring, it offers a smooth and electrifying journey.",
+            "author": "Cycling News",
+            "link": ""
+          }
+        },
+        "865296e8-c2ca-442b-8712-b5434e5a166c": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/electricwheelers.webp",
+            "content": "Elevate your riding experience with Jasion's e-bike. Its innovative design, robust features, and eco-friendly nature make it the top choice for eco-conscious riders.",
+            "author": "Electric Wheelers",
+            "link": ""
+          }
+        },
+        "39a2f210-a4bc-4614-bf3c-8d62ee24714f": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/ebikechoices.webp",
+            "content": "They sets a new standard for city and trail riding. It's a harmonious blend of power and elegance, revolutionizes your commute!",
+            "author": "Ebike Choices",
+            "link": ""
+          }
+        },
+        "fb555b47-d686-4250-9ce8-dc1b48ca7783": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/bikeradar.png",
+            "content": "Jasion's e-bike is your ticket to a greener, faster, and more exhilarating commute. Get ready to explore the city and beyond with this innovative ride.",
+            "author": "Bikeradar",
+            "link": ""
+          }
+        },
+        "87271b00-e14f-4d23-99ea-355c173c3acc": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/bikerumor_logo.png",
+            "content": "Unleash a new era of commuting and cargo versatility with Jasion's ebike. It's the epitome of power, style, and efficiency, ensuring each ride is an adventure.",
+            "author": "Bikerumor",
+            "link": ""
+          }
+        },
+        "c6fc18b3-6c78-4d00-b346-66973cb4ae80": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/bicycling.png",
+            "content": "Transforms your commute with electric. Discover the perfect blend of power, style, and efficiency for an exciting journey.",
+            "author": "Bicycling",
+            "link": ""
+          }
+        },
+        "f8eb4b7f-b6b5-4d5e-a71e-1d3b2562536b": {
+          "type": "item",
+          "settings": {
+            "img_url": "shopify://shop_images/electricbiking.png",
+            "content": "Best ebike ever! Use Jasion's ebike to experience a harmonious mix of power, style, and efficiency that turns every ride into an adventure.",
+            "author": "Electricbiking",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "af149927-59db-4aa6-a0df-e82375855fb9",
+        "7689870b-7c02-4a18-a5d4-5c36e79553bf",
+        "240ce4c0-ebbf-4c67-9826-a98ffe30eef1",
+        "865296e8-c2ca-442b-8712-b5434e5a166c",
+        "39a2f210-a4bc-4614-bf3c-8d62ee24714f",
+        "fb555b47-d686-4250-9ce8-dc1b48ca7783",
+        "87271b00-e14f-4d23-99ea-355c173c3acc",
+        "c6fc18b3-6c78-4d00-b346-66973cb4ae80",
+        "f8eb4b7f-b6b5-4d5e-a71e-1d3b2562536b"
+      ],
+      "settings": {
+        "title": "Read About Us",
+        "show_mobile": true,
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "none",
+        "bottom_margin": "md",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "f7a699cb-da6b-4005-8edb-ab2c976fbcfc": {
+      "type": "rich-text",
+      "blocks": {
+        "11796d42-ef58-487b-b7d8-22f36f32e03b": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "template--16905168912621__f7a699cb-da6b-4005-8edb-ab2c976fbcfc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "JasionBike® Brand Growth Story",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "template--16905168912621__f7a699cb-da6b-4005-8edb-ab2c976fbcfc-richtext-1": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "11796d42-ef58-487b-b7d8-22f36f32e03b",
+        "template--16905168912621__f7a699cb-da6b-4005-8edb-ab2c976fbcfc-heading-1",
+        "template--16905168912621__f7a699cb-da6b-4005-8edb-ab2c976fbcfc-richtext-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "md",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "sm"
+      }
+    },
+    "40dae568-6d2d-415c-91a5-f1217f9be3c5": {
+      "type": "timeline",
+      "blocks": {
+        "template--16905168912621__40dae568-6d2d-415c-91a5-f1217f9be3c5-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_6e0373a7-07cf-4f7c-98eb-e2b5f5415cb3.png",
+            "navigation_label": "2021",
+            "subheading": "Symbol of the Beginning of Adventure",
+            "title": "Jasion EB7 2.0",
+            "content": "<p>Jasion EB7 2.0 heralds the birth of our brand, as pioneers in the cycling realm, embodying a yearning for unknown adventures. From this moment forward, we present to you an array of thrilling innovations, top-notch quality, and redefined riding experiences. Let us embark together on a new era of electric bicycles, exploring uncharted territories and pushing boundaries further.</p>"
+          }
+        },
+        "template--16905168912621__40dae568-6d2d-415c-91a5-f1217f9be3c5-slide-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_2afb6b85-86bc-443d-840a-8bc2c2c8001b.png",
+            "navigation_label": "2022",
+            "subheading": "Embodying the Essence of Urban Mobility.",
+            "title": "Jasion EB7 ST",
+            "content": "<p>To cater to a wider audience, we introduce the all-new EB7 ST, boasting a lower frame for a unique style and outstanding performance. With its lower frame and seat height, individuals of all ages, including children, seniors, and those with mobility challenges, can enjoy the pleasures of riding. The ST isn't just a mode of transportation but also a companion.</p>"
+          }
+        },
+        "1c5a1ad1-bd5c-4c71-9d08-a79ae808cd6d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_89025dda-57f5-454f-9002-ab77b9c76824.png",
+            "navigation_label": "2023",
+            "subheading": "Ignite Your Spirit of Adventure",
+            "title": "Jasion X-Hunter",
+            "content": "<p>X-Hunter marks our entry into the realm of off-road adventures—the epitome of a rugged and durable exploration companion. It embodies the spirit of bravery and exploration. Whether conquering rugged mountains or traversing dense forests, the X-Hunter seamlessly integrates raw power with exceptional suspension performance, unleashing your adventurous spirit and redefining your off-road journey.</p>"
+          }
+        },
+        "slide_UUccnx": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_62a5b34d-7665-40d7-ba12-815b4b00bd8e.png",
+            "navigation_label": "2024",
+            "subheading": "Revolutionizing the Way you Commute.",
+            "title": "Jasion EB5 Roamer Series",
+            "content": "<p>The EB5 Roamer Series returns to our roots, celebrating our expertise in urban commuting. With its advanced lighting setup and groundbreaking features, it heralds a new era of safe and convenient urban travel. It's the perfect blend of rider, art, and craftsmanship.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16905168912621__40dae568-6d2d-415c-91a5-f1217f9be3c5-slide-2",
+        "template--16905168912621__40dae568-6d2d-415c-91a5-f1217f9be3c5-slide-3",
+        "1c5a1ad1-bd5c-4c71-9d08-a79ae808cd6d",
+        "slide_UUccnx"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "7e99de9f-8192-4df3-abef-3c8174af163d": {
+      "type": "feature-chart",
+      "blocks": {
+        "template--21052001747220__7e99de9f-8192-4df3-abef-3c8174af163d-values-2": {
+          "type": "values",
+          "settings": {
+            "product": "jasion-eb7-electric-bike",
+            "value_1": "<p>28mph</p>",
+            "value_2": "<p>1500w</p>",
+            "value_3": "<p>85Nm</p>",
+            "value_4": "<p>155 Miles</p>",
+            "value_5": "<p>Samsung/LG 48V 24.4A</p>",
+            "value_6": "<p>90Lbs</p>",
+            "value_7": "<p>480Lbs</p>",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "template--21052001747220__7e99de9f-8192-4df3-abef-3c8174af163d-headings-1": {
+          "type": "headings",
+          "settings": {
+            "heading_1": "Speed",
+            "heading_2": "Motor",
+            "heading_3": "Torque",
+            "heading_4": "Range",
+            "heading_5": "Battery",
+            "heading_6": "Ebike Weight",
+            "heading_7": "MAX Load Capacity",
+            "heading_8": "",
+            "heading_9": "",
+            "heading_10": "",
+            "heading_11": "",
+            "heading_12": "",
+            "heading_13": "",
+            "heading_14": "",
+            "heading_15": "",
+            "heading_16": "",
+            "heading_17": "",
+            "heading_18": "",
+            "heading_19": "",
+            "heading_20": ""
+          }
+        },
+        "template--21052001747220__7e99de9f-8192-4df3-abef-3c8174af163d-values-1": {
+          "type": "values",
+          "settings": {
+            "product": "eb7-st",
+            "value_1": "<p>28mph</p>",
+            "value_2": "<p>1000w</p>",
+            "value_3": "<p>55Nm</p>",
+            "value_4": "<p>55 Miles</p>",
+            "value_5": "<p>Samsung/LG 48V 11.6A</p>",
+            "value_6": "<p>60Lbs</p>",
+            "value_7": "<p>350Lbs</p>",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        },
+        "0e1143c4-7ddd-4268-9544-ab77b00b8177": {
+          "type": "values",
+          "settings": {
+            "product": "jasion-x-hunter",
+            "value_1": "<p>20mph</p>",
+            "value_2": "<p>750W</p>",
+            "value_3": "<p>130Nm</p>",
+            "value_4": "<p>120 Miles</p>",
+            "value_5": "<p>Samsung/LG 48V 24A</p>",
+            "value_6": "<p>130Lbs</p>",
+            "value_7": "<p>430Lbs</p>",
+            "value_8": "",
+            "value_9": "",
+            "value_10": "",
+            "value_11": "",
+            "value_12": "",
+            "value_13": "",
+            "value_14": "",
+            "value_15": "",
+            "value_16": "",
+            "value_17": "",
+            "value_18": "",
+            "value_19": "",
+            "value_20": "",
+            "view_button_background": "",
+            "view_button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21052001747220__7e99de9f-8192-4df3-abef-3c8174af163d-values-2",
+        "template--21052001747220__7e99de9f-8192-4df3-abef-3c8174af163d-headings-1",
+        "template--21052001747220__7e99de9f-8192-4df3-abef-3c8174af163d-values-1",
+        "0e1143c4-7ddd-4268-9544-ab77b00b8177"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Product Differences Comparison",
         "content": "",
-        "blog": "blogs",
-        "post_limit": 9,
-        "blog_show_tags": false,
-        "blog_show_date": true,
-        "blog_show_comments": false,
-        "blog_show_author": false,
-        "blog_show_excerpt": true,
-        "view_all": true,
-        "blog_image_size": "square",
-        "divider": false
+        "button_text": "View Comparison",
+        "button_url": "shopify://collections/electric-bike",
+        "text_position": "start",
+        "max_rows": 9,
+        "view_all_text": "View all",
+        "view_less_text": "View less",
+        "view_product": "View",
+        "viewing_product": "",
+        "show_product_swatch": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "chart_background": "",
+        "chart_text_color": "",
+        "chart_true_false_color": ""
+      }
+    },
+    "d0630b41-39ba-452d-bfd3-7a7aefac8e31": {
+      "type": "story-swiper",
+      "blocks": {
+        "bec0b9ea-bdb1-47f6-8d4c-1d2ef08688eb": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=2_nA-c2yLKg",
+            "title": "Neighborhood Tour on our New Electric Bike | Jasion EB7 eBike | Indian Vlogger in Dallas",
+            "content": "Watch our community tour, our neighborhood tour on our new electric bike Jasion EB7 ebike. Foldable electric cycle from Jasion.",
+            "author": "Our American Dream"
+          }
+        },
+        "36c0c864-3d04-415f-b627-e16960d8f8b3": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=7o3E3djAYR4",
+            "title": "EBike Adventure Exploring the Land of Waterfalls 2-Day Bikepacking Trip P-3 | FireAndIceOutdoors.net",
+            "content": "EB7 is a super cost-effective and high-performance full-map e-bike designed by the Jasion team. With double shock absorption, fat tires, and exceptional handling, you can be sure of the most comfortable ride across whichever terrain you choose.",
+            "author": "Fire and Ice Outdoor Gear"
+          }
+        },
+        "4b1ed228-f613-4a51-88ec-030d5626931b": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=lyWby66UOc4",
+            "title": "Try doing this if your electric bike is too slow",
+            "content": "A day in the life of an ebike enthusiast. Experience commuting like never before with Jasion's ebike. It harmonizes power, style, and efficiency, creating an adventure with every journey.",
+            "author": "DavidBrandNew"
+          }
+        },
+        "caab89cc-cf4b-4e1c-a7bf-50810c44d937": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=SDhqT5sR298",
+            "title": "Jasion X-Hunter - Low Price Dual Suspension Ebike",
+            "content": "Looking for dual suspension ebike that wont break the bank? Consider the Jasion X-Hunter.",
+            "author": "Chris Crossed"
+          }
+        },
+        "3d831d2b-6da0-453b-aa12-8a4f6290ee0f": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https://www.youtube.com/watch?v=NYX9CACOu9Y&t=875s",
+            "title": "Jasion X Hunter Review Full Suspension Best Buy",
+            "content": "The new Jasion X-Hunter e-bike will blow you away with its style, ride and all the bells and whistles for such an entry level price.  I am blown away by all you get. I love everything about e-bikes and vlogging e-bike content.  E-bike education and how to fix or repair e-bikes and of course riding them.  My goal is to make videos educational, fun, motivational and entertaining.",
+            "author": "RV Enthusiast"
+          }
+        }
+      },
+      "block_order": [
+        "bec0b9ea-bdb1-47f6-8d4c-1d2ef08688eb",
+        "36c0c864-3d04-415f-b627-e16960d8f8b3",
+        "4b1ed228-f613-4a51-88ec-030d5626931b",
+        "caab89cc-cf4b-4e1c-a7bf-50810c44d937",
+        "3d831d2b-6da0-453b-aa12-8a4f6290ee0f"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Influencer Sharing",
+        "title_color": "#333333",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "md",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "none"
+      }
+    },
+    "6b3f6f73-1464-449e-a93a-97df02166157": {
+      "type": "faq",
+      "blocks": {
+        "template--21052001747220__6b3f6f73-1464-449e-a93a-97df02166157-item-2": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Why Jasion?",
+            "content": "<p>If you are in the market for an electric bike, Jasion is the company you should be looking at. With our commitment to quality, affordability, variety, customer service, and sustainability, we believe we can provide one of the best e-bike experiences on the market. So why not give us a try and see the Jasion difference for yourself?</p>"
+          }
+        },
+        "d57b44d5-3826-43fc-a7cd-1d439cccae5c": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "What are the benefits of an e-bike?",
+            "content": "<p>Riding an e-bike can be a fun and adventurous experience. With Jasion, you can explore new trails and paths that may be inaccessible on a traditional bicycle. Plus, the pedal assist feature lets you enjoy the ride without worrying about getting tired.E-bikes offer many advantages, including environmental friendliness, improved health, money savings, convenience, accessibility, time savings, and fun and adventure. Whether you're commuting to work or exploring new routes, e-bikes are a great choice for transportation and leisure activities.</p>"
+          }
+        },
+        "d93b38fa-05fd-4287-ae84-88c4938410e4": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "What Makes Jasion E-Bike a Game-Changer?",
+            "content": "<p>Jasion electric bikes seamlessly blend rugged functionality, superior comfort, and affordable cost. Featuring 20-inch wide tires and a powerful 500W motor, it's perfect for off-road adventures, weekend city loops, and travel commutes.The full-suspension design helps smooth out the road and gives you better control over rough terrain.</p>"
+          }
+        },
+        "template--21052001747220__6b3f6f73-1464-449e-a93a-97df02166157-item-1": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Do you support US local pickup?",
+            "content": "<p>Yes! Kindly contact support@jasionbike.com, we will provide you with more information.</p>"
+          }
+        },
+        "bef339df-95de-4f73-aeae-bb0f141ed120": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "What is the range of Jasion e-bikes on a single charge?",
+            "content": "<p>The range of our Jasion e-bikes can vary depending on factors such as terrain, rider weight, and the level of assist used. On average, you can expect a range of 40-55 miles on a single charge. Our e-bikes come with powerful batteries, ensuring you can enjoy longer rides without worrying about running out of power.</p>"
+          }
+        },
+        "ed9b19d2-f03f-41e1-98d0-f8e225523c38": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Are Jasion e-bikes suitable for beginners?",
+            "content": "<p>Absolutely! Jasion e-bikes are designed to cater to riders of all skill levels. With adjustable assist levels, you can start with a lower setting to build confidence and gradually increase the power as you become more comfortable. Our e-bikes are user-friendly and perfect for both beginners and experienced riders.</p>"
+          }
+        },
+        "902f0446-6aea-41d3-ac6e-3cdc940323ad": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "Do you offer warranty and customer support?",
+            "content": "<p>Yes, we stand by the quality of our products. All Jasion e-bikes come with a 1-year warranty to give you peace of mind. We also provide excellent customer support to assist you with any questions or concerns you may have. Your satisfaction is our priority, and we're here to ensure you have a great e-bike experience.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--21052001747220__6b3f6f73-1464-449e-a93a-97df02166157-item-2",
+        "d57b44d5-3826-43fc-a7cd-1d439cccae5c",
+        "d93b38fa-05fd-4287-ae84-88c4938410e4",
+        "template--21052001747220__6b3f6f73-1464-449e-a93a-97df02166157-item-1",
+        "bef339df-95de-4f73-aeae-bb0f141ed120",
+        "ed9b19d2-f03f-41e1-98d0-f8e225523c38",
+        "902f0446-6aea-41d3-ac6e-3cdc940323ad"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text_size": 110,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 270,
+        "support_hours": "Our customer support is available Monday to Friday: 10:00am-7:00pm.",
+        "answer_time": "Average answer time: 1-2h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "section_gallery_jWhwzt": {
+      "type": "Section-gallery",
+      "blocks": {
+        "slide_HmRPQk": {
+          "type": "slide",
+          "settings": {
+            "column_size": "100%",
+            "image": "shopify://shop_images/lQDPKIPxCA8sbj_NA4XNCJiwA_VN3FSs2kwFxIZGaTS8AA_2200_901.jpg",
+            "background_image": "",
+            "background_gradient": "",
+            "header_text_align": "center",
+            "title": "Shop the look",
+            "subheading": "Subheading",
+            "link": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_HmRPQk"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md",
+        "text": "Promotion text",
+        "text_size": "large",
+        "background_image": "",
+        "background_gradient": "",
+        "text_gradient": ""
+      }
+    },
+    "section_newsletter_6B98ty": {
+      "type": "Section-Newsletter",
+      "blocks": {
+        "item_yEY4Tq": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify://shop_images/fc75401e71783373c4cbb0a46ab30d75.png",
+            "title": "14-Day Trial",
+            "content": "<p>Don't love it? Send it back to us!</p>"
+          }
+        },
+        "item_xFBRh6": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify://shop_images/ea327c2a7a85ca2a460fe134127db5b3.png",
+            "title": "Tax-Free",
+            "content": "<p>No 7%-10% sales tax on all products.</p>"
+          }
+        },
+        "item_tePmbY": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify://shop_images/042254fad08a8a596020becfe651001e.png",
+            "title": "Fast Delivery",
+            "content": "<p>On your doorstep in just 2-4 days across 49 states.</p>"
+          }
+        },
+        "item_TxMy6x": {
+          "type": "item",
+          "settings": {
+            "custom_icon": "shopify://shop_images/4bddfd799d2f8701386aa3f0db510a4c.png",
+            "title": "1 Year Warranty",
+            "content": "<p>All Ebikes backed by Jasion Limited Warranty.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_yEY4Tq",
+        "item_xFBRh6",
+        "item_tePmbY",
+        "item_TxMy6x"
+      ],
+      "settings": {
+        "full_width": true,
+        "margint_new": "2",
+        "margint_ipad": "2",
+        "margint_mobile": "2",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "title": "Join Us",
+        "image_logo": "shopify://shop_images/5_0214d1d9-1a3d-4f9d-8ed2-9bbda638ef77.png",
+        "image_logo_mobile": "shopify://shop_images/logo-MC.png",
+        "content": "<p>Subscribe Jasionbike to unlock exclusive offers, product updates, and insider information!</p>",
+        "button_text": "Subscribe",
+        "subtext": "",
+        "background": "#ffffff",
+        "image_background": "shopify://shop_images/4_4498a653-0129-430e-8cdb-50a11402fabc.png",
+        "image_background_ipad": "shopify://shop_images/bg-MC.png",
+        "image_background_mobile": "shopify://shop_images/bg-MC.png",
+        "background_gradient": "",
+        "text_color": "#ffffff",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "#ffffff"
       }
     }
   },
   "order": [
-    "slideshow",
-    "14230743-49f7-45a6-9ff2-a4165f77cd08",
-    "2ce57bdf-b8a3-4e57-a2cc-5a15a933dc7e",
-    "60c2e16b-a120-4f88-83ae-93a6554da664",
-    "a1ddaf23-b152-4beb-89ca-cc63d0e1310d",
-    "7d70e5e0-c724-451c-b058-a5d251b8ba4b",
-    "bb52703e-a3eb-410a-95e4-b04c2c35332c",
-    "5023bdc0-c326-42d8-adfd-a07f6f7d606f",
-    "67accc71-b565-4e0c-b65a-34f4f643ae09",
-    "ce0cfb6d-3de7-4414-96f3-d43311e39b73"
+    "fe5550b8-c626-46b7-80b9-b882de823592",
+    "663e8003-97f7-4544-a126-a2ce7adb9921",
+    "section_gallery_FXpzLF",
+    "75cb31b0-4a7e-4ac9-bd65-b90da6161ce7",
+    "c26ccc90-318d-4123-9b9f-1ee18e70a2af",
+    "5f814ef6-6efe-4594-907d-5dd79b0cf64a",
+    "f7a699cb-da6b-4005-8edb-ab2c976fbcfc",
+    "40dae568-6d2d-415c-91a5-f1217f9be3c5",
+    "7e99de9f-8192-4df3-abef-3c8174af163d",
+    "d0630b41-39ba-452d-bfd3-7a7aefac8e31",
+    "6b3f6f73-1464-449e-a93a-97df02166157",
+    "section_gallery_jWhwzt",
+    "section_newsletter_6B98ty"
   ]
 }

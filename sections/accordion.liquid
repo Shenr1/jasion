@@ -1,0 +1,400 @@
+{% assign secSet = section.settings %}
+
+<div section-name="accordion" class="page-width {% render 'section-interva-set' , secSt:secSet %}">
+  <details class="accordion group accordion--lg" aria-expanded="true" is="accordion-disclosure" aria-expanded="{% if open %}true{% else %}false{% endif %}" {% if open %}open{% endif %}>
+    <summary>
+      <div class="accordion__toggle bold tw-text-2xl tw-py-5">
+        <span >{{ secSet.title }}</span>
+        <span class="circle-chevron group-hover:colors group-expanded:colors group-expanded:rotate">
+          {%- render 'icon' with 'chevron-bottom-small' -%}
+        </span>
+      </div>
+    </summary>
+    <div class="accordion__content">
+      
+      {% if secSet.img %}
+      <div class="tw-w-full md:tw-p-8 tw-p-4 tw-pb-0">
+        {{- secSet.img | image_url: width: secSet.img.width | image_tag: widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600', class: 'tw-hidden md:tw-block' -}}
+        {% if secSet.img_mb %}
+        {{- secSet.img_mb | image_url: width: secSet.img_mb.width | image_tag: widths: '300,400,500,600,700,800,1000,1200,1400,1600,1800,2000,2200,2400,2600', class: 'tw-block md:tw-hidden' -}}
+        {% endif %}
+      </div>
+      {% endif %}
+
+      <div class="xl:tw-p-8 tw-p-4 tw-flex tw-flex-wrap">
+      {%- for block in section.blocks -%}
+      {% assign blkSet = block.settings %}
+        <div class="{{secSet.item_w}} {{secSet.item_w_mb}}">
+          <div class="tw-border-b tw-border-solid tw-border-stone-300 md:tw-mr-8 tw-mr-4 {{secSet.style}}">
+            <span class="">{{ blkSet.title }}</span>
+            <h3 class="">{{ blkSet.text }}</h3>
+            <p class="">{{ blkSet.dis }}</p>
+          </div>
+        </div>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </details>
+</div>
+
+
+
+
+{% schema %}
+  {
+    "name": "Accordion 1.1",
+    "settings": [
+      {
+        "type": "textarea",
+        "id": "title",
+        "label": "Heading",
+        "default": "Testimonials"
+      },
+      {
+        "type": "checkbox",
+        "id": "open",
+        "label": "Default expanded",
+        "default": false
+      },
+      {
+        "type": "image_picker",
+        "id": "img",
+        "label": "Main imapge"
+      },
+      {
+        "type": "image_picker",
+        "id": "img_mb",
+        "label": "Main imapge (mobile)"
+      },
+      {
+        "type": "select",
+        "id": "style",
+        "label": "Item style",
+        "options": [
+          {
+          "value": "style1",
+          "label": "Style1"
+          },
+          {
+          "value": "style2",
+          "label": "Style2"
+          },
+          {
+          "value": "style3",
+          "label": "Style3"
+          },
+          {
+          "value": "style4",
+          "label": "Style4"
+          }
+        ],
+        "default": "style1"
+      },
+      {
+        "type": "select",
+        "id": "item_w",
+        "label": "Item width",
+        "options": [
+          {
+          "value": "2xl:tw-w-1/5 lg:tw-w-1/4 md:tw-1/3",
+          "label": "20%"
+          },
+          {
+          "value": "2xl:tw-w-1/4 lg:tw-w-1/3 md:tw-1/2",
+          "label": "25%"
+          },
+          {
+          "value": "xl:tw-w-1/3 md:tw-1/2",
+          "label": "33.333%"
+          },
+          {
+          "value": "md:tw-w-1/2",
+          "label": "50%"
+          },
+          {
+          "value": "tw-w-full",
+          "label": "100%"
+          }
+        ],
+        "default": "xl:tw-w-1/3 md:tw-1/2"
+      },
+      {
+        "type": "select",
+        "id": "item_w_mb",
+        "label": "Item width mobile",
+        "options": [
+          {
+          "value": "tw-1/3",
+          "label": "33.333%"
+          },
+          {
+          "value": "tw-1/2",
+          "label": "50%"
+          },
+          {
+          "value": "tw-w-full",
+          "label": "100%"
+          }
+        ],
+        "default": "tw-1/2"
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+   "presets": [
+    {
+      "name": "Accordion 1.1"
+    }
+  ],
+    "blocks": [
+      {
+        "type": "colum",
+        "name": "Colums",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Heading",
+            "default": "Example title"
+          },
+          {
+            "type": "text",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "text",
+            "id": "dis",
+            "label": "discription"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

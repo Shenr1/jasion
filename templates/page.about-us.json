@@ -1,0 +1,261 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "43e1d71b-d987-48f5-af6e-752abbb568b1": {
+      "type": "media-with-text",
+      "blocks": {
+        "template--20402948178213__43e1d71b-d987-48f5-af6e-752abbb568b1-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Collage_Maker-25-Oct-2023-11-50-AM-3077.jpg",
+            "media_width": 40,
+            "media_position": "end",
+            "text_position": "place-self-start-center text-center",
+            "icon": "none",
+            "custom_icon": "shopify://shop_images/Jasion-icon.png",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Jasion Brand Story",
+            "content": "<p>Jasion is a premier online destination for cutting-edge electric bicycles, dedicated to transforming the way individuals experience and embrace eco-friendly commuting. With a passion for innovation and sustainability, we have emerged as a trusted name in the electric bicycle industry.</p><p>Embrace a healthier lifestyle with the exhilarating workout experience of Jasion E-Bikes! Effortlessly blend fitness into your daily routine as you pedal your way to vitality. Jasion offers a dynamic and enjoyable exercise, making each ride a fitness adventure. Elevate your well-being with the joy of powered pedaling!</p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20402948178213__43e1d71b-d987-48f5-af6e-752abbb568b1-image-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "47fc48e6-e77b-4507-92e0-31f60e15fd79": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-2": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/4_fc35019a-ba25-4ee1-b2c4-8823f2eb3178.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "All-Terrain Commuting",
+            "content": "<p>Explore our diverse range of electric bicycles, meticulously designed to cater to various lifestyles and preferences. From sleek urban commuters to robust off-road adventurers, each model reflects our commitment to quality, performance, and customer satisfaction.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "e8d3d4e8-d0e5-4ec3-8949-2e0dbc33c6cf": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 0,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-2",
+        "template--20402948178213__47fc48e6-e77b-4507-92e0-31f60e15fd79-item-1",
+        "e8d3d4e8-d0e5-4ec3-8949-2e0dbc33c6cf"
+      ],
+      "settings": {
+        "full_width": true,
+        "images_layout": "scattered",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "b5db4b3d-49eb-46dd-abfe-2706540cb375": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "template--20402948178213__b5db4b3d-49eb-46dd-abfe-2706540cb375-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/WPS_1.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Tight Control of the Production Process",
+            "content": "<p>Exercising rigorous oversight throughout the production chain, we meticulously manage every stage, from raw material acquisition to final assembly, ensuring an integrated and tightly controlled manufacturing process.</p>"
+          }
+        },
+        "template--20402948178213__b5db4b3d-49eb-46dd-abfe-2706540cb375-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/8_fc32e78f-49a6-4a7e-8509-9fdee6b3362d.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Technological Innovation",
+            "content": "<p>At the forefront of progress, we are dedicated to pioneering technological innovations that elevate our electric bicycles, embodying our commitment to staying ahead in the dynamic landscape of electric transportation.</p>"
+          }
+        },
+        "27d637b7-0ed5-4044-a647-c6dc01cf3e5e": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/3_e04d998a-7225-4cc1-95b6-419b224fea0a.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Consistent Quality",
+            "content": "<p>Our unwavering dedication to maintaining consistent quality standards defines our ethos, guaranteeing that every electric bicycle leaving our facility meets the highest benchmarks for performance, durability, and overall excellence.</p>"
+          }
+        },
+        "3637d042-161d-4576-b437-d11d1b2db469": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/10_51395822-a287-4c3c-98fe-3d563420cb70.jpg",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Brand Reputation",
+            "content": "<p>With a sterling reputation built on trust, reliability, and customer satisfaction, our brand stands as a symbol of integrity and commitment in the electric bicycle industry.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20402948178213__b5db4b3d-49eb-46dd-abfe-2706540cb375-item-1",
+        "template--20402948178213__b5db4b3d-49eb-46dd-abfe-2706540cb375-item-2",
+        "27d637b7-0ed5-4044-a647-c6dc01cf3e5e",
+        "3637d042-161d-4576-b437-d11d1b2db469"
+      ],
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
+    "3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16905169109229__3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73-heading-1": {
+          "type": "heading",
+          "settings": {
+            "text": "JasionBike® Brand Growth Story",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16905169109229__3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73-heading-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "248bca80-5ca4-412d-a800-7e8deb320a1a": {
+      "type": "timeline",
+      "blocks": {
+        "template--16905169109229__248bca80-5ca4-412d-a800-7e8deb320a1a-slide-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/2_d87a1105-8cb6-47dc-b5d5-4d4f70a9f74b.png",
+            "navigation_label": "2020",
+            "subheading": "The Dawn of Our Brand, Pioneering Your Ride",
+            "title": "Jasion EB7 1.0",
+            "content": "<p>Jasion EB7 1.0 marks the inception of our brand, serving as a trailblazer in the realm of cycling and embodying a yearning for unknown adventures. From this point forward, we present to you a series of exhilarating innovations, top-notch quality, and a redefined riding experience. Let's collectively embark on a new era of electric bikes, exploring uncharted territories and pushing the boundaries further.</p>"
+          }
+        },
+        "template--16905169109229__248bca80-5ca4-412d-a800-7e8deb320a1a-slide-2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/4_6e0373a7-07cf-4f7c-98eb-e2b5f5415cb3.png",
+            "navigation_label": "2021",
+            "subheading": "Explore the New Urban Landscape",
+            "title": "Jasion EB7 2.0",
+            "content": "<p>Explore urban landscapes with the EB7 2.0 electric bike. With an 850W motor, 20\"x3\" wide tires, and dual shock absorbers, it delivers a smooth and powerful ride. Choose between low and high frames for a personalized commuting experience.</p>"
+          }
+        },
+        "template--16905169109229__248bca80-5ca4-412d-a800-7e8deb320a1a-slide-3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/3_2afb6b85-86bc-443d-840a-8bc2c2c8001b.png",
+            "navigation_label": "2022",
+            "subheading": "Riding to a New Horizon",
+            "title": "Jasion EB7 ST",
+            "content": "<p>In order to cater to a broader audience, we introduce the all-new EB7 ST with a lower frame, unleashing unique style and exceptional performance. The lower seat height not only provides a more relaxed riding experience for women but also sets a new standard for urban commuting. The EB7 ST achieves a harmonious blend of power and elegance, delivering not only robust performance but also conveying a distinctive sense of style.</p>"
+          }
+        },
+        "7f158f9d-db22-48ee-8541-22d6ed6b276c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/1_89025dda-57f5-454f-9002-ab77b9c76824.png",
+            "navigation_label": "2023",
+            "subheading": "Pioneering the Era of Full Suspension Electric Bikes",
+            "title": "Jasion X-Hunter",
+            "content": "<p>X-Hunter marks our first stride into the realm of off-road adventures—a rugged and durable companion for your explorations. This brand-new electric bike comes equipped with a robust 1400W motor, 20\"x4\" wide tires, and full suspension, ensuring a thrilling yet comfortable riding experience on any terrain. This high-performance electric bike seamlessly blends primal power with outstanding shock absorption, unleashing your spirit of adventure and redefining your off-road journey.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16905169109229__248bca80-5ca4-412d-a800-7e8deb320a1a-slide-1",
+        "template--16905169109229__248bca80-5ca4-412d-a800-7e8deb320a1a-slide-2",
+        "template--16905169109229__248bca80-5ca4-412d-a800-7e8deb320a1a-slide-3",
+        "7f158f9d-db22-48ee-8541-22d6ed6b276c"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "43e1d71b-d987-48f5-af6e-752abbb568b1",
+    "47fc48e6-e77b-4507-92e0-31f60e15fd79",
+    "b5db4b3d-49eb-46dd-abfe-2706540cb375",
+    "3dd5ea55-3ed3-4d67-ac2d-e84cdf610c73",
+    "248bca80-5ca4-412d-a800-7e8deb320a1a"
+  ]
+}

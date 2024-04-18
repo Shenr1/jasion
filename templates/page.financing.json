@@ -2,367 +2,196 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {
-        "title": "",
-        "image": "shopify:\/\/shop_images\/Photo_35.jpg"
-      }
-    },
-    "b8202217-f996-4c3a-825d-a48a2a0a73ea": {
-      "type": "icon-list",
       "disabled": true,
-      "blocks": {
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_shipping.png",
-            "title": "Free&Fast Shipping",
-            "content": "Ship to 48 States & Canada",
-            "link": ""
-          }
-        },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_warranty.png",
-            "title": "2 Year Warranty",
-            "content": "Ride in confidence. We’ve got  you covered.",
-            "link": ""
-          }
-        },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_expert.png",
-            "title": "Ask An Expert",
-            "content": "For any questions, don't hesitate  to contact us",
-            "link": ""
-          }
-        },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_return.png",
-            "title": "30-Day Return",
-            "content": "Simply return it for no reason",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-1",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-2",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-3"
-      ],
       "custom_css": [
-        ".icon_img {width: 23%;}"
+
       ],
       "settings": {
-        "title": ""
+        "content_width": "80ch"
       }
     },
-    "93d395fd-dd1a-4954-9ad9-7249098750b4": {
-      "type": "text-with-icons",
-      "disabled": true,
-      "blocks": {
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "earth",
-            "title": "About Our Bikes",
-            "text": "<p>General information about our bike's features and components!<\/p>",
-            "button_label": "Learn More",
-            "button_link": "shopify:\/\/blogs\/blog",
-            "code": ""
-          }
-        },
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "jasionstore",
-            "title": "Retail Store",
-            "text": "<p>Want to try the Jasion E Bike riding fun? no problem! Our retail store team will be looking forward to seeing you.<\/p>",
-            "button_label": "support@jasionbike.com",
-            "button_link": "mailto:support@jasionbike.com",
-            "code": ""
-          }
-        },
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "service",
-            "title": "Local After-Sale Service",
-            "text": "<p>We work with local professional bike shops to help you solve your problems ASAP.<\/p>",
-            "button_label": "Check Out Our Stores",
-            "button_link": "shopify:\/\/blogs\/blog",
-            "code": ""
-          }
-        },
-        "8ccac53e-6d18-4fe9-8a6b-750af0adcfd1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "support",
-            "title": "Tech & Sales Support",
-            "text": "<p>Need help operating your bike or have any questions?<\/p>",
-            "button_label": "support@jasionbike.com",
-            "button_link": "mailto:support@jasionbike.com",
-            "code": ""
-          }
-        },
-        "5d2d710a-1d0e-40e1-8006-ec667b7002f3": {
-          "type": "text_block",
-          "settings": {
-            "icon": "media",
-            "title": "Press & Media Inquiries",
-            "text": "<p>For press and media inquires feel free to reach us.<\/p>",
-            "button_label": "support@jasionbike.com",
-            "button_link": "mailto:support@jasionbike.com",
-            "code": ""
-          }
-        },
-        "bbc75677-6fcb-4e87-91ca-ea0d5a40c7de": {
-          "type": "text_block",
-          "settings": {
-            "icon": "social",
-            "title": "Social Media",
-            "text": "<p>Have a cool photo that would be great on our website or social media? <\/p>",
-            "button_label": "",
-            "button_link": "",
-            "code": "{% render 'footer-custom-code' %}"
-          }
-        }
-      },
-      "block_order": [
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0",
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-1",
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-2",
-        "8ccac53e-6d18-4fe9-8a6b-750af0adcfd1",
-        "5d2d710a-1d0e-40e1-8006-ec667b7002f3",
-        "bbc75677-6fcb-4e87-91ca-ea0d5a40c7de"
-      ],
-      "settings": {
-        "class": "contact-ico-list",
-        "title": "Reliable Service & Support",
-        "align_text": "center",
-        "desktop_columns_per_row": 3,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
-    "f4710a45-577f-4d62-aad4-387ccd23220f": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1200.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
-          }
-        },
-        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Three Payment Plans To Help You Enjoy Riding<\/h2><p>Now, 3 payment plans are available for choosing, Pay in 4, Pay in 30 days, Monthly financing (up to 24 months).\n\n <br>*CA resident loans made or arranged pursuant to a California Financing Law license.<\/p>",
-            "width": "50%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-0",
-        "template--16691085869293__f4710a45-577f-4d62-aad4-387ccd23220f-1684721954d489550b-1"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "rich-text": {
+    "52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
-        "heading": {
+        "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "text": "Three Payment Plans To Help You Enjoy Riding"
+          }
+        },
+        "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-heading-1": {
           "type": "heading",
           "settings": {
-            "title": "Get in Contact With Our Sales Team."
+            "text": "Financing",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "text": {
-          "type": "text",
+        "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-richtext-1": {
+          "type": "richtext",
           "settings": {
-            "enlarge_text": false,
-            "text": "<p>Our champion customer service will get back to you within hours.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "ed470dfe-1f10-47f9-9060-559d8474825d": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16691085869293__ed470dfe-1f10-47f9-9060-559d8474825d-1684721954d489550b-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<h2>Pay in 4 Benefits:<\/h2><p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.\n<br>2. If you choose a Pay in 4 plan, it will not affect your credit score. (*CA resident loans made or arranged pursuant to a California Financing Law license.)\n<br>3. No interest and no fees when you pay on time.\n\n<br>*A $1000 purchase might cost $172.79 per month over 6 months at 12.49% APR.*<\/p>",
-            "width": "100%",
-            "alignment": "center"
+            "content": "<p>Now, 3 payment plans are available for choosing, Pay in 4, Pay in 30 days, Monthly financing (up to 24 months).<br/><br/>*CA resident loans made or arranged pursuant to a California Financing Law license.</p>"
           }
         },
-        "47855496-d97f-45e5-bcba-e76299469a34": {
-          "type": "liquid",
+        "b9665b00-fed2-4c3b-a5ed-e09000872c77": {
+          "type": "richtext",
           "settings": {
-            "code": "<h2>How to Use Klarna<\/h2><p>1. Fill Your Cart\nAdd everything you want to purchase to your cart and begin the checkout process.\n\n<br>2. Choose How You Pay\nSelect Klarna at checkout. Choose the payment plan you would like and check out\n\n<br>3. Pay Over Time\nMake payments at klarna.com or in the Klaran app. You'll get email and text reminders.\n\n*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example:\n\n[X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.<\/p>",
-            "width": "100%",
-            "alignment": "center"
+            "content": "<h2>Pay in 4 Benefits:</h2><p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.<br/><br/>2. If you choose a Pay in 4 plan, it will not affect your credit score. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<br/><br/>3. No interest and no fees when you pay on time.<br/><br/><br/>*A $1000 purchase might cost $172.79 per month over 6 months at 12.49% APR.*</p>"
           }
         },
-        "99c9d15b-ce75-4b76-8409-86d4044e5360": {
-          "type": "liquid",
+        "9420d92e-e644-41cc-bb0d-b11bd9744e9d": {
+          "type": "richtext",
           "settings": {
-            "code": "<h2>How it works:<\/h2><p>\n1. Use your own valid debit or credit card, or other accepted payment method, to pay (no prepaid cards).\n<br>2. The first payment is charged when we confirm your order (this is usually the shipping date for online orders).\n<br>3. The next 3 payments are automatically made every 2 weeks after your Initial Payment (first Installment Payment due at least 15 days after Initial Payment for California residents).\n<br>4. Klarna charges no interest with Pay Later in 4 and no fees unless you fail to make a payment.\n<br>5. A Late Fee of up to $7 may be charged if any scheduled payment remains unpaid after 10 days (the total of late fees charged on an order will never exceed 25% of your Total Purchase Amount).\n<br>6. Depending on your payment method, your financial institution may charge you interest or fees under your agreement with them. If you have any questions about those charges contact your payment method provider.<\/p>",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16691085869293__ed470dfe-1f10-47f9-9060-559d8474825d-1684721954d489550b-1",
-        "47855496-d97f-45e5-bcba-e76299469a34",
-        "99c9d15b-ce75-4b76-8409-86d4044e5360"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "e5b218c8-2257-4ac0-a2bd-7385f4f88690": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-1": {
-          "type": "liquid",
-          "settings": {
-            "code": "<p><b>The best way to shop.<\/b>\n<br>See all of your purchases in one place, pay any open balances and much more in the <a target=\"_blank\" href=\"https:\/\/www.klarna.com\/us\/klarna-app\/?ref=r8eji_4hqjz\">Klarna app<\/a>\n. You can also log into your Klarna account at <a target=\"_blank\" href=\"https:\/\/app.klarna.com\/login\">https:\/\/app.klarna.com\/login<\/a>. If you need any help, please click here to contact <a target=\"_blank\" href=\"https:\/\/www.klarna.com\/us\/customer-service\/?ref=r8eji_4hqjz\">Customer Service<\/a>.\n\n<br><b>Safe and secure.<\/b>\n<br>Klarna uses the latest safeguards and security to protect your information and prevent unauthorized purchases.\n\n<br><b>We're always here to help!<\/b>\n<br>Don't see your question here? Check out Klarna's full FAQ page. You can reach Klarna anytime at <a target=\"_blank\" href=\"https:\/\/www.klarna.com\/us\/customer-service\/?ref=r8eji_4hqjz\">https:\/\/www.klarna.com\/us\/customer-service\/<\/a> or by downloading the <a target=\"_blank\" href=\"https:\/\/www.klarna.com\/us\/klarna-app\/?ref=r8eji_4hqjz\">Klarna app<\/a>.\n<\/p>",
-            "width": "50%",
-            "alignment": "center"
+            "content": "<h2>How to Use Klarna</h2><p>1. Fill Your Cart<br/>Add everything you want to purchase to your cart and begin the checkout process.<br/><br/><br/>2. Choose How You Pay<br/>Select Klarna at checkout. Choose the payment plan you would like and check out<br/><br/><br/>3. Pay Over Time<br/>Make payments at klarna.com or in the Klaran app. You'll get email and text reminders.<br/><br/>*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example:<br/><br/>[X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.</p>"
           }
         },
-        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-0": {
-          "type": "image",
+        "1fee2b60-267f-4029-93f2-56a60ad085ae": {
+          "type": "richtext",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dingtalk_20230504114130_d432fb5b-be5f-4290-b34c-3b8a2885aa92.jpg",
-            "link": "",
-            "width": "50%",
-            "alignment": "center"
+            "content": "<h2>How it works:</h2><p><br/>1. Use your own valid debit or credit card, or other accepted payment method, to pay (no prepaid cards).<br/><br/>2. The first payment is charged when we confirm your order (this is usually the shipping date for online orders).<br/><br/>3. The next 3 payments are automatically made every 2 weeks after your Initial Payment (first Installment Payment due at least 15 days after Initial Payment for California residents).<br/><br/>4. Klarna charges no interest with Pay Later in 4 and no fees unless you fail to make a payment.<br/><br/>5. A Late Fee of up to $7 may be charged if any scheduled payment remains unpaid after 10 days (the total of late fees charged on an order will never exceed 25% of your Total Purchase Amount).<br/><br/>6. Depending on your payment method, your financial institution may charge you interest or fees under your agreement with them. If you have any questions about those charges contact your payment method provider.</p>"
+          }
+        },
+        "d0c96b27-a2ff-41df-8592-d0851f263056": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>The best way to shop.</strong><br/><br/>See all of your purchases in one place, pay any open balances and much more in the <a href=\"https://www.klarna.com/us/klarna-app/?ref=r8eji_4hqjz\" target=\"_blank\">Klarna app</a><br/>. You can also log into your Klarna account at <a href=\"https://app.klarna.com/login\" target=\"_blank\">https://app.klarna.com/login</a>. If you need any help, please click here to contact <a href=\"https://www.klarna.com/us/customer-service/?ref=r8eji_4hqjz\" target=\"_blank\">Customer Service</a>.<br/><br/><br/><strong>Safe and secure.</strong><br/><br/>Klarna uses the latest safeguards and security to protect your information and prevent unauthorized purchases.<br/><br/><br/><strong>We're always here to help!</strong><br/><br/>Don't see your question here? Check out Klarna's full FAQ page. You can reach Klarna anytime at <a href=\"https://www.klarna.com/us/customer-service/?ref=r8eji_4hqjz\" target=\"_blank\">https://www.klarna.com/us/customer-service/</a> or by downloading the <a href=\"https://www.klarna.com/us/klarna-app/?ref=r8eji_4hqjz\" target=\"_blank\">Klarna app</a>.<br/></p>"
           }
         }
       },
       "block_order": [
-        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-1",
-        "template--16691085869293__e5b218c8-2257-4ac0-a2bd-7385f4f88690-1684721954d489550b-0"
+        "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-subheading-1",
+        "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-heading-1",
+        "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-richtext-1",
+        "b9665b00-fed2-4c3b-a5ed-e09000872c77",
+        "9420d92e-e644-41cc-bb0d-b11bd9744e9d",
+        "1fee2b60-267f-4029-93f2-56a60ad085ae",
+        "d0c96b27-a2ff-41df-8592-d0851f263056"
       ],
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
       }
     },
-    "00b2a553-2ed4-4540-a6e1-36cc13221d49": {
-      "type": "advanced-content",
+    "1698828082b720d9b3": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "1257a294-1f39-4ee0-a1eb-6df02913146f": {
+      "type": "contact",
+      "settings": {
+        "full_width": true,
+        "subheading": "Our champion customer service will get back to you within hours.",
+        "title": "",
+        "content": "<h3>Contact</h3><p>Email: support@jasionbike.com</p><p>Phone Number: (+1) 888-825-6366</p><h3>We're Open</h3><p>Business time: 10:00 - 19:00, (UTC-8, PST) Mon-Fri</p>",
+        "text_position": "start",
+        "contact_form_size": "large",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "contact_background": "",
+        "contact_text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "d948ea3d-e495-485d-a279-2501e6ab6261": {
+      "type": "faq",
       "blocks": {
-        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1": {
-          "type": "liquid",
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-1": {
+          "type": "item",
           "settings": {
-            "code": "<h2>About Klarna<\/h2><p>\n\n<b>\nWe’re on a mission to reshape shopping, by elevating the entire shopping experience from browsing to owning. We do this by giving you the benefits of convenience, perks and inspiration. Founded in Stockholm, Sweden, Klarna is one of Europe's fastest-growing companies and a leading alternative payment provider. We have 5,000 employees across 45 countries, and are leading the way for alternative payments by serving 147 million consumers and 400,000+ retailer’s payment solutions.\n\n<br><a target=\"_blank\" href=\"https:\/\/\/www.klarna.com\/international\/about-us\">https:\/\/\/www.klarna.com\/international\/about-us<\/a>\n\n<br>If there is any other question or help needed, please contact: support@jasionbike.com.<\/p>",
-            "width": "100%",
-            "alignment": "center"
+            "order": "",
+            "title": "EB7 2.0&EB7 ST",
+            "content": "<p>AO_CA_US<br/>1001 South Doubleday ave, DOCK#19, Ontario, CA 91761<br/>Contact: Jason Wang <br/>Phone Number：909-966-9669</p>"
+          }
+        },
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-2": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter-Black",
+            "content": "<p>MNR1<br/>Address: 24 Engelhard Dr. Suite D, Monroe Township, NJ, US 08831 （back side of building, loading dock 15 ）<br/>Contact: Lisa<br/>Phone Number: 516-808-6095</p>"
+          }
+        },
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter-Grey, Blue, White",
+            "content": "<p>RIA<br/>Address:2380 W Baseline Road Dock Door #3, Rialto, CA 92376 <br/>Contact: Frank <br/>Phone Number：626-731-1880 <br/>Hours: 7:00-15:00</p>"
           }
         }
       },
       "block_order": [
-        "template--16691085869293__00b2a553-2ed4-4540-a6e1-36cc13221d49-1684721954d489550b-1"
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-1",
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-2",
+        "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3"
       ],
+      "disabled": true,
       "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "7e93cec1-1026-44b2-948c-d1d5c42dedd7": {
-      "type": "advanced-content",
-      "blocks": {
-        "template--16691085869293__7e93cec1-1026-44b2-948c-d1d5c42dedd7-1684721954d489550b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dingtalk_20230504114412_127e0026-d40e-457a-ab8e-ba9aae946327.jpg",
-            "link": "",
-            "width": "100%",
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16691085869293__7e93cec1-1026-44b2-948c-d1d5c42dedd7-1684721954d489550b-0"
-      ],
-      "settings": {
-        "full_width": false,
-        "space_around": true,
-        "lazyload_images": true
-      }
-    },
-    "3738aac8-1e83-459c-a991-c2e7b49af28c": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Shop with Klarna",
-        "home_featured_products": "electric-bike",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Get in Contact With Our Sales Team.",
-        "text": "<p>Our champion customer service will get back to you within hours.<\/p>",
-        "show_phone": false,
-        "contact_info": "<p>Email: support@jasionbike.com<\/p>",
-        "socail_link": "https:\/\/www.facebook.com\/groups\/321883149636188\/",
-        "business_time": "<p>Business time:  9:00 - 18:00, (UTC-8, PST) Mon-Fri<\/p>",
-        "narrow_column": false
+        "full_width": true,
+        "text_size": 100,
+        "subheading": "",
+        "title": "We support local pickup!",
+        "content": "<p>Below is the address of our pick-up point (by ebike model)<br/>Please contact our customer service<strong> support@jasionbike.com</strong> in advance.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
       }
     }
   },
   "order": [
     "main",
-    "b8202217-f996-4c3a-825d-a48a2a0a73ea",
-    "93d395fd-dd1a-4954-9ad9-7249098750b4",
-    "f4710a45-577f-4d62-aad4-387ccd23220f",
-    "rich-text",
-    "ed470dfe-1f10-47f9-9060-559d8474825d",
-    "e5b218c8-2257-4ac0-a2bd-7385f4f88690",
-    "00b2a553-2ed4-4540-a6e1-36cc13221d49",
-    "7e93cec1-1026-44b2-948c-d1d5c42dedd7",
-    "3738aac8-1e83-459c-a991-c2e7b49af28c",
-    "form"
+    "52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c",
+    "1698828082b720d9b3",
+    "1257a294-1f39-4ee0-a1eb-6df02913146f",
+    "d948ea3d-e495-485d-a279-2501e6ab6261"
   ]
 }

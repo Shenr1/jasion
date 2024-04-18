@@ -2,170 +2,560 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
-        "title": "",
-        "image": "shopify:\/\/shop_images\/Photo_35.jpg"
+        "content_width": "80ch"
       }
     },
-    "faq": {
-      "type": "faq",
+    "rich_text_NKnax8": {
+      "type": "rich-text",
       "blocks": {
-        "550979e7-c53e-47a8-8020-21f3c4df3a2d": {
-          "type": "order",
+        "subheading_CHerUR": {
+          "type": "subheading",
           "disabled": true,
           "settings": {
-            "title": "How can I track my order?",
-            "text": "<p>Click <a href=\"https:\/\/jasionbike.com\/apps\/17TRACK?ref=r8eji_4hqjz\">HERE<\/a> to track your order.<\/p>"
+            "text": "Subheading"
           }
         },
-        "8e2e9977-5ba5-488e-8fe2-b7db775b5dff": {
-          "type": "order",
+        "heading_VnNMgT": {
+          "type": "heading",
           "settings": {
-            "title": "How can I cancel my order?",
-            "text": "<p>Your order can only be canceled <strong>before it ships. <\/strong><\/p><p>To cancel the order, please email us: support@jasionbike.com.Canceling order requests may not be available during the weekend or holiday.<\/p>"
+            "text": "FAQs",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "bf558652-0118-4126-a76c-26b6208d0dfd": {
-          "type": "order",
+        "richtext_jQ78kp": {
+          "type": "richtext",
           "settings": {
-            "title": "When will my order be shipped?",
-            "text": "<p>Generally your order will be shipped within one business day after placing the order, and you would receive a confirmation email with a tracking number a few days after the package is shipped out.<\/p>"
-          }
-        },
-        "c2e50723-82dc-425f-8065-cdb7eb2792b3": {
-          "type": "order",
-          "settings": {
-            "title": "Why my order has been canceled?",
-            "text": "<p>Because your order is detected as a high-risk account by the payment system. Therefore, we must cancel your order. You will receive your refund within 10 business days. If you would still like to purchase an E-Bike from us, please use a different email and shipping address.<\/p>"
-          }
-        },
-        "64ad3201-736f-4c47-b08e-194d5b460c49": {
-          "type": "policy",
-          "settings": {
-            "title": "Policy Summary",
-            "text": "<p><a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping<\/a><\/p><p><a href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">Return&Refund<\/a><\/p><p><a href=\"\/pages\/warranty\" title=\"Warranty\">Warranty<\/a><\/p>"
-          }
-        },
-        "545feab4-2610-4a56-8518-bf2cd12996c1": {
-          "type": "policy",
-          "settings": {
-            "title": "Can I return my order for personal reasons?",
-            "text": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging. <\/p><p>For specific fees, please click <a href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a><\/p>"
-          }
-        },
-        "258ade09-f735-4f9d-a745-fa85c2575746": {
-          "type": "policy",
-          "settings": {
-            "title": "How do I get invoice for my order?",
-            "text": "<p>Please contact us after you receive your order through email : <a href=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>.We will send you the invoice.<\/p>"
-          }
-        },
-        "8e94e8e8-6c0c-4f52-91f4-8575ec477247": {
-          "type": "product",
-          "settings": {
-            "title": "User manual\/Installation Video",
-            "text": "<p>For Jasion E-Bike user manual and installation video, please click <a href=\"https:\/\/jasionbike.com\/pages\/user-manual-download\">HERE<\/a>.<\/p>"
-          }
-        },
-        "16f06a5e-b91b-4e37-81ed-49c20e36dcc4": {
-          "type": "product",
-          "settings": {
-            "title": "How long is the warranty?",
-            "text": "<p>We provide 1-year warranty.<\/p>"
-          }
-        },
-        "37d7e1a1-bfdd-485d-be59-35830f10212f": {
-          "type": "product",
-          "settings": {
-            "title": "Maintenance after rain.",
-            "text": "<p>Jasion E-Bike is water-resistant, which means that the bike won't let water in easily. If you drive on a wet road, your bike will be fine. But if you battery in puddles or submerge your bike into water and the electric parts get wet, damage could occur.<br\/>Rider Safety tip: It's pretty dangerous riding in rain, so take care.<br\/><br\/>If you do ride on wet surfaces, wipe off all the water on the surface of your board, especially the charging port, and do not charge your bike until it’s dry. <br\/><br\/>FYI: warranty doesn't include water damage.<\/p>"
-          }
-        },
-        "e897d2b3-17f9-4f28-8d31-e6f05c702c32": {
-          "type": "product",
-          "settings": {
-            "title": "How long does the battery last after a full charge?",
-            "text": "<p>The Jasion's excellent battery system is capable of driving around 40 miles on a single charge. (Depending on various factors such as road conditions, speed, etc.)<\/p>"
-          }
-        },
-        "43434774-efb9-42a3-ac85-c3bd067c44e6": {
-          "type": "Miscellaneous",
-          "disabled": true,
-          "settings": {
-            "title": "Do I need a special license to ride an E-bike?",
-            "text": "<p>This only applies to Jasion bikes and does not apply to all other types of e-bikes.<\/p>"
-          }
-        },
-        "0b288cfd-e709-4299-8c84-1db6f0dc3330": {
-          "type": "Miscellaneous",
-          "settings": {
-            "title": "Is there an age limit for using electric bikes?",
-            "text": "<p>In accordance with local US laws, Jasion recommends that only riders aged 14 and above ride on our electric bikes. Be sure to check your local state e-bike laws to guarantee the age limit for e-bike riding.<\/p>"
-          }
-        },
-        "94bec125-f4f3-48c6-99c2-a1285c867ae1": {
-          "type": "Miscellaneous",
-          "settings": {
-            "title": "Can I ride my E-bike off-road?",
-            "text": "<p>Yes! The JASION <a href=\"https:\/\/www.jasionbike.com\/collections\/electric-bike\" title=\"https:\/\/www.jasionbike.com\/collections\/electric-bike\">E-Bike<\/a> is designed specifically for off-roading. The fat tires and 500-watt battery will ensure that you are in control when taking to the trails. <\/p>"
-          }
-        },
-        "eb11cc56-22b7-4511-b9b5-483d06a6cbb9": {
-          "type": "order",
-          "settings": {
-            "title": "Can I change my delivery address?",
-            "text": "<p>Yes, but we only support address changes before sending. We charge $50 per item for address changes and do not guarantee that they will be made.<\/p>"
-          }
-        },
-        "ac80acc6-7ab2-4608-864d-d50faf7a98f4": {
-          "type": "policy",
-          "settings": {
-            "title": "Do you offer Financing?",
-            "text": "<p>We are offer financing.<\/p><p>You can have direct access to Klarna financing through our partnership with Klarna. Now, you can pay for your next e-bike with installment payments after being approved for financing. Be sure to select Klarna at checkout and you will be taken to their secure payment process. For more details please click <a href=\"\/pages\/financing\" title=\"Financing\">HERE<\/a><\/p>"
-          }
-        },
-        "eafa43b4-78ee-4401-9ea5-f48dee7b0ee5": {
-          "type": "policy",
-          "settings": {
-            "title": "Military discount",
-            "text": "<p>We offer a $50 discount for military personnel, but you will need to provide us with a photo of your military ID so that we can confirm and apply the discount for you.You can take a photo of your military ID and send it to us via email so that we can create a discount code for you.<\/p>"
-          }
-        },
-        "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b": {
-          "type": "Miscellaneous",
-          "settings": {
-            "title": "Can I ride my E-bike with a passenger?",
-            "text": "<p>JASION does not recommend riding with more than one adult on the bike at a time. This ensures safer riding conditions as well as increased maneuverability and control for the rider.<\/p>"
+            "content": "<p>If you can't find the answer to your question in the FAQ, please contact us and <strong>we'll get back to you within 24 hours.</strong></p><p>Email: <a href=\"mailto:support@jasionbike.com\"><span style=\"text-decoration:underline\">support@jasionbike.com</span></a><br/>Phone: 1 (888) 825 6366<br/>Hours: 9：00 am-6:00 pm. (Mon-Fri EST)</p>"
           }
         }
       },
       "block_order": [
-        "550979e7-c53e-47a8-8020-21f3c4df3a2d",
-        "8e2e9977-5ba5-488e-8fe2-b7db775b5dff",
-        "bf558652-0118-4126-a76c-26b6208d0dfd",
-        "c2e50723-82dc-425f-8065-cdb7eb2792b3",
-        "64ad3201-736f-4c47-b08e-194d5b460c49",
-        "545feab4-2610-4a56-8518-bf2cd12996c1",
-        "258ade09-f735-4f9d-a745-fa85c2575746",
-        "8e94e8e8-6c0c-4f52-91f4-8575ec477247",
-        "16f06a5e-b91b-4e37-81ed-49c20e36dcc4",
-        "37d7e1a1-bfdd-485d-be59-35830f10212f",
-        "e897d2b3-17f9-4f28-8d31-e6f05c702c32",
-        "43434774-efb9-42a3-ac85-c3bd067c44e6",
-        "0b288cfd-e709-4299-8c84-1db6f0dc3330",
-        "94bec125-f4f3-48c6-99c2-a1285c867ae1",
-        "eb11cc56-22b7-4511-b9b5-483d06a6cbb9",
-        "ac80acc6-7ab2-4608-864d-d50faf7a98f4",
-        "eafa43b4-78ee-4401-9ea5-f48dee7b0ee5",
-        "0dae6a3c-efc0-462f-86b0-b7ada5e7c86b"
+        "subheading_CHerUR",
+        "heading_VnNMgT",
+        "richtext_jQ78kp"
       ],
       "settings": {
-        "title": ""
+        "full_width": true,
+        "content_width": "large",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "9a533eae-5a95-4bbd-8a7d-7fcb4200793e": {
+      "type": "faq",
+      "blocks": {
+        "template--20394715152677__9a533eae-5a95-4bbd-8a7d-7fcb4200793e-item-3": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "What payment methods do you accept?",
+            "content": "<p>Currently, we are able to securely process payments from American Express, Discover, Diner’s Club, JCB, Visa, Venmo, MasterCard, PayPal, Apple Pay thanks to secure payment processing from Stripe. Additionally, we have a financing partnership with Klarna. Be sure to choose Klarna at checkout to apply for financing options for your e-bike to pay over installments.</p>"
+          }
+        },
+        "56061c85-662d-4cfc-95c7-b6bf81cbf6e3": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "Do you offer financing?",
+            "content": "<p>We are offering financing.You can have direct access to Klarna financing through our partnership with Klarna. Now, you can pay for your next e-bike with installment payments after being approved for financing. Be sure to select Klarna at checkout and you will be taken to their secure payment process. For more details please click <a href=\"/pages/payment\" title=\"Checkout&Coupons&Financing Guidelines\">HERE</a></p>"
+          }
+        },
+        "82d36a2e-e119-4264-a3b7-7207c578d74a": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "I ordered two items, why I have received only one?",
+            "content": "<p>Because the shipment weight is overweight, we usually ship them separately. So both reach at different day and time. Due to Shopify's store settings, Combo Sale will only show ONE tracking number, please don't panic, you can contact our customer service at support@jasionbike.com to get detailed tracking information.</p>"
+          }
+        },
+        "7d2fa87c-e167-4918-bd4e-e019ac237e15": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "How do I change or cancel my order?",
+            "content": "<p>Your order can only be canceled <strong>before it ships.</strong>To cancel the order, please email us: support@jasionbike.com.Canceling order requests may not be available during the weekend or holiday.</p>"
+          }
+        },
+        "09098f1c-4bfe-4a19-a09a-2571daee3342": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "Do you ship to Alaska, Puerto Rico, and Hawaii?",
+            "content": "<p>No, currently, we are only capable of shipping to the Contiguous United States.If possible, do you have any friends of relatives in other State, so that you can leave their address.And after we ship the bike there, you could ask them a favor for shipping it to you.</p>"
+          }
+        },
+        "a94f3433-36ea-4d56-8cb7-42d7d6528b1b": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "How long should it take for my Jasion ebike to arrive?",
+            "content": "<p>In-stock orders typically ship within 3 business days, unless otherwise noted on the product page. Please allow 2~8 business days for your shipment to arrive at your address. For pre-orders, please refer to the shipping date on the product page. A shipping confirmation email will be sent to your email once the order has shipped.</p>"
+          }
+        },
+        "4bc444e9-c904-437f-9991-de8408a8c60a": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "Special Discount",
+            "content": "<p>We offer $50 for military, teachers, firefighters, police and paramedics, but you will need to provide us with certification. Click <a href=\"/pages/military-discount\" title=\"Special Discount\">HERE </a>to get more information.</p>"
+          }
+        },
+        "a23d4be9-58e6-4c66-a666-4046673b8f20": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "What if the package is broken/the item scratches when arrived?",
+            "content": "<p>Due to FedEx's failure to deliver the bike as required during transportation, parts of the wear and scratch may cause by the parts crashing together, although we have packed all the parts to prevent these situations as much as we can. Please send us the related pictures via support@jasionbike.com, we will solve it for you.</p>"
+          }
+        },
+        "7bf84ab9-0589-4321-a2a4-15d8d1725b73": {
+          "type": "item",
+          "settings": {
+            "order": "About My Order",
+            "title": "Can I return my order for personal reasons?",
+            "content": "<p>To be eligible for a return, your item must be in the same condition that you received it, unworn, unused, or the ebike must have less than ten (10) miles on the odometer and must include all items that were inside the box (charger, keys, hardware, etc.), and in its original packaging.For specific fees, please click <a href=\"https://www.jasionbike.com/pages/return-refund-policy\">HERE</a>.</p>"
+          }
+        },
+        "item_UhUY3p": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "How to find the ebike that fits me?",
+            "content": "<p>The <strong>Lightest</strong> ebikes: EB7 2.0 & EB7 ST. Both bikes weigh 62.8 lbs and come with a folding feature for easy storage.<br/><br/>The <strong>Heaviest</strong> ebike: X-Hunter. The X-Hunter is the heaviest model in the Jasion ebike series, providing a more stable frame for better balance and stability. It offers improved traction and grip on slopes or uneven surfaces.<br/><br/>The <strong>Most Powerful Motor </strong>ebike: X-Hunter. With a 1400W powerful motor, the X-Hunter effortlessly handles any terrain, reaching speeds of over 30 mph.<br/><br/>The <strong>Highest</strong> ebikes: EB5 Roamer & EB5 Roamer ST. These bikes feature larger frames, suitable for taller riding postures, offering a more comfortable riding experience. They are ideal for taller riders, providing a more enjoyable ride. Recommended for heights up to 6.6 feet.<br/><br/>The <strong>Shortest</strong> ebike: EB7 ST. Specifically designed for shorter riders, the EB7 ST features a low center of gravity design for added stability. This design enhances riding safety, reducing the risk of tipping and loss of control. Recommended for heights as low as 5.5 feet.<br/><br/>You can check our <a href=\"/pages/compare\" title=\"Compare\">Compare Page</a> for the differences between our Ebike.</p>"
+          }
+        },
+        "1c6f3ab7-6def-4996-b9fe-9d59915f0fb6": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "Do you support US local pickup?",
+            "content": "<p>Certainly! Please check the warehouse information here.(Address: ①RIA 2380 W Baseline Road Dock Door #3, Rialto, CA 92376Time: Mon-Fri 7:00-15:00 ②DAO_CA_US 1001 South Doubleday Ave, DOCK#19, Ontario, CA 91761).</p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.\t</p>"
+          }
+        },
+        "c74f1ff3-c4de-400c-8e7f-ebbf4d350e93": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "Does my Jasion ebike come pre-assembled?",
+            "content": "<p>Your e-bike will arrive partially assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our <a href=\"https://www.youtube.com/@JasionBike\" target=\"_blank\" title=\"https://www.youtube.com/@JasionBike\">YouTube Channel</a>.</p>"
+          }
+        },
+        "9665526a-092f-4cee-b3b1-8a58a0527a65": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "Can I ride my ebike with a passenger?",
+            "content": "<p>Jasion does not recommend riding with more than one adult on the bike at a time. This ensures safer riding conditions as well as increased maneuverability and control for the rider.</p>"
+          }
+        },
+        "00b37a25-aa9e-45d3-a88c-d0405f9cc633": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "Can I ride the Jasion ebike on rainy days?",
+            "content": "<p>Jasion E-Bike is water-resistant, which means that the bike won't let water in easily. If you drive on a wet road, your bike will be fine. But if your battery is in puddles or your bike into water and the electric parts get wet, damage could occur. Rider Safety tip: It's pretty dangerous riding in the rain, so take care. If you do ride on wet surfaces, wipe off all the water on the surface of your board, especially the charging port, and do not charge your bike until it’s dry.FYI: warranty doesn't include water damage.</p>"
+          }
+        },
+        "d5bec3b1-e1e8-4792-b125-cfc380812dc7": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "User manual/Installation Video",
+            "content": "<p>For Jasion E-Bike user manual and installation video, please click <a href=\"https://jasionbike.com/pages/user-manual-download\">HERE</a>.</p>"
+          }
+        },
+        "42750a74-300d-466e-b112-b52df8fd508b": {
+          "type": "item",
+          "settings": {
+            "order": "Regular Maintenance",
+            "title": "Best Practices",
+            "content": "<ol><li>Store your bike in a clean, dry place to avoid rust.</li><li>Keep components tightened to the torque specifications listed in the Recommended Torque Values section of the user manual.</li><li>Ensure the frame latch and handlebar latch are locked in place before riding.</li><li>Clean and lubricate moving parts regularly.</li><li>Clean your bike frame with a wet rag and low residue cleaner. After cleaning, lubricate where necessary.</li><li>Ensure your bike tires are always inflated to a pressure within the recommended range printed on the tire sidewalls.</li><li>Before each ride ensure all electrical wires are connected.</li></ol>"
+          }
+        },
+        "baa56ad8-6703-441c-b442-d90000b0049d": {
+          "type": "item",
+          "settings": {
+            "order": "Regular Maintenance",
+            "title": "Inspect Regularly",
+            "content": "<ol><li>Inflate your tires to the pressure listed on the tire sidewall.</li><li>Lubricate the chain until there is little noise from the drivetrain; we recommend using Tri-Flow chain lubrication.</li><li>Check that all hardware is tightened to the torque specifications listed in the Recommended Torque Values section of our user manual.</li><li>Check your brake pads for signs of wear and replace them if necessary.</li><li>Check your bike’s shifting performance and adjust the derailleur if necessary.</li><li>Clean the bike frame with a low-residue cleaner; we recommend using Simple Green. Use a rag to dry everything completely.</li><li>Check spoke tension and adjust if necessary. The recommended spoke tension can be found in the Recommended Torque Values section of our user manual.</li></ol>"
+          }
+        },
+        "29a4c9c3-8f3a-47a4-91bc-bb56deaa35e3": {
+          "type": "item",
+          "settings": {
+            "order": "Regular Maintenance",
+            "title": "Chain",
+            "content": "<p>The chain is an essential part of your e-bike's drivetrain. Proper maintenance will keep it running smoothly:</p><p>1. Regularly clean the chain to remove dirt and debris.</p><p>2. Lubricate the chain with a suitable bicycle chain lubricant.</p><p>3. Check chain tension and adjust as necessary to ensure proper shifting and power transmission.</p><p>4. Replace the chain when it shows signs of wear to prevent damage to other drivetrain components.</p>"
+          }
+        },
+        "7e6db5a8-149a-4dde-a18d-b201b702b6c9": {
+          "type": "item",
+          "settings": {
+            "order": "Regular Maintenance",
+            "title": "Brake",
+            "content": "<p>Brakes are critical for your safety. Learn how to maintain and adjust them effectively:</p><p>1. Regularly inspect brake pads for wear and replace them when necessary.</p><p>2. Adjust brake cable tension to ensure proper braking performance.</p><p>3. Check brake caliper alignment and adjust as needed.</p><p>4. Learn how to bleed hydraulic brakes if your e-bike is equipped with them.</p>"
+          }
+        },
+        "d49c8c8e-2cf5-4307-8b68-084a4278ed59": {
+          "type": "item",
+          "settings": {
+            "order": "Regular Maintenance",
+            "title": "Extended Battery Life",
+            "content": "<p>Best practices for extending the range and battery life:</p><p>1. Follow the best practices listed below to help extend your range and battery life.</p><p>2. Whenever possible, avoid applying full throttle when the bike has slowed to very low speeds, has stalled, or stopped.</p><p>3. Pedal to assist the motor when climbing hills and accelerating from a stop.</p><p>4. Reduce your power consumption whenever possible.</p><p>5. Do not climb hills steeper than 15% in grade.</p><p>6. Avoid sudden starts and stops.</p><p>7. Accelerate slowly.</p>"
+          }
+        },
+        "db95e22a-750c-40f4-ba91-261d26320458": {
+          "type": "item",
+          "settings": {
+            "order": "Regular Maintenance",
+            "title": "Tire",
+            "content": "<p>Jasion recommends 45-60 PSI for the stock tires on the Jasion E-bike. Always stay within the manufacturer’s recommended air pressure range as listed on the tire sidewall.<br/>It is critically important that proper air pressure is always maintained in pneumatic tires. Do not underinflate or overinflate your tires. Low pressure may result in loss of control, and overinflated tires may burst. Failure to always maintain the air pressure rating indicated on pneumatic tires may result in the tire and/or wheel failure.<br/>Even tires equipped with built-in, flat-preventative tire liners, like those that come with bikes from Jasion, can and do get flats from punctures, pinches, impact, and other causes. When tire wear becomes evident or a flat tire is discovered, tires and/or tubes must be replaced before operating the bike or injury to operators and/or damage to your bike from heybike could occur.<br/>When changing a tire or tube, ensure that all air pressure has been removed from the inner tube prior to removing the tire from the rim. Failure to remove all air pressure from the inner tube could result in serious injury.<br/>Using aftermarket tires or inner tubes, not provided by Jasion may void your warranty, create an unsafe riding condition, or damage to your bike.</p>"
+          }
+        },
+        "item_QmcgUb": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 2.0",
+            "title": "EB7 2.0 Sizing Guide",
+            "content": "<p>Folding Size: 36\"*21\"*29\" <br/>Weight: 62.8 lbs<br/>The Recommended Rider Height is 5'1\"-6'2\"</p>"
+          }
+        },
+        "cf0f70f6-6a46-41d6-8feb-aa57740c1991": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 2.0",
+            "title": "What is the top speed of EB7 2.0?",
+            "content": "<p>The top speed of EB7 2.0 is 28MPH.</p>"
+          }
+        },
+        "cacd4a29-4e7e-4a70-b54c-bd3e4cc24a62": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 2.0",
+            "title": "Does EB7 2.0 come with most assembly?",
+            "content": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on our <a href=\"https://www.youtube.com/@JasionBike\" target=\"_blank\" title=\"https://www.youtube.com/@JasionBike\">YouTube channel</a>.</p>"
+          }
+        },
+        "365f6b2a-5aa6-4b5c-b77c-aebee1aa9b41": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 2.0",
+            "title": "How long does it take to fully charge the EB7 2.0 battery?",
+            "content": "<p>It will take 4-5 hours.</p>"
+          }
+        },
+        "f9dad9cd-212c-4a64-841a-e125f607c7b4": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 2.0",
+            "title": "What is the difference between EB7 2.0 and EB7 ST?",
+            "content": "<p>The EB7 ST has a new design step-through with a lower span than before, it is more suitable for older people or people with physical limitations to ride.</p>"
+          }
+        },
+        "906f5f17-e8a7-4d29-b635-b658d6d0cc5d": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 ST",
+            "title": "What is the top speed of EB7 ST?",
+            "content": "<p>The top speed of EB7 ST is 28MPH.</p>"
+          }
+        },
+        "77880810-4a14-4f9e-b83d-e6ae8357d229": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 ST",
+            "title": "How long does it take to fully charge the EB7 ST battery?",
+            "content": "<p>It will take 4-5 hours.</p>"
+          }
+        },
+        "item_bri8Qd": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 ST",
+            "title": "What is the difference between EB7 2.0 and EB7 ST?",
+            "content": "<p>The EB7 ST has a new design step-through with a lower span than before, it is more suitable for older people or people with physical limitations to ride.</p>"
+          }
+        },
+        "53af4daa-ca85-4edd-86ce-0210f1e304f1": {
+          "type": "item",
+          "settings": {
+            "order": "X-Hunter",
+            "title": "What is the benefit of the X-Hunter full suspension ebike?",
+            "content": "<p>This system boosts rider comfort, traction, and control on demanding terrain, ultimately delivering an immensely enjoyable riding experience.</p>"
+          }
+        },
+        "ac8cab65-b086-4938-8f89-353ad7948fe2": {
+          "type": "item",
+          "settings": {
+            "order": "X-Hunter",
+            "title": "What is the top speed of X-Hunter?",
+            "content": "<p>The top speed of X-Hunter is 30+MPH(Unlocked).</p>"
+          }
+        },
+        "315d7258-83c5-4603-9725-112f0a409d43": {
+          "type": "item",
+          "settings": {
+            "order": "X-Hunter",
+            "title": "Does X-Hunter come with most assembly?",
+            "content": "<p>Most of our bikes are sent to us installed, and you can also view the installation video on our <a href=\"https://www.youtube.com/@JasionBike\" target=\"_blank\" title=\"https://www.youtube.com/@JasionBike\">YouTube Channel</a>.</p>"
+          }
+        },
+        "c307070e-cb30-4b5f-a98b-a89657f91a64": {
+          "type": "item",
+          "settings": {
+            "order": "X-Hunter",
+            "title": "How far can X-Hunter go on one charge?",
+            "content": "<p>The max range of X-Hunter is 71miles.</p>"
+          }
+        },
+        "item_B8Twxf": {
+          "type": "item",
+          "settings": {
+            "order": "EB5 Roamer Series",
+            "title": "EB5 Roamer Series First-of-Its-Kind Turn Signal Designed",
+            "content": "<p>The EB5 Roamer Series boasts a powerful lighting configuration that includes left and right turn signals, brake lights, rear taillights, and front headlights. These high-performance lights ensure enhanced visibility and safety during nighttime rides, allowing you to navigate your surroundings with ease. Jasion's exclusive design of the left and right turn signals distinguishes it from other electric bikes on the market, marking a pioneering achievement. With the simple flick of a switch on the handlebars, you can signal your intentions to people behind you, further safeguarding your commuting experience. Even when the lighting system is inactive, the left and right turn signals can still remain illuminated, providing an added layer of awareness and protection throughout your journey.</p>"
+          }
+        },
+        "item_NfggT9": {
+          "type": "item",
+          "settings": {
+            "order": "EB5 Roamer Series",
+            "title": "EB5 Roamer Series Features",
+            "content": "<p>The EB5 Roamer Series features a robust lighting system, comprising left and right turn signals, brake lights, rear taillights, and front headlights, ensuring your safety during urban commuting. With an 1100W high-power motor and 60 Nm torque, the EB5 Roamer reaches speeds of up to 28 miles per hour, covering an impressive range of 62 miles, making it perfect for commuting. Plus, with its fast charging technology, the battery can be fully charged in just 4-5 hours. You can conveniently start charging the battery when you return home after your daily commute. By the time you finish dinner and prepare for bed, the battery is fully charged and ready for your next adventure.</p>"
+          }
+        },
+        "item_6MGkGC": {
+          "type": "item",
+          "settings": {
+            "order": "EB5 Roamer Series",
+            "title": "EB5 Roamer Series New Configuration",
+            "content": "<p>Unlike the EB7 and X-Hunter, the EB5 Roamer Series prioritizes urban commuting. Its newly added left and right turn signals are tailored for city commuting scenarios, while the upgraded quick-release battery design allows you to effortlessly remove the battery with a simple turn of the key. The redesigned side keyhole position eliminates the need to bend down to find the keyhole. The EB5 Roamer is Jasion's first model equipped with 26\" x 2.25\" puncture-resistant Michelin tires, with a maximum load capacity of 400 pounds. Its unique fast-charging technology makes it the first Jasion product to fully charge in just 4-5 hours. With an 1100W high-power motor, the EB5 Roamer reaches speeds of up to 28 miles per hour, boasting a range of 62 miles, making urban commuting a breeze! Positioned between the EB7 and X-Hunter in terms of performance, the EB5 Roamer fills a gap in the Jasion product lineup, offering you more purchasing options.</p>"
+          }
+        },
+        "item_D9tqFh": {
+          "type": "item",
+          "settings": {
+            "order": "EB5 Roamer Series",
+            "title": "What is the top speed of the EB5 Roamer Series?",
+            "content": "<p>The top speed of EB5 Roamer Series is 28MPH.</p>"
+          }
+        },
+        "item_bdFKAD": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "How do I update my account information?",
+            "content": "<p>You can change your account information by selecting Login/Register. Enter your email address and password to view your account information. From there, you can update your name, password, and billing/shipping information.</p>"
+          }
+        },
+        "item_7DJzFD": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "How to apply my discount code?",
+            "content": "<p>Please apply your discount code when you are at the checkout page. For more details, please click <a href=\"/pages/payment\" title=\"Checkout&Coupons&Financing Guidelines\">HERE</a>.</p>"
+          }
+        },
+        "item_xUFJTj": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "Can Jasion Ebike be serviced at any bicycle shop?",
+            "content": "<p>Yes, any bike store can repair your bike. If you need help with your order, our customer support team is happy to help. Please email us at support@jasionbike.com.</p>"
+          }
+        },
+        "item_Gdk6Ea": {
+          "type": "item",
+          "settings": {
+            "order": "About JS Ebike",
+            "title": "If the battery is dead, can I still ride?",
+            "content": "<p>Absolutely. Just step on the pedals to ride like an ordinary bike.</p>"
+          }
+        },
+        "item_N6rXtt": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 ST",
+            "title": "EB7 ST Sizing Guide",
+            "content": "<p>Folding Size: 36\"*21\"*29\" <br/>Weight: 62.8 lbs<br/>The Recommended Rider Height is 4'5\"-6'2\"</p>"
+          }
+        },
+        "item_F3VyP7": {
+          "type": "item",
+          "settings": {
+            "order": "X-Hunter",
+            "title": "X-Hunter Sizing Guide",
+            "content": "<p>Folding Size: 29.5\"*33.5\"*15.7\" <br/>Weight: 71 lbs<br/>The Recommended Rider Height is 5'1\"-6'2\"</p>"
+          }
+        },
+        "item_8LbQmC": {
+          "type": "item",
+          "settings": {
+            "order": "EB5 Roamer Series",
+            "title": "EB5 Roamer Sizing Guide",
+            "content": "<p>Weight: 65 lbs<br/>The Recommended Rider Height is 5'2\"-6'6\"</p>"
+          }
+        },
+        "item_3wepCn": {
+          "type": "item",
+          "settings": {
+            "order": "EB5 Roamer Series",
+            "title": "EB5 Roamer ST Sizing Guide",
+            "content": "<p>Weight: 65 lbs<br/>The Recommended Rider Height is 4'9\"-6'6\"</p>"
+          }
+        },
+        "item_mmGwNJ": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 2.0",
+            "title": "What is the maximum speed of each PAS level?",
+            "content": "<ul><li>PAS1 Top speed 16mph</li><li>PAS2 Top speed 18mph</li><li>PAS3 Top speed 20mph</li><li>PAS4 Top speed 23mph</li><li>PAS5 Top speed 28mph</li></ul>"
+          }
+        },
+        "item_ApM3NB": {
+          "type": "item",
+          "settings": {
+            "order": "EB7 ST",
+            "title": "What is the Maximum Speed of each PAS level?",
+            "content": "<ul><li>PAS1 Top speed 16mph</li><li>PAS2 Top speed 18mph</li><li>PAS3 Top speed 20mph</li><li>PAS4 Top speed 23mph</li><li>PAS5 Top speed 28mph</li></ul>"
+          }
+        },
+        "item_p6XiCV": {
+          "type": "item",
+          "settings": {
+            "order": "X-Hunter",
+            "title": "What is the Maximum Speed of each PAS level?",
+            "content": "<ul><li>PAS1 Top speed 16mph</li><li>PAS2 Top speed 18mph</li><li>PAS3 Top speed 20mph</li><li>PAS4 Top speed 23mph</li><li>PAS5 Top speed 30+mph</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20394715152677__9a533eae-5a95-4bbd-8a7d-7fcb4200793e-item-3",
+        "56061c85-662d-4cfc-95c7-b6bf81cbf6e3",
+        "82d36a2e-e119-4264-a3b7-7207c578d74a",
+        "7d2fa87c-e167-4918-bd4e-e019ac237e15",
+        "09098f1c-4bfe-4a19-a09a-2571daee3342",
+        "a94f3433-36ea-4d56-8cb7-42d7d6528b1b",
+        "4bc444e9-c904-437f-9991-de8408a8c60a",
+        "a23d4be9-58e6-4c66-a666-4046673b8f20",
+        "7bf84ab9-0589-4321-a2a4-15d8d1725b73",
+        "item_UhUY3p",
+        "1c6f3ab7-6def-4996-b9fe-9d59915f0fb6",
+        "c74f1ff3-c4de-400c-8e7f-ebbf4d350e93",
+        "9665526a-092f-4cee-b3b1-8a58a0527a65",
+        "00b37a25-aa9e-45d3-a88c-d0405f9cc633",
+        "d5bec3b1-e1e8-4792-b125-cfc380812dc7",
+        "42750a74-300d-466e-b112-b52df8fd508b",
+        "baa56ad8-6703-441c-b442-d90000b0049d",
+        "29a4c9c3-8f3a-47a4-91bc-bb56deaa35e3",
+        "7e6db5a8-149a-4dde-a18d-b201b702b6c9",
+        "d49c8c8e-2cf5-4307-8b68-084a4278ed59",
+        "db95e22a-750c-40f4-ba91-261d26320458",
+        "item_QmcgUb",
+        "cf0f70f6-6a46-41d6-8feb-aa57740c1991",
+        "cacd4a29-4e7e-4a70-b54c-bd3e4cc24a62",
+        "365f6b2a-5aa6-4b5c-b77c-aebee1aa9b41",
+        "f9dad9cd-212c-4a64-841a-e125f607c7b4",
+        "906f5f17-e8a7-4d29-b635-b658d6d0cc5d",
+        "77880810-4a14-4f9e-b83d-e6ae8357d229",
+        "item_bri8Qd",
+        "53af4daa-ca85-4edd-86ce-0210f1e304f1",
+        "ac8cab65-b086-4938-8f89-353ad7948fe2",
+        "315d7258-83c5-4603-9725-112f0a409d43",
+        "c307070e-cb30-4b5f-a98b-a89657f91a64",
+        "item_B8Twxf",
+        "item_NfggT9",
+        "item_6MGkGC",
+        "item_D9tqFh",
+        "item_bdFKAD",
+        "item_7DJzFD",
+        "item_xUFJTj",
+        "item_Gdk6Ea",
+        "item_N6rXtt",
+        "item_F3VyP7",
+        "item_8LbQmC",
+        "item_3wepCn",
+        "item_mmGwNJ",
+        "item_ApM3NB",
+        "item_p6XiCV"
+      ],
+      "settings": {
+        "full_width": true,
+        "text_size": 100,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "md",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "none"
+      }
+    },
+    "featured_collection_74djbE": {
+      "type": "featured-collection",
+      "settings": {
+        "collection": "electric-bike",
+        "products": [
+
+        ],
+        "full_width": true,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_count": 44,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 3,
+        "subheading": "",
+        "title": "Featured collection",
+        "content": "",
+        "link_url": "",
+        "link_text": "View all",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
       }
     }
   },
   "order": [
     "main",
-    "faq"
+    "rich_text_NKnax8",
+    "9a533eae-5a95-4bbd-8a7d-7fcb4200793e",
+    "featured_collection_74djbE"
   ]
 }

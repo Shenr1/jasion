@@ -1,33 +1,57 @@
-<div class="top_bg" {% if section.settings.image != blank %}style="background:url({{ section.settings.image | img_url:"master" }}) center no-repeat;height:540px "{% endif %}>
-  <div class="page-width">
-    <h1>{{ page.title }}</h1>
+<style>
+  #shopify-section-{{ section.id }} {
+    --page-max-width: {{ section.settings.content_width }};
+  }
+</style>
+
+<div class="container">
+  <div class="page-spacer">
+    <div class="page">
+      <h1 class="h1 text-center">{{ page.title }}</h1>
+
+      {%- if page.content != empty -%}
+        <div class="prose">
+          {{ page.content }}
+        </div>
+      {%- endif -%}
+    </div>
   </div>
 </div>
-{%- if page.content != blank -%}
-<div class="page-width page-width--narrow page-content">
-  
 
-  <div class="rte rte--nomargin">
-    {{ page.content }}
-  </div>
-</div>
-
-  {%- endif -%}
 {% schema %}
 {
   "name": "Page",
+  "class": "shopify-section--main-page",
   "tag": "section",
   "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading"
-      },
-          {
-            "type": "image_picker",
-            "id": "image",
-            "label": "Background Image"
-          }
-    ]
+    {
+      "type": "select",
+      "id": "content_width",
+      "label": "Content width",
+      "options": [
+        {
+          "value": "60ch",
+          "label": "Small"
+        },
+        {
+          "value": "80ch",
+          "label": "Medium"
+        },
+        {
+          "value": "100ch",
+          "label": "Large"
+        },
+        {
+          "value": "120ch",
+          "label": "X-Large"
+        },
+        {
+          "value": "100%",
+          "label": "Full width"
+        }
+      ],
+      "default": "80ch"
+    }
+  ]
 }
 {% endschema %}

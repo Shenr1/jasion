@@ -1,0 +1,320 @@
+{%- assign secSt = section.settings -%}
+
+<section section-name="accordion-text-image" class="{% render 'section-interva-set' , secSt:secSt %}">
+
+  <div class="section-full">
+    {% if secSt.title != blank %}
+      <h1 style="color:{{secSt.title_color}};" class="tw-text-center h2 xl:tw-mb-12 md:tw-mb-10 tw-mb-8">{{ secSt.title }}</h1>
+    {% endif %}
+
+    <div class="md:tw-flex tw-justify-center md:tw-h-[80vh]">
+      {% for block in section.blocks %}
+        {% assign blkSet = block.settings %}
+
+        {% if blkSet.image != blank %}
+        <a href="{{blkSet.url}}" class="tw-flex-1 tw-cursor-pointer tw-transition-all tw-duration-500 hover:tw-flex-[2] tw-relative tw-block">
+          {{- blkSet.image | image_url: width: blkSet.image.width | image_tag: widths: '1000,1200,1400,1600,1800,2000,2200,2400,2600', class: 'tw-object-cover tw-h-full md:tw-block tw-hidden tw-mx-auto' -}}
+          {{- blkSet.image_mb | image_url: width: blkSet.image.width | image_tag: widths: '300,400,500,600,700,800', class: 'tw-object-cover tw-h-full tw-block md:tw-hidden tw-mx-auto' -}}
+          
+          
+          <div class="tw-absolute tw-bottom-0 tw-left-0 tw-p-4 tw-pb-4 md:tw-ml-[8%] tw-text-white tw-z-10">
+            <p class="tw-font-semibold md:tw-text-[26px] tw-text-2xl">{{blkSet.title}}</p>
+            <p>{{blkSet.content}}</p>
+          </div>
+          <div class="tw-mask md:hover:tw-opacity-0 md:tw-opacity-40 tw-opacity-0"></div>
+        </a>
+       {% endif %}
+
+
+      {% endfor %}
+    </div>
+  </div>
+</section>
+{% schema %}
+  {
+    "name": "Accordion text image v1.1",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Customer Stories"
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title color",
+        "default": "#333333"
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "item",
+        "name": "Item",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "image_picker",
+            "id": "image_mb",
+            "label": "Image (Mobile)"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Fat Tire"
+          },
+          {
+            "type": "text",
+            "id": "content",
+            "label": "Content",
+            "default": "> Discover"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link url"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Accordion text image v1.1"
+      }
+    ]
+  }
+{% endschema %} 

@@ -2,31 +2,58 @@
   "sections": {
     "main": {
       "type": "main-cart",
+      "blocks": {
+        "fba4f3ef-5935-45e6-98a2-9fd4da29ba49": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-credit-card",
+            "icon_width": 40,
+            "title": "Shop with confidence.",
+            "content": "<ul><li>No 7%-10% sales tax on all products</li><li>Delivered in 3-5 business days.</li><li>We support PayPal, Shoppay installment payment, and credit/debit cards. </li></ul>",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "totals": {
+          "type": "totals",
+          "settings": {
+            "show_order_weight": false,
+            "show_shipping_text": false
+          }
+        },
+        "cart_note": {
+          "type": "cart_note",
+          "settings": {
+            "max_length": 0
+          }
+        },
+        "checkout_button": {
+          "type": "checkout_button",
+          "settings": {
+          }
+        },
+        "586f7b2c-1267-4ebe-9931-1e30fdb0d1da": {
+          "type": "accelerated_buttons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "fba4f3ef-5935-45e6-98a2-9fd4da29ba49",
+        "totals",
+        "cart_note",
+        "checkout_button",
+        "586f7b2c-1267-4ebe-9931-1e30fdb0d1da"
+      ],
       "settings": {
-      }
-    },
-    "recently-viewed": {
-      "type": "recently-viewed",
-      "settings": {
-        "recent_count": 5
-      }
-    },
-    "featured-collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Popular picks",
-        "home_featured_products": "accessories",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
+        "show_shipping_estimator": false,
+        "show_payment_icons": true
       }
     }
   },
   "order": [
-    "main",
-    "recently-viewed",
-    "featured-collection"
+    "main"
   ]
 }

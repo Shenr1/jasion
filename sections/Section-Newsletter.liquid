@@ -1,0 +1,814 @@
+<!-- Add Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<!-- Add Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <style>
+.newsletter-background.deskt-hiadden img {
+    width: 100%;
+}
+.newsletter.Section-newslletter.page-width {
+    left: 0;
+    right: 0;
+ 
+    position: absolute;
+    top: 50%;
+
+    transform: translate(0, -50%);
+    text-align: center;
+ 
+}
+.newsletter-background.backgr-ipad img {
+    width: 100%;
+}
+.backgr-ipad{
+  display: none;
+}
+.newsletter-container{
+
+  position: relative;
+  color: {{ section.settings.text_color }}
+}
+.newsletter-background{
+  position: relative;
+}
+.description-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.form-control {
+    background: #fff;
+    border-radius: 5px;
+}
+
+
+
+.form-control {
+    color: #000 !important;
+}
+.product-spec-content {
+    display: flex;
+  
+    padding: 20px;
+    flex: 1;
+    gap: 1rem;
+}
+
+.cont-box {
+    text-align: initial;
+}
+
+.spec-content {
+   
+    font-weight: 300;
+}
+
+.newsletter-text {
+   
+    position: relative;
+
+    align-self: stretch;
+    width: 48%;
+}
+
+.text-with-image__item {
+    position: relative;
+
+}
+
+.product-spec-content::before {
+ 
+    content: "";
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 10px;
+
+    position: absolute; /* or relative, depending on your layout */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    
+}
+.particulars {
+    margin: 0 !important;
+    font-size: 16px;
+}
+.new-logo img {
+    margin: 0 !important;
+}
+.newsletter-subtitle {
+
+    font-weight: 300;
+}
+.newsletter-subtitle {
+    margin: 0 !important;
+    margin-top: 10px !important;
+}
+.box-de {
+    display: flex;
+    flex-wrap: wrap;
+}
+button.button.button--xl {
+    border-radius: 5px;
+}
+.newsletter-item {
+    display: flex;
+}
+
+
+.prose p {
+    margin: 0;
+}
+
+.section.section-blends.section-full.text-custom{
+  padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+.spec-title {
+    font-weight: 500;
+}
+.destop-hidden {
+    display: block;
+}
+.mobille-hidden{
+  display: none;
+}
+.deskt-mobile{
+    display: none;
+  }
+  .deskt-hiadden{
+    display: block;
+  }
+  .backgr-mobile{
+    display: none;
+  }
+
+
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+  .newsletter-content>.form {
+   max-width: 100% !important;
+  }
+
+  .product-spec-content {
+    padding: 10px;
+    text-align: start;
+    gap: 10px;
+}
+.spec-title {
+  
+    font-size: 22px;
+}
+.spec-content.tw-text-base {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.deskt-mobile{
+  display: block;
+}
+
+
+  .newsletter-background.backgr-mobile img {
+    
+    width: 100%;
+}
+.deskt-hiadden {
+    display: none;
+}
+.backgr-ipad{
+  display: block;
+}
+  .newsletter-container{
+    background-position: center;
+    background-size: cover;
+  }
+  .backgr-mobile{
+    display: none;
+  }
+
+  .section-stack.newsletter-item.destop-hidden {
+    order: 1;
+}
+.newsletter.Section-newslletter.page-width {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newsletter.Section-newslletter.page-width {
+  gap: 30px;
+
+}
+.newsletter-content.Social.text-center.justify-items-center {
+  margin: 0;
+    width: 100%;
+}
+
+.newsletter-subtitle {
+
+    font-weight: 300;
+}
+.newsletter-subtitle {
+    margin: 0 !important;
+    margin-top: 10px !important;
+}
+.newsletter-text {
+    position: relative;
+    align-self: stretch;
+    width: 44%;
+}
+.fieldset-with-submit{
+  display: contents;
+}
+.description-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+   
+}
+.product-spec-content{
+  display: flex;
+    padding: 20px;
+gap: 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.spec-title {
+    font-weight: 500;
+    padding-top: 4px;
+}
+
+
+
+}
+@media only screen and (min-width: 1025px) and (max-width: 1199px){
+
+
+.newsletter-text{
+  width: 45%;
+}
+
+
+.newsletter-content.Social.text-center.justify-items-center {
+    padding-right: 1rem;
+}
+.spec-title {
+    font-weight: 500;
+   
+}
+}
+@media screen and (max-width: 1200px) {
+
+  .new-title-logo.xl\:tw-text-3xl.md\:tw-text-2xl.tw-text-xl.tw-font-semibold.tw-mb-2 {
+    font-size: 24px;
+    line-height: 1.5rem;
+}
+.spec-content.tw-text-base {
+    font-size: 14px;
+    line-height: 16px;
+}
+.spec-title {
+    font-weight: 500;
+    font-size: 16px;
+}
+}
+@media screen and (max-width: 1300px) {
+
+  .product-spec-content{
+    padding: 10px;
+    text-align: start;
+  }
+  .new-title-logo.xl\:tw-text-3xl.md\:tw-text-2xl.tw-text-xl.tw-font-semibold.tw-mb-2 {
+    font-size: 28px;
+}
+.newsletter-content {
+  gap: 10px;
+
+}
+
+}
+
+@media screen and (max-width: 1300px) {
+
+  .newsletter.Section-newslletter.page-width {
+    gap: 2rem;
+}
+
+
+}
+
+
+@media screen and (min-width: 1440px) {
+  .newsletter-content.Social {
+    padding-left: 0rem;
+}
+
+.newsletter-subtitle {
+    width: 100%;
+}
+
+}
+@media screen and (min-width: 1680px) {
+
+
+.newsletter-subtitle {
+    width: 88%;
+}
+
+}
+ 
+    
+
+@media screen and (max-width: 768px) {
+  .product-spec-content{
+    text-align: center;
+  }
+
+  .spec-content {
+    font-weight: 300;
+    font-size: 16px;
+}
+  .mobile-hidden{
+    display: block;
+  }
+
+  .newsletter.Section-newslletter.page-width {
+
+   
+}
+.backgr-ipad{
+  display: none;
+}
+.newsletter-subtitle {
+    padding: 0 20px;
+}
+  .description-wrap{
+    flex-wrap: unset;
+    gap: 0;
+  }
+  .newsletter-content{
+    display: block;
+  }
+  .deskt-mobile{
+    display: block;
+  }
+  .spec-title {
+    font-weight: 500;
+    font-size: 18px;
+   
+}
+.image.tw-w-10 {
+    width: 4rem;
+}
+
+.swiper-button-next{
+  color: #fff;
+}
+.swiper-button-prev{
+  color: #fff;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 24px !important;
+}
+  .product-spec-content{
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+.form-control {
+ 
+    border-radius: 50px;
+}
+button.button.button--xl {
+    border-radius: 50px;
+    width: 50%;
+    text-align: center;
+
+    margin: 0 auto;
+}
+.newsletter-content>.form{
+  padding: 0 20px
+}
+
+  .newsletter-subtitle {
+    margin: 0 !important;
+    margin-top: 14px !important;
+}
+  .deskt-hiadden{
+    display: none;
+  }
+
+  .new-logo.deskt-mobile {
+    text-align: center;
+    justify-content: center;
+    display: inline-flex;
+    width: 45%;
+}
+
+  .destop-hidden {
+    display: none;
+}
+.mobille-hidden{
+  display: block;
+}
+
+.newsletter-text{
+  width: 100%;
+  padding: 2rem 3rem;
+}
+
+
+.backgr-mobile{
+    display: block;
+  }
+  .newsletter-background.backgr-mobile img {
+    width: 100%;
+}
+
+.new-title-logo.xl\:tw-text-3xl.md\:tw-text-2xl.tw-text-xl.tw-font-semibold.tw-mb-2 {
+    font-size: 22px;
+}
+}
+      
+  </style>
+
+
+
+{%- assign secSt = section.settings -%}
+{%- render 'section-spacing-collapsing' -%}
+<section  class="newsletter-container  {% render 'section-interva-set' , secSt:secSt %}">
+
+<div class="newsletter-background deskt-hiadden">
+  {{- section.settings.image_background | image_url: width: section.settings.image.image_background | image_tag: widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}     
+</div>
+<div class="newsletter-background backgr-ipad">
+  <img src="{{ section.settings.image_background_ipad | img_url: 'master' }}" alt="" class="ipade">
+  </div>
+<div class="newsletter-background backgr-mobile">
+  {{- section.settings.image_background_mobile | image_url: width: section.settings.image.image_background_mobile | image_tag: widths: '200,300,400,500,600,700,800,900,1000,1200,1400,1600,1800,2000,2200,2400,2600,2800,3000,3200' -}}     
+</div>
+
+    <div class="newsletter Section-newslletter page-width">
+    
+      {%- if section.blocks.size > 0 -%}
+        {%- render 'section-spacing-collapsing' -%}
+
+      
+
+          <div class="section-stack newsletter-item destop-hidden">
+            <div class="description-wrap">
+              {%- for block in section.blocks -%}
+              <div class="newsletter-text">
+                  <div id="block-{{ section.id }}-{{ block.id }}" class="text-with-image__item">
+                      <div class="product-spec-content">
+                          {%- if block.settings.custom_icon != blank -%}
+                          <div class="image tw-w-14">
+                              <img src="{{ block.settings.custom_icon | img_url: 'master'  }}" alt="">
+                          </div>
+                          {%- endif -%}
+                          <div class="cont-box">
+
+                     
+                          {%- if block.settings.title != blank -%}
+                          <div class="spec-title 2xl:tw-text-xl">
+                              {{ block.settings.title }}
+                          </div>
+                          {%- endif -%}
+                          {%- if block.settings.content != blank -%}
+                          <div class="spec-content tw-text-base">
+                              {{ block.settings.content }}
+                          </div>
+                          {%- endif -%}
+                        </div>
+                      </div>
+                  </div>    
+              </div>
+              {%- endfor -%}
+          </div>
+          </div>
+       
+        
+  <div class="newsletter-content Social {% unless section.settings.image %}text-center justify-items-center{% endunless %}">
+  
+
+    {%- if section.settings.title != blank or section.settings.content -%}
+      <div class="prose {{ section.settings.desktop_text_position }}">
+        {%- if section.settings.title != blank -%}
+        <div class="new-logo deskt-hiadden">
+          <img src="{{ section.settings.image_logo | img_url: 'master' }}" alt="{{ section.settings.title }}">
+        </div>
+        
+        {%- endif -%}
+
+        {%- if section.settings.title != blank -%}
+        <div class="new-logo deskt-mobile">
+          <img src="{{ section.settings.image_logo_mobile | img_url: 'master' }}" alt="{{ section.settings.title }}">
+        </div>
+        
+        {%- endif -%}
+        {%- if section.settings.title != blank -%}
+          <div class="new-title-logo xl:tw-text-3xl md:tw-text-2xl tw-text-xl tw-font-semibold tw-mb-2">{{ section.settings.title }}</div>
+        {%- endif -%}
+        
+        <div class="newsletter-subtitle tw-text-base">
+          {{- section.settings.content -}}
+        </div>
+
+      </div>
+    {%- endif -%}
+
+    <div class="section-stack newsletter-item mobille-hidden swiper mySwiper {{section.id}}">
+      <div class="description-wrap swiper-wrapper">
+        {%- for block in section.blocks -%}
+        <div class="newsletter-text swiper-slide {% if forloop.first %}active{% endif %}">
+          <div id="block-{{ section.id }}-{{ block.id }}" class="text-with-image__item">
+            <div class="product-spec-content">
+              {%- if block.settings.custom_icon != blank -%}
+              <div class="image tw-w-10"><img src="{{ block.settings.custom_icon | img_url: 'master' }}" alt="{{ block.settings.title }}"></div>
+              {%- endif -%}
+              <div class="cont-box">
+                {%- if block.settings.title != blank -%}
+                <div class="spec-title"> {{ block.settings.title }}</div>{%- endif -%}
+                {%- if block.settings.content != blank -%}
+                <div class="spec-content">{{ block.settings.content }}</div>{%- endif -%}
+              </div>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+
+    <script>
+      var swiper = new Swiper(".mySwiper.{{ section.id }}", {
+        slidesPerView: 1,
+        centeredSlides: false,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        on: {
+          init: function () {
+            // 设置初始状态，显示第一个slide，隐藏其他slide
+            document.querySelectorAll('.swiper-slide:not(.active)').forEach(function (slide) {
+              slide.classList.add('swiper-slide-hidden');
+            });
+          },
+          slideChangeTransitionStart: function () {
+            // 移除之前的隐藏类，添加新的隐藏类
+            document.querySelectorAll('.swiper-slide').forEach(function (slide) {
+              slide.classList.remove('active');
+              slide.classList.add('swiper-slide-hidden');
+            });
+          },
+          slideChangeTransitionEnd: function () {
+            // 当前活动的slide移除隐藏类
+            this.slides[this.activeIndex].classList.remove('swiper-slide-hidden');
+            this.slides[this.activeIndex].classList.add('active');
+          },
+        },
+      });
+    </script>
+
+
+    {%- assign newsletter_form_id = 'newsletter-form-' | append: section.id -%}
+
+    {%- form 'customer', id: newsletter_form_id, class: 'form' -%}
+      {%- if form.posted_successfully? -%}
+        {%- assign success_message = 'general.newsletter.subscribed_successfully' | t -%}
+        {%- render 'banner', content: success_message, status: 'success' -%}
+      {%- else -%}
+        {%- if form.errors -%}
+          {%- capture error_message -%}{{ form.errors.translated_fields['email'] }} {{ form.errors.messages['email'] }}{%- endcapture -%}
+          {%- render 'banner', content: error_message, status: 'error' -%}
+        {%- endif -%}
+
+        <input type="hidden" name="contact[tags]" value="newsletter">
+
+        <div class="fieldset-with-submit newsletter-input-container">
+          {%- capture label -%}{{ 'general.newsletter.email' | t }}{%- endcapture -%}
+          {%- render 'input', name: 'contact[email]', label: label, type: 'email', required: true, autocomplete: 'email', enterkeyhint: 'send' -%}
+          {%- render 'button', type: 'submit', content: section.settings.button_text, size: 'xl',  background: section.settings.button_background, text_color: section.settings.button_text_color -%}
+        </div>
+      {%- endif -%}
+
+      {%- if section.settings.subtext != blank -%}
+        <p class="text-xs text-subdued">{{ section.settings.subtext | escape }}</p>
+      {%- endif -%}
+    {%- endform -%}
+  </div>
+      {%- endif -%}
+    </div>
+
+</section>
+
+
+
+
+{% schema %}
+{
+  "name": "页尾图片",
+  "class": "shopify-section--newsletter",
+  "tag": "section",
+  "disabled_on": {
+    "templates": ["password"],
+    "groups": ["header", "custom.overlay"]
+  },
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Customers who subscribe will have their email address added to the \"accepts marketing\" [customer list](/admin/customers?query=&accepts_marketing=1)."
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "text",
+        "id": "margint_new",
+        "label": "Margin (PC)",
+        "default": "2"
+      },
+      {
+        "type": "text",
+        "id": "margint_ipad",
+        "label": "Margin (Ipad)",
+        "default": "2"
+      },
+      {
+        "type": "text",
+        "id": "margint_mobile",
+        "label": "Margin (Mobile)",
+        "default": "2"
+      },
+      {
+        "type": "select",
+        "id": "desktop_text_position",
+        "label": "Desktop content position",
+        "options": [
+          {
+            "value": "sm:place-self-start sm:text-start",
+            "label": "Top left"
+          },
+          {
+            "value": "sm:place-self-start-center sm:text-center",
+            "label": "Top center"
+          },
+          {
+            "value": "sm:place-self-start-end sm:text-end",
+            "label": "Top right"
+          },
+          {
+            "value": "sm:place-self-center-start sm:text-start",
+            "label": "Middle left"
+          },
+          {
+            "value": "sm:place-self-center sm:text-center",
+            "label": "Middle center"
+          },
+          {
+            "value": "sm:place-self-center-end sm:text-end",
+            "label": "Middle right"
+          }
+        ],
+        "default": "sm:place-self-center sm:text-center"
+      },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Newsletter"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_logo",
+      "label": "Logo"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_logo_mobile",
+      "label": "Logo Mobile"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "Content",
+      "default": "<p>Write something about what your customers will receive by subscribing to your newsletter.</p>"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button",
+      "default": "Subscribe"
+    },
+    {
+      "type": "text",
+      "id": "subtext",
+      "label": "Subtext"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_background",
+      "label": "Background image (Desktop)"
+    },
+
+    {
+      "type": "image_picker",
+      "id": "image_background_ipad",
+      "label": "Background image (Ipad)"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_background_mobile",
+      "label": "Background image (Mobile)"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Text with icon",
+      "settings": [
+       
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "Custom icon"
+          
+        },
+       
+    
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+          "default": "<p>Short content about your store</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "页尾图片"
+    }
+  ]
+}
+{% endschema %}

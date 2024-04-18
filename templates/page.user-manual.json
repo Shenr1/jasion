@@ -2,288 +2,334 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "content_width": "80ch"
+      }
+    },
+    "1698828082b720d9b3": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
+    },
+    "2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3": {
+      "type": "faq",
+      "blocks": {
+        "template--16925247635693__2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3-item-2": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter_User_Manual.pdf?v=1708336972\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter_User_Manual.pdf?v=1708336972\">User Manual </a></p><p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985\">Display Manual</a></p><p><a href=\"https://www.youtube.com/watch?v=i0LcsKoZaXU&t=86s\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=i0LcsKoZaXU&t=86s\">Assembly Instructions</a></p>"
+          }
+        },
+        "template--16925247635693__2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3-item-1": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "EB7 2.0",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB7_2.0_User_Manual.pdf?v=1708335704\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB7_2.0_User_Manual.pdf?v=1708335704\">User Manual </a></p><p><a href=\"https://www.youtube.com/watch?v=xLlYP_xKCAU&t=76s\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=xLlYP_xKCAU&t=76s\">Assembly Instructions</a></p>"
+          }
+        },
+        "template--16925247635693__2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3-item-3": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "EB7 ST",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB7_ST_User_Manual.pdf?v=1708336962\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB7_ST_User_Manual.pdf?v=1708336962\">User Manual </a></p><p>Assembly Instructions: Same as <a href=\"https://www.youtube.com/watch?v=xLlYP_xKCAU&t=5s\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=xLlYP_xKCAU&t=5s\">EB7 2.0</a></p>"
+          }
+        },
+        "1bb22520-1d72-45ea-9a12-9f7378a537be": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "EB5 Roamer Series",
+            "content": "<p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/Jasion_EB5_2022.5.4_1.pdf?v=1659088929&ref=r8eji_4hqjz\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/Jasion_EB5_2022.5.4_1.pdf?v=1659088929&ref=r8eji_4hqjz\">User Manual </a></p><p><a href=\"https://www.youtube.com/watch?v=EHQwQ_54gaU\" title=\"https://www.youtube.com/watch?v=EHQwQ_54gaU\">Assembly Instructions</a></p>"
+          }
+        },
+        "76bd4df4-2f1f-498d-b98a-589965864a6b": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter Adjusting to Maximum Speed (30MPH+)",
+            "content": "<p>Here is a solution to address the issue of customers unable to reach 30 miles per hour. </p><p>Here are the steps:<br/><br/>1- You'll need to access the settings page on the display. (To access this page, press and hold both the up and down keys for 3 seconds.)<br/>2- Press the M key to navigate to page P08. You'll notice a number displayed below. The smaller the number, the slower the speed; the larger the number, the faster the speed. The number range is 0-100. To achieve the highest speed, adjust the number to 100.<br/><br/>For a detailed video explanation, please click <a href=\"https://www.youtube.com/watch?v=87u4uYq8CQs\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=87u4uYq8CQs\">HERE </a>to visit our YouTube channel. Alternatively, you can view comprehensive step-by-step guidance on the unlock speed page by clicking the PDF below.</p><p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985\">Display Manual</a></p>"
+          }
+        },
+        "8b54be15-0224-438a-8fcf-42195c2137f6": {
+          "type": "item",
+          "settings": {
+            "order": "",
+            "title": "X-Hunter Adjusting PAS (Pedal Assist System) from PAS3 to PAS5",
+            "content": "<p>Here is a solution to address the issue raised by a customer regarding the PAS (Pedal Assist System) having only 3 levels. Here are the steps:<br/><br/>1- Access the settings page on the display. (To access this page, press and hold both the up and down keys for 3 seconds.)<br/>2- Press the M key to navigate to page P05. Check if the number below shows as 1. If it displays as 0, press the up key to change it to 1. A value of 0 corresponds to 3 levels, while a value of 1 corresponds to 5 levels.<br/><br/>For a detailed video explanation, please click <a href=\"https://www.youtube.com/watch?v=hE6QEso7IaA\" target=\"_blank\" title=\"https://www.youtube.com/watch?v=hE6QEso7IaA\">HERE</a> to visit our YouTube channel. Alternatively, you can view comprehensive step-by-step guidance on the PAS Adjustment page by clicking the PDF below.</p><p><a href=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985\">Display Manual</a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16925247635693__2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3-item-2",
+        "template--16925247635693__2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3-item-1",
+        "template--16925247635693__2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3-item-3",
+        "1bb22520-1d72-45ea-9a12-9f7378a537be",
+        "76bd4df4-2f1f-498d-b98a-589965864a6b",
+        "8b54be15-0224-438a-8fcf-42195c2137f6"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "text_size": 100,
+        "subheading": "",
+        "title": "User Manual",
+        "content": "<p>Lost your manual, or maybe just interested in diving into the details before purchasing? We've got your back!</p><p>Your E-bike will arrive partially assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our<a href=\"https://www.youtube.com/channel/UCyOjFfkIQRt5nebAe-MU1SQ\" target=\"_self\"> <strong>Youtube Channel</strong></a>.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "",
+        "answer_time": "",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "section_installation_vide_UjpHz9": {
+      "type": "Section-Installation-Vide",
+      "blocks": {
+        "item_iFq9Ua": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=GS6CaYZ1Q2o",
+            "title_video": "EB5 Roamer",
+            "info_video": "",
+            "link_watch": "https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB5_Roamer_User_Manual.pdf?v=1712806067",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=p47G0LQvapY&t=147s",
+            "shop_button": "Video Instruction",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        },
+        "item_W3XVjX": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=DE150BXGTp4",
+            "title_video": "EB5 Roamer ST",
+            "info_video": "",
+            "link_watch": "https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB5_Roamer_ST_User_Manual.pdf?v=1712806067",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=DE150BXGTp4",
+            "shop_button": "Video Instruction",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        },
+        "item_CTMbAx": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=i0LcsKoZaXU&t=135s",
+            "title_video": "X-Hunter",
+            "info_video": "",
+            "link_watch": "https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter_User_Manual.pdf?v=1712808507",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=i0LcsKoZaXU&t=135s",
+            "shop_button": "Video Instruction",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        },
+        "item_UwpNKC": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=xLlYP_xKCAU&t=33s",
+            "title_video": "EB7 2.0",
+            "info_video": "",
+            "link_watch": "https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB7_2.0_User_Manual.pdf?v=1712808509",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=xLlYP_xKCAU&t=33s",
+            "shop_button": "Video Instruction",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        },
+        "item_U89BmE": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=xLlYP_xKCAU&t=33s",
+            "title_video": "EB7 ST",
+            "info_video": "",
+            "link_watch": "https://cdn.shopify.com/s/files/1/0605/0044/3373/files/EB7_ST_User_Manual.pdf?v=1712808508",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=xLlYP_xKCAU&t=33s",
+            "shop_button": "Video Instruction",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_iFq9Ua",
+        "item_W3XVjX",
+        "item_CTMbAx",
+        "item_UwpNKC",
+        "item_U89BmE"
+      ],
+      "settings": {
+        "title": "User Manual",
+        "sub": "Lost your manual, or maybe just interested in diving into the details before purchasing? We've got your back!Your E-bike will arrive partially assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our YouTube channel.",
+        "link_sdf": "https://www.youtube.com/@JasionBike",
+        "button_zong": "Youtube Channel",
+        "article_title": "Assembly Instruction",
+        "show_mobile": false,
+        "top_padding": "md",
+        "bottom_padding": "none",
+        "top_margin": "md",
+        "bottom_margin": "sm",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "sm",
+        "button_background": "",
+        "button_text_color": "",
+        "dividing_line": ""
+      }
+    },
+    "section_new_vide_r4yce3": {
+      "type": "Section-New-Vide",
+      "blocks": {
+        "item_Gwdc3U": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=87u4uYq8CQs",
+            "title_video": "X-Hunter Adjusting to Maximum Speed (30MPH+)",
+            "info_video": "<p>Here is a solution to address the issue of customers unable to reach 30 miles per hour.</p><p>Here are the steps:<br/><br/>1- You'll need to access the settings page on the display. (To access this page, press and hold both the up and down keys for 3 seconds.)<br/>2- Press the M key to navigate to page P08. You'll notice a number displayed below. The smaller the number, the slower the speed; the larger the number, the faster the speed. The number range is 0-100. To achieve the highest speed, adjust the number to 100.</p>",
+            "link_watch": "",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=xLlYP_xKCAU&t=33s",
+            "shop_button": "Video Tutorial",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        },
+        "item_HbkTag": {
+          "type": "item",
+          "settings": {
+            "allow_transparent_header": false,
+            "autoplay": false,
+            "video_size": "auto",
+            "external_video_url": "https://www.youtube.com/watch?v=hE6QEso7IaA",
+            "title_video": "X-Hunter Adjusting PAS from PAS3 to PAS5",
+            "info_video": "<p>Here is a solution to address the issue raised by a customer regarding the PAS (Pedal Assist System) having only 3 levels. Here are the steps:<br/><br/>1- Access the settings page on the display. (To access this page, press and hold both the up and down keys for 3 seconds.)<br/>2- Press the M key to navigate to page P05. Check if the number below shows as 1. If it displays as 0, press the up key to change it to 1. A value of 0 corresponds to 3 levels, while a value of 1 corresponds to 5 levels.</p><p>*PAS refers to the Pedal Assist System.</p>",
+            "link_watch": "https://cdn.shopify.com/s/files/1/0605/0044/3373/files/X-Hunter-display_instrument.pdf?v=1708336985",
+            "watch_button": "User Manual",
+            "button_text_color_1": "#ffffff",
+            "button_text_background_1": "#ff981d",
+            "button_text_border_1": "#ffffff",
+            "link_shop": "https://www.youtube.com/watch?v=hE6QEso7IaA",
+            "shop_button": "Video Tutorial",
+            "button_text_color_2": "",
+            "button_text_background_2": "",
+            "button_text_border_2": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_Gwdc3U",
+        "item_HbkTag"
+      ],
       "settings": {
         "title": "",
-        "image": "shopify:\/\/shop_images\/Photo_35.jpg"
-      }
-    },
-    "1af0242f-0a12-45cb-ad1d-de4c1074fede": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": true,
-            "text": "<p>Lost your manual, or maybe just interested in diving into the details before purchasing? We've got your back!<\/p><p>Your E-bike will arrive partially assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our<a href=\"https:\/\/www.youtube.com\/channel\/UCyOjFfkIQRt5nebAe-MU1SQ\" target=\"_self\"> <strong>Youtube Channel<\/strong><\/a>.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16681212805357__1af0242f-0a12-45cb-ad1d-de4c1074fede-168508995292f1bab4-1"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "b8202217-f996-4c3a-825d-a48a2a0a73ea": {
-      "type": "icon-list",
-      "disabled": true,
-      "blocks": {
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_shipping.png",
-            "title": "Free&Fast Shipping",
-            "content": "Ship to 48 States",
-            "link": ""
-          }
-        },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-1": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_warranty.png",
-            "title": "1-Year Warranty",
-            "content": "Ride in confidence. We’ve got  you covered.",
-            "link": ""
-          }
-        },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-2": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_expert.png",
-            "title": "Ask An Expert",
-            "content": "For any questions, don't hesitate  to contact us",
-            "link": ""
-          }
-        },
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-3": {
-          "type": "text_block",
-          "settings": {
-            "enable_image": true,
-            "image": "shopify:\/\/shop_images\/ico_return.png",
-            "title": "14-Day Return",
-            "content": "Simply return it for no reason",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-0",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-1",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-2",
-        "template--18193808458002__7096ca35-8512-4ef4-9c53-b70826c94b21-1678966559fd3656af-3"
-      ],
-      "custom_css": [
-        ".icon_img {width: 23%;}"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "93d395fd-dd1a-4954-9ad9-7249098750b4": {
-      "type": "text-with-icons",
-      "disabled": true,
-      "blocks": {
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "earth",
-            "title": "About Our Bikes",
-            "text": "<p>General information about our bike's features and components!<\/p>",
-            "button_label": "LATEST BLOG POST",
-            "button_link": "shopify:\/\/blogs\/blogs",
-            "code": ""
-          }
-        },
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "jasionstore",
-            "title": "Start Shopping",
-            "text": "<p>Want to try the Jasion E-Bikes riding fun? No problem! Click this link to get more information.<\/p>",
-            "button_label": "Jasion® Electric Bikes",
-            "button_link": "shopify:\/\/collections\/electric-bike",
-            "code": ""
-          }
-        },
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-2": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "icon": "service",
-            "title": "Local After-Sale Service",
-            "text": "<p>We work with local professional bike shops to help you solve your problems ASAP.<\/p>",
-            "button_label": "Check Out Our Stores",
-            "button_link": "shopify:\/\/blogs\/blog",
-            "code": ""
-          }
-        },
-        "8ccac53e-6d18-4fe9-8a6b-750af0adcfd1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "support",
-            "title": "Tech & Sales Support",
-            "text": "<p>Need help operating your bike or have any questions?<\/p>",
-            "button_label": "support@jasionbike.com",
-            "button_link": "mailto:support@jasionbike.com",
-            "code": ""
-          }
-        },
-        "5d2d710a-1d0e-40e1-8006-ec667b7002f3": {
-          "type": "text_block",
-          "disabled": true,
-          "settings": {
-            "icon": "media",
-            "title": "Press & Media Inquiries",
-            "text": "<p>For press and media inquires feel free to reach us.<\/p>",
-            "button_label": "support@jasionbike.com",
-            "button_link": "mailto:support@jasionbike.com",
-            "code": ""
-          }
-        },
-        "bbc75677-6fcb-4e87-91ca-ea0d5a40c7de": {
-          "type": "text_block",
-          "settings": {
-            "icon": "social",
-            "title": "Social Media",
-            "text": "<p>Have a cool photo that would be great on our website or social media? <\/p>",
-            "button_label": "",
-            "button_link": "",
-            "code": "{% render 'footer-custom-code' %}"
-          }
-        }
-      },
-      "block_order": [
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-0",
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-1",
-        "template--18193808556306__93d395fd-dd1a-4954-9ad9-7249098750b4-1679758152977d9b26-2",
-        "8ccac53e-6d18-4fe9-8a6b-750af0adcfd1",
-        "5d2d710a-1d0e-40e1-8006-ec667b7002f3",
-        "bbc75677-6fcb-4e87-91ca-ea0d5a40c7de"
-      ],
-      "settings": {
-        "class": "contact-ico-list",
-        "title": "Reliable Service & Support",
-        "align_text": "center",
-        "desktop_columns_per_row": 2,
-        "icon_color": "#000000",
-        "button_label": "",
-        "button_link": "",
-        "divider": false
-      }
-    },
-    "rich-text": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Get in Contact With Our Sales Team."
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "enlarge_text": false,
-            "text": "<p>Our champion customer service will get back to you within hours.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "align_text": "left",
-        "narrow_column": true,
-        "divider": false
-      }
-    },
-    "9485de70-a96b-4dad-af41-6826b4d66a32": {
-      "type": "product-faq",
-      "blocks": {
-        "28bb97be-8a23-4a2e-9927-5659b275abb5": {
-          "type": "rich-text",
-          "settings": {
-            "title": "",
-            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion-EB7_2022.6.06.pdf\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion-EB7_2022.6.06.pdf\">User Manual <\/a><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=2s\" title=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=2s\">Assembly Instructions<\/a><\/p>",
-            "align_text": "left"
-          }
-        }
-      },
-      "block_order": [
-        "28bb97be-8a23-4a2e-9927-5659b275abb5"
-      ],
-      "settings": {
-        "title": "Jasion® EB7 2.0 The Best Affordable Electric Bike"
-      }
-    },
-    "03f00940-c2e5-44ad-8630-2a670412daa2": {
-      "type": "product-faq",
-      "blocks": {
-        "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902": {
-          "type": "rich-text",
-          "settings": {
-            "title": "",
-            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7ST_user_manual.pdf?v=1685091417\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7ST_user_manual.pdf?v=1685091417\">User Manual <\/a><\/p><p>Assembly Instructions: Same as EB7 2.0<\/p>",
-            "align_text": "left"
-          }
-        }
-      },
-      "block_order": [
-        "75ba73d4-7c1c-4fe4-9eb0-3a725f32f902"
-      ],
-      "settings": {
-        "title": "Jasion® EB7 ST High Power Step-Thru Electric Bike"
-      }
-    },
-    "3453c3bc-d949-4188-84e4-e1d47daf9eae": {
-      "type": "product-faq",
-      "blocks": {
-        "8f4f31c8-18d9-4c26-bf0a-ece6347f9057": {
-          "type": "rich-text",
-          "settings": {
-            "title": "",
-            "text": "<p><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_2022.5.4_1.pdf?v=1659088929&ref=r8eji_4hqjz\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_2022.5.4_1.pdf?v=1659088929&ref=r8eji_4hqjz\">User Manual <\/a><\/p><p><a href=\"https:\/\/www.youtube.com\/watch?v=EHQwQ_54gaU\" title=\"https:\/\/www.youtube.com\/watch?v=EHQwQ_54gaU\">Assembly Instructions<\/a><\/p>",
-            "align_text": "left"
-          }
-        }
-      },
-      "block_order": [
-        "8f4f31c8-18d9-4c26-bf0a-ece6347f9057"
-      ],
-      "settings": {
-        "title": "Jasion® EB5 Light Weight Pedal Assist E-bike"
-      }
-    },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "title": "Get in Contact With Our Support Team.",
-        "text": "<p>Our champion customer service will get back to you within hours.<\/p>",
-        "show_phone": false,
-        "contact_info": "<p>Email: support@jasionbike.com<\/p>",
-        "socail_link": "shopify:\/\/policies\/refund-policy",
-        "business_time": "<p>Business time:  9:00 - 18:00, (UTC-8, PST) Mon-Fri<\/p>",
-        "narrow_column": false
+        "sub": "",
+        "link_sdf": "",
+        "button_zong": "Read About Us",
+        "article_title": "User Guide",
+        "show_mobile": false,
+        "top_padding": "none",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md",
+        "button_background": "",
+        "button_text_color": "",
+        "dividing_line": ""
       }
     }
   },
   "order": [
     "main",
-    "1af0242f-0a12-45cb-ad1d-de4c1074fede",
-    "b8202217-f996-4c3a-825d-a48a2a0a73ea",
-    "93d395fd-dd1a-4954-9ad9-7249098750b4",
-    "rich-text",
-    "9485de70-a96b-4dad-af41-6826b4d66a32",
-    "03f00940-c2e5-44ad-8630-2a670412daa2",
-    "3453c3bc-d949-4188-84e4-e1d47daf9eae",
-    "form"
+    "1698828082b720d9b3",
+    "2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3",
+    "section_installation_vide_UjpHz9",
+    "section_new_vide_r4yce3"
   ]
 }

@@ -36,8 +36,8 @@
       {% endif %}
       {% if blSet.image != blank %}
         
-        <div class="{{ itemClass }} tw-w-1/2 md:tw-mb-0 tw-mb-1 [&:nth-child(2n)]:tw-pl-1 
-          {% if hasContent %}[&:nth-child(2n-1)]:tw-pr-1 {% endif %}">
+        <div class="{{ itemClass }} md:tw-w-1/2 tw-w-full md:tw-mb-0 tw-mb-1 [&:nth-child(2n)]:md:tw-pl-1 
+          {% if hasContent %}[&:nth-child(2n-1)]:md:tw-pr-1 {% endif %}">
           <a href="{{ blSet.link }}" class="{{clas1}} {% if hasContent %}!tw-h-auto{% endif %}">
 
             <div class="{{ clas3 }} {% if blSet.image_mb != blank %}md:tw-block tw-hidden{% endif %}">
@@ -72,68 +72,8 @@
 
 {% schema %}
   {
-    "name": "Images grid 1.1",
+    "name": "Images grid v1.1",
     "settings": [
-      {
-      "type": "header",
-      "content": "Section interval set"
-      },
-      {
-        "type": "select",
-        "id": "top_padding",
-        "label": "top interval",
-        "default": "large",
-        "options": [
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "bottom_padding",
-        "label": "bottom interval",
-        "default": "default",
-        "options": [
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
       {
         "type": "image_picker",
         "id": "image",
@@ -148,6 +88,234 @@
         "type": "url",
         "id": "link",
         "label": "Link"
+      },
+      {
+      "type": "header",
+      "content": "Section interval set"
+      },
+      {
+        "type": "select",
+        "id": "top_padding",
+        "label": "Top padding (PC)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding",
+        "label": "Bottom padding (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin",
+        "label": "Top margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin",
+        "label": "Bottom margin (PC)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_padding_mb",
+        "label": "Top padding (Mobile)",
+        "default": "md", 
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_padding_mb",
+        "label": "Bottom padding (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "top_margin_mb",
+        "label": "Top margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "bottom_margin_mb",
+        "label": "Bottom margin (Mobile)",
+        "default": "md",
+        "options": [
+          {
+            "value": "xl",
+            "label": "Extra large"
+          },
+          {
+            "value": "lg",
+            "label": "Large"
+          },
+          {
+            "value": "md",
+            "label": "Medium"
+          },
+          {
+            "value": "sm",
+            "label": "Small"
+          },
+          {
+            "value": "none",
+            "label": "None"
+          }
+        ]
       }
     ],
     "blocks": [
@@ -192,7 +360,7 @@
     ],
     "presets": [
       {
-        "name": "Images grid"
+        "name": "Images grid v1.1"
       }
     ]
   }

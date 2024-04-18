@@ -4,10 +4,13 @@
   <div class="md:tw-block tw-hidden">
     
     {% if secSt.title != blank %}
-      <div class="page-width tw-text-center tw-mb-24"> <h1 class="xl:tw-text-6xl md:tw-text-4xl">{{ secSt.title }}</h1> </div>
+      <div class="page-width tw-text-center tw-mb-24"> 
+        <h1 class="tw-text-center h2 xl:tw-mb-12 md:tw-mb-10 tw-mb-8">{{ secSt.title }}</h1>
+      </div>
     {% endif %}
-    <div class="tw-flex tw-mx-auto page-width">
-      <div class="tw-relative tw-w-1/2 lg:tw-pr-14 md:tw-pr-5 contents">
+
+    <div class="tw-flex page-width">
+      <div class="tw-relative tw-w-1/2 lg:tw-pr-14 md:tw-pr-5 contents tw-flex-shrink-0">
         {% for block in section.blocks %}
         {%- assign blSet = block.settings -%}
         <div class="{% unless forloop.first %}tw-hidden{% endunless %}">
@@ -19,8 +22,8 @@
               </a>
             {% endif %}
           </div>
-          <div class="tw-text-[22px] tw-leading-relaxed ">
-            <p class="tw-text-stone-500 tw-mb-8 md:tw-h-auto tw-h-[8em]">{{blSet.content}}</p>
+          <div class="tw-text-base tw-leading-relaxed ">
+            <p class="tw-mb-8 md:tw-h-auto tw-h-[8em]">{{blSet.content}}</p>
             {% if blSet.author != blank %}
             <p class="tw-italic tw-text-right">-- {{blSet.author}}</p> 
             {% endif %}
@@ -28,7 +31,7 @@
         </div>
         {% endfor %}
       </div>
-      <div class="tw-w-1/2 lg:tw-pl-10 md:tw-pl-5 md:tw-pb-12">
+      <div class="tw-w-1/2 lg:tw-pl-10 md:tw-pl-5 md:tw-pb-12 tw-flex-shrink-0">
         <div class="tw-flex tw-flex-wrap tw-pl-6 tw-h-full logos">
           {% for block in section.blocks %}
           {%- assign blSet = block.settings -%}
@@ -46,11 +49,20 @@
       </div>
     </div>
   </div>
-  <div class="tw-block md:tw-hidden mb-switch-wrapper md:tw-mb-8 tw-mb-12">
+  <div class="tw-block md:tw-hidden">
     {% if secSt.title != blank %}
-      <div class="page-width tw-text-center tw-my-8"> <h1 class="xl:tw-text-6xl md:tw-text-4xl">{{ secSt.title }}</h1> </div>
+      <div class="page-width tw-text-center tw-my-8"> <h1 class="h2">{{ secSt.title }}</h1> </div>
     {% endif %}
-    <div class="" data-flickity = '{"draggable": true,"pageDots": false, "prevNextButtons": true,"imagesLoaded": true, "watchCSS":true, "wrapAround": true}'>
+
+
+
+
+
+
+
+
+
+    <div id="text-logo-switch-mb-{{section.id}}">
       {% for block in section.blocks %}
       {%- assign blSet = block.settings -%}      
       <div class="tw-w-[90%] tw-pr-4 hfull {% if forloop.last %} tw-pr-0 {% endif %}">
@@ -65,7 +77,7 @@
               {{ blSet.img_url | image_url: width: 380 | image_tag: width: nil, class: "tw-w-auto tw-mx-auto tw-h-full tw-object-contain" }}
             {% endif %}
           </div>
-          <img class="tw-my-4" src="https://cdn.shopify.com/s/files/1/0605/0044/3373/files/2_2c55d9e0-4a0f-49fb-80ac-72b40ab2b018.png?v=1690445158" width="36" alt="">
+          <img class="tw-my-4" src="https://cdn.shopify.com/s/files/1/0773/0190/7732/files/21_296d1e7a-6e62-4a7a-9e66-f2578fc318c1.png?v=1696411178" width="36" alt="">
           <div class="tw-text-[22px] tw-leading-relaxed">
             <p class="tw-text-stone-600 tw-mb-4 tw-text-xl">{{blSet.content}}</p>
           </div>
@@ -76,6 +88,9 @@
       </div>
       {% endfor %}
     </div>
+
+
+
   </div>
 </section>
 
@@ -90,74 +105,24 @@
       $(".contents > div").not(content).hide();
     });
     setTimeout(function(){ $('#shopify-section-{{section.id}} .hfull').addClass("tw-h-full") },500)
+
+
+    const screenWidth = window.innerWidth || document.documentElement.clientWidth;
+    if(screenWidth < 750)var flkty = new Flickity('#text-logo-switch-mb-{{section.id}}');
+
+
+
+
+
+
   });
 </script>
 
 {% schema %}
   {
-    "name": "Text logo switch v1.1",
+    "name": "Text logo switch v1.2",
     "tag": "section",
     "settings": [
-      {
-        "type": "header",
-        "content": "Section interval set"
-      },
-      {
-        "type": "select",
-        "id": "top_padding",
-        "label": "top interval",
-        "default": "large",
-        "options": [
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
-      {
-        "type": "select",
-        "id": "bottom_padding",
-        "label": "bottom interval",
-        "default": "default",
-        "options": [
-          {
-            "value": "large",
-            "label": "Large"
-          },
-          {
-            "value": "default",
-            "label": "Default"
-          },
-          {
-            "value": "medium",
-            "label": "Medium"
-          },
-          {
-            "value": "small",
-            "label": "Small"
-          },
-          {
-            "value": "none",
-            "label": "None"
-          }
-        ]
-      },
       {
         "type": "text",
         "id": "title",
@@ -169,7 +134,235 @@
         "id": "show_mobile",
         "label": "Title display on mobile?",
         "default": false
-      }
+      },
+      {
+        "type": "header",
+        "content": "Section interval set"
+        },
+        {
+          "type": "select",
+          "id": "top_padding",
+          "label": "Top padding (PC)",
+          "default": "md", 
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "Default"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "bottom_padding",
+          "label": "Bottom padding (PC)",
+          "default": "md",
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "lg"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "top_margin",
+          "label": "Top margin (PC)",
+          "default": "md",
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "Default"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "bottom_margin",
+          "label": "Bottom margin (PC)",
+          "default": "md",
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "lg"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "top_padding_mb",
+          "label": "Top padding (Mobile)",
+          "default": "md", 
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "lg"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "none"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "bottom_padding_mb",
+          "label": "Bottom padding (Mobile)",
+          "default": "md",
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "lg"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "top_margin_mb",
+          "label": "Top margin (Mobile)",
+          "default": "md",
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "lg"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "bottom_margin_mb",
+          "label": "Bottom margin (Mobile)",
+          "default": "md",
+          "options": [
+            {
+              "value": "xl",
+              "label": "xl"
+            },
+            {
+              "value": "lg",
+              "label": "lg"
+            },
+            {
+              "value": "md",
+              "label": "md"
+            },
+            {
+              "value": "sm",
+              "label": "sm"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ]
+        }
     ],
     "blocks": [
       {
@@ -203,7 +396,7 @@
     ],
     "presets": [
       {
-        "name": "Text logo switch v1.1"
+        "name": "Text logo switch v1.2"
       }
     ]
   }

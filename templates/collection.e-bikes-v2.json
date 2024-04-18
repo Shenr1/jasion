@@ -1,0 +1,221 @@
+{
+  "sections": {
+    "banner": {
+      "type": "collection-banner",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "enable_parallax": true,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_collection_image": false,
+        "collection_title_size": "h3",
+        "image_size": "sm",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "featured_product": "",
+        "featured_product_heading": "Featured product",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "collection-ebike",
+      "disabled": true,
+      "settings": {
+        "products_per_page": 24,
+        "product_bg": "rgba(0,0,0,0)",
+        "show_btn": "Shop now",
+        "filter_layout": "sidebar",
+        "show_sort_by": false,
+        "show_filters": false,
+        "show_filter_group_name": true,
+        "show_color_swatch": true,
+        "show_empty_filter_values": true,
+        "show_filter_values_count": false,
+        "open_first_filter_group": false
+      }
+    },
+    "fff4ee0c-82f6-4f20-ae0f-08ca7b373801": {
+      "type": "featured-product-ebike",
+      "blocks": {
+        "template--21088352567572__fff4ee0c-82f6-4f20-ae0f-08ca7b373801-title-1": {
+          "type": "title",
+          "settings": {
+            "short_title": true,
+            "heading_tag": "h2"
+          }
+        },
+        "template--21088352567572__fff4ee0c-82f6-4f20-ae0f-08ca7b373801-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--21088352567572__fff4ee0c-82f6-4f20-ae0f-08ca7b373801-rating-1": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "468240ca-e1dc-4f59-b4f3-b19039eec006": {
+          "type": "color",
+          "settings": {
+            "image1": "shopify://shop_images/spirit-green_900x_b36406ec-44e9-409d-add5-41b09ccbe8cb.webp",
+            "color1": "#708a5c",
+            "bg_color1": "#e8f2e0",
+            "image2": "shopify://shop_images/spirit-black_900x_8487d284-564d-47ad-9355-448d78f48516.webp",
+            "color2": "#272727",
+            "bg_color2": "#e2e2e2",
+            "image3": "shopify://shop_images/spirit-silver_900x_7c336c26-24fb-425e-a279-cbc3525e3fcc.webp",
+            "color3": "#bebdb9",
+            "bg_color3": "#efefef",
+            "image4": "shopify://shop_images/spirit-orange_900x_d7bdfd85-0580-4e56-8733-4883f83a53cd.webp",
+            "color4": "#ff981d",
+            "bg_color4": "#ffdeb3",
+            "color5": "rgba(0,0,0,0)",
+            "bg_color5": "",
+            "color6": "",
+            "bg_color6": ""
+          }
+        },
+        "917067a3-98de-44c8-b1b4-8452be98d21b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The new upgrade of Ranger adds fenders and baskets, and fat tires suitable for various terrains making the ride more stable, Experience Unparalleled Comfort & Unrivaled Freedom, Like Never Before. Unleash Your Adventure with the Ranger Step-Thru!</p>"
+          }
+        },
+        "40f9ba5e-c729-4017-9ea8-66ec0e8ce030": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/a2-elite-folding-ebike",
+            "text": "Shop Now",
+            "size": "base",
+            "style": "fill",
+            "stretch": false,
+            "background": "#ff981d",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--21088352567572__fff4ee0c-82f6-4f20-ae0f-08ca7b373801-title-1",
+        "template--21088352567572__fff4ee0c-82f6-4f20-ae0f-08ca7b373801-price-1",
+        "template--21088352567572__fff4ee0c-82f6-4f20-ae0f-08ca7b373801-rating-1",
+        "468240ca-e1dc-4f59-b4f3-b19039eec006",
+        "917067a3-98de-44c8-b1b4-8452be98d21b",
+        "40f9ba5e-c729-4017-9ea8-66ec0e8ce030"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "aipas-a2-folding-ebike",
+        "order": "right",
+        "main_img": "shopify://shop_images/spirit-green_900x_b36406ec-44e9-409d-add5-41b09ccbe8cb.webp",
+        "background": "#e8f2e0",
+        "background_gradient": "",
+        "text_color": "#272727",
+        "input_background": "rgba(0,0,0,0)",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "sm",
+        "bottom_margin": "sm",
+        "top_padding_mb": "sm",
+        "bottom_padding_mb": "sm",
+        "top_margin_mb": "sm",
+        "bottom_margin_mb": "sm"
+      }
+    },
+    "9a10ac14-83e9-4d5e-980b-2a9f0c29aae0": {
+      "type": "featured-product-ebike",
+      "blocks": {
+        "8e638d2b-05dd-4bad-885d-19b67bc5166e": {
+          "type": "title",
+          "settings": {
+            "short_title": true,
+            "heading_tag": "h2"
+          }
+        },
+        "09206568-eb9a-4a21-8048-d0f6bcf1d523": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "c507626d-da1f-4a0a-8963-b3cc639f59ca": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "7f8c129f-5013-4fc2-9bf4-4827f4904187": {
+          "type": "color",
+          "settings": {
+            "image1": "shopify://shop_images/1_68f04409-4f6d-4938-bdde-323c4f5ab43e.jpg",
+            "color1": "#e3d6a1",
+            "bg_color1": "#e3d6a1",
+            "color2": "rgba(0,0,0,0)",
+            "bg_color2": "rgba(0,0,0,0)",
+            "color3": "rgba(0,0,0,0)",
+            "bg_color3": "rgba(0,0,0,0)",
+            "color4": "rgba(0,0,0,0)",
+            "bg_color4": "rgba(0,0,0,0)",
+            "color5": "rgba(0,0,0,0)",
+            "bg_color5": "",
+            "color6": "",
+            "bg_color6": ""
+          }
+        },
+        "fb98f045-ba8c-4eab-bfff-e70f1670f363": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The new upgrade of Ranger adds fenders and baskets, and fat tires suitable for various terrains making the ride more stable, Experience Unparalleled Comfort & Unrivaled Freedom, Like Never Before. Unleash Your Adventure with the Ranger Step-Thru</p>"
+          }
+        },
+        "e3b4e974-5ec0-41c5-8bac-9e2388d25184": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://products/a2-elite-folding-ebike",
+            "text": "Shop Now",
+            "size": "base",
+            "style": "fill",
+            "stretch": false,
+            "background": "#ff981d",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "8e638d2b-05dd-4bad-885d-19b67bc5166e",
+        "09206568-eb9a-4a21-8048-d0f6bcf1d523",
+        "c507626d-da1f-4a0a-8963-b3cc639f59ca",
+        "7f8c129f-5013-4fc2-9bf4-4827f4904187",
+        "fb98f045-ba8c-4eab-bfff-e70f1670f363",
+        "e3b4e974-5ec0-41c5-8bac-9e2388d25184"
+      ],
+      "settings": {
+        "full_width": false,
+        "product": "a8-d-electric-trike",
+        "order": "right",
+        "main_img": "shopify://shop_images/27.5_-3.png",
+        "background": "#e9bf16",
+        "background_gradient": "linear-gradient(180deg, rgba(196, 102, 238, 1), rgba(82, 218, 236, 1) 100%)",
+        "text_color": "#272727",
+        "input_background": "rgba(0,0,0,0)",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "sm",
+        "bottom_margin": "xl",
+        "top_padding_mb": "sm",
+        "bottom_padding_mb": "sm",
+        "top_margin_mb": "sm",
+        "bottom_margin_mb": "sm"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "main",
+    "fff4ee0c-82f6-4f20-ae0f-08ca7b373801",
+    "9a10ac14-83e9-4d5e-980b-2a9f0c29aae0"
+  ]
+}
