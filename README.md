@@ -1,10 +1,9 @@
-# Heybike
+拉模板代码 
+shopify theme pull --store=jasionbike.myshopify.com
+shopify theme push --store=jasionbike.myshopify.com
 
-## 主题配置拉取
-`shopify theme pull`
+启动本地开发
+shopify theme dev -e dev
 
-## Shopify服务启动
-`shopify theme serve`
-
-## Tailwind监听
-`npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/custom.css --watch`
+启动tailwind监听
+npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/tw-custom.css --watch
