@@ -11,4 +11,3 @@ npx tailwindcss -i ./assets/app-tailwind.css -o ./assets/tw-custom.css --watch
 $env:http_proxy = "http://127.0.0.1:10010"
 $env:https_proxy = "http://127.0.0.1:10010"
 $env:all_proxy = "http://127.0.0.1:10010"
-

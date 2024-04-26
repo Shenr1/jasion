@@ -355,8 +355,8 @@
         },
         "slide_fG4TnX": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/EB5_R_8cab3cd7-7cd8-4f1f-aa68-3334baaa9ab5.jpg",
             "navigation_label": "Finished Product",
             "subheading": "Subheading",
             "title": "Finished Product",

@@ -343,8 +343,8 @@
         },
         "slide_yJEdTn": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/STbuyer.jpg",
             "navigation_label": "Finished Product",
             "subheading": "",
             "title": "Finished Product",

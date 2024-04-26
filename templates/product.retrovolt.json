@@ -213,7 +213,6 @@
         "slide_VCetFy": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HUNTER_85c7a159-5f54-4a90-ae2a-b8b627cdce08.png",
             "navigation_label": "Flame Red",
             "subheading": "",
             "title": "Flame Red",
@@ -223,7 +222,6 @@
         "slide_mfkgyU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HUNTER_d24c8f50-997c-4209-adbb-86a6117e0cc6.png",
             "navigation_label": "Silver-Black Gradient",
             "subheading": "",
             "title": "Silver-Black Gradient",
@@ -233,7 +231,6 @@
         "slide_xEUbLm": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HUNTER_1267f54e-e44b-487b-b4cd-8211aa0cceab.png",
             "navigation_label": "Blue",
             "subheading": "",
             "title": "Blue",
@@ -913,18 +910,18 @@
             "content": "",
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
-            "item1": "<b>A --</b> Handlebar Length 25.2\"",
-            "item2": "<b>B -- </b> Hand Tube Fixed Height 13\"",
-            "item3": "<b>C -- </b> Chainstay 17.3\"",
-            "item4": "<b>D -- </b> Ground Clearance 5.9\"",
-            "item5": "<b>E --</b>  Wheelbase 46\"",
-            "item6": "<b>F --</b>  Total Length 69\"",
+            "item1": "<b>A --</b> Handlebar Length 28.7\"",
+            "item2": "<b>B -- </b> Hand Tube Fixed Height 5.9\"",
+            "item3": "<b>C -- </b> Chainstay 19.7\"",
+            "item4": "<b>D -- </b> Stand Over Height 32.7\"",
+            "item5": "<b>E --</b>  Wheelbase 42.5\"",
+            "item6": "<b>F --</b>  Total Length 66.9\"",
             "item7": "<b>G --</b> Wheel Diameter 22.8\"",
-            "item8": "<b>H --</b> Minimum Handlebar Height from Floor 46\"",
-            "item9": "<b>I --</b>  Maximum Handlebar Height from Floor 53.1\"",
-            "item10": "<b>J --</b> Minimum Seat Height from Floor 30\"",
-            "item11": "<b>K --</b> Maximum Seat Height from Floor 46\"",
-            "item12": "<b> Folded Size --</b>  29.5\"*33.5\"*15.7\"",
+            "item8": "<b>H --</b> Handlebar Height from Floor 43.3\"",
+            "item9": "<b>I --</b>  Minimum Seat Height from Floor 24.4\"",
+            "item10": "<b>J --</b> Maximum Seat Height from Floor 32.7\"",
+            "item11": "<b>K --</b> Head Angle 28.7\"",
+            "item12": "<b>L --</b> Frame Stack 20.9\"",
             "item13": "",
             "item14": ""
           }
