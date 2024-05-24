@@ -44,4 +44,32 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 
   
+  function funSwitchTab() {
+    $(".tab-switch-wrapper .tabs-wrapper .tab").click(function() {
+      const tabId = $(this).attr('tab-i');
+      const contentWrap = $(this).closest('.tab-switch-wrapper').find('.tab-content[tab-i="' + tabId + '"]');
+      contentWrap.siblings(".tab-content").fadeOut(150).promise().done(function() {
+        contentWrap.fadeIn(150);
+      });
+      
+      $(this).siblings().removeClass("active");
+      $(this).addClass("active");
+
+      $(this).parent(".tabs-wrapper").attr("active",tabId)
+    });
+  }
+  if($(".tab-switch-wrapper").length) funSwitchTab();
+
+  function funSlideTab(){
+    $(".slide-btn").click(function(){
+      const slideId = $(this).attr('slide-id');
+      const $slideWrap = $('.slide-wrapper[slide-id="' + slideId + '"]');
+      $slideWrap.slideToggle();
+      $(this).find("svg").toggleClass("tw-rotate-180")
+      $(this).toggleClass("active")
+    })
+  }
+  if($(".slide-btn").length) funSlideTab();
+
+
 });

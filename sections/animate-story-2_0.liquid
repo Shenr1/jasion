@@ -1,0 +1,267 @@
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+{% comment %} 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+{% endcomment %}
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script> 
+
+
+{%- if section.blocks.size > 0 -%}
+{%- liquid
+  assign se_stts = section.settings
+  assign se_bks = section.blocks
+%}
+
+  {%- render 'section-spacing-collapsing' -%}
+
+  <div {% render 'section-properties' %}>
+    <div class="animate-story md:tw-h-auto">
+
+      <div class="gs-animate-wrapper">
+        <div class="tw-flex tw-w-full md:tw-flex-row-reverse tw-flex-col-reverse tw-mb-8 tw-relative">
+          <div class="md:tw-w-2/5 tw-relative tw-z-[2] md:tw-bg-transparent tw-bg-stone-100">
+            {% for block in se_bks %}
+            {% assign bk_stts = block.settings %}
+            {% if forloop.first %} <div> {{ bk_stts.img | image_url: width: '50' | image_tag: width: '1080', class:"invisible md:tw-px-0 tw-px-8"}} </div> {% endif %}
+            {% assign bk_stts = block.settings %}
+              <div time-index="{{ forloop.index }}" {% unless forloop.first %}style="display:none" {% endunless %}
+                class="tw-absolute tw-top-0 tw-left-0 md:tw-rounded-2xl tw-rounded tw-overflow-hidden story-img md:tw-px-0 tw-px-8 gs-{{ forloop.index }}" >
+                {{ bk_stts.img | image_url: width: '1000' | image_tag: width: '1000,750,500'}}
+              </div>
+            {% endfor %}
+          </div>
+          <div class="story-contents md:tw-pr-12 tw-relative tw-flex-1 tw-flex tw-flex-col tw-z-[2]">
+            <div class="md:tw-border-solid tw-border-none tw-mb-12 tw-border-l-8 tw-border-vi md:tw-pl-8 md:tw-text-left tw-text-center">
+              <p class="md:tw-text-lg tw-text-2xl">{{se_stts.sub_title}}</p>
+              <h2 class="md:tw-text-5xl tw-text-3xl tw-font-bold">{{se_stts.title}}</h2>
+            </div>
+            <div class="tw-flex tw-items-center tw-flex-1 md:tw-text-left tw-text-center md:tw-py-0 tw-py-8 md:tw-px-8 tw-px-2 md:tw-bg-transparent tw-bg-stone-100 tw-rounded-t-2xl tw-relative">
+              <div class="md:tw-hidden tw-h-2 tw-bg-vi tw-w-1/5 tw-absolute tw-top-0 tw-left-1/2 -tw-translate-x-1/2"></div>
+              
+              
+              {% for block in se_bks %}
+                <div time-index="{{ forloop.index }}" class="story-content gs-{{ forloop.index }}" {% unless forloop.first %}style="display:none"{% endunless %}>
+                  <p class="md:tw-text-2xl tw-text-xl tw-font-semibold">{{ bk_stts.sub_title }}</p>
+                  <h3 class="xl:tw-text-4xl md:tw-text-3xl tw-text-2xl tw-my-4 tw-font-bold">{{ bk_stts.title }}</h3>
+                  <p>{{ bk_stts.content }}</p>
+                </div>
+              {% endfor %}
+            </div>
+          </div>
+          <div class="tw-absolute tw-rounded-xl md:tw-bg-stone-100 tw-w-full tw-bottom-0 tw-left-0 tw-h-3/4 tw-z-0"></div>
+        </div>
+
+        <div class="time-line tw-w-full tw-font-semibold tw-relative tw-grid tw-grid-cols-10">
+          <div class="tw-absolute tw-w-full roads-wrapper">
+
+            <svg id="motionPath" class="tw-overflow-visible" viewBox="{{se_stts.view_box}}">
+              <path id="roads" xmlns="http://www.w3.org/2000/svg" style="fill: none; stroke: #000000; stroke-width: 2; stroke-miterlimit: 10; stroke-dasharray: 8;" d="{{se_stts.road_path}}"/> 
+              <g id="bike" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;" data-svg-origin="57.66749954223633 63.800000238418576" transform="matrix(1,0,0,1,0,0)"><mask id="a" maskUnits="userSpaceOnUse" x="0" y="0" width="116" height="70" fill="#000"><path fill="#fff" d="M0 0h116v70H0z"></path><path d="M91.935 26.2c-.616 0-1.213.08-1.809.139l2.803 6.039c7.417.516 13.282 6.694 13.282 14.222s-6.402 14.282-14.296 14.282c-3.28 0-6.302-1.132-8.728-3h-8.271c3.658 5.483 9.901 9.118 17 9.118 11.253 0 20.419-9.157 20.419-20.4 0-11.243-9.166-20.4-20.42-20.4h.02zM24.791 39.152a1.908 1.908 0 0 0 1.909-1.907 1.908 1.908 0 0 0-1.909-1.907h-3.638c2.425-1.867 5.448-3 8.728-3 .1 0 .18 0 .259.02l3.36-5.8a19.776 19.776 0 0 0-3.619-.337c-7.078 0-13.321 3.635-17 9.117H4.91A1.908 1.908 0 0 0 3 37.245c0 1.053.855 1.907 1.909 1.907H24.79z"></path><path d="M79.767 54.03h.994a1.908 1.908 0 0 0 1.91-1.907 1.908 1.908 0 0 0-1.91-1.907h-2.604c-.298-1.152-.497-2.364-.497-3.615 0-4.629 2.227-8.72 5.646-11.342l5.886 12.633a3.071 3.071 0 0 0 2.783 1.768c.438 0 .875-.1 1.293-.278a3.065 3.065 0 0 0 1.49-4.072l-5.884-12.634h.02l-2.625-5.641h-.02L75.85 4.768l-.119-.179c-.06-.1-.1-.199-.179-.298a2.11 2.11 0 0 0-.179-.218c-.06-.08-.119-.16-.199-.219a2.12 2.12 0 0 1-.218-.179l-.239-.178a1.07 1.07 0 0 0-.258-.14c-.1-.04-.18-.099-.279-.139-.1-.04-.179-.06-.278-.079-.1-.02-.179-.06-.278-.08-.12-.02-.239-.02-.358-.04-.06 0-.14-.019-.2-.019h-8.052a3.062 3.062 0 0 0-3.061 3.059 3.062 3.062 0 0 0 3.061 3.059h6.104l3.957 8.522a2.47 2.47 0 0 0-.358.436l-1.292 1.927c-.239-.437-.557-.854-1.014-1.152a3.073 3.073 0 0 0-4.255.854l-8.37 12.554a3.07 3.07 0 0 0 .854 4.251c.458.298.955.437 1.452.477l-2.406 3.615-14.653-28.306h5.288c1.69 0 3.062-1.37 3.062-3.059a3.062 3.062 0 0 0-3.062-3.059H37.338a3.062 3.062 0 0 0-3.062 3.06 3.062 3.062 0 0 0 3.062 3.058h.875c.06.219.14.437.239.636l1.61 3.118h-15.31a1.908 1.908 0 0 0-1.908 1.907c0 1.053.855 1.907 1.908 1.907h17l.437.02c1.054 0 1.91.854 1.91 1.907a1.908 1.908 0 0 1-1.91 1.907h-2.644L27.198 45.05a3.107 3.107 0 0 0 0 3.06 3.025 3.025 0 0 0 2.644 1.529H43.8c-1.412 6.396-7.118 11.223-13.958 11.223-5.15 0-9.623-2.761-12.148-6.853h-6.78c2.983 7.568 10.34 12.97 18.968 12.97 10.22 0 18.67-7.547 20.161-17.34h9.325c.238 0 .497-.04.735-.1.1-.02.18-.059.279-.099 0 0 .04 0 .06-.02.119-.04.218-.06.337-.119 0 0 .02 0 .04-.02.1-.06.18-.119.259-.178.1-.06.199-.12.278-.2l.04-.039c.1-.08.179-.179.258-.278.06-.06.12-.139.18-.199.02-.04.059-.06.079-.079l16.144-24.234 2.585 5.542c-5.507 3.655-9.126 9.912-9.126 16.984 0 1.231.12 2.443.338 3.615h-4.871a1.908 1.908 0 0 0-1.909 1.907c0 1.053.855 1.907 1.909 1.907h5.965v.02h6.82v-.02zM35.211 43.542l4.314-7.469a14.18 14.18 0 0 1 4.334 7.469h-8.648zm14.852 0c-.776-5.185-3.5-9.714-7.436-12.852l2.644-4.569 9.067 17.42h-4.275z"></path><path d="M16.082 50.176h1.073a1.908 1.908 0 0 0 1.909-1.907 1.908 1.908 0 0 0-1.909-1.907h-1.53c.02-1.172.198-2.284.496-3.377H9.838a20.898 20.898 0 0 0-.338 3.377H5.683a1.908 1.908 0 0 0-1.909 1.907c0 1.053.855 1.907 1.909 1.907h4.136v.02h6.263v-.02z"></path></mask><path d="M91.935 26.2c-.616 0-1.213.08-1.809.139l2.803 6.039c7.417.516 13.282 6.694 13.282 14.222s-6.402 14.282-14.296 14.282c-3.28 0-6.302-1.132-8.728-3h-8.271c3.658 5.483 9.901 9.118 17 9.118 11.253 0 20.419-9.157 20.419-20.4 0-11.243-9.166-20.4-20.42-20.4h.02zM24.791 39.152a1.908 1.908 0 0 0 1.909-1.907 1.908 1.908 0 0 0-1.909-1.907h-3.638c2.425-1.867 5.448-3 8.728-3 .1 0 .18 0 .259.02l3.36-5.8a19.776 19.776 0 0 0-3.619-.337c-7.078 0-13.321 3.635-17 9.117H4.91A1.908 1.908 0 0 0 3 37.245c0 1.053.855 1.907 1.909 1.907H24.79z" fill="#000"></path><path d="M79.767 54.03h.994a1.908 1.908 0 0 0 1.91-1.907 1.908 1.908 0 0 0-1.91-1.907h-2.604c-.298-1.152-.497-2.364-.497-3.615 0-4.629 2.227-8.72 5.646-11.342l5.886 12.633a3.071 3.071 0 0 0 2.783 1.768c.438 0 .875-.1 1.293-.278a3.065 3.065 0 0 0 1.49-4.072l-5.884-12.634h.02l-2.625-5.641h-.02L75.85 4.768l-.119-.179c-.06-.1-.1-.199-.179-.298a2.11 2.11 0 0 0-.179-.218c-.06-.08-.119-.16-.199-.219a2.12 2.12 0 0 1-.218-.179l-.239-.178a1.07 1.07 0 0 0-.258-.14c-.1-.04-.18-.099-.279-.139-.1-.04-.179-.06-.278-.079-.1-.02-.179-.06-.278-.08-.12-.02-.239-.02-.358-.04-.06 0-.14-.019-.2-.019h-8.052a3.062 3.062 0 0 0-3.061 3.059 3.062 3.062 0 0 0 3.061 3.059h6.104l3.957 8.522a2.47 2.47 0 0 0-.358.436l-1.292 1.927c-.239-.437-.557-.854-1.014-1.152a3.073 3.073 0 0 0-4.255.854l-8.37 12.554a3.07 3.07 0 0 0 .854 4.251c.458.298.955.437 1.452.477l-2.406 3.615-14.653-28.306h5.288c1.69 0 3.062-1.37 3.062-3.059a3.062 3.062 0 0 0-3.062-3.059H37.338a3.062 3.062 0 0 0-3.062 3.06 3.062 3.062 0 0 0 3.062 3.058h.875c.06.219.14.437.239.636l1.61 3.118h-15.31a1.908 1.908 0 0 0-1.908 1.907c0 1.053.855 1.907 1.908 1.907h17l.437.02c1.054 0 1.91.854 1.91 1.907a1.908 1.908 0 0 1-1.91 1.907h-2.644L27.198 45.05a3.107 3.107 0 0 0 0 3.06 3.025 3.025 0 0 0 2.644 1.529H43.8c-1.412 6.396-7.118 11.223-13.958 11.223-5.15 0-9.623-2.761-12.148-6.853h-6.78c2.983 7.568 10.34 12.97 18.968 12.97 10.22 0 18.67-7.547 20.161-17.34h9.325c.238 0 .497-.04.735-.1.1-.02.18-.059.279-.099 0 0 .04 0 .06-.02.119-.04.218-.06.337-.119 0 0 .02 0 .04-.02.1-.06.18-.119.259-.178.1-.06.199-.12.278-.2l.04-.039c.1-.08.179-.179.258-.278.06-.06.12-.139.18-.199.02-.04.059-.06.079-.079l16.144-24.234 2.585 5.542c-5.507 3.655-9.126 9.912-9.126 16.984 0 1.231.12 2.443.338 3.615h-4.871a1.908 1.908 0 0 0-1.909 1.907c0 1.053.855 1.907 1.909 1.907h5.965v.02h6.82v-.02zM35.211 43.542l4.314-7.469a14.18 14.18 0 0 1 4.334 7.469h-8.648zm14.852 0c-.776-5.185-3.5-9.714-7.436-12.852l2.644-4.569 9.067 17.42h-4.275z" fill="#000"></path><path d="M16.082 50.176h1.073a1.908 1.908 0 0 0 1.909-1.907 1.908 1.908 0 0 0-1.909-1.907h-1.53c.02-1.172.198-2.284.496-3.377H9.838a20.898 20.898 0 0 0-.338 3.377H5.683a1.908 1.908 0 0 0-1.909 1.907c0 1.053.855 1.907 1.909 1.907h4.136v.02h6.263v-.02z" fill="#000"></path><path d="M91.935 26.2c-.616 0-1.213.08-1.809.139l2.803 6.039c7.417.516 13.282 6.694 13.282 14.222s-6.402 14.282-14.296 14.282c-3.28 0-6.302-1.132-8.728-3h-8.271c3.658 5.483 9.901 9.118 17 9.118 11.253 0 20.419-9.157 20.419-20.4 0-11.243-9.166-20.4-20.42-20.4h.02zM24.791 39.152a1.908 1.908 0 0 0 1.909-1.907 1.908 1.908 0 0 0-1.909-1.907h-3.638c2.425-1.867 5.448-3 8.728-3 .1 0 .18 0 .259.02l3.36-5.8a19.776 19.776 0 0 0-3.619-.337c-7.078 0-13.321 3.635-17 9.117H4.91A1.908 1.908 0 0 0 3 37.245c0 1.053.855 1.907 1.909 1.907H24.79z" stroke="#fff" stroke-width="6" mask="url(#a)"></path><path d="M79.767 54.03h.994a1.908 1.908 0 0 0 1.91-1.907 1.908 1.908 0 0 0-1.91-1.907h-2.604c-.298-1.152-.497-2.364-.497-3.615 0-4.629 2.227-8.72 5.646-11.342l5.886 12.633a3.071 3.071 0 0 0 2.783 1.768c.438 0 .875-.1 1.293-.278a3.065 3.065 0 0 0 1.49-4.072l-5.884-12.634h.02l-2.625-5.641h-.02L75.85 4.768l-.119-.179c-.06-.1-.1-.199-.179-.298a2.11 2.11 0 0 0-.179-.218c-.06-.08-.119-.16-.199-.219a2.12 2.12 0 0 1-.218-.179l-.239-.178a1.07 1.07 0 0 0-.258-.14c-.1-.04-.18-.099-.279-.139-.1-.04-.179-.06-.278-.079-.1-.02-.179-.06-.278-.08-.12-.02-.239-.02-.358-.04-.06 0-.14-.019-.2-.019h-8.052a3.062 3.062 0 0 0-3.061 3.059 3.062 3.062 0 0 0 3.061 3.059h6.104l3.957 8.522a2.47 2.47 0 0 0-.358.436l-1.292 1.927c-.239-.437-.557-.854-1.014-1.152a3.073 3.073 0 0 0-4.255.854l-8.37 12.554a3.07 3.07 0 0 0 .854 4.251c.458.298.955.437 1.452.477l-2.406 3.615-14.653-28.306h5.288c1.69 0 3.062-1.37 3.062-3.059a3.062 3.062 0 0 0-3.062-3.059H37.338a3.062 3.062 0 0 0-3.062 3.06 3.062 3.062 0 0 0 3.062 3.058h.875c.06.219.14.437.239.636l1.61 3.118h-15.31a1.908 1.908 0 0 0-1.908 1.907c0 1.053.855 1.907 1.908 1.907h17l.437.02c1.054 0 1.91.854 1.91 1.907a1.908 1.908 0 0 1-1.91 1.907h-2.644L27.198 45.05a3.107 3.107 0 0 0 0 3.06 3.025 3.025 0 0 0 2.644 1.529H43.8c-1.412 6.396-7.118 11.223-13.958 11.223-5.15 0-9.623-2.761-12.148-6.853h-6.78c2.983 7.568 10.34 12.97 18.968 12.97 10.22 0 18.67-7.547 20.161-17.34h9.325c.238 0 .497-.04.735-.1.1-.02.18-.059.279-.099 0 0 .04 0 .06-.02.119-.04.218-.06.337-.119 0 0 .02 0 .04-.02.1-.06.18-.119.259-.178.1-.06.199-.12.278-.2l.04-.039c.1-.08.179-.179.258-.278.06-.06.12-.139.18-.199.02-.04.059-.06.079-.079l16.144-24.234 2.585 5.542c-5.507 3.655-9.126 9.912-9.126 16.984 0 1.231.12 2.443.338 3.615h-4.871a1.908 1.908 0 0 0-1.909 1.907c0 1.053.855 1.907 1.909 1.907h5.965v.02h6.82v-.02zM35.211 43.542l4.314-7.469a14.18 14.18 0 0 1 4.334 7.469h-8.648zm14.852 0c-.776-5.185-3.5-9.714-7.436-12.852l2.644-4.569 9.067 17.42h-4.275z" stroke="#fff" stroke-width="6" mask="url(#a)"></path><path d="M16.082 50.176h1.073a1.908 1.908 0 0 0 1.909-1.907 1.908 1.908 0 0 0-1.909-1.907h-1.53c.02-1.172.198-2.284.496-3.377H9.838a20.898 20.898 0 0 0-.338 3.377H5.683a1.908 1.908 0 0 0-1.909 1.907c0 1.053.855 1.907 1.909 1.907h4.136v.02h6.263v-.02z" stroke="#fff" stroke-width="6" mask="url(#a)"></path></g>
+            </svg>
+
+          </div>
+          {% for block in se_bks %}
+          {% assign bk_stts = block.settings %}
+          <div class="time-item story-time-js tw-cursor-pointer tw-flex tw-flex-col tw-items-center tw-col-span-2 {% if forloop.first %}active{% endif %}"
+          time-index="{{ forloop.index }}">
+            <span class="tw-anm-dot tw-bg-stone-500 before:tw-bg-stone-500 md:tw-w-5 md:tw-h-5 tw-w-4 tw-h-4 tw-inline-block"></span>
+            <p class="tw-ml-1 md:tw-text-xl tw-text-lg">{{ bk_stts.time }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+{%- endif -%}
+
+
+<script>
+  $(function(){
+    function doChange(timeIndex){
+      $storyImg = $(`.story-img.gs-${timeIndex}`);
+      $storyTime = $(`.story-time-js[time-index='${timeIndex}']`);
+      $storyContent = $(`.story-content[time-index='${timeIndex}']`);
+
+      $storyImg.siblings(".story-img").fadeOut("fast")
+      .promise().done(function() {
+        $storyImg.fadeIn("fast")
+      });
+      
+      $storyContent.siblings(".story-content").fadeOut("fast")
+      .promise().done(function() {
+        $storyContent.fadeIn("fast")
+      });
+
+      $storyTime.addClass("active")
+      $storyTime.siblings().removeClass("active")
+    }
+    const bikeScale = $(window).width() > 768 ? .75 : 2;
+
+    gsap.registerPlugin(MotionPathPlugin);
+    gsap.set("#bike", {scale: bikeScale, autoAlpha: 1});
+    const bikeAnimation = gsap.to("#bike", {
+      ease: "power1.inOut",
+      immediateRender: true,
+      duration:8,
+      ease:"none",
+      motionPath: {
+        path: "#roads",
+        align: "#roads",
+        alignOrigin: [0.5, 0.8],
+        autoRotate: 0
+      },
+      paused: true
+    });
+
+    $(".story-time-js").click(function(){
+      console.log('1111111111');
+      
+      const tIndex = $(this).attr("time-index") * 1;
+      doChange(tIndex);
+      
+      //每段运行的时间
+      const averageTime = 8 / 6;
+      //当前运行的时间
+      const currentTime = gsap.getProperty(bikeAnimation, "time");
+      const startTime = averageTime * (tIndex - 1);
+      const targetTime = averageTime * (tIndex);
+      const scaleX = currentTime<targetTime?bikeScale:-bikeScale;
+
+      gsap.to("#bike", {
+        scaleX: scaleX,
+        duration: 0.5,
+      });
+      gsap.to(bikeAnimation, {
+        duration: targetTime - startTime,
+        time: targetTime,
+        ease: "power1.inOut"
+      })
+    })
+
+  $(".story-time-js[time-index=1]").click();
+
+  })
+ </script>
+
+
+{% schema %}
+{
+  "name": "Animate story",
+  "tag": "section",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "text",
+      "id": "sub_title",
+      "label": "Sub title",
+      "default": "JasionBike"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Long Range Ebike Expert"
+    },
+    {
+      "type": "textarea",
+      "id": "road_path",
+      "label": "Road path svg",
+      "default": "M49.57,0c0,27.47-45.35,27.47-45.35,54.93c0,27.47,45.35,27.47,45.35,54.93c0,27.47-45.35,27.47-45.35,54.93   c0,27.47,45.35,27.47,45.35,54.93c0,27.47-45.35,27.47-45.35,54.93c0,27.47,45.35,27.47,45.35,54.93   c0,27.47-45.35,27.47-45.35,54.93c0,27.47,45.35,27.47,45.35,54.93c0,27.47-45.35,27.47-45.35,54.94   c0,27.47,45.35,27.47,45.35,54.94",
+      "info": "M49.57,0c0,27.47-45.35,27.47-45.35,54.93c0,27.47,45.35,27.47,45.35,54.93c0,27.47-45.35,27.47-45.35,54.93   c0,27.47,45.35,27.47,45.35,54.93c0,27.47-45.35,27.47-45.35,54.93c0,27.47,45.35,27.47,45.35,54.93   c0,27.47-45.35,27.47-45.35,54.93c0,27.47,45.35,27.47,45.35,54.93c0,27.47-45.35,27.47-45.35,54.94   c0,27.47,45.35,27.47,45.35,54.94"
+    },
+    {
+      "type": "text",
+      "id": "view_box",
+      "label": "viewBox",
+      "default": "0 40 90 542"
+    },
+    {
+      "type": "header",
+      "content": "+General settings"
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading color"
+    },
+    {
+      "type": "color_background",
+      "id": "heading_gradient",
+      "label": "Heading gradient"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "text",
+          "id": "time",
+          "label": "Time Year",
+          "default": "2024"
+        },
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "Story Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Jasion EB7 2.0"
+        },
+        {
+          "type": "text",
+          "id": "sub_title",
+          "label": "Sub title",
+          "default": "Symbol of the Beginning of Adventure"
+        },
+        {
+          "type": "textarea",
+          "id": "content",
+          "label": "Content",
+          "default": "Jasion EB7 2.0 heralds the birth of our brand, as pioneers in thecycling realm, embodying a yearning for unknown adventures.From this moment forward, we present to you an array of thrillinginnovations, top-notch quality, and redefined riding experiences.Let us embark together on a new era of electric bicycles,exploring uncharted territories and pushing boundaries further."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "品牌故事 v2",
+      "blocks": [
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        },
+        {
+          "type": "item"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

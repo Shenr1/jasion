@@ -14,6 +14,10 @@ CSS
     --feature-chart-values-columns-count: {{ values_column_count }};
   }
 
+  {%- if section.blocks.size > 5 -%}
+    .feature-chart{ font-size:1rem}
+  {% endif %}
+
   @media screen and (min-width: 700px) {
     {%- if text_position == 'center' -%}
       #shopify-section-{{ section.id }} .section-stack__main {
@@ -110,7 +114,7 @@ LIQUID
           {%- comment -%}We need to create a first row for the products if any{%- endcomment -%}
           {%- if has_product -%}
             {%- capture product_row -%}
-              {%- for i in (0..4) -%}
+              {%- for i in (0..8) -%}
                 {%- if values_blocks[i].settings.product != blank -%}
                   {%- assign chart_product = values_blocks[i].settings.product -%}
 
@@ -194,7 +198,7 @@ LIQUID
                   <div class="feature-chart__heading bold" {% if outputted_count == 0 %}{{ headings_block.shopify_attributes }}{% endif %}>{{ heading_value }}</div>
                 {%- endif -%}
 
-                {%- for i in (0..4) -%}
+                {%- for i in (0..8) -%}
                   {%- if values_blocks[i] != blank -%}
                     {%- assign value = values_blocks[i].settings[value_key] -%}
                     {%- assign stripped_value = value | strip_html | strip -%}
@@ -508,7 +512,7 @@ LIQUID
     {
       "name": "Values column",
       "type": "values",
-      "limit": 5,
+      "limit": 8,
       "settings": [
         {
           "type": "product",

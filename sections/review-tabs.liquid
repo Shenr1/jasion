@@ -1,0 +1,450 @@
+{%- liquid
+  assign se_stts = section.settings
+  assign se_bks = section.blocks
+%}
+
+
+{%- render 'section-spacing-collapsing' -%}
+<div {% render 'section-properties' %}>
+  <section class="review-tabs_2">
+  <div class="tw-text-center md:tw-mb-20 tw-mb-12">
+    <div class="anm-bike-title after:tw-content-none md:after:tw-content-['']">
+      <h2 class="md:tw-text-5xl tw-text-3xl tw-font-bold tw-relative tw-z-[2]">{{se_stts.title}}</h2>
+    </div>
+  </div>
+  <div class="tab-switch-wrapper tw-relative">
+    <div class="tabs-wrapper tw-flex md:tw-gap-6 tw-gap-4 tw-justify-start tw-relative" active="1">
+      {% for block in se_bks %}
+      {% assign bk_stts = block.settings %}
+      <div tab-i="{{forloop.index}}" class="tab tw-underline-tab tw-text-center md:tw-text-xl md:tw-px-8 tw-px-4 tw-pb-2 {% if forloop.first %}active{% endif %}">
+        <span>{{bk_stts.tab_name}}</span>
+      </div>
+      {% if block.type == "review" %}
+      <div class="tw-absolute tw-right-0 tw-bottom-0 review-all-btn">
+        <a href="{{bk_stts.btn_url}}" class="button button--outline tw-py-3 tw-font-normal tw-shadow-[inset_0_0_0_1px] tw-text-stone-600">
+          {{bk_stts.btn_txt}}
+        </a>
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="contents-wrapper tw-mt-8">
+      <div class="tw-bg-stone-100 tw-relative md:tw-p-12 tw-p-4 md:tw-pt-10 md:tw-h-[480px] tw-h-[400px]">
+        {% for block in se_bks %}
+        {% assign bl_stts = block.settings %}
+
+        {% unless forloop.first %}
+        {% capture hiddenStyle %} style="display:none" {% endcapture %}
+        {% endunless %}
+
+        {% capture casControls %}
+        <div class="cas-controls tw-cas-controls tw-absolute tw-right-12 tw-bottom-1 tw-flex tw-fill-stone-600">
+          <div class="tw-cursor-pointer"> {%- render 'icon' with 'chevron-left-arrow', direction_aware: true, width:45, height:40 -%} </div>
+          <div class="tw-cursor-pointer"> {%- render 'icon' with 'chevron-right-arrow', direction_aware: true, width:45, height:40 -%} </div>
+        </div>
+        {% endcapture %}
+        {% case block.type %}
+          {% when "review" %}
+          <div class="tab-content review-wrapper" tab-i="{{ forloop.index }}" {{ hiddenStyle }} >
+            <div class="cas-main tw-flex tw-flex-nowrap invisible">
+              {% for item in (1..8) %}
+              <div>
+                <div class="tw-flex tw-items-center tw-gap-4">
+                  <div class="tw-w-16 tw-h-16 tw-bg-black tw-rounded-full"></div>
+                  <div>
+                    <h4 class="tw-font-bold tw-leading-none">Off to bad start</h4>
+                    <p class="tw-text-base tw-text-stone-600">2 days ago</p>
+                  </div>
+                </div>
+                <div class="rating tw-my-4">
+                  <div class="rating__stars" role="img" aria-label="{{ 'general.rating.info' | t: rating_value: block.settings.rating, rating_max: 5 }}">
+                    {%- for i in (1..5) -%}
+                      {%- if i <= 4 -%}
+                        {%- render 'icon' with 'rating-star', class: 'rating__star tw-w-5 tw-h-5' -%}
+                      {%- else -%}
+                        {%- render 'icon' with 'rating-star', class: 'rating__star tw-w-5 tw-h-5 rating__star--empty' -%}
+                      {%- endif -%}
+                    {%- endfor -%}
+                  </div>
+                </div>
+                <div>
+                  <p class="tw-text-base">
+                    I ordered a bike combo package with baskets,  fed ex  delivered 1 bike and no baskets.  Called customer service and was told for the first time that black bike and baskets were on back order until at least  mid June!  We ordered bikes specifically for memorial day weekend and was NEVER told of delay.  I just received an email like the entire order had been fulfilled
+                  </p>
+                </div>
+              </div>
+              {% endfor %}
+            </div>
+            {{ casControls }}
+          </div>
+          {% when "video" %}
+          <div class="tab-content video-wrapper" tab-i="{{ forloop.index }}" {{ hiddenStyle }} >
+            <div class="cas-main tw-flex tw-flex-nowrap invisible">
+              {% for item in (1..9) %}
+                {% assign titleKey = 'title_' | append: item %}
+                {% assign contentKey = 'content_' | append: item %}
+                {% assign videoKey = 'video_url_' | append: item %}
+
+                {% if bl_stts[videoKey] != blank %}
+                  <div>
+                    <h4 class="tw-font-bold">{{ bl_stts[titleKey] }}</h4>
+                    <p class="tw-mb-4 tw-text-base md:tw-h-12 tw-line-clamp-2 tw-text-stone-600">{{ bl_stts[contentKey] }}</p>
+                    <div class="tw-w-full tw-aspect-video tw-bg-stone-600" host="{{ bl_stts[videoKey].type }}" autoplay>
+                      {% comment %} <template> {% endcomment %}
+                        {%- if bl_stts[videoKey].type == 'youtube' -%}
+                          <iframe class="tw-w-full tw-h-full" src="https://www.youtube.com/embed/{{ bl_stts[videoKey].id }}?playsinline=1&controls=0&mute=1&loop=1&playlist={{ bl_stts[videoKey].id }}&enablejsapi=1&rel=0&modestbranding=1&origin={{ 'https://' | append: request.host | url_encode }}" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
+                        {%- elsif bl_stts[videoKey].type == 'vimeo' -%}
+                          <iframe class="tw-w-full tw-h-full" src="https://player.vimeo.com/video/{{ bl_stts[videoKey].id }}?autopause=1&background=1&loop=1&muted=1&transparent=0&responsive=1&portrait=0&title=0&byline=0" allow="autoplay; encrypted-media;" allowfullscreen="allowfullscreen"></iframe>
+                        {%- endif -%}
+                      {% comment %} </template> {% endcomment %}
+                    </div>
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {{ casControls }}
+          </div>
+          {% when "media" %}
+          <div class="tab-content media-wrapper md:tw-flex tw-items-center tw-h-full" tab-i="{{ forloop.index }}" {{ hiddenStyle }}> 
+            <div class="cas-main md:tw-pt-0 tw-pt-12 tw-flex tw-flex-nowrap invisible">
+              {% for item in (1..9) %}
+                {% assign authorKey = 'author_' | append: item %}
+                {% assign contentKey = 'content_' | append: item %}
+                {% assign logoKey = 'logo_' | append: item %}
+
+                {% if bl_stts[authorKey] != blank and bl_stts[logoKey] != blank %}
+                <div>
+                  <div class="tw-px-4 tw-flex tw-justify-center tw-mb-6 tw-h-12">
+                    {{ bl_stts[logoKey] | image_url: height: '60' | image_tag: height: '60', class: "tw-object-contain" }}
+                  </div>
+                  <div class="tw-text-center">
+                    <p class="tw-text-3xl tw-font-bold tw-min-h-24 tw-mb-4 tw-whitespace-break-spaces">{{bl_stts[contentKey]}}</p> 
+                    <p class="tw-text-2xl tw-whitespace-break-spaces"> {{bl_stts[authorKey]}} </p> 
+                  </div>
+                </div>
+              {% endif %}
+              {% endfor %}
+            </div>
+            {{ casControls }}
+          </div>
+
+
+            
+        {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+
+    {% for block in se_bks %}
+    {% assign bk_stts = block.settings %}
+    {% if block.type == "review" %}
+      <div class="tw-text-center tw-mt-8 review-all-btn">
+        <a href="{{bk_stts.btn_url}}" class="button button--outline tw-py-3 tw-font-normal tw-shadow-[inset_0_0_0_1px] tw-text-stone-600">
+          {{bk_stts.btn_txt}}
+        </a>
+      </div>
+    {% endif %}
+    {% endfor %}
+
+  </div>
+
+
+  </section>  
+</div>
+<script>
+  $(function(){
+    
+    {% comment %} Review {% endcomment %}
+    const shop_domain = `jasionride.myshopify.com`;
+    const api_token = `WHNyD19W01xoM-xSIcTcLQ7KYi0`;
+    const url = `https://judge.me/api/v1/reviews?api_token=${api_token}&shop_domain=${shop_domain}`;
+    {% comment %} 时间格式转化 {% endcomment %}
+    var dateString = "2024-05-11T06:14:11+00:00";
+    var currentDate = new Date();
+    var date = new Date(dateString);
+    var timeDiff = currentDate.getTime() - date.getTime();
+    var daysDiff = Math.floor(timeDiff / (1000 * 3600 * 24));
+    
+    var formattedDate;
+    if (daysDiff === 0) {
+      formattedDate = "just now";
+    } else if (daysDiff <= 3) {
+      formattedDate = daysDiff + " days ago";
+    } else {
+      var year = date.getFullYear();
+      var month = ("0" + (date.getMonth() + 1)).slice(-2);
+      var day = ("0" + date.getDate()).slice(-2);
+      formattedDate = year + "-" + month + "-" + day;
+    }
+    
+    console.log(formattedDate);
+
+  $(".cas-main").each(function() {
+      const controlsContainer = $(this).parents(".tab-content").find(".cas-controls")[0];
+      let mainTns = tns({
+        container: this,
+        items: 1,
+        swipeAngle: false,
+        loop:false,
+        mouseDrag:true,
+        preventActionWhenRunning: true,
+        controlsContainer: controlsContainer,
+        gutter: 16,
+        {% comment %} autoplay: true, {% endcomment %}
+        autoplayButtonOutput: false,
+        nav: false,
+        responsive: {
+          768: {
+            gutter: 24,
+            items: 2
+          },
+          1480: {
+            gutter: 36,
+            items: 3
+          }
+        }
+      });
+      $(this).removeClass("invisible");
+  })
+
+    
+
+
+
+  })
+</script> 
+
+{% schema %}
+{
+  "name": "Review tabs",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "What People Are Saying"
+    },
+    {
+      "type": "header",
+      "content": "+General settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "+ Header settings"
+        },
+        {
+          "type": "text",
+          "id": "tab_name",
+          "label": "Tab name",
+          "default": "Reviews"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt",
+          "label": "Button text",
+          "default": "See All Reviews"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "Button url"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "name": "Video",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "+ Header settings"
+        },
+        {
+          "type": "text",
+          "id": "tab_name",
+          "label": "Tab name",
+          "default": "Reviews Video"
+        },
+        {
+          "type": "header",
+          "content": "+ Video settings"
+        },
+        { "type": "textarea", "id": "title_1", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_1", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_1", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 2"
+        },
+        { "type": "textarea", "id": "title_2", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_2", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_2", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 3"
+        },
+        { "type": "textarea", "id": "title_3", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_3", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_3", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 4"
+        },
+        { "type": "textarea", "id": "title_4", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_4", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_4", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 5"
+        },
+        { "type": "textarea", "id": "title_5", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_5", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_5", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 6"
+        },
+        { "type": "textarea", "id": "title_6", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_6", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_6", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 7"
+        },
+        { "type": "textarea", "id": "title_7", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_7", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_7", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 8"
+        },
+        { "type": "textarea", "id": "title_8", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_8", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_8", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" },
+        {
+          "type": "header",
+          "content": "+ Video 9"
+        },
+        { "type": "textarea", "id": "title_9", "label": "Video content", "default": "Its full suspension design uses Horst link pivot." },
+        { "type": "textarea", "id": "content_9", "label": "Video content", "default": "Its full suspension design uses Horst link pivot, providingendless comfort for off-road adventures." },
+        { "type": "video_url", "id": "video_url_9", "label": "A video from Youtube or Vimeo", "accept": [ "youtube", "vimeo" ], "default": "https://www.youtube.com/watch?v=_9VUPq3SxOc" }
+      ]
+    },
+    {
+      "type": "media",
+      "name": "Media",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "header",
+          "content": "+ Header settings"
+        },
+        {
+          "type": "text",
+          "id": "tab_name",
+          "label": "Tab name",
+          "default": "Media Reviews"
+        },
+        {
+          "type": "header",
+          "content": "+ Content settings"
+        },
+        { "type": "image_picker", "id": "logo_1", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_1", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_1", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 2"
+        },
+        { "type": "image_picker", "id": "logo_2", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_2", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_2", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 3"
+        },
+        { "type": "image_picker", "id": "logo_3", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_3", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_3", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 4"
+        },
+        { "type": "image_picker", "id": "logo_4", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_4", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_4", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 5"
+        },
+        { "type": "image_picker", "id": "logo_5", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_5", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_5", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 6"
+        },
+        { "type": "image_picker", "id": "logo_6", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_6", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_6", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 7"
+        },
+        { "type": "image_picker", "id": "logo_7", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_7", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_7", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 8"
+        },
+        { "type": "image_picker", "id": "logo_8", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_8", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_8", "label": "Quote", "default": "Write some content about what they says about your store." },
+        {
+          "type": "header",
+          "content": "+ Content 9"
+        },
+        { "type": "image_picker", "id": "logo_9", "label": "Logo", "info": "Npx x 70px" },
+        { "type": "text", "id": "author_9", "label": "Author", "default": "Top Tier Tech Media" },
+        { "type": "textarea", "id": "content_9", "label": "Quote", "default": "Write some content about what they says about your store." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "多标签评论 v2"
+    }
+  ]
+}
+{% endschema %}

@@ -15,7 +15,14 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
 
+    <!-- jq Flickity -->
+    {% comment %} todo 提出 {% endcomment %}
+    <script async src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
+    <script async src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script async src="https://cdn.jsdelivr.net/gh/phucbm/flickity-responsive@latest/flickity-responsive.min.js"></script>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
      
      <!-- Google Tag Manager -->
@@ -120,7 +127,8 @@ document.querySelectorAll('form[action*="/cart/add"] button[type="submit"]').for
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
     <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
     <script type="module" src="{{ 'custom.js' | asset_url }}"></script>
-    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
 
     {{ content_for_header }}
 

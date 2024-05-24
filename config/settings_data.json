@@ -1,7 +1,7 @@
 {
   "current": {
     "page_width": 1700,
-    "section_vertical_spacing": "small",
+    "section_vertical_spacing": "large",
     "section_boxed_horizontal_spacing": "small",
     "button_border_radius": 60,
     "input_border_radius": 8,
@@ -33,7 +33,7 @@
     "heading_text_transform": "normal",
     "heading_letter_spacing": -1,
     "text_font": "roboto_n4",
-    "text_font_size_mobile": 13,
+    "text_font_size_mobile": 16,
     "text_font_size_desktop": 20,
     "currency_code_enabled": false,
     "show_page_transition": false,
@@ -51,17 +51,17 @@
     "product_info_alignment": "start",
     "cart_type": "drawer",
     "cart_icon": "shopping_cart",
-    "cart_empty_button_link": "shopify://collections/electric-bike",
+    "cart_empty_button_link": "shopify:\/\/collections\/electric-bike",
     "cart_show_free_shipping_threshold": false,
     "cart_free_shipping_threshold": 100,
-    "social_facebook": "https://www.facebook.com/jasionebikes",
-    "social_twitter": "https://twitter.com/jasionbike",
-    "social_pinterest": "https://www.pinterest.com/jasionbike_official/",
-    "social_instagram": "https://www.instagram.com/jasionbikes/",
-    "social_youtube": "https://www.youtube.com/@JasionBike",
-    "social_tiktok": "https://www.tiktok.com/@jasionbike_official",
-    "favicon": "shopify://shop_images/Jasion-icon.png",
-    "checkout_logo_image": "shopify://shop_images/logo_1.png",
+    "social_facebook": "https:\/\/www.facebook.com\/jasionebikes",
+    "social_twitter": "https:\/\/twitter.com\/jasionbike",
+    "social_pinterest": "https:\/\/www.pinterest.com\/jasionbike_official\/",
+    "social_instagram": "https:\/\/www.instagram.com\/jasionbikes\/",
+    "social_youtube": "https:\/\/www.youtube.com\/@JasionBike",
+    "social_tiktok": "https:\/\/www.tiktok.com\/@jasionbike_official",
+    "favicon": "shopify:\/\/shop_images\/Jasion-icon.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo_1.png",
     "checkout_logo_size": "small",
     "checkout_body_background_color": "#f2f2f2",
     "checkout_sidebar_background_color": "#ffffff",
@@ -72,7 +72,7 @@
       "main-gift-card": {
         "type": "main-gift-card",
         "settings": {
-          "image": "shopify://shop_images/giftcard.jpg",
+          "image": "shopify:\/\/shop_images\/giftcard.jpg",
           "show_qr_code": true,
           "amount_background": "",
           "amount_text_color": ""
@@ -84,32 +84,32 @@
     ],
     "blocks": {
       "14060646107696862457": {
-        "type": "shopify://apps/judge-me-product-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
         "settings": {
         }
       },
       "12120936241911852800": {
-        "type": "shopify://apps/judge-me-product-reviews/blocks/reviews_tab/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": true,
         "settings": {
           "position": "right"
         }
       },
       "17368511000352060744": {
-        "type": "shopify://apps/goaffpro-affiliate-marketing/blocks/goaffpro-embedded-pixel/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
+        "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
         "disabled": false,
         "settings": {
         }
       },
       "1513253815146976218": {
-        "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
+        "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
         "settings": {
         }
       },
       "15683396631634586217": {
-        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": true,
         "settings": {
           "button_color": "#030303",
@@ -123,19 +123,19 @@
         }
       },
       "14518425691352670886": {
-        "type": "shopify://apps/salesmartly-chat/blocks/app-embed/4bf78eed-749c-492d-93f8-2182f15aa6da",
+        "type": "shopify:\/\/apps\/salesmartly-chat\/blocks\/app-embed\/4bf78eed-749c-492d-93f8-2182f15aa6da",
         "disabled": false,
         "settings": {
         }
       },
       "5784066569132941777": {
-        "type": "shopify://apps/s-store-locator/blocks/embed-app/e7003487-cc51-4321-9488-2c47c07a5b17",
+        "type": "shopify:\/\/apps\/s-store-locator\/blocks\/embed-app\/e7003487-cc51-4321-9488-2c47c07a5b17",
         "disabled": false,
         "settings": {
         }
       },
       "6279071938380501511": {
-        "type": "shopify://apps/powerful-form-builder/blocks/app-embed/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+        "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {
         }

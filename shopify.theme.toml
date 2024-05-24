@@ -1,4 +1,4 @@
 [environments.dev]
-theme = "141097468141"
+theme = "141741424877"
 store = "jasionride.myshopify.com"
 ignore_files = ['config/*.json','config/*/*.json','templates/*.json','templates/*/*.json']
