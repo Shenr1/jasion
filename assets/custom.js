@@ -71,5 +71,15 @@ document.addEventListener("DOMContentLoaded", function() {
   }
   if($(".slide-btn").length) funSlideTab();
 
+  function funSlideSelect(){
+    $(".tw-round-select[active-fun='hover']").hover(function() {
+      var $this = $(this);
+      $this.find(".select-option").stop().slideToggle(200);
+      $this.find("svg").stop().toggleClass("tw-rotate-180");
+    });
+  }
+  if($(".tw-round-select").length) funSlideSelect();
+
+
 
 });

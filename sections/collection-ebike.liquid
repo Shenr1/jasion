@@ -1,5 +1,8 @@
 {%- render 'section-spacing-collapsing' -%}
-
+{%- liquid
+  assign se_stts = section.settings
+  assign se_bks = section.blocks
+%}
 {%- if section.settings.show_filters and collection.filters.size > 0 -%}
   {%- assign show_filters = true -%}
 {%- else -%}
@@ -7,7 +10,9 @@
 {%- endif -%}
 
 
-<div class="container">
+<div class="">
+
+
   {%- if collection.all_products_count == 0 -%}
     <div class="empty-state">
       <div class="empty-state__icon-wrapper">
@@ -23,6 +28,28 @@
   {%- else -%}
     {%- paginate collection.products by section.settings.products_per_page -%}
       <div class="collection {% if show_filters %}collection--filters-{{ section.settings.filter_layout | escape }}{% endif %}">
+        
+        {% if se_bks.size > 0 %}
+          {% comment %} 其他集合的标签 {% endcomment %}
+          <div class="tw-flex tw-gap-4 md:tw-flex-nowrap tw-flex-wrap tw-justify-start tw-mb-6 container">
+            {% for block in se_bks %}
+              {% assign bk_stts = block.settings %}
+              {% assign coll = bk_stts.coll %}
+              {% if coll != blank %}
+
+              {% assign actColl = false %}
+              {% if collection.handle == coll.handle %}
+                {% assign actColl = true %}
+              {% endif %}
+
+              <a href="{{ coll.url }}" class="{% if actColl %}active{% endif %} tw-black-tab tw-text-xl tw-bg-stone-100 hover:tw-bg-stone-400 hover:tw-text-white tw-transition-all tw-cursor-pointer tw-text-center tw-px-6 tw-py-2 tw-rounded">
+                <span>{{ coll.title }}</span>
+              </a>
+            {% endif %}
+            {% endfor %}
+          </div>
+        {% endif %}
+
         {%- if show_filters or section.settings.show_sort_by -%}
           {%- comment -%}
           IMPLEMENTATION NOTE: we have to output the drawer no matter what, as it is used on mobile (all the time) or desktop (when in drawer mode)
@@ -33,11 +60,13 @@
             {%- render 'facets-vertical', results: collection, show_filters: true, show_sort_by: section.settings.show_sort_by, update_on_change: false -%}
           </facet-drawer>
 
-          {%- if section.settings.filter_layout == 'horizontal' -%}
-            {%- render 'collection-top-bar', results: collection, show_filters: show_filters, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
-          {%- else -%}
-            {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
-          {%- endif -%}
+          <div class="container">
+            {%- if section.settings.filter_layout == 'horizontal' -%}
+              {%- render 'collection-top-bar', results: collection, show_filters: show_filters, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+            {%- else -%}
+              {%- render 'collection-top-bar', results: collection, show_filters: false, show_active_filters: show_filters, show_sort_by: section.settings.show_sort_by -%}
+            {%- endif -%}
+          </div>
 
           {%- comment -%}We also need to render the button, that is floating on mobile{%- endcomment -%}
           <facet-floating-filter class="facets__floating-filter md:hidden">
@@ -54,7 +83,7 @@
           </div>
         {%- endif -%}
 
-        <div class="collection__results">
+        <div class="collection__results md:tw-mt-12">
           {%- if collection.products_count == 0 -%}
             <div class="empty-state">
               <div class="empty-state__icon-wrapper">
@@ -71,16 +100,16 @@
             </div>
           {%- else -%}
             <div class="v-stack gap-6">
-              <div class="v-stack gap-4 md:hidden">
+              {% comment %} <div class="v-stack gap-4 md:hidden">
                 {%- comment -%}We have to duplicate some information on mobile and tablet here{%- endcomment -%}
                 <p class="text-center">{{ 'collection.products_count' | t: count: collection.products_count }}</p>
                 {%- render 'active-facets', results: collection -%}
-              </div>
+              </div> {% endcomment %}
 
               <reveal-items selector=".product-list > *">
-                <product-list class="product-list" role="region" aria-live="polite">
+                <product-list class="product-list md:tw-gap-10 tw-gap-14 ebike-card-2_0" role="region" aria-live="polite">
                   {%- for product in collection.products -%}
-                    {%- render 'product-ebike-card', product: product, stacked: true, show_badges: false -%}
+                    {%- render 'product-ebike-card-2_0', product: product, stacked: true, show_badges: false, se_stts: se_stts -%}
                   {%- endfor -%}
                 </product-list>
               </reveal-items>
@@ -101,6 +130,18 @@
   "tag": "section",
   "settings": [
     {
+      "type": "checkbox",
+      "id": "show_des",
+      "label": "Show product description",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_par_des",
+      "label": "Show parameters description",
+      "default": true
+    },
+    {
       "type": "range",
       "id": "products_per_page",
       "label": "Products per page",
@@ -119,6 +160,40 @@
       "id": "show_btn",
       "label": "shop button",
       "default": "Shop now"
+    },
+    {
+      "type": "text",
+      "id": "order_content",
+      "label": "Order Content",
+      "default": "Order Now From"
+    },
+    {
+      "type": "text",
+      "id": "btn_txt_2",
+      "label": "Combo sale txt",
+      "default": "Combo Sale"
+    },
+    {
+      "type": "header",
+      "content": "Giveaway content"
+    },
+    {
+      "type": "text",
+      "id": "gift_title",
+      "label": "Gift title",
+      "default": "GIFT PRODUCTS:"
+    },
+    {
+      "type": "textarea",
+      "id": "gift_des",
+      "label": "Gift description",
+      "default": "Order now, and you will receive the following products for free."
+    },
+    {
+      "type": "text",
+      "id": "free",
+      "label": "Free text",
+      "default": "FREE"
     },
     {
       "type": "header",
@@ -188,6 +263,20 @@
       "label": "Open first group by default",
       "default": false
     }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Collections tab",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "coll",
+          "label": "collection"
+        }
+      ]
+    }
   ]
+  
 }
 {% endschema %}

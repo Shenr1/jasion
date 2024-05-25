@@ -122,9 +122,6 @@ h0, h1, h2, h3, h4, h5, h6{@apply tw-font-semibold}
 [section-name="tabs-image-text-list"] .product-card {@apply tw-inline}
 
 /* ja 2.0 */
-
-.section-full{@apply tw-px-0}
-
 .tw-black-tab{@apply tw-bg-stone-100 hover:tw-bg-stone-400 hover:tw-text-white tw-transition-all tw-cursor-pointer tw-text-center }
 .tw-black-tab.active{@apply tw-bg-black tw-text-white}
 
@@ -170,6 +167,12 @@ h0, h1, h2, h3, h4, h5, h6{@apply tw-font-semibold}
 .featured-product_2 .color-swatch {
   --swatch-size: var(--spacing-9);
 }
+.ebike-card-2_0 .card-price .line-through{@apply tw-hidden}
+.ebike-card-2_0 .card-price .text-on-sale{@apply tw-font-bold}
+
+.tw-bd-blur-md{-webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px);}
+
+.tw-vi-a{@apply hover:tw-text-vi tw-transition-all}
 
 @media (max-width: 768px) {
   .shopify-section--media-grid .media-grid .media-grid__item:first-child,

@@ -30,8 +30,19 @@
           "settings": {
             "tab_name": "Roamer",
             "btn_2_text": "Combo Sale",
-            "btn_url": "",
+            "btn_url": "shopify:\/\/products\/combo-sale-eb7-2-0-folding-fat-tire-electric-bike",
             "pr": "jasion-eb7-electric-bike",
+            "pr_des": "Its full suspension design uses Horst link pivot, providingendlesscomfort for off-road adventures.",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
+          }
+        },
+        "product_nCVqNy": {
+          "type": "product",
+          "settings": {
+            "tab_name": "X-Hunter",
+            "btn_2_text": "Combo Sale",
+            "btn_url": "shopify:\/\/products\/jasion®-combo-sale-x-hunter-2",
+            "pr": "jasion-x-hunter",
             "pr_des": "Its full suspension design uses Horst link pivot, providingendlesscomfort for off-road adventures.",
             "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc"
           }
@@ -40,7 +51,8 @@
       "block_order": [
         "product_bF76Vy",
         "product_8kh3te",
-        "product_9gBfVP"
+        "product_9gBfVP",
+        "product_nCVqNy"
       ],
       "settings": {
         "title": "Explore Our Cool Models",

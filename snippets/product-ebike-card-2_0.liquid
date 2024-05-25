@@ -1,0 +1,207 @@
+{%- assign show_rating = show_rating | default: settings.show_product_rating, allow_false: true -%}
+{%- assign show_vendor = show_vendor | default: settings.show_vendor, allow_false: true -%}
+{%- assign show_secondary_image = show_secondary_image | default: settings.show_secondary_image, allow_false: true -%}
+{%- assign text_alignment = text_alignment | default: settings.product_info_alignment -%}
+{%- assign show_par_des = section.settings.show_par_des -%}
+{%- assign show_des = section.settings.show_des -%}
+
+{%- if stacked and section.settings.products_per_row_mobile == '2' -%}
+  {%- assign mobile_reduced = true -%}
+{%- endif -%}
+
+{%- assign section_background = section.settings.background_gradient | default: section.settings.background | default: settings.background -%}
+{%- assign card_background = background | default: settings.product_card_background -%}
+{%- assign card_text_color = text_color | default: settings.product_card_text_color -%}
+
+{%- if section_background != 'rgba(0,0,0,0)' and card_background != 'rgba(0,0,0,0)' and section_background != card_background -%}
+  {%- assign card_class = 'product-card ' -%}
+{%- else -%}
+  {%- assign card_class = 'product-card product-card--blends ' -%}
+{%- endif -%}
+
+{%- if show_secondary_image and product.media.size > 1 -%}
+  {%- assign card_class = card_class | append: 'product-card--show-secondary-media' -%}
+{%- endif -%}
+
+<product-card handle="{{ product.handle | escape }}" {% if reveal %}reveal-js{% endif %} {% render 'surface', class: card_class, background: card_background, text_color: card_text_color %}>
+  <div class="tw-flex md:tw-flex-row tw-flex-wrap tw-flex-col container">
+   
+    <div class="xl:tw-w-[30%] md:tw-w-1/2 md:tw-pr-4 tw-order-2">
+      <div class="product-card__info tw-pt-0 tw-flex tw-flex-col tw-h-full {% if text_alignment == 'center' %}product-card__info--center{% endif %}">
+        {%- if show_vendor and product.vendor != blank -%}
+          {%- if show_rating and text_alignment != 'center' -%}
+            <div class="rating-with-text w-full">
+              {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
+
+              {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
+              {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
+            </div>
+          {%- else -%}
+            {%- render 'vendor' with product.vendor, class: 'text-xs' -%}
+          {%- endif -%}
+        {%- endif -%}
+
+        <div class="v-stack gap-0.5 w-full tw-group {% if text_alignment == 'center' %}justify-items-center{% endif %}">
+          
+            <div class="">
+              <span class="product-card__title md:tw-text-4xl tw-text-3xl">
+                <a href="{{ product.url }}" class="bold tw-vi-a" data-instant>{{ product.title }}</a>
+              </span>
+
+              {%- if show_rating and show_vendor == false or product.vendor == blank -%}
+                {% assign mateInfo = product.metafields.custom.info.value %}
+                {% if mateInfo != blank and show_des %}
+                <p class="md:tw-text-xl tw-text-stone-500 tw-mb-3 tw-line-clamp-2"> {{ mateInfo }}</p>
+                {% endif %}
+                {%- if text_alignment != 'center' -%}
+                  {%- capture rating_class -%}tw-my-2{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
+                  {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
+                {%- endif -%}
+              {%- endif -%}
+
+            </div>
+
+
+          {%- if settings.product_color_display != 'hide' and show_swatches != false -%}
+            {%- assign color_label_list = 'general.label.color' | t | replace: ', ', ',' | downcase | split: ',' -%}
+            {%- for color_label in color_label_list -%}
+              {%- if product.options_by_name[color_label] != blank -%}
+                {%- assign product_option = product.options_by_name[color_label] -%}
+                {%- capture name -%}swatch-{{ section.id }}-{{ product.id }}-{{ product_option.position }}{%- endcapture -%}
+                <div class="product-card__aside md:tw-mt-12 tw-mt-4 tw-mb-4">
+                  <fieldset class="product-card__swatch-list h-stack {% if settings.color_swatch_style == 'rectangle' %}gap-2.5{% else %}gap-0.5{% endif %}" data-option-position="{{ product_option.position }}">
+                    {%- for option_value in product_option.values limit: 6 -%}
+                      {%- if forloop.first or product.selected_or_first_available_variant.matched and option_value == product_option.selected_value -%}
+                        {%- assign selected = true -%}
+                      {%- else -%}
+                        {% assign selected = false %}
+                      {%- endif -%}
+                      <h1>{{ swatch }}</h1>
+                      {%- render 'swatch' with 'color', value: option_value, name: name, selected: selected -%}
+                    {%- endfor -%}
+
+                    {% if product_option.values.size > 6 %}
+                      <a href="{{ product.url }}" data-instant class="color-swatch__view-more {% if settings.color_swatch_style == 'round' %}rounded-full{% endif %} text-xxs text-subdued">+{{ product_option.values.size | minus: 6 }}</a>
+                    {% endif %}
+                  </fieldset>
+                </div>
+                {%- break -%}
+              {%- endif -%}
+            {%- endfor -%}
+          {%- endif -%}
+          
+        </div>
+
+        {%- if show_rating and mobile_reduced or text_alignment == 'center' -%}
+          {%- capture rating_class -%}{% unless text_alignment == 'center' %}sm:hidden{% endunless %}{%- endcapture -%}
+          {%- render 'product-rating', product: product, class: rating_class, display_mode: settings.product_rating_mode -%}
+        {%- endif -%}
+
+
+        <div class="ebike-specs-wrap tw-mb-4">
+          {%- assign specs = product.metafields.custom.specifications.value -%}
+          <div class="tw-grid md:tw-gap-5 tw-gap-2 tw-grid-cols-2">
+            {% for i in (0..5) %}
+              <div class="">
+                <p class="tw-text-lg tw-font-bold">- {{specs.title_list.value[i]}} </p>
+                {% if specs.content_list.value[i] != blank and show_par_des %}
+                <p class="tw-text-stone-600 tw-text-base">{{specs.content_list.value[i]}} </p>
+                {% endif %}
+              </div>
+             {% endfor %}
+          </div>
+        </div>
+
+      </div>
+    </div>
+   
+    <div class="md:tw-w-1/2 md:tw-items-start md:tw-flex tw-relative tw-order-3 md:tw-mx-0 -tw-mx-4" style="background-color:{{section.settings.product_bg}}">
+      {%- if show_badges and product.media.size > 0 -%}
+        {%- render 'product-badges', product: product, class: 'product-card__badge-list' -%}
+      {%- endif -%}
+
+      {%- if product.media.size > 0 -%}
+        {% assign sales_img = product.metafields.custom.sales_img %}
+        <div class="product-card__figure">
+          <a href="{{ product.url }}" data-instant>
+            {%- capture sizes -%}
+              {%- if stacked -%}
+                (max-width: 699px) calc(100vw / {{ section.settings.products_per_row_mobile }} - 40px), (max-width: 1200px) calc(100vw / {{ 3 | at_most: section.settings.products_per_row_desktop }} - 64px), calc(min(100vw - 96px, {{ settings.page_width }}px) / {{ section.settings.products_per_row_desktop }} - (24px / {{ section.settings.products_per_row_desktop }} * {{ section.settings.products_per_row_desktop | minus: 1 }}))
+              {%- else -%}
+                (max-width: 699px) 74vw, (max-width: 999px) 38vw, calc(min(100vw - 96px, {{ settings.page_width }}px) / {{ section.settings.products_per_row_desktop }} - (24px / {{ section.settings.products_per_row_desktop }} * {{ section.settings.products_per_row_desktop | minus: 1 }}))
+              {%- endif -%}
+            {%- endcapture -%}
+  
+            {%- capture main_image_classes -%}product-card__image product-card__image--primary {% if settings.product_image_aspect_ratio contains 'crop' %}object-fill-safe{% endif %} aspect-{{ settings.product_image_aspect_ratio | split: '_' | first }}{%- endcapture -%}
+            {{- product.featured_media | image_url: width: product.featured_media.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: main_image_classes -}}
+  
+            {%- if show_secondary_image and product.media.size > 1 -%}
+              {%- assign next_media = product.media[product.featured_media.position] | default: product.media[1] -%}
+              {{- next_media | image_url: width: next_media.width | image_tag: class: 'product-card__image product-card__image--secondary object-fill', loading: 'lazy', fetchpriority: 'low', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800' -}}
+            {%- endif -%}
+
+
+            {%- if sales_img.value != blank -%}
+              <div class=" tw-absolute tw-left-0 tw-top-0">
+                {{- sales_img | image_url: width: product.metafields.custom.sales_img.width | image_tag: loading: 'lazy', sizes: sizes, widths: '200,300,400,500,600,700,800,1000,1200,1400,1600,1800', class: "" -}}
+              </div>
+            {%- endif -%}
+
+          </a>
+  
+        </div>
+      {%- endif -%}
+
+      {% if product.metafields.custom.badge %}
+        <div class="md:tw-min-w-24 tw-min-w-12 md:tw-relative tw-absolute tw-top-4 tw-left-4">
+            {% assign img = product.metafields.custom.badge %}
+            {{- img | image_url: width: img.width | image_tag: loading: 'lazy' -}}
+        </div>
+      {% endif %}
+
+
+    </div>
+
+    {% assign btnClass = "md:tw-ml-auto md:tw-min-w-56 md:tw-w-auto tw-w-[calc(50%_-_.5rem)]" %}
+    <div class="right-wrapper md:tw-w-1/5 md:tw-mt-0 tw-mt-4 md:tw-order-4 tw-order-2 tw-flex md:tw-flex-col md:tw-gap-4 tw-gap-2 tw-items-start">
+      <a href="{{ product.url }}" class="button button--secondary tw-shrink-0 tw-py-4 tw-leading-none tw-font-normal {{ btnClass }} tw-text-lg">
+        {{ 'general.accessibility.read_more' | t }}
+      </a>
+        
+      {% assign combo_products = product.metafields.custom.combo_products %}
+      {% assign removeTitle = "Jasion Ebike®Combo Sale" %}
+      {% if combo_products.value %}
+      <div active-fun="hover" class="tw-round-select tw-transition-all tw-inline-block button button--outline tw-group {{ btnClass }} tw-px-0 tw-py-4 tw-rounded-[30px]" >
+        <div class="tw-cursor-pointer tw-font-normal tw-flex tw-justify-center tw-items-center">
+          <span class="tw-mr-2 tw-text-lg tw-leading-none">{{section.settings.btn_txt_2}}</span>
+          {%- render 'icon' with 'chevron-bottom-small',width: "16", height:"16",stroke: ".5" -%}
+        </div>
+        <ul style="display:none" class="select-option tw-mt-4 tw-py-2 tw-border-t tw-border-solid tw-border-stone-300">
+          {% for product in combo_products.value %}
+            <li class="tw-cursor-pointer tw-text-sm hover:tw-underline hover:tw-opacity-100 tw-opacity-70">
+              <a target="_blank" href="{{ product.url }}" class="tw-p-2 tw-block">{{product.title | remove: removeTitle }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+
+  
+    </div>
+
+  </div> 
+
+  <div class="tw-absolute md:tw-py-4 tw-py-2 tw-w-full md:tw-bottom-2 -tw-bottom-2 tw-left-0 tw-bg-stone-100 tw-bg-opacity-60 tw-bd-blur-md bottom-wrapper">
+    <div class="container tw-flex tw-justify-between">
+      <a class="tw-flex tw-gap-4 tw-items-center card-price tw-vi-a" href="{{ product.url }}">
+        <span>{{section.settings.order_content}}</span>
+        {%- render 'price-list', product: product,hide_unit_price:true -%}
+        {%- render 'icon' with 'chevron-right-thin',width: "18", height:"18",stroke: ".5" -%}
+      </a>
+      <a class="tw-font-semibold tw-flex tw-items-center tw-vi-a tw-gap-4" href="{{ product.url }}">
+        {{ 'general.accessibility.read_more' | t }}
+        {%- render 'icon' with 'chevron-right-thin',width: "18", height:"18",stroke: ".5" -%}
+      </a>
+    </div>
+  </div>
+</product-card>

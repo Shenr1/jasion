@@ -2,16 +2,86 @@
   "sections": {
     "banner": {
       "type": "collection-banner",
-      "disabled": true,
+      "blocks": {
+        "item_dDpGFb": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_color": "",
+            "title": "Heading"
+          }
+        },
+        "item_EPMCHJ": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_color": "",
+            "title": "Heading"
+          }
+        },
+        "item_mj3mGK": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_color": "",
+            "title": "Heading"
+          }
+        },
+        "item_mkj7ca": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_color": "",
+            "title": "Heading"
+          }
+        },
+        "item_gV9jaC": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_color": "",
+            "title": "Heading"
+          }
+        },
+        "item_wnxHr3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-coupon",
+            "mobile_icon_width": 24,
+            "icon_width": 32,
+            "icon_color": "",
+            "title": "Heading"
+          }
+        }
+      },
+      "block_order": [
+        "item_dDpGFb",
+        "item_EPMCHJ",
+        "item_mj3mGK",
+        "item_mkj7ca",
+        "item_gV9jaC",
+        "item_wnxHr3"
+      ],
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
-        "enable_parallax": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
         "show_collection_title": false,
         "show_collection_description": false,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "collection_title_size": "h3",
-        "image_size": "sm",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/etst.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "",
@@ -24,16 +94,21 @@
     "main": {
       "type": "collection-ebike",
       "settings": {
+        "show_des": true,
+        "show_par_des": true,
         "products_per_page": 24,
         "product_bg": "rgba(0,0,0,0)",
         "show_btn": "Shop now",
-        "filter_layout": "sidebar",
+        "gift_title": "GIFT PRODUCTS:",
+        "gift_des": "Order now, and you will receive the following products for free.",
+        "free": "FREE",
+        "filter_layout": "horizontal",
         "show_sort_by": false,
-        "show_filters": false,
+        "show_filters": true,
         "show_filter_group_name": true,
-        "show_color_swatch": true,
-        "show_empty_filter_values": true,
-        "show_filter_values_count": false,
+        "show_color_swatch": false,
+        "show_empty_filter_values": false,
+        "show_filter_values_count": true,
         "open_first_filter_group": false
       }
     }
