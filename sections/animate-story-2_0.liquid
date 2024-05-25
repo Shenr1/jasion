@@ -106,15 +106,13 @@
       motionPath: {
         path: "#roads",
         align: "#roads",
-        alignOrigin: [0.5, 0.8],
+        alignOrigin: [0.5, 1],
         autoRotate: 0
       },
       paused: true
     });
 
     $(".story-time-js").click(function(){
-      console.log('1111111111');
-      
       const tIndex = $(this).attr("time-index") * 1;
       doChange(tIndex);
       

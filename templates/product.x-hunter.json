@@ -139,7 +139,7 @@
         "b59fdb53-0a06-416a-9f00-c24a68e5fac6": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>*Important Notice: <\/strong>Pre-sale ends on May 25th.<\/p>"
+            "text": "<p><strong>*Important Notice: <\/strong>Pre-sale ends on June 10th.<\/p>"
           }
         },
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
@@ -184,7 +184,7 @@
         "34957dd4-27e4-40b7-b72e-e503f9ddc395"
       ],
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "show_fixed_add_to_cart": true,
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_bottom",
@@ -1283,10 +1283,77 @@
     },
     "57754a06-8b3f-4252-9222-dcd14ef91b2e": {
       "type": "story-swiper",
+      "blocks": {
+        "3fdcf4d1-1a7d-4da6-b3f9-9f4af8dbcd54": {
+          "type": "item",
+          "disabled": true,
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=i0LcsKoZaXU",
+            "title": "Assembly Video-Quick and Painless Setup",
+            "content": "Dive into the world of electric biking with our easy-to-follow installation video. In just a few simple steps, you'll have your bike assembled and ready for the road. No hassle, no stress—just seamless setup for an instant riding experience.",
+            "author": "Jasion Bike"
+          }
+        },
+        "c831ce5d-60eb-4d3f-8eab-19ba9c96a4d8": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=VTnLHr2M7mk&t=608s",
+            "title": "A Budget Friendly Full Suspension eBike | Jasion X-Hunter eBike Review",
+            "content": "Jasion X Hunter is an exceptional full suspension Fat Tire e-bike. Comes in a variety of colors. The bike is also foldable and weighs 71 lbs, which is relatively light for a full-suspension Fat Tire e-bike. The seat is very wide and plush. Overall, the Jasion X-Hunter is a solid choice for those looking for a reasonable price.",
+            "author": "Eric Hernandez"
+          }
+        },
+        "item_MBPxTr": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=7KfQu_ev7Ws",
+            "title": "AWESOME  FOLDING E–BIKE Jasion X-Hunter",
+            "content": "The Jasion X Hunter E-bike is a 1200-watt folding e-bike with a budget-friendly price. It has a 7-speed Shimano shifter and a full suspension. Goes a 55-mile range, 28 mph top speed. The software is simple, clicking the M menu button to click through various things. I enjoy the bike and recommend it.",
+            "author": "The Inja"
+          }
+        },
+        "0ee47c36-3139-4bc8-9920-78d8c74199df": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=sqmrVs7MEvY",
+            "title": "Jasion X-Hunter - Low Price Dual Suspension Ebike",
+            "content": "Jasion X-Hunter equips 1200 powerful motor. The riding position is comfortable, with an adjustable height seat and tall stem. The bike's full suspension is fairly good, and the fat tires and comfortable seat make for a smooth ride even off-road.  X-Hunter is a great value for those looking for a versatile and feature-rich bike.",
+            "author": "NPL Ventures"
+          }
+        },
+        "696148dd-e9b6-460f-a2de-6eb8cf8a98b0": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=wkxupMNqCAE",
+            "title": "Jasion X-Hunter Ebike Review ~ A Full Suspension electric bike at a decent price!",
+            "content": "The Jasion X-Hunter is a 4in fat tire ebike with a 22 amp controller, 13 amp hour battery, and a dual suspension system. I test the bike's power, speed, and brakes by riding up hills and going down steep inclines. The bike costs $939 with free shipping and it's worth buying.",
+            "author": "Jeremiah Mcintosh"
+          }
+        }
+      },
+      "block_order": [
+        "3fdcf4d1-1a7d-4da6-b3f9-9f4af8dbcd54",
+        "c831ce5d-60eb-4d3f-8eab-19ba9c96a4d8",
+        "item_MBPxTr",
+        "0ee47c36-3139-4bc8-9920-78d8c74199df",
+        "696148dd-e9b6-460f-a2de-6eb8cf8a98b0"
+      ],
       "settings": {
-        "full_width": true,
-        "background": "",
-        "background_gradient": ""
+        "title": "Customer Stories",
+        "title_color": "#333333",
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "none",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "none"
       }
     },
     "16923286792e230b9b": {

@@ -1,0 +1,236 @@
+{%- liquid
+  assign se_stts = section.settings
+  assign se_bks = section.blocks
+%}
+
+
+<style>
+#shopify-section-{{ section.id }} .section{margin-top:10%}
+@media (min-width: 768px) {
+  #shopify-section-{{ section.id }} .tw-rotating-light::before{
+    background: conic-gradient(#fc0 0%, #FF981D 25%, #fc0 50%, #FF981D 100%);
+    animation: rotate 8s linear infinite;
+  }
+  @keyframes rotate {
+    100% {
+      transform: rotate(1turn);
+    }
+  } 
+}
+</style>
+
+
+{%- render 'section-spacing-collapsing' -%}
+<div {% render 'section-properties' %}>
+  <section class="story-swiper_2 tw-relative tw-p-[2px] md:tw-max-h-[800px] tw-max-h-screen">
+    <div class="tw-absolute tw-bg-stone-950 tw-p-[2px] tw-w-full tw-h-full tw-left-0 tw-top-0 tw-overflow-hidden">
+      <div class="tw-rotating-light"></div>
+    </div>
+    <div class="tw-flex tw-bg-white tw-relative md:tw-flex-row tw-flex-col md:tw-px-0 tw-px-6 md:tw-pb-0 tw-pb-4">
+      <div class="md:tw-w-[28%] tw-w-full md:tw-pt-24 md:tw-order-1 tw-order-3 tw-relative">
+        <div class="cas-nav">
+          {% for block in se_bks %}
+          {% assign bk_stts = block.settings %}
+          <div class="tw-flex md:tw-pt-0 tw-pt-10 tw-items-center tw-cursor-pointer nav-item tw-ruler-bg [&>*]:tw-transition-all {% if forloop.first %}active{% endif %}">
+            {{- bk_stts.tab_img | image_url: width: 250 | image_tag: loading: 'lazy', loading: 'lazy', widths: '250, 500' -}} 
+            {%- render 'icon' with 'play-video', direction_aware: true, height:20, class:"tw-text-stone-100 tw-hidden" -%}
+            <p class="tw-hidden tw-font-bold md:tw-static tw-absolute tw-top-0 tw-left-0">{{ bk_stts.tab_name }}</p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="tw-relative -tw-translate-y-1/8 md:tw-w-[40%] tw-w-full md:tw-order-2">
+        <div class="cas-image">
+          {% for block in se_bks %}
+            {% assign bk_stts = block.settings %}
+            <div class="md:tw-rounded-2xl tw-rounded-xl tw-overflow-hidden">
+              {{- bk_stts.main_img | image_url: width: 1000 | image_tag: loading: 'lazy', loading: 'lazy', widths: '500, 750, 1000, 1250' -}} 
+            </div>
+          {% endfor %}
+        </div>
+        <div class="cas-image-controls tw-absolute tw-top-1/2 -tw-translate-y-1/2 tw-flex tw-w-full tw-justify-between tw-text-white [&>[aria-disabled=true]]:tw-invisible">
+          <div class="tw-cursor-pointer"> {%- render 'icon' with 'chevron-left-thin', direction_aware: true, width:50, height:50 -%} </div>
+          <div class="tw-cursor-pointer"> {%- render 'icon' with 'chevron-right-thin', direction_aware: true, width:50, height:50 -%} </div>
+        </div>
+      </div>
+      <div class="cas-conetnt xl:tw-px-10 md:tw-px-8 md:tw-pt-24 md:tw-w-[32%] tw-w-full md:tw-order-2 md:tw-transform-none -tw-translate-y-1/6">
+        {% for block in se_bks %}
+          {% assign bk_stts = block.settings %}
+          <div {% unless forloop.first %}style="display:none"{% endunless %}>
+            <h3 class="md:tw-text-3xl tw-text-2xl md:tw-mb-8 tw-mb-2">{{ bk_stts.title }}</h3>
+            <p class="md:tw-mb-12 tw-mb-4 tw-text-lg md:tw-line-clamp-none tw-line-clamp-3">{{ bk_stts.des }}</p>
+            {% assign btnClass = "tw-py-4 tw-leading-none tw-font-normal tw-text-lg tw-min-w-40" %}
+            {% if bk_stts.btn_url_2 and bk_stts.btn_txt_2 %}
+            <a href="{{bk_stts.btn_url_1}}" class="button button--secondary {{ btnClass }}">
+              {{bk_stts.btn_txt_1}}</a>
+            {% endif %}
+            {% if bk_stts.btn_url_2 and bk_stts.btn_txt_2 %}
+            <a href="{{bk_stts.btn_url_2}}" class="button button--outline {{btnClass}}">
+              {{bk_stts.btn_txt_2}}</a>
+            {% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="tw-wrapper-ruler-bg"></div>
+  </section>  
+</div>
+
+
+<script>
+  $(document).ready(function() {
+    let axis = $(window).width() > 768?"vertical":"horizontal"
+
+
+    let mainTns = tns(
+    {
+      container: "#shopify-section-{{ section.id }} .cas-image",
+      items: 1,
+      swipeAngle: false,
+      mouseDrag: true,
+      loop: false,
+      controlsContainer: ".cas-image-controls",
+      preventActionWhenRunning: true,
+      nav: false
+    });
+    let navTns = tns({
+      container: "#shopify-section-{{ section.id }} .cas-nav", 
+      items: 3,
+      mouseDrag: true,
+      nav: false,
+      loop: false,
+      controls: false,
+      axis: axis
+    });
+
+    mainTns.events.on('transitionStart', function(info){
+      navTns.goTo(info.index);
+      navChange(info.index,"mainTns")
+    });
+    
+    function navChange(navIndex,exclusion){
+      let navItem = $("#shopify-section-{{ section.id }} .cas-nav .nav-item")[navIndex];
+      let contentItem = $("#shopify-section-{{ section.id }} .cas-conetnt > div")[navIndex];
+      if(exclusion != "mainTns")mainTns.goTo(navIndex);
+      $(navItem).addClass("active").siblings().removeClass("active");
+      $(contentItem).siblings().fadeOut("fast").promise().done(function() {
+        $(contentItem).fadeIn("fast");
+      });
+    }
+
+    $("#shopify-section-{{ section.id }} .cas-nav .nav-item").click(function(){
+      const index = $(this).index();
+      navChange(index,"navItem");
+    })
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Story swiper",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "+General settings"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Colors",
+      "info": "Gradient replaces solid colors when set."
+    },
+    {
+      "type": "color",
+      "id": "background",
+      "label": "Background"
+    },
+    {
+      "type": "color_background",
+      "id": "background_gradient",
+      "label": "Background gradient"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product",
+      "name": "Product",
+      "settings": [
+        {
+          "type": "header",
+          "content": "+ Left settings"
+        },
+        {
+          "type": "text",
+          "id": "tab_name",
+          "label": "Tab name",
+          "default": "EB5 Roamer ST"
+        },
+        {
+          "type": "image_picker",
+          "id": "tab_img",
+          "label": "Tab image"
+        },
+        {
+          "type": "header",
+          "content": "+ Center settings"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_img",
+          "label": "Main image"
+        },
+        {
+          "type": "header",
+          "content": "+ Right settings"
+        },
+        {
+          "type": "textarea",
+          "id": "title",
+          "label": "Title",
+          "default": "A Bunch Of Bee RangersElectric Bikes Are On the Way!"
+        },
+        {
+          "type": "textarea",
+          "id": "des",
+          "label": "Description",
+          "default": "In the world of electric bikes, innovation andperformance are key factors that driveconsumerdemand. BeeCool Bikes, a renownedindustry player, has recently introduced its latestoffering"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt_1",
+          "label": "Btn 1 text",
+          "default":"Learn More"
+        },
+        {
+          "type": "url",
+          "id": "btn_url_1",
+          "label": "Btn 1 url"
+        },
+        {
+          "type": "text",
+          "id": "btn_txt_2",
+          "label": "But 2 text",
+          "default":"Combo Sale+"
+        },
+        {
+          "type": "url",
+          "id": "btn_url_2",
+          "label": "But 2 url"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "流光轮播 v2"
+    }
+  ]
+}
+{% endschema %}

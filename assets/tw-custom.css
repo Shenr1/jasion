@@ -114,12 +114,20 @@
   position: relative;
 }
 
+.-tw-bottom-2{
+  bottom: -0.5rem;
+}
+
 .tw-bottom-0{
   bottom: 0px;
 }
 
 .tw-bottom-1{
   bottom: 0.25rem;
+}
+
+.tw-bottom-4{
+  bottom: 1rem;
 }
 
 .tw-left-0{
@@ -142,6 +150,10 @@
   right: 3rem;
 }
 
+.tw-right-auto{
+  right: auto;
+}
+
 .tw-top-0{
   top: 0px;
 }
@@ -154,16 +166,16 @@
   top: 1rem;
 }
 
-.-tw-bottom-2{
-  bottom: -0.5rem;
-}
-
 .tw-z-0{
   z-index: 0;
 }
 
 .tw-z-10{
   z-index: 10;
+}
+
+.tw-z-\[1\]{
+  z-index: 1;
 }
 
 .tw-z-\[2\]{
@@ -257,6 +269,10 @@
   margin-bottom: 4rem;
 }
 
+.tw-mb-18{
+  margin-bottom: 4.5rem;
+}
+
 .tw-mb-2{
   margin-bottom: 0.5rem;
 }
@@ -311,6 +327,10 @@
 
 .tw-mr-4{
   margin-right: 1rem;
+}
+
+.tw-ms-0{
+  margin-inline-start: 0px;
 }
 
 .tw-mt-0{
@@ -385,6 +405,10 @@
 
 .\!tw-h-auto{
   height: auto !important;
+}
+
+.tw-h-10{
+  height: 2.5rem;
 }
 
 .tw-h-12{
@@ -499,6 +523,10 @@
   width: calc(50% - .25rem);
 }
 
+.tw-w-\[calc\(50\%_-_\.5rem\)\]{
+  width: calc(50% - .5rem);
+}
+
 .tw-w-auto{
   width: auto;
 }
@@ -511,10 +539,6 @@
   width: 100vw;
 }
 
-.tw-w-\[calc\(50\%_-_\.5rem\)\]{
-  width: calc(50% - .5rem);
-}
-
 .tw-min-w-12{
   min-width: 3rem;
 }
@@ -525,10 +549,6 @@
 
 .tw-min-w-48{
   min-width: 12rem;
-}
-
-.tw-min-w-56{
-  min-width: 14rem;
 }
 
 .tw-flex-1{
@@ -642,8 +662,8 @@
   justify-content: space-evenly;
 }
 
-.tw-gap-10{
-  gap: 2.5rem;
+.tw-gap-14{
+  gap: 3.5rem;
 }
 
 .tw-gap-2{
@@ -654,20 +674,8 @@
   gap: 1rem;
 }
 
-.tw-gap-5{
-  gap: 1.25rem;
-}
-
 .tw-gap-6{
   gap: 1.5rem;
-}
-
-.tw-gap-12{
-  gap: 3rem;
-}
-
-.tw-gap-14{
-  gap: 3.5rem;
 }
 
 .tw-overflow-hidden{
@@ -2132,6 +2140,18 @@ h0, h1, h2, h3, h4, h5, h6{
     bottom: 0.5rem;
   }
 
+  .md\:tw-bottom-8{
+    bottom: 2rem;
+  }
+
+  .md\:tw-left-auto{
+    left: auto;
+  }
+
+  .md\:tw-right-\[24\%\]{
+    right: 24%;
+  }
+
   .md\:tw-order-1{
     order: 1;
   }
@@ -2271,6 +2291,10 @@ h0, h1, h2, h3, h4, h5, h6{
     display: flex;
   }
 
+  .md\:tw-grid{
+    display: grid;
+  }
+
   .md\:tw-hidden{
     display: none;
   }
@@ -2403,12 +2427,24 @@ h0, h1, h2, h3, h4, h5, h6{
     align-items: center;
   }
 
+  .md\:tw-justify-normal{
+    justify-content: normal;
+  }
+
   .md\:tw-justify-start{
     justify-content: flex-start;
   }
 
+  .md\:tw-gap-10{
+    gap: 2.5rem;
+  }
+
   .md\:tw-gap-4{
     gap: 1rem;
+  }
+
+  .md\:tw-gap-5{
+    gap: 1.25rem;
   }
 
   .md\:tw-gap-6{
@@ -2417,14 +2453,6 @@ h0, h1, h2, h3, h4, h5, h6{
 
   .md\:tw-gap-8{
     gap: 2rem;
-  }
-
-  .md\:tw-gap-10{
-    gap: 2.5rem;
-  }
-
-  .md\:tw-gap-5{
-    gap: 1.25rem;
   }
 
   .md\:tw-rounded-2xl{
@@ -2482,6 +2510,11 @@ h0, h1, h2, h3, h4, h5, h6{
     padding-right: 2.5rem;
   }
 
+  .md\:tw-px-2{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
   .md\:tw-px-4{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -2533,10 +2566,6 @@ h0, h1, h2, h3, h4, h5, h6{
     padding-bottom: 4.5rem;
   }
 
-  .md\:tw-pb-3{
-    padding-bottom: 0.75rem;
-  }
-
   .md\:tw-pb-4{
     padding-bottom: 1rem;
   }
@@ -2569,6 +2598,10 @@ h0, h1, h2, h3, h4, h5, h6{
     padding-right: 1.25rem;
   }
 
+  .md\:tw-pr-8{
+    padding-right: 2rem;
+  }
+
   .md\:tw-pt-0{
     padding-top: 0px;
   }
@@ -2595,6 +2628,10 @@ h0, h1, h2, h3, h4, h5, h6{
 
   .md\:tw-pt-6{
     padding-top: 1.5rem;
+  }
+
+  .md\:tw-pt-8{
+    padding-top: 2rem;
   }
 
   .md\:tw-text-left{
@@ -2762,6 +2799,10 @@ h0, h1, h2, h3, h4, h5, h6{
 }
 
 @media (min-width: 1280px){
+  .xl\:tw-right-\[27\%\]{
+    right: 27%;
+  }
+
   .xl\:tw-my-8{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -2879,6 +2920,10 @@ h0, h1, h2, h3, h4, h5, h6{
     padding-bottom: 4rem;
   }
 
+  .xl\:tw-pb-24{
+    padding-bottom: 6rem;
+  }
+
   .xl\:tw-pb-4{
     padding-bottom: 1rem;
   }
@@ -2952,6 +2997,10 @@ h0, h1, h2, h3, h4, h5, h6{
     margin-bottom: 1.5rem;
   }
 
+  .\32xl\:tw-mb-8{
+    margin-bottom: 2rem;
+  }
+
   .\32xl\:tw-mt-12{
     margin-top: 3rem;
   }
@@ -3008,8 +3057,20 @@ h0, h1, h2, h3, h4, h5, h6{
     padding-bottom: 1.5rem;
   }
 
+  .\32xl\:tw-pr-12{
+    padding-right: 3rem;
+  }
+
+  .\32xl\:tw-pr-18{
+    padding-right: 4.5rem;
+  }
+
   .\32xl\:tw-pt-12{
     padding-top: 3rem;
+  }
+
+  .\32xl\:tw-pt-16{
+    padding-top: 4rem;
   }
 
   .\32xl\:tw-pt-18{
@@ -3042,6 +3103,12 @@ h0, h1, h2, h3, h4, h5, h6{
   .\32xl\:tw-text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+}
+
+@media (min-width: 1535px){
+  .\33xl\:tw-right-\[30\%\]{
+    right: 30%;
   }
 }
 
