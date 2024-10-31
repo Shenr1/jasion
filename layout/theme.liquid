@@ -15,14 +15,7 @@ NOTE TO DEVELOPERS: welcome to Impact theme! We hope that you will enjoy editing
     <meta name="viewport" content="width=device-width, initial-scale=1.0, height=device-height, minimum-scale=1.0, maximum-scale=1.0">
     <meta name="theme-color" content="{{ settings.header_background }}">
 
-    <!-- jq Flickity -->
-    {% comment %} todo 提出 {% endcomment %}
-    <script async src="https://code.jquery.com/jquery-3.7.1.min.js" crossorigin="anonymous"></script>
-    <script async src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-    <script async src="https://cdn.jsdelivr.net/gh/phucbm/flickity-responsive@latest/flickity-responsive.min.js"></script>
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
      
      <!-- Google Tag Manager -->
@@ -92,7 +85,7 @@ document.querySelectorAll('form[action*="/cart/add"] button[type="submit"]').for
 
     <meta name="google-site-verification" content="zaa9Q0BNcxIWvIh31xW1ts8NpVzKF8TSJAPO4SmrLwM" />
   
-    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} &ndash; {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
+    <title>{% if page_title == blank %}{{ shop.name }}{% else %}{{ page_title }}{% if current_page != 1 %} – {{ 'general.page' | t: page: current_page }}{% endif %}{% endif %}</title>
 
     {%- if page_description -%}
       <meta name="description" content="{{ page_description | escape }}">
@@ -127,8 +120,7 @@ document.querySelectorAll('form[action*="/cart/add"] button[type="submit"]').for
     <script type="module" src="{{ 'theme.js' | asset_url }}"></script>
     <script type="module" src="{{ 'sections.js' | asset_url }}"></script>
     <script type="module" src="{{ 'custom.js' | asset_url }}"></script>
-
-
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
     {{ content_for_header }}
 
@@ -160,7 +152,8 @@ document.querySelectorAll('form[action*="/cart/add"] button[type="submit"]').for
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "lo4y515kty");
 </script>
-                </head>
+                {% include 'dadao_reviews_core.liquid' %}
+</head>
 
   <body class="{% if settings.show_page_transition %}page-transition{% endif %} {% if settings.zoom_image_on_hover %}zoom-image--enabled{% endif %}">
 
@@ -193,6 +186,7 @@ document.querySelectorAll('form[action*="/cart/add"] button[type="submit"]').for
       IMPLEMENTATION NOTE: due to the very complex logic of margin/padding collapsing in Impact, the footer group is
       added into the main element to ensure that dynamic sections added into the footer group are properly laid out.
       {%- endcomment -%}
+      
       {%- if request.page_type != 'password' -%}
         {%- sections 'footer-group' -%}
       {%- endif -%}

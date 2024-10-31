@@ -79,7 +79,8 @@
           <p class="md:tw-text-2xl tw-text-xl tw-mb-3">{{ product.metafields.custom.info.value }}</p>
           {%- if show_rating and show_vendor == false or product.vendor == blank -%}
             <div class="rating-with-text">
-              <span class="product-card__title xl:tw-text-4xl md:tw-text-3xl tw-text-2xl"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+                            <span class="product-card__title xl:tw-text-4xl md:tw-text-3xl tw-text-2xl"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></span>
 
               {%- if text_alignment != 'center' -%}
                 {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
@@ -87,7 +88,8 @@
               {%- endif -%}
             </div>
           {%- else -%}
-            <span class="product-card__title xl:tw-text-4xl md:tw-text-3xl tw-text-2xl"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a></span>
+                          <span class="product-card__title xl:tw-text-4xl md:tw-text-3xl tw-text-2xl"><a href="{{ product.url }}" class="bold" data-instant>{{ product.title }}</a>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></span>
           {%- endif -%}
 
 

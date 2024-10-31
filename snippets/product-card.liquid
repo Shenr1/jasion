@@ -147,12 +147,13 @@ Supported variables
       {%- if show_rating and show_vendor == false or product.vendor == blank -%}
         <div class="rating-with-text">
           <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>
-            {% if short_title and product.metafields.custom.short_title != blank%}
+                        {% if short_title and product.metafields.custom.short_title != blank%}
               {{product.metafields.custom.short_title}}
               {% else %}
               {{ product.title }}
             {% endif %}
-          </a></span>
+          </a>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></span>
 
           {%- if text_alignment != 'center' -%}
             {%- capture rating_class -%}{% if mobile_reduced %}hidden sm:flex{% endif %}{%- endcapture -%}
@@ -161,12 +162,13 @@ Supported variables
         </div>
       {%- else -%}
         <span class="product-card__title"><a href="{{ product.url }}" class="bold" data-instant>
-          {% if short_title and product.metafields.custom.short_title != blank%}
+                    {% if short_title and product.metafields.custom.short_title != blank%}
             {{product.metafields.custom.short_title}}
             {% else %}
             {{ product.title }}
           {% endif %}
-        </a></span>
+        </a>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></span>
       {%- endif -%}
 
       {%- render 'price-list', product: product, text_alignment: text_alignment -%}

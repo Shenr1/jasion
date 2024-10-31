@@ -9,70 +9,70 @@
           "type": "item",
           "settings": {
             "icon": "picto-phone",
-            "custom_icon": "shopify://shop_images/fastdelivery.png",
+            "custom_icon": "shopify:\/\/shop_images\/fastdelivery.png",
             "mobile_icon_width": 68,
             "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "Fast Delivery",
-            "content": "<p>On your doorstep in just 2-4 days across 49 states</p>"
+            "content": "<p>On your doorstep in just 2-4 days across 49 states<\/p>"
           }
         },
         "customer-support": {
           "type": "item",
           "settings": {
             "icon": "picto-envelope",
-            "custom_icon": "shopify://shop_images/warranty_40a79d35-97c3-4e65-9fcd-f1ad051451fb.png",
+            "custom_icon": "shopify:\/\/shop_images\/warranty_40a79d35-97c3-4e65-9fcd-f1ad051451fb.png",
             "mobile_icon_width": 68,
             "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "1 Year Warranty",
-            "content": "<p>All Ebikes backed by Jasion Limited Warranty</p>"
+            "content": "<p>All Ebikes backed by Jasion Limited Warranty<\/p>"
           }
         },
         "discount": {
           "type": "item",
           "settings": {
             "icon": "picto-building",
-            "custom_icon": "shopify://shop_images/taxfree.png",
+            "custom_icon": "shopify:\/\/shop_images\/taxfree.png",
             "mobile_icon_width": 68,
             "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "Tax-Free",
-            "content": "<p>No need to pay 7-10% ST</p>"
+            "content": "<p>No need to pay 7-10% ST<\/p>"
           }
         },
         "payment": {
           "type": "item",
           "settings": {
             "icon": "picto-secure-profile",
-            "custom_icon": "shopify://shop_images/Jasion_ICON_14.png",
+            "custom_icon": "shopify:\/\/shop_images\/Jasion_ICON_14.png",
             "mobile_icon_width": 68,
             "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "14-Day Trial",
-            "content": "<p>Don't love it, send it back to us.</p>"
+            "content": "<p>Don't love it, send it back to us.<\/p>"
           }
         },
         "e04a013b-33a5-4ea5-8030-b4d99e7d6b3f": {
           "type": "item",
           "settings": {
             "icon": "picto-like",
-            "custom_icon": "shopify://shop_images/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
+            "custom_icon": "shopify:\/\/shop_images\/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
             "mobile_icon_width": 68,
             "icon_width": 68,
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
             "title": "Contact Phone:",
-            "content": "<p>Call Us：(+1) 888-825-6366</p>"
+            "content": "<p>Call Us：(+1) 888-825-6366<\/p>"
           }
         }
       },
@@ -102,19 +102,19 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
-            "image": "shopify://shop_images/logo_6a36478d-e307-409f-b8ab-8a6760c55f1a.png",
+            "image": "shopify:\/\/shop_images\/logo_6a36478d-e307-409f-b8ab-8a6760c55f1a.png",
             "image_width": 250,
             "heading_size": "h6",
             "title": "We Are Here To Help",
-            "content": "<ul><li>Support: support@jasionbike.com</li><li>Representative: 1 (888) 825 6366 </li><li>Hours: 9AM - 6PM (Mon-Fri EST)</li><li>Due to a recent surge in traffic, we apologize for any delayed response. </li></ul>",
-            "link_1": "shopify://policies/privacy-policy",
+            "content": "<ul><li>Support: support@jasionbike.com<\/li><li>Representative: 1 (888) 825 6366 <\/li><li>Due to a recent surge in traffic, we apologize for any delayed response. <\/li><\/ul>",
+            "link_1": "shopify:\/\/policies\/privacy-policy",
             "link_title1": "Privacy Policy",
-            "link_2": "shopify://policies/refund-policy",
-            "link_title2": "Refund Policy",
-            "link_3": "shopify://policies/shipping-policy",
+            "link_2": "",
+            "link_title2": "",
+            "link_3": "shopify:\/\/policies\/shipping-policy",
             "link_title3": "Shipping Policy",
-            "link_4": "shopify://policies/terms-of-service",
-            "link_title4": "Terms of Service"
+            "link_4": "shopify:\/\/policies\/terms-of-service",
+            "link_title4": ""
           }
         },
         "text": {
@@ -122,7 +122,7 @@
           "disabled": true,
           "settings": {
             "title": "Contact Us",
-            "content": "<ul><li>Contact Email：support@jasionbike.com</li><li>Contact Phone: (+1) 888-825-6366</li><li>Hours: 9：00 am-18：00 pm. (Mon-Fri EST)</li></ul>",
+            "content": "<ul><li>Contact Email：support@jasionbike.com<\/li><li>Contact Phone: (+1) 888-825-6366<\/li><li>Hours: 9：00 am-18：00 pm. (Mon-Fri EST)<\/li><\/ul>",
             "enable_follow_on_shop": false
           }
         },

@@ -1,7 +1,7 @@
 {
   "current": {
     "page_width": 1700,
-    "section_vertical_spacing": "large",
+    "section_vertical_spacing": "small",
     "section_boxed_horizontal_spacing": "small",
     "button_border_radius": 60,
     "input_border_radius": 8,
@@ -33,8 +33,8 @@
     "heading_text_transform": "normal",
     "heading_letter_spacing": -1,
     "text_font": "roboto_n4",
-    "text_font_size_mobile": 16,
-    "text_font_size_desktop": 20,
+    "text_font_size_mobile": 14,
+    "text_font_size_desktop": 18,
     "currency_code_enabled": false,
     "show_page_transition": false,
     "zoom_image_on_hover": false,
@@ -108,26 +108,6 @@
         "settings": {
         }
       },
-      "15683396631634586217": {
-        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
-        "disabled": true,
-        "settings": {
-          "button_color": "#030303",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
-          "button_icon": "chat_bubble",
-          "button_text": "no_text",
-          "button_horizontal_position": "bottom_left",
-          "button_vertical_position": "highest",
-          "greeting_message": "Welcome to Jasion!"
-        }
-      },
-      "14518425691352670886": {
-        "type": "shopify:\/\/apps\/salesmartly-chat\/blocks\/app-embed\/4bf78eed-749c-492d-93f8-2182f15aa6da",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "5784066569132941777": {
         "type": "shopify:\/\/apps\/s-store-locator\/blocks\/embed-app\/e7003487-cc51-4321-9488-2c47c07a5b17",
         "disabled": false,
@@ -138,6 +118,20 @@
         "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
         "settings": {
+        }
+      },
+      "15683396631634586217": {
+        "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": true,
+        "settings": {
+          "button_color": "#117bf7",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#272727",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_left",
+          "button_vertical_position": "highest",
+          "greeting_message": "Welcome to Jasion!"
         }
       }
     }

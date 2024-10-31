@@ -47,6 +47,19 @@
             "show_taxes_notice": false
           }
         },
+        "offer_jUcPyL": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Buy 2 at only $769 each!",
+            "content": "",
+            "background": "#ffffff",
+            "text_color": "#aa2826"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -161,12 +174,11 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/3aaaf0169e6fdbfdfb28eb0c72c906f7.png",
-            "content_1": "<b>White<\/b>: Pre-sale ends on June 5th.<br>\n<b>Green<\/b>: Pre-sale ends on June 10th.<br>Equipped with a 1100W high-power motor and 60 Nm torque, the EB5 Roamer ST can reach speeds of 28 miles per hour and has a range of 62 miles, making it ideal for urban commuting. Its left and right turn signal design, tailor-made for urban commuting scenarios, only allows you to increase visibility and safety when riding at night, and with the flick of a switch on the handlebar, you can communicate your intentions to those behind you , further guaranteeing your commuting experience, making it an ideal urban travel tool.",
-            "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
-            "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
-            "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
-            "content_3": "For non-quality issues, customer may ask for product replacement or return within 14 days after receiving it. The customer is responsible for the return shipping cost of $180. Jasion will provide a return shipping label, and the designated carrier will collect the return package.\n\n<br>*Click <a style=\"text-decoration: underline;\" target=\"_blank\" href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a>\nto get more information."
+            "content_1": "",
+            "img_2": "shopify:\/\/shop_images\/features5.png",
+            "content_2": "<br>Equipped with a 1100W high-power motor and 60 Nm torque, the EB5 Roamer ST can reach speeds of 28 miles per hour and has a range of 62 miles, making it ideal for urban commuting. Its left and right turn signal design, tailor-made for urban commuting scenarios, only allows you to increase visibility and safety when riding at night, and with the flick of a switch on the handlebar, you can communicate your intentions to those behind you , further guaranteeing your commuting experience, making it an ideal urban travel tool.",
+            "img_3": "shopify:\/\/shop_images\/01392a8e6353659910c80e0494c5521f_461197ab-ecf7-4cb8-8667-a6d86db43165.png",
+            "content_3": "<b>1-Year Warranty Policy<\/b><br>\nAll Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).<br>\n<b>14-Day Trail Policy<\/b><br>\nFor non-quality issues, customer may ask for product replacement or return within 14 days after receiving it. The customer is responsible for the return shipping cost of $180. Jasion will provide a return shipping label, and the designated carrier will collect the return package.\n\n<br>*Click <a style=\"text-decoration: underline;\" target=\"_blank\" href=\"https:\/\/www.jasionbike.com\/pages\/return-refund-policy\">HERE<\/a>\nto get more information."
           }
         },
         "34957dd4-27e4-40b7-b72e-e503f9ddc395": {
@@ -183,6 +195,7 @@
         "f5737115-a19e-4594-82a1-f7f77467b158",
         "badges",
         "price",
+        "offer_jUcPyL",
         "rating",
         "824f4735-feaa-4024-a660-c179c5542ced",
         "beead425-c9b4-42aa-b019-63c29006c41d",
@@ -216,6 +229,22 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "122194535529567616": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "43b27d97-0a8f-496c-b497-3aa9c0fba126": {
@@ -307,10 +336,10 @@
         "slide_iEMfbC": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/establish-EB5_R.png",
+            "image": "shopify:\/\/shop_images\/lQDPJx1nvFr2dhPNAZDNAsawC3fBwo1uqGgGzDbIgbO1AQ_710_400.jpg",
             "navigation_label": "Establishment",
             "subheading": "",
-            "title": "Establishment",
+            "title": "EB5 Preferred City Commuter",
             "content": "<p>The EB5 Roamer series returns to our roots, celebrating our tradition of expertise in urban commuting. With its advanced lighting configuration and breakthrough features, it heralds a new era of safe and convenient urban travel.<\/p>"
           }
         },
@@ -434,7 +463,7 @@
         "video_qnTHdC": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/motor UL.mp4",
+            "video": "shopify:\/\/files\/videos\/TONGQUAN 2-22_DeMain.mp4",
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
@@ -443,7 +472,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Independently Developed Rear Hub High-Speed Motor",
-            "title": "1100W High-Power Motor",
+            "title": "Powerful Performance, Effortlessly Conquer Commuting Challenges",
             "content": "<p>At the 5th speed setting, it only takes 2 seconds to reach 28MPH. The motor coil structure is 17*5, designed with a sinusoidal wave structure, and the motor can rotate at 550 revolutions per minute in a one-minute scenario. The sinusoidal wave structure allows you to easily control riding speeds from 1 to 5 gears. The 1st gear speed feels more like traditional bicycle riding and provides electric assistance, allowing you to enjoy the pleasure of riding without exerting extra effort<\/p>",
             "link_text": "",
             "link_url": "",
@@ -458,7 +487,7 @@
         "video_FWBR4N": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Roamermp4.mp4",
+            "video": "shopify:\/\/files\/videos\/修改2.mp4",
             "external_video_url": "",
             "autoplay": true,
             "media_width": 50,
@@ -467,8 +496,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "International Certification for Flame and Explosion Resistance",
-            "title": "Samsung 48V11A Battery",
-            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V11A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging and holds UL 2271 international certification. while the entire vehicle is certified under UL2847 international standards.<\/p>",
+            "title": "Stick to Whole Week",
+            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V11A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -597,7 +626,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "Urban Commuting Safety Star",
-            "title": "Powerful Lighting Configuration",
+            "title": "Powerful Lighting Setup: Ride Safely and Confidently at Night.",
             "content": "<p>EB5 Roamer is equipped with a powerful lighting system, including left and right turn signals, brake lights, rear tail lights, and front lights. Jasion's exclusive design of left and right turn signals is not found in other electric bikes on the market. When a turn is needed, simply gently activate the turn signal button on the handlebars to let vehicles behind you know your turning intention, thereby safeguarding your commuting safety. Even if the lighting system is not in use, the left and right turn signals can remain active, ensuring you receive consistent warnings and protection throughout your journey.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -621,7 +650,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "The Front Fork is Adjustable for Shock Absorption.",
-            "title": "High-Intensity Front Fork Suspension",
+            "title": "High-Intensity Front Fork Suspension，Stable and Comfortable Riding Experience。",
             "content": "<p>Featuring an 80mm travel for effective shock absorption, the front fork is made from high-durability materials. It offers the flexibility of manual adjustment between two states: locking the front fork for stability and adapting to the road conditions.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -839,8 +868,7 @@
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "60 Nm",
-            "icon9": "shopify:\/\/shop_images\/UL.png",
-            "item9": "UL Certification",
+            "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
             "item10": "Max 400 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
@@ -893,8 +921,7 @@
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "60 Nm",
-            "icon9": "shopify:\/\/shop_images\/UL.png",
-            "item9": "UL Certification",
+            "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
             "item10": "Max 400 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
@@ -1100,7 +1127,7 @@
             "item8": "<b>Weight<\/b>  65 Lbs",
             "item9": "<b>Recommended Rider Heights<\/b> 4'9\" to 6'6\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
-            "item11": "<b>Tires<\/b>  26\" x 2.25\" Puncture Resistant Tires",
+            "item11": "<b>Tires<\/b>  26\" x 1.95\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Thumb Throttle",
             "item13": "<b>Rear Light<\/b>  Left and Right Turn Signal Brake Lights",
             "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions"
@@ -1247,7 +1274,7 @@
           "settings": {
             "order": "",
             "title": "What's your shipping policy?",
-            "content": "<p>Jasion provides shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).<br\/><br\/>We provide local pickup and UPS, USPS, FedEx shipping services. No tax is needed. We DO NOT ship to PO BOXES.<br\/><br\/>In-stock orders typically ship within 2 business days, unless otherwise noted on the product page. Please allow 5-7 business days for your shipment to arrive at your address. Any delivery dates provided by JASION are estimates.<br\/><br\/>For more shipping information, send an email to support@Jasionbike.com. We will get back to you in 24 hours.<\/p><p>Want to know more about shipping policies, please check more details on our <a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping Policy Page.<\/a><\/p>"
+            "content": "<p>Jasion has suspended local pick-up services in the United States. If pick-up services are resumed, we will update the information on our website. Please check the website for updates.<br\/><br\/>We provide UPS, USPS, and FedEx shipping services. No tax is needed. We DO NOT ship to PO BOXES.<br\/><br\/>In-stock orders typically ship within 2 business days, unless otherwise noted on the product page. Please allow 5-7 business days for your shipment to arrive at your address. Any delivery dates provided by JASION are estimates.<br\/><br\/>For more shipping information, send an email to support@Jasionbike.com. We will get back to you in 24 hours.<\/p><p>Want to know more about shipping policies, please check more details on our <a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping Policy Page.<\/a><\/p>"
           }
         },
         "9450bf5e-4820-4a70-90ba-63a7e6f5df3a": {
@@ -1350,10 +1377,28 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "991330548312905310": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
+    "122194535529567616",
     "43b27d97-0a8f-496c-b497-3aa9c0fba126",
     "750204d7-2770-4d80-9fa8-87d23ee6229a",
     "1aaa5af1-92c1-49dd-9a84-f75445ae77bd",
@@ -1369,6 +1414,7 @@
     "2058a2a4-798c-4d80-84be-dd89d2644013",
     "media_with_text_jG6hLh",
     "e91eef22-a348-42cb-b126-ae739a144618",
-    "16923286792e230b9b"
+    "16923286792e230b9b",
+    "991330548312905310"
   ]
 }

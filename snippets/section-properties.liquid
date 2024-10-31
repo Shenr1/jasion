@@ -31,18 +31,8 @@ but you can override them by manually passing a different value (although this s
 
 {%- if background_gradient == blank and background == blank or background == 'rgba(0,0,0,0)' or background == settings.background -%}
   {%- comment -%}The section blends, so we have to use vertical margin, and set a container{%- endcomment -%}
-  {%- capture class -%}
-  {{ class }} section-blends
-  {%- endcapture -%}
-
-  {%- if full_width -%} 
-    {%- capture class -%}
-    {{ class }} section-full
-    {%- endcapture -%}
-  {%- endif -%} 
-
+  {%- capture class -%}{{ class }} section-blends section-full{%- endcapture -%}
 {%- else -%}
-
   {%- if full_width -%}
     {%- capture class -%}{{ class }} section-full{%- endcapture -%}
   {%- else -%}

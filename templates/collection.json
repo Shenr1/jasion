@@ -1,5 +1,22 @@
 {
   "sections": {
+    "689922346149438805": {
+      "type": "apps",
+      "blocks": {
+        "4a77f725-ea24-4f45-a910-e0e63227cb4d": {
+          "type": "shopify:\/\/apps\/dadao-product-reviews\/blocks\/featured-reviews\/3cc4253a-05eb-4164-8778-b76d83ce00cc",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4a77f725-ea24-4f45-a910-e0e63227cb4d"
+      ],
+      "disabled": true,
+      "settings": {
+      }
+    },
     "banner": {
       "type": "collection-banner",
       "disabled": true,
@@ -12,7 +29,7 @@
         "show_collection_image": true,
         "collection_title_size": "h3",
         "image_size": "sm",
-        "image": "shopify://shop_images/1_afc3d844-e8c8-457f-ad75-e4aa12ce75ab.jpg",
+        "image": "shopify:\/\/shop_images\/1_afc3d844-e8c8-457f-ad75-e4aa12ce75ab.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "tst-defender-26-fat-tire-ebike",
@@ -41,6 +58,7 @@
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "689922346149438805"
   ]
 }

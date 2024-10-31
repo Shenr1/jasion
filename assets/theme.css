@@ -9746,6 +9746,16 @@ split-lines {
   line-height: 1.6;
 }
 
+.text-xl {
+  font-size: var(--text-xl);
+  line-height: 1.6;
+}
+
+.text-2xl {
+  font-size: var(--text-2xl);
+  line-height: 1.6;
+}
+
 .heading, .h0, .h1, .h2, .h3, .h4, .h5, .h6, .prose :is(h1, h2, h3, h4, h5, h6) {
   font-family: var(--heading-font-family);
   font-weight: var(--heading-font-weight);

@@ -120,7 +120,7 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "<ul><li>Support: support@jasionbike.com</li><li>Representative: 1 (888) 825 6366 </li><li>Hours: 9AM - 6PM (Mon-Fri EST)</li></ul>",
+        "content": "<ul><li>Support: support@jasionbike.com<\/li><li>Representative: 1 (888) 825 6366 <\/li><li>Hours: 10am-7pm, Mon-Fri. EST<\/li><\/ul>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",
@@ -142,7 +142,7 @@
           "settings": {
             "order": "",
             "title": "#1.EB7 2.0- Green,White& EB7 ST Black,White& X-Hunter- Grey, Blue, White, Black",
-            "content": "<p>RIA</p><p>2380 W Baseline Road Dock Door #3, Rialto, CA 92376Time: Mon-Fri 7:00-15:00.</p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.\t</p>"
+            "content": "<p>RIA<\/p><p>2380 W Baseline Road Dock Door #3, Rialto, CA 92376Time: Mon-Fri 7:00-15:00.<\/p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.\t<\/p>"
           }
         },
         "item_TgjdVe": {
@@ -150,7 +150,7 @@
           "settings": {
             "order": "",
             "title": "#2.EB7 2.0- Green,White",
-            "content": "<p>DAO</p><p>1001 South Doubleday Ave, DOCK#19, Ontario, CA 91761</p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.\t</p>"
+            "content": "<p>DAO<\/p><p>1001 South Doubleday Ave, DOCK#19, Ontario, CA 91761<\/p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.\t<\/p>"
           }
         }
       },
@@ -158,12 +158,13 @@
         "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3",
         "item_TgjdVe"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "text_size": 100,
         "subheading": "",
         "title": "We support local pickup!",
-        "content": "<p>Below is the address of our pick-up point.</p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.</p>",
+        "content": "<p>Below is the address of our pick-up point.<\/p><p>If you choose to pick it up, please pick it up from the warehouse within two days since you receive BOL, or the order will be voided. You will need to pay the warehouse placement fee, which is ten dollars per ebike per day.<\/p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",

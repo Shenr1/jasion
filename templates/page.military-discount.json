@@ -13,11 +13,11 @@
         "template--20587020288293__7719702f-7f9f-4c5e-8576-dab16e22b818-item-1": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/2_7c37419e-fbe6-4402-b460-14fd2eb893b4.jpg",
+            "image": "shopify:\/\/shop_images\/2_7c37419e-fbe6-4402-b460-14fd2eb893b4.jpg",
             "column_size": "3",
             "title": "Military",
             "heading_tag": "h4",
-            "content": "<p>Includes Active Duty, Veterans & Dependents.</p>",
+            "content": "<p>Includes Active Duty, Veterans & Dependents.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -26,11 +26,11 @@
         "6d430713-0c07-4356-8290-7f468feca71d": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/11_1.jpg",
+            "image": "shopify:\/\/shop_images\/11_1.jpg",
             "column_size": "3",
             "title": "Responder",
             "heading_tag": "h4",
-            "content": "<p>Includes Police, Fire and EMT.</p>",
+            "content": "<p>Includes Police, Fire and EMT.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -39,11 +39,11 @@
         "template--20587020288293__7719702f-7f9f-4c5e-8576-dab16e22b818-item-2": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1_631e0b4f-3122-47bd-a3ca-5572fb96d9a3.jpg",
+            "image": "shopify:\/\/shop_images\/1_631e0b4f-3122-47bd-a3ca-5572fb96d9a3.jpg",
             "column_size": "3",
             "title": "Teacher",
             "heading_tag": "h4",
-            "content": "<p>Includes Pre-K, K-12 and Professors.</p>",
+            "content": "<p>Includes Pre-K, K-12 and Professors.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -52,11 +52,11 @@
         "template--20587020288293__7719702f-7f9f-4c5e-8576-dab16e22b818-item-3": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/10_1.jpg",
+            "image": "shopify:\/\/shop_images\/10_1.jpg",
             "column_size": "3",
             "title": "Medical",
             "heading_tag": "h4",
-            "content": "<p>Includes Doctors, Nurses & medical staff.</p>",
+            "content": "<p>Includes Doctors, Nurses & medical staff.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -65,11 +65,11 @@
         "dc5f99a2-0d3d-4d5d-9e5e-3ca13e018e69": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/S.jpg",
+            "image": "shopify:\/\/shop_images\/S.jpg",
             "column_size": "3",
             "title": "Student",
             "heading_tag": "h4",
-            "content": "<p>Includes University Students.</p>",
+            "content": "<p>Includes University Students.<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -90,7 +90,7 @@
         "text_alignment": "center",
         "subheading": "",
         "title": "Discount for Those Who Serve",
-        "content": "<h1>We offer a $50 exclusively for military, teachers, police, firefighters, and medical professionals.</h1><p>Thank for for your service. Please email us your proof of identity. We'll send you an exclusive promo code after confirmation.</p>",
+        "content": "<h1>We offer a $50 exclusively for military, teachers, police, firefighters, and medical professionals.<\/h1><p>Thank for for your service. Please email us your proof of identity. We'll send you an exclusive promo code after confirmation.<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -126,7 +126,7 @@
         "template--20587020288293__ef67b3a6-a1ca-4f5a-b25e-d05e4b733465-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>1. Please send us your photo ID via <strong>support@jasionbike.com</strong> and once confirmed, we will offer you a special discount.</p><p>2. Please apply this discount at the checkout page.</p>"
+            "content": "<p>1. Please send us your photo ID via <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a> and once confirmed, we will offer you a special discount.<\/p><p>2. Please apply this discount at the checkout page.<\/p>"
           }
         },
         "da01397a-6b45-4667-95ae-7ab6ca5457bf": {
@@ -138,7 +138,7 @@
         "5c343c07-1788-4c7b-9477-f3294938e763": {
           "type": "richtext",
           "settings": {
-            "content": "<p>This promotion is valid in the US only. Each person can only redeem the discount coupon once. We reserve the right to change or discontinue this discount program at any time. This discount is only valid for ebikes. This discount event is not available for products from Jasion’s Amazon store.</p>"
+            "content": "<p>This promotion is valid in the US only. Each person can only redeem the discount coupon once. We reserve the right to change or discontinue this discount program at any time. This discount is only valid for ebikes. This discount event is not available for products from Jasion’s Amazon store.<\/p>"
           }
         }
       },
@@ -174,35 +174,35 @@
           "type": "item",
           "settings": {
             "title": "Military Verification",
-            "content": "<p>Valid Documents:</p><p>1. DD-214 (you may block SSN)</p><p>2. LES, DFAS or TRICARE Document</p><p>3. Veterans Affairs ID or VA Postal Letter</p><p>4. USAA Insurance Card</p><p>5. Navy Federal Statement</p><p>6. Driver's License showing Veteran mark (requires visit to DMV to add it)</p><p>7. G.I. Bill Document</p>"
+            "content": "<p>Valid Documents:<\/p><p>1. DD-214 (you may block SSN)<\/p><p>2. LES, DFAS or TRICARE Document<\/p><p>3. Veterans Affairs ID or VA Postal Letter<\/p><p>4. USAA Insurance Card<\/p><p>5. Navy Federal Statement<\/p><p>6. Driver's License showing Veteran mark (requires visit to DMV to add it)<\/p><p>7. G.I. Bill Document<\/p>"
           }
         },
         "template--20587020288293__77b88c00-f313-4f1e-8cef-148e8733406a-item-2": {
           "type": "item",
           "settings": {
             "title": "Responder Verification",
-            "content": "<p>Valid Documents:</p><p>1. Official ID Card</p><p>2. Official Badge (must have your name on it)</p><p>3. Pay stub from your employer</p><p>4. Promotion/Award Certificate</p><p>5. Signed letter of employment status from your agency</p>"
+            "content": "<p>Valid Documents:<\/p><p>1. Official ID Card<\/p><p>2. Official Badge (must have your name on it)<\/p><p>3. Pay stub from your employer<\/p><p>4. Promotion\/Award Certificate<\/p><p>5. Signed letter of employment status from your agency<\/p>"
           }
         },
         "template--20587020288293__77b88c00-f313-4f1e-8cef-148e8733406a-item-3": {
           "type": "item",
           "settings": {
             "title": "Medical Verification",
-            "content": "<p>Valid Documents:</p><p>1. Official ID Card</p><p>2. Official Badge (must have your name on it)</p><p>3. Pay stub from your employer</p><p>4. Promotion/Award Certificate</p><p>5. Signed letter of employment status from your agency</p>"
+            "content": "<p>Valid Documents:<\/p><p>1. Official ID Card<\/p><p>2. Official Badge (must have your name on it)<\/p><p>3. Pay stub from your employer<\/p><p>4. Promotion\/Award Certificate<\/p><p>5. Signed letter of employment status from your agency<\/p>"
           }
         },
         "e621df88-8db3-4ab6-ab17-6c3641bcc6cd": {
           "type": "item",
           "settings": {
             "title": "Teacher Verification",
-            "content": "<p>Valid Documents:</p><p>1. Official ID Card or Badge</p><p>2. Educator's License or State Certification</p><p>3. Credential used to gain access to your campus (must have your name on it)</p><p>4. Pay Stub from your employer</p><p>5. Signed letter of employment status from your school</p>"
+            "content": "<p>Valid Documents:<\/p><p>1. Official ID Card or Badge<\/p><p>2. Educator's License or State Certification<\/p><p>3. Credential used to gain access to your campus (must have your name on it)<\/p><p>4. Pay Stub from your employer<\/p><p>5. Signed letter of employment status from your school<\/p>"
           }
         },
         "aa47044d-ec00-4685-932f-c6735eaf688c": {
           "type": "item",
           "settings": {
             "title": "Student Verification",
-            "content": "<p>1. A student ID card with a date</p>"
+            "content": "<p>1. A student ID card with a date<\/p>"
           }
         }
       },
@@ -217,7 +217,7 @@
         "full_width": true,
         "subheading": "",
         "title": "What documents can qualify for this exclusive discount?",
-        "content": "<p>The following documents are required for verification (only one document is required)</p>",
+        "content": "<p>The following documents are required for verification (only one document is required)<\/p>",
         "button_text": "",
         "button_url": "",
         "text_position": "center",

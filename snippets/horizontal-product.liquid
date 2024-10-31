@@ -25,10 +25,12 @@ Supported variables
   <div class="horizontal-product__info">
     <div class="v-stack gap-0.5">
       {%- if output_link == false -%}
-        <span class="text-sm bold">{{ product.title }}</span>
+                <span class="text-sm bold">{{ product.title }}</span>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div>
       {%- else -%}
         <a href="{{ product.url }}" data-instant class="text-sm bold">
-          <span class="reversed-link hover:show">{{ product.title }}</span>
+                    <span class="reversed-link hover:show">{{ product.title }}</span>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div>
         </a>
       {%- endif -%}
 

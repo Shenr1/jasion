@@ -47,6 +47,19 @@
             "show_taxes_notice": false
           }
         },
+        "offer_hD9CCa": {
+          "type": "offer",
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Buy 2 at only $709 each!",
+            "content": "",
+            "background": "#ffffff",
+            "text_color": "#aa2826"
+          }
+        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -131,7 +144,7 @@
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><\/ul>"
+            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><li><strong>Notice: <\/strong>The new version of the EB7 ST has updated handlebars and stems. Both versions are shipped randomly.<\/li><\/ul>"
           }
         },
         "text_gqKqwJ": {
@@ -167,8 +180,7 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/notice.png",
-            "content_1": "<b>Great News!<\/b><br>There are 200 units of EB7 ST in stock. Order now and they will be shipped within 24 hours and arrive within 3 working days! Don't Miss Out!<br>\nIf you have any questions, please don't hesitate to contact us at support@jasionbike.com or call us at 1 (888) 825 6366, we are open from 9 AM to 6 PM (Mon-Fri EST).",
+            "content_1": "",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -189,6 +201,7 @@
         "f5737115-a19e-4594-82a1-f7f77467b158",
         "badges",
         "price",
+        "offer_hD9CCa",
         "rating",
         "f53c52b5-105b-4303-a783-1a0d68cc8634",
         "beead425-c9b4-42aa-b019-63c29006c41d",
@@ -223,6 +236,22 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "070746480697742968": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "43b27d97-0a8f-496c-b497-3aa9c0fba126": {
@@ -314,10 +343,10 @@
         "slide_UyjJbA": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/establish-EB7_ST.png",
+            "image": "shopify:\/\/shop_images\/EB7_ST_8a5a2ef7-d527-4071-a11b-7cacfd85b4b7.jpg",
             "navigation_label": "Establishment",
             "subheading": "",
-            "title": "Establishment",
+            "title": "Establishment：Jasion EB7 ST – Your Comfortable Companion for City Travel",
             "content": "<p>Responding to consumer demand, EB7 ST was born. With the success and high acclaim of the 2.0 model in the market, the ST model was conceived. Unlike EB7 2.0, this model features a lower frame height, completely changing traditional standards while achieving a harmonious balance between power and sophistication, marking a milestone in urban commuting.<\/p>"
           }
         },
@@ -501,8 +530,8 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/3840X1300-EB7-st.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/1500-x-1080-EB7-st.jpg",
+        "image": "shopify:\/\/shop_images\/EB7_ST_-PC.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/EB7_ST_-MC.jpg",
         "title": "Jasion EB7 ST Exploded View Introduction",
         "content": "",
         "button_text": "",
@@ -616,8 +645,8 @@
       ],
       "settings": {
         "full_width": false,
-        "image": "shopify:\/\/shop_images\/Redefining_the_Riding_Experience_-_Lower_Frame.png",
-        "mobile_image": "shopify:\/\/shop_images\/Redefining_the_Riding_Experience.png",
+        "image": "shopify:\/\/shop_images\/EB7_ST_-PC_b61dfb91-efee-4311-9c87-e90e12dd7009.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/EB7_ST_-MC_8fb41c5c-1f10-438c-bc40-a37d3e94be4c.jpg",
         "title": "",
         "content": "",
         "button_text": "",
@@ -756,7 +785,7 @@
         "video_gnHyNN": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/EB7-motor.mp4",
+            "video": "shopify:\/\/files\/videos\/TONGQUAN 2-22_DeMain.mp4",
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
@@ -765,7 +794,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Equipped with a Powerful 850W Motor",
+            "title": "5 Driving Modes: Effortlessly Handle Various Road Conditions",
             "content": "<p>Delivering 48 Nm of torque within just 2 seconds in the 5-speed setting. The motor, designed with a sine wave structure, allows you to effortlessly control your riding speed across gears 1 to 5, providing a customizable and intuitive riding experience.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -780,7 +809,7 @@
         "video_8nVdQN": {
           "type": "video",
           "settings": {
-            "video": "shopify:\/\/files\/videos\/Battery UL.mp4",
+            "video": "shopify:\/\/files\/videos\/修改2.mp4",
             "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
             "autoplay": true,
             "media_width": 50,
@@ -789,8 +818,8 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "48V10A Battery by Samsung",
-            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V10A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging and holds UL 2271 international certification.<\/p>",
+            "title": "Efficient Performance: 55-Mile Range on a Single Charge",
+            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V10A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -911,8 +940,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/EB7_2.0_-PC_c2afb984-4b73-448a-aec5-21a90eb97563.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/EB7_2.0_-MC_1dc4b923-9dc7-46c5-9aa5-ce1459b3f54b.jpg",
+        "image": "shopify:\/\/shop_images\/EB7_ST_-PC_abf53a77-2d8f-4cbc-8b65-0dfad020d295.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/EB7_ST_-MC_e3f8b119-ade7-48e1-8e2c-3f495bcbd72c.jpg",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
@@ -997,7 +1026,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Multi-Stage Disassembly",
+            "title": "Fold easily for convenient transportation and storage.",
             "content": "<p>Jasion Bike takes pride in its cutting-edge quick multi-stage disassembly design. With no need for cumbersome tools, just a few simple steps allow for the rapid disassembly of various components, ensuring easy portability and storage.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -1021,7 +1050,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Front and Rear Damping Shock Absorption",
+            "title": "Enjoy a Smooth and Comfortable Ride",
             "content": "<p>Jasion Bike electric bike features a front and rear manually adjustable damping shock absorption system crafted from high-durability materials, ensuring stability over extended usage. Whether navigating city streets, tackling off-road mountain trails, or traversing bumpy paths, the system seamlessly adapts to various terrains through easy manual adjustments, providing a stable and comfortable ride in any scenario.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -1051,9 +1080,9 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "EB7 ST",
-            "image1": "shopify:\/\/shop_images\/ST_87d0e901-fa9d-49ac-9038-9d94f4d0cf87.png",
+            "image1": "shopify:\/\/shop_images\/d69b7c000e3da8f75b59c7cd96b15738_cba64232-709e-4902-a27d-3215fbda63cc.png",
             "color1": "#ffffff",
-            "image2": "shopify:\/\/shop_images\/ST_06eb5668-6af8-4fd3-9ffc-fb0e9aa058b6.png",
+            "image2": "shopify:\/\/shop_images\/baf213b66db03f7e0a6255ce3a6ed9ce_4b003cf0-d656-4fe4-b1da-0d73839de9c1.png",
             "color2": "#524d4d",
             "color3": "",
             "color4": ""
@@ -1087,8 +1116,7 @@
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "48 Nm",
-            "icon9": "shopify:\/\/shop_images\/UL.png",
-            "item9": "UL Certification",
+            "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
             "item10": "Max 350 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
@@ -1141,8 +1169,7 @@
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "48 Nm",
-            "icon9": "shopify:\/\/shop_images\/UL.png",
-            "item9": "UL Certification",
+            "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
             "item10": "Max 350 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
@@ -1287,17 +1314,17 @@
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
             "item1": "<b>A --<\/b> Handlebar Length 24.8\"",
-            "item2": "<b>B -- <\/b> Hand Tube Fixed Height 11.8\"",
+            "item2": "<b>B -- <\/b> Hand Tube Fixed Height 6.3\"",
             "item3": "<b>C -- <\/b> Chainstay 17.3\"",
             "item4": "<b>D -- <\/b> Ground Clearance 5.9\"",
             "item5": "<b>E --<\/b>  Wheelbase 44.5\"",
             "item6": "<b>F --<\/b>  Total Length 68\"",
             "item7": "<b>G --<\/b> Wheel Diameter 22\"",
-            "item8": "<b>H --<\/b>  Minimum Handlebar Height from Floor 43.7\"",
-            "item9": "<b>I --<\/b>  Maximum Handlebar Height from Floor 48.4\"",
-            "item10": "<b>J --<\/b>  Minimum Seat Height 28.4\"",
-            "item11": "<b>K --<\/b>  Maximum Seat Height 43\"",
-            "item12": "<b>Folded Size --<\/b>  36\"*21\"*29\"",
+            "item8": "<b>H --<\/b>  Handlebar Height from Floor 43.7\"",
+            "item9": "<b>I --<\/b>  Minimum Seat Height 28.4\"",
+            "item10": "<b>J --<\/b>  Maximum Seat Height 43\"",
+            "item11": "<b>Folded Size --<\/b>  36\"*21\"*29\"",
+            "item12": "",
             "item13": "",
             "item14": ""
           }
@@ -1307,7 +1334,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Geometry",
-            "image1": "shopify:\/\/shop_images\/ST_469538b2-703c-4c44-8c2d-43ce86cd55a9.jpg",
+            "image1": "shopify:\/\/shop_images\/EB7_ST_663e7dc3-f729-4c6a-9ff6-3add0a129388.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1338,7 +1365,7 @@
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
             "item11": "<b>Tires<\/b>  20\" x 3\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Twist Throttle",
-            "item13": "<b>Rear Light<\/b>  Left and Right Turn Signal Brake Lights",
+            "item13": "<b>Rear Light<\/b>   Brake Lights",
             "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions"
           }
         },
@@ -1387,7 +1414,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "In the Box",
-            "image1": "shopify:\/\/shop_images\/EB7_STbox.jpg",
+            "image1": "shopify:\/\/shop_images\/EB7_ST_4dc995ff-86e4-4cd9-bbb4-ce8a2725b487.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1423,7 +1450,7 @@
           "settings": {
             "order": "",
             "title": "What's your shipping policy?",
-            "content": "<p>Jasion provides shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).<br\/><br\/>We provide local pickup and  UPS, USPS, FedEx shipping services. No tax is needed. We DO NOT ship to PO BOXES.<br\/><br\/>In-stock orders typically ship within 2 business days, unless otherwise noted on the product page. Please allow 5-7 business days for your shipment to arrive at your address. Any delivery dates provided by JASION are estimates.<br\/><br\/>For more shipping information, send an email to support@Jasionbike.com. We will get back to you in 24 hours.<\/p><p>Want to know more about shipping policies, please check more details on our <a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping Policy Page.<\/a><\/p>"
+            "content": "<p>Jasion has suspended local pick-up services in the United States. If pick-up services are resumed, we will update the information on our website. Please check the website for updates.<br\/><br\/>We provide UPS, USPS, and FedEx shipping services. No tax is needed. We DO NOT ship to PO BOXES.<br\/><br\/>In-stock orders typically ship within 2 business days, unless otherwise noted on the product page. Please allow 5-7 business days for your shipment to arrive at your address. Any delivery dates provided by JASION are estimates.<br\/><br\/>For more shipping information, send an email to support@Jasionbike.com. We will get back to you in 24 hours.<\/p><p>Want to know more about shipping policies, please check more details on our <a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping Policy Page.<\/a><\/p>"
           }
         },
         "9450bf5e-4820-4a70-90ba-63a7e6f5df3a": {
@@ -1444,6 +1471,7 @@
         },
         "e00865f6-e8ec-41e4-a519-d96169c9c3b2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "order": "",
             "title": "Do you support US local pickup?",
@@ -1701,10 +1729,28 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "922907551168083436": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
     "main",
+    "070746480697742968",
     "43b27d97-0a8f-496c-b497-3aa9c0fba126",
     "750204d7-2770-4d80-9fa8-87d23ee6229a",
     "17f9ef90-13d4-46ab-a3b1-c95bfa1c131b",
@@ -1725,6 +1771,7 @@
     "e91eef22-a348-42cb-b126-ae739a144618",
     "section_new_vide_CEEQFH",
     "b4bbb6da-effe-4df0-9f77-dc864a04839e",
-    "16923286792e230b9b"
+    "16923286792e230b9b",
+    "922907551168083436"
   ]
 }

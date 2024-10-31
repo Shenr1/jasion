@@ -5,39 +5,55 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "countdown_NhttC3": {
+          "type": "countdown",
+          "settings": {
+            "content_color": "#000000",
+            "title": "Harvest bounntiful Autumn saving [date]",
+            "description": "<p>Best Choice SPECIAL OFFER 58% OFF &gt;<\/p>",
+            "url": "shopify:\/\/products\/retrovolt-vintage-style-electric-bike",
+            "date": "11\/1\/2024",
+            "expired_text": "<p>Finished<\/p>"
+          }
+        },
         "message_gCy7hw": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Tax-Free No 7%-10% sales tax on all products",
-            "url": "shopify://collections/electric-bike"
+            "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "90970645-3f2b-4c4f-9e21-63e99d904847": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Delivered in 3-5 business days.",
-            "url": "shopify://collections/electric-bike"
+            "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "cfb84315-a78a-4b43-ab45-016164026160": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "1-Year Warranty on All Ebikes",
-            "url": "shopify://collections/electric-bike"
+            "url": "shopify:\/\/collections\/electric-bike"
           }
         }
       },
       "block_order": [
+        "countdown_NhttC3",
         "message_gCy7hw",
         "90970645-3f2b-4c4f-9e21-63e99d904847",
         "cfb84315-a78a-4b43-ab45-016164026160"
       ],
       "settings": {
         "enable_sticky": true,
-        "text_size": "text-xs",
+        "text_size": "text-base",
+        "header_size": "text-xl",
         "navigation_mode": "arrows",
         "scrolling_speed": 30,
-        "background": "#ffffff",
+        "background": "#f3be00",
         "background_gradient": "",
         "text_color": "#272727"
       }
@@ -51,16 +67,16 @@
             "menu_item": "E-BIKES",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify://shop_images/Surprise_Your_Mom_with_a_Unique_Gift_Discount_up_to_1620.png",
+            "image_1": "shopify:\/\/shop_images\/1.1.png",
             "image_heading_1": "",
-            "image_link_1": "https://www.jasionbike.com/products/jasion-ebike%C2%AE-combo-sale-x-hunter-eb7-st",
+            "image_link_1": "shopify:\/\/products\/jasion-ebike®combo-sale-eb5-roamer",
             "image_text_color_1": "#272727",
-            "image_2": "shopify://shop_images/Surprise_Your_Mom_with_a_Unique_Gift_Discount_up_to_1620_1a9f9464-3233-481e-ba80-6b69809e95bc.png",
+            "image_2": "shopify:\/\/shop_images\/2.2.png",
             "image_heading_2": "",
-            "image_link_2": "https://www.jasionbike.com/products/jasion-ebike%C2%AEcombo-sale-eb5-roamer-eb5-roamer-st",
+            "image_link_2": "shopify:\/\/products\/jasion®eb5-roamer-ebike",
             "image_text_color_2": "#ffffff",
             "image_heading_3": "",
-            "image_link_3": "shopify://collections/electric-bike",
+            "image_link_3": "shopify:\/\/collections\/electric-bike",
             "image_text_color_3": "#ffffff",
             "product": "",
             "product_card_background": "",
@@ -70,13 +86,36 @@
             "drawer_link_image": "show"
           }
         },
+        "mega_menu_VNqQKE": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "",
+            "layout": "horizontal",
+            "submenu_style": "bold_heading",
+            "image_heading_1": "",
+            "image_link_1": "",
+            "image_text_color_1": "#ffffff",
+            "image_heading_2": "",
+            "image_link_2": "",
+            "image_text_color_2": "#ffffff",
+            "image_heading_3": "",
+            "image_link_3": "",
+            "image_text_color_3": "#ffffff",
+            "product": "",
+            "product_card_background": "",
+            "product_card_text_color": "",
+            "promo_content_layout": "grid",
+            "stretch_promo": false,
+            "drawer_link_image": "hide"
+          }
+        },
         "28172f49-87de-4147-9735-486441aa38fb": {
           "type": "mega_menu",
           "settings": {
             "menu_item": "Jasionbike Combo Sale",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify://shop_images/NEW_IN.png",
+            "image_1": "shopify:\/\/shop_images\/NEW_IN.png",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -120,13 +159,14 @@
       },
       "block_order": [
         "6054a92a-2abb-49e7-a0dc-bf0e1dd49cf7",
+        "mega_menu_VNqQKE",
         "28172f49-87de-4147-9735-486441aa38fb",
         "mega_menu_XbVxHV"
       ],
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": true,
-        "logo": "shopify://shop_images/logo_1.png",
+        "logo": "shopify:\/\/shop_images\/logo_1.png",
         "logo_max_width": 170,
         "logo_mobile_max_width": 120,
         "menu": "main-menu",
@@ -137,8 +177,8 @@
         "layout": "logo_left_navigation_center",
         "show_social_media": true,
         "show_locale_selector": true,
-        "show_country_selector": true,
-        "show_country_flag": true,
+        "show_country_selector": false,
+        "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#000000",
         "reduce_padding": true,

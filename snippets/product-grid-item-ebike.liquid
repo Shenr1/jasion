@@ -194,7 +194,8 @@ Arguments
       <div class="grid-product__meta">
         <div class="ce_infos">
           <h2><a href="{{ product.url }}">{{ product.metafields.custom.collection_title }}</a></h2>
-          <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
+                    <div class="grid-product__title grid-product__title--{{ settings.type_product_style }}">{{ product.title }}</div>
+<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div>
           <p>{{ product.metafields.custom.short_text }}</p>
         </div>
         {%- if settings.vendor_enable -%}

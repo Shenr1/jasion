@@ -130,7 +130,7 @@
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><\/ul>"
+            "text": "<ul><li><strong>Contact Email: <\/strong>business@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><\/ul>"
           }
         },
         "2bb01b16-2f46-4214-867b-18f9766638c0": {
@@ -159,8 +159,8 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/notice.png",
-            "content_1": "Thanks to the overwhelming support from our customers, our EB7 2.0 is currently out of stock. We apologize for any inconvenience caused to you and thank you for your understanding and support.\n<br>*Note: EB7 ST shipments to occur within 7-10 business days. Thanks for your Patience.",
+            "img_1": "shopify:\/\/shop_images\/back_to_school.jpg",
+            "content_1": "If you order a bike from <b>Aug 2 to Aug 15<\/b>, please contact business@jasionbike.com to claim a free rear basket after receiving your bike.<br><br>\n<b>*Please note that this offer cannot be combined with other promotions.<\/b>",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -214,6 +214,22 @@
         "text_color": "",
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
+      }
+    },
+    "529962346320483385": {
+      "type": "apps",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     },
     "43b27d97-0a8f-496c-b497-3aa9c0fba126": {
@@ -639,7 +655,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "48V10A Battery by Samsung",
-            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V10A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging and holds UL 2271 international certification.<\/p>",
+            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V10A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
@@ -1025,8 +1041,7 @@
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "48 Nm",
-            "icon9": "shopify:\/\/shop_images\/UL.png",
-            "item9": "UL Certification",
+            "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
             "item10": "Max 350 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
@@ -1078,8 +1093,7 @@
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "48 Nm",
-            "icon9": "shopify:\/\/shop_images\/UL.png",
-            "item9": "UL Certification",
+            "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
             "item10": "Max 350 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
@@ -1681,7 +1695,7 @@
           "settings": {
             "order": "",
             "title": "What's your shipping policy?",
-            "content": "<p>Jasion provides shipping within the Continental United States (Except in Hawaii, Alaska, and Puerto Rico).<br\/><br\/>We provide local pickup and UPS, USPS, FedEx shipping services. No tax is needed. We DO NOT ship to PO BOXES.<br\/><br\/>In-stock orders typically ship within 2 business days, unless otherwise noted on the product page. Please allow 5-7 business days for your shipment to arrive at your address. Any delivery dates provided by JASION are estimates.<br\/><br\/>For more shipping information, send an email to support@Jasionbike.com. We will get back to you in 24 hours.<\/p><p>Want to know more about shipping policies, please check more details on our <a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping Policy Page.<\/a><\/p>"
+            "content": "<p>Jasion has suspended local pick-up services in the United States. If pick-up services are resumed, we will update the information on our website. Please check the website for updates.<br\/><br\/>We provide UPS, USPS, and FedEx shipping services. No tax is needed. We DO NOT ship to PO BOXES.<br\/><br\/>In-stock orders typically ship within 2 business days, unless otherwise noted on the product page. Please allow 5-7 business days for your shipment to arrive at your address. Any delivery dates provided by JASION are estimates.<br\/><br\/>For more shipping information, send an email to support@Jasionbike.com. We will get back to you in 24 hours.<\/p><p>Want to know more about shipping policies, please check more details on our <a href=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\" title=\"https:\/\/www.jasionbike.com\/pages\/shipping-policy\">Shipping Policy Page.<\/a><\/p>"
           }
         },
         "9450bf5e-4820-4a70-90ba-63a7e6f5df3a": {
@@ -1702,6 +1716,7 @@
         },
         "e00865f6-e8ec-41e4-a519-d96169c9c3b2": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "order": "",
             "title": "Do you support US local pickup?",
@@ -1977,6 +1992,7 @@
   },
   "order": [
     "main",
+    "529962346320483385",
     "43b27d97-0a8f-496c-b497-3aa9c0fba126",
     "750204d7-2770-4d80-9fa8-87d23ee6229a",
     "1aaa5af1-92c1-49dd-9a84-f75445ae77bd",

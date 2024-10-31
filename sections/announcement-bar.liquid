@@ -28,12 +28,70 @@
   ------------------------------------------------------------------------------------------------------------------------
   {%- endcomment -%}
 
+
   <height-observer variable="announcement-bar">
     <div {% render 'surface', class: 'announcement-bar', background_gradient: section.settings.background_gradient, background: section.settings.background, text_color: section.settings.text_color %}>
+      
+      
+      {% assign cd_block = section.blocks | where: 'type', 'countdown' | first %}
+      {% assign msg_blocks = section.blocks | where: 'type', 'message' %}
+
+      {% if cd_block %}
+        {% assign bk_stts = cd_block.settings %}
+
+        {% liquid
+          if bk_stts.date
+            assign date = bk_stts.date
+          endif
+        %}
+
+
+
+        {% capture data_html %}
+          <div id="countdown-wrapper" class="countdown-wrapper tw-flex tw-align-center tw-mt-2 tw-justify-center ">
+              <div id="days" class="tw-flex tw-mr-2" >
+                <p class="" ></p>Day
+              </div>
+              <div id="hours" class="tw-flex" >
+                <p class="" ></p>:
+              </div>          
+              <div id="minutes" class="tw-flex" >
+                <p class="" ></p>:
+              </div>
+              <div id="seconds" class="tw-flex" >
+                <p class="" ></p>
+              </div>
+          </div>
+        {% endcapture %}  
+
+        <div class="tw-flex tw-px-4 tw-justify-center tw-items-center tw-flex-col countdown-content "
+          id="countdown-content" >
+          {% if bk_stts.title != blank %}
+            <div class="tw-text-center tw-leading-none tw-mb-2 bold {{ section.settings.header_size }}" >
+              {{ bk_stts.title | replace: '[date]', data_html }}
+            </div>
+          {% endif %}  
+          {% if bk_stts.description != blank %}
+            {% if bk_stts.url %}
+              <a href="{{ bk_stts.url }}">
+                <div class="tw-text-center tw-mx-auto tw-max-w-screen-xlg md:tw-px-6 tw-leading-none {{ section.settings.text_size }}" >
+                  {{ bk_stts.description }}
+                </div>
+              </a>
+            {% endif %}
+          {% endif %}
+        </div> 
+      {% endif %}
+      
+      
+      
+      
       {%- if section.settings.navigation_mode == 'scrolling' -%}
         <marquee-text scrolling-speed="{{ section.settings.scrolling_speed }}" class="announcement-bar__scrolling-list">
           {%- capture content -%}
-            {%- for block in section.blocks -%}
+
+            {{ msg_blocks.length }}
+            {%- for block in msg_blocks -%}
               <p class="bold {{ section.settings.text_size }}" {{ block.shopify_attributes }}>
                 {%- if block.settings.url != blank -%}
                   <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
@@ -54,15 +112,15 @@
         </marquee-text>
       {%- else -%}
         <div class="container">
-          <div class="announcement-bar__wrapper {% if section.blocks.size == 1 %}justify-center{% else %}justify-between{% endif %}">
-            {%- if section.blocks.size > 1 -%}
+          <div class="announcement-bar__wrapper {% if msg_blocks.size == 1 %}justify-center{% else %}justify-between{% endif %}">
+            {%- if msg_blocks.size > 1 -%}
               <button class="tap-area" is="prev-button" aria-controls="announcement-bar" aria-label="{{ 'general.accessibility.previous' | t }}">
                 {%- render 'icon' with 'chevron-left', direction_aware: true -%}
               </button>
             {%- endif -%}
 
             <announcement-bar swipeable id="announcement-bar" class="announcement-bar__static-list">
-              {%- for block in section.blocks -%}
+              {%- for block in msg_blocks -%}
                 <p class="bold {{ section.settings.text_size }} {% unless forloop.first %}reveal-invisible{% endunless %}" {{ block.shopify_attributes }}>
                   {%- if block.settings.url != blank -%}
                     <a href="{{ block.settings.url }}">{{ block.settings.text | escape }}</a>
@@ -73,7 +131,7 @@
               {%- endfor -%}
             </announcement-bar>
 
-            {%- if section.blocks.size > 1 -%}
+            {%- if msg_blocks.size > 1 -%}
               <button class="tap-area" is="next-button" aria-controls="announcement-bar" aria-label="{{ 'general.accessibility.next' | t }}">
                 {%- render 'icon' with 'chevron-right', direction_aware: true -%}
               </button>
@@ -86,6 +144,55 @@
 
   <script>
     document.documentElement.style.setProperty('--announcement-bar-height', Math.round(document.getElementById('shopify-section-{{ section.id }}').clientHeight) + 'px');
+    // Set the date we're counting down to
+    var countDownDate = new Date("{{ date }}").getTime();
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    const countDownElement = document.getElementById("countdown-content")
+
+    function hideCounter(){
+      if(countDownElement.classList.contains('countdown-pdp-block')){
+        document.getElementById("countdown-content").classList.add('tw-hidden');
+      }else{
+        document.getElementById("countdown-wrapper").innerHTML = '<div class="tw-h4">{{ cd_block.settings.expired_text }}</div>';
+      }
+    }
+
+    if (distance < 0) {
+      hideCounter();
+    } else {
+      document.getElementById("days").classList.remove('tw-opacity-0');
+      document.getElementById("hours").classList.remove('tw-opacity-0');
+      document.getElementById("minutes").classList.remove('tw-opacity-0');
+      document.getElementById("seconds").classList.remove('tw-opacity-0');
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+        
+        var now = new Date().getTime();
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the elements
+        document.querySelector("#days p").innerHTML = days.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});  
+        document.querySelector("#hours p").innerHTML = hours.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+        document.querySelector("#minutes p").innerHTML = minutes.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+        document.querySelector("#seconds p").innerHTML = seconds.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          hideCounter();
+        }
+      }, 1000);
+
+    }
+  
+  
   </script>
 {%- endif -%}
 
@@ -96,6 +203,59 @@
   "tag": "aside",
   "max_blocks": 5,
   "blocks": [
+    {
+      "type": "countdown",
+      "limit": 1,
+      "name": "Countdown bar",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "bg_img",
+          "label": "Background image"
+        },
+        {
+          "type": "image_picker",
+          "id": "bg_img_mb",
+          "label": "Background image (Mobile)"
+        },
+        {
+          "type": "color",
+          "id": "content_color",
+          "label": "Content Color",
+          "default": "#000000"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Trellis Countdown"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed convallis tristique sem.  Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>"
+        },
+        {
+          "type": "url",
+          "id": "url",
+          "label": "* Link url",
+          "info": "must"
+        },
+        {
+          "type": "text",
+          "id": "date",
+          "label": "Countdown to",
+          "info": "Use the following format: MM/dd/YYYY"
+        },
+        {
+          "type": "richtext",
+          "id": "expired_text",
+          "label": "Text to display when the countdown finishes.",
+          "default": "<p>Countdown Finished!</p>"
+        }
+      ]
+    },
     {
       "type": "message",
       "name": "Message",
@@ -126,24 +286,25 @@
       "id": "text_size",
       "label": "Text size",
       "options": [
-        {
-          "value": "text-xxs",
-          "label": "X-Small"
-        },
-        {
-          "value": "text-xs",
-          "label": "Small"
-        },
-        {
-          "value": "text-base",
-          "label": "Medium"
-        },
-        {
-          "value": "text-lg",
-          "label": "Large"
-        }
+        { "value": "text-xxs", "label": "X-Small" },
+        { "value": "text-xs", "label": "Small" },
+        { "value": "text-base", "label": "Medium" },
+        { "value": "text-lg", "label": "Large" }
       ],
       "default": "text-xs"
+    },
+    {
+      "type": "select",
+      "id": "header_size",
+      "info": "Countdown bar",
+      "label": "Header size",
+      "options": [
+        { "value": "text-base", "label": "Medium" },
+        { "value": "text-lg", "label": "Large" },
+        { "value": "text-xl", "label": "X-Large" },
+        { "value": "text-2xl", "label": "XX-Large" }
+      ],
+      "default": "text-lg"
     },
     {
       "type": "select",
