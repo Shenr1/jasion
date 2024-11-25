@@ -3,9 +3,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "80ch"
       }
@@ -120,7 +118,7 @@
         "full_width": true,
         "subheading": "",
         "title": "",
-        "content": "<ul><li>Support: support@jasionbike.com<\/li><li>Representative: 1 (888) 825 6366 <\/li><li>Hours: 10am-7pm, Mon-Fri. EST<\/li><\/ul>",
+        "content": "<ul><li>Support: support@jasionbike.com<\/li><li>Representative: 1 (888) 825 6366 <\/li><li>Hours: 9am-6pm, Mon-Fri. EST<\/li><\/ul>",
         "text_position": "center",
         "contact_form_size": "large",
         "background": "",

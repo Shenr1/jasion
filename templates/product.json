@@ -6,8 +6,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -23,13 +22,26 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "offer_Gcg3tf": {
+          "type": "offer",
+          "disabled": true,
+          "settings": {
+            "text_alignment": "start",
+            "icon_position": "aligned",
+            "icon": "picto-coupon",
+            "icon_width": 24,
+            "title": "Notice：Only available for RetroVolt and EB5 Roamer",
+            "content": "",
+            "background": "#ffffff",
+            "text_color": "#ff981d"
           }
         },
         "rating": {
@@ -40,13 +52,11 @@
         },
         "beead425-c9b4-42aa-b019-63c29006c41d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -60,8 +70,7 @@
         },
         "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -100,8 +109,7 @@
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
@@ -170,6 +178,7 @@
         "f5737115-a19e-4594-82a1-f7f77467b158",
         "badges",
         "price",
+        "offer_Gcg3tf",
         "rating",
         "beead425-c9b4-42aa-b019-63c29006c41d",
         "payment_terms",
@@ -227,9 +236,7 @@
       "disabled": true,
       "settings": {
         "collection": "ebike",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,

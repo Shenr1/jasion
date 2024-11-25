@@ -179,6 +179,9 @@
 
         // Display the result in the elements
         document.querySelector("#days p").innerHTML = days.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});  
+        if(days == 0){
+          document.querySelector("#days").hidden = true; // 隐藏元素
+        }
         document.querySelector("#hours p").innerHTML = hours.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
         document.querySelector("#minutes p").innerHTML = minutes.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});
         document.querySelector("#seconds p").innerHTML = seconds.toLocaleString('en-US', {minimumIntegerDigits: 2, useGrouping:false});

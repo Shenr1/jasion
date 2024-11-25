@@ -6,8 +6,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -38,8 +37,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -49,12 +47,13 @@
         },
         "offer_hD9CCa": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "icon_width": 24,
-            "title": "Buy 2 at only $709 each!",
+            "title": "Buy 2 at only $699 each!",
             "content": "",
             "background": "#ffffff",
             "text_color": "#aa2826"
@@ -80,13 +79,11 @@
         },
         "beead425-c9b4-42aa-b019-63c29006c41d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -100,8 +97,7 @@
         },
         "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -119,7 +115,7 @@
           "settings": {
             "title": "Purchase Together",
             "stack_products": true,
-            "products_count": 10,
+            "products_count": 4,
             "background": "",
             "text_color": ""
           }
@@ -138,8 +134,7 @@
         },
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
-          "settings": {
-          }
+          "settings": {}
         },
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
@@ -180,7 +175,8 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "content_1": "",
+            "img_1": "shopify:\/\/shop_images\/3aaaf0169e6fdbfdfb28eb0c72c906f7_41446953-9210-4c86-988a-156a3c1eb24e.png",
+            "content_1": "🔹 Up to 58% OFF across the site<br>\n🔹 Exclusive bundles and limited-time offers<br>\n🔹 Free shipping on all combo deals<br><br>\n⏰ Sale ends soon—don’t miss out! Add to cart now and grab these deals while supplies last!",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -477,7 +473,7 @@
         "text_alignment": "center",
         "subheading": "",
         "title": "Jasion EB7 ST - Explore the Urban Landscape",
-        "content": "<p>This uniquely designed electric bike boasts a powerful 850W motor, 20\"x3\" wide tires, and dual shock absorbers, providing you with a smooth and powerful riding experience.<\/p>",
+        "content": "<p>This uniquely designed electric bike boasts a powerful 1200W motor, 20\"x3\" wide tires, and dual shock absorbers, providing you with a smooth and powerful riding experience.<\/p>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -494,8 +490,8 @@
             "horizontal_position_mobile": 24,
             "vertical_position_mobile": 68,
             "icon_width": 32,
-            "title": "850W Powerful Motor",
-            "content": "<p>Maximize performance with our 850W robust motors—your key to thrilling rides.<\/p>"
+            "title": "1200W Powerful Motor",
+            "content": "<p>Maximize performance with our 1200W robust motors—your key to thrilling rides.<\/p>"
           }
         },
         "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-2": {
@@ -1111,14 +1107,14 @@
             "icon5": "shopify:\/\/shop_images\/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
             "item5": "Call Us:(+1) 888-825-6366",
             "icon6": "shopify:\/\/shop_images\/56a85e16a046cb332aca2019e675a194.png",
-            "item6": "Motor 850W",
+            "item6": "Motor 1200W",
             "icon7": "shopify:\/\/shop_images\/speed.png",
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "48 Nm",
             "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
-            "item10": "Max 350 Lbs",
+            "item10": "Max 330 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
             "item11": "48V 10Ah",
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
@@ -1164,14 +1160,14 @@
             "icon5": "shopify:\/\/shop_images\/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
             "item5": "Call Us:(+1) 888-825-6366",
             "icon6": "shopify:\/\/shop_images\/56a85e16a046cb332aca2019e675a194.png",
-            "item6": "Motor 850W",
+            "item6": "Motor 1200W",
             "icon7": "shopify:\/\/shop_images\/speed.png",
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
             "item8": "48 Nm",
             "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
-            "item10": "Max 350 Lbs",
+            "item10": "Max 330 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
             "item11": "48V 10Ah",
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
@@ -1357,9 +1353,9 @@
             "item2": "<b>Charger US<\/b> Standard 2.0 A Smart Charger",
             "item3": "<b>Range<\/b> 55 Miles",
             "item4": "<b>Controller<\/b> 48V \/ 10A",
-            "item5": "<b>Hub Motor<\/b> 850W Brushless Gear Motor",
+            "item5": "<b>Hub Motor<\/b> 1200W Brushless Gear Motor",
             "item6": "<b>Display<\/b> LCD Display",
-            "item7": "<b>Total Payload Capacity<\/b>  350 Lbs",
+            "item7": "<b>Total Payload Capacity<\/b>  330 Lbs",
             "item8": "<b>Weight<\/b>  62.8Lbs",
             "item9": "<b>Recommended Rider Heights<\/b> 4'5\" to 6'2\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
@@ -1374,7 +1370,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Specification",
-            "image1": "shopify:\/\/shop_images\/EB7_ST_40d2a344-8a8a-46af-9029-2f9b1ab733be.png",
+            "image1": "shopify:\/\/shop_images\/eb7_11.20.png",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1709,8 +1705,7 @@
       "blocks": {
         "d2b002c4-ab4c-43b5-a846-ac0e3eaad95a": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

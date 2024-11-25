@@ -6,8 +6,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -24,8 +23,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -53,13 +51,11 @@
         },
         "beead425-c9b4-42aa-b019-63c29006c41d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -73,8 +69,7 @@
         },
         "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -112,8 +107,7 @@
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
@@ -314,8 +308,8 @@
       "type": "hot-spots",
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/PC_876f2984-462a-4759-be7c-1f07d929209a.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/2000X1400_18b04b59-a288-46bb-aa87-4bbd0a69682b.jpg",
+        "image": "shopify:\/\/shop_images\/lQDPJxM72jdNGc3NAqXNB9Cw41oHYWQ2qSMHBi6aMXdFAA_2000_677.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/2000X1400_7f8dbd6e-7734-42e8-ae2b-9a232e38fea8.jpg",
         "title": "",
         "content": "",
         "button_text": "",
@@ -623,7 +617,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Equipped with a Powerful 250W Motor",
+            "title": "Equipped with a Powerful 1400W Motor",
             "content": "<p>Delivering 90 Nm of torque within just 2 seconds in the 5-speed setting. The motor, designed with a sine wave structure, allows you to effortlessly control your riding speed across gears 1 to 5, providing a customizable and intuitive riding experience， JasionBike rear hub motor has obtained international certification according to ISO 2849 standards.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -1008,11 +1002,11 @@
             "item8": "90 N.m",
             "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
-            "item10": "Max 480 Lbs",
+            "item10": "Max 400 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
             "item11": "48V 13Ah",
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
-            "item12": "Range 71 Miles",
+            "item12": "Range 60 Miles",
             "item13": "",
             "item14": ""
           }
@@ -1054,7 +1048,7 @@
             "icon5": "shopify:\/\/shop_images\/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
             "item5": "Call Us:(+1) 888-825-6366",
             "icon6": "shopify:\/\/shop_images\/56a85e16a046cb332aca2019e675a194.png",
-            "item6": "Motor250W",
+            "item6": "Motor 850W",
             "icon7": "shopify:\/\/shop_images\/speed.png",
             "item7": "Speed from 0 to 28 Mph",
             "icon8": "shopify:\/\/shop_images\/2502052.png",
@@ -1245,11 +1239,11 @@
             "content_pos": "tw-items-baseline",
             "item1": "<b>Battery<\/b>  48V 13Ah",
             "item2": "<b>Charger US<\/b> Standard 2.0 A Smart Charger",
-            "item3": "<b>Range<\/b> 71 Miles",
+            "item3": "<b>Range<\/b> 60 Miles",
             "item4": "<b>Controller<\/b> 48V \/ 13A",
             "item5": "<b>Hub Motor<\/b> 1400W Brushless Gear Motor",
             "item6": "<b>Display<\/b> LCD Display",
-            "item7": "<b>Total Payload Capacity<\/b>  480 Lbs",
+            "item7": "<b>Total Payload Capacity<\/b>  400 Lbs",
             "item8": "<b>Weight<\/b>  71Lbs",
             "item9": "<b>Recommended Rider Heights<\/b> 5'3\" to 6'4\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
@@ -1264,7 +1258,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Specification",
-            "image1": "shopify:\/\/shop_images\/c2bc21feb0e5097bb204e91d7cf14202.jpg",
+            "image1": "shopify:\/\/shop_images\/2_7e34f81a-4579-4442-96a1-d4d519ce50b4.png",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1739,8 +1733,7 @@
       "blocks": {
         "d2b002c4-ab4c-43b5-a846-ac0e3eaad95a": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

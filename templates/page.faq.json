@@ -29,7 +29,7 @@
         "richtext_jQ78kp": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If you can't find the answer to your question in the FAQ, please contact us and <strong>we'll get back to you within 24 hours.<\/strong><\/p><p>Email: <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a><br\/>Phone: 1 (888) 825 6366<br\/>Hours: 9：00 am-6:00 pm. (Mon-Fri EST)<\/p>"
+            "content": "<p>If you can't find the answer to your question in the FAQ, please contact us and <strong>we'll get back to you within 24 hours.<\/strong><\/p><p>Email: <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a><br\/>Phone: 1 (888) 825 6366<br\/>Hours: 9am-6pm, Mon-Fri. EST<\/p>"
           }
         }
       },
@@ -529,9 +529,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "electric-bike",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,

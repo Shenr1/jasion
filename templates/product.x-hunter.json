@@ -6,8 +6,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -24,8 +23,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -35,12 +33,13 @@
         },
         "offer_q8Dr3F": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "text_alignment": "start",
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "icon_width": 24,
-            "title": "Buy 2 at only $889 each!",
+            "title": "Buy 2 at only $899 each!",
             "content": "",
             "background": "#ffffff",
             "text_color": "#aa2826"
@@ -66,13 +65,11 @@
         },
         "beead425-c9b4-42aa-b019-63c29006c41d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -86,8 +83,7 @@
         },
         "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -105,7 +101,7 @@
           "settings": {
             "title": "Purchase Together",
             "stack_products": true,
-            "products_count": 10,
+            "products_count": 4,
             "background": "",
             "text_color": ""
           }
@@ -125,8 +121,7 @@
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
@@ -159,7 +154,8 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "content_1": "",
+            "img_1": "shopify:\/\/shop_images\/3aaaf0169e6fdbfdfb28eb0c72c906f7_41446953-9210-4c86-988a-156a3c1eb24e.png",
+            "content_1": "🔹 Up to 58% OFF across the site<br>\n🔹 Exclusive bundles and limited-time offers<br>\n🔹 Free shipping on all combo deals<br><br>\n⏰ Sale ends soon—don’t miss out! Add to cart now and grab these deals while supplies last!",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -577,7 +573,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "Give you an exciting experience of speed and power.",
-            "content": "<p>Under the 5 - speed setting, it can provide a torque of 90 Nm in just 2 seconds. The motor is designed with a sine - wave structure, allowing you to easily control the riding speed between gears 1 to 5.<br\/>It meets all your various needs and helps you conquer any road challenges. Whether you are zipping through the city or bravely facing the polar vortex, find the mode that suits you best and dominate every adventure.<\/p>",
+            "content": "<p>Under the 5 - speed setting, it can provide a torque of 85 Nm in just 2 seconds. The motor is designed with a sine - wave structure, allowing you to easily control the riding speed between gears 1 to 5.<br\/>It meets all your various needs and helps you conquer any road challenges. Whether you are zipping through the city or bravely facing the polar vortex, find the mode that suits you best and dominate every adventure.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -646,7 +642,7 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Efficient Performance: 60-Mile Range on a Single Charge",
+            "title": "Efficient Performance: 70-Mile Range on a Single Charge",
             "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V13A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging.<\/p>",
             "link_text": "",
             "link_url": "",
@@ -784,7 +780,7 @@
             "icon_width": 48,
             "subheading": "",
             "title": "A smooth and comfortable riding experience.",
-            "content": "<p>X-Hunter employs a front fork with manually adjustable shock absorption and a four-link mechanism to achieve a high-intensity suspension effect for the entire bike. The multi-link suspension configuration enables integrated dissipation of forces, allowing X-Hunter to bear a load capacity of up to 400 pounds. Whether navigating snowy terrain, rough surfaces, or mountain trails, it provides a stable and comfortable riding experience.<\/p>",
+            "content": "<p>X-Hunter employs a front fork with manually adjustable shock absorption and a four-link mechanism to achieve a high-intensity suspension effect for the entire bike. The multi-link suspension configuration enables integrated dissipation of forces, allowing X-Hunter to bear a load capacity of up to 330 pounds. Whether navigating snowy terrain, rough surfaces, or mountain trails, it provides a stable and comfortable riding experience.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -1036,11 +1032,11 @@
             "content_pos": "tw-items-baseline",
             "item1": "<b>Battery<\/b>  48V 13Ah",
             "item2": "<b>Charger US<\/b> Standard 2.0 A Smart Charger",
-            "item3": "<b>Range<\/b> 60 Miles",
+            "item3": "<b>Range<\/b> 70 Miles",
             "item4": "<b>Controller<\/b> 48V \/ 13A",
             "item5": "<b>Hub Motor<\/b> 1400W Brushless Gear Motor",
             "item6": "<b>Display<\/b> LCD Display",
-            "item7": "<b>Total Payload Capacity<\/b>  400 Lbs",
+            "item7": "<b>Total Payload Capacity<\/b>  330 Lbs",
             "item8": "<b>Weight<\/b>  71Lbs",
             "item9": "<b>Recommended Rider Heights<\/b> 5'3\" to 6'4\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
@@ -1055,7 +1051,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Specification",
-            "image1": "shopify:\/\/shop_images\/2_9f81bae6-0b38-4a48-9a8e-92b25318b10d.png",
+            "image1": "shopify:\/\/shop_images\/x-hunter_11.20.png",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1392,8 +1388,7 @@
       "blocks": {
         "d2b002c4-ab4c-43b5-a846-ac0e3eaad95a": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

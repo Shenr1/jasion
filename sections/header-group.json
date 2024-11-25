@@ -7,28 +7,27 @@
       "blocks": {
         "countdown_NhttC3": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "content_color": "#000000",
-            "title": "Harvest bounntiful Autumn saving [date]",
-            "description": "<p>Best Choice SPECIAL OFFER 58% OFF &gt;<\/p>",
-            "url": "shopify:\/\/products\/retrovolt-vintage-style-electric-bike",
-            "date": "11\/1\/2024",
+            "title": "Best Black Friday Deals>> [date]",
+            "description": "",
+            "url": "shopify:\/\/collections\/electric-bike",
+            "date": "11\/24\/2024",
             "expired_text": "<p>Finished<\/p>"
           }
         },
         "message_gCy7hw": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "Tax-Free No 7%-10% sales tax on all products",
+            "text": "Lowest Price of 2024 - SAVE UP TO $1000",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "90970645-3f2b-4c4f-9e21-63e99d904847": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "Delivered in 3-5 business days.",
+            "text": "LIMITED TIME OFFER - Free Shipping on All E-bikes",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
@@ -50,8 +49,8 @@
       "settings": {
         "enable_sticky": true,
         "text_size": "text-base",
-        "header_size": "text-xl",
-        "navigation_mode": "arrows",
+        "header_size": "text-base",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 30,
         "background": "#f3be00",
         "background_gradient": "",
@@ -67,11 +66,10 @@
             "menu_item": "E-BIKES",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/1.1.png",
+            "image_1": "shopify:\/\/shop_images\/102.jpg",
             "image_heading_1": "",
-            "image_link_1": "shopify:\/\/products\/jasion-ebike®combo-sale-eb5-roamer",
+            "image_link_1": "shopify:\/\/collections\/electric-bike",
             "image_text_color_1": "#272727",
-            "image_2": "shopify:\/\/shop_images\/2.2.png",
             "image_heading_2": "",
             "image_link_2": "shopify:\/\/products\/jasion®eb5-roamer-ebike",
             "image_text_color_2": "#ffffff",
@@ -115,7 +113,7 @@
             "menu_item": "Jasionbike Combo Sale",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/NEW_IN.png",
+            "image_1": "shopify:\/\/shop_images\/NEW_IN_9fb7ba1c-9be5-44bf-8e98-d03b31ff6318.png",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -165,7 +163,7 @@
       ],
       "settings": {
         "enable_sticky": true,
-        "hide_on_scroll": true,
+        "hide_on_scroll": false,
         "logo": "shopify:\/\/shop_images\/logo_1.png",
         "logo_max_width": 170,
         "logo_mobile_max_width": 120,

@@ -3,8 +3,32 @@
     "fe5550b8-c626-46b7-80b9-b882de823592": {
       "type": "slideshow",
       "blocks": {
+        "image_zzmQCn": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20241104Anniversary7.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/20241104MAnniversary7.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/combo-sale",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "92a1ff38-5983-404c-a476-80bd94da188e": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/banner_2_585dd09d-d179-4733-8ae0-8185f7fdbbdf.jpg",
             "mobile_image": "shopify:\/\/shop_images\/banner_1_26cca5d5-e5f4-4f01-9ecf-362c036e642a.jpg",
@@ -48,20 +72,19 @@
             "background_gradient": ""
           }
         },
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
+        "image_nqtzeN": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/PC_c06123e2-9d16-4378-a8f6-d8ee930566bf.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/MC_a475ef1e-5328-4fc6-b8fa-9ea21bf15f04.jpg",
-            "content_max_width": 1200,
+            "image": "shopify:\/\/shop_images\/100.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/102.jpg",
+            "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h2",
+            "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/combo-sale-retrovolt-vintage-style-electric-bike-2",
+            "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -71,20 +94,19 @@
             "background_gradient": ""
           }
         },
-        "image_R9AFbW": {
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/X-HUNTER_banner_PC.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/X-HUNTER_banner_MC.jpg",
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/1222-1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/banner-_2.jpg",
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h0",
+            "heading_tag": "h2",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/jasion-x-hunter",
+            "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -96,10 +118,11 @@
         }
       },
       "block_order": [
+        "image_zzmQCn",
         "92a1ff38-5983-404c-a476-80bd94da188e",
         "27f921d4-28ab-4aa5-94e4-1f9e81a565e1",
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1",
-        "image_R9AFbW"
+        "image_nqtzeN",
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1"
       ],
       "settings": {
         "full_width": true,
@@ -146,6 +169,7 @@
         "heading_X46yrm",
         "button_DAtmfT"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "allow_transparent_header": false,
@@ -174,6 +198,7 @@
       "block_order": [
         "image_mbepAM"
       ],
+      "disabled": true,
       "custom_css": [
         ".image-wrap {max-width: 900px; display: block; margin: 0 auto;}"
       ],
@@ -202,25 +227,18 @@
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
           }
         },
-        "product_TdGnQF": {
+        "214b23e0-6f3d-4831-b4db-79e04f649a6d": {
           "type": "product",
           "settings": {
-            "order": "EB5 Roamer",
-            "product": "jasion®eb5-roamer-ebike"
+            "order": "X-Hunter",
+            "product": "jasion-x-hunter"
           }
         },
-        "product_rdQVaF": {
+        "6347c830-2d17-4cf9-82d0-714e8a8e65e5": {
           "type": "product",
           "settings": {
-            "order": "EB5 Roamer",
-            "product": "jasion-ebike®combo-sale-eb5-roamer"
-          }
-        },
-        "product_bNWBzm": {
-          "type": "product",
-          "settings": {
-            "order": "EB5 Roamer",
-            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
+            "order": "X-Hunter",
+            "product": "jasion®-combo-sale-x-hunter-2"
           }
         },
         "product_QCDbNE": {
@@ -235,27 +253,6 @@
           "settings": {
             "order": "EB5 Roamer ST",
             "product": "jasion-ebike®combo-sale-eb5-roamer-st"
-          }
-        },
-        "product_PghxUa": {
-          "type": "product",
-          "settings": {
-            "order": "EB5 Roamer ST",
-            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
-          }
-        },
-        "214b23e0-6f3d-4831-b4db-79e04f649a6d": {
-          "type": "product",
-          "settings": {
-            "order": "X-Hunter",
-            "product": "jasion-x-hunter"
-          }
-        },
-        "product_qgmr3Q": {
-          "type": "product",
-          "settings": {
-            "order": "RetroVolt",
-            "product": "retrovolt-vintage-style-electric-bike"
           }
         },
         "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3": {
@@ -286,8 +283,45 @@
             "product": "jasion-combo-sale-eb7-st-2-best-ebikes-for-family"
           }
         },
+        "product_TdGnQF": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer",
+            "product": "jasion®eb5-roamer-ebike"
+          }
+        },
+        "product_rdQVaF": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer",
+            "product": "jasion-ebike®combo-sale-eb5-roamer"
+          }
+        },
+        "product_bNWBzm": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer",
+            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
+          }
+        },
+        "product_PghxUa": {
+          "type": "product",
+          "settings": {
+            "order": "EB5 Roamer ST",
+            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
+          }
+        },
+        "product_qgmr3Q": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "RetroVolt",
+            "product": "retrovolt-vintage-style-electric-bike"
+          }
+        },
         "product_UhtgNV": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "order": "New Combo",
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
@@ -300,13 +334,6 @@
             "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
           }
         },
-        "6347c830-2d17-4cf9-82d0-714e8a8e65e5": {
-          "type": "product",
-          "settings": {
-            "order": "X-Hunter",
-            "product": "jasion®-combo-sale-x-hunter-2"
-          }
-        },
         "product_zezHqd": {
           "type": "product",
           "settings": {
@@ -316,6 +343,7 @@
         },
         "product_YRgDYD": {
           "type": "product",
+          "disabled": true,
           "settings": {
             "order": "RetroVolt",
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
@@ -339,21 +367,21 @@
       "block_order": [
         "product_xhCdPC",
         "product_GJW9cb",
-        "product_TdGnQF",
-        "product_rdQVaF",
-        "product_bNWBzm",
+        "214b23e0-6f3d-4831-b4db-79e04f649a6d",
+        "6347c830-2d17-4cf9-82d0-714e8a8e65e5",
         "product_QCDbNE",
         "product_LMxRAt",
-        "product_PghxUa",
-        "214b23e0-6f3d-4831-b4db-79e04f649a6d",
-        "product_qgmr3Q",
         "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3",
         "f2c87b37-55b8-4829-a7ed-7f0646a10a3e",
         "db461650-09f1-4cf2-9673-0f2280aa9d09",
         "45d7fb8b-ff96-42bf-9b95-b852e3f1b97f",
+        "product_TdGnQF",
+        "product_rdQVaF",
+        "product_bNWBzm",
+        "product_PghxUa",
+        "product_qgmr3Q",
         "product_UhtgNV",
         "product_anTHA7",
-        "6347c830-2d17-4cf9-82d0-714e8a8e65e5",
         "product_zezHqd",
         "product_YRgDYD",
         "product_LXQ8cT",
@@ -361,9 +389,9 @@
       ],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
-        "title": "Our Halloween Savings! 🎃",
-        "title_sz": "sm",
-        "content": "EB5 Roamer, EB5 Roamer ST & RetroVolt electric bikes are now on frightfully good discounts! Buy two for a better deal！Don’t miss out Halloween limited-time deal!",
+        "title": "Black Friday Sale – Up to 56% OFF Sitewide!",
+        "title_sz": "md",
+        "content": "- Biggest Sale of the Year<br>\n- Free Shipping on All E-bikes <br>\n- Event dates: 11.13 – 12.3<br><br>\nDon’t miss out—shop now to grab your perfect deal while supplies last!",
         "title_color": "#333333",
         "top_padding": "md",
         "bottom_padding": "none",
@@ -752,7 +780,7 @@
         "f8eb4b7f-b6b5-4d5e-a71e-1d3b2562536b"
       ],
       "settings": {
-        "title": "Read About Us",
+        "title": "Media Reviews",
         "show_mobile": true,
         "top_padding": "md",
         "bottom_padding": "md",

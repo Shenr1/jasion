@@ -6,8 +6,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
@@ -37,8 +36,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -66,13 +64,11 @@
         },
         "beead425-c9b4-42aa-b019-63c29006c41d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -86,8 +82,7 @@
         },
         "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -124,8 +119,7 @@
         },
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
-          "settings": {
-          }
+          "settings": {}
         },
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
@@ -159,8 +153,7 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/back_to_school.jpg",
-            "content_1": "If you order a bike from <b>Aug 2 to Aug 15<\/b>, please contact business@jasionbike.com to claim a free rear basket after receiving your bike.<br><br>\n<b>*Please note that this offer cannot be combined with other promotions.<\/b>",
+            "content_1": "",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -1370,7 +1363,7 @@
             "item6": "<b>Display<\/b> LCD Display",
             "item7": "<b>Total Payload Capacity<\/b>  350 Lbs",
             "item8": "<b>Weight<\/b>  62.8Lbs",
-            "item9": "<b>Recommended Rider Heights<\/b> 4'5\" to 6'2\"",
+            "item9": "<b>Recommended Rider Heights<\/b> 5'1\" to 6'2\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
             "item11": "<b>Tires<\/b>  20\" x 3\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Twist Throttle",
@@ -1884,8 +1877,7 @@
       "blocks": {
         "d2b002c4-ab4c-43b5-a846-ac0e3eaad95a": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
