@@ -8977,10 +8977,10 @@ split-lines {
 .text-error {
   color: rgb(var(--error-text));
 }
-
+/* 
 .text-subdued {
   color: rgb(var(--text-color) / .7);
-}
+} */
 
 .text-on-sale {
   color: rgb(var(--on-sale-text));

@@ -80,6 +80,21 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
+        "countdown_RgnDY3": {
+          "type": "countdown",
+          "settings": {
+            "countdown_lbl": "Hurry! BFCM Sale",
+            "countdown_lbl_content": "Sale Ends In:",
+            "countdown_date": "2024-12-03 23:59",
+            "countdown_days": "DAYS",
+            "countdown_hours": "HRS",
+            "countdown_minutes": "MIN",
+            "countdown_seconds": "SEC",
+            "background": "",
+            "background_gradient": "linear-gradient(90deg, rgba(249, 86, 6, 1), rgba(255, 193, 5, 1) 100%)",
+            "text_color": ""
+          }
+        },
         "payment_terms": {
           "type": "payment_terms",
           "settings": {}
@@ -193,6 +208,7 @@
         "rating",
         "824f4735-feaa-4024-a660-c179c5542ced",
         "beead425-c9b4-42aa-b019-63c29006c41d",
+        "countdown_RgnDY3",
         "payment_terms",
         "variant_picker",
         "92b6eeef-a142-4961-bdba-1cc3b110eb09",

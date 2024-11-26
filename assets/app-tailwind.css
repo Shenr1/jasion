@@ -71,3 +71,6 @@
 [section-name="tabs-image-text-list"] .product-card__info .product-card__aside {@apply tw-mx-auto}
 [section-name="tabs-image-text-list"] .product-card__figure img {@apply tw-object-cover tw-h-full}
 [section-name="tabs-image-text-list"] .product-card {@apply tw-inline}
+
+.tw-countdown-item{@apply tw-text-base tw-w-16 tw-bg-white tw-font-semibold tw-flex tw-flex-col tw-items-center tw-px-2 tw-py-2 tw-rounded-xl}
+.tw-countdown-item span{@apply tw-font-normal tw-text-sm tw-opacity-75}

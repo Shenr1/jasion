@@ -111,6 +111,52 @@
           {%- endif -%}
         {%- endif -%}
 
+      {%- when 'countdown' -%}
+
+      <div {% render 'surface', class: 'countdown-wrapper tw-rounded-xl tw-max-w-[550px]', background_gradient: block.settings.background_gradient, background: block.settings.background, text_color: block.settings.text_color %}>
+          {% assign meta = block.settings.countdown_date %}
+          {% assign countdown_days = block.settings.countdown_days %}
+          {% assign countdown_hours = block.settings.countdown_hours %}
+          {% assign countdown_minutes = block.settings.countdown_minutes %}
+          {% assign countdown_seconds = block.settings.countdown_seconds %}
+          <div class="tw-py-2 tw-px-4 tw-flex md:tw-flex-row tw-flex-col tw-items-center tw-justify-between ">
+            <div class="md:tw-text-left tw-text-center">
+              <label id="countdownLbl" class="block-label text-subdued tw-text-lg tw-font-semibold tw-mb-0 tw-leading-tight">
+                {{ block.settings.countdown_lbl }}
+              </label> 
+              {% if block.settings.countdown_lbl_content != blank %}
+              <p class="tw-leading-tight tw-text-base">{{ block.settings.countdown_lbl_content }}</p> 
+              {% endif %}
+            </div>
+            <div id="countdown" class="prcountdown tw-flex tw-gap-4 tw-mx-0 tw-my-2 "></div>
+          </div>
+          <script type="text/javascript">
+            var countDownDate = new Date("{{ meta }}");
+            countDownDate.setHours(countDownDate.getHours() + 6);
+            var countDownTime = countDownDate.getTime();
+            var x = setInterval(function() { 
+              var now = new Date().getTime(),
+                  distance = countDownTime - now,
+                  days = Math.floor(distance / (1000 * 60 * 60 * 24)),
+                  hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                  minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+                  seconds = Math.floor((distance % (1000 * 60)) / 1000);
+              days = ("0" + days).slice(-2);
+              hours = ("0" + hours).slice(-2);
+              minutes = ("0" + minutes).slice(-2);
+              seconds = ("0" + seconds).slice(-2);
+
+              document.getElementById("countdown").innerHTML = "<span class='days tw-countdown-item'>" + days + "<span class='countdown-unit tw-block '>{{ countdown_days }}</span></span> <span class='hours tw-countdown-item'>" + hours + "<span class='countdown-unit'>{{ countdown_hours }}</span></span> <span class='minutes tw-countdown-item'>" + minutes + "<span class='countdown-unit'>{{ countdown_minutes }}</span></span> <span class='seconds tw-countdown-item'>" + seconds + "<span class='countdown-unit'>{{ countdown_seconds }}</span></span>";
+
+              if (distance < 0) {
+                  clearInterval(x);
+                  document.getElementById("countdownLbl").style.display = "none";
+                  document.getElementById("countdown").style.display = "none";
+              }
+            }, 1000);
+          </script>
+      </div>
+
       {%- when 'variant_picker' -%}
         <div class="product-info__variant-picker" {{ block.shopify_attributes }}>
           {%- render 'variant-picker', product: product, form_id: product_form_id, update_url: update_url, hide_sold_out_variants: block.settings.hide_sold_out_variants, block: block -%}

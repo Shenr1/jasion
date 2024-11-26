@@ -384,6 +384,75 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       ]
     },
     {
+      "type": "countdown",
+      "name": "Countdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "countdown_lbl",
+          "label": "Countdown title",
+          "default": "Hurry up!"
+        },
+        {
+          "type": "text",
+          "id": "countdown_lbl_content",
+          "label": "Countdown content",
+          "default": "Sale Ends In"
+        },
+        {
+          "type": "text",
+          "id": "countdown_date",
+          "label": "Select end date for countdown",
+          "default": "2024-12-03 23:59"
+        },
+        {
+          "type": "text",
+          "id": "countdown_days",
+          "label": "Countdown Days",
+          "default": "DAYS"
+        },
+        {
+          "type": "text",
+          "id": "countdown_hours",
+          "label": "Countdown Hours",
+          "default": "HRS"
+        },
+        {
+          "type": "text",
+          "id": "countdown_minutes",
+          "label": "Countdown Minutes",
+          "default": "MIN"
+        },
+        {
+          "type": "text",
+          "id": "countdown_seconds",
+          "label": "Countdown Seconds",
+          "default": "SEC"
+        },
+        {
+          "type": "header",
+          "content": "Colors",
+          "info": "Gradient replaces solid colors when set."
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background"
+        },
+        {
+          "type": "color_background",
+          "id": "background_gradient",
+          "label": "Background gradient",
+          "default":"linear-gradient(90deg, rgba(249, 86, 6, 1), rgba(255, 193, 5, 1) 100%)"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text"
+        }
+      ]
+    },
+    {
       "type": "line_item_property",
       "name": "Line item property",
       "settings": [
