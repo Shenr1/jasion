@@ -86,7 +86,7 @@
           "settings": {
             "countdown_lbl": "Hurry! BFCM",
             "countdown_lbl_content": "Sale Ends In:",
-            "countdown_date": "2024-12-03 23:59",
+            "countdown_date": "2024-12-03 00:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -1373,7 +1373,7 @@
             "item6": "<b>Display<\/b> LCD Display",
             "item7": "<b>Total Payload Capacity<\/b>  330 Lbs",
             "item8": "<b>Weight<\/b>  62.8Lbs",
-            "item9": "<b>Recommended Rider Heights<\/b> 4'5\" to 6'2\"",
+            "item9": "<b>Recommended Rider Heights<\/b> 5'1\" to 6'2\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
             "item11": "<b>Tires<\/b>  20\" x 3\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Twist Throttle",

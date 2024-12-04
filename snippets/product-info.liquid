@@ -120,7 +120,7 @@
           {% assign countdown_minutes = block.settings.countdown_minutes %}
           {% assign countdown_seconds = block.settings.countdown_seconds %}
           <div class="tw-py-2 tw-px-4 tw-flex md:tw-flex-row tw-flex-col tw-items-center tw-justify-between ">
-            <div class="md:tw-text-left tw-text-center">
+            <div class="md:tw-text-left tw-text-center md:tw-block tw-flex tw-gap-2">
               <label id="countdownLbl" class="block-label text-subdued tw-text-lg tw-font-semibold tw-mb-0 tw-leading-tight">
                 {{ block.settings.countdown_lbl }}
               </label> 
@@ -131,29 +131,52 @@
             <div id="countdown" class="prcountdown tw-flex tw-gap-4 tw-mx-0 tw-my-2 "></div>
           </div>
           <script type="text/javascript">
-            var countDownDate = new Date("{{ meta }}");
-            countDownDate.setHours(countDownDate.getHours() + 6);
-            var countDownTime = countDownDate.getTime();
-            var x = setInterval(function() { 
-              var now = new Date().getTime(),
-                  distance = countDownTime - now,
-                  days = Math.floor(distance / (1000 * 60 * 60 * 24)),
-                  hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-                  minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
-                  seconds = Math.floor((distance % (1000 * 60)) / 1000);
-              days = ("0" + days).slice(-2);
-              hours = ("0" + hours).slice(-2);
-              minutes = ("0" + minutes).slice(-2);
-              seconds = ("0" + seconds).slice(-2);
+            // 使用 Liquid 渲染服务器端时间
+            var storeNow = new Date("{{ 'now' | date: '%Y-%m-%dT%H:%M:%S' }}").getTime(); // 初始店铺时间
+            var clientNow = new Date().getTime(); // 当前浏览器时间
+            var timeOffset = storeNow - clientNow; // 计算店铺时间与浏览器时间的偏移
 
-              document.getElementById("countdown").innerHTML = "<span class='days tw-countdown-item'>" + days + "<span class='countdown-unit tw-block '>{{ countdown_days }}</span></span> <span class='hours tw-countdown-item'>" + hours + "<span class='countdown-unit'>{{ countdown_hours }}</span></span> <span class='minutes tw-countdown-item'>" + minutes + "<span class='countdown-unit'>{{ countdown_minutes }}</span></span> <span class='seconds tw-countdown-item'>" + seconds + "<span class='countdown-unit'>{{ countdown_seconds }}</span></span>";
+            // 目标时间
+            var countDownDate = new Date("{{ meta }}").getTime(); // Liquid 提供的目标时间
 
-              if (distance < 0) {
-                  clearInterval(x);
-                  document.getElementById("countdownLbl").style.display = "none";
-                  document.getElementById("countdown").style.display = "none";
-              }
+            var x = setInterval(function() {
+                // 获取当前浏览器时间并加上偏移以模拟店铺时间
+                var now = new Date().getTime() + timeOffset;
+
+                // 计算剩余时间
+                var distance = countDownDate - now;
+
+                // 计算天、小时、分钟、秒
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                // 格式化为两位数
+                days = ("0" + days).slice(-2);
+                hours = ("0" + hours).slice(-2);
+                minutes = ("0" + minutes).slice(-2);
+                seconds = ("0" + seconds).slice(-2);
+
+                // 更新页面倒计时显示
+                document.getElementById("countdown").innerHTML = 
+                    "<span class='days tw-countdown-item'>" + days + 
+                    "<span class='countdown-unit tw-block '>{{ countdown_days }}</span></span> " +
+                    "<span class='hours tw-countdown-item'>" + hours + 
+                    "<span class='countdown-unit'>{{ countdown_hours }}</span></span> " +
+                    "<span class='minutes tw-countdown-item'>" + minutes + 
+                    "<span class='countdown-unit'>{{ countdown_minutes }}</span></span> " +
+                    "<span class='seconds tw-countdown-item'>" + seconds + 
+                    "<span class='countdown-unit'>{{ countdown_seconds }}</span></span>";
+
+                // 如果倒计时完成
+                if (distance < 0) {
+                    clearInterval(x);
+                    document.getElementById("countdownLbl").style.display = "none";
+                    document.getElementById("countdown").style.display = "none";
+                }
             }, 1000);
+
           </script>
       </div>
 

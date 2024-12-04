@@ -58,7 +58,7 @@
           "settings": {
             "countdown_lbl": "Hurry! BFCM",
             "countdown_lbl_content": "Sale Ends In:",
-            "countdown_date": "2024-12-03 23:59",
+            "countdown_date": "2024-12-03T00:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",

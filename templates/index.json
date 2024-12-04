@@ -75,7 +75,7 @@
         "image_nqtzeN": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/100.jpg",
+            "image": "shopify:\/\/shop_images\/3_4f7a4be0-97c4-49e5-9414-49bd9ce7e045.jpg",
             "mobile_image": "shopify:\/\/shop_images\/102.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
@@ -97,8 +97,8 @@
         "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1222-1.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner-_2.jpg",
+            "image": "shopify:\/\/shop_images\/1_edd25431-6da5-4f7d-80be-be2f0411af29.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2_028619ad-b6d3-4928-b3a7-4388e1e3a265.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -106,7 +106,7 @@
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/electric-bike",
+            "button_link": "shopify:\/\/collections\/combo-sale",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",

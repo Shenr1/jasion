@@ -425,10 +425,6 @@
   width: 100%;
 }
 
-.tw-max-w-\[600px\]{
-  max-width: 600px;
-}
-
 .tw-max-w-\[550px\]{
   max-width: 550px;
 }
@@ -499,6 +495,10 @@
 
 .tw-gap-4{
   gap: 1rem;
+}
+
+.tw-gap-2{
+  gap: 0.5rem;
 }
 
 .tw-overflow-hidden{
