@@ -84,16 +84,16 @@
         "countdown_7rLGNr": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry! BFCM",
-            "countdown_lbl_content": "Sale Ends In:",
-            "countdown_date": "2024-12-03 00:00",
+            "countdown_lbl": "Hurry!",
+            "countdown_lbl_content": "XMAS Sale Ends In：",
+            "countdown_date": "2024-12-12T00:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
             "countdown_seconds": "SEC",
-            "background": "",
-            "background_gradient": "linear-gradient(90deg, rgba(249, 86, 6, 1), rgba(255, 193, 5, 1) 100%)",
-            "text_color": ""
+            "background": "#014133",
+            "background_gradient": "",
+            "text_color": "#f9c150"
           }
         },
         "payment_terms": {
@@ -190,8 +190,8 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/3aaaf0169e6fdbfdfb28eb0c72c906f7_41446953-9210-4c86-988a-156a3c1eb24e.png",
-            "content_1": "🔹 Up to 58% OFF across the site<br>\n🔹 Exclusive bundles and limited-time offers<br>\n🔹 Free shipping on all combo deals<br><br>\n⏰ Sale ends soon—don’t miss out! Add to cart now and grab these deals while supplies last!",
+            "img_1": "shopify:\/\/shop_images\/presents.png",
+            "content_1": "Wishing you the warmest holiday season! 🎄This Christmas, surprise your loved ones with freedom and adventure.<br><br>\nJasionBike's Christmas Super Sale Highlights:<br>\n❄️Up to $2000 OFF on ebikes<br>\n🎅 Free Shipping on All E-bikes<br>\n✨Biggest Discount Ever on All Models.<br><br>\nOrder before 12\/15 to give (or get) an ebike for the big day! Shop best-selling ebikes now.",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",

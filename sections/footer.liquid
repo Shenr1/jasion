@@ -300,11 +300,11 @@ ul.social-media {
           {%- assign locale_selector = true -%}
         {%- endif -%}
 
-        {%- if social_media != blank or country_selector or locale_selector -%}
+        {%- if social_media != blank or country_selector or locale_selector or section.settings.show_country_link -%}
           <div class="footer__aside-top">
             {{- social_media -}}
 
-            {%- if country_selector or locale_selector -%}
+            {%- if country_selector or locale_selector or section.settings.show_country_link-%}
               <div class="h-stack gap-6">
                 {%- if social_media == blank -%}
                   {%- assign popover_horizontal_position = 'start' -%}
@@ -314,6 +314,10 @@ ul.social-media {
 
                 {%- if country_selector -%}
                   {%- render 'localization-selector', type: 'country', show_country_name: section.settings.show_country_name, show_country_flag: section.settings.show_country_flag, popover_horizontal_position: popover_horizontal_position -%}
+                {%- endif -%}
+
+                {%- if section.settings.show_country_link -%}
+                  {%- render 'localization-selector', type: 'country_link', popover_vertical_position: 'end' -%}
                 {%- endif -%}
 
                 {%- if locale_selector -%}
@@ -406,6 +410,12 @@ ul.social-media {
       "type": "checkbox",
       "id": "show_country_selector",
       "label": "Show country/region selector",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country_link",
+      "label": "Show country link",
       "default": true
     },
     {

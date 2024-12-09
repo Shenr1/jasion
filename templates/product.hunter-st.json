@@ -56,16 +56,16 @@
         "countdown_nXwDB8": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Hurry! BFCM",
-            "countdown_lbl_content": "Sale Ends In:",
-            "countdown_date": "2024-12-03T00:00",
+            "countdown_lbl": "Hurry!",
+            "countdown_lbl_content": "XMAS Sale Ends In：",
+            "countdown_date": "2024-12-12T00:00",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
             "countdown_seconds": "SEC",
-            "background": "",
-            "background_gradient": "linear-gradient(90deg, rgba(249, 86, 6, 1), rgba(255, 193, 5, 1) 100%)",
-            "text_color": ""
+            "background": "#014133",
+            "background_gradient": "",
+            "text_color": "#f9c150"
           }
         },
         "payment_terms": {

@@ -493,12 +493,12 @@
   justify-content: space-between;
 }
 
-.tw-gap-4{
-  gap: 1rem;
-}
-
 .tw-gap-2{
   gap: 0.5rem;
+}
+
+.tw-gap-4{
+  gap: 1rem;
 }
 
 .tw-overflow-hidden{
@@ -1602,6 +1602,10 @@
     justify-content: normal;
   }
 
+  .md\:tw-justify-start{
+    justify-content: flex-start;
+  }
+
   .md\:tw-rounded-3xl{
     border-radius: 1.5rem;
   }
@@ -2193,6 +2197,10 @@
   .\33xl\:tw-right-\[30\%\]{
     right: 30%;
   }
+}
+
+.\[\&\:not\(\:last-child\)\]\:tw-mb-3:not(:last-child){
+  margin-bottom: 0.75rem;
 }
 
 @media (min-width: 768px){

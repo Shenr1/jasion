@@ -20,8 +20,8 @@
     "header_text_color": "#272727",
     "footer_background": "#f2f2f2",
     "footer_text_color": "#272727",
-    "primary_button_background": "#272727",
-    "primary_button_text_color": "#ffffff",
+    "primary_button_background": "#014133",
+    "primary_button_text_color": "#f9c150",
     "secondary_button_background": "#ff981d",
     "secondary_button_text_color": "#ffffff",
     "product_card_text_color": "#272727",
@@ -36,6 +36,7 @@
     "text_font_size_mobile": 14,
     "text_font_size_desktop": 18,
     "currency_code_enabled": false,
+    "country_link": "US||US||https:\/\/www.jasionbike.com\nEU||EUROPE||https:\/\/www.jasionbikes.eu\/",
     "show_page_transition": false,
     "zoom_image_on_hover": false,
     "reduce_drawer_animation": false,
@@ -79,15 +80,12 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "14060646107696862457": {
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/judgeme_core\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "12120936241911852800": {
         "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/reviews_tab\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
@@ -99,26 +97,22 @@
       "17368511000352060744": {
         "type": "shopify:\/\/apps\/goaffpro-affiliate-marketing\/blocks\/goaffpro-embedded-pixel\/2f4d802b-86c2-47e4-8096-ae1aa3efbab2",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "1513253815146976218": {
         "type": "shopify:\/\/apps\/omnisend-email-marketing-sms\/blocks\/app-embed\/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "5784066569132941777": {
         "type": "shopify:\/\/apps\/s-store-locator\/blocks\/embed-app\/e7003487-cc51-4321-9488-2c47c07a5b17",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6279071938380501511": {
         "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-embed\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify:\/\/apps\/inbox\/blocks\/chat\/841fc607-4181-4ad1-842d-e24d7f8bad6b",

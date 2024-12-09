@@ -20,14 +20,14 @@
         "message_gCy7hw": {
           "type": "message",
           "settings": {
-            "text": "LOWEST PRICE OF 2024 - SAVE UP TO $2000",
+            "text": "Hurry! Save Up To $2000 now!",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "90970645-3f2b-4c4f-9e21-63e99d904847": {
           "type": "message",
           "settings": {
-            "text": "LIMITED TIME OFFER - FREE SHIPPING ON ALL E-BIKES",
+            "text": "Order Before 12\/15 For Free Holiday Delivery.",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
@@ -52,9 +52,9 @@
         "header_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 30,
-        "background": "#ffffff",
-        "background_gradient": "linear-gradient(90deg, rgba(249, 86, 6, 1), rgba(255, 193, 5, 1) 100%)",
-        "text_color": "#272727"
+        "background": "#014133",
+        "background_gradient": "",
+        "text_color": "#f9c150"
       }
     },
     "header": {
@@ -66,7 +66,7 @@
             "menu_item": "E-BIKES",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/102.jpg",
+            "image_1": "shopify:\/\/shop_images\/lQDPKdP8URF7jkHNBkDNBLCwnE_48w0FrFgHOCpADTWgAA_1200_1600.jpg",
             "image_heading_1": "",
             "image_link_1": "shopify:\/\/collections\/electric-bike",
             "image_text_color_1": "#272727",
@@ -113,7 +113,7 @@
             "menu_item": "Jasionbike Combo Sale",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/NEW_IN_9fb7ba1c-9be5-44bf-8e98-d03b31ff6318.png",
+            "image_1": "shopify:\/\/shop_images\/3m.jpg",
             "image_heading_1": "",
             "image_link_1": "",
             "image_text_color_1": "#ffffff",
@@ -176,6 +176,7 @@
         "show_social_media": true,
         "show_locale_selector": true,
         "show_country_selector": false,
+        "show_country_link": true,
         "show_country_flag": false,
         "show_country_name": false,
         "transparent_header_text_color": "#000000",

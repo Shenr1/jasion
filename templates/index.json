@@ -3,12 +3,55 @@
     "fe5550b8-c626-46b7-80b9-b882de823592": {
       "type": "slideshow",
       "blocks": {
+        "image_nqtzeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lQDPJwAw9glkbkHNBC_NCgCwTcDB6SY0Z8gHOCpADTWgAQ_2560_1071.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/lQDPKdP8URF7jkHNBkDNBLCwnE_48w0FrFgHOCpADTWgAA_1200_1600.jpg",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/electric-bike",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/2_6a7880ad-5c2b-4b70-a400-e2c48c49a1d9.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/2m.jpg",
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "shopify:\/\/collections\/combo-sale",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
         "image_zzmQCn": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/20241104Anniversary7.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/20241104MAnniversary7.jpg",
+            "image": "shopify:\/\/shop_images\/3.1.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/3m.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -71,58 +114,14 @@
             "background": "",
             "background_gradient": ""
           }
-        },
-        "image_nqtzeN": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_4f7a4be0-97c4-49e5-9414-49bd9ce7e045.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/102.jpg",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h0",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/electric-bike",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_edd25431-6da5-4f7d-80be-be2f0411af29.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/2_028619ad-b6d3-4928-b3a7-4388e1e3a265.jpg",
-            "content_max_width": 1200,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "shopify:\/\/collections\/combo-sale",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0,
-            "background": "",
-            "background_gradient": ""
-          }
         }
       },
       "block_order": [
+        "image_nqtzeN",
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1",
         "image_zzmQCn",
         "92a1ff38-5983-404c-a476-80bd94da188e",
-        "27f921d4-28ab-4aa5-94e4-1f9e81a565e1",
-        "image_nqtzeN",
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1"
+        "27f921d4-28ab-4aa5-94e4-1f9e81a565e1"
       ],
       "settings": {
         "full_width": true,
@@ -389,9 +388,9 @@
       ],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
-        "title": "Black Friday Sale – Up to 56% OFF Sitewide!",
+        "title": "🎄HAPPY CHRISTMAS -  EARLY BIRD SALE",
         "title_sz": "md",
-        "content": "- Biggest Sale of the Year<br>\n- Free Shipping on All E-bikes <br>\n- Event dates: 11.13 – 12.3<br><br>\nDon’t miss out—shop now to grab your perfect deal while supplies last!",
+        "content": "🎅Up To $2000 Off<br>\n❄️Free Shipping on All E-bikes<br>\n🔔DEC 6 - DEC 15<br><br>\nLimited stock. Order before 12\/15 for free holiday delivery.",
         "title_color": "#333333",
         "top_padding": "md",
         "bottom_padding": "none",
