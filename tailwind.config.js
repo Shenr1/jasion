@@ -28,6 +28,8 @@ module.exports = {
         '3/4': '75%'
       },
       screens: {
+        'max-md': { 'max': '767px' }, 
+        'max-lg': { 'max': '1023px' }, 
         '3xl': {'min': '1535px'},
         '2xl': {'min': '1440px'},
       },

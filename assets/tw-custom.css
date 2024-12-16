@@ -864,6 +864,11 @@
   letter-spacing: -0.05em;
 }
 
+.tw-text-black{
+  --tw-text-opacity: 1;
+  color: rgb(26 26 26 / var(--tw-text-opacity, 1));
+}
+
 .tw-text-stone-600{
   --tw-text-opacity: 1;
   color: rgb(87 83 78 / var(--tw-text-opacity, 1));
@@ -1424,6 +1429,10 @@
 }
 
 @media (min-width: 768px){
+  .md\:tw-sticky{
+    position: sticky;
+  }
+
   .md\:tw-bottom-8{
     bottom: 2rem;
   }
@@ -1434,6 +1443,10 @@
 
   .md\:tw-right-\[24\%\]{
     right: 24%;
+  }
+
+  .md\:tw-top-28{
+    top: 7rem;
   }
 
   .md\:tw-order-2{

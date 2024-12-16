@@ -128,7 +128,7 @@
               <p class="tw-leading-tight tw-text-base">{{ block.settings.countdown_lbl_content }}</p> 
               {% endif %}
             </div>
-            <div id="countdown" class="prcountdown tw-flex tw-gap-4 tw-mx-0 tw-my-2 "></div>
+            <div id="countdown" class="prcountdown tw-flex tw-gap-4 tw-mx-0 tw-my-2  tw-text-black"></div>
           </div>
           <script type="text/javascript">
             // 使用 Liquid 渲染服务器端时间
@@ -172,6 +172,7 @@
                 // 如果倒计时完成
                 if (distance < 0) {
                     clearInterval(x);
+                    document.querySelector(".countdown-wrapper").style.display = "none";
                     document.getElementById("countdownLbl").style.display = "none";
                     document.getElementById("countdown").style.display = "none";
                 }
