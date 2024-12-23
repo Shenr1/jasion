@@ -53,7 +53,8 @@
 [section-name="tab-product-content"] .carousel-cell-product .product-card__title{@apply tw-text-lg tw-mr-6 tw-relative}
 [section-name="tab-product-content"] .carousel-cell-product .product-card__title::before{@apply tw-content-[''] tw-bg-black tw-w-[3px] tw-top-1/2 -tw-translate-y-1/2 tw-h-1/2 tw-absolute -tw-right-3}
 [section-name="tab-product-content"] .flickity-button:disabled{@apply tw-hidden}
-[section-name="tab-product-content"] .flickity-button{@apply tw-bg-black tw-text-white tw-shadow}
+[section-name="tab-product-content"] .flickity-button{@apply tw-bg-black tw-text-white tw-shadow tw-transition-all}
+[section-name="tab-product-content"] .flickity-button:hover{@apply tw-bg-vi }
 
 .pr-color-option li.active{@apply !tw-border-stone-900}
 .eb2-info .product-info__text{@apply tw-text-base}

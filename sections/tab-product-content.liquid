@@ -51,7 +51,7 @@
     </div>
 
 
-    <div class="tab-content 2xl:tw-mt-20 md:tw-mt-16 tw-mt-8">
+    <div class="tab-content 2xl:tw-mt-20 md:tw-mt-16 tw-mt-8 tw-max-h-[485px]">
       {%- for tab in tabs -%}
           <div tab-target="{{ tab | downcase | handleize }}" class="{% unless forloop.first %}tw-hidden{% endunless %}">
             <div class="main-carousel">
@@ -114,8 +114,7 @@
     const elems = document.querySelectorAll('#shopify-section-{{section.id}} [section-name="tab-product-content"] .main-carousel');
     const flktyInstances = [];
     const screenWidth = window.innerWidth || document.documentElement.clientWidth;
-
-
+    
     if (elems.length > 0) {
       elems.forEach(function (elem) {
         const hasProductCells = elem.querySelector('.carousel-cell-product');
@@ -124,7 +123,9 @@
             cellAlign: 'left',
             contain: true,
             lazyLoad: true,
-            pageDots: false
+            pageDots: false,
+            prevNextButtons: true,
+            groupCells: 2
           });
           flktyInstances.push(flkty); 
         }
