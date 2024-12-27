@@ -29,8 +29,8 @@
         "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1218a.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1218am.jpg",
+            "image": "shopify:\/\/shop_images\/EB5_1e006229-4160-4797-8e3e-2f3fd8cc602e.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/EB5M.jpg",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -38,7 +38,7 @@
             "title": "",
             "heading_tag": "h2",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/combo-sale-eb7-eb7st",
+            "button_link": "shopify:\/\/products\/jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -51,8 +51,8 @@
         "image_zzmQCn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1218b.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1218bm.jpg",
+            "image": "shopify:\/\/shop_images\/EB7_ST_a2ec664b-1cd7-4c11-99d0-8dc398a03ad8.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/EB7_ST_M.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -60,7 +60,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st",
+            "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -389,9 +389,9 @@
       ],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
-        "title": "🎄FINAL CHANCE FOR UP TO 59% OFF",
+        "title": "🎉Happy New Year! Blessings from Jasionbike",
         "title_sz": "md",
-        "content": "🎅Up To $1980 Off<br>\n❄️Free Shipping on All E-bikes<br>\n🔔DEC 17 - DEC 25<br><br>\nDon't let a missed delivery steal their joy this Christmas. Order now and make this holiday one to remember.",
+        "content": "🎁Enjoy Early Savings - Up to 59% off<br>\n❄️Free Shipping on All E-bikes<br><br>\n\nWishing you a Happy New Year, filled with health, happiness, and many memorable rides.",
         "title_color": "#333333",
         "top_padding": "md",
         "bottom_padding": "none",
@@ -847,7 +847,7 @@
         "template--16905168912621__40dae568-6d2d-415c-91a5-f1217f9be3c5-slide-2": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4_6e0373a7-07cf-4f7c-98eb-e2b5f5415cb3.png",
+            "image": "shopify:\/\/shop_images\/Anthony_EB7_2.0-16.jpg",
             "navigation_label": "2021",
             "subheading": "Symbol of the Beginning of Adventure",
             "title": "Jasion EB7 2.0",
@@ -857,7 +857,7 @@
         "template--16905168912621__40dae568-6d2d-415c-91a5-f1217f9be3c5-slide-3": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3_2afb6b85-86bc-443d-840a-8bc2c2c8001b.png",
+            "image": "shopify:\/\/shop_images\/Troy_Lex_EB7ST-120_f304fd56-4cd0-427c-83be-98ffd11a88b7.jpg",
             "navigation_label": "2022",
             "subheading": "Embodying the Essence of Urban Mobility.",
             "title": "Jasion EB7 ST",
