@@ -26,19 +26,19 @@
             "background_gradient": ""
           }
         },
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
+        "image_zzmQCn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB5_1e006229-4160-4797-8e3e-2f3fd8cc602e.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/EB5M.jpg",
-            "content_max_width": 1200,
+            "image": "shopify:\/\/shop_images\/1_e562575e-6fa9-49db-8734-1dfdd415566c.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_M.jpg",
+            "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h2",
+            "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st",
+            "button_link": "shopify:\/\/products\/jasion-x-hunter",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -48,17 +48,17 @@
             "background_gradient": ""
           }
         },
-        "image_zzmQCn": {
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/EB7_ST_a2ec664b-1cd7-4c11-99d0-8dc398a03ad8.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/EB7_ST_M.jpg",
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/1_5d1bdbb6-6206-4a21-8127-e82c41225708.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_M_dfce673f-3c5c-4ee6-ad0c-d99cd19f68a8.jpg",
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h0",
+            "heading_tag": "h2",
             "button_text": "",
             "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#ffffff",
@@ -119,8 +119,8 @@
       },
       "block_order": [
         "image_nqtzeN",
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1",
         "image_zzmQCn",
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1",
         "92a1ff38-5983-404c-a476-80bd94da188e",
         "27f921d4-28ab-4aa5-94e4-1f9e81a565e1"
       ],
@@ -227,6 +227,20 @@
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
           }
         },
+        "214b23e0-6f3d-4831-b4db-79e04f649a6d": {
+          "type": "product",
+          "settings": {
+            "order": "X-Hunter",
+            "product": "jasion-x-hunter"
+          }
+        },
+        "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3": {
+          "type": "product",
+          "settings": {
+            "order": "EB7 2.0",
+            "product": "jasion-eb7-electric-bike"
+          }
+        },
         "db461650-09f1-4cf2-9673-0f2280aa9d09": {
           "type": "product",
           "settings": {
@@ -241,25 +255,11 @@
             "product": "jasion-combo-sale-eb7-st-2-best-ebikes-for-family"
           }
         },
-        "214b23e0-6f3d-4831-b4db-79e04f649a6d": {
-          "type": "product",
-          "settings": {
-            "order": "X-Hunter",
-            "product": "jasion-x-hunter"
-          }
-        },
         "6347c830-2d17-4cf9-82d0-714e8a8e65e5": {
           "type": "product",
           "settings": {
             "order": "X-Hunter",
             "product": "jasion®-combo-sale-x-hunter-2"
-          }
-        },
-        "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3": {
-          "type": "product",
-          "settings": {
-            "order": "EB7 2.0",
-            "product": "jasion-eb7-electric-bike"
           }
         },
         "f2c87b37-55b8-4829-a7ed-7f0646a10a3e": {
@@ -327,18 +327,25 @@
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
           }
         },
-        "fc39b58f-9005-4be3-b080-c9112e09c064": {
-          "type": "product",
-          "settings": {
-            "order": "New Combo",
-            "product": "combo-sale-eb7-eb7st"
-          }
-        },
         "product_zezHqd": {
           "type": "product",
           "settings": {
             "order": "New Combo",
             "product": "jasion-ebike®-combo-sale-x-hunter-eb7-st"
+          }
+        },
+        "product_LXQ8cT": {
+          "type": "product",
+          "settings": {
+            "order": "New Combo",
+            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-2-0"
+          }
+        },
+        "fc39b58f-9005-4be3-b080-c9112e09c064": {
+          "type": "product",
+          "settings": {
+            "order": "New Combo",
+            "product": "combo-sale-eb7-eb7st"
           }
         },
         "product_YRgDYD": {
@@ -347,13 +354,6 @@
           "settings": {
             "order": "RetroVolt",
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
-          }
-        },
-        "product_LXQ8cT": {
-          "type": "product",
-          "settings": {
-            "order": "New Combo",
-            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-2-0"
           }
         },
         "product_anTHA7": {
@@ -367,11 +367,11 @@
       "block_order": [
         "product_xhCdPC",
         "product_GJW9cb",
+        "214b23e0-6f3d-4831-b4db-79e04f649a6d",
+        "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3",
         "db461650-09f1-4cf2-9673-0f2280aa9d09",
         "45d7fb8b-ff96-42bf-9b95-b852e3f1b97f",
-        "214b23e0-6f3d-4831-b4db-79e04f649a6d",
         "6347c830-2d17-4cf9-82d0-714e8a8e65e5",
-        "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3",
         "f2c87b37-55b8-4829-a7ed-7f0646a10a3e",
         "product_TdGnQF",
         "product_rdQVaF",
@@ -381,17 +381,17 @@
         "product_PghxUa",
         "product_qgmr3Q",
         "product_UhtgNV",
-        "fc39b58f-9005-4be3-b080-c9112e09c064",
         "product_zezHqd",
-        "product_YRgDYD",
         "product_LXQ8cT",
+        "fc39b58f-9005-4be3-b080-c9112e09c064",
+        "product_YRgDYD",
         "product_anTHA7"
       ],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
-        "title": "🎉Happy New Year! Blessings from Jasionbike",
+        "title": "❄️Ride away with the best winter saving",
         "title_sz": "md",
-        "content": "🎁Enjoy Early Savings - Up to 59% off<br>\n❄️Free Shipping on All E-bikes<br><br>\n\nWishing you a Happy New Year, filled with health, happiness, and many memorable rides.",
+        "content": "🎁 Order a X-Hunter Will Get a Free Rear Basket<br>\n🚴Ebike Up To $1980 Off<br>\n✨Free Shipping On All E-bikes<br>\n😍 Bundle up and save more<br><br>\nDon’t wait—the offer ends in less than 3 days!",
         "title_color": "#333333",
         "top_padding": "md",
         "bottom_padding": "none",
