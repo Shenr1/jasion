@@ -32,6 +32,7 @@ module.exports = {
         'max-lg': { 'max': '1023px' }, 
         '3xl': {'min': '1535px'},
         '2xl': {'min': '1440px'},
+        '-md': {'max': '768px'},
       },
       margin: {
         '18': '4.5rem',

@@ -174,6 +174,10 @@
   order: 4;
 }
 
+.tw-col-span-1{
+  grid-column: span 1 / span 1;
+}
+
 .tw-m-0{
   margin: 0px;
 }
@@ -341,6 +345,10 @@
   display: inline-flex;
 }
 
+.tw-grid{
+  display: grid;
+}
+
 .tw-hidden{
   display: none;
 }
@@ -465,6 +473,18 @@
   cursor: pointer;
 }
 
+.tw-grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.tw-grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.tw-grid-cols-3{
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .tw-flex-col{
   flex-direction: column;
 }
@@ -531,6 +551,10 @@
 
 .tw-rounded-xl{
   border-radius: 0.75rem;
+}
+
+.tw-rounded-tl-lg{
+  border-top-left-radius: 0.5rem;
 }
 
 .tw-border{
@@ -854,6 +878,10 @@
 
 .tw-leading-relaxed{
   line-height: 1.625;
+}
+
+.tw-leading-snug{
+  line-height: 1.375;
 }
 
 .tw-leading-tight{
@@ -1441,10 +1469,6 @@
 }
 
 @media (min-width: 768px){
-  .md\:tw-sticky{
-    position: sticky;
-  }
-
   .md\:tw-bottom-8{
     bottom: 2rem;
   }
@@ -1455,10 +1479,6 @@
 
   .md\:tw-right-\[24\%\]{
     right: 24%;
-  }
-
-  .md\:tw-top-28{
-    top: 7rem;
   }
 
   .md\:tw-order-2{
@@ -1670,11 +1690,6 @@
     padding-right: 0.5rem;
   }
 
-  .md\:tw-px-4{
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-
   .md\:tw-px-5{
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1834,6 +1849,14 @@
 }
 
 @media (min-width: 1024px){
+  .lg\:tw-sticky{
+    position: sticky;
+  }
+
+  .lg\:tw-top-28{
+    top: 7rem;
+  }
+
   .lg\:tw-mb-14{
     margin-bottom: 3.5rem;
   }
@@ -2224,6 +2247,16 @@
   }
 }
 
+@media (max-width: 768px){
+  .-md\:tw-grid-cols-2{
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .-md\:tw-grid-cols-1{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
 .\[\&\:not\(\:last-child\)\]\:tw-mb-3:not(:last-child){
   margin-bottom: 0.75rem;
 }
@@ -2236,14 +2269,6 @@
   .\[\&\:nth-child\(2n-1\)\]\:md\:tw-pr-1:nth-child(2n-1){
     padding-right: 0.25rem;
   }
-}
-
-.\[\&\:nth-child\(even\)\>div\]\:tw-ml-1:nth-child(even)>div{
-  margin-left: 0.25rem;
-}
-
-.\[\&\:nth-child\(odd\)\>div\]\:tw-mr-1:nth-child(odd)>div{
-  margin-right: 0.25rem;
 }
 
 .\[\&\>\*\:nth-child\(2n\)\]\:\!tw-border-0>*:nth-child(2n){

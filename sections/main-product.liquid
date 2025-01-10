@@ -1186,6 +1186,27 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "default": "Free"
         },
         {
+          "type": "select",
+          "id": "cols",
+          "label": "Grid cols",
+          "options": [
+            { "label": "1", "value": "tw-grid-cols-1" },
+            { "label": "2", "value": "tw-grid-cols-2" },
+            { "label": "3", "value": "tw-grid-cols-3" }
+          ],
+          "default": "tw-grid-cols-2"
+        },
+        {
+          "type": "select",
+          "id": "cols_mb",
+          "label": "Grid cols (mobile)",
+          "options": [
+            { "label": "1", "value": "1" },
+            { "label": "2", "value": "2" },
+          ],
+          "default": "2"
+        },
+        {
           "type": "color",
           "id": "tag_color",
           "label": "Tag color",
