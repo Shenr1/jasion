@@ -14,25 +14,11 @@
             "heading_tag": "h3"
           }
         },
-        "504aa50e-c5ed-4cee-9978-e724e476f452": {
-          "type": "offer",
-          "disabled": true,
-          "settings": {
-            "text_alignment": "start",
-            "icon_position": "aligned",
-            "icon": "picto-coupon",
-            "icon_width": 24,
-            "title": "Black Friday Promotion!",
-            "content": "<p>Use code <strong>ASDX<\/strong> to enjoy FREE Shipping!<\/p>",
-            "background": "#ffb74a",
-            "text_color": "#ffffff"
-          }
-        },
         "f5737115-a19e-4594-82a1-f7f77467b158": {
           "type": "inventory",
           "disabled": true,
           "settings": {
-            "low_inventory_threshold": 78
+            "low_inventory_threshold": 33
           }
         },
         "badges": {
@@ -45,7 +31,7 @@
             "show_taxes_notice": false
           }
         },
-        "offer_hD9CCa": {
+        "offer_q8Dr3F": {
           "type": "offer",
           "disabled": true,
           "settings": {
@@ -53,7 +39,7 @@
             "icon_position": "aligned",
             "icon": "picto-coupon",
             "icon_width": 24,
-            "title": "Buy 2 at only $699 each!",
+            "title": "Buy 2 at only $899 each!",
             "content": "",
             "background": "#ffffff",
             "text_color": "#aa2826"
@@ -65,7 +51,7 @@
             "show_empty": true
           }
         },
-        "f53c52b5-105b-4303-a783-1a0d68cc8634": {
+        "696560a1-6557-401c-8d01-8a18614a77d8": {
           "type": "shopify:\/\/apps\/klarna-on-site-messaging\/blocks\/app-block\/b95936a9-74b6-4a95-8103-6a1b6459c25e",
           "settings": {
             "data_key": "credit-promotion-badge",
@@ -81,11 +67,11 @@
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
         },
-        "countdown_7rLGNr": {
+        "countdown_wAJaVd": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Act Fast!",
-            "countdown_lbl_content": "Price Increase In：",
+            "countdown_lbl": "Hurry！",
+            "countdown_lbl_content": "Lowest Price Sale:",
             "countdown_date": "2025-02-20T23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
@@ -130,13 +116,13 @@
           "settings": {
             "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $357.",
             "free": "Free",
-            "cols": "tw-grid-cols-3",
+            "cols": "tw-grid-cols-2",
             "cols_mb": "2",
             "tag_color": "#e03b3b",
             "pd_1": "extra-one-year-warranty",
-            "pd_2": "copy-of-jasion®-bicycle-universal-mirrors",
+            "pd_2": "",
             "pd_3": "fenders-for-jasion-eb7",
-            "pd_4": ""
+            "pd_4": "copy-of-jasion®-bicycle-universal-mirrors"
           }
         },
         "bd56b862-0bde-40cb-bf3f-998d012a3882": {
@@ -151,27 +137,13 @@
         },
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
+          "disabled": true,
           "settings": {}
         },
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><li><strong>Notice: <\/strong>The new version of the EB7 ST has updated handlebars and stems. Both versions are shipped randomly.<\/li><\/ul>"
-          }
-        },
-        "text_gqKqwJ": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p><strong>*Important Notice:<\/strong> Our FedEx sorting center caught fire. They are currently taking inventory of the goods. Our ebikes were not affected, but it has impacted our shipping schedule. We sincerely apologize for any inconvenience caused.<\/p>"
-          }
-        },
-        "2bb01b16-2f46-4214-867b-18f9766638c0": {
-          "type": "collapsible_text",
-          "disabled": true,
-          "settings": {
-            "title": "Title",
-            "content": "<p>Share some content to your customers about your products.<\/p>"
+            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><li><strong>Notice: <\/strong>The new version of the X-hunter has updated handlebars and stems. Both versions are shipped randomly.<\/li><\/ul>"
           }
         },
         "6069ce13-620c-4f70-954e-a9fbd8d993a0": {
@@ -187,6 +159,13 @@
           "settings": {
             "title": "<b>Pay With Ease<\/b>",
             "is_payment": true
+          }
+        },
+        "b59fdb53-0a06-416a-9f00-c24a68e5fac6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p><strong>*Important Notice:<\/strong><br\/>If you order a bike from <strong>Aug 2 to Aug 15<\/strong>, please contact <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a> to claim <strong>a free rear basket<\/strong> after receiving your bike.<br\/>*Please note that this offer cannot be combined with other promotions<br\/><strong>*Discount Policy: <\/strong>We only support one discount code in one order, and the order can’t combine the discount with other promotions.<\/p><p><\/p>"
           }
         },
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
@@ -210,15 +189,14 @@
       "block_order": [
         "vendor",
         "title",
-        "504aa50e-c5ed-4cee-9978-e724e476f452",
         "f5737115-a19e-4594-82a1-f7f77467b158",
         "badges",
         "price",
-        "offer_hD9CCa",
+        "offer_q8Dr3F",
         "rating",
-        "f53c52b5-105b-4303-a783-1a0d68cc8634",
+        "696560a1-6557-401c-8d01-8a18614a77d8",
         "beead425-c9b4-42aa-b019-63c29006c41d",
-        "countdown_7rLGNr",
+        "countdown_wAJaVd",
         "payment_terms",
         "variant_picker",
         "92b6eeef-a142-4961-bdba-1cc3b110eb09",
@@ -227,10 +205,9 @@
         "bd56b862-0bde-40cb-bf3f-998d012a3882",
         "ac0a8a83-72b2-4644-9f06-f3864406f533",
         "7da62006-1982-4e86-ac5f-daa94e18ccd4",
-        "text_gqKqwJ",
-        "2bb01b16-2f46-4214-867b-18f9766638c0",
         "6069ce13-620c-4f70-954e-a9fbd8d993a0",
         "34adddd9-ce7e-4863-a0aa-06fe5feb5bf4",
+        "b59fdb53-0a06-416a-9f00-c24a68e5fac6",
         "3b2fa040-7f57-42cd-9275-57586d5b67ad",
         "34957dd4-27e4-40b7-b72e-e503f9ddc395"
       ],
@@ -252,7 +229,7 @@
         "input_text_color": ""
       }
     },
-    "070746480697742968": {
+    "555029366732924098": {
       "type": "apps",
       "settings": {
         "full_width": true,
@@ -266,6 +243,109 @@
         "review_header_text_color": "#000000",
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
+      }
+    },
+    "750204d7-2770-4d80-9fa8-87d23ee6229a": {
+      "type": "waterfall-grid",
+      "settings": {
+        "top_padding": "none",
+        "bottom_padding": "none",
+        "top_margin": "none",
+        "bottom_margin": "md",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "sm"
+      }
+    },
+    "rich_text_Ug8BaH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_RUVdfd": {
+          "type": "heading",
+          "settings": {
+            "text": "Product Inspiration",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_RUVdfd"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "lg",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
+    },
+    "timeline_UGGBrp": {
+      "type": "timeline",
+      "blocks": {
+        "slide_VCetFy": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/HUNTER_b079da13-2186-49a1-9a4c-220f403c8146.jpg",
+            "navigation_label": "Establishment",
+            "subheading": "",
+            "title": "Establishment：Specially designed for off - road adventures.",
+            "content": "<p>The adventurous off-road genes of jasionbike were born with X-Hunter, defining what a bicycle can achieve in adventure and off-roading. It symbolizes jasionbike's bold innovation. X-Hunter integrates sports and leisure, allowing consumers to adapt perfectly to any scene. It represents rugged durability and unparalleled performance, urging you to embark on new paths and embrace the thrill of the unknown.<\/p>"
+          }
+        },
+        "slide_mfkgyU": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/design-HUNTER.png",
+            "navigation_label": "Design",
+            "subheading": "",
+            "title": "Design",
+            "content": "<p>X-Hunter’s wide tire design demonstrates our pursuit of e-bike performance and stability. The 20-inch x 4-inch wide tires not only provide a larger ground contact area and enhance traction, but also effectively improve driving stability. This means you can tackle any terrain with ease, whether it's rugged mountain roads, sand or snow, all while maintaining a stable driving experience. This design not only makes the X-Hunter an electric bicycle suitable for adventure, but also allows riders to enjoy the fun in the outdoor environment.<\/p>"
+          }
+        },
+        "slide_xEUbLm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/craft-HUNTER.png",
+            "navigation_label": "Craftsmanship",
+            "subheading": "",
+            "title": "Craftsmanship",
+            "content": "<p>From a technological perspective, X-Hunter is equipped with a four-link structure that drives the movement of the entire electric bicycle through a central four-link structure. Combined with the 180mm adjustable front fork suspension, X-Hunter implements a full suspension system, providing riders with excellent suspension performance. This full-suspension design uses Horst link pivots to provide long-lasting comfort for off-road adventures, allowing riders to enjoy a smooth ride over rough terrain and explore uncharted territory without being limited by terrain. <\/p>"
+          }
+        },
+        "slide_K7PiF8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hunterbuyer.jpg",
+            "navigation_label": "Finished Product",
+            "subheading": "",
+            "title": "Finished Product",
+            "content": "<p>With X-Hunter, we redefine the essence of off-road adventure. It transcends mere transportation; it embodies bravery and exploration. Whether conquering rugged mountains or traversing dense forests, X-Hunter allows you to embrace the infinite possibilities of off-road exploration and redefine your adventure at every turn.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_VCetFy",
+        "slide_mfkgyU",
+        "slide_xEUbLm",
+        "slide_K7PiF8"
+      ],
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "43b27d97-0a8f-496c-b497-3aa9c0fba126": {
@@ -305,34 +385,21 @@
         "bottom_margin_mb": "none"
       }
     },
-    "750204d7-2770-4d80-9fa8-87d23ee6229a": {
-      "type": "waterfall-grid",
-      "settings": {
-        "top_padding": "none",
-        "bottom_padding": "none",
-        "top_margin": "none",
-        "bottom_margin": "md",
-        "top_padding_mb": "none",
-        "bottom_padding_mb": "none",
-        "top_margin_mb": "none",
-        "bottom_margin_mb": "sm"
-      }
-    },
-    "17f9ef90-13d4-46ab-a3b1-c95bfa1c131b": {
+    "6c6723ec-f274-4007-9d93-8130e7a8f2e0": {
       "type": "rich-text",
       "blocks": {
-        "template--16944345317613__17f9ef90-13d4-46ab-a3b1-c95bfa1c131b-heading-1": {
+        "template--16945013948653__6c6723ec-f274-4007-9d93-8130e7a8f2e0-heading-1": {
           "type": "heading",
           "settings": {
-            "text": "Product Inspiration",
-            "heading_tag": "h1",
+            "text": "Introduction to the X-Hunter Parts Exploded View",
+            "heading_tag": "h2",
             "text_color": "",
             "gradient": ""
           }
         }
       },
       "block_order": [
-        "template--16944345317613__17f9ef90-13d4-46ab-a3b1-c95bfa1c131b-heading-1"
+        "template--16945013948653__6c6723ec-f274-4007-9d93-8130e7a8f2e0-heading-1"
       ],
       "settings": {
         "full_width": true,
@@ -341,216 +408,45 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "top_padding": "md",
-        "bottom_padding": "lg",
-        "top_margin": "md",
-        "bottom_margin": "md",
-        "top_padding_mb": "md",
-        "bottom_padding_mb": "md",
-        "top_margin_mb": "md",
-        "bottom_margin_mb": "md"
+        "top_padding": "sm",
+        "bottom_padding": "sm",
+        "top_margin": "none",
+        "bottom_margin": "sm",
+        "top_padding_mb": "none",
+        "bottom_padding_mb": "none",
+        "top_margin_mb": "none",
+        "bottom_margin_mb": "sm"
       }
     },
-    "timeline_kUxJUa": {
-      "type": "timeline",
-      "blocks": {
-        "slide_UyjJbA": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/EB7_ST_8a5a2ef7-d527-4071-a11b-7cacfd85b4b7.jpg",
-            "navigation_label": "Establishment",
-            "subheading": "",
-            "title": "Establishment：Jasion EB7 ST – Your Comfortable Companion for City Travel",
-            "content": "<p>Responding to consumer demand, EB7 ST was born. With the success and high acclaim of the 2.0 model in the market, the ST model was conceived. Unlike EB7 2.0, this model features a lower frame height, completely changing traditional standards while achieving a harmonious balance between power and sophistication, marking a milestone in urban commuting.<\/p>"
-          }
-        },
-        "slide_D9bFtB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/design-EB7_ST.png",
-            "navigation_label": "Design",
-            "subheading": "",
-            "title": "Design",
-            "content": "<p>A co-creation between Jasion and consumers, the EB7 ST's design is more about listening to consumers' voices and suggestions. The initial intention of the ST is to better serve consumers. With its lower frame and seat height, children, elderly, and individuals with leg injuries can all enjoy the joy of riding. ST is not just a mode of transportation but also a companion, accompanying you to feel the wind and freedom.<\/p>"
-          }
-        },
-        "slide_ETPz86": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/craft-EB7_ST.png",
-            "navigation_label": "Craftsmanship",
-            "subheading": "",
-            "title": "Craftsmanship",
-            "content": "<p>In the structural design and load-bearing tests of the low-frame chassis, Jasion conducted over 3000 collision tests to find a balance point. Every curve and component of EB7 ST reflects precise engineering and meticulous craftsmanship. To ensure the peace of mind of more users, we use 7075-T6 aluminum alloy material, making it a vehicle that promises perfect durability and reliability.<\/p>"
-          }
-        },
-        "slide_yJEdTn": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/STbuyer.jpg",
-            "navigation_label": "Finished Product",
-            "subheading": "",
-            "title": "Finished Product",
-            "content": "<p>EB7 ST is not just an electric bicycle but also a partner that can give you freedom. It is a choice of lifestyle, leading you into unknown adventures and redefining new freedom for you. Confident and stylish riding, let EB7 ST redefine the way you explore urban landscapes, one journey at a time.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_UyjJbA",
-        "slide_D9bFtB",
-        "slide_ETPz86",
-        "slide_yJEdTn"
-      ],
-      "settings": {
-        "full_width": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "37de028a-dbfc-41e1-9adb-d87c14293be6": {
-      "type": "multi-column",
-      "blocks": {
-        "template--16905169830125__37de028a-dbfc-41e1-9adb-d87c14293be6-item-1": {
-          "type": "item",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/2.0.mp4",
-            "column_size": "1.5",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--16905169830125__37de028a-dbfc-41e1-9adb-d87c14293be6-item-2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5_3926e27a-5573-4980-ac7a-d4029017dabb.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "template--16905169830125__37de028a-dbfc-41e1-9adb-d87c14293be6-item-3": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1_541b3ed3-5961-4d7e-9d81-ab35d6af31f0.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "87910fe1-ac17-4cee-ba76-920fe3d4f0a6": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/3_f21169ac-1a6e-449f-a77d-165cfc6c65df.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "f1ceb2f3-e61d-460d-b9c2-2aaed3e567e2": {
-          "type": "item",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4_989286dc-352a-4984-a395-4cdbfece2111.jpg",
-            "column_size": "3",
-            "title": "",
-            "heading_tag": "h4",
-            "content": "",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        }
-      },
-      "block_order": [
-        "template--16905169830125__37de028a-dbfc-41e1-9adb-d87c14293be6-item-1",
-        "template--16905169830125__37de028a-dbfc-41e1-9adb-d87c14293be6-item-2",
-        "template--16905169830125__37de028a-dbfc-41e1-9adb-d87c14293be6-item-3",
-        "87910fe1-ac17-4cee-ba76-920fe3d4f0a6",
-        "f1ceb2f3-e61d-460d-b9c2-2aaed3e567e2"
-      ],
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "gap": "small",
-        "text_alignment": "center",
-        "subheading": "",
-        "title": "Jasion EB7 ST - Explore the Urban Landscape",
-        "content": "<p>This uniquely designed electric bike boasts a powerful 1200W motor, 20\"x3\" wide tires, and dual shock absorbers, providing you with a smooth and powerful riding experience.<\/p>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "c90a69d2-d3ca-4048-be7c-466923420a56": {
+    "b48d8349-2cf7-4091-bf07-762427eeff91": {
       "type": "hot-spots",
       "blocks": {
-        "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-1": {
+        "template--16945013948653__b48d8349-2cf7-4091-bf07-762427eeff91-item-3": {
           "type": "item",
+          "disabled": true,
           "settings": {
-            "horizontal_position": 37,
-            "vertical_position": 65,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 68,
+            "horizontal_position": 83,
+            "vertical_position": 75,
+            "horizontal_position_mobile": 83,
+            "vertical_position_mobile": 75,
             "icon_width": 32,
-            "title": "1200W Powerful Motor",
-            "content": "<p>Maximize performance with our 1200W robust motors—your key to thrilling rides.<\/p>"
-          }
-        },
-        "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-2": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 47,
-            "vertical_position": 47,
-            "horizontal_position_mobile": 50,
-            "vertical_position_mobile": 51,
-            "icon_width": 32,
-            "title": "48V\/10Ah Battery",
-            "content": "<p>Utilizing the newly developed 21700 battery cells from Samsung SDI. Removable for charging and holds UL 2271 international certification.<\/p>"
-          }
-        },
-        "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-3": {
-          "type": "item",
-          "settings": {
-            "horizontal_position": 60,
-            "vertical_position": 42,
-            "horizontal_position_mobile": 77,
-            "vertical_position_mobile": 50,
-            "icon_width": 32,
-            "title": "Dual Suspension",
-            "content": "<p>Front and rear manually adjustable damping shock absorption system crafted from high-durability materials. Conquer any terrain with confidence, providing a stable and comfortable ride in any scenario.<\/p>"
+            "title": "Feature name",
+            "content": "<p>Share useful information about your product features.<\/p>"
           }
         }
       },
       "block_order": [
-        "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-1",
-        "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-2",
-        "template--16944345317613__c90a69d2-d3ca-4048-be7c-466923420a56-item-3"
+        "template--16945013948653__b48d8349-2cf7-4091-bf07-762427eeff91-item-3"
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/EB7_ST_-PC.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/EB7_ST_-MC.jpg",
-        "title": "Jasion EB7 ST Exploded View Introduction",
+        "image": "shopify:\/\/shop_images\/3_7cbfa3d7-0ea0-4dd9-b4dc-635d13a758fe.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MC_ca7f8b87-78a1-49b1-baef-deb941bbac41.jpg",
+        "title": "",
         "content": "",
         "button_text": "",
         "button_url": "",
-        "desktop_text_position": "place-self-start text-start",
+        "desktop_text_position": "place-self-start-center text-center",
         "image_background": "",
         "image_background_gradient": "",
         "overlay_color": "#000000",
@@ -566,119 +462,51 @@
         "hot_spot_content_blur_radius": 3
       }
     },
-    "5f3769c7-a9e7-406c-a144-a1027b988c07": {
-      "type": "image-with-text-overlay",
+    "1f94d172-be1e-4b94-81d1-ae200ed0cdba": {
+      "type": "multi-column",
       "blocks": {
-        "template--16944345317613__5f3769c7-a9e7-406c-a144-a1027b988c07-subheading-1": {
-          "type": "subheading",
-          "disabled": true,
+        "template--16945013948653__1f94d172-be1e-4b94-81d1-ae200ed0cdba-item-1": {
+          "type": "item",
           "settings": {
-            "text": "Subheading"
+            "video": "shopify:\/\/files\/videos\/悍马视频.mp4",
+            "column_size": "1.5",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         },
-        "template--16944345317613__5f3769c7-a9e7-406c-a144-a1027b988c07-heading-1": {
-          "type": "heading",
+        "template--16945013948653__1f94d172-be1e-4b94-81d1-ae200ed0cdba-item-2": {
+          "type": "item",
           "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h1"
-          }
-        },
-        "template--16944345317613__5f3769c7-a9e7-406c-a144-a1027b988c07-richtext-1": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "image": "shopify:\/\/shop_images\/3_437b505c-0419-46cc-b014-84fe49d22e7a.jpg",
+            "column_size": "3",
+            "title": "",
+            "heading_tag": "h4",
+            "content": "",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
           }
         }
       },
       "block_order": [
-        "template--16944345317613__5f3769c7-a9e7-406c-a144-a1027b988c07-subheading-1",
-        "template--16944345317613__5f3769c7-a9e7-406c-a144-a1027b988c07-heading-1",
-        "template--16944345317613__5f3769c7-a9e7-406c-a144-a1027b988c07-richtext-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/20231117182854.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-start-end sm:text-end",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 30
-      }
-    },
-    "e7471b4d-f8f9-4d79-9e03-fddde11561b2": {
-      "type": "hot-spots",
-      "blocks": {
-        "template--16944345317613__e7471b4d-f8f9-4d79-9e03-fddde11561b2-item-1": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "horizontal_position": 24,
-            "vertical_position": 70,
-            "horizontal_position_mobile": 24,
-            "vertical_position_mobile": 70,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "template--16944345317613__e7471b4d-f8f9-4d79-9e03-fddde11561b2-item-2": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "horizontal_position": 62,
-            "vertical_position": 14,
-            "horizontal_position_mobile": 62,
-            "vertical_position_mobile": 14,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        },
-        "template--16944345317613__e7471b4d-f8f9-4d79-9e03-fddde11561b2-item-3": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "horizontal_position": 83,
-            "vertical_position": 75,
-            "horizontal_position_mobile": 83,
-            "vertical_position_mobile": 75,
-            "icon_width": 32,
-            "title": "Feature name",
-            "content": "<p>Share useful information about your product features.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16944345317613__e7471b4d-f8f9-4d79-9e03-fddde11561b2-item-1",
-        "template--16944345317613__e7471b4d-f8f9-4d79-9e03-fddde11561b2-item-2",
-        "template--16944345317613__e7471b4d-f8f9-4d79-9e03-fddde11561b2-item-3"
+        "template--16945013948653__1f94d172-be1e-4b94-81d1-ae200ed0cdba-item-1",
+        "template--16945013948653__1f94d172-be1e-4b94-81d1-ae200ed0cdba-item-2"
       ],
       "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/EB7_ST_-PC_b61dfb91-efee-4311-9c87-e90e12dd7009.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/EB7_ST_-MC_8fb41c5c-1f10-438c-bc40-a37d3e94be4c.jpg",
-        "title": "",
-        "content": "",
-        "button_text": "",
-        "button_url": "",
-        "desktop_text_position": "place-self-start-end text-end",
-        "image_background": "",
-        "image_background_gradient": "radial-gradient(rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "overlay_text_color": "#272727",
-        "overlay_button_background": "",
-        "overlay_button_text_color": "",
-        "hot_spot_dot_background": "#ffffff",
-        "hot_spot_dot_text_color": "#000000",
-        "hot_spot_content_background": "#ffffff",
-        "hot_spot_content_text_color": "#000000",
-        "hot_spot_content_opacity": 90,
-        "hot_spot_content_blur_radius": 3
+        "full_width": true,
+        "stack_on_mobile": true,
+        "gap": "small",
+        "text_alignment": "center",
+        "subheading": "",
+        "title": "The speed for each PAS level of Jasion® X-Hunter",
+        "content": "<p>PAS1 Top speed 16mph，PAS2 Top speed 18mph，PAS3 Top speed 20mph，PAS4 Top speed 23mph，PAS5 Top speed 30+mph<\/p>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "ca8b8baf-bbea-4afb-84eb-476432536fc5": {
@@ -750,19 +578,43 @@
     "974fcb3e-8d65-4b77-aded-298b4889fd54": {
       "type": "media-with-text",
       "blocks": {
+        "video_yyyyH6": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/TONGQUAN 2-22_DeMain.mp4",
+            "external_video_url": "",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center text-center",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Give you an exciting experience of speed and power.",
+            "content": "<p>Under the 5 - speed setting, it can provide a torque of 85 Nm in just 2 seconds. The motor is designed with a sine - wave structure, allowing you to easily control the riding speed between gears 1 to 5.<br\/>It meets all your various needs and helps you conquer any road challenges. Whether you are zipping through the city or bravely facing the polar vortex, find the mode that suits you best and dominate every adventure.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "linear-gradient(0deg, rgba(255, 154, 98, 1), rgba(255, 204, 75, 1) 100%)",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "template--21052033007892__974fcb3e-8d65-4b77-aded-298b4889fd54-image-1": {
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/01_ccd045e2-874f-490b-bcbf-ff47a6b64c62.jpg",
+            "image": "shopify:\/\/shop_images\/e28a42c4475362c949415a1c17dcc923_bcc1d5c0-d7e4-4edd-a943-9ac28816446d.jpg",
             "media_width": 50,
             "media_position": "end",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 56,
             "subheading": "",
-            "title": "Equipped with a Powerful 850W Motor",
-            "content": "<p>Delivering 48 Nm of torque within just 2 seconds in the 5-speed setting. The motor, designed with a sine wave structure, allows you to effortlessly control your riding speed across gears 1 to 5, providing a customizable and intuitive riding experience.<\/p>",
+            "title": "Equipped with a Powerful 1400W Motor",
+            "content": "<p>Delivering 90 Nm of torque within just 2 seconds in the 5-speed setting. The motor, designed with a sine wave structure, allows you to effortlessly control your riding speed across gears 1 to 5, providing a customizable and intuitive riding experience.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -777,15 +629,15 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/8_b35a68be-c915-4f86-a6cc-19ec69862a2d.jpg",
+            "image": "shopify:\/\/shop_images\/7ecc40279fd871bac0e0d11e210a632b_ad284874-5fbf-4a61-aca1-d1afd54c1efc.jpg",
             "media_width": 50,
             "media_position": "start",
             "text_position": "place-self-center-start text-start",
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Samsung\/LG 48V10A Battery",
-            "content": "<p>Utilizing the newly developed 18650 battery cells from Samsung SDI, each lithium-ion single cell measures 18mm in diameter and 65mm in length, combining to form a 48V10A configuration. Jasion Bike incorporates a quick-detachable sealed design achieving an IPX-6 waterproof rating. The battery is removable for charging and holds UL 2271 international certification.<\/p>",
+            "title": "Samsung 48V13A Battery",
+            "content": "<p>Utilizing the newly developed 18650 battery cells from Samsung SDI, each lithium-ion single cell measures 18mm in diameter and 65mm in length, combining to form a 48V13A configuration. Jasion Bike incorporates a quick-detachable sealed design achieving an IPX-6 waterproof rating. The battery is removable for charging and holds UL 2271 international certification, while the entire vehicle is certified under UL2847 international standards.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "#ffffff",
@@ -796,31 +648,7 @@
             "button_text_color": ""
           }
         },
-        "video_gnHyNN": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/TONGQUAN 2-22_DeMain.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "autoplay": true,
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center text-center",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "5 Driving Modes: Effortlessly Handle Various Road Conditions",
-            "content": "<p>Delivering 48 Nm of torque within just 2 seconds in the 5-speed setting. The motor, designed with a sine wave structure, allows you to effortlessly control your riding speed across gears 1 to 5, providing a customizable and intuitive riding experience.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "video_8nVdQN": {
+        "video_bnJVBG": {
           "type": "video",
           "settings": {
             "video": "shopify:\/\/files\/videos\/修改2.mp4",
@@ -832,103 +660,33 @@
             "icon": "none",
             "icon_width": 48,
             "subheading": "",
-            "title": "Efficient Performance: 55-Mile Range on a Single Charge",
-            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V10A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging.<\/p>",
+            "title": "Efficient Performance: 70-Mile Range on a Single Charge",
+            "content": "<p>Utilizing Samsung SDI's newly developed 21750 cells, each lithium-ion cell has a diameter of 21 millimeters and a length of 75 millimeters, forming a 48V13A configuration. The 21750 battery cell capacity is increased by 35%, and its volume energy density is nearly 20% higher than the original 18650 cells. Jasion Bike employs a quick-detach sealed design for the battery, with multiple layers of protective sheathing achieving an IPX-6 waterproof rating. The battery features removable charging.<\/p>",
             "link_text": "",
             "link_url": "",
             "background": "rgba(0,0,0,0)",
             "background_gradient": "",
             "text_color": "#272727",
-            "text_gradient": "linear-gradient(133deg, rgba(250, 220, 54, 1) 11%, rgba(254, 98, 146, 1) 49%, rgba(250, 220, 54, 1) 87%)",
+            "text_gradient": "linear-gradient(180deg, rgba(255, 228, 49, 1), rgba(249, 32, 32, 1) 100%)",
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
+        "video_yyyyH6",
         "template--21052033007892__974fcb3e-8d65-4b77-aded-298b4889fd54-image-1",
         "3b1a9d4a-20ff-4775-bcb7-4edc19b9d285",
-        "video_gnHyNN",
-        "video_8nVdQN"
+        "video_bnJVBG"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
     },
-    "0c7d4597-3bef-410d-9e4e-dd41f9ba6cd5": {
-      "type": "image-list-text",
-      "blocks": {
-        "669b3661-663a-4ecf-9dac-635a14e33457": {
-          "type": "item",
-          "settings": {
-            "item_title": "Density Increased",
-            "item_dec": "21%"
-          }
-        },
-        "ec6a5fdc-ce14-44b6-9afa-d7c8d82bb5c1": {
-          "type": "item",
-          "settings": {
-            "item_title": "Density Increased",
-            "item_dec": "21%"
-          }
-        },
-        "3517fbf5-f597-4834-ad99-9b787e1d9b48": {
-          "type": "item",
-          "settings": {
-            "item_title": "Density Increased",
-            "item_dec": "21%"
-          }
-        },
-        "f4b266a3-90a7-40a4-badb-ceef448e6afa": {
-          "type": "item",
-          "settings": {
-            "item_title": "Density Increased",
-            "item_dec": "21%"
-          }
-        }
-      },
-      "block_order": [
-        "669b3661-663a-4ecf-9dac-635a14e33457",
-        "ec6a5fdc-ce14-44b6-9afa-d7c8d82bb5c1",
-        "3517fbf5-f597-4834-ad99-9b787e1d9b48",
-        "f4b266a3-90a7-40a4-badb-ceef448e6afa"
-      ],
-      "disabled": true,
-      "settings": {
-        "bg_color": "rgba(0,0,0,0)",
-        "bg_img": "shopify:\/\/shop_images\/6a0f48436f03bf48e8c7f28f9f150b4c.png",
-        "layout": "textImage",
-        "text_align": "",
-        "title_align": "",
-        "text_main": "Dual 48V 15Ah Lithium Batteries",
-        "text_sub": "If range anxiety is of concern to you, Rhino will get you covered with its 1440wh battery capacity. Battery density has increased 21% from 18,650 to 21,700 cells, allowing you to ride up to 100 miles for a single charge. And worried about long charging times? It takes only 5 hours to get fully charged with 2 chargers.",
-        "btm_img_w": 100,
-        "title_size": 140,
-        "text_size": 100,
-        "i_title_size": 140,
-        "i_text_size": 100,
-        "top_padding": "md",
-        "bottom_padding": "md",
-        "top_margin": "md",
-        "bottom_margin": "md",
-        "top_padding_mb": "md",
-        "bottom_padding_mb": "md",
-        "top_margin_mb": "md",
-        "bottom_margin_mb": "md"
-      }
-    },
     "f2b04fb2-c445-4e1c-a495-53c93f204a58": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "ef23a3d6-52cc-45b9-ba61-a486a66dd285": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Powerful Electronic Control Configuration",
-            "heading_tag": "h2"
-          }
-        },
         "template--16905169830125__f2b04fb2-c445-4e1c-a495-53c93f204a58-subheading-1": {
           "type": "subheading",
           "disabled": true,
@@ -945,7 +703,6 @@
         }
       },
       "block_order": [
-        "ef23a3d6-52cc-45b9-ba61-a486a66dd285",
         "template--16905169830125__f2b04fb2-c445-4e1c-a495-53c93f204a58-subheading-1",
         "template--16905169830125__f2b04fb2-c445-4e1c-a495-53c93f204a58-richtext-1"
       ],
@@ -954,8 +711,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify:\/\/shop_images\/EB7_ST_-PC_abf53a77-2d8f-4cbc-8b65-0dfad020d295.jpg",
-        "mobile_image": "shopify:\/\/shop_images\/EB7_ST_-MC_e3f8b119-ade7-48e1-8e2c-3f495bcbd72c.jpg",
+        "image": "shopify:\/\/shop_images\/PC_c25df203-ac59-4c86-be5b-e0bb541cac1f.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/MC_88c92744-446e-45a4-9f5d-11c1e768c177.jpg",
         "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-start sm:text-start",
         "text_color": "#ffffff",
@@ -1028,6 +785,30 @@
     "b10c3509-0887-46b7-b0bf-160f11acd91f": {
       "type": "media-with-text",
       "blocks": {
+        "7b715c8e-67b9-40fa-9f02-782b7ed0490f": {
+          "type": "video",
+          "settings": {
+            "video": "shopify:\/\/files\/videos\/悍马四连杆动画1124(1).mp4",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 50,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "A smooth and comfortable riding experience.",
+            "content": "<p>X-Hunter employs a front fork with manually adjustable shock absorption and a four-link mechanism to achieve a high-intensity suspension effect for the entire bike. The multi-link suspension configuration enables integrated dissipation of forces, allowing X-Hunter to bear a load capacity of up to 330 pounds. Whether navigating snowy terrain, rough surfaces, or mountain trails, it provides a stable and comfortable riding experience.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "#ffffff",
+            "background_gradient": "",
+            "text_color": "#272727",
+            "text_gradient": "linear-gradient(127deg, rgba(254, 217, 81, 1) 11%, rgba(255, 70, 199, 1) 81%)",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
         "4c5fe45d-32d7-421a-b581-fbea6ed2cfa1": {
           "type": "video",
           "settings": {
@@ -1047,186 +828,92 @@
             "background": "#ffffff",
             "background_gradient": "",
             "text_color": "#272727",
-            "text_gradient": "linear-gradient(127deg, rgba(254, 217, 81, 1) 11%, rgba(255, 70, 199, 1) 81%)",
-            "button_background": "",
-            "button_text_color": ""
-          }
-        },
-        "7b715c8e-67b9-40fa-9f02-782b7ed0490f": {
-          "type": "video",
-          "settings": {
-            "video": "shopify:\/\/files\/videos\/减震2.mp4",
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-            "autoplay": true,
-            "media_width": 50,
-            "media_position": "end",
-            "text_position": "place-self-center-start text-start",
-            "icon": "none",
-            "icon_width": 48,
-            "subheading": "",
-            "title": "Enjoy a Smooth and Comfortable Ride",
-            "content": "<p>Jasion Bike electric bike features a front and rear manually adjustable damping shock absorption system crafted from high-durability materials, ensuring stability over extended usage. Whether navigating city streets, tackling off-road mountain trails, or traversing bumpy paths, the system seamlessly adapts to various terrains through easy manual adjustments, providing a stable and comfortable ride in any scenario.<\/p>",
-            "link_text": "",
-            "link_url": "",
-            "background": "#ffffff",
-            "background_gradient": "",
-            "text_color": "#272727",
-            "text_gradient": "linear-gradient(127deg, rgba(254, 217, 81, 1) 11%, rgba(255, 70, 199, 1) 81%)",
+            "text_gradient": "radial-gradient(rgba(254, 217, 81, 1) 11%, rgba(255, 70, 199, 1) 81%)",
             "button_background": "",
             "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "4c5fe45d-32d7-421a-b581-fbea6ed2cfa1",
-        "7b715c8e-67b9-40fa-9f02-782b7ed0490f"
+        "7b715c8e-67b9-40fa-9f02-782b7ed0490f",
+        "4c5fe45d-32d7-421a-b581-fbea6ed2cfa1"
       ],
       "settings": {
         "full_width": false,
         "spacing": "small"
       }
     },
-    "5370b342-02c3-4a36-afe1-faaef4978caf": {
-      "type": "tabs-image-text-list",
+    "b78b7fce-b3f9-4aad-bf17-03114593282d": {
+      "type": "media-with-text",
       "blocks": {
-        "b4336336-9259-4cf6-b001-99dd58bd2d51": {
-          "type": "image",
+        "0a783562-7d8b-446f-934e-67bee0420039": {
+          "type": "video",
           "settings": {
-            "image_w": "tw-w-1\/2",
-            "order": "EB7 ST",
-            "image1": "shopify:\/\/shop_images\/d69b7c000e3da8f75b59c7cd96b15738_cba64232-709e-4902-a27d-3215fbda63cc.png",
-            "color1": "#ffffff",
-            "image2": "shopify:\/\/shop_images\/baf213b66db03f7e0a6255ce3a6ed9ce_4b003cf0-d656-4fe4-b1da-0d73839de9c1.png",
-            "color2": "#524d4d",
-            "color3": "",
-            "color4": ""
-          }
-        },
-        "778d82d4-1e22-4ea6-a2b7-c5f97a82036b": {
-          "type": "list",
-          "settings": {
-            "order": "EB7 ST",
-            "show_line": false,
-            "show_line_r": false,
-            "item_w": "tw-w-1\/2",
-            "item_w_mb": "tw-w-1\/2",
-            "title": "",
-            "content": "",
-            "content_align": "tw-text-center",
-            "content_pos": "tw-items-center",
-            "icon1": "shopify:\/\/shop_images\/9d532e540733029cca77b87687efd2d.png",
-            "item1": "1 Year Warranty",
-            "icon2": "shopify:\/\/shop_images\/Jasion_ICON_14_dd687636-ead4-4765-92e5-705d30c20e64.png",
-            "item2": "14-Day Trial",
-            "icon3": "shopify:\/\/shop_images\/taxfree.png",
-            "item3": "Tax-Free",
-            "icon4": "shopify:\/\/shop_images\/fastdelivery.png",
-            "item4": "3-5 Day Delivery",
-            "icon5": "shopify:\/\/shop_images\/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
-            "item5": "Call Us:(+1) 888-825-6366",
-            "icon6": "shopify:\/\/shop_images\/56a85e16a046cb332aca2019e675a194.png",
-            "item6": "Motor 850W",
-            "icon7": "shopify:\/\/shop_images\/speed.png",
-            "item7": "Speed from 0 to 28 Mph",
-            "icon8": "shopify:\/\/shop_images\/2502052.png",
-            "item8": "48 Nm",
-            "item9": "",
-            "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
-            "item10": "Max 330 Lbs",
-            "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
-            "item11": "48V 10Ah",
-            "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
-            "item12": "Range 55 Miles",
-            "item13": "",
-            "item14": "",
-            "item15": "",
-            "item16": ""
-          }
-        },
-        "c9f1c1d3-282f-419e-9acd-bc158ccff168": {
-          "type": "image",
-          "settings": {
-            "image_w": "tw-w-1\/2",
-            "order": "EB7 2.0",
-            "image1": "shopify:\/\/shop_images\/2.0_9f8b1e10-f792-496c-88b9-63f02d376ad3.png",
-            "color1": "#ffffff",
-            "image2": "shopify:\/\/shop_images\/2.0_74f341be-b421-4f74-b0f6-cb18b719c3be.png",
-            "color2": "#5e8440",
-            "image3": "shopify:\/\/shop_images\/2.0_793c1b44-3a5d-46f5-9be6-d89cbdadd562.png",
-            "color3": "#524d4d",
-            "color4": ""
-          }
-        },
-        "aa6e8986-affd-4e07-b776-0e9c44b37a42": {
-          "type": "list",
-          "settings": {
-            "order": "EB7 2.0",
-            "show_line": false,
-            "show_line_r": false,
-            "item_w": "tw-w-1\/2",
-            "item_w_mb": "tw-w-1\/2",
-            "title": "",
-            "content": "",
-            "content_align": "tw-text-center",
-            "content_pos": "tw-items-center",
-            "icon1": "shopify:\/\/shop_images\/9d532e540733029cca77b87687efd2d.png",
-            "item1": "1 Year Warranty",
-            "icon2": "shopify:\/\/shop_images\/Jasion_ICON_14_dd687636-ead4-4765-92e5-705d30c20e64.png",
-            "item2": "14-Day Trial",
-            "icon3": "shopify:\/\/shop_images\/taxfree.png",
-            "item3": "Tax-Free",
-            "icon4": "shopify:\/\/shop_images\/fastdelivery.png",
-            "item4": "3-5 Day Delivery",
-            "icon5": "shopify:\/\/shop_images\/phone_fadd9190-e42a-4116-b7de-0ddc8d7ebb9e.png",
-            "item5": "Call Us:(+1) 888-825-6366",
-            "icon6": "shopify:\/\/shop_images\/56a85e16a046cb332aca2019e675a194.png",
-            "item6": "Motor 850W",
-            "icon7": "shopify:\/\/shop_images\/speed.png",
-            "item7": "Speed from 0 to 28 Mph",
-            "icon8": "shopify:\/\/shop_images\/2502052.png",
-            "item8": "48 Nm",
-            "item9": "",
-            "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
-            "item10": "Max 330 Lbs",
-            "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
-            "item11": "48V 10Ah",
-            "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
-            "item12": "Range 55 Miles",
-            "item13": "",
-            "item14": "",
-            "item15": "",
-            "item16": ""
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+            "autoplay": true,
+            "media_width": 35,
+            "media_position": "end",
+            "text_position": "place-self-center-start text-start",
+            "icon": "none",
+            "icon_width": 48,
+            "subheading": "",
+            "title": "Guidance on Switching X-Hunter on and off and Removing Batteries",
+            "content": "<p>1. On the right side of the electric bike, insert the key into the lock hole. At this time, the electric bike is turned off.<br\/>2. Turn the key to the right to start the electric bike.<br\/>3. Turn the key to the left to turn the electric bike off. Press the key inward and turn it to the left until the button is recessed. Remove the key and take out the battery.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "background": "rgba(0,0,0,0)",
+            "background_gradient": "",
+            "text_color": "#2e3028",
+            "text_gradient": "linear-gradient(127deg, rgba(254, 217, 81, 1) 11%, rgba(255, 70, 199, 1) 81%)",
+            "button_background": "",
+            "button_text_color": ""
           }
         }
       },
       "block_order": [
-        "b4336336-9259-4cf6-b001-99dd58bd2d51",
-        "778d82d4-1e22-4ea6-a2b7-c5f97a82036b",
-        "c9f1c1d3-282f-419e-9acd-bc158ccff168",
-        "aa6e8986-affd-4e07-b776-0e9c44b37a42"
+        "0a783562-7d8b-446f-934e-67bee0420039"
       ],
+      "disabled": true,
       "settings": {
-        "bg_color": "",
-        "top_padding": "md",
-        "bottom_padding": "none",
-        "top_margin": "sm",
-        "bottom_margin": "sm",
-        "top_padding_mb": "none",
-        "bottom_padding_mb": "none",
-        "top_margin_mb": "none",
-        "bottom_margin_mb": "sm"
+        "full_width": false,
+        "spacing": "small"
+      }
+    },
+    "4b4c4006-c9db-4987-8479-3fbad79ec165": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/95259cc60ee676b0d377237d54e5589c.jpg",
+        "mobile_text_position": "place-self-start text-start",
+        "desktop_text_position": "sm:place-self-start sm:text-start",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "567805fd-8737-45a8-8467-3bcab6e0dde3": {
       "type": "tab-product-content",
       "blocks": {
+        "eca13a04-c47e-406c-a456-b199eddc7ae0": {
+          "type": "content",
+          "settings": {
+            "order": "Big Bike Saddle",
+            "image": "shopify:\/\/shop_images\/04_61e826ae-06dd-4235-9af4-77fcb1646dee.jpg",
+            "img_order": "tw-order-1",
+            "title": "Big Bike Saddle Cushion",
+            "content": "X-Hunter saddle features a dual shock absorption structure, with dimensions measuring 11 inches in length, 10 inches in width, and 3.15 inches in height, ensuring prolonged comfort during rides."
+          }
+        },
         "84d6c8c1-de87-42ec-9b63-a514bd92d69e": {
           "type": "content",
           "settings": {
             "order": "Fat Tire",
-            "image": "shopify:\/\/shop_images\/06_66c8422e-3637-4112-8720-16f81f5fbd17.jpg",
+            "image": "shopify:\/\/shop_images\/07_bb3b26d2-b992-4d76-8be7-0ffdabc0a0c7.jpg",
             "img_order": "tw-order-1",
-            "title": "20\" x 3\" Puncture-Resistant Tires",
+            "title": "20\" x 4\" Puncture-Resistant Tires",
             "content": "The high-quality fat tires provide extra protection against punctures from thorns, glass, and other small materials."
           }
         },
@@ -1234,17 +921,17 @@
           "type": "content",
           "settings": {
             "order": "Adjustable Suspension",
-            "image": "shopify:\/\/shop_images\/04_782fe7c4-1e58-4658-ae1a-6abe9614fcc8.jpg",
+            "image": "shopify:\/\/shop_images\/05_f4f028d5-1890-4575-8163-d2e3877d42a2.jpg",
             "img_order": "tw-order-1",
-            "title": "Adjustable Front and Rear Suspension Setup",
-            "content": "Equipped with a front fork suspension and rear suspension, absorbs most jarring bumps and shocks when riding, and provides another riding experience."
+            "title": "Full Suspension System for the Entire Bike",
+            "content": "Equipped with front fork shock absorption and a four-link shock absorption system, achieving a full bike suspension system. It absorbs most of the jarring bumps and vibrations during rides, providing a comfortable riding experience."
           }
         },
         "69536d77-d120-4747-ad03-76d9ca8c7e86": {
           "type": "content",
           "settings": {
             "order": "Lighting Configuration",
-            "image": "shopify:\/\/shop_images\/03_5578e995-08a8-41af-8155-bcf5a6202d49.jpg",
+            "image": "shopify:\/\/shop_images\/06_c0032abc-1edc-41ef-a3b6-7db444c96936.jpg",
             "img_order": "tw-order-1",
             "title": "Headlight&Taillight",
             "content": "Brighter LED headlights, make riding more convenient and safer. The integrated taillight will flash when brake, making it a warning light at night."
@@ -1254,59 +941,49 @@
           "type": "content",
           "settings": {
             "order": "Feature Configuration",
-            "image": "shopify:\/\/shop_images\/02_c8f1d37c-2809-4ddf-ba41-545c29fc0808.jpg",
+            "image": "shopify:\/\/shop_images\/03_898318e2-a4b3-49c6-9c0f-a1c00ea6beb9.jpg",
             "img_order": "tw-order-1",
             "title": "Shimano 7-Speed & Motorcycle-Style Hand-Twist Throttle",
-            "content": "The Shimano 7-speed gear shifter makes your ride smoother, and the motorcycle-style hand-twist throttle allows for easy control of the electric bike's speed"
+            "content": "The Shimano 7-Speed gear shifter makes your ride smoother, and the motorcycle-style hand-twist throttle allows for easy control of the electric bike's speed"
           }
         },
         "7113dbeb-6c68-4ef4-babb-5c3b5ce984f9": {
           "type": "content",
           "settings": {
             "order": "Folding Size",
-            "image": "shopify:\/\/shop_images\/07_cfafbf9d-6cca-4ac9-8a75-3802a2bb05f2.jpg",
+            "image": "shopify:\/\/shop_images\/08_89154bab-c198-4db2-ad30-5207aa4bbb22.jpg",
             "img_order": "tw-order-1",
             "title": "Foldable Electric Bike",
-            "content": "The foldable and portable design makes the EB7 ST e-bike easy to carry and fits stock into any compact space, such as an apartment, subway, or car trunk.Folding Size: 36*21*29 (Inch)"
+            "content": "The foldable and portable design makes the X-Hunter e-bike easy to carry and fits stock into any compact space, such as an apartment, subway, or car trunk.Folding Size: 29.5\"*33.5\"*15.7\"(Inch)"
           }
         },
         "8ded0fba-e812-4f69-9477-d67dd00e252c": {
           "type": "content",
           "settings": {
             "order": "Disc Brake",
-            "image": "shopify:\/\/shop_images\/01_49129aa1-6e06-4750-b484-88087c0a6fc1.jpg",
+            "image": "shopify:\/\/shop_images\/01_0d7d608b-40a1-48b3-a6a7-6358f54c743d.jpg",
             "img_order": "tw-order-1",
             "title": "Dual Disc Brake System",
             "content": "The sensitive brake system with the front and rear 160mm disc rotors can provide sufficient braking force at a short distance whether in wet or dry conditions."
           }
-        },
-        "ef5fb5fc-f90f-415e-83c6-9a2214c0f4ff": {
-          "type": "content",
-          "settings": {
-            "order": "Foldable Footrests",
-            "image": "shopify:\/\/shop_images\/05_d32465ae-20e6-4817-996f-256d37a1efa1.jpg",
-            "img_order": "tw-order-1",
-            "title": "Foldable Footrests",
-            "content": "EB7 ST in order to make it more convenient for users to fold and place the back of the car, so the pedals made an innovative breakthrough, the pedals folded to make the electric bike more stable and less prone to bumps."
-          }
         }
       },
       "block_order": [
+        "eca13a04-c47e-406c-a456-b199eddc7ae0",
         "84d6c8c1-de87-42ec-9b63-a514bd92d69e",
         "4c7751b5-db0b-4e62-a8fd-e0c9dea500eb",
         "69536d77-d120-4747-ad03-76d9ca8c7e86",
         "e47f2981-dbfc-4317-8415-546caca7ceae",
         "7113dbeb-6c68-4ef4-babb-5c3b5ce984f9",
-        "8ded0fba-e812-4f69-9477-d67dd00e252c",
-        "ef5fb5fc-f90f-415e-83c6-9a2214c0f4ff"
+        "8ded0fba-e812-4f69-9477-d67dd00e252c"
       ],
       "settings": {
         "bg_color": "",
         "title": "The Main Features",
         "title_sz": "md",
-        "content": "\"More detailed feature introduction for the EB7 ST electric bicycle.\"",
+        "content": "\"More detailed feature introduction for the X-Hunter Electric Bicycle.\"",
         "title_color": "#333333",
-        "top_padding": "sm",
+        "top_padding": "md",
         "bottom_padding": "none",
         "top_margin": "none",
         "bottom_margin": "none",
@@ -1331,17 +1008,17 @@
             "content": "",
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
-            "item1": "<b>A --<\/b> Handlebar Length 24.8\"",
+            "item1": "<b>A --<\/b> Handlebar Length 25.2\"",
             "item2": "<b>B -- <\/b> Hand Tube Fixed Height 6.3\"",
             "item3": "<b>C -- <\/b> Chainstay 17.3\"",
             "item4": "<b>D -- <\/b> Ground Clearance 5.9\"",
-            "item5": "<b>E --<\/b>  Wheelbase 44.5\"",
-            "item6": "<b>F --<\/b>  Total Length 68\"",
-            "item7": "<b>G --<\/b> Wheel Diameter 22\"",
-            "item8": "<b>H --<\/b>  Handlebar Height from Floor 43.7\"",
-            "item9": "<b>I --<\/b>  Minimum Seat Height 28.4\"",
-            "item10": "<b>J --<\/b>  Maximum Seat Height 43\"",
-            "item11": "<b>Folded Size --<\/b>  36\"*21\"*29\"",
+            "item5": "<b>E --<\/b>  Wheelbase 46\"",
+            "item6": "<b>F --<\/b>  Total Length 69\"",
+            "item7": "<b>G --<\/b> Wheel Diameter 22.8\"",
+            "item8": "<b>H --<\/b> Handlebar Height from Floor 46\"",
+            "item9": "<b>I --<\/b>  Minimum Seat Height from Floor 30\"",
+            "item10": "<b>J --<\/b> Maximum Seat Height from Floor 46\"",
+            "item11": "<b> Folded Size --<\/b>  29.5\"*33.5\"*15.7\"",
             "item12": "",
             "item13": "",
             "item14": "",
@@ -1354,7 +1031,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Geometry",
-            "image1": "shopify:\/\/shop_images\/EB7_ST_663e7dc3-f729-4c6a-9ff6-3add0a129388.jpg",
+            "image1": "shopify:\/\/shop_images\/9367801dc53b37ca75d885be8dc01cb9.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1373,19 +1050,19 @@
             "content": "",
             "content_align": "tw-text-left",
             "content_pos": "tw-items-baseline",
-            "item1": "<b>Battery<\/b>  48V 10Ah",
+            "item1": "<b>Battery<\/b>  48V 13Ah",
             "item2": "<b>Charger US<\/b> Standard 2.0 A Smart Charger",
-            "item3": "<b>Range<\/b> 55 Miles",
-            "item4": "<b>Controller<\/b> 48V \/ 10A",
-            "item5": "<b>Hub Motor<\/b> 850W Brushless Gear Motor",
+            "item3": "<b>Range<\/b> 70 Miles",
+            "item4": "<b>Controller<\/b> 48V \/ 13A",
+            "item5": "<b>Hub Motor<\/b> 1400W Brushless Gear Motor",
             "item6": "<b>Display<\/b> LCD Display",
-            "item7": "<b>Total Payload Capacity<\/b>  330 Lbs",
-            "item8": "<b>Weight<\/b>  62.8Lbs",
-            "item9": "<b>Recommended Rider Heights<\/b> 5'1\" to 6'2\"",
+            "item7": "<b>Total Payload Capacity<\/b>  400 Lbs",
+            "item8": "<b>Weight<\/b>  71Lbs",
+            "item9": "<b>Recommended Rider Heights<\/b> 5'3\" to 6'4\"",
             "item10": "<b>Pedal Assist Intelligent<\/b>  0~5 Level Pedal Assist",
-            "item11": "<b>Tires<\/b>  20\" x 3\" Puncture Resistant Tires",
+            "item11": "<b>Tires<\/b>  20\" x 4\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Twist Throttle",
-            "item13": "<b>Rear Light<\/b>   Brake Lights",
+            "item13": "<b>Rear Light<\/b>  Left and Right Turn Signal Brake Lights",
             "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions",
             "item15": "",
             "item16": ""
@@ -1396,7 +1073,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "Specification",
-            "image1": "shopify:\/\/shop_images\/eb7_11.20.png",
+            "image1": "shopify:\/\/shop_images\/x-hunter_11.20.png",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1438,7 +1115,7 @@
           "settings": {
             "image_w": "tw-w-1\/2",
             "order": "In the Box",
-            "image1": "shopify:\/\/shop_images\/EB7_ST_4dc995ff-86e4-4cd9-bbb4-ce8a2725b487.jpg",
+            "image1": "shopify:\/\/shop_images\/X-hunterbox.jpg",
             "color1": "",
             "color2": "",
             "color3": "",
@@ -1506,8 +1183,8 @@
           "type": "item",
           "settings": {
             "order": "",
-            "title": "Does my height suit EB7 ST?",
-            "content": "<p>The recommended rider height is 5'1\" to 6'2\".<\/p>"
+            "title": "Does my height suit X-Hunter?",
+            "content": "<p>The recommended rider height is 5'3\" to 6'4\".<\/p>"
           }
         },
         "365129b8-6051-4e08-a2c2-8cf731f285ef": {
@@ -1515,7 +1192,7 @@
           "settings": {
             "order": "",
             "title": "How long does it take to fully charge the battery?",
-            "content": "<p>It will take 4-5 hours.<\/p>"
+            "content": "<p>It will take 6.5-7 hours.<\/p>"
           }
         },
         "51ce378d-ee86-4b4e-bf30-54d73d8249a5": {
@@ -1526,20 +1203,12 @@
             "content": "<p>Generally, your order will be shipped within one business day after the order is placed, and package shipping will take approximately 3-5 days.<\/p>"
           }
         },
-        "19ab3e77-f8a1-4fd5-bbaf-f2801198a781": {
-          "type": "item",
-          "settings": {
-            "order": "",
-            "title": "What is the difference between EB7 2.0 and EB7 ST?",
-            "content": "<p>The EB7 ST has a new design step-through with a lower span than before, it is more suitable for older people or people with physical limitations to ride.<\/p>"
-          }
-        },
         "c5024f13-58bc-49ca-ad41-795accbf22ad": {
           "type": "item",
           "settings": {
             "order": "",
             "title": "Does my Jasion ebike come pre-assembled?",
-            "content": "<p>Your e-bike arrives 90% assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our <a href=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU\">YouTube Channel<\/a>.<\/p>"
+            "content": "<p>Your e-bike arrives 85% assembled. There are just a few pieces to put into place once you take the bike out of the box. For unboxing and setup instructions, please follow the guides on our <a href=\"https:\/\/www.youtube.com\/watch?v=i0LcsKoZaXU\" target=\"_blank\" title=\"https:\/\/www.youtube.com\/watch?v=i0LcsKoZaXU\">YouTube Channel<\/a>.<\/p>"
           }
         },
         "23aef557-5e7c-4b1d-bdcf-925df3f71db5": {
@@ -1547,7 +1216,7 @@
           "settings": {
             "order": "",
             "title": "What is the maximum speed of each PAS level?",
-            "content": "<ul><li>PAS1 Top speed 16mph<\/li><li>PAS2 Top speed 18mph<\/li><li>PAS3 Top speed 20mph<\/li><li>PAS4 Top speed 23mph<\/li><li>PAS5 Top speed 28mph<\/li><\/ul>"
+            "content": "<ul><li>PAS1 Top speed 16mph<\/li><li>PAS2 Top speed 18mph<\/li><li>PAS3 Top speed 20mph<\/li><li>PAS4 Top speed 23mph<\/li><li>PAS5 Top speed 30+mph<\/li><\/ul>"
           }
         }
       },
@@ -1559,7 +1228,6 @@
         "8f92a2b7-490d-495b-a28b-e9aa46cf5319",
         "365129b8-6051-4e08-a2c2-8cf731f285ef",
         "51ce378d-ee86-4b4e-bf30-54d73d8249a5",
-        "19ab3e77-f8a1-4fd5-bbaf-f2801198a781",
         "c5024f13-58bc-49ca-ad41-795accbf22ad",
         "23aef557-5e7c-4b1d-bdcf-925df3f71db5"
       ],
@@ -1567,7 +1235,7 @@
         "full_width": true,
         "text_size": 100,
         "subheading": "",
-        "title": "EB7 ST FAQs",
+        "title": "X-Hunter FAQs",
         "content": "",
         "team_avatar_width": 160,
         "support_hours": "",
@@ -1584,41 +1252,41 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": "",
-        "top_padding": "none",
+        "top_padding": "md",
         "bottom_padding": "none",
-        "top_margin": "none",
-        "bottom_margin": "sm",
+        "top_margin": "sm",
+        "bottom_margin": "md",
         "top_padding_mb": "none",
         "bottom_padding_mb": "none",
         "top_margin_mb": "none",
         "bottom_margin_mb": "sm"
       }
     },
-    "section_new_vide_CEEQFH": {
+    "section_new_vide_ERfW9T": {
       "type": "Section-New-Vide",
       "blocks": {
-        "item_7kqxtY": {
+        "item_JLV7Px": {
           "type": "item",
           "settings": {
             "allow_transparent_header": false,
             "autoplay": false,
             "video_size": "auto",
-            "external_video_url": "https:\/\/youtu.be\/xLlYP_xKCAU",
-            "title_video": "JASION EB7 ST Assembly Instructions",
+            "external_video_url": "https:\/\/youtu.be\/i0LcsKoZaXU?list=TLGGQJ2GmAi2OV0yMTAyMjAyNA",
+            "title_video": "X-Hunter Assembly Instructions",
             "info_video": "",
-            "link_watch": "https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=76s",
+            "link_watch": "https:\/\/youtu.be\/i0LcsKoZaXU?list=TLGGQJ2GmAi2OV0yMTAyMjAyNA",
             "watch_button": "Video Installation",
             "button_text_color_1": "",
             "button_text_background_1": "",
             "button_text_border_1": "",
-            "link_shop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB7_ST_User_Manual.pdf?v=1712808508",
+            "link_shop": "https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/X-Hunter_User_Manual.pdf?v=1712808507",
             "shop_button": "Browse The Manual",
             "button_text_color_2": "",
             "button_text_background_2": "",
             "button_text_border_2": ""
           }
         },
-        "item_qeDz3e": {
+        "item_bqrDfW": {
           "type": "item",
           "settings": {
             "allow_transparent_header": false,
@@ -1627,13 +1295,13 @@
             "external_video_url": "https:\/\/youtu.be\/CaFKYHN-3uA?list=TLGGE4W9Tip96NcyMTAyMjAyNA",
             "title_video": "Instructions for Key Usage and Battery RemovalSummarize",
             "info_video": "",
-            "link_watch": "",
-            "watch_button": "",
+            "link_watch": "https:\/\/youtu.be\/CaFKYHN-3uA?list=TLGGE4W9Tip96NcyMTAyMjAyNA",
+            "watch_button": "Watch Video",
             "button_text_color_1": "",
             "button_text_background_1": "",
             "button_text_border_1": "",
-            "link_shop": "https:\/\/youtu.be\/CaFKYHN-3uA?list=TLGGE4W9Tip96NcyMTAyMjAyNA",
-            "shop_button": "Watch Video",
+            "link_shop": "",
+            "shop_button": "",
             "button_text_color_2": "",
             "button_text_background_2": "",
             "button_text_border_2": ""
@@ -1641,8 +1309,8 @@
         }
       },
       "block_order": [
-        "item_7kqxtY",
-        "item_qeDz3e"
+        "item_JLV7Px",
+        "item_bqrDfW"
       ],
       "settings": {
         "title": "",
@@ -1664,64 +1332,75 @@
         "dividing_line": ""
       }
     },
-    "b4bbb6da-effe-4df0-9f77-dc864a04839e": {
+    "57754a06-8b3f-4252-9222-dcd14ef91b2e": {
       "type": "story-swiper",
       "blocks": {
-        "cd987e4e-f06a-4421-a30b-8cdcbb4d5b5d": {
+        "3fdcf4d1-1a7d-4da6-b3f9-9f4af8dbcd54": {
           "type": "item",
           "disabled": true,
           "settings": {
             "autoplay": false,
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=xLlYP_xKCAU&t=23s",
-            "title": "Effortless Installation-Assembly Video",
-            "content": "Enjoy the excitement of electric biking without the headache of complicated assembly. Our installation video streamlines the process, making it a breeze for riders of all levels. Ensures you spend more time riding and less time assembling.",
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=i0LcsKoZaXU",
+            "title": "Assembly Video-Quick and Painless Setup",
+            "content": "Dive into the world of electric biking with our easy-to-follow installation video. In just a few simple steps, you'll have your bike assembled and ready for the road. No hassle, no stress—just seamless setup for an instant riding experience.",
             "author": "Jasion Bike"
           }
         },
-        "ba33be03-3833-4169-b001-c6281f0ccd85": {
+        "c831ce5d-60eb-4d3f-8eab-19ba9c96a4d8": {
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=Q1c-ynX-4Cc",
-            "title": "Jasion EB-7 E-Bike Review",
-            "content": "The Jasion EB7 ST is a foldable, full suspension electric bike, the bike comes with a display and lights. It also has dual suspension and puncture-proof wide tires for a comfortable and smooth ride and can be easily stored with the foldable handlebar.",
-            "author": "Jasion Bike"
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=VTnLHr2M7mk&t=608s",
+            "title": "A Budget Friendly Full Suspension eBike | Jasion X-Hunter eBike Review",
+            "content": "Jasion X Hunter is an exceptional full suspension Fat Tire e-bike. Comes in a variety of colors. The bike is also foldable and weighs 71 lbs, which is relatively light for a full-suspension Fat Tire e-bike. The seat is very wide and plush. Overall, the Jasion X-Hunter is a solid choice for those looking for a reasonable price.",
+            "author": "Eric Hernandez"
           }
         },
-        "9ba1fbea-7c2e-4afc-a1ad-38a2c4f58ae5": {
+        "item_MBPxTr": {
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=dlVIoMf9WP0&t=182s",
-            "title": "Returning Home to Amish Country Pennsylvania (and Gifting My Parents a Jasion E-Bike!)",
-            "content": "We were gifted a Jasion E-bike which was perfect timing! Jasion EB7 ST is great as the seat goes very low for my mom and it also folds in half so it's easy to transport in the back of a car. It was the first time any of us tried an e-bike so we had a great time driving!",
-            "author": "Natalie and Carles"
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=7KfQu_ev7Ws",
+            "title": "AWESOME  FOLDING E–BIKE Jasion X-Hunter",
+            "content": "The Jasion X Hunter E-bike is a 1200-watt folding e-bike with a budget-friendly price. It has a 7-speed Shimano shifter and a full suspension. Goes a 55-mile range, 28 mph top speed. The software is simple, clicking the M menu button to click through various things. I enjoy the bike and recommend it.",
+            "author": "The Inja"
           }
         },
-        "afdfd9af-cfd4-4e0e-8502-a37329f49961": {
+        "0ee47c36-3139-4bc8-9920-78d8c74199df": {
           "type": "item",
           "settings": {
             "autoplay": false,
-            "external_video_url": "https:\/\/www.youtube.com\/watch?v=LqFlVt392wQ&t=206s",
-            "title": "JASION Foldable Electric Bicycle | 2023 Best Price E-Bike | Off-road Bicycle With Pedal Assist",
-            "content": "EB7 ST is a multiple-function foldable ebike. It comes with a step-through frame and it suits more people now! Watch our community tour, our neighborhood tour on our new electric bike Jasion EB7 ebike.",
-            "author": "Shopping with Amy - Homegoods, Tech, Gift Ideas"
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=sqmrVs7MEvY",
+            "title": "Jasion X-Hunter - Low Price Dual Suspension Ebike",
+            "content": "Jasion X-Hunter equips 1200 powerful motor. The riding position is comfortable, with an adjustable height seat and tall stem. The bike's full suspension is fairly good, and the fat tires and comfortable seat make for a smooth ride even off-road.  X-Hunter is a great value for those looking for a versatile and feature-rich bike.",
+            "author": "NPL Ventures"
+          }
+        },
+        "696148dd-e9b6-460f-a2de-6eb8cf8a98b0": {
+          "type": "item",
+          "settings": {
+            "autoplay": false,
+            "external_video_url": "https:\/\/www.youtube.com\/watch?v=wkxupMNqCAE",
+            "title": "Jasion X-Hunter Ebike Review ~ A Full Suspension electric bike at a decent price!",
+            "content": "The Jasion X-Hunter is a 4in fat tire ebike with a 22 amp controller, 13 amp hour battery, and a dual suspension system. I test the bike's power, speed, and brakes by riding up hills and going down steep inclines. The bike costs $939 with free shipping and it's worth buying.",
+            "author": "Jeremiah Mcintosh"
           }
         }
       },
       "block_order": [
-        "cd987e4e-f06a-4421-a30b-8cdcbb4d5b5d",
-        "ba33be03-3833-4169-b001-c6281f0ccd85",
-        "9ba1fbea-7c2e-4afc-a1ad-38a2c4f58ae5",
-        "afdfd9af-cfd4-4e0e-8502-a37329f49961"
+        "3fdcf4d1-1a7d-4da6-b3f9-9f4af8dbcd54",
+        "c831ce5d-60eb-4d3f-8eab-19ba9c96a4d8",
+        "item_MBPxTr",
+        "0ee47c36-3139-4bc8-9920-78d8c74199df",
+        "696148dd-e9b6-460f-a2de-6eb8cf8a98b0"
       ],
       "settings": {
         "title": "Customer Stories",
         "title_color": "#333333",
-        "top_padding": "sm",
-        "bottom_padding": "sm",
+        "top_padding": "none",
+        "bottom_padding": "none",
         "top_margin": "none",
-        "bottom_margin": "sm",
+        "bottom_margin": "none",
         "top_padding_mb": "none",
         "bottom_padding_mb": "none",
         "top_margin_mb": "none",
@@ -1753,7 +1432,7 @@
         "review_button_text_color": "#ffffff"
       }
     },
-    "922907551168083436": {
+    "003576269817268190": {
       "type": "apps",
       "disabled": true,
       "settings": {
@@ -1773,28 +1452,27 @@
   },
   "order": [
     "main",
-    "070746480697742968",
-    "43b27d97-0a8f-496c-b497-3aa9c0fba126",
+    "555029366732924098",
     "750204d7-2770-4d80-9fa8-87d23ee6229a",
-    "17f9ef90-13d4-46ab-a3b1-c95bfa1c131b",
-    "timeline_kUxJUa",
-    "37de028a-dbfc-41e1-9adb-d87c14293be6",
-    "c90a69d2-d3ca-4048-be7c-466923420a56",
-    "5f3769c7-a9e7-406c-a144-a1027b988c07",
-    "e7471b4d-f8f9-4d79-9e03-fddde11561b2",
+    "rich_text_Ug8BaH",
+    "timeline_UGGBrp",
+    "43b27d97-0a8f-496c-b497-3aa9c0fba126",
+    "6c6723ec-f274-4007-9d93-8130e7a8f2e0",
+    "b48d8349-2cf7-4091-bf07-762427eeff91",
+    "1f94d172-be1e-4b94-81d1-ae200ed0cdba",
     "ca8b8baf-bbea-4afb-84eb-476432536fc5",
     "974fcb3e-8d65-4b77-aded-298b4889fd54",
-    "0c7d4597-3bef-410d-9e4e-dd41f9ba6cd5",
     "f2b04fb2-c445-4e1c-a495-53c93f204a58",
     "f2585fbe-a0d9-4f9a-9995-ef28655db801",
     "b10c3509-0887-46b7-b0bf-160f11acd91f",
-    "5370b342-02c3-4a36-afe1-faaef4978caf",
+    "b78b7fce-b3f9-4aad-bf17-03114593282d",
+    "4b4c4006-c9db-4987-8479-3fbad79ec165",
     "567805fd-8737-45a8-8467-3bcab6e0dde3",
     "2058a2a4-798c-4d80-84be-dd89d2644013",
     "e91eef22-a348-42cb-b126-ae739a144618",
-    "section_new_vide_CEEQFH",
-    "b4bbb6da-effe-4df0-9f77-dc864a04839e",
+    "section_new_vide_ERfW9T",
+    "57754a06-8b3f-4252-9222-dcd14ef91b2e",
     "16923286792e230b9b",
-    "922907551168083436"
+    "003576269817268190"
   ]
 }

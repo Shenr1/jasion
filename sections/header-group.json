@@ -7,23 +7,22 @@
       "blocks": {
         "message_gCy7hw": {
           "type": "message",
-          "disabled": true,
           "settings": {
-            "text": "The Last Promotion of the Year! Up To $1900 OFF",
+            "text": "1-Year Extra Warranty on E-bike",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "90970645-3f2b-4c4f-9e21-63e99d904847": {
           "type": "message",
           "settings": {
-            "text": "Free Rear Basket With Every Purchase Of X-Hunter",
+            "text": "EB7 Flash Sale  - Only $699!",
             "url": "shopify:\/\/collections\/electric-bike"
           }
         },
         "message_p4Gejb": {
           "type": "message",
           "settings": {
-            "text": "Free Shipping On All E-bikes!",
+            "text": "Free Pannier Bag With Every Purchase Of EB5 Roamer!",
             "url": ""
           }
         },
@@ -75,9 +74,9 @@
             "menu_item": "E-BIKES",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/1_M.jpg",
+            "image_1": "shopify:\/\/shop_images\/M_01a8f3a9-da8a-44cf-b7b2-79be5e36de4d.jpg",
             "image_heading_1": "",
-            "image_link_1": "shopify:\/\/products\/jasion-x-hunter",
+            "image_link_1": "shopify:\/\/products\/jasion-eb7-electric-bike",
             "image_text_color_1": "#272727",
             "image_heading_2": "",
             "image_link_2": "shopify:\/\/products\/jasion®eb5-roamer-ebike",
@@ -120,12 +119,12 @@
         "28172f49-87de-4147-9735-486441aa38fb": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "Jasionbike Combo Sale",
+            "menu_item": "Combo Sale",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/1_M_dfce673f-3c5c-4ee6-ad0c-d99cd19f68a8.jpg",
+            "image_1": "shopify:\/\/shop_images\/Valentine_s-Day---M.png",
             "image_heading_1": "",
-            "image_link_1": "shopify:\/\/collections\/electric-bike",
+            "image_link_1": "shopify:\/\/collections\/combo-sale",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",

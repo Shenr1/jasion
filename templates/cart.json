@@ -11,7 +11,7 @@
             "icon": "picto-credit-card",
             "icon_width": 40,
             "title": "Shop with confidence.",
-            "content": "<ul><li>No 7%-10% sales tax on all products</li><li>Delivered in 3-5 business days.</li><li>We support PayPal, Shoppay installment payment, and credit/debit cards. </li></ul>",
+            "content": "<ul><li>24-Hour Online Customer Service<\/li><li>Delivered in 3-5 business days.<\/li><li>We support PayPal, Shoppay installment payment, and credit\/debit cards. <\/li><\/ul>",
             "background": "",
             "text_color": ""
           }
@@ -31,13 +31,11 @@
         },
         "checkout_button": {
           "type": "checkout_button",
-          "settings": {
-          }
+          "settings": {}
         },
         "586f7b2c-1267-4ebe-9931-1e30fdb0d1da": {
           "type": "accelerated_buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

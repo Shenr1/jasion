@@ -26,17 +26,17 @@
             "background_gradient": ""
           }
         },
-        "image_zzmQCn": {
+        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_e562575e-6fa9-49db-8734-1dfdd415566c.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_M.jpg",
-            "content_max_width": 780,
+            "image": "shopify:\/\/shop_images\/Spring.png",
+            "mobile_image": "shopify:\/\/shop_images\/Spring---M.jpg",
+            "content_max_width": 1200,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h0",
+            "heading_tag": "h2",
             "button_text": "",
             "button_link": "shopify:\/\/products\/jasion-x-hunter",
             "text_color": "#ffffff",
@@ -48,19 +48,19 @@
             "background_gradient": ""
           }
         },
-        "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1": {
+        "image_zzmQCn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_5d1bdbb6-6206-4a21-8127-e82c41225708.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/1_M_dfce673f-3c5c-4ee6-ad0c-d99cd19f68a8.jpg",
-            "content_max_width": 1200,
+            "image": "shopify:\/\/shop_images\/Valentine_s-Day1.png",
+            "mobile_image": "shopify:\/\/shop_images\/M_01a8f3a9-da8a-44cf-b7b2-79be5e36de4d.jpg",
+            "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "subheading": "",
             "title": "",
-            "heading_tag": "h2",
+            "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/collections\/electric-bike",
+            "button_link": "shopify:\/\/products\/jasion-eb7-electric-bike",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -74,8 +74,8 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/banner_2_585dd09d-d179-4733-8ae0-8185f7fdbbdf.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/banner_1_26cca5d5-e5f4-4f01-9ecf-362c036e642a.jpg",
+            "image": "shopify:\/\/shop_images\/855358758965cd5466ecd94a43d867a2.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/M_4ba4eb7c-83b6-48cd-9744-868cdd73ce48.jpg",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -83,7 +83,7 @@
             "title": "",
             "heading_tag": "h0",
             "button_text": "",
-            "button_link": "shopify:\/\/products\/jasion®-combo-sale-x-hunter-2",
+            "button_link": "shopify:\/\/collections\/electric-bike",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
             "button_text_color": "#000000",
@@ -119,8 +119,8 @@
       },
       "block_order": [
         "image_nqtzeN",
-        "image_zzmQCn",
         "template--21003030429989__fe5550b8-c626-46b7-80b9-b882de823592-image-1",
+        "image_zzmQCn",
         "92a1ff38-5983-404c-a476-80bd94da188e",
         "27f921d4-28ab-4aa5-94e4-1f9e81a565e1"
       ],
@@ -131,7 +131,7 @@
         "controls_type": "dots",
         "transition_type": "fade_with_text",
         "autoplay": true,
-        "cycle_speed": 4,
+        "cycle_speed": 8,
         "background": "#ffffff",
         "background_gradient": ""
       }
@@ -225,6 +225,54 @@
           "settings": {
             "order": "Retrovolt",
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
+          }
+        },
+        "product_LXQ8cT": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "Best Sellers",
+            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-2-0"
+          }
+        },
+        "product_zezHqd": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "Best Sellers",
+            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-st"
+          }
+        },
+        "fc39b58f-9005-4be3-b080-c9112e09c064": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "Best Sellers",
+            "product": "combo-sale-eb7-eb7st"
+          }
+        },
+        "product_anTHA7": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "Best Sellers",
+            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
+          }
+        },
+        "product_HREGMx": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "Best Sellers",
+            "product": "jasion-x-hunter"
+          }
+        },
+        "product_R7JgAb": {
+          "type": "product",
+          "disabled": true,
+          "settings": {
+            "order": "Best Sellers",
+            "product": "jasion-eb7-electric-bike"
           }
         },
         "214b23e0-6f3d-4831-b4db-79e04f649a6d": {
@@ -327,27 +375,6 @@
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
           }
         },
-        "product_zezHqd": {
-          "type": "product",
-          "settings": {
-            "order": "New Combo",
-            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-st"
-          }
-        },
-        "product_LXQ8cT": {
-          "type": "product",
-          "settings": {
-            "order": "New Combo",
-            "product": "jasion-ebike®-combo-sale-x-hunter-eb7-2-0"
-          }
-        },
-        "fc39b58f-9005-4be3-b080-c9112e09c064": {
-          "type": "product",
-          "settings": {
-            "order": "New Combo",
-            "product": "combo-sale-eb7-eb7st"
-          }
-        },
         "product_YRgDYD": {
           "type": "product",
           "disabled": true,
@@ -355,18 +382,17 @@
             "order": "RetroVolt",
             "product": "combo-sale-retrovolt-vintage-style-electric-bike-2"
           }
-        },
-        "product_anTHA7": {
-          "type": "product",
-          "settings": {
-            "order": "New Combo",
-            "product": "jasion-ebike®combo-sale-eb5-roamer-eb5-roamer-st"
-          }
         }
       },
       "block_order": [
         "product_xhCdPC",
         "product_GJW9cb",
+        "product_LXQ8cT",
+        "product_zezHqd",
+        "fc39b58f-9005-4be3-b080-c9112e09c064",
+        "product_anTHA7",
+        "product_HREGMx",
+        "product_R7JgAb",
         "214b23e0-6f3d-4831-b4db-79e04f649a6d",
         "dd499c2e-3b9d-4921-be0f-fdfa2714d1f3",
         "db461650-09f1-4cf2-9673-0f2280aa9d09",
@@ -381,17 +407,13 @@
         "product_PghxUa",
         "product_qgmr3Q",
         "product_UhtgNV",
-        "product_zezHqd",
-        "product_LXQ8cT",
-        "fc39b58f-9005-4be3-b080-c9112e09c064",
-        "product_YRgDYD",
-        "product_anTHA7"
+        "product_YRgDYD"
       ],
       "settings": {
         "bg_color": "rgba(0,0,0,0)",
-        "title": "❄️Ride away with the best winter saving",
+        "title": "Early Spring Sale",
         "title_sz": "md",
-        "content": "🎁 Order a X-Hunter Will Get a Free Rear Basket<br>\n🚴Ebike Up To $1980 Off<br>\n✨Free Shipping On All E-bikes<br>\n😍 Bundle up and save more<br><br>\nDon’t wait—the offer ends in less than 3 days!",
+        "content": "🔥E-bike Limited Offer – From $699!<br> \n🔥Extra 1-Year Warranty with Every E-bike Purchase<br>\n🔥Free Gifts With EB5 Roamer<br>\n🔥Exclusive Bundle Offer<br>\nAct fast—these offers end soon!",
         "title_color": "#333333",
         "top_padding": "md",
         "bottom_padding": "none",
@@ -1274,15 +1296,15 @@
           "type": "item",
           "settings": {
             "custom_icon": "shopify:\/\/shop_images\/ea327c2a7a85ca2a460fe134127db5b3.png",
-            "title": "Tax-Free",
-            "content": "<p>No 7%-10% sales tax on all products.<\/p>"
+            "title": "A+ Customer Service",
+            "content": "<p>24-Hour Online Customer Service.<\/p>"
           }
         },
         "item_tePmbY": {
           "type": "item",
           "settings": {
             "custom_icon": "shopify:\/\/shop_images\/042254fad08a8a596020becfe651001e.png",
-            "title": "Fast Delivery",
+            "title": "Local Warehouse",
             "content": "<p>On your doorstep in just 2-4 days across 49 states.<\/p>"
           }
         },

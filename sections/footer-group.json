@@ -15,7 +15,7 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Fast Delivery",
+            "title": "Local Warehouse",
             "content": "<p>On your doorstep in just 2-4 days across 49 states<\/p>"
           }
         },
@@ -179,6 +179,7 @@
         "padding_width_mobile": 2,
         "show_payment_icons": true,
         "show_country_selector": true,
+        "show_country_link": true,
         "show_country_flag": true,
         "show_country_name": true,
         "show_locale_selector": false,

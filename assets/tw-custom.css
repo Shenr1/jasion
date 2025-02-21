@@ -1598,6 +1598,9 @@
   .md\:tw-h-auto{
     height: auto;
   }
+  .md\:tw-max-h-\[485px\]{
+    max-height: 485px;
+  }
 
   .md\:tw-max-h-\[5vw\]{
     max-height: 5vw;

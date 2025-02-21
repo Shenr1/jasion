@@ -5,21 +5,18 @@
       "blocks": {
         "navigation": {
           "type": "navigation",
-          "settings": {
-          }
+          "settings": {}
         },
         "comments": {
           "type": "comments",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "navigation",
         "comments"
       ],
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

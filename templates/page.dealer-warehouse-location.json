@@ -85,8 +85,7 @@
       "blocks": {
         "s_store_locator_storeify_storelocator_bgP9ac": {
           "type": "shopify:\/\/apps\/s-store-locator\/blocks\/storeify-storelocator\/e7003487-cc51-4321-9488-2c47c07a5b17",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -212,9 +211,7 @@
       "type": "featured-collection",
       "settings": {
         "collection": "electric-bike",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,

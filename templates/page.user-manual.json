@@ -3,9 +3,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "80ch"
       }
@@ -345,6 +343,49 @@
         "button_text_color": "",
         "dividing_line": ""
       }
+    },
+    "rich_text_bJieXT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MJ6xhD": {
+          "type": "heading",
+          "settings": {
+            "text": "Other User Manuals",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_wyktRW": {
+          "type": "richtext",
+          "settings": {
+            "content": "<ul><li> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/CB-1_User_Manual.pdf?v=1739849752\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/CB-1_User_Manual.pdf?v=1739849752\">Jasion CB1 User Mannual<\/a> <\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_User_Manual.pdf?v=1739863327\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_User_Manual.pdf?v=1739863327\">Jasion EB5 UserManual<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB5_PLUS_User_Manual.pdf?v=1739849790\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/EB5_PLUS_User_Manual.pdf?v=1739849790\"> Jasion EB5 PLUS User Manual<\/a>  <\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_MAX_User_Manual.pdf?v=1739849868\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB5_MAX_User_Manual.pdf?v=1739849868\">Jasion EB5 Max User Manual<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB6_User_Manual.pdf?v=1739849894\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_EB6_User_Manual.pdf?v=1739849894\">Jasion EB6 User Manual<\/a> <\/li><li> <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_JC1_User_Manual.pdf?v=1739849968\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_JC1_User_Manual.pdf?v=1739849968\">Jasion JC1 User Manual<\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/JS2_User_Manual.pdf?v=1739850101\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/JS2_User_Manual.pdf?v=1739850101\">Jasion JS2 User Manual<\/a> <\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_JS2_PRO_User_Manual.pdf?v=1739849998\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/Jasion_JS2_PRO_User_Manual.pdf?v=1739849998\">Jasion PRO User Manual <\/a><\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/JS_3_User_Manual.pdf?v=1739850064\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/JS_3_User_Manual.pdf?v=1739850064\">Jasion JS3 User Manual<\/a>   <\/li><li><a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/JS3_PRO_User_Manual.pdf?v=1739850131\" target=\"_blank\" title=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0605\/0044\/3373\/files\/JS3_PRO_User_Manual.pdf?v=1739850131\">Jasion JS3 PRO User Manual<\/a><\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MJ6xhD",
+        "richtext_wyktRW"
+      ],
+      "custom_css": [
+        ".prose ul {display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2vw;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "top_padding": "md",
+        "bottom_padding": "md",
+        "top_margin": "md",
+        "bottom_margin": "md",
+        "top_padding_mb": "md",
+        "bottom_padding_mb": "md",
+        "top_margin_mb": "md",
+        "bottom_margin_mb": "md"
+      }
     }
   },
   "order": [
@@ -352,6 +393,7 @@
     "1698828082b720d9b3",
     "2b4ec00b-99e3-4574-a22f-11dbb8d1f9a3",
     "section_installation_vide_UjpHz9",
-    "section_new_vide_r4yce3"
+    "section_new_vide_r4yce3",
+    "rich_text_bJieXT"
   ]
 }

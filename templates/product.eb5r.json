@@ -84,9 +84,9 @@
         "countdown_dLDHdY": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Last Chance!",
-            "countdown_lbl_content": "Prices increase in：",
-            "countdown_date": "2025-01-11T00:00",
+            "countdown_lbl": "Hurry！",
+            "countdown_lbl_content": "Free Pannier Bag Ends In:",
+            "countdown_date": "2025-02-20T23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -125,6 +125,20 @@
             "payment_button_text_color": ""
           }
         },
+        "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
+          "type": "gifts",
+          "settings": {
+            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $416.",
+            "free": "Free",
+            "cols": "tw-grid-cols-2",
+            "cols_mb": "2",
+            "tag_color": "#e03b3b",
+            "pd_1": "extra-one-year-warranty",
+            "pd_2": "jasion-ebike-rack-pannier-bag",
+            "pd_3": "fenders-for-jasion-eb7",
+            "pd_4": "copy-of-jasion®-bicycle-universal-mirrors"
+          }
+        },
         "bd56b862-0bde-40cb-bf3f-998d012a3882": {
           "type": "associated_products",
           "settings": {
@@ -133,18 +147,6 @@
             "products_count": 10,
             "background": "",
             "text_color": ""
-          }
-        },
-        "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
-          "type": "gifts",
-          "settings": {
-            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $158.",
-            "free": "Free",
-            "tag_color": "#e03b3b",
-            "pd_1": "fenders-for-jasion-eb7",
-            "pd_2": "copy-of-jasion®-bicycle-universal-mirrors",
-            "pd_3": "",
-            "pd_4": ""
           }
         },
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
@@ -184,8 +186,8 @@
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
           "settings": {
-            "img_1": "shopify:\/\/shop_images\/lQLPKIG0DMQ51LXNASzNASywZuE2lFK_KXsHYuNI4JDAAQ_300_300.png",
-            "content_1": "❄️Ride away with the best winter saving<br><br>\n🎁 Order a X-Hunter Will Get a Free Rear Basket<br>\n🚴Ebike Up To $1980 Off<br>\n✨Free Shipping On All E-bikes<br>\n😍 Bundle up and save more<br><br>\nDon’t wait—the offer ends in less than 3 days!",
+            "img_1": "shopify:\/\/shop_images\/Spring_Sale.png",
+            "content_1": "Early Spring Sale<br>\n🔥E-bike Limited Offer – From $699!<br>\n🔥Extra 1-Year Warranty with Every E-bike Purchase<br>\n🔥Free Gifts With EB5 Roamer<br>\n🔥Exclusive Bundle Offer<br>\nAct fast—these offers end soon!",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -215,8 +217,8 @@
         "variant_picker",
         "92b6eeef-a142-4961-bdba-1cc3b110eb09",
         "buy_buttons",
-        "bd56b862-0bde-40cb-bf3f-998d012a3882",
         "010d487e-6f61-4e08-b5ed-3d26f7ea915d",
+        "bd56b862-0bde-40cb-bf3f-998d012a3882",
         "ac0a8a83-72b2-4644-9f06-f3864406f533",
         "7da62006-1982-4e86-ac5f-daa94e18ccd4",
         "2bb01b16-2f46-4214-867b-18f9766638c0",
@@ -906,7 +908,9 @@
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
             "item12": "Range 62 Miles",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "b4336336-9259-4cf6-b001-99dd58bd2d51": {
@@ -958,7 +962,9 @@
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
             "item12": "Range 62 Miles",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         }
       },
@@ -1119,7 +1125,9 @@
             "item11": "<b>K --<\/b>  Wheel Diameter 25.6\"",
             "item12": "",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "479fe5b4-2bfa-4e85-9fba-12bbb1f31ecc": {
@@ -1159,7 +1167,9 @@
             "item11": "<b>Tires<\/b>  26\" x 1.95\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Thumb Throttle",
             "item13": "<b>Rear Light<\/b>  Left and Right Turn Signal Brake Lights",
-            "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions"
+            "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions",
+            "item15": "",
+            "item16": ""
           }
         },
         "c485fdcf-231f-40e2-864e-83b10563ed41": {
@@ -1199,7 +1209,9 @@
             "item11": "",
             "item12": "",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "9d44daac-a002-4227-a322-bd93081f6506": {
@@ -1295,7 +1307,7 @@
           "settings": {
             "order": "",
             "title": "EB5 Roamer New Configuration",
-            "content": "<p>Unlike the EB7 and X-Hunter, the EB5 Roamer prioritizes urban commuting. Its newly added left and right turn signals are tailored for city commuting scenarios, while the upgraded quick-release battery design allows you to effortlessly remove the battery with a simple turn of the key. The redesigned side keyhole position eliminates the need to bend down to find the keyhole. The EB5 Roamer is Jasion's first model equipped with 26\" x 2.25\" puncture-resistant tires, with a maximum load capacity of 400 pounds. Its unique fast-charging technology makes it the first Jasion product to fully charge in just 4-5 hours. With an 1100W high-power motor, the EB5 Roamer reaches speeds of up to 28 miles per hour, boasting a range of 50 miles, making urban commuting a breeze! Positioned between the EB7 and X-Hunter in terms of performance, the EB5 Roamer fills a gap in the Jasion product lineup, offering you more purchasing options.<\/p>"
+            "content": "<p>Unlike the EB7 and X-Hunter, the EB5 Roamer prioritizes urban commuting. Its newly added left and right turn signals are tailored for city commuting scenarios, while the upgraded quick-release battery design allows you to effortlessly remove the battery with a simple turn of the key. The redesigned side keyhole position eliminates the need to bend down to find the keyhole. The EB5 Roamer is Jasion's first model equipped with 26\" x 1.95\" puncture-resistant tires, with a maximum load capacity of 400 pounds. Its unique fast-charging technology makes it the first Jasion product to fully charge in just 4-5 hours. With an 1100W high-power motor, the EB5 Roamer reaches speeds of up to 28 miles per hour, boasting a range of 50 miles, making urban commuting a breeze! Positioned between the EB7 and X-Hunter in terms of performance, the EB5 Roamer fills a gap in the Jasion product lineup, offering you more purchasing options.<\/p>"
           }
         },
         "2dd75362-8b98-4878-8c0c-d4fa42b8a40d": {

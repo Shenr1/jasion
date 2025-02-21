@@ -7,8 +7,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/warrantyregispc.png",
-        "mobile_image": "shopify://shop_images/warrantyregismobile.png",
+        "image": "shopify:\/\/shop_images\/warrantyregispc.png",
+        "mobile_image": "shopify:\/\/shop_images\/warrantyregismobile.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -29,12 +29,12 @@
         "item_whW3z6": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/buy_now_da399122-585c-40fb-a1fa-9c853c1dcd9e.png",
+            "image": "shopify:\/\/shop_images\/buy_now_da399122-585c-40fb-a1fa-9c853c1dcd9e.png",
             "column_size": "2",
             "title": "Jasion Affiliate Program",
             "heading_tag": "h4",
-            "content": "<p>Want to explore the endless possibilities of e-bikes with Jasion? It's time to become part of our affiliate program! As a Jasion affiliate you will earn significant commissions by promoting our e-bikes, we offer commission rates up to 10%<br/>Click <a href=\"https://jasionride.goaffpro.com/\" title=\"https://jasionride.goaffpro.com/\">HERE </a>to fill out a simple form to start your journey with Jasion today! If you have any questions, please contact our affiliate team at <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com.</a></p>",
-            "link_url": "https://jasionride.goaffpro.com/",
+            "content": "<p>Want to explore the endless possibilities of e-bikes with Jasion? It's time to become part of our affiliate program! As a Jasion affiliate you will earn significant commissions by promoting our e-bikes, we offer commission rates up to 10%<br\/>Click <a href=\"https:\/\/jasionride.goaffpro.com\/\" title=\"https:\/\/jasionride.goaffpro.com\/\">HERE <\/a>to fill out a simple form to start your journey with Jasion today! If you have any questions, please contact our affiliate team at <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com.<\/a><\/p>",
+            "link_url": "https:\/\/jasionride.goaffpro.com\/",
             "link_text": "",
             "link_style": "link"
           }
@@ -42,11 +42,11 @@
         "item_MPBXJt": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/buy_now.png",
+            "image": "shopify:\/\/shop_images\/buy_now.png",
             "column_size": "2",
             "title": "Jasion Photography Call-Out is Here!",
             "heading_tag": "h4",
-            "content": "<p>Jasion Bikes invites you to join our photography team! Become one of our photographers and you'll have a chance to earn money and win a brand new bike!<br/>If you are interested in this opportunity, please submit your work to <a href=\"mailto:support@jasionbike.com\" target=\"_blank\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com</a>. We look forward to working with you to explore the beauty of cycling and create your own visual story!</p>",
+            "content": "<p>Jasion Bikes invites you to join our photography team! Become one of our photographers and you'll have a chance to earn money and win a brand new bike!<br\/>If you are interested in this opportunity, please submit your work to <a href=\"mailto:support@jasionbike.com\" target=\"_blank\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a>. We look forward to working with you to explore the beauty of cycling and create your own visual story!<\/p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -78,7 +78,7 @@
         "full_width": true,
         "show_icon": false,
         "title": "Join Us",
-        "content": "<p>Subscribe Jasionbike to unlock exclusive offers, product updates, and insider information!</p>",
+        "content": "<p>Subscribe Jasionbike to unlock exclusive offers, product updates, and insider information!<\/p>",
         "button_text": "Subscribe",
         "subtext": "",
         "background": "",
@@ -92,9 +92,9 @@
       "type": "apps",
       "blocks": {
         "powerful_form_builder_app_block_L6FmEN": {
-          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"Mzc3MTg=\"></div>"
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"Mzc3MTg=\"><\/div>"
           }
         }
       },

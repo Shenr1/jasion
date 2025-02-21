@@ -13,17 +13,14 @@
       "block_order": [
         "b5c3b413-14e5-40ee-9855-215ef46c1f91"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "0e33e56f-7bd9-412b-af98-9aef12dfa281": {
       "type": "featured-collection",
       "disabled": true,
       "settings": {
         "collection": "ebike",
-        "products": [
-
-        ],
+        "products": [],
         "full_width": true,
         "stack_products": true,
         "show_progress_bar": false,
@@ -50,16 +47,14 @@
         "d7500502-fbe2-433e-a689-f307b63490bd": {
           "type": "shopify:\/\/apps\/dadao-product-reviews\/blocks\/featured-reviews\/3cc4253a-05eb-4164-8778-b76d83ce00cc",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "d7500502-fbe2-433e-a689-f307b63490bd"
       ],
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-product",
@@ -122,8 +117,7 @@
         },
         "payment_terms": {
           "type": "payment_terms",
-          "settings": {
-          }
+          "settings": {}
         },
         "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
           "type": "gifts",
@@ -157,8 +151,7 @@
         },
         "badges": {
           "type": "badges",
-          "settings": {
-          }
+          "settings": {}
         },
         "bd56b862-0bde-40cb-bf3f-998d012a3882": {
           "type": "associated_products",
@@ -173,8 +166,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -184,8 +176,7 @@
         },
         "beead425-c9b4-42aa-b019-63c29006c41d": {
           "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "3b2fa040-7f57-42cd-9275-57586d5b67ad": {
           "type": "switch_tabs",
@@ -205,8 +196,7 @@
         },
         "92b6eeef-a142-4961-bdba-1cc3b110eb09": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -221,8 +211,7 @@
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
           "type": "pickup_availability",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [

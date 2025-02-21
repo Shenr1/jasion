@@ -56,9 +56,9 @@
         "countdown_nXwDB8": {
           "type": "countdown",
           "settings": {
-            "countdown_lbl": "Last Chance!",
-            "countdown_lbl_content": "Prices increase in：",
-            "countdown_date": "2025-01-11T00:00",
+            "countdown_lbl": "Hurry！",
+            "countdown_lbl_content": "Lowest Price Sale:",
+            "countdown_date": "2025-02-20T23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -110,12 +110,14 @@
         "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
           "type": "gifts",
           "settings": {
-            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $158.",
+            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $357.",
             "free": "Free",
+            "cols": "tw-grid-cols-3",
+            "cols_mb": "2",
             "tag_color": "#e03b3b",
-            "pd_1": "fenders-for-jasion-eb7",
+            "pd_1": "extra-one-year-warranty",
             "pd_2": "copy-of-jasion®-bicycle-universal-mirrors",
-            "pd_3": "",
+            "pd_3": "fenders-for-jasion-eb7",
             "pd_4": ""
           }
         },
@@ -127,7 +129,7 @@
         "7da62006-1982-4e86-ac5f-daa94e18ccd4": {
           "type": "text",
           "settings": {
-            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><li><strong>Back to School Sale<\/strong>: If you order a bike from <strong>Aug 2 to Aug 15<\/strong>, please contact <a href=\"mailto:support@jasionbike.com\" title=\"mailto:support@jasionbike.com\">support@jasionbike.com<\/a> to claim a free rear basket after receiving your bike.<br\/><br\/><strong>*<\/strong>Please note that this offer cannot be combined with other promotions.<\/li><\/ul>"
+            "text": "<ul><li><strong>Contact Email: <\/strong>support@jasionbike.com<\/li><li><strong>Contact Phone：<\/strong>(+1) 888-825-6366<\/li><\/ul>"
           }
         },
         "b59fdb53-0a06-416a-9f00-c24a68e5fac6": {
@@ -888,13 +890,15 @@
             "item8": "85 N.m",
             "item9": "",
             "icon10": "shopify:\/\/shop_images\/129c902e8a51c81b2ed097f324b35222.png",
-            "item10": "Max 330 Lbs",
+            "item10": "Max 400 Lbs",
             "icon11": "shopify:\/\/shop_images\/b37921b961e5adb84e66048a85bbee72.png",
             "item11": "48V 13Ah",
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
             "item12": "Range 60 Miles",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "image_RFbHHi": {
@@ -946,7 +950,9 @@
             "icon12": "shopify:\/\/shop_images\/465495c77d2cce5dfa5ab16369ed06cd.png",
             "item12": "Range 55 Miles",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         }
       },
@@ -1095,7 +1101,9 @@
             "item11": "<b>K --<\/b>  Maximum Seat Height from Floor 46\"",
             "item12": "<b> Folded Size --<\/b>  29.5\"*33.5\"*15.7\"",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "479fe5b4-2bfa-4e85-9fba-12bbb1f31ecc": {
@@ -1135,7 +1143,9 @@
             "item11": "<b>Tires<\/b>  20\" x 4\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Twist Throttle",
             "item13": "<b>Rear Light<\/b>  Left and Right Turn Signal Brake Lights",
-            "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions"
+            "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions",
+            "item15": "",
+            "item16": ""
           }
         },
         "c485fdcf-231f-40e2-864e-83b10563ed41": {
@@ -1175,7 +1185,9 @@
             "item11": "",
             "item12": "",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "9d44daac-a002-4227-a322-bd93081f6506": {
@@ -1239,7 +1251,9 @@
             "item11": "<b>K --<\/b> Maximum Seat Height 43\"",
             "item12": "<b>Folded Size -- <\/b>36\"*21\"*29\"",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "image_zkHf3m": {
@@ -1279,7 +1293,9 @@
             "item11": "<b>Tires<\/b>  20\" x 3\" Puncture Resistant Tires",
             "item12": "<b>Throttle<\/b>  Twist Throttle",
             "item13": "<b>Rear Light<\/b>  Left and Right Turn Signal Brake Lights",
-            "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions"
+            "item14": "<b>Suspension<\/b>  With Locking and Adjustment Functions",
+            "item15": "",
+            "item16": ""
           }
         },
         "image_TeGd6K": {
@@ -1319,7 +1335,9 @@
             "item11": "",
             "item12": "",
             "item13": "",
-            "item14": ""
+            "item14": "",
+            "item15": "",
+            "item16": ""
           }
         },
         "image_Dm9V9Y": {

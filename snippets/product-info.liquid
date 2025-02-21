@@ -338,6 +338,7 @@
         {%- endif -%}
 
       {%- when 'associated_products' -%}
+
         <product-recommendations class="block" product="{{ product.id }}" limit="{{ block.settings.products_count }}" intent="complementary" {{ block.shopify_attributes }}>
           {%- if recommendations.performed and recommendations.products_count > 0 -%}
             <div class="product-info__complementary-products v-stack gap-3 sm:gap-4">
@@ -407,13 +408,13 @@
 
               <ul class="h-stack" role="list">
                                 <li><a href="{% render 'share-link', host: 'facebook', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Facebook' }}">{%- render 'icon' with 'facebook', width: 20, height: 20 -%}</a>
-<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
-                                <li><a href="{% render 'share-link', host: 'twitter', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Twitter' }}">{%- render 'icon' with 'twitter', width: 20, height: 20 -%}</a>
-<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
-                                <li><a href="{% render 'share-link', host: 'pinterest', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Pinterest' }}">{%- render 'icon' with 'pinterest', width: 20, height: 20 -%}</a>
-<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
-                                <li><a href="{% render 'share-link', host: 'email', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_email' | t }}">{%- render 'icon' with 'email' -%}</a>
-<div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
+          <div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
+                                          <li><a href="{% render 'share-link', host: 'twitter', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Twitter' }}">{%- render 'icon' with 'twitter', width: 20, height: 20 -%}</a>
+          <div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
+                                          <li><a href="{% render 'share-link', host: 'pinterest', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_on' | t: social_media: 'Pinterest' }}">{%- render 'icon' with 'pinterest', width: 20, height: 20 -%}</a>
+          <div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
+                                          <li><a href="{% render 'share-link', host: 'email', title: product.title, description: product.description, url: product.url %}" class="share-buttons__item" aria-label="{{ 'general.social.share_email' | t }}">{%- render 'icon' with 'email' -%}</a>
+          <div data-shop-id="{{shop.id}}" product-id="{{product.id }}" data-page="{{request.page_type}}" class="ddreview-star"></div></li>
               </ul>
             </div>
           </div>
@@ -424,24 +425,23 @@
         </div>
 
       {%- when 'gifts' -%}
-        <div>
+        <div class="product-info__gifts">
           <p class="tw-font-semibold tw-mb-2">
             {% if block.settings.title %}{{block.settings.title}}{% endif %}
-            
           </p>
           <div class="tw-grid -md:tw-grid-cols-2 tw-gap-2 tw-m-0 {{block.settings.cols}} {% if block.settings.cols_mb == "1" %} -md:tw-grid-cols-1 {% else %} -md:tw-grid-cols-2 {% endif %}">
             {% for i in (1..4) %}
-              {% assign product = 'pd_' | append: i %}
-              {% if block.settings[product] != blank %}
+              {% assign product_key = 'pd_' | append: i %}
+              {% if block.settings[product_key] != blank %}
               <div class="tw-col-span-1">
                 <div class="tw-relative tw-h-full">
-                  <a href="{{block.settings[product].url}}" class="hover:tw-bg-stone-100 hover:tw-border-black tw-transition-all tw-flex tw-border-solid tw-border-stone-400 tw-border tw-h-full">
+                  <a href="{{block.settings[product_key].url}}" class="hover:tw-bg-stone-100 hover:tw-border-black tw-transition-all tw-flex tw-border-solid tw-border-stone-400 tw-border tw-h-full">
                     <div class="tw-w-1/3 tw-flex tw-items-center">
-                      {{- block.settings[product].featured_image | image_url: width: block.settings[product].featured_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300' -}}
+                      {{- block.settings[product_key].featured_image | image_url: width: block.settings[product_key].featured_image.width | image_tag: loading: 'lazy', sizes: '(max-width: 699px) 80px, 150px', widths: '80,150,160,300' -}}
                     </div>
                     <div class="tw-p-2 tw-flex tw-flex-col tw-justify-center">
-                      <p class="tw-leading-snug tw-text-base">{{ block.settings[product].metafields.custom.short_title | default: block.settings[product].title | remove: 'Jasion' }}</p>
-                      <p class="line-through tw-text-stone-600">{{ block.settings[product].price | money }}</p>
+                      <p class="tw-leading-snug tw-text-base">{{ block.settings[product_key].metafields.custom.short_title | default: block.settings[product_key].title | remove: 'Jasion' }}</p>
+                      <p class="line-through tw-text-stone-600">{{ block.settings[product_key].price | money }}</p>
                     </div>
                   </a>
                   <div class="tw-absolute tw-right-0 tw-bottom-0 tw-text-base tw-px-2 tw-text-white tw-rounded-tl-lg" style="background-color: {{ block.settings.tag_color }};">{{ block.settings.free }}</div>
@@ -451,7 +451,6 @@
             {% endfor %}
           </div>
         </div>
-
       {%- when 'icons' -%}
         <div class="tw-flex tw-items-center md:tw-flex-nowrap tw-flex-wrap">
           {% if block.settings.title != blank %}

@@ -1,22 +1,5 @@
 {
   "sections": {
-    "689922346149438805": {
-      "type": "apps",
-      "blocks": {
-        "4a77f725-ea24-4f45-a910-e0e63227cb4d": {
-          "type": "shopify:\/\/apps\/dadao-product-reviews\/blocks\/featured-reviews\/3cc4253a-05eb-4164-8778-b76d83ce00cc",
-          "disabled": true,
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "4a77f725-ea24-4f45-a910-e0e63227cb4d"
-      ],
-      "disabled": true,
-      "settings": {
-      }
-    },
     "banner": {
       "type": "collection-banner",
       "disabled": true,
@@ -29,7 +12,6 @@
         "show_collection_image": true,
         "collection_title_size": "h3",
         "image_size": "sm",
-        "image": "shopify:\/\/shop_images\/1_afc3d844-e8c8-457f-ad75-e4aa12ce75ab.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "featured_product": "tst-defender-26-fat-tire-ebike",
@@ -44,7 +26,7 @@
       "settings": {
         "products_per_page": 24,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 3,
+        "products_per_row_desktop": 4,
         "filter_layout": "sidebar",
         "show_sort_by": false,
         "show_filters": false,
@@ -53,6 +35,23 @@
         "show_empty_filter_values": true,
         "show_filter_values_count": false,
         "open_first_filter_group": false
+      }
+    },
+    "689922346149438805": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "enable_review_integration": true,
+        "review_header_gradient": "linear-gradient(135deg, #FFC266 0%, #FFA31A 100%)",
+        "review_header_text_color": "#000000",
+        "review_button_background": "#000000",
+        "review_button_text_color": "#ffffff"
       }
     }
   },

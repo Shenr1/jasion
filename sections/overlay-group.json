@@ -20,20 +20,21 @@
       "disabled": true,
       "settings": {
         "privacy_bar_title": "Cookie policy",
-        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.</p>"
+        "privacy_bar_content": "<p>We use cookies and similar technologies to provide the best experience on our website. Refer to our Privacy Policy for more information.<\/p>"
       }
     },
     "cart-drawer": {
       "type": "cart-drawer",
+      "custom_css": [
+        ".button--xl[type=\"submit\"] {width: 100%;}"
+      ],
       "settings": {
         "show_cart_note": true,
         "show_shipping_text": false,
         "show_view_cart_button": true,
         "show_checkout_button": true,
         "recommendations_title": "Trending this month",
-        "products": [
-
-        ],
+        "products": [],
         "product_card_background": "#ffffff",
         "product_card_text_color": "#ff981d"
       }

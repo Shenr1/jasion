@@ -344,7 +344,7 @@
           "settings": {
             "order": "EB5 Roamer Series",
             "title": "EB5 Roamer Series New Configuration",
-            "content": "<p>Unlike the EB7 and X-Hunter, the EB5 Roamer Series prioritizes urban commuting. Its newly added left and right turn signals are tailored for city commuting scenarios, while the upgraded quick-release battery design allows you to effortlessly remove the battery with a simple turn of the key. The redesigned side keyhole position eliminates the need to bend down to find the keyhole. The EB5 Roamer is Jasion's first model equipped with 26\" x 2.25\" puncture-resistant Michelin tires, with a maximum load capacity of 400 pounds. Its unique fast-charging technology makes it the first Jasion product to fully charge in just 4-5 hours. With an 1100W high-power motor, the EB5 Roamer reaches speeds of up to 28 miles per hour, boasting a range of 62 miles, making urban commuting a breeze! Positioned between the EB7 and X-Hunter in terms of performance, the EB5 Roamer fills a gap in the Jasion product lineup, offering you more purchasing options.<\/p>"
+            "content": "<p>Unlike the EB7 and X-Hunter, the EB5 Roamer Series prioritizes urban commuting. Its newly added left and right turn signals are tailored for city commuting scenarios, while the upgraded quick-release battery design allows you to effortlessly remove the battery with a simple turn of the key. The redesigned side keyhole position eliminates the need to bend down to find the keyhole. The EB5 Roamer is Jasion's first model equipped with 26\" x 1.95\" puncture-resistant tires, with a maximum load capacity of 400 pounds. Its unique fast-charging technology makes it the first Jasion product to fully charge in just 4-5 hours. With an 1100W high-power motor, the EB5 Roamer reaches speeds of up to 28 miles per hour, boasting a range of 62 miles, making urban commuting a breeze! Positioned between the EB7 and X-Hunter in terms of performance, the EB5 Roamer fills a gap in the Jasion product lineup, offering you more purchasing options.<\/p>"
           }
         },
         "item_D9tqFh": {
@@ -531,6 +531,7 @@
         "collection": "electric-bike",
         "products": [],
         "full_width": true,
+        "show_badges": false,
         "stack_products": true,
         "show_progress_bar": false,
         "products_count": 44,

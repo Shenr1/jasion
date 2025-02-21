@@ -85,7 +85,7 @@
           "type": "countdown",
           "settings": {
             "countdown_lbl": "Hurry！",
-            "countdown_lbl_content": "Price Increase In:",
+            "countdown_lbl_content": "Free Pannier Bag Ends In:",
             "countdown_date": "2025-02-20T23:59",
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
@@ -128,15 +128,15 @@
         "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
           "type": "gifts",
           "settings": {
-            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $357.",
+            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $416.",
             "free": "Free",
-            "cols": "tw-grid-cols-3",
+            "cols": "tw-grid-cols-2",
             "cols_mb": "2",
             "tag_color": "#e03b3b",
             "pd_1": "extra-one-year-warranty",
-            "pd_2": "copy-of-jasion®-bicycle-universal-mirrors",
+            "pd_2": "jasion-ebike-rack-pannier-bag",
             "pd_3": "fenders-for-jasion-eb7",
-            "pd_4": ""
+            "pd_4": "copy-of-jasion®-bicycle-universal-mirrors"
           }
         },
         "bd56b862-0bde-40cb-bf3f-998d012a3882": {

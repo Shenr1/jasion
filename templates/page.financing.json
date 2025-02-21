@@ -3,9 +3,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "80ch"
       }
@@ -31,31 +29,31 @@
         "template--16939339809005__52dc4a0f-5a1f-4979-9d8b-7cf72a952c7c-richtext-1": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Now, 3 payment plans are available for choosing, Pay in 4, Pay in 30 days, Monthly financing (up to 24 months).<br/><br/>*CA resident loans made or arranged pursuant to a California Financing Law license.</p>"
+            "content": "<p>Now, 3 payment plans are available for choosing, Pay in 4, Pay in 30 days, Monthly financing (up to 24 months).<br\/><br\/>*CA resident loans made or arranged pursuant to a California Financing Law license.<\/p>"
           }
         },
         "b9665b00-fed2-4c3b-a5ed-e09000872c77": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>Pay in 4 Benefits:</h2><p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.<br/><br/>2. If you choose a Pay in 4 plan, it will not affect your credit score. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<br/><br/>3. No interest and no fees when you pay on time.<br/><br/><br/>*A $1000 purchase might cost $172.79 per month over 6 months at 12.49% APR.*</p>"
+            "content": "<h2>Pay in 4 Benefits:<\/h2><p>1. Spread out your shopping and budget your spending, making it a flexible and easy shopping manner.<br\/><br\/>2. If you choose a Pay in 4 plan, it will not affect your credit score. (*CA resident loans made or arranged pursuant to a California Financing Law license.)<br\/><br\/>3. No interest and no fees when you pay on time.<br\/><br\/><br\/>*A $1000 purchase might cost $172.79 per month over 6 months at 12.49% APR.*<\/p>"
           }
         },
         "9420d92e-e644-41cc-bb0d-b11bd9744e9d": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>How to Use Klarna</h2><p>1. Fill Your Cart<br/>Add everything you want to purchase to your cart and begin the checkout process.<br/><br/><br/>2. Choose How You Pay<br/>Select Klarna at checkout. Choose the payment plan you would like and check out<br/><br/><br/>3. Pay Over Time<br/>Make payments at klarna.com or in the Klaran app. You'll get email and text reminders.<br/><br/>*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example:<br/><br/>[X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.</p>"
+            "content": "<h2>How to Use Klarna<\/h2><p>1. Fill Your Cart<br\/>Add everything you want to purchase to your cart and begin the checkout process.<br\/><br\/><br\/>2. Choose How You Pay<br\/>Select Klarna at checkout. Choose the payment plan you would like and check out<br\/><br\/><br\/>3. Pay Over Time<br\/>Make payments at klarna.com or in the Klaran app. You'll get email and text reminders.<br\/><br\/>*Promotional purchase rate ranges from 0%-19.99% APR. Non-promotional balances have an APR of 19.99%. Subject to a $2 monthly minimum interest charge and credit approval. APR based on creditworthiness and subject to credit approval, resulting in, for example:<br\/><br\/>[X] [(number of monthly payments)] equal monthly payments of $ [X] [(amount at 0% APR)] to $ [X] [(amount at 19.99% APR)] per $ [X] [(amount borrowed that the calculation is based on)] borrowed. Minimum purchase of $ [X] [(min purchase amount)] required. 0% APR financing only available to qualified customers with excellent credit history. Monthly financing through Klarna issued by WebBank, member FDIC.<\/p>"
           }
         },
         "1fee2b60-267f-4029-93f2-56a60ad085ae": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>How it works:</h2><p><br/>1. Use your own valid debit or credit card, or other accepted payment method, to pay (no prepaid cards).<br/><br/>2. The first payment is charged when we confirm your order (this is usually the shipping date for online orders).<br/><br/>3. The next 3 payments are automatically made every 2 weeks after your Initial Payment (first Installment Payment due at least 15 days after Initial Payment for California residents).<br/><br/>4. Klarna charges no interest with Pay Later in 4 and no fees unless you fail to make a payment.<br/><br/>5. A Late Fee of up to $7 may be charged if any scheduled payment remains unpaid after 10 days (the total of late fees charged on an order will never exceed 25% of your Total Purchase Amount).<br/><br/>6. Depending on your payment method, your financial institution may charge you interest or fees under your agreement with them. If you have any questions about those charges contact your payment method provider.</p>"
+            "content": "<h2>How it works:<\/h2><p><br\/>1. Use your own valid debit or credit card, or other accepted payment method, to pay (no prepaid cards).<br\/><br\/>2. The first payment is charged when we confirm your order (this is usually the shipping date for online orders).<br\/><br\/>3. The next 3 payments are automatically made every 2 weeks after your Initial Payment (first Installment Payment due at least 15 days after Initial Payment for California residents).<br\/><br\/>4. Klarna charges no interest with Pay Later in 4 and no fees unless you fail to make a payment.<br\/><br\/>5. A Late Fee of up to $7 may be charged if any scheduled payment remains unpaid after 10 days (the total of late fees charged on an order will never exceed 25% of your Total Purchase Amount).<br\/><br\/>6. Depending on your payment method, your financial institution may charge you interest or fees under your agreement with them. If you have any questions about those charges contact your payment method provider.<\/p>"
           }
         },
         "d0c96b27-a2ff-41df-8592-d0851f263056": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>The best way to shop.</strong><br/><br/>See all of your purchases in one place, pay any open balances and much more in the <a href=\"https://www.klarna.com/us/klarna-app/?ref=r8eji_4hqjz\" target=\"_blank\">Klarna app</a><br/>. You can also log into your Klarna account at <a href=\"https://app.klarna.com/login\" target=\"_blank\">https://app.klarna.com/login</a>. If you need any help, please click here to contact <a href=\"https://www.klarna.com/us/customer-service/?ref=r8eji_4hqjz\" target=\"_blank\">Customer Service</a>.<br/><br/><br/><strong>Safe and secure.</strong><br/><br/>Klarna uses the latest safeguards and security to protect your information and prevent unauthorized purchases.<br/><br/><br/><strong>We're always here to help!</strong><br/><br/>Don't see your question here? Check out Klarna's full FAQ page. You can reach Klarna anytime at <a href=\"https://www.klarna.com/us/customer-service/?ref=r8eji_4hqjz\" target=\"_blank\">https://www.klarna.com/us/customer-service/</a> or by downloading the <a href=\"https://www.klarna.com/us/klarna-app/?ref=r8eji_4hqjz\" target=\"_blank\">Klarna app</a>.<br/></p>"
+            "content": "<p><strong>The best way to shop.<\/strong><br\/><br\/>See all of your purchases in one place, pay any open balances and much more in the <a href=\"https:\/\/www.klarna.com\/us\/klarna-app\/?ref=r8eji_4hqjz\" target=\"_blank\">Klarna app<\/a><br\/>. You can also log into your Klarna account at <a href=\"https:\/\/app.klarna.com\/login\" target=\"_blank\">https:\/\/app.klarna.com\/login<\/a>. If you need any help, please click here to contact <a href=\"https:\/\/www.klarna.com\/us\/customer-service\/?ref=r8eji_4hqjz\" target=\"_blank\">Customer Service<\/a>.<br\/><br\/><br\/><strong>Safe and secure.<\/strong><br\/><br\/>Klarna uses the latest safeguards and security to protect your information and prevent unauthorized purchases.<br\/><br\/><br\/><strong>We're always here to help!<\/strong><br\/><br\/>Don't see your question here? Check out Klarna's full FAQ page. You can reach Klarna anytime at <a href=\"https:\/\/www.klarna.com\/us\/customer-service\/?ref=r8eji_4hqjz\" target=\"_blank\">https:\/\/www.klarna.com\/us\/customer-service\/<\/a> or by downloading the <a href=\"https:\/\/www.klarna.com\/us\/klarna-app\/?ref=r8eji_4hqjz\" target=\"_blank\">Klarna app<\/a>.<br\/><\/p>"
           }
         }
       },
@@ -107,7 +105,7 @@
         "full_width": true,
         "subheading": "Our champion customer service will get back to you within hours.",
         "title": "",
-        "content": "<h3>Contact</h3><p>Email: support@jasionbike.com</p><p>Phone Number: (+1) 888-825-6366</p><h3>We're Open</h3><p>Business time: 10:00 - 19:00, (UTC-8, PST) Mon-Fri</p>",
+        "content": "<h3>Contact<\/h3><p>Email: support@jasionbike.com<\/p><p>Phone Number: (+1) 888-825-6366<\/p><h3>We're Open<\/h3><p>Business time: 10:00 - 19:00, (UTC-8, PST) Mon-Fri<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
@@ -129,7 +127,7 @@
           "settings": {
             "order": "",
             "title": "EB7 2.0&EB7 ST",
-            "content": "<p>AO_CA_US<br/>1001 South Doubleday ave, DOCK#19, Ontario, CA 91761<br/>Contact: Jason Wang <br/>Phone Number：909-966-9669</p>"
+            "content": "<p>AO_CA_US<br\/>1001 South Doubleday ave, DOCK#19, Ontario, CA 91761<br\/>Contact: Jason Wang <br\/>Phone Number：909-966-9669<\/p>"
           }
         },
         "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-2": {
@@ -137,7 +135,7 @@
           "settings": {
             "order": "",
             "title": "X-Hunter-Black",
-            "content": "<p>MNR1<br/>Address: 24 Engelhard Dr. Suite D, Monroe Township, NJ, US 08831 （back side of building, loading dock 15 ）<br/>Contact: Lisa<br/>Phone Number: 516-808-6095</p>"
+            "content": "<p>MNR1<br\/>Address: 24 Engelhard Dr. Suite D, Monroe Township, NJ, US 08831 （back side of building, loading dock 15 ）<br\/>Contact: Lisa<br\/>Phone Number: 516-808-6095<\/p>"
           }
         },
         "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3": {
@@ -145,7 +143,7 @@
           "settings": {
             "order": "",
             "title": "X-Hunter-Grey, Blue, White",
-            "content": "<p>RIA<br/>Address:2380 W Baseline Road Dock Door #3, Rialto, CA 92376 <br/>Contact: Frank <br/>Phone Number：626-731-1880 <br/>Hours: 7:00-15:00</p>"
+            "content": "<p>RIA<br\/>Address:2380 W Baseline Road Dock Door #3, Rialto, CA 92376 <br\/>Contact: Frank <br\/>Phone Number：626-731-1880 <br\/>Hours: 7:00-15:00<\/p>"
           }
         }
       },
@@ -160,7 +158,7 @@
         "text_size": 100,
         "subheading": "",
         "title": "We support local pickup!",
-        "content": "<p>Below is the address of our pick-up point (by ebike model)<br/>Please contact our customer service<strong> support@jasionbike.com</strong> in advance.</p>",
+        "content": "<p>Below is the address of our pick-up point (by ebike model)<br\/>Please contact our customer service<strong> support@jasionbike.com<\/strong> in advance.<\/p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",

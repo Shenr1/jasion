@@ -3,9 +3,7 @@
     "main": {
       "type": "main-page",
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "content_width": "80ch"
       }
@@ -82,7 +80,7 @@
         "full_width": true,
         "subheading": "Our champion customer service will get back to you within hours.",
         "title": "",
-        "content": "<h3>Contact</h3><p>Email: support@jasionbike.com</p><p>Phone Number: (+1) 888-825-6366</p><h3>We're Open</h3><p>Business time: 10:00 - 19:00, (UTC-8, PST) Mon-Fri</p>",
+        "content": "<h3>Contact<\/h3><p>Email: support@jasionbike.com<\/p><p>Phone Number: (+1) 888-825-6366<\/p><h3>We're Open<\/h3><p>Business time: 10:00 - 19:00, (UTC-8, PST) Mon-Fri<\/p>",
         "text_position": "start",
         "contact_form_size": "large",
         "background": "",
@@ -103,7 +101,7 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify://shop_images/facebook_facebook52.png",
+            "image": "shopify:\/\/shop_images\/facebook_facebook52.png",
             "title": "Example title",
             "content": "",
             "link": ""
@@ -156,7 +154,7 @@
           "settings": {
             "order": "",
             "title": "EB7 2.0&EB7 ST",
-            "content": "<p>AO_CA_US<br/>1001 South Doubleday ave, DOCK#19, Ontario, CA 91761<br/>Contact: Jason Wang <br/>Phone Number：909-966-9669</p>"
+            "content": "<p>AO_CA_US<br\/>1001 South Doubleday ave, DOCK#19, Ontario, CA 91761<br\/>Contact: Jason Wang <br\/>Phone Number：909-966-9669<\/p>"
           }
         },
         "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-2": {
@@ -164,7 +162,7 @@
           "settings": {
             "order": "",
             "title": "X-Hunter-Black",
-            "content": "<p>MNR1<br/>Address: 24 Engelhard Dr. Suite D, Monroe Township, NJ, US 08831 （back side of building, loading dock 15 ）<br/>Contact: Lisa<br/>Phone Number: 516-808-6095</p>"
+            "content": "<p>MNR1<br\/>Address: 24 Engelhard Dr. Suite D, Monroe Township, NJ, US 08831 （back side of building, loading dock 15 ）<br\/>Contact: Lisa<br\/>Phone Number: 516-808-6095<\/p>"
           }
         },
         "template--16905169436909__d948ea3d-e495-485d-a279-2501e6ab6261-item-3": {
@@ -172,7 +170,7 @@
           "settings": {
             "order": "",
             "title": "X-Hunter-Grey, Blue, White",
-            "content": "<p>RIA<br/>Address:2380 W Baseline Road Dock Door #3, Rialto, CA 92376 <br/>Contact: Frank <br/>Phone Number：626-731-1880 <br/>Hours: 7:00-15:00</p>"
+            "content": "<p>RIA<br\/>Address:2380 W Baseline Road Dock Door #3, Rialto, CA 92376 <br\/>Contact: Frank <br\/>Phone Number：626-731-1880 <br\/>Hours: 7:00-15:00<\/p>"
           }
         }
       },
@@ -187,7 +185,7 @@
         "text_size": 100,
         "subheading": "",
         "title": "We support local pickup!",
-        "content": "<p>Below is the address of our pick-up point (by ebike model)<br/>Please contact our customer service<strong> support@jasionbike.com</strong> in advance.</p>",
+        "content": "<p>Below is the address of our pick-up point (by ebike model)<br\/>Please contact our customer service<strong> support@jasionbike.com<\/strong> in advance.<\/p>",
         "team_avatar_width": 160,
         "support_hours": "",
         "answer_time": "",
@@ -217,9 +215,8 @@
       "type": "apps",
       "blocks": {
         "63a08e86-4133-46e2-8679-db894f1250f9": {
-          "type": "shopify://apps/bon-loyalty/blocks/loyalty-page-block/63496a04-c097-48d1-8c11-475aec24b12e",
-          "settings": {
-          }
+          "type": "shopify:\/\/apps\/bon-loyalty\/blocks\/loyalty-page-block\/63496a04-c097-48d1-8c11-475aec24b12e",
+          "settings": {}
         }
       },
       "block_order": [
