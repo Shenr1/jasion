@@ -55,10 +55,27 @@
         },
         "countdown_nXwDB8": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "countdown_lbl": "Hurry！",
             "countdown_lbl_content": "Lowest Price Sale:",
             "countdown_date": "2025-02-20T23:59",
+            "countdown_days": "DAYS",
+            "countdown_hours": "HRS",
+            "countdown_minutes": "MIN",
+            "countdown_seconds": "SEC",
+            "background": "#ff9b2b",
+            "background_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "cycle_countdown_jQXg77": {
+          "type": "cycle_countdown",
+          "settings": {
+            "countdown_lbl": "Hurry！",
+            "countdown_lbl_content": "Free Gifts Offer Ends In:",
+            "countdown_start_date": "2025-02-21T00:00:00",
+            "duration": 2,
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -110,15 +127,19 @@
         "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
           "type": "gifts",
           "settings": {
-            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $357.",
+            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $515",
             "free": "Free",
-            "cols": "tw-grid-cols-3",
+            "cols": "tw-grid-cols-2",
             "cols_mb": "2",
             "tag_color": "#e03b3b",
-            "pd_1": "extra-one-year-warranty",
-            "pd_2": "copy-of-jasion®-bicycle-universal-mirrors",
+            "pd_1": "jasion-ebike-rear-basket-2-pack",
+            "pd_2": "extra-one-year-warranty",
             "pd_3": "fenders-for-jasion-eb7",
-            "pd_4": ""
+            "pd_4": "copy-of-jasion®-bicycle-universal-mirrors",
+            "pd_5": "",
+            "pd_6": "",
+            "pd_7": "",
+            "pd_8": ""
           }
         },
         "ac0a8a83-72b2-4644-9f06-f3864406f533": {
@@ -182,6 +203,7 @@
         "696560a1-6557-401c-8d01-8a18614a77d8",
         "beead425-c9b4-42aa-b019-63c29006c41d",
         "countdown_nXwDB8",
+        "cycle_countdown_jQXg77",
         "payment_terms",
         "variant_picker",
         "92b6eeef-a142-4961-bdba-1cc3b110eb09",

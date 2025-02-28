@@ -111,8 +111,91 @@
           {%- endif -%}
         {%- endif -%}
 
-      {%- when 'countdown' -%}
+      {%- when 'cycle_countdown' -%}
+        <div {% render 'surface', class: 'countdown-wrapper tw-rounded-xl tw-max-w-[550px]', background_gradient: block.settings.background_gradient, background: block.settings.background, text_color: block.settings.text_color %}>
+          {% assign meta = block.settings.countdown_date %}
+          {% assign countdown_days = block.settings.countdown_days %}
+          {% assign countdown_hours = block.settings.countdown_hours %}
+          {% assign countdown_minutes = block.settings.countdown_minutes %}
+          {% assign countdown_seconds = block.settings.countdown_seconds %}
+          <div class="tw-py-2 tw-px-4 tw-flex md:tw-flex-row tw-flex-col tw-items-center tw-justify-between ">
+            <div class="md:tw-text-left tw-text-center md:tw-block tw-flex tw-gap-2">
+              <label id="countdownLbl" class="block-label text-subdued tw-text-lg tw-font-semibold tw-mb-0 tw-leading-tight">
+                {{ block.settings.countdown_lbl }}
+              </label> 
+              {% if block.settings.countdown_lbl_content != blank %}
+                <p class="tw-leading-tight tw-text-base">{{ block.settings.countdown_lbl_content }}</p> 
+              {% endif %}
+            </div>
+            <div id="countdown" class="prcountdown tw-flex tw-gap-4 tw-mx-0 tw-my-2  tw-text-black"></div>
+          </div>
+        
+          <script type="text/javascript">
+          {% assign meta = block.settings.countdown_date %}
+          {% assign countdown_days = block.settings.countdown_days %}
+          {% assign countdown_hours = block.settings.countdown_hours %}
+          {% assign countdown_minutes = block.settings.countdown_minutes %}
+          {% assign countdown_seconds = block.settings.countdown_seconds %}
+            // 获取初始日期
+            
+            var storeNow = new Date("{{ 'now' | date: '%Y-%m-%dT%H:%M:%S' }}").getTime(); // 初始店铺时间
+            var clientNow = new Date().getTime(); // 当前浏览器时间
 
+            console.log('storeNow',storeNow);
+            console.log('clientNow',clientNow);
+            
+            var timeOffset = storeNow - clientNow; // 计算店铺时间与浏览器时间的偏移
+            console.log('timeOffset',timeOffset);
+
+            var startDate = new Date("{{ block.settings.countdown_start_date }}").getTime();  // 初始时间
+
+
+
+            var cycleDuration = {{block.settings.duration}} * 24 * 60 * 60 * 1000; // 周期长度，单位为毫秒
+            
+            var x = setInterval(function() {
+              var now = new Date().getTime() + timeOffset;
+
+              // 计算从初始时间到当前时间的差值
+              var elapsedTime = now - startDate;
+              
+              // 计算当前周期剩余的时间
+              var remainingTime = cycleDuration - (elapsedTime % cycleDuration);  // 取余数确保倒计时保持周期性
+          
+              // 计算剩余的天数、小时、分钟和秒
+              var days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+              var hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+              var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+              var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+          
+              // 格式化为两位数
+              days = ("0" + days).slice(-2);
+              hours = ("0" + hours).slice(-2);
+              minutes = ("0" + minutes).slice(-2);
+              seconds = ("0" + seconds).slice(-2);
+          
+              // 更新页面中的倒计时显示
+              document.getElementById("countdown").innerHTML = 
+                "<span class='days tw-countdown-item'>" + days + 
+                "<span class='countdown-unit tw-block '>{{ countdown_days }}</span></span> " +
+                "<span class='hours tw-countdown-item'>" + hours + 
+                "<span class='countdown-unit'>{{ countdown_hours }}</span></span> " +
+                "<span class='minutes tw-countdown-item'>" + minutes + 
+                "<span class='countdown-unit'>{{ countdown_minutes }}</span></span> " +
+                "<span class='seconds tw-countdown-item'>" + seconds + 
+                "<span class='countdown-unit'>{{ countdown_seconds }}</span></span>";
+          
+              // 如果倒计时完成，重新开始下一个周期
+              if (remainingTime <= 0) {
+                // 设置新的开始时间为当前时间
+                startDate = new Date().getTime();
+              }
+            }, 1000);  // 每秒更新一次
+          </script>
+          
+        </div>
+     
+      {%- when 'countdown' -%}
       <div {% render 'surface', class: 'countdown-wrapper tw-rounded-xl tw-max-w-[550px]', background_gradient: block.settings.background_gradient, background: block.settings.background, text_color: block.settings.text_color %}>
           {% assign meta = block.settings.countdown_date %}
           {% assign countdown_days = block.settings.countdown_days %}
@@ -430,7 +513,7 @@
             {% if block.settings.title %}{{block.settings.title}}{% endif %}
           </p>
           <div class="tw-grid -md:tw-grid-cols-2 tw-gap-2 tw-m-0 {{block.settings.cols}} {% if block.settings.cols_mb == "1" %} -md:tw-grid-cols-1 {% else %} -md:tw-grid-cols-2 {% endif %}">
-            {% for i in (1..4) %}
+            {% for i in (1..8) %}
               {% assign product_key = 'pd_' | append: i %}
               {% if block.settings[product_key] != blank %}
               <div class="tw-col-span-1">

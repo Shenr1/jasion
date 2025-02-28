@@ -69,10 +69,27 @@
         },
         "countdown_wAJaVd": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "countdown_lbl": "Hurry！",
             "countdown_lbl_content": "Lowest Price Sale:",
             "countdown_date": "2025-02-20T23:59",
+            "countdown_days": "DAYS",
+            "countdown_hours": "HRS",
+            "countdown_minutes": "MIN",
+            "countdown_seconds": "SEC",
+            "background": "#ff9b2b",
+            "background_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "cycle_countdown_RNqjjX": {
+          "type": "cycle_countdown",
+          "settings": {
+            "countdown_lbl": "Hurry！",
+            "countdown_lbl_content": "Free Gifts Offer Ends In:",
+            "countdown_start_date": "2025-02-21T00:00:00",
+            "duration": 2,
             "countdown_days": "DAYS",
             "countdown_hours": "HRS",
             "countdown_minutes": "MIN",
@@ -114,15 +131,19 @@
         "010d487e-6f61-4e08-b5ed-3d26f7ea915d": {
           "type": "gifts",
           "settings": {
-            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $357.",
+            "title": "Now, as part of the promotion, we are offering free Fender Set and a Rear Rack, a total value of $515.",
             "free": "Free",
             "cols": "tw-grid-cols-2",
             "cols_mb": "2",
             "tag_color": "#e03b3b",
-            "pd_1": "extra-one-year-warranty",
-            "pd_2": "",
+            "pd_1": "jasion-ebike-rear-basket-2-pack",
+            "pd_2": "extra-one-year-warranty",
             "pd_3": "fenders-for-jasion-eb7",
-            "pd_4": "copy-of-jasion®-bicycle-universal-mirrors"
+            "pd_4": "copy-of-jasion®-bicycle-universal-mirrors",
+            "pd_5": "",
+            "pd_6": "",
+            "pd_7": "",
+            "pd_8": ""
           }
         },
         "bd56b862-0bde-40cb-bf3f-998d012a3882": {
@@ -172,7 +193,7 @@
           "type": "switch_tabs",
           "settings": {
             "img_1": "shopify:\/\/shop_images\/Spring_Sale.png",
-            "content_1": "Early Spring Sale<br>\n🔥E-bike Limited Offer – From $699!<br>\n🔥Extra 1-Year Warranty with Every E-bike Purchase<br>\n🔥Free Gifts With EB5 Roamer<br>\n🔥Exclusive Bundle Offer<br>\nAct fast—these offers end soon!",
+            "content_1": "Early Spring Sale<br>\n🔥E-bike Limited Offer – From $699!<br>\n🔥Free Rear Basket with Selected Combos<br>\n🔥Extra 1-Year Warranty with Every E-bike Purchase<br>\n🔥Free Gifts With EB5 Roamer<br>\nAct fast—these offers end soon!",
             "img_2": "shopify:\/\/shop_images\/2_c0b0681f-5c09-41e6-8339-dcd626cfa11a.png",
             "content_2": "All Jasion bikes are covered under our manufacturer's 1-year all-inclusive warranty for the original owner against all manufacturing defects (All free Accessories are not covered by warranty service).",
             "img_3": "shopify:\/\/shop_images\/3_6bc440a0-e2b7-40df-9d42-07fe9df35809.png",
@@ -197,6 +218,7 @@
         "696560a1-6557-401c-8d01-8a18614a77d8",
         "beead425-c9b4-42aa-b019-63c29006c41d",
         "countdown_wAJaVd",
+        "cycle_countdown_RNqjjX",
         "payment_terms",
         "variant_picker",
         "92b6eeef-a142-4961-bdba-1cc3b110eb09",

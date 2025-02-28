@@ -22,7 +22,7 @@
         "message_p4Gejb": {
           "type": "message",
           "settings": {
-            "text": "Free Pannier Bag With Every Purchase Of EB5 Roamer!",
+            "text": "Free Rear Basket with Selected Combos",
             "url": ""
           }
         },
@@ -122,9 +122,9 @@
             "menu_item": "Combo Sale",
             "layout": "horizontal_center",
             "submenu_style": "bold_heading",
-            "image_1": "shopify:\/\/shop_images\/Valentine_s-Day---M.png",
+            "image_1": "shopify:\/\/shop_images\/Spring---M.jpg",
             "image_heading_1": "",
-            "image_link_1": "shopify:\/\/collections\/combo-sale",
+            "image_link_1": "shopify:\/\/products\/jasion®-combo-sale-x-hunter-2",
             "image_text_color_1": "#ffffff",
             "image_heading_2": "",
             "image_link_2": "",

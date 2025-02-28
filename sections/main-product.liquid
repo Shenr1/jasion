@@ -454,6 +454,86 @@ quick buy information in a template, that will be extracted in JS, but ensure it
       ]
     },
     {
+      "type": "cycle_countdown",
+      "name": "Cycle countdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "countdown_lbl",
+          "label": "Countdown title",
+          "default": "Hurry up!"
+        },
+        {
+          "type": "text",
+          "id": "countdown_lbl_content",
+          "label": "Countdown content 11",
+          "default": "Sale Ends In"
+        },
+        {
+          "type": "text",
+          "id": "countdown_start_date",
+          "label": "Select start date for countdown",
+          "default": "2024-12-02T00:00:00",
+          "info": "2024-12-02T00:00:00"
+        },
+        {
+          "type": "range",
+          "id": "duration",
+          "min": 1,
+          "max": 30,
+          "step": 1,
+          "unit": "Day",
+          "label": "Duration days",
+          "default": 7
+        },
+        {
+          "type": "text",
+          "id": "countdown_days",
+          "label": "Countdown Days",
+          "default": "DAYS"
+        },
+        {
+          "type": "text",
+          "id": "countdown_hours",
+          "label": "Countdown Hours",
+          "default": "HRS"
+        },
+        {
+          "type": "text",
+          "id": "countdown_minutes",
+          "label": "Countdown Minutes",
+          "default": "MIN"
+        },
+        {
+          "type": "text",
+          "id": "countdown_seconds",
+          "label": "Countdown Seconds",
+          "default": "SEC"
+        },
+        {
+          "type": "header",
+          "content": "Colors",
+          "info": "Gradient replaces solid colors when set."
+        },
+        {
+          "type": "color",
+          "id": "background",
+          "label": "Background"
+        },
+        {
+          "type": "color_background",
+          "id": "background_gradient",
+          "label": "Background gradient",
+          "default":"linear-gradient(90deg, rgba(249, 86, 6, 1), rgba(255, 193, 5, 1) 100%)"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text"
+        }
+      ]
+    },
+    {
       "type": "line_item_property",
       "name": "Line item property",
       "settings": [
@@ -1231,6 +1311,26 @@ quick buy information in a template, that will be extracted in JS, but ensure it
           "type": "product",
           "id": "pd_4",
           "label": "Gifts 4"
+        },
+        {
+          "type": "product",
+          "id": "pd_5",
+          "label": "Gifts 5"
+        },
+        {
+          "type": "product",
+          "id": "pd_6",
+          "label": "Gifts 6"
+        },
+        {
+          "type": "product",
+          "id": "pd_7",
+          "label": "Gifts 7"
+        },
+        {
+          "type": "product",
+          "id": "pd_8",
+          "label": "Gifts 8"
         }
       ]
     },
